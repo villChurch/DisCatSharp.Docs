@@ -231,6 +231,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.BaseDiscordClient.ApiClient
   nameWithType: BaseDiscordClient.ApiClient
+- uid: DSharpPlusNextGen.BaseDiscordClient.BotLibrary
+  name: BotLibrary
+  href: api/DSharpPlusNextGen.BaseDiscordClient.html#DSharpPlusNextGen_BaseDiscordClient_BotLibrary
+  commentId: P:DSharpPlusNextGen.BaseDiscordClient.BotLibrary
+  fullName: DSharpPlusNextGen.BaseDiscordClient.BotLibrary
+  nameWithType: BaseDiscordClient.BotLibrary
+- uid: DSharpPlusNextGen.BaseDiscordClient.BotLibrary*
+  name: BotLibrary
+  href: api/DSharpPlusNextGen.BaseDiscordClient.html#DSharpPlusNextGen_BaseDiscordClient_BotLibrary_
+  commentId: Overload:DSharpPlusNextGen.BaseDiscordClient.BotLibrary
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.BaseDiscordClient.BotLibrary
+  nameWithType: BaseDiscordClient.BotLibrary
 - uid: DSharpPlusNextGen.BaseDiscordClient.Configuration
   name: Configuration
   href: api/DSharpPlusNextGen.BaseDiscordClient.html#DSharpPlusNextGen_BaseDiscordClient_Configuration
@@ -9714,6 +9727,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordApplication.GetHashCode
   nameWithType: DiscordApplication.GetHashCode
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.GuildId
+  name: GuildId
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_GuildId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordApplication.GuildId
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.GuildId
+  nameWithType: DiscordApplication.GuildId
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.GuildId*
+  name: GuildId
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_GuildId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordApplication.GuildId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.GuildId
+  nameWithType: DiscordApplication.GuildId
 - uid: DSharpPlusNextGen.Entities.DiscordApplication.Icon
   name: Icon
   href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_Icon
@@ -9792,6 +9818,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordApplication.Owners
   nameWithType: DiscordApplication.Owners
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId
+  name: PrimarySkuId
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_PrimarySkuId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId
+  nameWithType: DiscordApplication.PrimarySkuId
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId*
+  name: PrimarySkuId
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_PrimarySkuId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.PrimarySkuId
+  nameWithType: DiscordApplication.PrimarySkuId
 - uid: DSharpPlusNextGen.Entities.DiscordApplication.PrivacyPolicyUrl
   name: PrivacyPolicyUrl
   href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_PrivacyPolicyUrl
@@ -9831,6 +9870,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordApplication.RpcOrigins
   nameWithType: DiscordApplication.RpcOrigins
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.Slug
+  name: Slug
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_Slug
+  commentId: P:DSharpPlusNextGen.Entities.DiscordApplication.Slug
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.Slug
+  nameWithType: DiscordApplication.Slug
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.Slug*
+  name: Slug
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_Slug_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordApplication.Slug
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.Slug
+  nameWithType: DiscordApplication.Slug
 - uid: DSharpPlusNextGen.Entities.DiscordApplication.Summary
   name: Summary
   href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_Summary
@@ -9883,6 +9935,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordApplication.TermsOfServiceUrl
   nameWithType: DiscordApplication.TermsOfServiceUrl
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey
+  name: VerifyKey
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_VerifyKey
+  commentId: P:DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey
+  nameWithType: DiscordApplication.VerifyKey
+- uid: DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey*
+  name: VerifyKey
+  href: api/DSharpPlusNextGen.Entities.DiscordApplication.html#DSharpPlusNextGen_Entities_DiscordApplication_VerifyKey_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordApplication.VerifyKey
+  nameWithType: DiscordApplication.VerifyKey
 - uid: DSharpPlusNextGen.Entities.DiscordApplicationAsset
   name: DiscordApplicationAsset
   href: api/DSharpPlusNextGen.Entities.DiscordApplicationAsset.html
