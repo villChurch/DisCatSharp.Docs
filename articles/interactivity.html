@@ -1,0 +1,202 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Interactivity Introduction </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Interactivity Introduction ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="interactivity">
+<h1 id="introduction-to-interactivity">Introduction to Interactivity</h1>
+
+<p>Interactivity will enable you to write commands which the user can interact with through reactions and messages.
+The goal of this article is to introduce you to the general flow of this extension.</p>
+<p>Make sure to install the <code>DSharpPlus.Interactivity</code> package from NuGet before continuing.</p>
+<p><img src="/images/interactivity_01.png" alt="Interactivity NuGet"></p>
+<h2 id="enabling-interactivity">Enabling Interactivity</h2>
+<p>Interactivity can be registered using the <code>DiscordClient#UseInteractivity()</code> extension method.<br>
+Optionally, you can also provide an instance of <code>InteractivityConfiguration</code> to modify default behaviors.</p>
+<pre><code class="lang-cs">var discord = new DiscordClient();
+
+discord.UseInteractivity(new InteractivityConfiguration() 
+{ 
+    PollBehaviour = PollBehaviour.KeepEmojis,
+    Timeout = TimeSpan.FromSeconds(30)
+});
+</code></pre><h2 id="using-interactivity">Using Interactivity</h2>
+<p>There are two ways available to use interactivity: </p>
+<ul>
+<li>Extension methods available for <code>DiscordChannel</code> and <code>DiscordMessage</code>.</li>
+<li><a href="xref:DSharpPlus.Interactivity.InteractivityExtension#methods">Instance methods</a> available from <code>InteractivityExtension</code>.</li>
+</ul>
+<p>We&#39;ll have a quick look at a few common interactivity methods along with an example of use for each.</p>
+<p><br>
+The first (and arguably most useful) extension method is <code>SendPaginatedMessageAsync</code> for <code>DiscordChannel</code>.</p>
+<p>This method displays a collection of <em>&#39;pages&#39;</em> which are selected one-at-a-time by the user through reaction buttons.
+Each button click will move the page view in one direction or the other until the timeout is reached.</p>
+<p>You&#39;ll need to create a collection of pages before you can invoke this method. 
+This can be done easily using the <code>GeneratePagesInEmbed</code> and <code>GeneratePagesInContent</code> instance methods from <code>InteractivityExtension</code>.<br>
+Alternatively, for pre-generated content, you can create and add individual instances of <code>Page</code> to a collection.</p>
+<p>This example will use the <code>GeneratePagesInEmbed</code> method to generate the pages.</p>
+<pre><code class="lang-cs">public async Task PaginationCommand(CommandContext ctx)
+{
+    var reallyLongString = &quot;Lorem ipsum dolor sit amet, consectetur adipiscing ...&quot;
+
+    var interactivity = ctx.Client.GetInteractivity();
+    var pages = interactivity.GeneratePagesInEmbed(reallyLongString);
+
+    await ctx.Channel.SendPaginatedMessageAsync(ctx.Member, pages);
+}
+</code></pre><p><img src="/images/interactivity_02.png" alt="Pagination Pages"></p>
+<p><br>
+Next we&#39;ll look at the <code>WaitForReactionAsync</code> extension method for <code>DiscordMessage</code>.<br>
+This method waits for a reaction from a specific user and returns the emoji that was used.</p>
+<p>An overload of this method also enables you to wait for a <em>specific</em> reaction, as shown in the example below.</p>
+<pre><code class="lang-cs">public async Task ReactionCommand(CommandContext ctx, DiscordMember member)
+{
+    var emoji = DiscordEmoji.FromName(ctx.Client, &quot;:ok_hand:&quot;);
+    var message = await ctx.RespondAsync($&quot;{member.Mention}, react with {emoji}.&quot;);
+
+    var result = await message.WaitForReactionAsync(member, emoji);
+
+    if (!result.TimedOut) await ctx.RespondAsync(&quot;Thank you!&quot;);
+}
+</code></pre><p><img src="/images/interactivity_03.png" alt="Thank You!"></p>
+<p><br>
+Another reaction extension method for <code>DiscordMessage</code> is <code>CollectReactionsAsync</code>.<br>
+As the name implies, this method collects all reactions on a message until the timeout is reached.</p>
+<pre><code class="lang-cs">public async Task CollectionCommand(CommandContext ctx)
+{
+    var message = await ctx.RespondAsync(&quot;React here!&quot;);
+    var reactions = await message.CollectReactionsAsync();
+
+    var strBuilder = new StringBuilder();
+    foreach (var reaction in reactions)
+    {
+        strBuilder.AppendLine($&quot;{reaction.Emoji}: {reaction.Total}&quot;);
+    }
+
+    await ctx.RespondAsync(strBuilder.ToString());
+}
+</code></pre><p><img src="/images/interactivity_04.png" alt="Reaction Count"></p>
+<p><br>
+The final one we&#39;ll take a look at is the <code>GetNextMessageAsync</code> extension method for <code>DiscordMessage</code>.<br></p>
+<p>This method will return the next message sent from the author of the original message.<br>
+Our example here will use its alternate overload which accepts an additional predicate.</p>
+<pre><code class="lang-cs">public async Task ActionCommand(CommandContext ctx)
+{
+    await ctx.RespondAsync(&quot;Respond with *confirm* to continue.&quot;);
+    var result = await ctx.Message.GetNextMessageAsync(m =&gt;
+    {
+        return m.Content.ToLower() == &quot;confirm&quot;;
+    });
+
+    if (!result.TimedOut) await ctx.RespondAsync(&quot;Action confirmed.&quot;);
+}
+</code></pre><p><img src="/images/interactivity_05.png" alt="Confirmed"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/interactivity.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

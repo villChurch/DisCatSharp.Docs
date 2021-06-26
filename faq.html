@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Frequently Asked Questions </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Frequently Asked Questions ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="favicon.ico">
+    <link rel="stylesheet" href="styles/docfx.vendor.css">
+    <link rel="stylesheet" href="styles/docfx.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <meta property="docfx:navrel" content="toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="index.html">
+                <img id="logo" class="svg" src="logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        <div class="article row grid">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="faq">
+<h1 id="frequently-asked-questions">Frequently Asked Questions</h1>
+
+<h3 id="ive-updated-from-an-old-version-to-the-latest-version-and-my-project-wont-build">I&#39;ve updated from an old version to the latest version and my project won&#39;t build!</h3>
+<p>Please read the latest <a class="xref" href="articles/migration/3x_to_4x.html">migration article</a> to see a list of changes, as major version releases will usually have several breaking changes.</p>
+<h3 id="code-i-copied-from-an-article-isnt-compiling-or-working-as-expected-why">Code I copied from an article isn&#39;t compiling or working as expected. Why?</h3>
+<p><em>Please use the code snippets as a reference; don&#39;t blindly copy-paste code!</em></p>
+<p>The snippets of code in the articles are meant to serve as examples to help you understand how to use a part of the library.<br>
+Although most will compile and work at the time of writing, changes to the library over time can make some snippets obsolete.<br>
+Many issues can be resolved with Intellisense by searching for similarly named methods and verifying method parameters.</p>
+<h3 id="im-targeting-mono-and-have-exceptions-crashes-or-other-problems">I&#39;m targeting Mono and have exceptions, crashes, or other problems.</h3>
+<p>As mentioned in the <a class="xref" href="articles/preamble.html">preamble</a>, the Mono runtime is inherently unstable and has numerous flaws.<br>
+Because of this we do not support Mono in any way, nor will we support any other projects which use it.</p>
+<p>Instead, we recommend using either the latest LTS release or most recent stable version of <a href="https://dotnet.microsoft.com/download">.NET Core</a>. </p>
+<h3 id="connecting-to-a-voice-channel-with-voicenext-will-either-hang-or-throw-an-exception">Connecting to a voice channel with VoiceNext will either hang or throw an exception.</h3>
+<p>To troubleshoot, please ensure that:</p>
+<ul>
+<li>You are using the latest version of DSharpPlus.</li>
+<li>You have properly enabled VoiceNext with your instance of @DSharpPlus.DiscordClient.</li>
+<li>You are <em>not</em> using VoiceNext in an event handler.</li>
+<li>You have <a class="xref" href="articles/audio/voicenext/prerequisites.html">opus and libsodium</a> available in your target environment.</li>
+</ul>
+<h3 id="why-am-i-getting-heartbeat-skipped-message-in-my-console">Why am I getting <em>heartbeat skipped</em> message in my console?</h3>
+<p>There are two possible reasons:</p>
+<h4 id="connection-issue-between-your-bot-application-and-discord">Connection issue between your bot application and Discord.</h4>
+<p>Check your internet connection and ensure that the machine your bot is hosted on has a stable internet connection.<br>
+If your local network has no issues, the problem could be with either Discord or Cloudfare. In which case, it&#39;s out of your control.</p>
+<h4 id="complex-long-running-code-in-an-event-handler">Complex, long-running code in an event handler.</h4>
+<p>Any event handlers that have the potential to run for more than a few seconds could cause a deadlock, and cause several heartbeats to be skipped.
+Please take a look at our short article on <a class="xref" href="articles/beyond_basics/events.html">handling DSharpPlus exceptions</a> to learn how to avoid this.</p>
+<h3 id="why-am-i-getting-a-4xx-error-and-how-can-i-fix-it">Why am I getting a 4XX error and how can I fix it?</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">HTTP Error Code</th>
+<th style="text-align:left">Cause</th>
+<th style="text-align:left">Resolution</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><code>401</code></td>
+<td style="text-align:left">Invalid token.</td>
+<td style="text-align:left">Verify your token and make sure no errors were made.<br>The client secret found on the &#39;general information&#39; tab of your application page <em>is not</em> your token.</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>403</code></td>
+<td style="text-align:left">Not enough permissions.</td>
+<td style="text-align:left">Verify permissions and ensure your bot account has a role higher than the target user.<br>Administrator permissions <em>do not</em> bypass the role hierarchy.</td>
+</tr>
+<tr>
+<td style="text-align:center"><code>404</code></td>
+<td style="text-align:left">Requested object not found.</td>
+<td style="text-align:left">This usually means the entity does not exist. You should reattempt then inform your user.</td>
+</tr>
+</tbody>
+</table>
+<h3 id="i-cannot-modify-a-specific-user-or-role-why-is-this">I cannot modify a specific user or role. Why is this?</h3>
+<p>In order to modify a user, the highest role of your bot account must be higher than the target user.<br>
+Changing the properties of a role requires that your bot account have a role higher than that role.</p>
+<h3 id="does-commandsnext-support-dependency-injection">Does CommandsNext support dependency injection?</h3>
+<p>It does! Please take a look at our <a class="xref" href="articles/commands/dependency_injection.html">article</a> on the subject.</p>
+<h3 id="can-i-use-a-user-token">Can I use a user token?</h3>
+<p>Automating a user account is against Discord&#39;s Terms of Service and is not supported by DSharpPlus.</p>
+<h3 id="how-can-i-set-a-custom-status">How can I set a custom status?</h3>
+<p>If you mean a <em>true</em> custom status like this:</p>
+<p><img src="/images/faq_01.png" alt="help"></p>
+<p>No, you cannot. Discord does not allow bots to use custom statuses.</p>
+<p><br>
+However, if you meant an activity like this:</p>
+<p><img src="/images/faq_02.png" alt="Bot Presence"></p>
+<p>You can use either of the following</p>
+<ul>
+<li>The overload for @DSharpPlus.DiscordClient.ConnectAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset}) which accepts a @DSharpPlus.Entities.DiscordActivity.</li>
+<li>@DSharpPlus.DiscordClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset}) OR @DSharpPlus.DiscordShardedClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset}) (for the sharded client) at any point after <code>Ready</code> has been fired.</li>
+</ul>
+<h3 id="am-i-able-to-retrieve-a-dsharpplusentitiesdiscordrole-by-name">Am I able to retrieve a @DSharpPlus.Entities.DiscordRole by name?</h3>
+<p>Yes. Use LINQ on the <code>Roles</code> property of your instance of @DSharpPlus.Entities.DiscordGuild and compare against the <code>Name</code> of  each @DSharpPlus.Entities.DiscordRole.</p>
+<h3 id="why-are-you-using-newtonsoftjson-when-systemtextjson-is-available">Why are you using Newtonsoft.Json when System.Text.Json is available</h3>
+<p>Yes <code>System.Text.Json</code> is available to use but it still doesnt stand up to what we currently need which is why we still use Newtonsoft.Json.
+Maybe in time we can switch to your favorite Json Deserializer but for right now we will be using Newtonsoft.Json for the forseeable future.  </p>
+<h3 id="why-the-hell-are-my-events-not-firing">Why the hell are my events not firing?</h3>
+<p>This is because in the Discord V8 API, they require @DSharpPlus.DiscordIntents to be enabled on @DSharpPlus.DiscordConfiguration and the 
+Discord Application Portal. We have an <a class="xref" href="articles/beyond_basics/intents.html">article</a> that covers all that has to be done to set this up.</p>
+<h3 id="where-are-my-pictures-of-spiderman">Where are my pictures of spiderman?</h3>
+<p><img src="/images/faq_03.png" alt="GOD DAMN IT PETER"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/faq.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="styles/docfx.js"></script>
+    <script type="text/javascript" src="styles/main.js"></script>
+  </body>
+</html>

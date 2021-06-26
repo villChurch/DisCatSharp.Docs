@@ -1,0 +1,168 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Article Preamble </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Article Preamble ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="preamble">
+<h2 id="knowledge-prerequisites">Knowledge Prerequisites</h2>
+
+<p>Before attempting to write a Discord bot, you should be familiar with the concepts of <a href="https://en.wikipedia.org/wiki/Object-oriented_programming">Object Oriented Programing</a>, <a href="https://docs.microsoft.com/en-us/dotnet/csharp/programming-guide/">the C# programming language</a>, and <a href="https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/task-based-asynchronous-pattern-tap">Task-based Asynchronous Pattern</a>.</p>
+<p>If you&#39;re brand new to C#, or programming in general, this library may prove difficult for you to use.<br>
+Fortunately, there are resources that can help you get started with the language! </p>
+<p>An excellent tutorial series to go through would be <a href="https://channel9.msdn.com/Series/CSharp-Fundamentals-for-Absolute-Beginners">C# Fundamentals for Absolute Beginners</a> by Bob Tabor.
+His videos go through all the basics, from setting up your development environment up to some of the more advanced concepts. 
+If you&#39;re not sure what to do first, Bob&#39;s tutorial series should be your starting point!</p>
+<h2 id="supported-net-implementations">Supported .NET Implementations</h2>
+<p>Because DSharpPlus targets .NET Standard 2.0, there are many implementations that may function with DSharpPlus.
+However, there are only a few versions we will <em>explicitly</em> provide support for.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Implementation</th>
+<th style="text-align:center">Support</th>
+<th style="text-align:left">Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"><a href="https://en.wikipedia.org/wiki/.NET_Core">.NET Core</a></td>
+<td style="text-align:center">✔️</td>
+<td style="text-align:left">LTS versions 2.1 and 3.1 are supported.</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://en.wikipedia.org/wiki/.NET_Framework">.NET Framework</a></td>
+<td style="text-align:center">⚠️</td>
+<td style="text-align:left">Versions 4.6.1 through 4.8 <em>should</em> work fine.<br>However, we do not directly support .NET Framework.<br>We recommend that you use the latest LTS version of .NET Core.</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Mono_(software)">Mono</a></td>
+<td style="text-align:center">❌️</td>
+<td style="text-align:left">Has numerous flaws which can break things without warning.<br>If you need a cross platform runtime, use .NET Core.</td>
+</tr>
+<tr>
+<td style="text-align:center"><a href="https://en.wikipedia.org/wiki/Unity_(game_engine)">Unity</a></td>
+<td style="text-align:center">❌️</td>
+<td style="text-align:left">Game engines with C# support will never be supported by DSharpPlus. You should consider using the official <a href="https://discord.com/developers/docs/game-sdk/sdk-starter-guide">Discord GameSDK</a> instead.</td>
+</tr>
+</tbody>
+</table>
+<p>If you use an unsupported implementation and encounter issues, you&#39;ll be on your own.</p>
+<h2 id="getting-started">Getting Started</h2>
+<p>If you&#39;re writing a Discord bot for the first time, you&#39;ll want to start with <em><a class="xref" href="basics/bot_account.html">creating a bot account</a></em>.<br>
+Otherwise, if you have a bot account already, start off with the <em><a class="xref" href="basics/first_bot.html">writing your first bot</a></em> article.</br></p>
+<p>Once you&#39;re up and running, feel free to browse through the <a href="/api/index.html">API Documentation</a>!</p>
+<h2 id="support-and-questions">Support and Questions</h2>
+<p>You can get in contact with us on Discord through one of the following guilds:</p>
+<p><strong>DSharpPlus Guild</strong>:<br>
+<a href="https://discord.gg/dsharpplus"><img src="https://discordapp.com/api/guilds/379378609942560770/embed.png?style=banner2" alt="DSharpPlus Guild"></a></p>
+<p><strong>#dotnet_dsharpplus</strong> on <strong>Discord API</strong>:<br>
+<a href="https://discord.gg/discord-api"><img src="https://discordapp.com/api/guilds/81384788765712384/embed.png?style=banner2" alt="Discord API / #dotnet_dsharpplus"></a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/preamble.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

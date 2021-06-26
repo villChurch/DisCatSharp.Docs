@@ -1,0 +1,169 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Creating a Bot Account </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Creating a Bot Account ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="basics_bot_account">
+<h1 id="creating-a-bot-account">Creating a Bot Account</h1>
+
+<h2 id="create-an-application">Create an Application</h2>
+<p>Before you&#39;re able to create a <a href="https://discord.com/developers/docs/topics/oauth2#bots">bot account</a> to interact with the Discord API, you&#39;ll need to create a new OAuth2 application.
+Go to the <a href="https://discord.com/developers/applications">Discord Developer Portal</a> and click <code>New Application</code> at the top right of the page.</p>
+<p><img src="/images/basics_bot_account_01.png" alt="Discord Developer Portal"></p>
+<p><br>
+You&#39;ll then be prompted to enter a name for your application.<br></p>
+<p><img src="/images/basics_bot_account_02.png" alt="Naming Application" title="Naming Application"></p>
+<p>The name of your application will be the name displayed to users when they add your bot to their Discord server.<br>
+With that in mind, it would be a good idea for your application name to match the desired name of your bot.</p>
+<p>Enter your desired application name into the text box, then hit the <code>Create</code> button.</p>
+<p>After you hit <code>Create</code>, you&#39;ll be taken to the application page for your newly created application.</p>
+<p><img src="/images/basics_bot_account_03.png" alt="Application Page"></p>
+<p>That was easy, wasn&#39;t it?</p>
+<p>Before you move on, you may want to upload an icon for your application and provide a short description of what your bot will do.
+As with the name of your application, the application icon and description will be displayed to users when adding your bot.</p>
+<h2 id="add-a-bot-account">Add a Bot Account</h2>
+<p>Now that you have an application created, you&#39;ll be able to add a brand new bot account to it.</p>
+<p>Head on over to the bot page of your application by clicking on <code>Bot</code> in the left panel.<br>
+From there, click on the <code>Add Bot</code> button at the top right of the page.</p>
+<p><img src="/images/basics_bot_account_04.png" alt="Bot Page"></p>
+<p>Then confirm the creation of the bot account.</p>
+<p><img src="/images/basics_bot_account_05.png" alt="Creation Confirmation"></p>
+<h1 id="using-your-bot-account">Using Your Bot Account</h1>
+<h2 id="invite-your-bot">Invite Your Bot</h2>
+<p>Now that you have a bot account, you&#39;ll probably want to invite it to a server!</p>
+<p>A bot account joins a server through a special invite link that&#39;ll take users through the OAuth2 flow;
+you&#39;ll probably be familiar with this if you&#39;ve ever added a public Discord bot to a server.
+To get the invite link for your bot, head on over to the OAuth2 page of your application.</p>
+<p><img src="/images/basics_bot_account_06.png" alt="OAuth2"></p>
+<p><br>
+We&#39;ll be using the <em>OAuth2 URL Generator</em> on this page.<br>
+Simply tick <code>bot</code> under the <em>scopes</em> panel; your bot invite link will be generated directly below.</p>
+<p><img src="/images/basics_bot_account_07.png" alt="OAuth2 Scopes"></p>
+<p><br>
+By default, the generated link will not grant any permissions to your bot when it joins a new server.<br>
+If your bot requires specific permissions to function, you&#39;d select them in the <em>bot permissions</em> panel.</p>
+<p><img src="/images/basics_bot_account_08.png" alt="Permissions" title="Permissions Panel"></p>
+<p>The invite link in the <em>scopes</em> panel will update each time you change the permissions.<br>
+Be sure to copy it again after any changes!</p>
+<h2 id="get-bot-token">Get Bot Token</h2>
+<p>Instead of logging in to Discord with a username and password, bot accounts use a long string called a <em>token</em> to authenticate.
+You&#39;ll want to retrieve the token for your bot account so you can use it with DSharpPlus.</p>
+<p>Head back to the bot page and click on <code>Click to Reveal Token</code> just above the <code>Copy</code> and <code>Regenerate</code> buttons to take a peek at your token.</p>
+<p><img src="/images/basics_bot_account_09.png" alt="Token Reveal" title="Token Reveal"></p>
+<p>Go ahead and copy your bot token and save it somewhere. You&#39;ll be using it soon!</p>
+<div class="IMPORTANT"><h5>Important</h5><p>Handle your bot token with care! Anyone who has your token will have access to your bot account.
+Be sure to store it in a secure location and <em>never</em> give it to <em>anybody</em>.</p>
+<p>If you ever believe your token has been compromised, be sure to hit the <code>Regenerate</code> button (as seen above) to invalidate your old token and get a brand new token.</p>
+</div>
+<h2 id="write-some-code">Write Some Code</h2>
+<p>You&#39;ve got a bot account set up and a token ready for use.<br>
+Sounds like it&#39;s time for you to <a class="xref" href="first_bot.html">write your first bot</a>! </p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/basics/bot_account.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

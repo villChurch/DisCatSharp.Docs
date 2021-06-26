@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Custom Command Handler </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Custom Command Handler ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="commands_command_handler">
+<h2 id="custom-command-handler">Custom Command Handler</h2>
+
+<div class="IMPORTANT"><h5>Important</h5><p>Writing your own handler logic should only be done if <em>you know what you&#39;re doing</em>.<br>
+You will be responsible for command execution and preventing deadlocks.</p>
+</div>
+<h3 id="disable-default-handler">Disable Default Handler</h3>
+<p>To begin, we&#39;ll need to disable the default command handler provided by CommandsNext.<br>
+This is done by setting the <code>UseDefaultCommandHandler</code> configuration property to <code>false</code>.</p>
+<pre><code class="lang-cs">var discord = new DiscordClient();
+var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
+{
+    UseDefaultCommandHandler = false
+});
+</code></pre><h3 id="create-event-handler">Create Event Handler</h3>
+<p>We&#39;ll then write a new handler for the <code>MessageCreated</code> event fired from <code>DiscordClient</code>.</p>
+<pre><code class="lang-cs">discord.MessageCreated += CommandHandler;
+
+// ...
+
+private Task CommandHandler(DiscordClient client, MessageCreateEventArgs e)
+{
+    // See below ...
+}
+</code></pre><p>This event handler will be our command handler, and you&#39;ll need to write the logic for it.</p>
+<h3 id="handle-commands">Handle Commands</h3>
+<p>Start by parsing the message content for a prefix and command string</p>
+<pre><code class="lang-cs">var cnext = client.GetCommandsNext();
+var msg = e.Message;
+
+// Check if message has valid prefix.
+var cmdStart = msg.GetStringPrefixLength(&quot;!&quot;);
+if (cmdStart == -1) return;
+
+// Retrieve prefix.
+var prefix = msg.Content.Substring(0, cmdStart);
+
+// Retrieve full command string.
+var cmdString = msg.Content.Substring(cmdStart);
+</code></pre><p>Then provide the command string to <code>CommandsNextExtension#FindCommand</code></p>
+<pre><code class="lang-cs">var command = cnext.FindCommand(cmdString, out var args);
+</code></pre><p>Create a command context using our message and prefix, along with the command and its arguments</p>
+<pre><code class="lang-cs">var ctx = cnext.CreateContext(msg, prefix, command, args);
+</code></pre><p>And pass the context to <code>CommandsNextExtension#ExecuteCommandAsync</code> to execute the command.</p>
+<pre><code class="lang-cs">_ = Task.Run(async () =&gt; await cnext.ExecuteCommandAsync(ctx));
+// Wrapped in Task.Run() to prevent deadlocks.
+</code></pre><h3 id="finished-product">Finished Product</h3>
+<p>Altogether, your implementation should function similarly to the following:</p>
+<pre><code class="lang-cs">private Task CommandHandler(DiscordClient client, MessageCreateEventArgs e)
+{
+    var cnext = client.GetCommandsNext();
+    var msg = e.Message;
+
+    var cmdStart = msg.GetStringPrefixLength(&quot;!&quot;);
+    if (cmdStart == -1) return Task.CompletedTask;
+
+    var prefix = msg.Content.Substring(0, cmdStart);
+    var cmdString = msg.Content.Substring(cmdStart);
+
+    var command = cnext.FindCommand(cmdString, out var args);
+    if (command == null) return Task.CompletedTask;
+
+    var ctx = cnext.CreateContext(msg, prefix, command, args);
+    Task.Run(async () =&gt; await cnext.ExecuteCommandAsync(ctx));
+
+    return Task.CompletedTask;
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/commands/command_handler.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

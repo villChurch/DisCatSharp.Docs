@@ -1,0 +1,379 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lavalink Music Commands </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Lavalink Music Commands ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="audio_lavalink_music_commands">
+<h1 id="adding-music-commands">Adding Music Commands</h1>
+
+<p>This article assumes that you know how to use CommandsNext. If you do not, you should learn <a class="xref" href="../../commands/intro.html">here</a> before continuing with this guide.</p>
+<h2 id="prerequisites">Prerequisites</h2>
+<p>Before we start we will need to make sure CommandsNext is configured. For this we can make a simple configuration and command class: </p>
+<pre><code class="lang-csharp">using DSharpPlus.CommandsNext;
+
+namespace MyFirstMusicBot
+{
+    public class MyLavalinkCommands : BaseCommandModule
+    {
+
+    }
+}
+</code></pre><p>And be sure to register it in your program file: </p>
+<pre><code class="lang-csharp">CommandsNext = Discord.UseCommandsNext(new CommandsNextConfiguration
+{
+    StringPrefixes = new string[] { &quot;;;&quot; }
+});
+
+CommandsNext.RegisterCommands&lt;MyLavalinkCommands&gt;();
+</code></pre><h2 id="adding-join-and-leave-commands">Adding join and leave commands</h2>
+<p>Your bot, and Lavalink, will need to connect to a voice channel to play music. Let&#39;s create the base for these commands: </p>
+<pre><code class="lang-csharp">[Command]
+public async Task Join(CommandContext ctx, DiscordChannel channel)
+{
+
+}
+
+[Command]
+public async Task Leave(CommandContext ctx, DiscordChannel channel)
+{
+
+}
+</code></pre><p>In order to connect to a voice channel, we&#39;ll need to do a few things. </p>
+<ol>
+<li>Get our node connection. You can either use linq or <code>GetIdealNodeConnection()</code></li>
+<li>Check if the channel is a voice channel, and tell the user if not.</li>
+<li>Connect the node to the channel. </li>
+</ol>
+<p>And for the leave command: </p>
+<ol>
+<li>Get the node connection, using the same process.</li>
+<li>Check if the channel is a voice channel, and tell the user if not.</li>
+<li>Get our existing connection. </li>
+<li>Check if the connection exists, and tell the user if not.</li>
+<li>Disconnect from the channel.</li>
+</ol>
+<p><code>GetIdealNodeConnection()</code> will return the least affected node through load balancing, which is useful for larger bots. It can also filter nodes based on an optional voice region to use the closest nodes available. Since we only have one connection we can use linq&#39;s <code>.First()</code> method on the extensions connected nodes to get what we need.</p>
+<p>So far, your command class should look something like this: </p>
+<pre><code class="lang-csharp">using System.Threading.Tasks;
+using DSharpPlus;
+using DSharpPlus.Entities;
+using DSharpPlus.CommandsNext;
+using DSharpPlus.CommandsNext.Attributes;
+
+namespace MyFirstMusicBot
+{
+    public class MyLavalinkCommands : BaseCommandModule
+    {
+        [Command]
+        public async Task Join(CommandContext ctx, DiscordChannel channel)
+        {
+            var lava = ctx.Client.GetLavalink();
+            if (!lava.ConnectedNodes.Any())
+            {
+                await ctx.RespondAsync(&quot;The Lavalink connection is not established&quot;);
+                return;
+            }
+
+            var node = lava.ConnectedNodes.Values.First();
+
+            if (channel.Type != ChannelType.Voice)
+            {
+                await ctx.RespondAsync(&quot;Not a valid voice channel.&quot;);
+                return;
+            }
+
+            await node.ConnectAsync(channel);
+            await ctx.RespondAsync($&quot;Joined {channel.Name}!&quot;);
+        }
+
+        [Command]
+        public async Task Leave(CommandContext ctx, DiscordChannel channel)
+        {
+            var lava = ctx.Client.GetLavalink();
+            if (!lava.ConnectedNodes.Any())
+            {
+                await ctx.RespondAsync(&quot;The Lavalink connection is not established&quot;);
+                return;
+            }
+
+            var node = lava.ConnectedNodes.Values.First();
+
+            if (channel.Type != ChannelType.Voice)
+            {
+                await ctx.RespondAsync(&quot;Not a valid voice channel.&quot;);
+                return;
+            }
+
+            var conn = node.GetGuildConnection(channel.Guild);
+
+            if (conn == null)
+            {
+                await ctx.RespondAsync(&quot;Lavalink is not connected.&quot;);
+                return;
+            }
+
+            await conn.DisconnectAsync();
+            await ctx.RespondAsync($&quot;Left {channel.Name}!&quot;);
+        }
+    }
+}
+</code></pre><h2 id="adding-player-commands">Adding player commands</h2>
+<p>Now that we can join a voice channel, we can make our bot play music! Let&#39;s now create the base for a play command:</p>
+<pre><code class="lang-csharp">[Command]
+public async Task Play(CommandContext ctx, [RemainingText] string search)
+{
+
+}
+</code></pre><p>One of Lavalink&#39;s best features is its ability to search for tracks from a variety of media sources, such as YouTube, SoundCloud, Twitch, and more. This is what makes bots like Rythm, Fredboat, and Groovy popular. The search is used in a REST request to get the track data, which is then sent through the WebSocket connection to play the track in the voice channel. That is what we will be doing in this command.</p>
+<p>Lavalink can also play tracks directly from a media url, in which case the play command can look like this: </p>
+<pre><code class="lang-csharp">[Command]
+public async Task Play(CommandContext ctx, Uri url)
+{
+
+}
+</code></pre><p>Like before, we will need to get our node and guild connection and have the appropriate checks. Since it wouldn&#39;t make sense to have the channel as a parameter, we will instead get it from the member&#39;s voice state: </p>
+<pre><code class="lang-csharp">//Important to check the voice state itself first, 
+//as it may throw a NullReferenceException if they don&#39;t have a voice state.
+if (ctx.Member.VoiceState == null || ctx.Member.VoiceState.Channel == null)  
+{
+    await ctx.RespondAsync(&quot;You are not in a voice channel.&quot;);
+    return;
+}
+
+var lava = ctx.Client.GetLavalink();
+var node = lava.ConnectedNodes.Values.First();
+var conn = node.GetGuildConnection(ctx.Member.VoiceState.Guild);
+
+if (conn == null)
+{
+    await ctx.RespondAsync(&quot;Lavalink is not connected.&quot;);
+    return;
+}
+</code></pre><p>Next, we will get the track details by calling <code>node.Rest.GetTracksAsync()</code>. There are a variety of overloads for this:</p>
+<ol>
+<li><code>GetTracksAsync(LavalinkSearchType.Youtube, search)</code> will search YouTube for your search string. </li>
+<li><code>GetTracksAsync(LavalinkSearchType.SoundCloud, search)</code> will search SoundCloud for your search string. </li>
+<li><code>GetTracksAsync(Uri)</code> will use the direct url to obtain the track. This is mainly used for the other media sources. </li>
+</ol>
+<p>For this guide we will be searching YouTube. Let&#39;s pass in our search string and store the result in a variable: </p>
+<pre><code class="lang-csharp">//We don&#39;t need to specify the search type here
+//since it is YouTube by default.
+var loadResult = await node.Rest.GetTracksAsync(search);
+</code></pre><p>The load result will contain an enum called <code>LoadResultType</code>, which will inform us if Lavalink was able to retrieve the track data. We can use this as a check: </p>
+<pre><code class="lang-csharp">//If something went wrong on Lavalink&#39;s end                          
+if (loadResult.LoadResultType == LavalinkLoadResultType.LoadFailed 
+
+    //or it just couldn&#39;t find anything.
+    || loadResult.LoadResultType == LavalinkLoadResultType.NoMatches)
+{
+    await ctx.RespondAsync($&quot;Track search failed for {search}.&quot;);
+    return;
+}
+</code></pre><p>Lavalink will return the track data from your search in a collection called <code>loadResult.Tracks</code>, similar to using the search bar in YouTube or SoundCloud directly. The first track is typically the most accurate one, so that is what we will use: </p>
+<pre><code class="lang-csharp">var track = loadResult.Tracks.First();
+</code></pre><p>And finally, we can play the track:</p>
+<pre><code class="lang-csharp">await conn.PlayAsync(track);
+
+await ctx.RespondAsync($&quot;Now playing {track.Title}!&quot;);
+</code></pre><p>Your play command should look like this: </p>
+<pre><code class="lang-csharp">[Command]
+public async Task Play(CommandContext ctx, [RemainingText] string search)
+{
+    if (ctx.Member.VoiceState == null || ctx.Member.VoiceState.Channel == null)
+    {
+        await ctx.RespondAsync(&quot;You are not in a voice channel.&quot;);
+        return;
+    }
+
+    var lava = ctx.Client.GetLavalink();
+    var node = lava.ConnectedNodes.Values.First();
+    var conn = node.GetGuildConnection(ctx.Member.VoiceState.Guild);
+
+    if (conn == null)
+    {
+        await ctx.RespondAsync(&quot;Lavalink is not connected.&quot;);
+        return;
+    }
+
+    var loadResult = await node.Rest.GetTracksAsync(search);
+
+    if (loadResult.LoadResultType == LavalinkLoadResultType.LoadFailed 
+        || loadResult.LoadResultType == LavalinkLoadResultType.NoMatches)
+    {
+        await ctx.RespondAsync($&quot;Track search failed for {search}.&quot;);
+        return;
+    }
+
+    var track = loadResult.Tracks.First();
+
+    await conn.PlayAsync(track);
+
+    await ctx.RespondAsync($&quot;Now playing {track.Title}!&quot;);
+}
+</code></pre><p>Being able to pause the player is also useful. For this we can use most of the base from the play command: </p>
+<pre><code class="lang-csharp">[Command]
+public async Task Pause(CommandContext ctx)
+{
+    if (ctx.Member.VoiceState == null || ctx.Member.VoiceState.Channel == null)
+    {
+        await ctx.RespondAsync(&quot;You are not in a voice channel.&quot;);
+        return;
+    }
+
+    var lava = ctx.Client.GetLavalink();
+    var node = lava.ConnectedNodes.Values.First();
+    var conn = node.GetGuildConnection(ctx.Member.VoiceState.Guild);
+
+    if (conn == null)
+    {
+        await ctx.RespondAsync(&quot;Lavalink is not connected.&quot;);
+        return;
+    }
+}
+</code></pre><p>For this command we will also want to check the player state to determine if we should send a pause command. We can do so by checking <code>conn.CurrentState.CurrentTrack</code>:</p>
+<pre><code class="lang-csharp">if (conn.CurrentState.CurrentTrack == null)
+{
+    await ctx.RespondAsync(&quot;There are no tracks loaded.&quot;);
+    return;
+}
+</code></pre><p>And finally, we can call pause: </p>
+<pre><code class="lang-csharp">await conn.PauseAsync();
+</code></pre><p>The finished command should look like so:</p>
+<pre><code class="lang-csharp">[Command]
+public async Task Pause(CommandContext ctx)
+{
+    if (ctx.Member.VoiceState == null || ctx.Member.VoiceState.Channel == null)
+    {
+        await ctx.RespondAsync(&quot;You are not in a voice channel.&quot;);
+        return;
+    }
+
+    var lava = ctx.Client.GetLavalink();
+    var node = lava.ConnectedNodes.Values.First();
+    var conn = node.GetGuildConnection(ctx.Member.VoiceState.Guild);
+
+    if (conn == null)
+    {
+        await ctx.RespondAsync(&quot;Lavalink is not connected.&quot;);
+        return;
+    }
+
+    if (conn.CurrentState.CurrentTrack == null)
+    {
+         await ctx.RespondAsync(&quot;There are no tracks loaded.&quot;);
+         return;
+    }
+
+    await conn.PauseAsync();
+}
+</code></pre><p>Of course, there are other commands Lavalink has to offer. Check out <a href="https://dsharpplus.github.io/api/DSharpPlus.Lavalink.LavalinkGuildConnection.html#methods">the docs</a> to view the commands you can use while playing tracks.</p>
+<p>There are also open source examples such as Emzi0767&#39;s <a href="https://github.com/Emzi0767/Discord-Companion-Cube-Bot">Companion Cube Bot</a> and <a href="https://github.com/Emzi0767/Discord-Music-Turret-Bot">Turret Bot</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/audio/lavalink/music_commands.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

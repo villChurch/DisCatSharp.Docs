@@ -1,0 +1,193 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Command Attributes </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Command Attributes ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="commands_command_attributes">
+<h2 id="built-in-attributes">Built-In Attributes</h2>
+
+<p>CommandsNext has a variety of built-in attributes to enhance your commands and provide some access control.
+The majority of these attributes can be applied to your command methods and command groups.</p>
+<ul>
+<li>@DSharpPlus.CommandsNext.Attributes.AliasesAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.CooldownAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.DescriptionAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.DontInjectAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.HiddenAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.ModuleLifespanAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.PriorityAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RemainingTextAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireBotPermissionsAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireDirectMessageAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireGuildAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireNsfwAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireOwnerAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequirePermissionsAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequirePrefixesAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireRolesAttribute</li>
+<li>@DSharpPlus.CommandsNext.Attributes.RequireUserPermissionsAttribute</li>
+</ul>
+<h2 id="custom-attributes">Custom Attributes</h2>
+<p>If the above attributes don&#39;t meet your needs, CommandsNext also gives you the option of writing your own!
+Simply create a new class which inherits from <code>CheckBaseAttribute</code> and implement the required method.</p>
+<p>Our example below will only allow a command to be ran during a specified year.</p>
+<pre><code class="lang-cs">public class RequireYearAttribute : CheckBaseAttribute
+{
+    public int AllowedYear { get; private set; }
+
+    public RequireYearAttribute(int year)
+    {
+        AllowedYear = year;
+    }
+
+    public override Task&lt;bool&gt; ExecuteCheckAsync(CommandContext ctx, bool help)
+    {
+        return Task.FromResult(AllowedYear == DateTime.Now.Year);
+    }
+}
+</code></pre><p><br>
+You&#39;ll also need to apply the <code>AttributeUsage</code> attribute to your attribute.<br>
+For our example attribute, we&#39;ll set it to only be usable once on methods.</p>
+<pre><code class="lang-cs">[AttributeUsage(AttributeTargets.Method, AllowMultiple = false)]
+public class RequireYearAttribute : CheckBaseAttribute
+{
+    // ...
+}
+</code></pre><p>You can provide feedback to the user using the <code>CommandsNextExtension#CommandErrored</code> event.</p>
+<pre><code class="lang-cs">private async Task MainAsync()
+{
+    var discord = new DiscordClient();
+    var commands = discord.UseCommandsNext();
+
+    commands.CommandErrored += CmdErroredHandler;
+}
+
+private async Task CmdErroredHandler(CommandsNextExtension _, CommandErrorEventArgs e)
+{
+    var failedChecks = ((ChecksFailedException)e.Exception).FailedChecks;
+    foreach (var failedCheck in failedChecks)
+    {
+        if (failedCheck is RequireYearAttribute) 
+        {
+            var yearAttribute = (RequireYearAttribute)failedCheck;
+            await e.Context.RespondAsync($&quot;Only usable during year {yearAttribute.AllowedYear}.&quot;);
+        } 
+    }
+}
+</code></pre><p><br>
+Once you&#39;ve got all of that completed, you&#39;ll be able to use it on a command!</p>
+<pre><code class="lang-cs">[Command(&quot;generic&quot;), RequireYear(2030)]
+public async Task GenericCommand(CommandContext ctx, string generic)
+{
+    await ctx.RespondAsync(&quot;Generic response.&quot;);
+}
+</code></pre><p><img src="/images/commands_command_attributes_01.png" alt="Generic Image"></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/commands/command_attributes.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

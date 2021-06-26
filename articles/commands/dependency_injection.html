@@ -1,0 +1,196 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Dependency Injection </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Dependency Injection ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="commands_dependency_injection">
+<h2 id="dependency-injection">Dependency Injection</h2>
+
+<p>As you begin to write more complex commands, you&#39;ll find that you need a way to get data in and out of them.
+Although you <em>could</em> use <code>static</code> fields to accomplish this, the preferred solution would be <em>dependency injection</em>.</p>
+<p>This would involve placing all required object instances and types (referred to as <em>services</em>) in a container, then providing that container to CommandsNext.
+Each time a command module is instantiated, CommandsNext will then attempt to populate constructor parameters, <code>public</code> properties, and <code>public</code> fields exposed by the module with instances of objects from the service container.</p>
+<p>We&#39;ll go through a simple example of this process to help you understand better.</p>
+<h3 id="create-a-service-provider">Create a Service Provider</h3>
+<p>To begin, we&#39;ll need to create a service provider; this will act as the container for the services you need for your commands.
+Create a new variable just before you register CommandsNext with your <code>DiscordClient</code> and assign it a new instance of <code>ServiceCollection</code>.</p>
+<pre><code class="lang-cs">var discord = new DiscordClient();  
+var services = new ServiceCollection(); // Right here!
+var commands = discord.UseCommandsNext();
+</code></pre><p>We&#39;ll use <code>.AddSingleton</code> to add type <code>Random</code> to the collection, then chain that call with the <code>.BuildServiceProvider()</code> extension method.
+The resulting type will be <code>ServiceProvider</code>.</p>
+<pre><code class="lang-cs">var services = new ServiceCollection()
+    .AddSingleton&lt;Random&gt;()
+    .BuildServiceProvider();
+</code></pre><p>Then we&#39;ll need to provide CommandsNext with our services.</p>
+<pre><code class="lang-cs">var commands = discord.UseCommandsNext(new CommandsNextConfiguration()
+{
+    Services = services
+});
+</code></pre><h3 id="using-your-services">Using Your Services</h3>
+<p>Now that we have our services set up, we&#39;re able to use them in commands.<br>
+We&#39;ll be tweaking our <a class="xref" href="intro.html#argument-converters">random number command</a> to demonstrate.</p>
+<p>Add a new property to the command module named <em>Rng</em>. Make sure it has a <code>public</code> setter.</p>
+<pre><code class="lang-cs">public class MyFirstModule : BaseCommandModule
+{
+    public Random Rng { private get; set; } // Implied public setter.
+
+    // ...
+}
+</code></pre><p>Modify the <em>random</em> command to use our property.</p>
+<pre><code class="lang-cs">[Command(&quot;random&quot;)]
+public async Task RandomCommand(CommandContext ctx, int min, int max)
+{
+    await ctx.RespondAsync($&quot;Your number is: {Rng.Next(min, max)}&quot;);
+}
+</code></pre><p>Then we can give it a try!</p>
+<p><img src="/images/commands_dependency_injection_01.png" alt="Command Execution"></p>
+<p><br>
+CommandsNext has automatically injected our singleton <code>Random</code> instance into the <code>Rng</code> property when our command module was instantiated.
+Now, for any command that needs <code>Random</code>, we can simply declare one as a property, field, or in the module constructor and CommandsNext will take care of the rest.
+Ain&#39;t that neat?</p>
+<h2 id="lifespans">Lifespans</h2>
+<h3 id="modules">Modules</h3>
+<p>By default, all command modules have a singleton lifespan; this means each command module is instantiated once for the lifetime of the CommandsNext instance.
+However, if the reuse of a module instance is undesired, you also have the option to change the lifespan of a module to <em>transient</em> using the <code>ModulesLifespan</code> attribute.</p>
+<pre><code class="lang-cs">[ModuleLifespan(ModuleLifespan.Transient)]
+public class MyFirstModule : BaseCommandModule
+{
+    // ...
+}
+</code></pre><p>Transient command modules are instantiated each time one of its containing commands is executed.</p>
+<h3 id="services">Services</h3>
+<p>In addition to the <code>.AddSingleton()</code> extension method, you&#39;re also able to use the <code>.AddScoped()</code> and <code>.AddTransient()</code> extension methods to add services to the collection.
+The extension method chosen will affect when and how often the service is instantiated.
+Scoped and transient services should only be used in transient command modules, as singleton modules will always have their services injected once.</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Lifespan</th>
+<th style="text-align:left">Instantiated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Singleton</td>
+<td style="text-align:left">One time when added to the collection.</td>
+</tr>
+<tr>
+<td style="text-align:center">Scoped</td>
+<td style="text-align:left">Once for each command module.</td>
+</tr>
+<tr>
+<td style="text-align:center">Transient</td>
+<td style="text-align:left">Each time its requested.</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/commands/dependency_injection.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

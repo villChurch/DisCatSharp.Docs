@@ -1,0 +1,203 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Transmitting </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Transmitting ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="voicenext_transmit">
+<h2 id="transmitting-with-voicenext">Transmitting with VoiceNext</h2>
+
+<h3 id="enable-voicenext">Enable VoiceNext</h3>
+<p>Install the <code>DSharpPlus.VoiceNext</code> package from NuGet.</p>
+<p><img src="/images/voicenext_transmit_01.png" alt="NuGet Package Manager"></p>
+<p>Then use the <code>UseVoiceNext</code> extension method on your instance of <code>DiscordClient</code>.</p>
+<pre><code class="lang-cs">var discord = new DiscordClient();
+discord.UseVoiceNext();
+</code></pre><h3 id="connect">Connect</h3>
+<p>Joining a voice channel is <em>very</em> easy; simply use the <code>ConnectAsync</code> extension method on <code>DiscordChannel</code>.</p>
+<pre><code class="lang-cs">DiscordChannel channel;
+VoiceNextConnection connection = await channel.ConnectAsync();
+</code></pre><h3 id="transmit">Transmit</h3>
+<p>Discord requires that we send Opus encoded stereo PCM audio data at a sample rate of 48,000 Hz.</p>
+<p>You&#39;ll need to convert your audio source to PCM S16LE using your preferred program for media conversion, then read 
+that data into a <code>Stream</code> object or an array of <code>byte</code> to be used with VoiceNext. Opus encoding of the PCM data will 
+be done automatically by VoiceNext before sending it to Discord.</p>
+<p>This example will use <a href="https://ffmpeg.org/about.html">ffmpeg</a> to convert an MP3 file to a PCM stream.</p>
+<pre><code class="lang-cs">var filePath = &quot;funiculi_funicula.mp3&quot;;
+var ffmpeg = Process.Start(new ProcessStartInfo
+{
+    FileName = &quot;ffmpeg&quot;,
+    Arguments = $@&quot;-i &quot;&quot;{filePath}&quot;&quot; -ac 2 -f s16le -ar 48000 pipe:1&quot;,
+    RedirectStandardOutput = true,
+    UseShellExecute = false
+});
+
+Stream pcm = ffmpeg.StandardOutput.BaseStream;
+</code></pre><p>Now that our audio is the correct format, we&#39;ll need to get a <em>transmit sink</em> for the channel we&#39;re connected to.
+You can think of the transmit stream as our direct interface with a voice channel; any data written to one will be 
+processed by VoiceNext, queued, and sent to Discord which will then be output to the connected voice channel.</p>
+<pre><code class="lang-cs">VoiceTransmitSink transmit = connection.GetTransmitSink();
+</code></pre><p>Once we have a transmit sink, we can &#39;play&#39; our audio by copying our PCM data to the transmit sink buffer.</p>
+<pre><code class="lang-cs">await pcm.CopyToAsync(transmit);
+</code></pre><p><code>Stream#CopyToAsync()</code> will copy PCM data from the input stream to the output sink, up to the sink&#39;s configured 
+capacity, at which point it will wait until it can copy more. This means that the call will hold the task&#39;s execution, 
+until such time that the entire input stream has been consumed, and enqueued in the sink.</p>
+<p>This operation cannot be cancelled. If you&#39;d like to have finer control of the playback, you should instead consider 
+using <code>Stream#ReadAsync()</code> and <code>VoiceTransmitSink#WriteAsync()</code> to manually copy small portions of PCM data to the 
+transmit sink.</p>
+<h3 id="disconnect">Disconnect</h3>
+<p>Similar to joining, leaving a voice channel is rather straightforward.</p>
+<pre><code class="lang-cs">var vnext = discord.GetVoiceNext();
+var connection = vnext.GetConnection();
+
+connection.Disconnect();
+</code></pre><h2 id="example-commands">Example Commands</h2>
+<pre><code class="lang-cs">[Command(&quot;join&quot;)]
+public async Task JoinCommand(CommandContext ctx, DiscordChannel channel = null)
+{
+    channel ??= ctx.Member.VoiceState?.Channel;
+    await channel.ConnectAsync();
+}
+
+[Command(&quot;play&quot;)]
+public async Task PlayCommand(CommandContext ctx, string path)
+{
+    var vnext = ctx.Client.GetVoiceNext();
+    var connection = vnext.GetConnection(ctx.Guild);
+
+    var transmit = connection.GetTransmitSink();
+
+    var pcm = ConvertAudioToPcm(path);
+    await pcm.CopyToAsync(transmit);
+    await pcm.DisposeAsync();
+}
+
+[Command(&quot;leave&quot;)]
+public async Task LeaveCommand(CommandContext ctx)
+{
+    var vnext = ctx.Client.GetVoiceNext();
+    var connection = vnext.GetConnection(ctx.Guild);
+
+    connection.Disconnect();
+}
+
+private Stream ConvertAudioToPcm(string filePath)
+{
+    var ffmpeg = Process.Start(new ProcessStartInfo
+    {
+        FileName = &quot;ffmpeg&quot;,
+        Arguments = $@&quot;-i &quot;&quot;{filePath}&quot;&quot; -ac 2 -f s16le -ar 48000 pipe:1&quot;,
+        RedirectStandardOutput = true,
+        UseShellExecute = false
+    });
+
+    return ffmpeg.StandardOutput.BaseStream;
+}
+</code></pre></article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/audio/voicenext/transmit.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>

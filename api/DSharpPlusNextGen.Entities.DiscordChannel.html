@@ -1,0 +1,3922 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DiscordChannel
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DiscordChannel
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DSharpPlusNextGen.Entities.DiscordChannel">
+  
+  
+  <h1 id="DSharpPlusNextGen_Entities_DiscordChannel" data-uid="DSharpPlusNextGen.Entities.DiscordChannel" class="text-break">Class DiscordChannel
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a discord channel.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DSharpPlusNextGen.Entities.SnowflakeObject.html">SnowflakeObject</a></div>
+    <div class="level2"><span class="xref">DiscordChannel</span></div>
+  </div>
+      <div class="level3"><a class="xref" href="DSharpPlusNextGen.Entities.DiscordDmChannel.html">DiscordDmChannel</a></div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DSharpPlusNextGen.Entities.SnowflakeObject.html#DSharpPlusNextGen_Entities_SnowflakeObject_Id">SnowflakeObject.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="DSharpPlusNextGen.Entities.SnowflakeObject.html#DSharpPlusNextGen_Entities_SnowflakeObject_CreationTimestamp">SnowflakeObject.CreationTimestamp</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DSharpPlusNextGen.Entities.html">DSharpPlusNextGen.Entities</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DSharpPlusNextGen_Entities_DiscordChannel_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DiscordChannel : SnowflakeObject, IEquatable&lt;DiscordChannel&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Bitrate_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Bitrate*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Bitrate" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Bitrate">Bitrate</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s bitrate. This is applicable to voice channels only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? Bitrate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Children_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Children*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Children" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Children">Children</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s children. This applies only to channel categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;DiscordChannel&gt; Children { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Guild_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Guild*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Guild" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Guild">Guild</h4>
+  <div class="markdown level1 summary"><p>Gets the guild to which this channel belongs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordGuild Guild { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuild.html">DiscordGuild</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GuildId_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GuildId*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GuildId" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GuildId">GuildId</h4>
+  <div class="markdown level1 summary"><p>Gets ID of the guild to which this channel belongs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? GuildId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_IsCategory_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsCategory*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_IsCategory" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsCategory">IsCategory</h4>
+  <div class="markdown level1 summary"><p>Gets whether this channel is a channel category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsCategory { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_IsNSFW_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsNSFW*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_IsNSFW" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsNSFW">IsNSFW</h4>
+  <div class="markdown level1 summary"><p>Gets whether this channel is an NSFW channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsNSFW { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_IsPrivate_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsPrivate*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_IsPrivate" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsPrivate">IsPrivate</h4>
+  <div class="markdown level1 summary"><p>Gets whether this channel is a DM channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsPrivate { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_IsStage_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsStage*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_IsStage" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.IsStage">IsStage</h4>
+  <div class="markdown level1 summary"><p>Gets whether this channel is a stage channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsStage { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_LastMessageId_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.LastMessageId*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_LastMessageId" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.LastMessageId">LastMessageId</h4>
+  <div class="markdown level1 summary"><p>Gets the ID of the last message sent in this channel. This is applicable to text channels only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? LastMessageId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_LastPinTimestamp_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.LastPinTimestamp*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_LastPinTimestamp" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.LastPinTimestamp">LastPinTimestamp</h4>
+  <div class="markdown level1 summary"><p>Gets when the last pinned message was pinned.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? LastPinTimestamp { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Mention_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Mention*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Mention" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Mention">Mention</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s mention string.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Mention { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Name_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Name*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Name" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the name of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Parent_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Parent*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Parent" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Parent">Parent</h4>
+  <div class="markdown level1 summary"><p>Gets the category that contains this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordChannel Parent { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ParentId_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ParentId*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ParentId" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ParentId">ParentId</h4>
+  <div class="markdown level1 summary"><p>Gets ID of the category that contains this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? ParentId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_PermissionOverwrites_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PermissionOverwrites*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_PermissionOverwrites" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PermissionOverwrites">PermissionOverwrites</h4>
+  <div class="markdown level1 summary"><p>Gets a collection of permission overwrites for this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordOverwrite&gt; PermissionOverwrites { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordOverwrite.html">DiscordOverwrite</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_PerUserRateLimit_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PerUserRateLimit*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_PerUserRateLimit" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PerUserRateLimit">PerUserRateLimit</h4>
+  <div class="markdown level1 summary"><p>Gets the slow mode delay configured for this channel.</p>
+<p>All bots, as well as users with <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> or <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageMessages">ManageMessages</a> permissions in the channel are exempt from slow mode.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? PerUserRateLimit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Position_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Position*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Position" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Position">Position</h4>
+  <div class="markdown level1 summary"><p>Gets the position of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Position { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_QualityMode_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.QualityMode*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_QualityMode" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.QualityMode">QualityMode</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s video quality mode. This is applicable to voice channels only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public VideoQualityMode? QualityMode { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DSharpPlusNextGen.VideoQualityMode.html">VideoQualityMode</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_RtcRegion_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.RtcRegion*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_RtcRegion" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.RtcRegion">RtcRegion</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s region override (if voice channel).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordVoiceRegion RtcRegion { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordVoiceRegion.html">DiscordVoiceRegion</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Topic_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Topic*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Topic" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Topic">Topic</h4>
+  <div class="markdown level1 summary"><p>Gets the channel&apos;s topic. This is applicable to text channels only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Topic { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Type_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Type*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Type" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Type">Type</h4>
+  <div class="markdown level1 summary"><p>Gets the type of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ChannelType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.ChannelType.html">ChannelType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_UserLimit_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.UserLimit*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_UserLimit" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.UserLimit">UserLimit</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s user limit. This is applicable to voice channels only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? UserLimit { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Users_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Users*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Users" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Users">Users</h4>
+  <div class="markdown level1 summary"><p>Gets the list of members currently in the channel (if voice channel), or members who can see the channel (otherwise).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual IEnumerable&lt;DiscordMember&gt; Users { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMember.html">DiscordMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_AddOverwriteAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.AddOverwriteAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_AddOverwriteAsync_DSharpPlusNextGen_Entities_DiscordMember_DSharpPlusNextGen_Permissions_DSharpPlusNextGen_Permissions_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.AddOverwriteAsync(DSharpPlusNextGen.Entities.DiscordMember,DSharpPlusNextGen.Permissions,DSharpPlusNextGen.Permissions,System.String)">AddOverwriteAsync(DiscordMember, Permissions, Permissions, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a channel permission overwrite for specified member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddOverwriteAsync(DiscordMember member, Permissions allow = Permissions.None, Permissions deny = Permissions.None, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMember.html">DiscordMember</a></td>
+        <td><span class="parametername">member</span></td>
+        <td><p>The member to have the permission added.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">allow</span></td>
+        <td><p>The permissions to allow.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">deny</span></td>
+        <td><p>The permissions to deny.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageRoles">ManageRoles</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_AddOverwriteAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.AddOverwriteAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_AddOverwriteAsync_DSharpPlusNextGen_Entities_DiscordRole_DSharpPlusNextGen_Permissions_DSharpPlusNextGen_Permissions_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.AddOverwriteAsync(DSharpPlusNextGen.Entities.DiscordRole,DSharpPlusNextGen.Permissions,DSharpPlusNextGen.Permissions,System.String)">AddOverwriteAsync(DiscordRole, Permissions, Permissions, String)</h4>
+  <div class="markdown level1 summary"><p>Adds a channel permission overwrite for specified role.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task AddOverwriteAsync(DiscordRole role, Permissions allow = Permissions.None, Permissions deny = Permissions.None, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordRole.html">DiscordRole</a></td>
+        <td><span class="parametername">role</span></td>
+        <td><p>The role to have the permission added.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">allow</span></td>
+        <td><p>The permissions to allow.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Permissions.html">Permissions</a></td>
+        <td><span class="parametername">deny</span></td>
+        <td><p>The permissions to deny.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageRoles">ManageRoles</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CloneAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloneAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CloneAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloneAsync(System.String)">CloneAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Clones this channel. This operation will create a channel with identical settings to this one. Note that this will not copy messages.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordChannel&gt; CloneAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td><p>Newly-created channel.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CloseStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloseStageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CloseStageAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloseStageAsync">CloseStageAsync()</h4>
+  <div class="markdown level1 summary"><p>Closes a stage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task CloseStageAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CreateInviteAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateInviteAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CreateInviteAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Nullable_DSharpPlusNextGen_TargetType__System_Nullable_DSharpPlusNextGen_TargetActivity__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateInviteAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Nullable{DSharpPlusNextGen.TargetType},System.Nullable{DSharpPlusNextGen.TargetActivity},System.String)">CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable&lt;TargetType&gt;, Nullable&lt;TargetActivity&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Create a new invite object</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordInvite&gt; CreateInviteAsync(int max_age = 86400, int max_uses = 0, bool temporary = false, bool unique = false, TargetType? target_type = default(TargetType? ), TargetActivity? target_application = default(TargetActivity? ), string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max_age</span></td>
+        <td><p>Duration of invite in seconds before expiry, or 0 for never.  Defaults to 86400.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max_uses</span></td>
+        <td><p>Max number of uses or 0 for unlimited.  Defaults to 0</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">temporary</span></td>
+        <td><p>Whether this invite only grants temporary membership.  Defaults to false.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">unique</span></td>
+        <td><p>If true, don&apos;t try to reuse a similar invite (useful for creating many unique one time use invites)</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DSharpPlusNextGen.TargetType.html">TargetType</a>&gt;</td>
+        <td><span class="parametername">target_type</span></td>
+        <td><p>Target type of invite for the channel.  Defaults to Streaming</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DSharpPlusNextGen.TargetActivity.html">TargetActivity</a>&gt;</td>
+        <td><span class="parametername">target_application</span></td>
+        <td><p>Target application of invite for the channel.  Defaults to None</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordInvite.html">DiscordInvite</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_CreateInstantInvite">CreateInstantInvite</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CreateThreadAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateThreadAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CreateThreadAsync_System_String_DSharpPlusNextGen_ThreadAutoArchiveDuration_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateThreadAsync(System.String,DSharpPlusNextGen.ThreadAutoArchiveDuration)">CreateThreadAsync(String, ThreadAutoArchiveDuration)</h4>
+  <div class="markdown level1 summary"><p>Creates a thread. Depending on whether it is created inside an <a class="xref" href="DSharpPlusNextGen.ChannelType.html#DSharpPlusNextGen_ChannelType_News">News</a> or an <a class="xref" href="DSharpPlusNextGen.ChannelType.html#DSharpPlusNextGen_ChannelType_Text">Text</a> it is either an <a class="xref" href="DSharpPlusNextGen.ChannelType.html#DSharpPlusNextGen_ChannelType_NewsThread">NewsThread</a> or an <a class="xref" href="DSharpPlusNextGen.ChannelType.html#DSharpPlusNextGen_ChannelType_PublicThread">PublicThread</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadChannel&gt; CreateThreadAsync(string name, ThreadAutoArchiveDuration auto_archive_duration = ThreadAutoArchiveDuration.OneHour)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the thread.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a></td>
+        <td><span class="parametername">auto_archive_duration</span></td>
+        <td><a class="xref" href="DSharpPlusNextGen.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a> till it gets archived. Defaults to <a class="xref" href="DSharpPlusNextGen.ThreadAutoArchiveDuration.html#DSharpPlusNextGen_ThreadAutoArchiveDuration_OneHour">OneHour</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadChannel.html">DiscordThreadChannel</a>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadChannel.html">DiscordThreadChannel</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_UsePublicThreads">UsePublicThreads</a> or <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the guild hasn&apos;t enabled threads atm.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CreateWebhookAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateWebhookAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CreateWebhookAsync_System_String_DSharpPlusNextGen_Entities_Optional_Stream__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CreateWebhookAsync(System.String,DSharpPlusNextGen.Entities.Optional{Stream},System.String)">CreateWebhookAsync(String, Optional&lt;Stream&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Create a new webhook</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordWebhook&gt; CreateWebhookAsync(string name, Optional&lt;Stream&gt; avatar = default(Optional&lt;Stream&gt;), string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the webhook.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">Stream</span>&gt;</td>
+        <td><span class="parametername">avatar</span></td>
+        <td><p>The image for the default webhook avatar.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordWebhook.html">DiscordWebhook</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageWebhooks">ManageWebhooks</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_CrosspostMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CrosspostMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CrosspostMessageAsync_DSharpPlusNextGen_Entities_DiscordMessage_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CrosspostMessageAsync(DSharpPlusNextGen.Entities.DiscordMessage)">CrosspostMessageAsync(DiscordMessage)</h4>
+  <div class="markdown level1 summary"><p>Publishes a message in a news channel to following channels</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; CrosspostMessageAsync(DiscordMessage message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Message to publish</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteAsync(System.String)">DeleteAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a guild channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteMessageAsync_DSharpPlusNextGen_Entities_DiscordMessage_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteMessageAsync(DSharpPlusNextGen.Entities.DiscordMessage,System.String)">DeleteMessageAsync(DiscordMessage, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteMessageAsync(DiscordMessage message, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to be deleted.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageMessages">ManageMessages</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteMessagesAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteMessagesAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_DeleteMessagesAsync_IEnumerable_DSharpPlusNextGen_Entities_DiscordMessage__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DeleteMessagesAsync(IEnumerable{DSharpPlusNextGen.Entities.DiscordMessage},System.String)">DeleteMessagesAsync(IEnumerable&lt;DiscordMessage&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes multiple messages if they are less than 14 days old.  If they are older, none of the messages will be deleted and you will receive a <a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a> error.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task DeleteMessagesAsync(IEnumerable&lt;DiscordMessage&gt; messages, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="parametername">messages</span></td>
+        <td><p>A collection of messages to delete.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageMessages">ManageMessages</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Equals_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Equals*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Equals_DSharpPlusNextGen_Entities_DiscordChannel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Equals(DSharpPlusNextGen.Entities.DiscordChannel)">Equals(DiscordChannel)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> is equal to another <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(DiscordChannel e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> is equal to this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_Equals_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Equals*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Equals_System_Object_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> is equal to another object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the object is equal to this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_FollowAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.FollowAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_FollowAsync_DSharpPlusNextGen_Entities_DiscordChannel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.FollowAsync(DSharpPlusNextGen.Entities.DiscordChannel)">FollowAsync(DiscordChannel)</h4>
+  <div class="markdown level1 summary"><p>Follows a news channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordFollowedChannel&gt; FollowAsync(DiscordChannel targetChannel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">targetChannel</span></td>
+        <td><p>Channel to crosspost messages to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordFollowedChannel.html">DiscordFollowedChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetActiveThreadsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetActiveThreadsAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetActiveThreadsAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetActiveThreadsAsync">GetActiveThreadsAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets active threads. Can contain more threads. Watch for HasMore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadResult&gt; GetActiveThreadsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the thread does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetHashCode_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetHashCode*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetHashCode" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Gets the hash code for this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for this <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetInvitesAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetInvitesAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetInvitesAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetInvitesAsync">GetInvitesAsync()</h4>
+  <div class="markdown level1 summary"><p>Returns a list of invite objects</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordInvite&gt;&gt; GetInvitesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordInvite.html">DiscordInvite</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_CreateInstantInvite">CreateInstantInvite</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetJoinedPrivateArchivedThreadsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetJoinedPrivateArchivedThreadsAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetJoinedPrivateArchivedThreadsAsync_System_Nullable_System_UInt64__System_Nullable_System_Int32__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetJoinedPrivateArchivedThreadsAsync(System.Nullable{System.UInt64},System.Nullable{System.Int32})">GetJoinedPrivateArchivedThreadsAsync(Nullable&lt;UInt64&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets joined archived private threads. Can contain more threads. Watch for HasMore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadResult&gt; GetJoinedPrivateArchivedThreadsAsync(ulong? before, int? limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">before</span></td>
+        <td><p>Get threads before this timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Defines the limit of returned <a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ReadMessageHistory">ReadMessageHistory</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessageAsync_System_UInt64_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessageAsync(System.UInt64)">GetMessageAsync(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Returns a specific message</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; GetMessageAsync(ulong id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The id of the message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ReadMessageHistory">ReadMessageHistory</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAfterAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAfterAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAfterAsync_System_UInt64_System_Int32_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAfterAsync(System.UInt64,System.Int32)">GetMessagesAfterAsync(UInt64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of messages after a certain message.
+<param name="limit">The amount of messages to fetch.
+<param name="after">Message to fetch after from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordMessage&gt;&gt; GetMessagesAfterAsync(ulong after, int limit = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">after</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAroundAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAroundAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAroundAsync_System_UInt64_System_Int32_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAroundAsync(System.UInt64,System.Int32)">GetMessagesAroundAsync(UInt64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of messages around a certain message.
+<param name="limit">The amount of messages to fetch.
+<param name="around">Message to fetch around from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordMessage&gt;&gt; GetMessagesAroundAsync(ulong around, int limit = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">around</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesAsync_System_Int32_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesAsync(System.Int32)">GetMessagesAsync(Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of messages from the last message in the channel.
+<param name="limit">The amount of messages to fetch.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordMessage&gt;&gt; GetMessagesAsync(int limit = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesBeforeAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesBeforeAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetMessagesBeforeAsync_System_UInt64_System_Int32_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetMessagesBeforeAsync(System.UInt64,System.Int32)">GetMessagesBeforeAsync(UInt64, Int32)</h4>
+  <div class="markdown level1 summary"><p>Returns a list of messages before a certain message.
+<param name="limit">The amount of messages to fetch.
+<param name="before">Message to fetch before from.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordMessage&gt;&gt; GetMessagesBeforeAsync(ulong before, int limit = 100)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">before</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">limit</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetPinnedMessagesAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPinnedMessagesAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetPinnedMessagesAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPinnedMessagesAsync">GetPinnedMessagesAsync()</h4>
+  <div class="markdown level1 summary"><p>Returns all pinned messages</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordMessage&gt;&gt; GetPinnedMessagesAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetPrivateArchivedThreadsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPrivateArchivedThreadsAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetPrivateArchivedThreadsAsync_System_Nullable_System_UInt64__System_Nullable_System_Int32__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPrivateArchivedThreadsAsync(System.Nullable{System.UInt64},System.Nullable{System.Int32})">GetPrivateArchivedThreadsAsync(Nullable&lt;UInt64&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets archived private threads. Can contain more threads. Watch for HasMore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadResult&gt; GetPrivateArchivedThreadsAsync(ulong? before, int? limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">before</span></td>
+        <td><p>Get threads before this timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Defines the limit of returned <a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageThreads">ManageThreads</a> or <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ReadMessageHistory">ReadMessageHistory</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetPublicArchivedThreadsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPublicArchivedThreadsAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetPublicArchivedThreadsAsync_System_Nullable_System_UInt64__System_Nullable_System_Int32__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetPublicArchivedThreadsAsync(System.Nullable{System.UInt64},System.Nullable{System.Int32})">GetPublicArchivedThreadsAsync(Nullable&lt;UInt64&gt;, Nullable&lt;Int32&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets archived public threads. Can contain more threads. Watch for HasMore.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadResult&gt; GetPublicArchivedThreadsAsync(ulong? before, int? limit)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">before</span></td>
+        <td><p>Get threads before this timestamp.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>Defines the limit of returned <a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordThreadResult.html">DiscordThreadResult</a></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ReadMessageHistory">ReadMessageHistory</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetStageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetStageAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetStageAsync">GetStageAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets a stage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordStageInstance&gt; GetStageAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordStageInstance.html">DiscordStageInstance</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_AccessChannels">AccessChannels</a> or <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_UseVoice">UseVoice</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_GetWebhooksAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetWebhooksAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_GetWebhooksAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.GetWebhooksAsync">GetWebhooksAsync()</h4>
+  <div class="markdown level1 summary"><p>Returns a list of webhooks</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordWebhook&gt;&gt; GetWebhooksAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordWebhook.html">DiscordWebhook</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageWebhooks">ManageWebhooks</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyAsync_Action_ChannelEditModel__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyAsync(Action{ChannelEditModel})">ModifyAsync(Action&lt;ChannelEditModel&gt;)</h4>
+  <div class="markdown level1 summary"><p>Modifies the current channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyAsync(Action&lt;ChannelEditModel&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">ChannelEditModel</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to perform on this channel</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyParentAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyParentAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyParentAsync_DSharpPlusNextGen_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyParentAsync(DSharpPlusNextGen.Entities.DiscordChannel,System.Nullable{System.Boolean},System.String)">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Updates the channel parent, moving the channel to the bottom of the new category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyParentAsync(DiscordChannel newParent = null, bool? lock_permissions = default(bool? ), string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">newParent</span></td>
+        <td><p>New parent fpr channel. Will move out of parent if null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">lock_permissions</span></td>
+        <td><p>Sync permissions with parent. Defaults to null.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyPositionAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyPositionAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyPositionAsync_System_Int32_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyPositionAsync(System.Int32,System.String)">ModifyPositionAsync(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Updates the channel position within it&apos;s own category. Use <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html#DSharpPlusNextGen_Entities_DiscordChannel_ModifyParentAsync_DSharpPlusNextGen_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</a> for moving to other categories.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyPositionAsync(int position, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>Position the channel should be moved to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyStageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyStageAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_StagePrivacyLevel__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyStageAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.StagePrivacyLevel})">ModifyStageAsync(Optional&lt;String&gt;, Optional&lt;StagePrivacyLevel&gt;)</h4>
+  <div class="markdown level1 summary"><p>Modifies a stage topic</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task ModifyStageAsync(Optional&lt;string&gt; topic, Optional&lt;StagePrivacyLevel&gt; privacy_level)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">topic</span></td>
+        <td><p>New topic of stage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html">StagePrivacyLevel</a>&gt;</td>
+        <td><span class="parametername">privacy_level</span></td>
+        <td><p>New privacy level of stage.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_OpenStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.OpenStageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_OpenStageAsync_System_String_DSharpPlusNextGen_StagePrivacyLevel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.OpenStageAsync(System.String,DSharpPlusNextGen.StagePrivacyLevel)">OpenStageAsync(String, StagePrivacyLevel)</h4>
+  <div class="markdown level1 summary"><p>Opens a stage</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordStageInstance&gt; OpenStageAsync(string topic, StagePrivacyLevel privacy_level = StagePrivacyLevel.GUILD_ONLY)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">topic</span></td>
+        <td><p>Topic of stage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html">StagePrivacyLevel</a></td>
+        <td><span class="parametername">privacy_level</span></td>
+        <td><p>Privacy level of stage (Defaults to <a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html#DSharpPlusNextGen_StagePrivacyLevel_GUILD_ONLY">GUILD_ONLY</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordStageInstance.html">DiscordStageInstance</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_PermissionsFor_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PermissionsFor*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_PermissionsFor_DSharpPlusNextGen_Entities_DiscordMember_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PermissionsFor(DSharpPlusNextGen.Entities.DiscordMember)">PermissionsFor(DiscordMember)</h4>
+  <div class="markdown level1 summary"><p>Calculates permissions for a given member.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Permissions PermissionsFor(DiscordMember mbr)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMember.html">DiscordMember</a></td>
+        <td><span class="parametername">mbr</span></td>
+        <td><p>Member to calculate permissions for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Permissions.html">Permissions</a></td>
+        <td><p>Calculated permissions for a given member.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_PlaceMemberAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PlaceMemberAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_PlaceMemberAsync_DSharpPlusNextGen_Entities_DiscordMember_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.PlaceMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)">PlaceMemberAsync(DiscordMember)</h4>
+  <div class="markdown level1 summary"><p>Moves a member to this voice channel</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task PlaceMemberAsync(DiscordMember member)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMember.html">DiscordMember</a></td>
+        <td><span class="parametername">member</span></td>
+        <td><p>The member to be moved.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_MoveMembers">MoveMembers</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exists or if the Member does not exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_RemoveParentAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.RemoveParentAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_RemoveParentAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.RemoveParentAsync(System.String)">RemoveParentAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Moves the channel out of a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task RemoveParentAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_Action_DSharpPlusNextGen_Entities_DiscordMessageBuilder__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync(Action{DSharpPlusNextGen.Entities.DiscordMessageBuilder})">SendMessageAsync(Action&lt;DiscordMessageBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(Action&lt;DiscordMessageBuilder&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The builder with all the items to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission TTS is true and <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_DSharpPlusNextGen_Entities_DiscordEmbed_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync(DSharpPlusNextGen.Entities.DiscordEmbed)">SendMessageAsync(DiscordEmbed)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(DiscordEmbed embed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordEmbed.html">DiscordEmbed</a></td>
+        <td><span class="parametername">embed</span></td>
+        <td><p>Embed to attach to the message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission and <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_DSharpPlusNextGen_Entities_DiscordMessageBuilder_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync(DSharpPlusNextGen.Entities.DiscordMessageBuilder)">SendMessageAsync(DiscordMessageBuilder)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(DiscordMessageBuilder builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>The builder with all the items to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission TTS is true and <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync(System.String)">SendMessageAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(string content)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Content of the message to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission if TTS is true and <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_SendMessageAsync_System_String_DSharpPlusNextGen_Entities_DiscordEmbed_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.SendMessageAsync(System.String,DSharpPlusNextGen.Entities.DiscordEmbed)">SendMessageAsync(String, DiscordEmbed)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(string content, DiscordEmbed embed)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">content</span></td>
+        <td><p>Content of the message to send.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordEmbed.html">DiscordEmbed</a></td>
+        <td><span class="parametername">embed</span></td>
+        <td><p>Embed to attach to the message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendMessages">SendMessages</a> permission if TTS is true and <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_ToString_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ToString*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ToString" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ToString">ToString()</h4>
+  <div class="markdown level1 summary"><p>Returns a string representation of this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override string ToString()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><p>String representation of this channel.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.ToString()</span></div>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_TriggerTypingAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.TriggerTypingAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_TriggerTypingAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.TriggerTypingAsync">TriggerTypingAsync()</h4>
+  <div class="markdown level1 summary"><p>Post a typing indicator</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task TriggerTypingAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_UpdateCurrentUserVoiceStateAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.UpdateCurrentUserVoiceStateAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_UpdateCurrentUserVoiceStateAsync_System_Nullable_System_Boolean__System_Nullable_DateTimeOffset__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.UpdateCurrentUserVoiceStateAsync(System.Nullable{System.Boolean},System.Nullable{DateTimeOffset})">UpdateCurrentUserVoiceStateAsync(Nullable&lt;Boolean&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <div class="markdown level1 summary"><p>Updates the current user&apos;s suppress state in this channel, if stage channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task UpdateCurrentUserVoiceStateAsync(bool? suppress, DateTimeOffset? requestToSpeakTimestamp = default(DateTimeOffset? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">suppress</span></td>
+        <td><p>Toggles the suppress state.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="parametername">requestToSpeakTimestamp</span></td>
+        <td><p>Sets the time the user requested to speak.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_op_Equality_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.op_Equality*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_op_Equality_DSharpPlusNextGen_Entities_DiscordChannel_DSharpPlusNextGen_Entities_DiscordChannel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.op_Equality(DSharpPlusNextGen.Entities.DiscordChannel,DSharpPlusNextGen.Entities.DiscordChannel)">Equality(DiscordChannel, DiscordChannel)</h4>
+  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> objects are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(DiscordChannel e1, DiscordChannel e2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">e1</span></td>
+        <td><p>First channel to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">e2</span></td>
+        <td><p>Second channel to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the two channels are equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_op_Inequality_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.op_Inequality*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_op_Inequality_DSharpPlusNextGen_Entities_DiscordChannel_DSharpPlusNextGen_Entities_DiscordChannel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.op_Inequality(DSharpPlusNextGen.Entities.DiscordChannel,DSharpPlusNextGen.Entities.DiscordChannel)">Inequality(DiscordChannel, DiscordChannel)</h4>
+  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a> objects are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(DiscordChannel e1, DiscordChannel e2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">e1</span></td>
+        <td><p>First channel to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">e2</span></td>
+        <td><p>Second channel to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the two channels are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

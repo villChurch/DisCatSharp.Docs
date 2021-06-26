@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Nightly Builds </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Nightly Builds ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="misc_nightly_builds">
+<h1 id="i-like-living-on-the-edge---give-me-the-freshest-builds">I like living on the edge - give me the freshest builds</h1>
+
+<p>We offer nightly builds for DSharpPlus. They contain bugfixes and new features before the NuGet releases, however they are 
+not guaranteed to be stable, or work at all.</p>
+<p>If you want to use them, you need to open your <strong>Package Manager Settings</strong> in Visual Studio, and add the following SlimGet 
+feed to the package sources:</p>
+<p><code>https://nuget.emzi0767.com/api/v3/index.json</code></p>
+<p>Then open the NuGet interface for your project, check <strong>Prerelease</strong>, and make sure the <strong>package source</strong> is set to the SlimGet 
+feed you just added.</p>
+<p>Then just select <strong>Latest prerelease</strong> version of DSharpPlus packages, and install them.</p>
+<p>You might need to restart Visual Studio for changes to take effect.</p>
+<p>If you find any problems in the SlimGet versions of the packages, please follow the instructions in <a class="xref" href="reporting_issues.html">Reporting issues</a> 
+article.</p>
+<h2 id="but-im-running-gnulinux-mac-os-x-or-bsd">But I&#39;m running GNU/Linux, Mac OS X, or BSD!</h2>
+<p>If you&#39;re running on a non-Windows OS, you&#39;ll have to get your hands dirty. Prepare your text editor and file browser.</p>
+<p>Inside <code>~/.nuget/NuGet</code> directory, there should be a file called <code>NuGet.config</code>. It should look more or less like this:</p>
+<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
+&lt;configuration&gt;
+  &lt;packageSources&gt;
+    &lt;add key=&quot;nuget.org&quot; value=&quot;https://api.nuget.org/v3/index.json&quot; protocolVersion=&quot;3&quot; /&gt;
+  &lt;/packageSources&gt;
+&lt;/configuration&gt;
+</code></pre><p>Inside the <code>packageSources</code> element, you will need to add the following:</p>
+<p><code>&lt;add key=&quot;DSharpPlus SlimGet&quot; value=&quot;https://nuget.emzi0767.com/api/v3/index.json&quot; /&gt;</code></p>
+<p>Once that&#39;s done, save the file. If you run <code>dotnet restore</code> right now, it should be able to restore the packages without problems.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/misc/nightly_builds.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

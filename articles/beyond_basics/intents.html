@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Intents </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Intents ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="beyond_basics_intents">
+<h2 id="intents">Intents</h2>
+
+<p>Intents were added to Discord to help the service not have to push so many events to the bots that were not using them.  If you are going to be needing
+to subscribe to any type of event, they are going to have to be defined <strong>BOTH</strong> within the 
+<a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> on Discords Site and also within the @DSharpPlus.DiscordConfiguration.</p>
+<h3 id="discord-application">Discord Application</h3>
+<p>On the <a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> you will have to specify if your bot requires Privileged Intents. We recommend having these all enabled at first to ensure the most stability when building your first bot, otherwise you may run into issues when retrieving entities from the library&#39;s cache. </p>
+<p><img src="/images/Intents.png" alt="Bot Page"></p>
+<div class="WARNING"><h5>Warning</h5><p>These privileged intents may not be available for you to toggle on immediately. </p>
+<p>Due to their nature of sensitive data, Discord requires you to go through a verification process once your bot is in a certain amount of servers.
+Please read this <a href="https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting">blog post</a> for more information and how to apply.</p>
+</div>
+<h3 id="discord-configuration">Discord Configuration</h3>
+<p>Within your <code>DiscordConfiguration</code> you will have to specify all the intents you will need. Here is a list of all the
+<a href="xref:DSharpPlus.DiscordIntents">Intents</a> DSharpPlus Supports. By default, the configuration will use <code>DiscordIntents.AllUnprivileged</code> as the default value. Like above however, we recommend having all intents enabled at first, so you should specify <code>DiscordIntents.All</code> in your configuration which will include the privleged intents you enabled in your application: </p>
+<pre><code class="lang-csharp">var config = new DiscordConfiguration()
+{
+    Intents = DiscordIntents.All
+};
+</code></pre><p>When you become more advanced, you can try experimenting with turning off intents you do not need in order to save resources. In your <code>DiscordConfiguration</code> you can specify one or many. </p>
+<p>Here is an example of just specifying one: </p>
+<pre><code class="lang-csharp">var config = new DiscordConfiguration()
+{
+    Intents = DiscordIntents.GuildMessages
+};
+</code></pre><p>Here is an example of specifying many:</p>
+<pre><code class="lang-csharp">var config = new DiscordConfiguration()
+{
+    Intents = DiscordIntents.DirectMessageReactions 
+    | DiscordIntents.DirectMessages 
+    | DiscordIntents.GuildBans 
+    | DiscordIntents.GuildEmojis 
+    | DiscordIntents.GuildInvites 
+    | DiscordIntents.GuildMembers
+    | DiscordIntents.GuildMessages
+    | DiscordIntents.Guilds
+    | DiscordIntents.GuildVoiceStates 
+    | DiscordIntents.GuildWebhooks,
+};
+</code></pre><p>Please Note, if you specify a privileged intent within your <code>DiscordConfiguration</code> that you have not signed up for on the Discord Application page, an error will be thrown on the connection. </p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/beyond_basics/intents.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,184 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Lavalink Setup </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Lavalink Setup ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="audio_lavalink_setup">
+<h1 id="lavalink---the-newer-better-way-to-do-music">Lavalink - the newer, better way to do music</h1>
+
+<p><a href="https://github.com/freyacodes/Lavalink">Lavalink</a> is a standalone program, written in Java. It&#39;s a 
+lightweight solution for playing music from sources such as YouTube or 
+Soundcloud. Unlike raw voice solutions, such as VoiceNext, Lavalink can handle 
+hundreds of concurrent streams, and supports sharding.</p>
+<h2 id="configuring-java">Configuring Java</h2>
+<p>In order to run Lavalink, you must have Java 13 or greater installed. Certain Java versions may not be functional with Lavalink, so it is best to check the <a href="https://github.com/freyacodes/Lavalink#requirements">requirements</a> before downloading.
+The latest releases can be found <a href="https://www.oracle.com/technetwork/java/javase/downloads/index.html">here</a>.</p>
+<p>Make sure the location of the newest JRE&#39;s bin folder is added to your system variable&#39;s path. This will make the <code>java</code> command run from the latest runtime. You can verify that you have the right version by entering <code>java -version</code> in your command prompt or terminal.</p>
+<h2 id="downloading-lavalink">Downloading Lavalink</h2>
+<p>Next, head over to the <a href="https://github.com/freyacodes/Lavalink/releases">releases</a> tab on the Lavalink GitHub page and download the Jar file from the latest version. Alternatively, stable builds with the latest changes can be found on their <a href="https://ci.fredboat.com/viewLog.html?buildId=lastSuccessful&amp;buildTypeId=Lavalink_Build&amp;tab=artifacts&amp;guest=1">CI Server</a>.</p>
+<p>The program will not be ready to run yet, as you will need to create a configuration file first. To do so, create a new YAML file called <code>application.yml</code>, and use the <a href="https://github.com/freyacodes/Lavalink/blob/master/LavalinkServer/application.yml.example">example file</a>, or copy this text:</p>
+<pre><code class="lang-yaml">server: # REST and WS server
+  port: 2333
+  address: 127.0.0.1
+spring:
+  main:
+    banner-mode: log
+lavalink:
+  server:
+    password: &quot;youshallnotpass&quot;
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      mixer: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 6 # Number of pages at 100 each
+    youtubeSearchEnabled: true
+    soundcloudSearchEnabled: true
+    gc-warnings: true
+
+metrics:
+  prometheus:
+    enabled: false
+    endpoint: /metrics
+
+sentry:
+  dsn: &quot;&quot;
+#  tags:
+#    some_key: some_value
+#    another_key: another_value
+
+logging:
+  file:
+    max-history: 30
+    max-size: 1GB
+  path: ./logs/
+
+  level:
+    root: INFO
+    lavalink: INFO
+</code></pre><p>YAML is whitespace-sensitive. Make sure you are using a text editor which properly handles this.</p>
+<p>There are a few values to keep in mind.</p>
+<p><code>host</code> is the IP of the Lavalink host. This will be <code>0.0.0.0</code> by default, but it should be changed as it is a security risk. For this guide, set this to <code>127.0.0.1</code> as we will be running Lavalink locally. </p>
+<p><code>port</code> is the allowed port for the Lavalink connection. <code>2333</code> is the default port, and is what will be used for this guide.</p>
+<p><code>password</code> is the password that you will need to specify when connecting. This can be anything as long as it is a valid YAML string. Keep it as <code>youshallnotpass</code> for this guide.</p>
+<p>When you are finished configuring this, save the file in the same directory as your Lavalink executable.</p>
+<p>Keep note of your <code>port</code>, <code>address</code>, and <code>password</code> values, as you will need them later for connecting.</p>
+<h2 id="starting-lavalink">Starting Lavalink</h2>
+<p>Open your command prompt or terminal and navigate to the directory containing Lavalink. Once there, type <code>java -jar Lavalink.jar</code>. You should start seeing log output from Lavalink.</p>
+<p>If everything is configured properly, you should see this appear somewhere in the log output without any errors: </p>
+<pre><code>[           main] lavalink.server.Launcher                 : Started Launcher in 5.769 seconds (JVM running for 6.758)
+</code></pre><p>If it does, congratulations. We are now ready to interact with it using DSharpPlus.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/audio/lavalink/setup.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+  </body>
+</html>
