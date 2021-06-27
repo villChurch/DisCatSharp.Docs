@@ -1,0 +1,1854 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class Extensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class Extensions
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DSharpPlusNextGen.Common.Extensions">
+  
+  
+  <h1 id="DSharpPlusNextGen_Common_Extensions" data-uid="DSharpPlusNextGen.Common.Extensions" class="text-break">Class Extensions
+  </h1>
+  <div class="markdown level0 summary"><p>Assortment of various extension and utility methods, designed to make working with various types a little easier.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">Extensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DSharpPlusNextGen.Common.html">DSharpPlusNextGen.Common</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DSharpPlusNextGen_Common_Extensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class Extensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_ArraySegment_System_Char__" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(ArraySegment{System.Char})">CalculateKnuthHash(ArraySegment&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this ArraySegment&lt;char&gt; chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArraySegment</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_Memory_System_Char__" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(Memory{System.Char})">CalculateKnuthHash(Memory&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this Memory&lt;char&gt; chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Memory</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_ReadOnlyMemory_System_Char__" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(ReadOnlyMemory{System.Char})">CalculateKnuthHash(ReadOnlyMemory&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this ReadOnlyMemory&lt;char&gt; chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlyMemory</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_ReadOnlySpan_System_Char__" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(ReadOnlySpan{System.Char})">CalculateKnuthHash(ReadOnlySpan&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this ReadOnlySpan&lt;char&gt; chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_Span_System_Char__" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(Span{System.Char})">CalculateKnuthHash(Span&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this Span&lt;char&gt; chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_System_Char___" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(System.Char[])">CalculateKnuthHash(Char[])</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this char[] chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_System_Char___System_Int32_System_Int32_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(System.Char[],System.Int32,System.Int32)">CalculateKnuthHash(Char[], Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this char[] chars, int start, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span>[]</td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Offset in the array to start calculating from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of characters to compute the hash from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_System_String_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(System.String)">CalculateKnuthHash(String)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this string chars)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateKnuthHash_System_String_System_Int32_System_Int32_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateKnuthHash(System.String,System.Int32,System.Int32)">CalculateKnuthHash(String, Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Computes a 64-bit Knuth hash from supplied characters.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static ulong CalculateKnuthHash(this string chars, int start, int count)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">chars</span></td>
+        <td><p>Characters to compute the hash value from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">start</span></td>
+        <td><p>Offset in the array to start calculating from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">count</span></td>
+        <td><p>Number of characters to compute the hash from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Computer 64-bit Knuth hash.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_Byte_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.Byte)">CalculateLength(Byte)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this byte num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated nuembr length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_Int16_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.Int16)">CalculateLength(Int16)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this short num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated number length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_Int32_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.Int32)">CalculateLength(Int32)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this int num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated number length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_Int64_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.Int64)">CalculateLength(Int64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this long num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated number length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_SByte_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.SByte)">CalculateLength(SByte)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this sbyte num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated number length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_UInt16_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.UInt16)">CalculateLength(UInt16)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this ushort num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated nuembr length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_UInt32_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.UInt32)">CalculateLength(UInt32)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this uint num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated nuembr length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_CalculateLength_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_CalculateLength_System_UInt64_" data-uid="DSharpPlusNextGen.Common.Extensions.CalculateLength(System.UInt64)">CalculateLength(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Calculates the length of string representation of given number in base 10 (including sign, if present).</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static int CalculateLength(this ulong num)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to calculate the length of.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Calculated nuembr length.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_Deconstruct_" data-uid="DSharpPlusNextGen.Common.Extensions.Deconstruct*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_Deconstruct__2_KeyValuePair___0___1____0____1__" data-uid="DSharpPlusNextGen.Common.Extensions.Deconstruct``2(KeyValuePair{``0,``1},``0@,``1@)">Deconstruct&lt;TKey, TValue&gt;(KeyValuePair&lt;TKey, TValue&gt;, out TKey, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Deconstructs a <see cref="!:Dictionary&lt;TKey, TValue>"></see> key-value pair item (<see cref="!:KeyValuePair&lt;TKey, TValue>"></see>) into 2 separate variables.</p>
+<p>This allows for enumerating over dictionaries in foreach blocks by using a (k, v) tuple as the enumerator variable, instead of having to use a <see cref="!:KeyValuePair&lt;TKey, TValue>"></see> directly.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void Deconstruct&lt;TKey, TValue&gt;(this KeyValuePair&lt;TKey, TValue&gt; kvp, out TKey key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">KeyValuePair</span>&lt;TKey, TValue&gt;</td>
+        <td><span class="parametername">kvp</span></td>
+        <td><p>Key-value pair to deconstruct.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TKey</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Deconstructed key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Deconstructed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TKey</span></td>
+        <td><p>Type of dictionary item key.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>Type of dictionary item value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_EndsWithCharacter_" data-uid="DSharpPlusNextGen.Common.Extensions.EndsWithCharacter*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_EndsWithCharacter_System_String_System_Char_" data-uid="DSharpPlusNextGen.Common.Extensions.EndsWithCharacter(System.String,System.Char)">EndsWithCharacter(String, Char)</h4>
+  <div class="markdown level1 summary"><p>Tests whether given string ends with given character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool EndsWithCharacter(this string s, char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>String to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Character to test for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the supplied string ends with supplied character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsBasicAlphanumeric_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicAlphanumeric*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsBasicAlphanumeric_System_Char_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicAlphanumeric(System.Char)">IsBasicAlphanumeric(Char)</h4>
+  <div class="markdown level1 summary"><p>Returns whether supplied character is in any of the following ranges: a-z, A-Z, 0-9.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBasicAlphanumeric(this char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Character to test.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the character is in basic alphanumeric character range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsBasicDigit_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicDigit*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsBasicDigit_System_Char_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicDigit(System.Char)">IsBasicDigit(Char)</h4>
+  <div class="markdown level1 summary"><p>Returns whether supplied character is in the 0-9 range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBasicDigit(this char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Character to test.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the character is in basic numeric digit character range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsBasicLetter_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicLetter*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsBasicLetter_System_Char_" data-uid="DSharpPlusNextGen.Common.Extensions.IsBasicLetter(System.Char)">IsBasicLetter(Char)</h4>
+  <div class="markdown level1 summary"><p>Returns whether supplied character is in the a-z or A-Z range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsBasicLetter(this char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Character to test.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the character is in basic letter character range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Byte_System_Byte_System_Byte_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Byte,System.Byte,System.Byte,System.Boolean)">IsInRange(Byte, Byte, Byte, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this byte num, byte min, byte max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Double_System_Double_System_Double_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Double,System.Double,System.Double,System.Boolean)">IsInRange(Double, Double, Double, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this double num, double min, double max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Int16_System_Int16_System_Int16_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Int16,System.Int16,System.Int16,System.Boolean)">IsInRange(Int16, Int16, Int16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this short num, short min, short max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Int32_System_Int32_System_Int32_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Int32,System.Int32,System.Int32,System.Boolean)">IsInRange(Int32, Int32, Int32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this int num, int min, int max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Int64_System_Int64_System_Int64_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Int64,System.Int64,System.Int64,System.Boolean)">IsInRange(Int64, Int64, Int64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this long num, long min, long max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_SByte_System_SByte_System_SByte_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.SByte,System.SByte,System.SByte,System.Boolean)">IsInRange(SByte, SByte, SByte, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this sbyte num, sbyte min, sbyte max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_Single_System_Single_System_Single_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.Single,System.Single,System.Single,System.Boolean)">IsInRange(Single, Single, Single, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this float num, float min, float max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_UInt16_System_UInt16_System_UInt16_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.UInt16,System.UInt16,System.UInt16,System.Boolean)">IsInRange(UInt16, UInt16, UInt16, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this ushort num, ushort min, ushort max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_UInt32_System_UInt32_System_UInt32_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.UInt32,System.UInt32,System.UInt32,System.Boolean)">IsInRange(UInt32, UInt32, UInt32, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this uint num, uint min, uint max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_IsInRange_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_IsInRange_System_UInt64_System_UInt64_System_UInt64_System_Boolean_" data-uid="DSharpPlusNextGen.Common.Extensions.IsInRange(System.UInt64,System.UInt64,System.UInt64,System.Boolean)">IsInRange(UInt64, UInt64, UInt64, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Tests wheter given value is in supplied range, optionally allowing it to be an exclusive check.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool IsInRange(this ulong num, ulong min, ulong max, bool inclusive = true)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">num</span></td>
+        <td><p>Number to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Lower bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Upper bound of the range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">inclusive</span></td>
+        <td><p>Whether the check is to be inclusive.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the value is in range.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_Extensions_StartsWithCharacter_" data-uid="DSharpPlusNextGen.Common.Extensions.StartsWithCharacter*"></a>
+  <h4 id="DSharpPlusNextGen_Common_Extensions_StartsWithCharacter_System_String_System_Char_" data-uid="DSharpPlusNextGen.Common.Extensions.StartsWithCharacter(System.String,System.Char)">StartsWithCharacter(String, Char)</h4>
+  <div class="markdown level1 summary"><p>Tests whether given string starts with given character.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool StartsWithCharacter(this string s, char c)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">s</span></td>
+        <td><p>String to test.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Char</span></td>
+        <td><span class="parametername">c</span></td>
+        <td><p>Character to test for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the supplied string starts with supplied character.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>

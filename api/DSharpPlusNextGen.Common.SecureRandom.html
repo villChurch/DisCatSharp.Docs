@@ -1,0 +1,983 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class SecureRandom
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class SecureRandom
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DSharpPlusNextGen.Common.SecureRandom">
+  
+  
+  <h1 id="DSharpPlusNextGen_Common_SecureRandom" data-uid="DSharpPlusNextGen.Common.SecureRandom" class="text-break">Class SecureRandom
+  </h1>
+  <div class="markdown level0 summary"><p>Provides a cryptographically-secure pseudorandom number generator (CSPRNG) implementation compatible with <see cref="!:Random"></see>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">SecureRandom</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DSharpPlusNextGen.Common.html">DSharpPlusNextGen.Common</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DSharpPlusNextGen_Common_SecureRandom_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class SecureRandom : Random, IDisposable</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom__ctor_" data-uid="DSharpPlusNextGen.Common.SecureRandom.#ctor*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom__ctor" data-uid="DSharpPlusNextGen.Common.SecureRandom.#ctor">SecureRandom()</h4>
+  <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="DSharpPlusNextGen.Common.SecureRandom.html">SecureRandom</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public SecureRandom()</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Dispose_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Dispose*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Dispose" data-uid="DSharpPlusNextGen.Common.SecureRandom.Dispose">Dispose()</h4>
+  <div class="markdown level1 summary"><p>Disposes this <a class="xref" href="DSharpPlusNextGen.Common.SecureRandom.html">SecureRandom</a> instance and its resources.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Dispose()</code></pre>
+  </div>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Finalize_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Finalize*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Finalize" data-uid="DSharpPlusNextGen.Common.SecureRandom.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"><p>Finalizes this <a class="xref" href="DSharpPlusNextGen.Common.SecureRandom.html">SecureRandom</a> instance by disposing it.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetBytes_Span_System_Byte__" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetBytes(Span{System.Byte})">GetBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied memory region with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memmory region to fill with random bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetBytes_System_Byte___" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetBytes(System.Byte[])">GetBytes(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied buffer with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBytes(byte[] buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Buffer to fill with random bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetDouble_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetDouble*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetDouble" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetDouble">GetDouble()</h4>
+  <div class="markdown level1 summary"><p>Generates a 64-bit floating-point number between 0.0 and 1.0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double GetDouble()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Generated 64-bit floating-point number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetInt16_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt16*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetInt16_System_Int16_System_Int16_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt16(System.Int16,System.Int16)">GetInt16(Int16, Int16)</h4>
+  <div class="markdown level1 summary"><p>Generates a signed 16-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public short GetInt16(short min = 0, short max = 32767)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.Int16.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int16</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetInt32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt32*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetInt32_System_Int32_System_Int32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt32(System.Int32,System.Int32)">GetInt32(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a signed 32-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetInt32(int min = 0, int max = 2147483647)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.Int32.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetInt64_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt64*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetInt64_System_Int64_System_Int64_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt64(System.Int64,System.Int64)">GetInt64(Int64, Int64)</h4>
+  <div class="markdown level1 summary"><p>Generates a signed 64-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public long GetInt64(long min = 0L, long max = 9223372036854775807L)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.Int64.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int64</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetInt8_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt8*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetInt8_System_SByte_System_SByte_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetInt8(System.SByte,System.SByte)">GetInt8(SByte, SByte)</h4>
+  <div class="markdown level1 summary"><p>Generates a signed 8-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sbyte GetInt8(sbyte min = 0, sbyte max = 127)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.SByte.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.SByte</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetNonZeroBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetNonZeroBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetNonZeroBytes_Span_System_Byte__" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetNonZeroBytes(Span{System.Byte})">GetNonZeroBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied memory region with random nonzero bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetNonZeroBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memmory region to fill with random nonzero bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetNonZeroBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetNonZeroBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetNonZeroBytes_System_Byte___" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetNonZeroBytes(System.Byte[])">GetNonZeroBytes(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied buffer with random nonzero bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetNonZeroBytes(byte[] buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Buffer to fill with random nonzero bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetSingle_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetSingle*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetSingle" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetSingle">GetSingle()</h4>
+  <div class="markdown level1 summary"><p>Generates a 32-bit floating-point number between 0.0 and 1.0.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public float GetSingle()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Single</span></td>
+        <td><p>Generated 32-bit floating-point number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetUInt16_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt16*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetUInt16_System_UInt16_System_UInt16_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt16(System.UInt16,System.UInt16)">GetUInt16(UInt16, UInt16)</h4>
+  <div class="markdown level1 summary"><p>Generates a unsigned 16-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ushort GetUInt16(ushort min = 0, ushort max = 65535)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.UInt16.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt16</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetUInt32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt32*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetUInt32_System_UInt32_System_UInt32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt32(System.UInt32,System.UInt32)">GetUInt32(UInt32, UInt32)</h4>
+  <div class="markdown level1 summary"><p>Generates a unsigned 32-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public uint GetUInt32(uint min = 0U, uint max = 4294967295U)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.UInt32.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt32</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetUInt64_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt64*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetUInt64_System_UInt64_System_UInt64_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt64(System.UInt64,System.UInt64)">GetUInt64(UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Generates a unsigned 64-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong GetUInt64(ulong min = 0UL, ulong max = 18446744073709551615UL)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.UInt64.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_GetUInt8_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt8*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_GetUInt8_System_Byte_System_Byte_" data-uid="DSharpPlusNextGen.Common.SecureRandom.GetUInt8(System.Byte,System.Byte)">GetUInt8(Byte, Byte)</h4>
+  <div class="markdown level1 summary"><p>Generates a unsigned 8-bit integer within specified range.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public byte GetUInt8(byte min = 0, byte max = 255)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">min</span></td>
+        <td><p>Minimum value to generate. Defaults to 0.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><span class="parametername">max</span></td>
+        <td><p>Maximum value to generate. Defaults to <span class="xref">System.Byte.MaxValue</span>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span></td>
+        <td><p>Generated random value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Next_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Next" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next">Next()</h4>
+  <div class="markdown level1 summary"><p>Generates a 32-bit integer between 0 and <span class="xref">System.Int32.MaxValue</span>. Upper end exclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Next()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Generated 32-bit integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Next_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Next_System_Int32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next(System.Int32)">Next(Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a 32-bit integer between 0 and <code data-dev-comment-type="paramref" class="paramref">maxValue</code>. Upper end exclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Next(int maxValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td><p>Maximum value of the generated integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Generated 32-bit integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Next_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Next_System_Int32_System_Int32_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Next(System.Int32,System.Int32)">Next(Int32, Int32)</h4>
+  <div class="markdown level1 summary"><p>Generates a 32-bit integer between <code data-dev-comment-type="paramref" class="paramref">minValue</code> and <code data-dev-comment-type="paramref" class="paramref">maxValue</code>. Upper end exclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int Next(int minValue, int maxValue)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">minValue</span></td>
+        <td><p>Minimum value of the generate integer.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">maxValue</span></td>
+        <td><p>Maximum value of the generated integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>Generated 32-bit integer.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_NextBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_NextBytes_Span_System_Byte__" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextBytes(Span{System.Byte})">NextBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills specified memory region with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NextBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memory region to fill with bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_NextBytes_" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextBytes*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_NextBytes_System_Byte___" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextBytes(System.Byte[])">NextBytes(Byte[])</h4>
+  <div class="markdown level1 summary"><p>Fills specified buffer with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override void NextBytes(byte[] buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Byte</span>[]</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Buffer to fill with bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_NextDouble_" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextDouble*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_NextDouble" data-uid="DSharpPlusNextGen.Common.SecureRandom.NextDouble">NextDouble()</h4>
+  <div class="markdown level1 summary"><p>Generates a 64-bit floating-point number between 0.0 and 1.0. Upper end exclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override double NextDouble()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Generated 64-bit floating-point number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Common_SecureRandom_Sample_" data-uid="DSharpPlusNextGen.Common.SecureRandom.Sample*"></a>
+  <h4 id="DSharpPlusNextGen_Common_SecureRandom_Sample" data-uid="DSharpPlusNextGen.Common.SecureRandom.Sample">Sample()</h4>
+  <div class="markdown level1 summary"><p>Generates a random 64-bit floating-point number between 0.0 and 1.0. Upper end exclusive.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override double Sample()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Double</span></td>
+        <td><p>Generated 64-bit floating-point number.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+  </body>
+</html>
