@@ -3229,28 +3229,28 @@ references:
   commentId: E:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.CommandExecuted
   fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.CommandExecuted
   nameWithType: CommandsNextExtension.CommandExecuted
-- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync(System.String,DSharpPlusNextGen.CommandsNext.CommandContext,Type)
-  name: ConvertArgumentAsync(String, CommandContext, Type)
-  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgumentAsync_System_String_DSharpPlusNextGen_CommandsNext_CommandContext_Type_
-  commentId: M:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync(System.String,DSharpPlusNextGen.CommandsNext.CommandContext,Type)
-  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync(System.String, DSharpPlusNextGen.CommandsNext.CommandContext, Type)
-  nameWithType: CommandsNextExtension.ConvertArgumentAsync(String, CommandContext, Type)
-- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync*
-  name: ConvertArgumentAsync
-  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgumentAsync_
-  commentId: Overload:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync
+- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument(System.String,DSharpPlusNextGen.CommandsNext.CommandContext,Type)
+  name: ConvertArgument(String, CommandContext, Type)
+  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgument_System_String_DSharpPlusNextGen_CommandsNext_CommandContext_Type_
+  commentId: M:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument(System.String,DSharpPlusNextGen.CommandsNext.CommandContext,Type)
+  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument(System.String, DSharpPlusNextGen.CommandsNext.CommandContext, Type)
+  nameWithType: CommandsNextExtension.ConvertArgument(String, CommandContext, Type)
+- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument*
+  name: ConvertArgument
+  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgument_
+  commentId: Overload:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument
   isSpec: "True"
-  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync
-  nameWithType: CommandsNextExtension.ConvertArgumentAsync
-- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync``1(System.String,DSharpPlusNextGen.CommandsNext.CommandContext)
-  name: ConvertArgumentAsync<T>(String, CommandContext)
-  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgumentAsync__1_System_String_DSharpPlusNextGen_CommandsNext_CommandContext_
-  commentId: M:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync``1(System.String,DSharpPlusNextGen.CommandsNext.CommandContext)
-  name.vb: ConvertArgumentAsync(Of T)(String, CommandContext)
-  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync<T>(System.String, DSharpPlusNextGen.CommandsNext.CommandContext)
-  fullName.vb: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgumentAsync(Of T)(System.String, DSharpPlusNextGen.CommandsNext.CommandContext)
-  nameWithType: CommandsNextExtension.ConvertArgumentAsync<T>(String, CommandContext)
-  nameWithType.vb: CommandsNextExtension.ConvertArgumentAsync(Of T)(String, CommandContext)
+  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument
+  nameWithType: CommandsNextExtension.ConvertArgument
+- uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument``1(System.String,DSharpPlusNextGen.CommandsNext.CommandContext)
+  name: ConvertArgument<T>(String, CommandContext)
+  href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_ConvertArgument__1_System_String_DSharpPlusNextGen_CommandsNext_CommandContext_
+  commentId: M:DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument``1(System.String,DSharpPlusNextGen.CommandsNext.CommandContext)
+  name.vb: ConvertArgument(Of T)(String, CommandContext)
+  fullName: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument<T>(System.String, DSharpPlusNextGen.CommandsNext.CommandContext)
+  fullName.vb: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.ConvertArgument(Of T)(System.String, DSharpPlusNextGen.CommandsNext.CommandContext)
+  nameWithType: CommandsNextExtension.ConvertArgument<T>(String, CommandContext)
+  nameWithType.vb: CommandsNextExtension.ConvertArgument(Of T)(String, CommandContext)
 - uid: DSharpPlusNextGen.CommandsNext.CommandsNextExtension.CreateContext(DiscordMessage,System.String,DSharpPlusNextGen.CommandsNext.Command,System.String)
   name: CreateContext(DiscordMessage, String, Command, String)
   href: api/DSharpPlusNextGen.CommandsNext.CommandsNextExtension.html#DSharpPlusNextGen_CommandsNext_CommandsNextExtension_CreateContext_DiscordMessage_System_String_DSharpPlusNextGen_CommandsNext_Command_System_String_
@@ -20419,19 +20419,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Label
   nameWithType: DiscordLinkButtonComponent.Label
-- uid: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type
-  name: Type
-  href: api/DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.html#DSharpPlusNextGen_Entities_DiscordLinkButtonComponent_Type
-  commentId: P:DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type
-  fullName: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type
-  nameWithType: DiscordLinkButtonComponent.Type
-- uid: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type*
-  name: Type
-  href: api/DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.html#DSharpPlusNextGen_Entities_DiscordLinkButtonComponent_Type_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Type
-  nameWithType: DiscordLinkButtonComponent.Type
 - uid: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.Url
   name: Url
   href: api/DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.html#DSharpPlusNextGen_Entities_DiscordLinkButtonComponent_Url
@@ -23401,6 +23388,22 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordSelectComponent
   fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent
   nameWithType: DiscordSelectComponent
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.String,System.Int32,System.Int32)
+  name: DiscordSelectComponent(String, IEnumerable<DiscordSelectComponentOption>, String, Int32, Int32)
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_String_System_Int32_System_Int32_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.String,System.Int32,System.Int32)
+  name.vb: DiscordSelectComponent(String, IEnumerable(Of DiscordSelectComponentOption), String, Int32, Int32)
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordSelectComponentOption>, System.String, System.Int32, System.Int32)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordSelectComponentOption), System.String, System.Int32, System.Int32)
+  nameWithType: DiscordSelectComponent.DiscordSelectComponent(String, IEnumerable<DiscordSelectComponentOption>, String, Int32, Int32)
+  nameWithType.vb: DiscordSelectComponent.DiscordSelectComponent(String, IEnumerable(Of DiscordSelectComponentOption), String, Int32, Int32)
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor*
+  name: DiscordSelectComponent
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent
+  nameWithType: DiscordSelectComponent.DiscordSelectComponent
 - uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
   name: CustomId
   href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_CustomId
