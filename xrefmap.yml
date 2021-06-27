@@ -20167,6 +20167,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordInvite.ToString
   nameWithType: DiscordInvite.ToString
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Uri
+  name: Uri
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Uri
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInvite.Uri
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Uri
+  nameWithType: DiscordInvite.Uri
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Uri*
+  name: Uri
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Uri_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInvite.Uri
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Uri
+  nameWithType: DiscordInvite.Uri
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Url
+  name: Url
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Url
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInvite.Url
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Url
+  nameWithType: DiscordInvite.Url
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Url*
+  name: Url
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Url_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInvite.Url
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Url
+  nameWithType: DiscordInvite.Url
 - uid: DSharpPlusNextGen.Entities.DiscordInvite.Uses
   name: Uses
   href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Uses
@@ -39715,6 +39741,324 @@ references:
   commentId: F:DSharpPlusNextGen.Entities.WidgetType.Shield
   fullName: DSharpPlusNextGen.Entities.WidgetType.Shield
   nameWithType: WidgetType.Shield
+- uid: DSharpPlusNextGen.Enums.Discord
+  name: DSharpPlusNextGen.Enums.Discord
+  href: api/DSharpPlusNextGen.Enums.Discord.html
+  commentId: N:DSharpPlusNextGen.Enums.Discord
+  fullName: DSharpPlusNextGen.Enums.Discord
+  nameWithType: DSharpPlusNextGen.Enums.Discord
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain
+  name: CoreDomain
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.CoreDomain
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain
+  nameWithType: CoreDomain
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.Discord
+  name: Discord
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_Discord
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.Discord
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.Discord
+  nameWithType: CoreDomain.Discord
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivity
+  name: DiscordActivity
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordActivity
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivity
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivity
+  nameWithType: CoreDomain.DiscordActivity
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt
+  name: DiscordActivityAlt
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordActivityAlt
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt
+  nameWithType: CoreDomain.DiscordActivityAlt
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt2
+  name: DiscordActivityAlt2
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordActivityAlt2
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt2
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordActivityAlt2
+  nameWithType: CoreDomain.DiscordActivityAlt2
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAdmin
+  name: DiscordAdmin
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordAdmin
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAdmin
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAdmin
+  nameWithType: CoreDomain.DiscordAdmin
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppMediaProxy
+  name: DiscordAppMediaProxy
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordAppMediaProxy
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppMediaProxy
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppMediaProxy
+  nameWithType: CoreDomain.DiscordAppMediaProxy
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppOld
+  name: DiscordAppOld
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordAppOld
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppOld
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppOld
+  nameWithType: CoreDomain.DiscordAppOld
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDesign
+  name: DiscordDesign
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordDesign
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDesign
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDesign
+  nameWithType: CoreDomain.DiscordDesign
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDev
+  name: DiscordDev
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordDev
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDev
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDev
+  nameWithType: CoreDomain.DiscordDev
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordGift
+  name: DiscordGift
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordGift
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordGift
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordGift
+  nameWithType: CoreDomain.DiscordGift
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMarketing
+  name: DiscordMarketing
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordMarketing
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMarketing
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMarketing
+  nameWithType: CoreDomain.DiscordMarketing
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMedia
+  name: DiscordMedia
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordMedia
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMedia
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMedia
+  nameWithType: CoreDomain.DiscordMedia
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerch
+  name: DiscordMerch
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordMerch
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerch
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerch
+  nameWithType: CoreDomain.DiscordMerch
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerchOld
+  name: DiscordMerchOld
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordMerchOld
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerchOld
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordMerchOld
+  nameWithType: CoreDomain.DiscordMerchOld
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordShortlink
+  name: DiscordShortlink
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordShortlink
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordShortlink
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordShortlink
+  nameWithType: CoreDomain.DiscordShortlink
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordStatus
+  name: DiscordStatus
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordStatus
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordStatus
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordStatus
+  nameWithType: CoreDomain.DiscordStatus
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTemplate
+  name: DiscordTemplate
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordTemplate
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTemplate
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTemplate
+  nameWithType: CoreDomain.DiscordTemplate
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTools
+  name: DiscordTools
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordTools
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTools
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordTools
+  nameWithType: CoreDomain.DiscordTools
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordDomain
+  name: DiscordDomain
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordDomain.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.DiscordDomain
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordDomain
+  nameWithType: DiscordDomain
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain(Enum)
+  name: GetDomain(Enum)
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordDomain.html#DSharpPlusNextGen_Enums_Discord_DiscordDomain_GetDomain_Enum_
+  commentId: M:DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain(Enum)
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain(Enum)
+  nameWithType: DiscordDomain.GetDomain(Enum)
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain*
+  name: GetDomain
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordDomain.html#DSharpPlusNextGen_Enums_Discord_DiscordDomain_GetDomain_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordDomain.GetDomain
+  nameWithType: DiscordDomain.GetDomain
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink
+  name: DiscordShortlink
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.DiscordShortlink
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink
+  nameWithType: DiscordShortlink
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.BugReport
+  name: BugReport
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_BugReport
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.BugReport
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.BugReport
+  nameWithType: DiscordShortlink.BugReport
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Contact
+  name: Contact
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Contact
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Contact
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Contact
+  nameWithType: DiscordShortlink.Contact
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Guidlines
+  name: Guidlines
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Guidlines
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Guidlines
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Guidlines
+  nameWithType: DiscordShortlink.Guidlines
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Moderation
+  name: Moderation
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Moderation
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Moderation
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Moderation
+  nameWithType: DiscordShortlink.Moderation
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Status
+  name: Status
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Status
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Status
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Status
+  nameWithType: DiscordShortlink.Status
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Support
+  name: Support
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Support
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Support
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Support
+  nameWithType: DiscordShortlink.Support
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Terms
+  name: Terms
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_Terms
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Terms
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.Terms
+  nameWithType: DiscordShortlink.Terms
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TranslationError
+  name: TranslationError
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_TranslationError
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TranslationError
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TranslationError
+  nameWithType: DiscordShortlink.TranslationError
+- uid: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TrustAndSafety
+  name: TrustAndSafety
+  href: api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html#DSharpPlusNextGen_Enums_Discord_DiscordShortlink_TrustAndSafety
+  commentId: F:DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TrustAndSafety
+  fullName: DSharpPlusNextGen.Enums.Discord.DiscordShortlink.TrustAndSafety
+  nameWithType: DiscordShortlink.TrustAndSafety
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute
+  name: DomainHelpAttribute
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute
+  nameWithType: DomainHelpAttribute
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.#ctor(System.String,System.String)
+  name: DomainHelpAttribute(String, String)
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute__ctor_System_String_System_String_
+  commentId: M:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.#ctor(System.String,System.String)
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.DomainHelpAttribute(System.String, System.String)
+  nameWithType: DomainHelpAttribute.DomainHelpAttribute(String, String)
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.#ctor*
+  name: DomainHelpAttribute
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute__ctor_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.#ctor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.DomainHelpAttribute
+  nameWithType: DomainHelpAttribute.DomainHelpAttribute
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description
+  name: Description
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Description
+  commentId: P:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description
+  nameWithType: DomainHelpAttribute.Description
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description*
+  name: Description
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Description_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Description
+  nameWithType: DomainHelpAttribute.Description
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain
+  name: Domain
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Domain
+  commentId: P:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain
+  nameWithType: DomainHelpAttribute.Domain
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain*
+  name: Domain
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Domain_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Domain
+  nameWithType: DomainHelpAttribute.Domain
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri
+  name: Uri
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Uri
+  commentId: P:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri
+  nameWithType: DomainHelpAttribute.Uri
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri*
+  name: Uri
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Uri_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Uri
+  nameWithType: DomainHelpAttribute.Uri
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url
+  name: Url
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Url
+  commentId: P:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url
+  nameWithType: DomainHelpAttribute.Url
+- uid: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url*
+  name: Url
+  href: api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html#DSharpPlusNextGen_Enums_Discord_DomainHelpAttribute_Url_
+  commentId: Overload:DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.Url
+  nameWithType: DomainHelpAttribute.Url
+- uid: DSharpPlusNextGen.Enums.Discord.OtherDomain
+  name: OtherDomain
+  href: api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.OtherDomain
+  fullName: DSharpPlusNextGen.Enums.Discord.OtherDomain
+  nameWithType: OtherDomain
+- uid: DSharpPlusNextGen.Enums.Discord.OtherDomain.Airhorn
+  name: Airhorn
+  href: api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html#DSharpPlusNextGen_Enums_Discord_OtherDomain_Airhorn
+  commentId: F:DSharpPlusNextGen.Enums.Discord.OtherDomain.Airhorn
+  fullName: DSharpPlusNextGen.Enums.Discord.OtherDomain.Airhorn
+  nameWithType: OtherDomain.Airhorn
+- uid: DSharpPlusNextGen.Enums.Discord.OtherDomain.AirhornAlt
+  name: AirhornAlt
+  href: api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html#DSharpPlusNextGen_Enums_Discord_OtherDomain_AirhornAlt
+  commentId: F:DSharpPlusNextGen.Enums.Discord.OtherDomain.AirhornAlt
+  fullName: DSharpPlusNextGen.Enums.Discord.OtherDomain.AirhornAlt
+  nameWithType: OtherDomain.AirhornAlt
+- uid: DSharpPlusNextGen.Enums.Discord.OtherDomain.AprilFools
+  name: AprilFools
+  href: api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html#DSharpPlusNextGen_Enums_Discord_OtherDomain_AprilFools
+  commentId: F:DSharpPlusNextGen.Enums.Discord.OtherDomain.AprilFools
+  fullName: DSharpPlusNextGen.Enums.Discord.OtherDomain.AprilFools
+  nameWithType: OtherDomain.AprilFools
+- uid: DSharpPlusNextGen.Enums.Discord.OtherDomain.HypeSquadMeme
+  name: HypeSquadMeme
+  href: api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html#DSharpPlusNextGen_Enums_Discord_OtherDomain_HypeSquadMeme
+  commentId: F:DSharpPlusNextGen.Enums.Discord.OtherDomain.HypeSquadMeme
+  fullName: DSharpPlusNextGen.Enums.Discord.OtherDomain.HypeSquadMeme
+  nameWithType: OtherDomain.HypeSquadMeme
+- uid: DSharpPlusNextGen.Enums.Discord.UnusedDomain
+  name: UnusedDomain
+  href: api/DSharpPlusNextGen.Enums.Discord.UnusedDomain.html
+  commentId: T:DSharpPlusNextGen.Enums.Discord.UnusedDomain
+  fullName: DSharpPlusNextGen.Enums.Discord.UnusedDomain
+  nameWithType: UnusedDomain
+- uid: DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordAppIo
+  name: DiscordAppIo
+  href: api/DSharpPlusNextGen.Enums.Discord.UnusedDomain.html#DSharpPlusNextGen_Enums_Discord_UnusedDomain_DiscordAppIo
+  commentId: F:DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordAppIo
+  fullName: DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordAppIo
+  nameWithType: UnusedDomain.DiscordAppIo
+- uid: DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordCdnCom
+  name: DiscordCdnCom
+  href: api/DSharpPlusNextGen.Enums.Discord.UnusedDomain.html#DSharpPlusNextGen_Enums_Discord_UnusedDomain_DiscordCdnCom
+  commentId: F:DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordCdnCom
+  fullName: DSharpPlusNextGen.Enums.Discord.UnusedDomain.DiscordCdnCom
+  nameWithType: UnusedDomain.DiscordCdnCom
 - uid: DSharpPlusNextGen.EventArgs
   name: DSharpPlusNextGen.EventArgs
   href: api/DSharpPlusNextGen.EventArgs.html
@@ -49718,6 +50062,12 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.SlashCommands.ChoiceProviderAttribute.ProviderType
   nameWithType: ChoiceProviderAttribute.ProviderType
+- uid: DSharpPlusNextGen.SlashCommands.DontInjectAttribute
+  name: DontInjectAttribute
+  href: api/DSharpPlusNextGen.SlashCommands.DontInjectAttribute.html
+  commentId: T:DSharpPlusNextGen.SlashCommands.DontInjectAttribute
+  fullName: DSharpPlusNextGen.SlashCommands.DontInjectAttribute
+  nameWithType: DontInjectAttribute
 - uid: DSharpPlusNextGen.SlashCommands.EnumHelpers
   name: EnumHelpers
   href: api/DSharpPlusNextGen.SlashCommands.EnumHelpers.html
@@ -49816,6 +50166,31 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.GetSlashCommands
   nameWithType: ExtensionMethods.GetSlashCommands
+- uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands(IReadOnlyDictionary{System.Int32,DSharpPlusNextGen.SlashCommands.SlashCommandsExtension},Type,System.Nullable{System.UInt64})
+  name: RegisterCommands(IReadOnlyDictionary<Int32, SlashCommandsExtension>, Type, Nullable<UInt64>)
+  href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_RegisterCommands_IReadOnlyDictionary_System_Int32_DSharpPlusNextGen_SlashCommands_SlashCommandsExtension__Type_System_Nullable_System_UInt64__
+  commentId: M:DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands(IReadOnlyDictionary{System.Int32,DSharpPlusNextGen.SlashCommands.SlashCommandsExtension},Type,System.Nullable{System.UInt64})
+  name.vb: RegisterCommands(IReadOnlyDictionary(Of Int32, SlashCommandsExtension), Type, Nullable(Of UInt64))
+  fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands(IReadOnlyDictionary<System.Int32, DSharpPlusNextGen.SlashCommands.SlashCommandsExtension>, Type, System.Nullable<System.UInt64>)
+  fullName.vb: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands(IReadOnlyDictionary(Of System.Int32, DSharpPlusNextGen.SlashCommands.SlashCommandsExtension), Type, System.Nullable(Of System.UInt64))
+  nameWithType: ExtensionMethods.RegisterCommands(IReadOnlyDictionary<Int32, SlashCommandsExtension>, Type, Nullable<UInt64>)
+  nameWithType.vb: ExtensionMethods.RegisterCommands(IReadOnlyDictionary(Of Int32, SlashCommandsExtension), Type, Nullable(Of UInt64))
+- uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands*
+  name: RegisterCommands
+  href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_RegisterCommands_
+  commentId: Overload:DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands
+  nameWithType: ExtensionMethods.RegisterCommands
+- uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands``1(IReadOnlyDictionary{System.Int32,DSharpPlusNextGen.SlashCommands.SlashCommandsExtension},System.Nullable{System.UInt64})
+  name: RegisterCommands<T>(IReadOnlyDictionary<Int32, SlashCommandsExtension>, Nullable<UInt64>)
+  href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_RegisterCommands__1_IReadOnlyDictionary_System_Int32_DSharpPlusNextGen_SlashCommands_SlashCommandsExtension__System_Nullable_System_UInt64__
+  commentId: M:DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands``1(IReadOnlyDictionary{System.Int32,DSharpPlusNextGen.SlashCommands.SlashCommandsExtension},System.Nullable{System.UInt64})
+  name.vb: RegisterCommands(Of T)(IReadOnlyDictionary(Of Int32, SlashCommandsExtension), Nullable(Of UInt64))
+  fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands<T>(IReadOnlyDictionary<System.Int32, DSharpPlusNextGen.SlashCommands.SlashCommandsExtension>, System.Nullable<System.UInt64>)
+  fullName.vb: DSharpPlusNextGen.SlashCommands.ExtensionMethods.RegisterCommands(Of T)(IReadOnlyDictionary(Of System.Int32, DSharpPlusNextGen.SlashCommands.SlashCommandsExtension), System.Nullable(Of System.UInt64))
+  nameWithType: ExtensionMethods.RegisterCommands<T>(IReadOnlyDictionary<Int32, SlashCommandsExtension>, Nullable<UInt64>)
+  nameWithType.vb: ExtensionMethods.RegisterCommands(Of T)(IReadOnlyDictionary(Of Int32, SlashCommandsExtension), Nullable(Of UInt64))
 - uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommands(DSharpPlusNextGen.DiscordClient,DSharpPlusNextGen.SlashCommands.SlashCommandsConfiguration)
   name: UseSlashCommands(DiscordClient, SlashCommandsConfiguration)
   href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_UseSlashCommands_DSharpPlusNextGen_DiscordClient_DSharpPlusNextGen_SlashCommands_SlashCommandsConfiguration_
@@ -49829,6 +50204,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommands
   nameWithType: ExtensionMethods.UseSlashCommands
+- uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync(DSharpPlusNextGen.DiscordShardedClient,DSharpPlusNextGen.SlashCommands.SlashCommandsConfiguration)
+  name: UseSlashCommandsAsync(DiscordShardedClient, SlashCommandsConfiguration)
+  href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_UseSlashCommandsAsync_DSharpPlusNextGen_DiscordShardedClient_DSharpPlusNextGen_SlashCommands_SlashCommandsConfiguration_
+  commentId: M:DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync(DSharpPlusNextGen.DiscordShardedClient,DSharpPlusNextGen.SlashCommands.SlashCommandsConfiguration)
+  fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync(DSharpPlusNextGen.DiscordShardedClient, DSharpPlusNextGen.SlashCommands.SlashCommandsConfiguration)
+  nameWithType: ExtensionMethods.UseSlashCommandsAsync(DiscordShardedClient, SlashCommandsConfiguration)
+- uid: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync*
+  name: UseSlashCommandsAsync
+  href: api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html#DSharpPlusNextGen_SlashCommands_ExtensionMethods_UseSlashCommandsAsync_
+  commentId: Overload:DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.SlashCommands.ExtensionMethods.UseSlashCommandsAsync
+  nameWithType: ExtensionMethods.UseSlashCommandsAsync
 - uid: DSharpPlusNextGen.SlashCommands.IChoiceProvider
   name: IChoiceProvider
   href: api/DSharpPlusNextGen.SlashCommands.IChoiceProvider.html
@@ -50113,6 +50501,25 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.SlashCommands.OptionAttribute.Name
   nameWithType: OptionAttribute.Name
+- uid: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute
+  name: SlashCheckBaseAttribute
+  href: api/DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.html
+  commentId: T:DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute
+  fullName: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute
+  nameWithType: SlashCheckBaseAttribute
+- uid: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync(DSharpPlusNextGen.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.html#DSharpPlusNextGen_SlashCommands_SlashCheckBaseAttribute_ExecuteChecksAsync_DSharpPlusNextGen_SlashCommands_InteractionContext_
+  commentId: M:DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync(DSharpPlusNextGen.SlashCommands.InteractionContext)
+  fullName: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync(DSharpPlusNextGen.SlashCommands.InteractionContext)
+  nameWithType: SlashCheckBaseAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.html#DSharpPlusNextGen_SlashCommands_SlashCheckBaseAttribute_ExecuteChecksAsync_
+  commentId: Overload:DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.ExecuteChecksAsync
+  nameWithType: SlashCheckBaseAttribute.ExecuteChecksAsync
 - uid: DSharpPlusNextGen.SlashCommands.SlashCommandAttribute
   name: SlashCommandAttribute
   href: api/DSharpPlusNextGen.SlashCommands.SlashCommandAttribute.html
@@ -50286,6 +50693,15 @@ references:
   commentId: T:DSharpPlusNextGen.SlashCommands.SlashCommandsExtension
   fullName: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension
   nameWithType: SlashCommandsExtension
+- uid: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.RegisterCommands(Type,System.Nullable{System.UInt64})
+  name: RegisterCommands(Type, Nullable<UInt64>)
+  href: api/DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.html#DSharpPlusNextGen_SlashCommands_SlashCommandsExtension_RegisterCommands_Type_System_Nullable_System_UInt64__
+  commentId: M:DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.RegisterCommands(Type,System.Nullable{System.UInt64})
+  name.vb: RegisterCommands(Type, Nullable(Of UInt64))
+  fullName: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.RegisterCommands(Type, System.Nullable<System.UInt64>)
+  fullName.vb: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.RegisterCommands(Type, System.Nullable(Of System.UInt64))
+  nameWithType: SlashCommandsExtension.RegisterCommands(Type, Nullable<UInt64>)
+  nameWithType.vb: SlashCommandsExtension.RegisterCommands(Type, Nullable(Of UInt64))
 - uid: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.RegisterCommands*
   name: RegisterCommands
   href: api/DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.html#DSharpPlusNextGen_SlashCommands_SlashCommandsExtension_RegisterCommands_
@@ -50327,6 +50743,18 @@ references:
   commentId: E:DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.SlashCommandExecuted
   fullName: DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.SlashCommandExecuted
   nameWithType: SlashCommandsExtension.SlashCommandExecuted
+- uid: DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException
+  name: SlashExecutionChecksFailedException
+  href: api/DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.html
+  commentId: T:DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException
+  fullName: DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException
+  nameWithType: SlashExecutionChecksFailedException
+- uid: DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.FailedChecks
+  name: FailedChecks
+  href: api/DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.html#DSharpPlusNextGen_SlashCommands_SlashExecutionChecksFailedException_FailedChecks
+  commentId: F:DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.FailedChecks
+  fullName: DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.FailedChecks
+  nameWithType: SlashExecutionChecksFailedException.FailedChecks
 - uid: DSharpPlusNextGen.StagePrivacyLevel
   name: StagePrivacyLevel
   href: api/DSharpPlusNextGen.StagePrivacyLevel.html
@@ -51896,7 +52324,7 @@ references:
   name: Hosting Solutions
   href: articles/hosting.html
 - uid: index
-  name: DSharpPlus NextGen 6.0 Documentation
+  name: DSharpPlus NextGen 9.X Documentation
   href: index.html
 - uid: interactivity
   name: Interactivity Introduction

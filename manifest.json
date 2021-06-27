@@ -2802,7 +2802,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.Entities.DiscordInvite.html",
-          "hash": "e8k/4+W2haAZbGsKJOt+wBe9l4ZwkjrOPm8Q+hJrS6s="
+          "hash": "5utwcqPyYMVnywusfLkJd5xZWNeWjmv8ClGN8ir+duk="
         }
       },
       "is_incremental": false,
@@ -3475,6 +3475,90 @@
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.Entities.html",
           "hash": "Kh/2PkHNfb1tbb9D7wQ7DDe6f9lz9+j85mbP/SdX4UU="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.CoreDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html",
+          "hash": "I3tMWsv8MSQy2GRRkKMIa8HnNYkJbsG6I563h+KPzFs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.DiscordDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.DiscordDomain.html",
+          "hash": "Q8cz4+2NChrgG8kDycSYSVOMzIXLX7Fy5eLUtp+tx8E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.DiscordShortlink.html",
+          "hash": "StueQ8bKXHmwxoHhsXZrNZmrtHweuLo12Wsan+4+h7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.DomainHelpAttribute.html",
+          "hash": "Q4xDfuYTMQIQ+G3xtDbVOhL36jHO9HIf6bJ3/aEqNC0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.OtherDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.OtherDomain.html",
+          "hash": "JbvWdTaGMxyAGSm9tKoB6FchrGqy997AsyWn/8VCLUY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.UnusedDomain.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.UnusedDomain.html",
+          "hash": "CqElf8xqUn+ocNcYJ48suA0VMzFoQ/cfG9FZm7FSMNY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.Enums.Discord.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.Enums.Discord.html",
+          "hash": "/CxUlLJLXz83GQoJA6jL/SM2dpa/6w1LMVc5PhPn/3Y="
         }
       },
       "is_incremental": false,
@@ -5702,11 +5786,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.SlashCommands.DontInjectAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.SlashCommands.DontInjectAttribute.html",
+          "hash": "N3LxNxiBMZvPyp8IhixA9tmITmL92JMkrT02yY0CImY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DSharpPlusNextGen.SlashCommands.EnumHelpers.yml",
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.EnumHelpers.html",
-          "hash": "/Lae3B3A4Gwb+nccybKKPHul47iStcw76jXnisn6RaA="
+          "hash": "74u/kfSCJx32D6fQB9CBmGEnBcl0AaUxLTcHoVOKRLY="
         }
       },
       "is_incremental": false,
@@ -5754,7 +5850,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.ExtensionMethods.html",
-          "hash": "zO0n5/Qh3gvmeAH+WYpjKEzbSs+izDfVAT3Ocn9Hgsk="
+          "hash": "Lfzo9UmPSrT+camKYpDW3jFa76XRcwxM573XXb8ZRds="
         }
       },
       "is_incremental": false,
@@ -5766,7 +5862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.IChoiceProvider.html",
-          "hash": "GDc04h9/RP+EHRJ8rtppqRYLSej8q8+wYhqKWnHnYmg="
+          "hash": "pZcq3eUEd4u2wigvLPVA4wi6/laiusG6f0W67jTrgEw="
         }
       },
       "is_incremental": false,
@@ -5791,6 +5887,18 @@
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.OptionAttribute.html",
           "hash": "8fqrOBMf3KbcUeH/jGDvA9ZNnawqd+WRAfqFtTw4qWk="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashCheckBaseAttribute.html",
+          "hash": "5Xu8CoZ+iPMTx+Us8vNwAI+QuDb7/oJuikIVzoZGQm8="
         }
       },
       "is_incremental": false,
@@ -5838,7 +5946,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashCommandsConfiguration.html",
-          "hash": "2W1q+yZS3o+HOAai1OVPduSdOlifKRtj6t7K4w5QHXU="
+          "hash": "OCsc69pwBeU+gPvy2HzW+0EgM2BzJNWB/r9mabg/T7U="
         }
       },
       "is_incremental": false,
@@ -5850,7 +5958,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashCommandsExtension.html",
-          "hash": "2AxzCoaeEgA5muF7frd7uvsBKZLZSPimJyzM8QXcr7Y="
+          "hash": "uDzcwJsdJLncLjYH+4s337an4bGKe1GRPCy/Ebs39so="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DSharpPlusNextGen.SlashCommands.SlashExecutionChecksFailedException.html",
+          "hash": "fKkbM0e8Ik/6JLAOPFk1E+4Ma4rKpCfpmYy3bq9OHDE="
         }
       },
       "is_incremental": false,
@@ -5862,7 +5982,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DSharpPlusNextGen.SlashCommands.html",
-          "hash": "F6XbiRF8czP4VMivZ52xMnwuE+i7e7qnawLOZCTFVBk="
+          "hash": "1f2T6ETB17L4TFvF9mXmr/LNYi3JoUCJiKtpvFLQIag="
         }
       },
       "is_incremental": false,
@@ -6222,22 +6342,19 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "JdpCZWncyYAoXS5tOvHA7dNyoYQ5B6r6yJRWQSG5yKY="
+          "hash": "iUnR7owH1A9wpELD4Qp6MtYJqOL2BOEVBfjN/OtwxZw="
         }
       },
       "is_incremental": false,
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/advanced_topics/buttons.md",
       "output": {
         ".html": {
           "relative_path": "articles/advanced_topics/buttons.html",
-          "hash": "bVYWC6yKsnabFRlAogReEC1ICNMujl+6qXEZhpOWPdU="
+          "hash": "ukHPKZtM5tyvSm1Q7SaCDFSZBwVtrcZJWShlyRE4FdA="
         }
       },
       "is_incremental": false,
@@ -6352,15 +6469,12 @@
       "version": ""
     },
     {
-      "log_codes": [
-        "UidNotFound"
-      ],
       "type": "Conceptual",
       "source_relative_path": "articles/beyond_basics/intents.md",
       "output": {
         ".html": {
           "relative_path": "articles/beyond_basics/intents.html",
-          "hash": "1FG3EuogylrifiIie8oUtz0gz1hq69Z5DrYSMmzBnAM="
+          "hash": "/BdIGnN3ZlSLw8Mc1p4ahY+OXCVK1eploHGR/Ll2ROc="
         }
       },
       "is_incremental": false,
@@ -7214,7 +7328,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "VBSLH983XEDNoUvYS3GW3NGH9SFbtIrpKAZD/5QxOq4="
+          "hash": "/saXP1HYViZAlYMPYl3wOmtESUqcEgqAWgupis1LZrY="
         }
       },
       "is_incremental": false,
@@ -7263,8 +7377,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 516,
-          "skipped_file_count": 516
+          "total_file_count": 526,
+          "skipped_file_count": 526
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

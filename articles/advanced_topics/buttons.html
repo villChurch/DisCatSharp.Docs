@@ -158,10 +158,10 @@ var builder = new DiscordMessageBuilder()
 );
 </code></pre><p>And you&#39;re done! Simply add that to a builder, and when you send, you&#39;ll get a message that has a button with a little Pikachu enjoying a lolipop. Adorable. <img src="/images/advanced_topics_buttons_02.png" alt="PikaLolipop"></p>
 <h1 id="responding-to-button-presses">Responding to button presses</h1>
-<p>When any button is pressed, it will fire the <a href="xref:DSharpPlus.DiscordClient#ComponentInteractionCreated">ComponentInteractionCreated</a> event.</p>
+<p>When any button is pressed, it will fire the <a class="xref" href="../../api/DSharpPlusNextGen.DiscordClient.html#ComponentInteractionCreated">ComponentInteractionCreated</a> event.</p>
 <p>In the event args, <code>Id</code> will be the id of the button you specified. There&#39;s also an <code>Interaction</code> property, which contains the interaction the event created. It&#39;s important to respond to an interaction within 3 seconds, or it will time out. Responding after this period will throw a <code>NotFoundException</code>.</p>
 <p>With buttons, there are two new response types: <code>DefferedMessageUpdate</code> and <code>UpdateMessage</code>.</p>
-<p>Using <code>DeferredMessageUpdate</code> lets you create followup messages via the <a href="xref:DSharpPlus.Entities.DiscordFollowupMessageBuilder">followup message builder</a>. The button will return to being in it&#39;s &#39;dormant&#39; state, or it&#39;s &#39;unpushed&#39; state, if you will.</p>
+<p>Using <code>DeferredMessageUpdate</code> lets you create followup messages via the <a class="xref" href="../../api/DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.html">followup message builder</a>. The button will return to being in it&#39;s &#39;dormant&#39; state, or it&#39;s &#39;unpushed&#39; state, if you will.</p>
 <p>You have 15 minutes from that point to make followup messages. Responding to that interaction looks like this:</p>
 <pre><code class="lang-cs">client.ComponentInteractionCreated += async (s, e) =&gt;
 {
