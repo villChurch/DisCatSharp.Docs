@@ -97,15 +97,15 @@ If you&#39;d like, you can also change the directory that your project will be c
 Voilà! Your project has been created!</p>
 <p><img src="/images/basics_first_bot_04.png" alt="Visual Studio IDE"></p>
 <h2 id="install-package">Install Package</h2>
-<p>Now that you have a project created, you&#39;ll want to get DSharpPlus-NextGen installed.
+<p>Now that you have a project created, you&#39;ll want to get DSharpPlus installed.
 Locate the <em>solution explorer</em> on the right side, then right click on <code>Dependencies</code> and select <code>Manage NuGet Packages</code> from the context menu.</p>
 <p><img src="/images/basics_first_bot_05.png" alt="Dependencies Context Menu"></p>
 <p><br>
 You&#39;ll then be greeted by the NuGet package manager.</p>
-<p>Select the <code>Browse</code> tab towards the top left, then type <code>DSharpPlus-NextGen</code> into the search text box with the Pre-release checkbox checked <strong>ON</strong>.</p>
+<p>Select the <code>Browse</code> tab towards the top left, then type <code>DSharpPlus</code> into the search text box with the Pre-release checkbox checked <strong>ON</strong>.</p>
 <p><img src="/images/basics_first_bot_06.png" alt="NuGet Package Search"></p>
 <p><br>
-The first results should be the seven DSharpPlus-NextGen packages.</p>
+The first results should be the six DSharpPlus packages.</p>
 <p><img src="/images/basics_first_bot_07.png" alt="Search Results"></p>
 <table>
 <thead>
@@ -116,43 +116,39 @@ The first results should be the seven DSharpPlus-NextGen packages.</p>
 </thead>
 <tbody>
 <tr>
-<td style="text-align:center"><code>DSharpPlusNextGen</code></td>
+<td style="text-align:center"><code>DSharpPlus</code></td>
 <td style="text-align:center">Main package; Discord API client.</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>DSharpPlusNextGen.CommandsNext</code></td>
+<td style="text-align:center"><code>DSharpPlus.CommandsNext</code></td>
 <td style="text-align:center">Add-on which provides a command framework.</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>DSharpPlusNextGen.Interactivity</code></td>
+<td style="text-align:center"><code>DSharpPlus.Interactivity</code></td>
 <td style="text-align:center">Add-on which allows for interactive commands.</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>DSharpPlusNextGen.Lavalink</code></td>
+<td style="text-align:center"><code>DSharpPlus.Lavalink</code></td>
 <td style="text-align:center">Client implementation for <a class="xref" href="../audio/lavalink/setup.html">Lavalink</a>. Useful for music bots.</td>
 </tr>
 <tr>
-<td style="text-align:center"><code>DSharpPlusNextGen.VoiceNext</code></td>
+<td style="text-align:center"><code>DSharpPlus.VoiceNext</code></td>
 <td style="text-align:center">Add-on which enables connectivity to Discord voice channels.</td>
 </tr>
 <tr>
-  <td style="text-align:center"><code>DSharpPlusNextGen.SlashCommands</code></td>
-  <td style="text-align:center">Add-on which makes it easyer to work wiht slash commands.</td>
-</tr>
-<tr>
-<td style="text-align:center"><code>DSharpPlusNextGen.Rest</code></td>
+<td style="text-align:center"><code>DSharpPlus.Rest</code></td>
 <td style="text-align:center">REST-only Discord client.</td>
 </tr>
 </tbody>
 </table>
 <p><br>
-We&#39;ll only need the <code>DSharpPlus-NextGen</code> package for the basic bot we&#39;ll be writing in this article.<br>
-Select it from the list then click the <code>Install</code> button to the right (after verifing that you will be installing the <strong>latest 6.0.1 version</strong>).</p>
-<p><img src="/images/basics_first_bot_08.png" alt="Install DSharpPlus-NextGen"></p>
+We&#39;ll only need the <code>DSharpPlus</code> package for the basic bot we&#39;ll be writing in this article.<br>
+Select it from the list then click the <code>Install</code> button to the right (after verifing that you will be installing the <strong>latest 4.0 version</strong>).</p>
+<p><img src="/images/basics_first_bot_08.png" alt="Install DSharpPlus"></p>
 <p>You&#39;re now ready to write some code!</p>
 <h2 id="first-lines-of-code">First Lines of Code</h2>
-<p>DSharpPlus-NextGen implements <a href="https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern">Task-based Asynchronous Pattern</a>.
-Because of this, the majority of DSharpPlus-NetxGen methods must be executed in a method marked as <code>async</code> so they can be properly <code>await</code>ed.</p>
+<p>DSharpPlus implements <a href="https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern">Task-based Asynchronous Pattern</a>.
+Because of this, the majority of DSharpPlus methods must be executed in a method marked as <code>async</code> so they can be properly <code>await</code>ed.</p>
 <p>Due to the way the compiler generates the underlying <a href="https://en.wikipedia.org/wiki/Common_Intermediate_Language">IL</a> code, 
 marking our <code>Main</code> method as <code>async</code> has the potential to cause problems. As a result, we must pass the program execution to an <code>async</code> method.</p>
 <p>Head back to your <em>Program.cs</em> tab and empty the <code>Main</code> method by deleting line 9.</p>
@@ -178,7 +174,7 @@ However, if you copy-pasted the snippet above, VS will complain about being unab
 We&#39;ll now create a new <code>DiscordClient</code> instance in our brand new asynchronous method.</p>
 <p>Create a new variable in <code>MainAsync</code> and assign it a new <code>DiscordClient</code> instance, then pass an instance of <code>DiscordConfiguration</code> to its constructor.
 Create an object initializer for <code>DiscordConfiguration</code> and populate the <code>Token</code> property with your bot token then set the <code>TokenType</code> property to <code>TokenType.Bot</code>.
-Next add the <code>Intents</code> Property and Populated it with the @DSharpPlusNextGen.DiscordIntents.AllUnprivileged value. These Intents 
+Next add the <code>Intents</code> Property and Populated it with the @DSharpPlus.DiscordIntents.AllUnprivileged value. These Intents 
 are required for certain Events to be fired.  Please visit this <a class="xref" href="../beyond_basics/intents.html">article</a> for more information.</p>
 <pre><code class="lang-cs">var discord = new DiscordClient(new DiscordConfiguration()
 {
@@ -197,7 +193,7 @@ await discord.ConnectAsync();
 await Task.Delay(-1);
 </code></pre><p>As before, Intellisense will have auto generated the needed <code>using</code> directive for you if you typed this in by hand.<br>
 If you&#39;ve copied the snippet, be sure to apply the recommended suggestion to insert the required directive.</p>
-<p>If you hit <code>F5</code> on your keyboard to compile and run your program, you&#39;ll be greeted by a happy little console with a single log message from DSharpPlusNextGen. Woo hoo!</p>
+<p>If you hit <code>F5</code> on your keyboard to compile and run your program, you&#39;ll be greeted by a happy little console with a single log message from DSharpPlus. Woo hoo!</p>
 <p><img src="/images/basics_first_bot_12.png" alt="Program Console"></p>
 <h2 id="spicing-up-your-bot">Spicing Up Your Bot</h2>
 <p>Right now our bot doesn&#39;t do a whole lot. Let&#39;s bring it to life by having it respond to a message!</p>
@@ -219,7 +215,7 @@ a message using <code>e.Message.RespondAsync</code> if it does. For this example
 <p>Your entire program should now look like this:</p>
 <pre><code class="lang-cs">using System;
 using System.Threading.Tasks;
-using DSharpPlusNextGen;
+using DSharpPlus;
 
 namespace MyFirstBot
 {

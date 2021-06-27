@@ -76,29 +76,16 @@
             <article class="content wrap" id="_content" data-uid="misc_nightly_builds">
 <h1 id="i-like-living-on-the-edge---give-me-the-freshest-builds">I like living on the edge - give me the freshest builds</h1>
 
-<p>We offer nightly builds for DSharpPlus. They contain bugfixes and new features before the NuGet releases, however they are 
-not guaranteed to be stable, or work at all.</p>
-<p>If you want to use them, you need to open your <strong>Package Manager Settings</strong> in Visual Studio, and add the following SlimGet 
-feed to the package sources:</p>
-<p><code>https://nuget.emzi0767.com/api/v3/index.json</code></p>
-<p>Then open the NuGet interface for your project, check <strong>Prerelease</strong>, and make sure the <strong>package source</strong> is set to the SlimGet 
-feed you just added.</p>
-<p>Then just select <strong>Latest prerelease</strong> version of DSharpPlus packages, and install them.</p>
+<p>We offer nightly builds for DSharpPlus. They contain bugfixes and new features before the NuGet releases, however they are
+not guaranteed to be stable, or work at all.
+Open the NuGet interface for your project, check <strong>Prerelease</strong>.</p>
+<p>Then just select <strong>Latest prerelease</strong> version of DSharpPlusNextGen packages, and install them.</p>
 <p>You might need to restart Visual Studio for changes to take effect.</p>
-<p>If you find any problems in the SlimGet versions of the packages, please follow the instructions in <a class="xref" href="reporting_issues.html">Reporting issues</a> 
+<p>If you find any problems in the SlimGet versions of the packages, please follow the instructions in <a class="xref" href="reporting_issues.html">Reporting issues</a>
 article.</p>
 <h2 id="but-im-running-gnulinux-mac-os-x-or-bsd">But I&#39;m running GNU/Linux, Mac OS X, or BSD!</h2>
 <p>If you&#39;re running on a non-Windows OS, you&#39;ll have to get your hands dirty. Prepare your text editor and file browser.</p>
-<p>Inside <code>~/.nuget/NuGet</code> directory, there should be a file called <code>NuGet.config</code>. It should look more or less like this:</p>
-<pre><code class="lang-xml">&lt;?xml version=&quot;1.0&quot; encoding=&quot;utf-8&quot;?&gt;
-&lt;configuration&gt;
-  &lt;packageSources&gt;
-    &lt;add key=&quot;nuget.org&quot; value=&quot;https://api.nuget.org/v3/index.json&quot; protocolVersion=&quot;3&quot; /&gt;
-  &lt;/packageSources&gt;
-&lt;/configuration&gt;
-</code></pre><p>Inside the <code>packageSources</code> element, you will need to add the following:</p>
-<p><code>&lt;add key=&quot;DSharpPlus SlimGet&quot; value=&quot;https://nuget.emzi0767.com/api/v3/index.json&quot; /&gt;</code></p>
-<p>Once that&#39;s done, save the file. If you run <code>dotnet restore</code> right now, it should be able to restore the packages without problems.</p>
+<p>Run <code>dotnet restore</code>, it should be able to restore the packages without problems.</p>
 </article>
           </div>
           

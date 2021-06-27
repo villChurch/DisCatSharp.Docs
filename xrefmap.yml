@@ -37709,18 +37709,6 @@ references:
 - uid: interactivity
   name: Interactivity Introduction
   href: articles/interactivity.html
-- uid: migration_2_3
-  name: Migration 2.x - 3.x
-  href: articles/migration/2x_to_3x.html
-- uid: migration_3_4
-  name: Migration 3.x - 4.x
-  href: articles/migration/3x_to_4x.html
-- uid: migration_dsharp
-  name: Migration From DiscordSharp
-  href: articles/migration/dsharp.html
-- uid: misc_debug_symbols
-  name: Debug Symbols
-  href: articles/misc/debug_symbols.html
 - uid: misc_nightly_builds
   name: Nightly Builds
   href: articles/misc/nightly_builds.html

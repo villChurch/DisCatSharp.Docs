@@ -5999,59 +5999,11 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/migration/2x_to_3x.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/migration/2x_to_3x.html",
-          "hash": "s8dyrCHkmXBnnE+hW5xseqNQ62CJcb4w8/j8sBRy5is="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/migration/3x_to_4x.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/migration/3x_to_4x.html",
-          "hash": "cx+Y3dIDHsX8K7fI6D2K1Tc/OdOvedLydMpkq91paBs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/migration/dsharp.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/migration/dsharp.html",
-          "hash": "ILyKKHZE5bTuPWKMdDKv2NhfQo3kzfPDDPKImY6VEws="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
-      "source_relative_path": "articles/misc/debug_symbols.md",
-      "output": {
-        ".html": {
-          "relative_path": "articles/misc/debug_symbols.html",
-          "hash": "WOQZiV4kH/AcvUE70iNKDutJyjXP7gizEZ4T04zHfHs="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Conceptual",
       "source_relative_path": "articles/misc/nightly_builds.md",
       "output": {
         ".html": {
           "relative_path": "articles/misc/nightly_builds.html",
-          "hash": "ojiwUPrppfzN0bDQjqne/puS6P+ix3LGJibrlNDq4J0="
+          "hash": "Ic/gbDisUrj0zIzcRgHuDc+Kv4+iN58uEYmFJXFg1ck="
         }
       },
       "is_incremental": false,
@@ -6063,7 +6015,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/misc/reporting_issues.html",
-          "hash": "TidYCkChfT17+dCZkcI3wfCAezILxx61VMazXs4PTtM="
+          "hash": "pzEaSmHzDpXHbQSQse/EAgHGuw7h9LpCupC/wEtZkLE="
         }
       },
       "is_incremental": false,
@@ -6075,7 +6027,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/preamble.html",
-          "hash": "ETmBxcoOo21fYum6A9Hao/LvYGtlHZftzWMFvGsZio4="
+          "hash": "2gL6m+ZDa1AiTti0TM7fARLerq8UYIGyVj0FosIdTDQ="
         }
       },
       "is_incremental": false,
@@ -6087,7 +6039,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "GTIXV4hPG6CSXF+V8U40VII8+hzFwa191wB3CJvVArY="
+          "hash": "NOrPqprVSOZIG/WjEYOljnRTnBZm7P6+iIjypBxepY4="
         }
       },
       "is_incremental": false,
@@ -6099,7 +6051,7 @@
       "output": {
         ".html": {
           "relative_path": "faq.html",
-          "hash": "wuunw7Zy+teyksbjMuYo7eP6IJxw8J11T6g5/mzEs0k="
+          "hash": "k5z0ZW4Uh1pUikubGTU0u3j4p6uOki9ZQiVrEMIGmE0="
         }
       },
       "is_incremental": false,
@@ -6657,17 +6609,6 @@
     },
     {
       "type": "Resource",
-      "source_relative_path": "images/faq_03.png",
-      "output": {
-        "resource": {
-          "relative_path": "images/faq_03.png"
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "Resource",
       "source_relative_path": "images/interactivity_01.png",
       "output": {
         "resource": {
@@ -6749,7 +6690,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "K5xBkHJd3qo8w6Asi/J3mbehf21pdl1aVrA9h4cPh2c="
+          "hash": "VBSLH983XEDNoUvYS3GW3NGH9SFbtIrpKAZD/5QxOq4="
         }
       },
       "is_incremental": false,
@@ -6792,8 +6733,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 34,
-          "skipped_file_count": 34
+          "total_file_count": 30,
+          "skipped_file_count": 30
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
