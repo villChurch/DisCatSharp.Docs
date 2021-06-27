@@ -79,7 +79,7 @@
 <p>This article assumes that you know how to use CommandsNext. If you do not, you should learn <a class="xref" href="../../commands/intro.html">here</a> before continuing with this guide.</p>
 <h2 id="prerequisites">Prerequisites</h2>
 <p>Before we start we will need to make sure CommandsNext is configured. For this we can make a simple configuration and command class: </p>
-<pre><code class="lang-csharp">using DSharpPlus.CommandsNext;
+<pre><code class="lang-csharp">using DSharpPlusNextGen.CommandsNext;
 
 namespace MyFirstMusicBot
 {
@@ -125,10 +125,10 @@ public async Task Leave(CommandContext ctx, DiscordChannel channel)
 <p><code>GetIdealNodeConnection()</code> will return the least affected node through load balancing, which is useful for larger bots. It can also filter nodes based on an optional voice region to use the closest nodes available. Since we only have one connection we can use linq&#39;s <code>.First()</code> method on the extensions connected nodes to get what we need.</p>
 <p>So far, your command class should look something like this: </p>
 <pre><code class="lang-csharp">using System.Threading.Tasks;
-using DSharpPlus;
-using DSharpPlus.Entities;
-using DSharpPlus.CommandsNext;
-using DSharpPlus.CommandsNext.Attributes;
+using DSharpPlusNextGen;
+using DSharpPlusNextGen.Entities;
+using DSharpPlusNextGen.CommandsNext;
+using DSharpPlusNextGen.CommandsNext.Attributes;
 
 namespace MyFirstMusicBot
 {
@@ -336,8 +336,7 @@ public async Task Pause(CommandContext ctx)
 
     await conn.PauseAsync();
 }
-</code></pre><p>Of course, there are other commands Lavalink has to offer. Check out <a href="https://dsharpplus.github.io/api/DSharpPlus.Lavalink.LavalinkGuildConnection.html#methods">the docs</a> to view the commands you can use while playing tracks.</p>
-<p>There are also open source examples such as Emzi0767&#39;s <a href="https://github.com/Emzi0767/Discord-Companion-Cube-Bot">Companion Cube Bot</a> and <a href="https://github.com/Emzi0767/Discord-Music-Turret-Bot">Turret Bot</a>.</p>
+</code></pre><p>Of course, there are other commands Lavalink has to offer. Check out <a href="https://dsp-nextgen.aitsys.dev/api/DSharpPlusNextGen.Lavalink.LavalinkGuildConnection.html#methods">the docs</a> to view the commands you can use while playing tracks.</p>
 </article>
           </div>
           
