@@ -127,7 +127,7 @@ Changing the properties of a role requires that your bot account have a role hig
 <h3 id="does-commandsnext-support-dependency-injection">Does CommandsNext support dependency injection?</h3>
 <p>It does! Please take a look at our <a class="xref" href="articles/commands/dependency_injection.html">article</a> on the subject.</p>
 <h3 id="can-i-use-a-user-token">Can I use a user token?</h3>
-<p>Automating a user account is against Discord&#39;s Terms of Service and is not supported by DSharpPlus.</p>
+<p>Automating a user account is against Discord&#39;s <a href="https://dis.gd/terms">Terms of Service</a> and is not supported by DSharpPlusNextGen.</p>
 <h3 id="how-can-i-set-a-custom-status">How can I set a custom status?</h3>
 <p>If you mean a <em>true</em> custom status like this:</p>
 <p><img src="/images/faq_01.png" alt="help"></p>
@@ -140,7 +140,7 @@ However, if you meant an activity like this:</p>
 <li>The overload for <a class="xref" href="api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> which accepts a <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordActivity.html">DiscordActivity</a>.</li>
 <li><a class="xref" href="api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> OR <a class="xref" href="api/DSharpPlusNextGen.DiscordShardedClient.html#DSharpPlusNextGen_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> (for the sharded client) at any point after <code>Ready</code> has been fired.</li>
 </ul>
-<h3 id="am-i-able-to-retrieve-a-dsharpplusentitiesdiscordrole-by-name">Am I able to retrieve a @DSharpPlus.Entities.DiscordRole by name?</h3>
+<h3 id="am-i-able-to-retrieve-a-dsharpplusnextgenentitiesdiscordrole-by-name">Am I able to retrieve a <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordRole.html">DiscordRole</a> by name?</h3>
 <p>Yes. Use LINQ on the <code>Roles</code> property of your instance of <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordGuild.html">DiscordGuild</a> and compare against the <code>Name</code> of  each <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordRole.html">DiscordRole</a>.</p>
 <h3 id="why-are-you-using-newtonsoftjson-when-systemtextjson-is-available">Why are you using Newtonsoft.Json when System.Text.Json is available</h3>
 <p>Yes <code>System.Text.Json</code> is available to use but it still doesnt stand up to what we currently need which is why we still use Newtonsoft.Json.
