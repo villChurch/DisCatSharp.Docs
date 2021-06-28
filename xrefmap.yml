@@ -17009,6 +17009,22 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateEmojiAsync
   nameWithType: DiscordGuild.CreateEmojiAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)
+  name: CreateNewsChannelAsync(String, IEnumerable<DiscordOverwriteBuilder>, String)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateNewsChannelAsync_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordOverwriteBuilder__System_String_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)
+  name.vb: CreateNewsChannelAsync(String, IEnumerable(Of DiscordOverwriteBuilder), String)
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync(System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordOverwriteBuilder>, System.String)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync(System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordOverwriteBuilder), System.String)
+  nameWithType: DiscordGuild.CreateNewsChannelAsync(String, IEnumerable<DiscordOverwriteBuilder>, String)
+  nameWithType.vb: DiscordGuild.CreateNewsChannelAsync(String, IEnumerable(Of DiscordOverwriteBuilder), String)
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync*
+  name: CreateNewsChannelAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateNewsChannelAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync
+  nameWithType: DiscordGuild.CreateNewsChannelAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateRoleAsync(System.String,System.Nullable{DSharpPlusNextGen.Permissions},System.Nullable{DSharpPlusNextGen.Entities.DiscordColor},System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.String)
   name: CreateRoleAsync(String, Nullable<Permissions>, Nullable<DiscordColor>, Nullable<Boolean>, Nullable<Boolean>, String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateRoleAsync_System_String_System_Nullable_DSharpPlusNextGen_Permissions__System_Nullable_DSharpPlusNextGen_Entities_DiscordColor__System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_String_
@@ -17025,6 +17041,22 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateRoleAsync
   nameWithType: DiscordGuild.CreateRoleAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)
+  name: CreateStageChannelAsync(String, IEnumerable<DiscordOverwriteBuilder>, String)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateStageChannelAsync_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordOverwriteBuilder__System_String_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)
+  name.vb: CreateStageChannelAsync(String, IEnumerable(Of DiscordOverwriteBuilder), String)
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync(System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordOverwriteBuilder>, System.String)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync(System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordOverwriteBuilder), System.String)
+  nameWithType: DiscordGuild.CreateStageChannelAsync(String, IEnumerable<DiscordOverwriteBuilder>, String)
+  nameWithType.vb: DiscordGuild.CreateStageChannelAsync(String, IEnumerable(Of DiscordOverwriteBuilder), String)
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync*
+  name: CreateStageChannelAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateStageChannelAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync
+  nameWithType: DiscordGuild.CreateStageChannelAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateTemplateAsync(System.String,System.String)
   name: CreateTemplateAsync(String, String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateTemplateAsync_System_String_System_String_
@@ -18136,6 +18168,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.PublicUpdatesChannel
   nameWithType: DiscordGuild.PublicUpdatesChannel
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures
+  name: RawFeatures
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_RawFeatures
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures
+  nameWithType: DiscordGuild.RawFeatures
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures*
+  name: RawFeatures
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_RawFeatures_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures
+  nameWithType: DiscordGuild.RawFeatures
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.RequestMembersAsync(System.String,System.Int32,System.Nullable{System.Boolean},IEnumerable{System.UInt64},System.String)
   name: RequestMembersAsync(String, Int32, Nullable<Boolean>, IEnumerable<UInt64>, String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_RequestMembersAsync_System_String_System_Int32_System_Nullable_System_Boolean__IEnumerable_System_UInt64__System_String_
@@ -37668,6 +37713,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordUser.IsBot
   nameWithType: DiscordUser.IsBot
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsBotDev
+  name: IsBotDev
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsBotDev
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.IsBotDev
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsBotDev
+  nameWithType: DiscordUser.IsBotDev
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsBotDev*
+  name: IsBotDev
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsBotDev_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsBotDev
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsBotDev
+  nameWithType: DiscordUser.IsBotDev
 - uid: DSharpPlusNextGen.Entities.DiscordUser.IsCurrent
   name: IsCurrent
   href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsCurrent
@@ -37681,6 +37739,71 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordUser.IsCurrent
   nameWithType: DiscordUser.IsCurrent
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  name: IsInGuild(DiscordGuild)
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsInGuild_DSharpPlusNextGen_Entities_DiscordGuild_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordUser.IsInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  nameWithType: DiscordUser.IsInGuild(DiscordGuild)
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsInGuild*
+  name: IsInGuild
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsInGuild_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsInGuild
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsInGuild
+  nameWithType: DiscordUser.IsInGuild
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsMod
+  name: IsMod
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsMod
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.IsMod
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsMod
+  nameWithType: DiscordUser.IsMod
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsMod*
+  name: IsMod
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsMod_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsMod
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsMod
+  nameWithType: DiscordUser.IsMod
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  name: IsNotInGuild(DiscordGuild)
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsNotInGuild_DSharpPlusNextGen_Entities_DiscordGuild_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild(DSharpPlusNextGen.Entities.DiscordGuild)
+  nameWithType: DiscordUser.IsNotInGuild(DiscordGuild)
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild*
+  name: IsNotInGuild
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsNotInGuild_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsNotInGuild
+  nameWithType: DiscordUser.IsNotInGuild
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsPartner
+  name: IsPartner
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsPartner
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.IsPartner
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsPartner
+  nameWithType: DiscordUser.IsPartner
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsPartner*
+  name: IsPartner
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsPartner_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsPartner
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsPartner
+  nameWithType: DiscordUser.IsPartner
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsStaff
+  name: IsStaff
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsStaff
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.IsStaff
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsStaff
+  nameWithType: DiscordUser.IsStaff
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsStaff*
+  name: IsStaff
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsStaff_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsStaff
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsStaff
+  nameWithType: DiscordUser.IsStaff
 - uid: DSharpPlusNextGen.Entities.DiscordUser.IsSystem
   name: IsSystem
   href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsSystem
@@ -37694,6 +37817,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordUser.IsSystem
   nameWithType: DiscordUser.IsSystem
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot
+  name: IsVerifiedBot
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsVerifiedBot
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot
+  nameWithType: DiscordUser.IsVerifiedBot
+- uid: DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot*
+  name: IsVerifiedBot
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_IsVerifiedBot_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.IsVerifiedBot
+  nameWithType: DiscordUser.IsVerifiedBot
 - uid: DSharpPlusNextGen.Entities.DiscordUser.Locale
   name: Locale
   href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_Locale
@@ -39064,6 +39200,337 @@ references:
   commentId: F:DSharpPlusNextGen.Entities.ExplicitContentFilter.MembersWithoutRoles
   fullName: DSharpPlusNextGen.Entities.ExplicitContentFilter.MembersWithoutRoles
   nameWithType: ExplicitContentFilter.MembersWithoutRoles
+- uid: DSharpPlusNextGen.Entities.GuildFeatures
+  name: GuildFeatures
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html
+  commentId: T:DSharpPlusNextGen.Entities.GuildFeatures
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures
+  nameWithType: GuildFeatures
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.#ctor(DSharpPlusNextGen.Entities.DiscordGuild)
+  name: GuildFeatures(DiscordGuild)
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures__ctor_DSharpPlusNextGen_Entities_DiscordGuild_
+  commentId: M:DSharpPlusNextGen.Entities.GuildFeatures.#ctor(DSharpPlusNextGen.Entities.DiscordGuild)
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.GuildFeatures(DSharpPlusNextGen.Entities.DiscordGuild)
+  nameWithType: GuildFeatures.GuildFeatures(DiscordGuild)
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.#ctor*
+  name: GuildFeatures
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures__ctor_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.#ctor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.GuildFeatures
+  nameWithType: GuildFeatures.GuildFeatures
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions
+  name: CanAccessVipRegions
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanAccessVipRegions
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions
+  nameWithType: GuildFeatures.CanAccessVipRegions
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions*
+  name: CanAccessVipRegions
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanAccessVipRegions_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanAccessVipRegions
+  nameWithType: GuildFeatures.CanAccessVipRegions
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels
+  name: CanCreateNewsChannels
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreateNewsChannels
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels
+  nameWithType: GuildFeatures.CanCreateNewsChannels
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels*
+  name: CanCreateNewsChannels
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreateNewsChannels_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateNewsChannels
+  nameWithType: GuildFeatures.CanCreateNewsChannels
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads
+  name: CanCreatePrivateThreads
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreatePrivateThreads
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads
+  nameWithType: GuildFeatures.CanCreatePrivateThreads
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads*
+  name: CanCreatePrivateThreads
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreatePrivateThreads_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreatePrivateThreads
+  nameWithType: GuildFeatures.CanCreatePrivateThreads
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels
+  name: CanCreateStoreChannels
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreateStoreChannels
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels
+  nameWithType: GuildFeatures.CanCreateStoreChannels
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels*
+  name: CanCreateStoreChannels
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanCreateStoreChannels_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanCreateStoreChannels
+  nameWithType: GuildFeatures.CanCreateStoreChannels
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon
+  name: CanSetAnimatedIcon
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetAnimatedIcon
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon
+  nameWithType: GuildFeatures.CanSetAnimatedIcon
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon*
+  name: CanSetAnimatedIcon
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetAnimatedIcon_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetAnimatedIcon
+  nameWithType: GuildFeatures.CanSetAnimatedIcon
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner
+  name: CanSetBanner
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetBanner
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner
+  nameWithType: GuildFeatures.CanSetBanner
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner*
+  name: CanSetBanner
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetBanner_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetBanner
+  nameWithType: GuildFeatures.CanSetBanner
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash
+  name: CanSetInviteSplash
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetInviteSplash
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash
+  nameWithType: GuildFeatures.CanSetInviteSplash
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash*
+  name: CanSetInviteSplash
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetInviteSplash_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetInviteSplash
+  nameWithType: GuildFeatures.CanSetInviteSplash
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
+  name: CanSetThreadArchiveDurationSevenDays
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetThreadArchiveDurationSevenDays
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
+  nameWithType: GuildFeatures.CanSetThreadArchiveDurationSevenDays
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays*
+  name: CanSetThreadArchiveDurationSevenDays
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetThreadArchiveDurationSevenDays_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
+  nameWithType: GuildFeatures.CanSetThreadArchiveDurationSevenDays
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
+  name: CanSetThreadArchiveDurationThreeDays
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetThreadArchiveDurationThreeDays
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
+  nameWithType: GuildFeatures.CanSetThreadArchiveDurationThreeDays
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays*
+  name: CanSetThreadArchiveDurationThreeDays
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetThreadArchiveDurationThreeDays_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
+  nameWithType: GuildFeatures.CanSetThreadArchiveDurationThreeDays
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl
+  name: CanSetVanityUrl
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetVanityUrl
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl
+  nameWithType: GuildFeatures.CanSetVanityUrl
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl*
+  name: CanSetVanityUrl
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanSetVanityUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanSetVanityUrl
+  nameWithType: GuildFeatures.CanSetVanityUrl
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis
+  name: CanUploadMoreEmojis
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanUploadMoreEmojis
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis
+  nameWithType: GuildFeatures.CanUploadMoreEmojis
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis*
+  name: CanUploadMoreEmojis
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanUploadMoreEmojis_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreEmojis
+  nameWithType: GuildFeatures.CanUploadMoreEmojis
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers
+  name: CanUploadMoreStickers
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanUploadMoreStickers
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers
+  nameWithType: GuildFeatures.CanUploadMoreStickers
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers*
+  name: CanUploadMoreStickers
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_CanUploadMoreStickers_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.CanUploadMoreStickers
+  nameWithType: GuildFeatures.CanUploadMoreStickers
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.FeatureString
+  name: FeatureString
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_FeatureString
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.FeatureString
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.FeatureString
+  nameWithType: GuildFeatures.FeatureString
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.FeatureString*
+  name: FeatureString
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_FeatureString_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.FeatureString
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.FeatureString
+  nameWithType: GuildFeatures.FeatureString
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled
+  name: HasCommunityEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasCommunityEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled
+  nameWithType: GuildFeatures.HasCommunityEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled*
+  name: HasCommunityEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasCommunityEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasCommunityEnabled
+  nameWithType: GuildFeatures.HasCommunityEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled
+  name: HasMembershipScreeningEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasMembershipScreeningEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled
+  nameWithType: GuildFeatures.HasMembershipScreeningEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled*
+  name: HasMembershipScreeningEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasMembershipScreeningEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasMembershipScreeningEnabled
+  nameWithType: GuildFeatures.HasMembershipScreeningEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled
+  name: HasMonetizationEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasMonetizationEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled
+  nameWithType: GuildFeatures.HasMonetizationEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled*
+  name: HasMonetizationEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasMonetizationEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasMonetizationEnabled
+  nameWithType: GuildFeatures.HasMonetizationEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
+  name: HasPreviewEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasPreviewEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
+  nameWithType: GuildFeatures.HasPreviewEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled*
+  name: HasPreviewEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasPreviewEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
+  nameWithType: GuildFeatures.HasPreviewEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
+  name: HasTicketedEventsEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasTicketedEventsEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
+  nameWithType: GuildFeatures.HasTicketedEventsEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled*
+  name: HasTicketedEventsEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasTicketedEventsEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
+  nameWithType: GuildFeatures.HasTicketedEventsEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled
+  name: HasWelcomeScreenEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasWelcomeScreenEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled
+  nameWithType: GuildFeatures.HasWelcomeScreenEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled*
+  name: HasWelcomeScreenEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasWelcomeScreenEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasWelcomeScreenEnabled
+  nameWithType: GuildFeatures.HasWelcomeScreenEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable
+  name: IsDiscoverable
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsDiscoverable
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable
+  nameWithType: GuildFeatures.IsDiscoverable
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable*
+  name: IsDiscoverable
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsDiscoverable_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsDiscoverable
+  nameWithType: GuildFeatures.IsDiscoverable
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable
+  name: IsFeatureable
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsFeatureable
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable
+  nameWithType: GuildFeatures.IsFeatureable
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable*
+  name: IsFeatureable
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsFeatureable_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsFeatureable
+  nameWithType: GuildFeatures.IsFeatureable
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsHub
+  name: IsHub
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsHub
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.IsHub
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsHub
+  nameWithType: GuildFeatures.IsHub
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsHub*
+  name: IsHub
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsHub_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.IsHub
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsHub
+  nameWithType: GuildFeatures.IsHub
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered
+  name: IsPartnered
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsPartnered
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered
+  nameWithType: GuildFeatures.IsPartnered
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered*
+  name: IsPartnered
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsPartnered_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsPartnered
+  nameWithType: GuildFeatures.IsPartnered
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsVerified
+  name: IsVerified
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsVerified
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.IsVerified
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsVerified
+  nameWithType: GuildFeatures.IsVerified
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.IsVerified*
+  name: IsVerified
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_IsVerified_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.IsVerified
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.IsVerified
+  nameWithType: GuildFeatures.IsVerified
 - uid: DSharpPlusNextGen.Entities.IMention
   name: IMention
   href: api/DSharpPlusNextGen.Entities.IMention.html

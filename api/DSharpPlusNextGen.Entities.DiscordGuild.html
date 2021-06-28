@@ -526,12 +526,12 @@
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_Features_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.Features*"></a>
   <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_Features" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.Features">Features</h4>
-  <div class="markdown level1 summary"><p>Gets a collection of this guild&apos;s features.</p>
+  <div class="markdown level1 summary"><p>Gets the guild&apos;s features.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; Features { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public GuildFeatures Features { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -543,7 +543,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.GuildFeatures.html">GuildFeatures</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -1202,6 +1202,32 @@
   </table>
   
   
+  <a id="DSharpPlusNextGen_Entities_DiscordGuild_RawFeatures_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_RawFeatures" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.RawFeatures">RawFeatures</h4>
+  <div class="markdown level1 summary"><p>Gets a collection of this guild&apos;s features.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; RawFeatures { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_Roles_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.Roles*"></a>
   <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_Roles" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.Roles">Roles</h4>
   <div class="markdown level1 summary"><p>Gets a collection of this guild&apos;s roles.</p>
@@ -1641,37 +1667,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_CreateInstantInvite">CreateInstantInvite</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the <code data-dev-comment-type="paramref" class="paramref">user</code> or <code data-dev-comment-type="paramref" class="paramref">access_token</code> is not found.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_AttachUserIntegrationAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.AttachUserIntegrationAsync*"></a>
@@ -1713,37 +1708,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordIntegration.html">DiscordIntegration</a>&gt;</td>
         <td><p>The integration after being attached to the guild.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -1804,37 +1768,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_BanMembers">BanMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the member does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_BanMemberAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.BanMemberAsync*"></a>
@@ -1888,37 +1821,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_BanMembers">BanMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the member does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
       </tr>
     </tbody>
   </table>
@@ -2117,37 +2019,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_CreateChannelCategoryAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateChannelCategoryAsync*"></a>
@@ -2201,37 +2072,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
         <td><p>The newly-created channel category.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2299,23 +2139,59 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordGuild_CreateNewsChannelAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_CreateNewsChannelAsync_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordOverwriteBuilder__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateNewsChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)">CreateNewsChannelAsync(String, IEnumerable&lt;DiscordOverwriteBuilder&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new news channel in this guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordChannel&gt; CreateNewsChannelAsync(string name, IEnumerable&lt;DiscordOverwriteBuilder&gt; overwrites = null, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Condition</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageEmojisAndStickers">ManageEmojisAndStickers</a> permission.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the new stage channel.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordOverwriteBuilder.html">DiscordOverwriteBuilder</a>&gt;</td>
+        <td><span class="parametername">overwrites</span></td>
+        <td><p>Permission overwrites for this news channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td><p>The newly-created news channel.</p>
 </td>
       </tr>
     </tbody>
@@ -2395,23 +2271,59 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordGuild_CreateStageChannelAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_CreateStageChannelAsync_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordOverwriteBuilder__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordOverwriteBuilder},System.String)">CreateStageChannelAsync(String, IEnumerable&lt;DiscordOverwriteBuilder&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new stage channel in this guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordChannel&gt; CreateStageChannelAsync(string name, IEnumerable&lt;DiscordOverwriteBuilder&gt; overwrites = null, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
         <th>Type</th>
-        <th>Condition</th>
+        <th>Name</th>
+        <th>Description</th>
       </tr>
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageRoles">ManageRoles</a> permission.</p>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the new stage channel.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordOverwriteBuilder.html">DiscordOverwriteBuilder</a>&gt;</td>
+        <td><span class="parametername">overwrites</span></td>
+        <td><p>Permission overwrites for this stage channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td><p>The newly-created stage channel.</p>
 </td>
       </tr>
     </tbody>
@@ -2463,32 +2375,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildTemplate.html">DiscordGuildTemplate</a>&gt;</td>
         <td><p>The template created.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Throws when a template already exists for the guild or a null parameter is provided for the name.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Throws when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2574,37 +2460,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_CreateVoiceChannelAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateVoiceChannelAsync*"></a>
@@ -2686,37 +2541,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteAllChannelsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteAllChannelsAsync*"></a>
@@ -2770,27 +2594,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client is not the owner of the guild.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteEmojiAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteEmojiAsync*"></a>
@@ -2841,27 +2644,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageEmojisAndStickers">ManageEmojisAndStickers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteIntegrationAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteIntegrationAsync*"></a>
@@ -2906,37 +2688,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteTemplateAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteTemplateAsync*"></a>
@@ -2978,32 +2729,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildTemplate.html">DiscordGuildTemplate</a>&gt;</td>
         <td><p>The deleted template.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Throws when the template for the code cannot be found</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Throws when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3178,22 +2903,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetApplicationCommandsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetApplicationCommandsAsync*"></a>
@@ -3274,27 +2983,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordAuditLogEntry.html">DiscordAuditLogEntry</a>&gt;&gt;</td>
         <td><p>A collection of requested audit log entries.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ViewAuditLog">ViewAuditLog</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3416,27 +3104,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_BanMembers">BanMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetChannel_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetChannel*"></a>
@@ -3482,22 +3149,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetChannelsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetChannelsAsync*"></a>
@@ -3521,22 +3172,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a>&gt;&gt;</td>
         <td><p>A collection of this guild&apos;s channels.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3565,22 +3200,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><p>This member&apos;s default guild.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3630,22 +3249,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetEmojisAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetEmojisAsync*"></a>
@@ -3669,22 +3272,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildEmoji.html">DiscordGuildEmoji</a>&gt;&gt;</td>
         <td><p>All of this guild&apos;s custom emojis.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3741,37 +3328,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordIntegration.html">DiscordIntegration</a>&gt;&gt;</td>
         <td><p>Collection of integrations attached to this guild.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -3848,22 +3404,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetMemberAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetMemberAsync*"></a>
@@ -3909,22 +3449,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetMembershipScreeningFormAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetMembershipScreeningFormAsync*"></a>
@@ -3948,22 +3472,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildMembershipScreening.html">DiscordGuildMembershipScreening</a>&gt;</td>
         <td><p>This guild&apos;s membership screening form.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4019,37 +3527,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_KickMembers">KickMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetRole_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetRole*"></a>
@@ -4095,22 +3572,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetTemplatesAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetTemplatesAsync*"></a>
@@ -4134,27 +3595,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildTemplate.html">DiscordGuildTemplate</a>&gt;&gt;</td>
         <td><p>All of the guild&apos;s templates.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Throws when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4204,22 +3644,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetVanityInviteAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetVanityInviteAsync*"></a>
@@ -4243,27 +3667,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordInvite.html">DiscordInvite</a>&gt;</td>
         <td><p>A partial vanity invite.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4295,27 +3698,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageWebhooks">ManageWebhooks</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_GetWelcomeScreenAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.GetWelcomeScreenAsync*"></a>
@@ -4339,22 +3721,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildWelcomeScreen.html">DiscordGuildWelcomeScreen</a>&gt;</td>
         <td><p>This guild&apos;s welcome screen object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4484,22 +3850,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_ListVoiceRegionsAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ListVoiceRegionsAsync*"></a>
@@ -4523,22 +3873,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordVoiceRegion.html">DiscordVoiceRegion</a>&gt;&gt;</td>
         <td><p>Voice regions available for this guild.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4584,37 +3918,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuild.html">DiscordGuild</a>&gt;</td>
         <td><p>The modified guild object.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4682,27 +3985,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageEmojisAndStickers">ManageEmojisAndStickers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyIntegrationAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyIntegrationAsync*"></a>
@@ -4766,37 +4048,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyMembershipScreeningFormAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyMembershipScreeningFormAsync*"></a>
@@ -4838,27 +4089,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildMembershipScreening.html">DiscordGuildMembershipScreening</a>&gt;</td>
         <td><p>The modified screening form.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client doesn&apos;t have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission, or community is not enabled on this guild.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -4920,32 +4150,6 @@ the voice state corresponds to.</p>
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Throws when the template for the code cannot be found</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Throws when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyWelcomeScreenAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyWelcomeScreenAsync*"></a>
@@ -4987,27 +4191,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildWelcomeScreen.html">DiscordGuildWelcomeScreen</a>&gt;</td>
         <td><p>The modified welcome screen.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client doesn&apos;t have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission, or community is not enabled on this guild.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -5128,37 +4311,6 @@ the voice state corresponds to.</p>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;&gt;</td>
         <td><p>Number of users pruned.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageChannels">ManageChannels</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -5328,37 +4480,6 @@ The <code data-dev-comment-type="paramref" class="paramref">limit</code> must al
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the guild does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_SyncTemplateAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.SyncTemplateAsync*"></a>
@@ -5400,32 +4521,6 @@ The <code data-dev-comment-type="paramref" class="paramref">limit</code> must al
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordGuildTemplate.html">DiscordGuildTemplate</a>&gt;</td>
         <td><p>The template synced.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Throws when the template for the code cannot be found</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Throws when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_ManageGuild">ManageGuild</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -5509,37 +4604,6 @@ The <code data-dev-comment-type="paramref" class="paramref">limit</code> must al
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_BanMembers">BanMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the user does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_UnbanMemberAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.UnbanMemberAsync*"></a>
@@ -5587,37 +4651,6 @@ The <code data-dev-comment-type="paramref" class="paramref">limit</code> must al
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_BanMembers">BanMembers</a> permission.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
-        <td><p>Thrown when the user does not exist.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
-        <td><p>Thrown when an invalid parameter was provided.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
-        <td><p>Thrown when Discord is unable to process the request.</p>
-</td>
       </tr>
     </tbody>
   </table>
