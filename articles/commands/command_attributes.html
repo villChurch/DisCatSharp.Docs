@@ -144,11 +144,11 @@ private async Task CmdErroredHandler(CommandsNextExtension _, CommandErrorEventA
     var failedChecks = ((ChecksFailedException)e.Exception).FailedChecks;
     foreach (var failedCheck in failedChecks)
     {
-        if (failedCheck is RequireYearAttribute) 
+        if (failedCheck is RequireYearAttribute)
         {
             var yearAttribute = (RequireYearAttribute)failedCheck;
             await e.Context.RespondAsync($&quot;Only usable during year {yearAttribute.AllowedYear}.&quot;);
-        } 
+        }
     }
 }
 </code></pre><p><br>
@@ -167,7 +167,7 @@ public async Task GenericCommand(CommandContext ctx, string generic)
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/commands/command_attributes.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/articles/commands/command_attributes.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

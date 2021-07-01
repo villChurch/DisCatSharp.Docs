@@ -23459,15 +23459,15 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordSelectComponent
   fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent
   nameWithType: DiscordSelectComponent
-- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.String,System.Int32,System.Int32)
-  name: DiscordSelectComponent(String, IEnumerable<DiscordSelectComponentOption>, String, Int32, Int32)
-  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_String_System_Int32_System_Int32_
-  commentId: M:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.String,System.Int32,System.Int32)
-  name.vb: DiscordSelectComponent(String, IEnumerable(Of DiscordSelectComponentOption), String, Int32, Int32)
-  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordSelectComponentOption>, System.String, System.Int32, System.Int32)
-  fullName.vb: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordSelectComponentOption), System.String, System.Int32, System.Int32)
-  nameWithType: DiscordSelectComponent.DiscordSelectComponent(String, IEnumerable<DiscordSelectComponentOption>, String, Int32, Int32)
-  nameWithType.vb: DiscordSelectComponent.DiscordSelectComponent(String, IEnumerable(Of DiscordSelectComponentOption), String, Int32, Int32)
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32)
+  name: DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32)
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_Int32_System_Int32_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32)
+  name.vb: DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32)
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordSelectComponentOption>, System.Int32, System.Int32)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordSelectComponentOption), System.Int32, System.Int32)
+  nameWithType: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32)
+  nameWithType.vb: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32)
 - uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor*
   name: DiscordSelectComponent
   href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_
@@ -23475,19 +23475,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent
   nameWithType: DiscordSelectComponent.DiscordSelectComponent
-- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
-  name: CustomId
-  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_CustomId
-  commentId: P:DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
-  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
-  nameWithType: DiscordSelectComponent.CustomId
-- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId*
-  name: CustomId
-  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_CustomId_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.CustomId
-  nameWithType: DiscordSelectComponent.CustomId
 - uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.MaximumSelectedValues
   name: MaximumSelectedValues
   href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_MaximumSelectedValues
@@ -39440,6 +39427,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasPreviewEnabled
   nameWithType: GuildFeatures.HasPreviewEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled
+  name: HasThreadsEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasThreadsEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled
+  nameWithType: GuildFeatures.HasThreadsEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled*
+  name: HasThreadsEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasThreadsEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadsEnabled
+  nameWithType: GuildFeatures.HasThreadsEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled
+  name: HasThreadTestingEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasThreadTestingEnabled
+  commentId: P:DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled
+  nameWithType: GuildFeatures.HasThreadTestingEnabled
+- uid: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled*
+  name: HasThreadTestingEnabled
+  href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasThreadTestingEnabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.GuildFeatures.HasThreadTestingEnabled
+  nameWithType: GuildFeatures.HasThreadTestingEnabled
 - uid: DSharpPlusNextGen.Entities.GuildFeatures.HasTicketedEventsEnabled
   name: HasTicketedEventsEnabled
   href: api/DSharpPlusNextGen.Entities.GuildFeatures.html#DSharpPlusNextGen_Entities_GuildFeatures_HasTicketedEventsEnabled

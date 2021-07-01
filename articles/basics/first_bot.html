@@ -157,7 +157,7 @@ Select it from the list then click the <code>Install</code> button to the right 
 <h2 id="first-lines-of-code">First Lines of Code</h2>
 <p>DSharpPlusNextGen implements <a href="https://docs.microsoft.com/en-us/dotnet/standard/asynchronous-programming-patterns/consuming-the-task-based-asynchronous-pattern">Task-based Asynchronous Pattern</a>.
 Because of this, the majority of DSharpPlusNextGen methods must be executed in a method marked as <code>async</code> so they can be properly <code>await</code>ed.</p>
-<p>Due to the way the compiler generates the underlying <a href="https://en.wikipedia.org/wiki/Common_Intermediate_Language">IL</a> code, 
+<p>Due to the way the compiler generates the underlying <a href="https://en.wikipedia.org/wiki/Common_Intermediate_Language">IL</a> code,
 marking our <code>Main</code> method as <code>async</code> has the potential to cause problems. As a result, we must pass the program execution to an <code>async</code> method.</p>
 <p>Head back to your <em>Program.cs</em> tab and empty the <code>Main</code> method by deleting line 9.</p>
 <p><img src="/images/basics_first_bot_09.png" alt="Code Editor"></p>
@@ -171,7 +171,7 @@ After that, add <code>MainAsync().GetAwaiter().GetResult();</code> to your <code
 static async Task MainAsync()
 {
 
-}   
+}
 </code></pre><p>If you typed this in by hand, Intellisense should have generated the required <code>using</code> directive for you.<br>
 However, if you copy-pasted the snippet above, VS will complain about being unable to find the <code>Task</code> type.</p>
 <p>Hover over <code>Task</code> with your mouse and click on <code>Show potential fixes</code> from the tooltip.</p>
@@ -182,13 +182,13 @@ However, if you copy-pasted the snippet above, VS will complain about being unab
 We&#39;ll now create a new <code>DiscordClient</code> instance in our brand new asynchronous method.</p>
 <p>Create a new variable in <code>MainAsync</code> and assign it a new <code>DiscordClient</code> instance, then pass an instance of <code>DiscordConfiguration</code> to its constructor.
 Create an object initializer for <code>DiscordConfiguration</code> and populate the <code>Token</code> property with your bot token then set the <code>TokenType</code> property to <code>TokenType.Bot</code>.
-Next add the <code>Intents</code> Property and Populated it with the <a class="xref" href="../../api/DSharpPlusNextGen.DiscordIntents.html#DSharpPlusNextGen_DiscordIntents_AllUnprivileged">AllUnprivileged</a> value. These Intents 
+Next add the <code>Intents</code> Property and Populated it with the <a class="xref" href="../../api/DSharpPlusNextGen.DiscordIntents.html#DSharpPlusNextGen_DiscordIntents_AllUnprivileged">AllUnprivileged</a> value. These Intents
 are required for certain Events to be fired.  Please visit this <a class="xref" href="../beyond_basics/intents.html">article</a> for more information.</p>
 <pre><code class="lang-cs">var discord = new DiscordClient(new DiscordConfiguration()
 {
     Token = &quot;My First Token&quot;,
     TokenType = TokenType.Bot,
-    Intents = DiscordIntents.AllUnprivileged     
+    Intents = DiscordIntents.AllUnprivileged
 });
 </code></pre><div class="WARNING"><h5>Warning</h5><p>We hard-code the token in the above snippet to keep things simple and easy to understand.</p>
 <p>Hard-coding your token is <em>not</em> a smart idea, especially if you plan on distributing your source code.
@@ -205,18 +205,18 @@ If you&#39;ve copied the snippet, be sure to apply the recommended suggestion to
 <p><img src="/images/basics_first_bot_12.png" alt="Program Console"></p>
 <h2 id="spicing-up-your-bot">Spicing Up Your Bot</h2>
 <p>Right now our bot doesn&#39;t do a whole lot. Let&#39;s bring it to life by having it respond to a message!</p>
-<p>Hook the <code>MessageCreated</code> event fired by <code>DiscordClient</code> with a 
+<p>Hook the <code>MessageCreated</code> event fired by <code>DiscordClient</code> with a
 <a href="https://docs.microsoft.com/en-us/dotnet/csharp/language-reference/operators/lambda-expressions">lambda</a>.<br>
 Mark it as <code>async</code> and give it two parameters: <code>s</code> and <code>e</code>.</p>
 <pre><code class="lang-cs">discord.MessageCreated += async (s, e) =&gt;
 {
 
 };
-</code></pre><p>Then, add an <code>if</code> statement into the body of your event lambda that will check if <code>e.Message.Content</code> starts with your desired trigger word and respond with 
+</code></pre><p>Then, add an <code>if</code> statement into the body of your event lambda that will check if <code>e.Message.Content</code> starts with your desired trigger word and respond with
 a message using <code>e.Message.RespondAsync</code> if it does. For this example, we&#39;ll have the bot to respond with <em>pong!</em> for each message that starts with <em>ping</em>.</p>
 <pre><code class="lang-cs">discord.MessageCreated += async (s, e) =&gt;
 {
-    if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;)) 
+    if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;))
         await e.Message.RespondAsync(&quot;pong!&quot;);
 };
 </code></pre><h2 id="the-finished-product">The Finished Product</h2>
@@ -244,7 +244,7 @@ namespace MyFirstBot
 
             discord.MessageCreated += async (s, e) =&gt;
             {
-                if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;)) 
+                if (e.Message.Content.ToLower().StartsWith(&quot;ping&quot;))
                     await e.Message.RespondAsync(&quot;pong!&quot;);
 
             };
@@ -272,7 +272,7 @@ Your bot should respond with <em>pong!</em> for each <em>ping</em> you send.</p>
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/basics/first_bot.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/articles/basics/first_bot.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

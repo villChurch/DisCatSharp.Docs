@@ -98,7 +98,7 @@ var lavalinkConfig = new LavalinkConfiguration
 </code></pre><h2 id="connecting-with-lavalink">Connecting with Lavalink</h2>
 <p>We are now ready to connect to the server. Call the Lavalink extension&#39;s connect method and pass the configuration. Make sure to call this <strong>after</strong> your Discord client connects. This can be called either directly after your client&#39;s connect method or in your client&#39;s ready event.</p>
 <pre><code class="lang-csharp">LavalinkNode = await Lavalink.ConnectAsync(lavalinkConfig);
-</code></pre><p>Your main bot file should now look like this: </p>
+</code></pre><p>Your main bot file should now look like this:</p>
 <pre><code class="lang-csharp">using System.Threading.Tasks;
 using Microsoft.Extensions.Logging;
 using DSharpPlusNextGen;
@@ -141,7 +141,7 @@ namespace MyFirstMusicBot
             var lavalink = Discord.UseLavalink();
 
             await Discord.ConnectAsync();
-            await lavalink.ConnectAsync(lavalinkConfig); // Make sure this is after Discord.ConnectAsync(). 
+            await lavalink.ConnectAsync(lavalinkConfig); // Make sure this is after Discord.ConnectAsync().
 
             await Task.Delay(-1);
         }
@@ -149,7 +149,7 @@ namespace MyFirstMusicBot
 }
 </code></pre><p>We are now ready to start the bot. If everything is configured properly, you should see a Lavalink connection appear in your DSharpPlusNextGen console:</p>
 <pre><code>[2020-10-10 17:56:07 -04:00] [403 /LavalinkConn] [Debug] Connection to Lavalink node established
-</code></pre><p>And a client connection appear in your Lavalink console: </p>
+</code></pre><p>And a client connection appear in your Lavalink console:</p>
 <pre><code>INFO 5180 --- [  XNIO-1 task-1] io.undertow.servlet                      : Initializing Spring DispatcherServlet &#39;dispatcherServlet&#39;
 INFO 5180 --- [  XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet &#39;dispatcherServlet&#39;
 INFO 5180 --- [  XNIO-1 task-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 8 ms
@@ -164,7 +164,7 @@ INFO 5180 --- [  XNIO-1 task-1] lavalink.server.io.SocketServer          : Conne
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/audio/lavalink/configuration.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/articles/audio/lavalink/configuration.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

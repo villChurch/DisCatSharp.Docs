@@ -85,13 +85,13 @@ The goal of this article is to introduce you to the general flow of this extensi
 Optionally, you can also provide an instance of <code>InteractivityConfiguration</code> to modify default behaviors.</p>
 <pre><code class="lang-cs">var discord = new DiscordClient();
 
-discord.UseInteractivity(new InteractivityConfiguration() 
-{ 
+discord.UseInteractivity(new InteractivityConfiguration()
+{
     PollBehaviour = PollBehaviour.KeepEmojis,
     Timeout = TimeSpan.FromSeconds(30)
 });
 </code></pre><h2 id="using-interactivity">Using Interactivity</h2>
-<p>There are two ways available to use interactivity: </p>
+<p>There are two ways available to use interactivity:</p>
 <ul>
 <li>Extension methods available for <code>DiscordChannel</code> and <code>DiscordMessage</code>.</li>
 <li><a class="xref" href="../api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#methods">Instance methods</a> available from <code>InteractivityExtension</code>.</li>
@@ -101,7 +101,7 @@ discord.UseInteractivity(new InteractivityConfiguration()
 The first (and arguably most useful) extension method is <code>SendPaginatedMessageAsync</code> for <code>DiscordChannel</code>.</p>
 <p>This method displays a collection of <em>&#39;pages&#39;</em> which are selected one-at-a-time by the user through reaction buttons.
 Each button click will move the page view in one direction or the other until the timeout is reached.</p>
-<p>You&#39;ll need to create a collection of pages before you can invoke this method. 
+<p>You&#39;ll need to create a collection of pages before you can invoke this method.
 This can be done easily using the <code>GeneratePagesInEmbed</code> and <code>GeneratePagesInContent</code> instance methods from <code>InteractivityExtension</code>.<br>
 Alternatively, for pre-generated content, you can create and add individual instances of <code>Page</code> to a collection.</p>
 <p>This example will use the <code>GeneratePagesInEmbed</code> method to generate the pages.</p>
@@ -169,7 +169,7 @@ Our example here will use its alternate overload which accepts an additional pre
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlus-NextGen/blob/main/docs/articles/interactivity.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/articles/interactivity.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
