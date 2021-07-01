@@ -1699,6 +1699,124 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   </table>
   
   
+  <a id="DSharpPlusNextGen_DiscordClient_GetStickerAsync_" data-uid="DSharpPlusNextGen.DiscordClient.GetStickerAsync*"></a>
+  <h4 id="DSharpPlusNextGen_DiscordClient_GetStickerAsync_System_UInt64_" data-uid="DSharpPlusNextGen.DiscordClient.GetStickerAsync(System.UInt64)">GetStickerAsync(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets a sticker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; GetStickerAsync(ulong id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordSticker</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the sticker does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync_" data-uid="DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync*"></a>
+  <h4 id="DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync" data-uid="DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync">GetStickerPacksAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets all nitro sticker packs
+Don&apos;t know if this works :/</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordStickerPack&gt;&gt; GetStickerPacksAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordStickerPack</span>&gt;&gt;</td>
+        <td><p>List of sticker packs</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DSharpPlusNextGen_DiscordClient_GetTemplateAsync_" data-uid="DSharpPlusNextGen.DiscordClient.GetTemplateAsync*"></a>
   <h4 id="DSharpPlusNextGen_DiscordClient_GetTemplateAsync_System_String_" data-uid="DSharpPlusNextGen.DiscordClient.GetTemplateAsync(System.String)">GetTemplateAsync(String)</h4>
   <div class="markdown level1 summary"><p>Gets a guild template by the code.</p>

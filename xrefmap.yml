@@ -8698,6 +8698,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.DiscordClient.GetInviteByCodeAsync
   nameWithType: DiscordClient.GetInviteByCodeAsync
+- uid: DSharpPlusNextGen.DiscordClient.GetStickerAsync(System.UInt64)
+  name: GetStickerAsync(UInt64)
+  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerAsync_System_UInt64_
+  commentId: M:DSharpPlusNextGen.DiscordClient.GetStickerAsync(System.UInt64)
+  fullName: DSharpPlusNextGen.DiscordClient.GetStickerAsync(System.UInt64)
+  nameWithType: DiscordClient.GetStickerAsync(UInt64)
+- uid: DSharpPlusNextGen.DiscordClient.GetStickerAsync*
+  name: GetStickerAsync
+  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerAsync_
+  commentId: Overload:DSharpPlusNextGen.DiscordClient.GetStickerAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.DiscordClient.GetStickerAsync
+  nameWithType: DiscordClient.GetStickerAsync
+- uid: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
+  name: GetStickerPacksAsync()
+  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync
+  commentId: M:DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
+  fullName: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync()
+  nameWithType: DiscordClient.GetStickerPacksAsync()
+- uid: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync*
+  name: GetStickerPacksAsync
+  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync_
+  commentId: Overload:DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
+  nameWithType: DiscordClient.GetStickerPacksAsync
 - uid: DSharpPlusNextGen.DiscordClient.GetTemplateAsync(System.String)
   name: GetTemplateAsync(String)
   href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetTemplateAsync_System_String_
@@ -17057,6 +17083,22 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateStageChannelAsync
   nameWithType: DiscordGuild.CreateStageChannelAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.DiscordEmoji,DSharpPlusNextGen.Entities.StickerFormat,Stream)
+  name: CreateStickerAsync(String, Optional<String>, DiscordEmoji, StickerFormat, Stream)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateStickerAsync_System_String_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_DiscordEmoji_DSharpPlusNextGen_Entities_StickerFormat_Stream_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.DiscordEmoji,DSharpPlusNextGen.Entities.StickerFormat,Stream)
+  name.vb: CreateStickerAsync(String, Optional(Of String), DiscordEmoji, StickerFormat, Stream)
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String, DSharpPlusNextGen.Entities.Optional<System.String>, DSharpPlusNextGen.Entities.DiscordEmoji, DSharpPlusNextGen.Entities.StickerFormat, Stream)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String, DSharpPlusNextGen.Entities.Optional(Of System.String), DSharpPlusNextGen.Entities.DiscordEmoji, DSharpPlusNextGen.Entities.StickerFormat, Stream)
+  nameWithType: DiscordGuild.CreateStickerAsync(String, Optional<String>, DiscordEmoji, StickerFormat, Stream)
+  nameWithType.vb: DiscordGuild.CreateStickerAsync(String, Optional(Of String), DiscordEmoji, StickerFormat, Stream)
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync*
+  name: CreateStickerAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateStickerAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync
+  nameWithType: DiscordGuild.CreateStickerAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.CreateTemplateAsync(System.String,System.String)
   name: CreateTemplateAsync(String, String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_CreateTemplateAsync_System_String_System_String_
@@ -17180,6 +17222,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.DeleteIntegrationAsync
   nameWithType: DiscordGuild.DeleteIntegrationAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker)
+  name: DeleteStickerAsync(DiscordSticker)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker)
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker)
+  nameWithType: DiscordGuild.DeleteStickerAsync(DiscordSticker)
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync*
+  name: DeleteStickerAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync
+  nameWithType: DiscordGuild.DeleteStickerAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.DeleteTemplateAsync(System.String)
   name: DeleteTemplateAsync(String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_DeleteTemplateAsync_System_String_
@@ -17565,6 +17620,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.GetRole
   nameWithType: DiscordGuild.GetRole
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync(System.UInt64)
+  name: GetStickerAsync(UInt64)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_GetStickerAsync_System_UInt64_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync(System.UInt64)
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync(System.UInt64)
+  nameWithType: DiscordGuild.GetStickerAsync(UInt64)
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync*
+  name: GetStickerAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_GetStickerAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.GetStickerAsync
+  nameWithType: DiscordGuild.GetStickerAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync
+  name: GetStickersAsync()
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_GetStickersAsync
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync()
+  nameWithType: DiscordGuild.GetStickersAsync()
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync*
+  name: GetStickersAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_GetStickersAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.GetStickersAsync
+  nameWithType: DiscordGuild.GetStickersAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.GetTemplatesAsync
   name: GetTemplatesAsync()
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_GetTemplatesAsync
@@ -17964,6 +18045,22 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.ModifyMembershipScreeningFormAsync
   nameWithType: DiscordGuild.ModifyMembershipScreeningFormAsync
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.Entities.DiscordEmoji})
+  name: ModifyStickerAsync(DiscordSticker, Optional<String>, Optional<String>, Optional<DiscordEmoji>)
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_Entities_DiscordEmoji__
+  commentId: M:DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.Entities.DiscordEmoji})
+  name.vb: ModifyStickerAsync(DiscordSticker, Optional(Of String), Optional(Of String), Optional(Of DiscordEmoji))
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker, DSharpPlusNextGen.Entities.Optional<System.String>, DSharpPlusNextGen.Entities.Optional<System.String>, DSharpPlusNextGen.Entities.Optional<DSharpPlusNextGen.Entities.DiscordEmoji>)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker, DSharpPlusNextGen.Entities.Optional(Of System.String), DSharpPlusNextGen.Entities.Optional(Of System.String), DSharpPlusNextGen.Entities.Optional(Of DSharpPlusNextGen.Entities.DiscordEmoji))
+  nameWithType: DiscordGuild.ModifyStickerAsync(DiscordSticker, Optional<String>, Optional<String>, Optional<DiscordEmoji>)
+  nameWithType.vb: DiscordGuild.ModifyStickerAsync(DiscordSticker, Optional(Of String), Optional(Of String), Optional(Of DiscordEmoji))
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync*
+  name: ModifyStickerAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync
+  nameWithType: DiscordGuild.ModifyStickerAsync
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.ModifyTemplateAsync(System.String,System.String,System.String)
   name: ModifyTemplateAsync(String, String, String)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_ModifyTemplateAsync_System_String_System_String_System_String_
@@ -18278,6 +18375,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.StageInstances
   nameWithType: DiscordGuild.StageInstances
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.Stickers
+  name: Stickers
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_Stickers
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuild.Stickers
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.Stickers
+  nameWithType: DiscordGuild.Stickers
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.Stickers*
+  name: Stickers
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_Stickers_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.Stickers
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.Stickers
+  nameWithType: DiscordGuild.Stickers
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.SyncIntegrationAsync(DSharpPlusNextGen.Entities.DiscordIntegration)
   name: SyncIntegrationAsync(DiscordIntegration)
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_SyncIntegrationAsync_DSharpPlusNextGen_Entities_DiscordIntegration_
@@ -22430,116 +22540,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordMessageReference.ToString
   nameWithType: DiscordMessageReference.ToString
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker
-  name: DiscordMessageSticker
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html
-  commentId: T:DSharpPlusNextGen.Entities.DiscordMessageSticker
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker
-  nameWithType: DiscordMessageSticker
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset
-  name: Asset
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Asset
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset
-  nameWithType: DiscordMessageSticker.Asset
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset*
-  name: Asset
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Asset_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Asset
-  nameWithType: DiscordMessageSticker.Asset
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Description
-  name: Description
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Description
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.Description
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Description
-  nameWithType: DiscordMessageSticker.Description
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Description*
-  name: Description
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Description_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.Description
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Description
-  nameWithType: DiscordMessageSticker.Description
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals(DSharpPlusNextGen.Entities.DiscordMessageSticker)
-  name: Equals(DiscordMessageSticker)
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Equals_DSharpPlusNextGen_Entities_DiscordMessageSticker_
-  commentId: M:DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals(DSharpPlusNextGen.Entities.DiscordMessageSticker)
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals(DSharpPlusNextGen.Entities.DiscordMessageSticker)
-  nameWithType: DiscordMessageSticker.Equals(DiscordMessageSticker)
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals*
-  name: Equals
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Equals_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Equals
-  nameWithType: DiscordMessageSticker.Equals
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType
-  name: FormatType
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_FormatType
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType
-  nameWithType: DiscordMessageSticker.FormatType
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType*
-  name: FormatType
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_FormatType_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.FormatType
-  nameWithType: DiscordMessageSticker.FormatType
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Name
-  name: Name
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Name
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.Name
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Name
-  nameWithType: DiscordMessageSticker.Name
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Name*
-  name: Name
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Name_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.Name
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Name
-  nameWithType: DiscordMessageSticker.Name
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId
-  name: PackId
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_PackId
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId
-  nameWithType: DiscordMessageSticker.PackId
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId*
-  name: PackId
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_PackId_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.PackId
-  nameWithType: DiscordMessageSticker.PackId
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset
-  name: PreviewAsset
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_PreviewAsset
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset
-  nameWithType: DiscordMessageSticker.PreviewAsset
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset*
-  name: PreviewAsset
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_PreviewAsset_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.PreviewAsset
-  nameWithType: DiscordMessageSticker.PreviewAsset
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags
-  name: Tags
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Tags
-  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags
-  nameWithType: DiscordMessageSticker.Tags
-- uid: DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags*
-  name: Tags
-  href: api/DSharpPlusNextGen.Entities.DiscordMessageSticker.html#DSharpPlusNextGen_Entities_DiscordMessageSticker_Tags_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordMessageSticker.Tags
-  nameWithType: DiscordMessageSticker.Tags
 - uid: DSharpPlusNextGen.Entities.DiscordOverwrite
   name: DiscordOverwrite
   href: api/DSharpPlusNextGen.Entities.DiscordOverwrite.html
@@ -23814,6 +23814,281 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordStageInstance.Topic
   nameWithType: DiscordStageInstance.Topic
+- uid: DSharpPlusNextGen.Entities.DiscordSticker
+  name: DiscordSticker
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html
+  commentId: T:DSharpPlusNextGen.Entities.DiscordSticker
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker
+  nameWithType: DiscordSticker
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Asset
+  name: Asset
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Asset
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Asset
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Asset
+  nameWithType: DiscordSticker.Asset
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Asset*
+  name: Asset
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Asset_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Asset
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Asset
+  nameWithType: DiscordSticker.Asset
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Available
+  name: Available
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Available
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Available
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Available
+  nameWithType: DiscordSticker.Available
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Available*
+  name: Available
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Available_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Available
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Available
+  nameWithType: DiscordSticker.Available
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync
+  name: DeleteAsync()
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_DeleteAsync
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync()
+  nameWithType: DiscordSticker.DeleteAsync()
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync*
+  name: DeleteAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_DeleteAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.DeleteAsync
+  nameWithType: DiscordSticker.DeleteAsync
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Description
+  name: Description
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Description
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Description
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Description
+  nameWithType: DiscordSticker.Description
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Description*
+  name: Description
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Description_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Description
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Description
+  nameWithType: DiscordSticker.Description
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Equals(DSharpPlusNextGen.Entities.DiscordSticker)
+  name: Equals(DiscordSticker)
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Equals_DSharpPlusNextGen_Entities_DiscordSticker_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSticker.Equals(DSharpPlusNextGen.Entities.DiscordSticker)
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Equals(DSharpPlusNextGen.Entities.DiscordSticker)
+  nameWithType: DiscordSticker.Equals(DiscordSticker)
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Equals*
+  name: Equals
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Equals_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Equals
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Equals
+  nameWithType: DiscordSticker.Equals
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.FormatType
+  name: FormatType
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_FormatType
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.FormatType
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.FormatType
+  nameWithType: DiscordSticker.FormatType
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.FormatType*
+  name: FormatType
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_FormatType_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.FormatType
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.FormatType
+  nameWithType: DiscordSticker.FormatType
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Guild
+  name: Guild
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Guild
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Guild
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Guild
+  nameWithType: DiscordSticker.Guild
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Guild*
+  name: Guild
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Guild_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Guild
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Guild
+  nameWithType: DiscordSticker.Guild
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String})
+  name: ModifyAsync(Optional<String>, Optional<String>, Optional<String>)
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_ModifyAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String})
+  name.vb: ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of String))
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync(DSharpPlusNextGen.Entities.Optional<System.String>, DSharpPlusNextGen.Entities.Optional<System.String>, DSharpPlusNextGen.Entities.Optional<System.String>)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync(DSharpPlusNextGen.Entities.Optional(Of System.String), DSharpPlusNextGen.Entities.Optional(Of System.String), DSharpPlusNextGen.Entities.Optional(Of System.String))
+  nameWithType: DiscordSticker.ModifyAsync(Optional<String>, Optional<String>, Optional<String>)
+  nameWithType.vb: DiscordSticker.ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of String))
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync*
+  name: ModifyAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_ModifyAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync
+  nameWithType: DiscordSticker.ModifyAsync
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Name
+  name: Name
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Name
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Name
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Name
+  nameWithType: DiscordSticker.Name
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Name*
+  name: Name
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Name_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Name
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Name
+  nameWithType: DiscordSticker.Name
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.PackId
+  name: PackId
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_PackId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.PackId
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.PackId
+  nameWithType: DiscordSticker.PackId
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.PackId*
+  name: PackId
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_PackId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.PackId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.PackId
+  nameWithType: DiscordSticker.PackId
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset
+  name: PreviewAsset
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_PreviewAsset
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset
+  nameWithType: DiscordSticker.PreviewAsset
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset*
+  name: PreviewAsset
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_PreviewAsset_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.PreviewAsset
+  nameWithType: DiscordSticker.PreviewAsset
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.SortValue
+  name: SortValue
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_SortValue
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.SortValue
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.SortValue
+  nameWithType: DiscordSticker.SortValue
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.SortValue*
+  name: SortValue
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_SortValue_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.SortValue
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.SortValue
+  nameWithType: DiscordSticker.SortValue
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Tags
+  name: Tags
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Tags
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Tags
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Tags
+  nameWithType: DiscordSticker.Tags
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Tags*
+  name: Tags
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Tags_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Tags
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Tags
+  nameWithType: DiscordSticker.Tags
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.ToString
+  name: ToString()
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_ToString
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSticker.ToString
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.ToString()
+  nameWithType: DiscordSticker.ToString()
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.ToString*
+  name: ToString
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_ToString_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.ToString
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.ToString
+  nameWithType: DiscordSticker.ToString
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Type
+  name: Type
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Type
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Type
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Type
+  nameWithType: DiscordSticker.Type
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Type*
+  name: Type
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Type_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Type
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Type
+  nameWithType: DiscordSticker.Type
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.User
+  name: User
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_User
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.User
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.User
+  nameWithType: DiscordSticker.User
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.User*
+  name: User
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_User_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.User
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.User
+  nameWithType: DiscordSticker.User
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack
+  name: DiscordStickerPack
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html
+  commentId: T:DSharpPlusNextGen.Entities.DiscordStickerPack
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack
+  nameWithType: DiscordStickerPack
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
+  name: CoverStickerId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_CoverStickerId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
+  nameWithType: DiscordStickerPack.CoverStickerId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId*
+  name: CoverStickerId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_CoverStickerId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
+  nameWithType: DiscordStickerPack.CoverStickerId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.Name
+  name: Name
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_Name
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.Name
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.Name
+  nameWithType: DiscordStickerPack.Name
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.Name*
+  name: Name
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_Name_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.Name
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.Name
+  nameWithType: DiscordStickerPack.Name
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId
+  name: SkuId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_SkuId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId
+  nameWithType: DiscordStickerPack.SkuId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId*
+  name: SkuId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_SkuId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.SkuId
+  nameWithType: DiscordStickerPack.SkuId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers
+  name: Stickers
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_Stickers
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers
+  nameWithType: DiscordStickerPack.Stickers
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers*
+  name: Stickers
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_Stickers_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.Stickers
+  nameWithType: DiscordStickerPack.Stickers
 - uid: DSharpPlusNextGen.Entities.DiscordTeam
   name: DiscordTeam
   href: api/DSharpPlusNextGen.Entities.DiscordTeam.html
@@ -40050,6 +40325,24 @@ references:
   commentId: F:DSharpPlusNextGen.Entities.StickerFormat.PNG
   fullName: DSharpPlusNextGen.Entities.StickerFormat.PNG
   nameWithType: StickerFormat.PNG
+- uid: DSharpPlusNextGen.Entities.StickerType
+  name: StickerType
+  href: api/DSharpPlusNextGen.Entities.StickerType.html
+  commentId: T:DSharpPlusNextGen.Entities.StickerType
+  fullName: DSharpPlusNextGen.Entities.StickerType
+  nameWithType: StickerType
+- uid: DSharpPlusNextGen.Entities.StickerType.Guild
+  name: Guild
+  href: api/DSharpPlusNextGen.Entities.StickerType.html#DSharpPlusNextGen_Entities_StickerType_Guild
+  commentId: F:DSharpPlusNextGen.Entities.StickerType.Guild
+  fullName: DSharpPlusNextGen.Entities.StickerType.Guild
+  nameWithType: StickerType.Guild
+- uid: DSharpPlusNextGen.Entities.StickerType.Standard
+  name: Standard
+  href: api/DSharpPlusNextGen.Entities.StickerType.html#DSharpPlusNextGen_Entities_StickerType_Standard
+  commentId: F:DSharpPlusNextGen.Entities.StickerType.Standard
+  fullName: DSharpPlusNextGen.Entities.StickerType.Standard
+  nameWithType: StickerType.Standard
 - uid: DSharpPlusNextGen.Entities.UserMention
   name: UserMention
   href: api/DSharpPlusNextGen.Entities.UserMention.html
