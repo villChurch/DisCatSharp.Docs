@@ -115,7 +115,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordSelectComponent(string customId, string placeholder = null, IEnumerable&lt;DiscordSelectComponentOption&gt; options = null, int minOptions = 1, int maxOptions = 1, bool disabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordSelectComponent(string customId, string placeholder, IEnumerable&lt;DiscordSelectComponentOption&gt; options, int minOptions = 1, int maxOptions = 1, bool disabled = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -176,7 +176,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Disabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Disabled { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -202,7 +202,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MaximumSelectedValues { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? MaximumSelectedValues { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -228,7 +228,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public int? MinimumSelectedValues { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public int? MinimumSelectedValues { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -254,7 +254,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordSelectComponentOption[] Options { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordSelectComponentOption&gt; Options { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -266,7 +266,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordSelectComponentOption.html">DiscordSelectComponentOption</a>[]</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordSelectComponentOption.html">DiscordSelectComponentOption</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -280,7 +280,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Placeholder { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Placeholder { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

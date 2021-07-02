@@ -267,14 +267,32 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordStageInstance_CloseAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.CloseAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordStageInstance_CloseAsync" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.CloseAsync">CloseAsync()</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordStageInstance_CloseAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.CloseAsync(System.String)">CloseAsync(String)</h4>
   <div class="markdown level1 summary"><p>Deletes a stage instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task CloseAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task CloseAsync(string reason = null)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -445,13 +463,13 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordStageInstance_ModifyAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.ModifyAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordStageInstance_ModifyAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_StagePrivacyLevel__" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.ModifyAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.StagePrivacyLevel})">ModifyAsync(Optional&lt;String&gt;, Optional&lt;StagePrivacyLevel&gt;)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordStageInstance_ModifyAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_StagePrivacyLevel__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordStageInstance.ModifyAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.StagePrivacyLevel},System.String)">ModifyAsync(Optional&lt;String&gt;, Optional&lt;StagePrivacyLevel&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Updates a stage instance.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task ModifyAsync(Optional&lt;string&gt; topic, Optional&lt;StagePrivacyLevel&gt; privacy_level)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task ModifyAsync(Optional&lt;string&gt; topic, Optional&lt;StagePrivacyLevel&gt; privacy_level, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -473,6 +491,12 @@
         <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html">StagePrivacyLevel</a>&gt;</td>
         <td><span class="parametername">privacy_level</span></td>
         <td><p>Privacy Level of the stage instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
 </td>
       </tr>
     </tbody>

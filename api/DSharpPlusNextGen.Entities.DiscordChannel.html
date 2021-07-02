@@ -161,6 +161,32 @@
   </table>
   
   
+  <a id="DSharpPlusNextGen_Entities_DiscordChannel_DefaultAutoArchiveDuration_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DefaultAutoArchiveDuration*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_DefaultAutoArchiveDuration" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.DefaultAutoArchiveDuration">DefaultAutoArchiveDuration</h4>
+  <div class="markdown level1 summary"><p>Gets this channel&apos;s default duration for newly created threads, in minutes, to automatically archive the thread after recent activity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ThreadAutoArchiveDuration? DefaultAutoArchiveDuration { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DSharpPlusNextGen.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DSharpPlusNextGen_Entities_DiscordChannel_Guild_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Guild*"></a>
   <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_Guild" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.Guild">Guild</h4>
   <div class="markdown level1 summary"><p>Gets the guild to which this channel belongs.</p>
@@ -973,14 +999,32 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordChannel_CloseStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloseStageAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CloseStageAsync" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloseStageAsync">CloseStageAsync()</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_CloseStageAsync_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.CloseStageAsync(System.String)">CloseStageAsync(String)</h4>
   <div class="markdown level1 summary"><p>Closes a stage</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task CloseStageAsync()</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task CloseStageAsync(string reason = null)</code></pre>
   </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
@@ -2908,13 +2952,13 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyStageAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyStageAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_StagePrivacyLevel__" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyStageAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.StagePrivacyLevel})">ModifyStageAsync(Optional&lt;String&gt;, Optional&lt;StagePrivacyLevel&gt;)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_ModifyStageAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_StagePrivacyLevel__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.ModifyStageAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.StagePrivacyLevel},System.String)">ModifyStageAsync(Optional&lt;String&gt;, Optional&lt;StagePrivacyLevel&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Modifies a stage topic</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task ModifyStageAsync(Optional&lt;string&gt; topic, Optional&lt;StagePrivacyLevel&gt; privacy_level)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task ModifyStageAsync(Optional&lt;string&gt; topic, Optional&lt;StagePrivacyLevel&gt; privacy_level, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2936,6 +2980,12 @@
         <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html">StagePrivacyLevel</a>&gt;</td>
         <td><span class="parametername">privacy_level</span></td>
         <td><p>New privacy level of stage.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
 </td>
       </tr>
     </tbody>
@@ -2989,13 +3039,13 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordChannel_OpenStageAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.OpenStageAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_OpenStageAsync_System_String_DSharpPlusNextGen_StagePrivacyLevel_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.OpenStageAsync(System.String,DSharpPlusNextGen.StagePrivacyLevel)">OpenStageAsync(String, StagePrivacyLevel)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordChannel_OpenStageAsync_System_String_DSharpPlusNextGen_StagePrivacyLevel_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordChannel.OpenStageAsync(System.String,DSharpPlusNextGen.StagePrivacyLevel,System.String)">OpenStageAsync(String, StagePrivacyLevel, String)</h4>
   <div class="markdown level1 summary"><p>Opens a stage</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordStageInstance&gt; OpenStageAsync(string topic, StagePrivacyLevel privacy_level = StagePrivacyLevel.GUILD_ONLY)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordStageInstance&gt; OpenStageAsync(string topic, StagePrivacyLevel privacy_level = StagePrivacyLevel.GUILD_ONLY, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -3019,6 +3069,12 @@
         <td><p>Privacy level of stage (Defaults to <a class="xref" href="DSharpPlusNextGen.StagePrivacyLevel.html#DSharpPlusNextGen_StagePrivacyLevel_GUILD_ONLY">GUILD_ONLY</a></p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h5 class="returns">Returns</h5>
@@ -3032,7 +3088,8 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordStageInstance.html">DiscordStageInstance</a>&gt;</td>
-        <td></td>
+        <td><p>Stage instance</p>
+</td>
       </tr>
     </tbody>
   </table>

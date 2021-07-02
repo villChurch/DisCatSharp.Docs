@@ -2358,13 +2358,13 @@ the voice state corresponds to.</p>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_CreateStickerAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_CreateStickerAsync_System_String_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_DiscordEmoji_DSharpPlusNextGen_Entities_StickerFormat_Stream_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.DiscordEmoji,DSharpPlusNextGen.Entities.StickerFormat,Stream)">CreateStickerAsync(String, Optional&lt;String&gt;, DiscordEmoji, StickerFormat, Stream)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_CreateStickerAsync_System_String_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_DiscordEmoji_DSharpPlusNextGen_Entities_StickerFormat_Stream_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.CreateStickerAsync(System.String,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.DiscordEmoji,DSharpPlusNextGen.Entities.StickerFormat,Stream,System.String)">CreateStickerAsync(String, Optional&lt;String&gt;, DiscordEmoji, StickerFormat, Stream, String)</h4>
   <div class="markdown level1 summary"><p>Creates a sticker</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; CreateStickerAsync(string name, Optional&lt;string&gt; description, DiscordEmoji emoji, StickerFormat format, Stream file)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; CreateStickerAsync(string name, Optional&lt;string&gt; description, DiscordEmoji emoji, StickerFormat format, Stream file, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2404,6 +2404,12 @@ the voice state corresponds to.</p>
         <td><span class="xref">Stream</span></td>
         <td><span class="parametername">file</span></td>
         <td><p>The sticker.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
 </td>
       </tr>
     </tbody>
@@ -2786,13 +2792,13 @@ the voice state corresponds to.</p>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker)">DeleteStickerAsync(DiscordSticker)</h4>
-  <div class="markdown level1 summary"><p>Deletes this sticker</p>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker,System.String)">DeleteStickerAsync(DiscordSticker, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a sticker</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task DeleteStickerAsync(DiscordSticker sticker)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task DeleteStickerAsync(DiscordSticker sticker, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2807,7 +2813,64 @@ the voice state corresponds to.</p>
       <tr>
         <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordSticker.html">DiscordSticker</a></td>
         <td><span class="parametername">sticker</span></td>
+        <td><p>Sticker to delete</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_DeleteStickerAsync_System_UInt64_System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.DeleteStickerAsync(System.UInt64,System.String)">DeleteStickerAsync(UInt64, String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a sticker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteStickerAsync(ulong sticker, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">sticker</span></td>
+        <td><p>Id of sticker to delete</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -4304,13 +4367,13 @@ the voice state corresponds to.</p>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_Entities_DiscordEmoji__" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.Entities.DiscordEmoji})">ModifyStickerAsync(DiscordSticker, Optional&lt;String&gt;, Optional&lt;String&gt;, Optional&lt;DiscordEmoji&gt;)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_DSharpPlusNextGen_Entities_DiscordSticker_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_Entities_DiscordEmoji__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(DSharpPlusNextGen.Entities.DiscordSticker,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.Entities.DiscordEmoji},System.String)">ModifyStickerAsync(DiscordSticker, Optional&lt;String&gt;, Optional&lt;String&gt;, Optional&lt;DiscordEmoji&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Modifies a sticker</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordSticker&gt; ModifyStickerAsync(DiscordSticker sticker, Optional&lt;string&gt; name, Optional&lt;string&gt; description, Optional&lt;DiscordEmoji&gt; emoji)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; ModifyStickerAsync(DiscordSticker sticker, Optional&lt;string&gt; name, Optional&lt;string&gt; description, Optional&lt;DiscordEmoji&gt; emoji, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -4344,6 +4407,81 @@ the voice state corresponds to.</p>
         <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordEmoji.html">DiscordEmoji</a>&gt;</td>
         <td><span class="parametername">emoji</span></td>
         <td><p>The emoji to associate with this sticker.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordSticker.html">DiscordSticker</a>&gt;</td>
+        <td><p>A sticker object</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordGuild_ModifyStickerAsync_System_UInt64_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_DSharpPlusNextGen_Entities_DiscordEmoji__System_String_" data-uid="DSharpPlusNextGen.Entities.DiscordGuild.ModifyStickerAsync(System.UInt64,DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{DSharpPlusNextGen.Entities.DiscordEmoji},System.String)">ModifyStickerAsync(UInt64, Optional&lt;String&gt;, Optional&lt;String&gt;, Optional&lt;DiscordEmoji&gt;, String)</h4>
+  <div class="markdown level1 summary"><p>Modifies a sticker</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordSticker&gt; ModifyStickerAsync(ulong sticker, Optional&lt;string&gt; name, Optional&lt;string&gt; description, Optional&lt;DiscordEmoji&gt; emoji, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">sticker</span></td>
+        <td><p>The id of the sticker to modify</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">name</span></td>
+        <td><p>The name of the sticker</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description of the sticker</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DSharpPlusNextGen.Entities.DiscordEmoji.html">DiscordEmoji</a>&gt;</td>
+        <td><span class="parametername">emoji</span></td>
+        <td><p>The emoji to associate with this sticker.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
 </td>
       </tr>
     </tbody>
