@@ -8711,19 +8711,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.DiscordClient.GetStickerAsync
   nameWithType: DiscordClient.GetStickerAsync
-- uid: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
-  name: GetStickerPacksAsync()
-  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync
-  commentId: M:DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
-  fullName: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync()
-  nameWithType: DiscordClient.GetStickerPacksAsync()
-- uid: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync*
-  name: GetStickerPacksAsync
-  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetStickerPacksAsync_
-  commentId: Overload:DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.DiscordClient.GetStickerPacksAsync
-  nameWithType: DiscordClient.GetStickerPacksAsync
 - uid: DSharpPlusNextGen.DiscordClient.GetTemplateAsync(System.String)
   name: GetTemplateAsync(String)
   href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GetTemplateAsync_System_String_
@@ -8910,6 +8897,12 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.DiscordClient.Guilds
   nameWithType: DiscordClient.Guilds
+- uid: DSharpPlusNextGen.DiscordClient.GuildStickersUpdated
+  name: GuildStickersUpdated
+  href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GuildStickersUpdated
+  commentId: E:DSharpPlusNextGen.DiscordClient.GuildStickersUpdated
+  fullName: DSharpPlusNextGen.DiscordClient.GuildStickersUpdated
+  nameWithType: DiscordClient.GuildStickersUpdated
 - uid: DSharpPlusNextGen.DiscordClient.GuildUnavailable
   name: GuildUnavailable
   href: api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_GuildUnavailable
@@ -9641,12 +9634,12 @@ references:
   commentId: F:DSharpPlusNextGen.DiscordIntents.GuildBans
   fullName: DSharpPlusNextGen.DiscordIntents.GuildBans
   nameWithType: DiscordIntents.GuildBans
-- uid: DSharpPlusNextGen.DiscordIntents.GuildEmojis
-  name: GuildEmojis
-  href: api/DSharpPlusNextGen.DiscordIntents.html#DSharpPlusNextGen_DiscordIntents_GuildEmojis
-  commentId: F:DSharpPlusNextGen.DiscordIntents.GuildEmojis
-  fullName: DSharpPlusNextGen.DiscordIntents.GuildEmojis
-  nameWithType: DiscordIntents.GuildEmojis
+- uid: DSharpPlusNextGen.DiscordIntents.GuildEmojisAndStickers
+  name: GuildEmojisAndStickers
+  href: api/DSharpPlusNextGen.DiscordIntents.html#DSharpPlusNextGen_DiscordIntents_GuildEmojisAndStickers
+  commentId: F:DSharpPlusNextGen.DiscordIntents.GuildEmojisAndStickers
+  fullName: DSharpPlusNextGen.DiscordIntents.GuildEmojisAndStickers
+  nameWithType: DiscordIntents.GuildEmojisAndStickers
 - uid: DSharpPlusNextGen.DiscordIntents.GuildIntegrations
   name: GuildIntegrations
   href: api/DSharpPlusNextGen.DiscordIntents.html#DSharpPlusNextGen_DiscordIntents_GuildIntegrations
@@ -9965,6 +9958,12 @@ references:
   commentId: E:DSharpPlusNextGen.DiscordShardedClient.GuildRoleUpdated
   fullName: DSharpPlusNextGen.DiscordShardedClient.GuildRoleUpdated
   nameWithType: DiscordShardedClient.GuildRoleUpdated
+- uid: DSharpPlusNextGen.DiscordShardedClient.GuildStickersUpdated
+  name: GuildStickersUpdated
+  href: api/DSharpPlusNextGen.DiscordShardedClient.html#DSharpPlusNextGen_DiscordShardedClient_GuildStickersUpdated
+  commentId: E:DSharpPlusNextGen.DiscordShardedClient.GuildStickersUpdated
+  fullName: DSharpPlusNextGen.DiscordShardedClient.GuildStickersUpdated
+  nameWithType: DiscordShardedClient.GuildStickersUpdated
 - uid: DSharpPlusNextGen.DiscordShardedClient.GuildUnavailable
   name: GuildUnavailable
   href: api/DSharpPlusNextGen.DiscordShardedClient.html#DSharpPlusNextGen_DiscordShardedClient_GuildUnavailable
@@ -23459,15 +23458,15 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordSelectComponent
   fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent
   nameWithType: DiscordSelectComponent
-- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32)
-  name: DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32)
-  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_Int32_System_Int32_
-  commentId: M:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32)
-  name.vb: DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32)
-  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordSelectComponentOption>, System.Int32, System.Int32)
-  fullName.vb: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordSelectComponentOption), System.Int32, System.Int32)
-  nameWithType: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32)
-  nameWithType.vb: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32)
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32,System.Boolean)
+  name: DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32, Boolean)
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_Int32_System_Int32_System_Boolean_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32,System.Boolean)
+  name.vb: DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32, Boolean)
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable<DSharpPlusNextGen.Entities.DiscordSelectComponentOption>, System.Int32, System.Int32, System.Boolean)
+  fullName.vb: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent(System.String, System.String, IEnumerable(Of DSharpPlusNextGen.Entities.DiscordSelectComponentOption), System.Int32, System.Int32, System.Boolean)
+  nameWithType: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable<DiscordSelectComponentOption>, Int32, Int32, Boolean)
+  nameWithType.vb: DiscordSelectComponent.DiscordSelectComponent(String, String, IEnumerable(Of DiscordSelectComponentOption), Int32, Int32, Boolean)
 - uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor*
   name: DiscordSelectComponent
   href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_
@@ -23475,6 +23474,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.DiscordSelectComponent
   nameWithType: DiscordSelectComponent.DiscordSelectComponent
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled
+  name: Disabled
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_Disabled
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled
+  nameWithType: DiscordSelectComponent.Disabled
+- uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled*
+  name: Disabled
+  href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_Disabled_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled
+  nameWithType: DiscordSelectComponent.Disabled
 - uid: DSharpPlusNextGen.Entities.DiscordSelectComponent.MaximumSelectedValues
   name: MaximumSelectedValues
   href: api/DSharpPlusNextGen.Entities.DiscordSelectComponent.html#DSharpPlusNextGen_Entities_DiscordSelectComponent_MaximumSelectedValues
@@ -24018,6 +24030,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordSticker.Type
   nameWithType: DiscordSticker.Type
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Url
+  name: Url
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Url
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.Url
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Url
+  nameWithType: DiscordSticker.Url
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.Url*
+  name: Url
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_Url_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.Url
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.Url
+  nameWithType: DiscordSticker.Url
 - uid: DSharpPlusNextGen.Entities.DiscordSticker.User
   name: User
   href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_User
@@ -24037,6 +24062,45 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordStickerPack
   fullName: DSharpPlusNextGen.Entities.DiscordStickerPack
   nameWithType: DiscordStickerPack
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId
+  name: BannerAssetId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_BannerAssetId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId
+  nameWithType: DiscordStickerPack.BannerAssetId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId*
+  name: BannerAssetId
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_BannerAssetId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerAssetId
+  nameWithType: DiscordStickerPack.BannerAssetId
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_BannerUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl
+  nameWithType: DiscordStickerPack.BannerUrl
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl*
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_BannerUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.BannerUrl
+  nameWithType: DiscordStickerPack.BannerUrl
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker
+  name: CoverSticker
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_CoverSticker
+  commentId: P:DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker
+  nameWithType: DiscordStickerPack.CoverSticker
+- uid: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker*
+  name: CoverSticker
+  href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_CoverSticker_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverSticker
+  nameWithType: DiscordStickerPack.CoverSticker
 - uid: DSharpPlusNextGen.Entities.DiscordStickerPack.CoverStickerId
   name: CoverStickerId
   href: api/DSharpPlusNextGen.Entities.DiscordStickerPack.html#DSharpPlusNextGen_Entities_DiscordStickerPack_CoverStickerId
@@ -41865,6 +41929,51 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.EventArgs.GuildRoleUpdateEventArgs.RoleBefore
   nameWithType: GuildRoleUpdateEventArgs.RoleBefore
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs
+  name: GuildStickersUpdateEventArgs
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html
+  commentId: T:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs
+  nameWithType: GuildStickersUpdateEventArgs
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild
+  name: Guild
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_Guild
+  commentId: P:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild
+  nameWithType: GuildStickersUpdateEventArgs.Guild
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild*
+  name: Guild
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_Guild_
+  commentId: Overload:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.Guild
+  nameWithType: GuildStickersUpdateEventArgs.Guild
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter
+  name: StickersAfter
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_StickersAfter
+  commentId: P:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter
+  nameWithType: GuildStickersUpdateEventArgs.StickersAfter
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter*
+  name: StickersAfter
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_StickersAfter_
+  commentId: Overload:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersAfter
+  nameWithType: GuildStickersUpdateEventArgs.StickersAfter
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore
+  name: StickersBefore
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_StickersBefore
+  commentId: P:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore
+  nameWithType: GuildStickersUpdateEventArgs.StickersBefore
+- uid: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore*
+  name: StickersBefore
+  href: api/DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.html#DSharpPlusNextGen_EventArgs_GuildStickersUpdateEventArgs_StickersBefore_
+  commentId: Overload:DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.EventArgs.GuildStickersUpdateEventArgs.StickersBefore
+  nameWithType: GuildStickersUpdateEventArgs.StickersBefore
 - uid: DSharpPlusNextGen.EventArgs.GuildUpdateEventArgs
   name: GuildUpdateEventArgs
   href: api/DSharpPlusNextGen.EventArgs.GuildUpdateEventArgs.html

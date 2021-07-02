@@ -109,13 +109,13 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_Int32_System_Int32_" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32)">DiscordSelectComponent(String, String, IEnumerable&lt;DiscordSelectComponentOption&gt;, Int32, Int32)</h4>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordSelectComponent__ctor_System_String_System_String_IEnumerable_DSharpPlusNextGen_Entities_DiscordSelectComponentOption__System_Int32_System_Int32_System_Boolean_" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.#ctor(System.String,System.String,IEnumerable{DSharpPlusNextGen.Entities.DiscordSelectComponentOption},System.Int32,System.Int32,System.Boolean)">DiscordSelectComponent(String, String, IEnumerable&lt;DiscordSelectComponentOption&gt;, Int32, Int32, Boolean)</h4>
   <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="DSharpPlusNextGen.Entities.DiscordSelectComponent.html">DiscordSelectComponent</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordSelectComponent(string customId, string placeholder = null, IEnumerable&lt;DiscordSelectComponentOption&gt; options = null, int minOptions = 1, int maxOptions = 1)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordSelectComponent(string customId, string placeholder = null, IEnumerable&lt;DiscordSelectComponentOption&gt; options = null, int minOptions = 1, int maxOptions = 1, bool disabled = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,10 +157,42 @@
         <td><p>Maximum count of selectable options.</p>
 </td>
       </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">disabled</span></td>
+        <td><p>Whether this button should be initialized as being disabled. User sees a greyed out button that cannot be interacted with.</p>
+</td>
+      </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordSelectComponent_Disabled_" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordSelectComponent_Disabled" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.Disabled">Disabled</h4>
+  <div class="markdown level1 summary"><p>Whether this select can be used.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Disabled { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordSelectComponent_MaximumSelectedValues_" data-uid="DSharpPlusNextGen.Entities.DiscordSelectComponent.MaximumSelectedValues*"></a>
