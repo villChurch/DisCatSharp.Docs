@@ -20565,6 +20565,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordInvite.MaxUses
   nameWithType: DiscordInvite.MaxUses
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Stage
+  name: Stage
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Stage
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInvite.Stage
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Stage
+  nameWithType: DiscordInvite.Stage
+- uid: DSharpPlusNextGen.Entities.DiscordInvite.Stage*
+  name: Stage
+  href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_Stage_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInvite.Stage
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInvite.Stage
+  nameWithType: DiscordInvite.Stage
 - uid: DSharpPlusNextGen.Entities.DiscordInvite.TargetApplication
   name: TargetApplication
   href: api/DSharpPlusNextGen.Entities.DiscordInvite.html#DSharpPlusNextGen_Entities_DiscordInvite_TargetApplication
@@ -20837,6 +20850,64 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordInviteGuild.WelcomeScreen
   nameWithType: DiscordInviteGuild.WelcomeScreen
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage
+  name: DiscordInviteStage
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html
+  commentId: T:DSharpPlusNextGen.Entities.DiscordInviteStage
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage
+  nameWithType: DiscordInviteStage
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.Members
+  name: Members
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_Members
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInviteStage.Members
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.Members
+  nameWithType: DiscordInviteStage.Members
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.Members*
+  name: Members
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_Members_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInviteStage.Members
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.Members
+  nameWithType: DiscordInviteStage.Members
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount
+  name: ParticipantCount
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_ParticipantCount
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount
+  nameWithType: DiscordInviteStage.ParticipantCount
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount*
+  name: ParticipantCount
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_ParticipantCount_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.ParticipantCount
+  nameWithType: DiscordInviteStage.ParticipantCount
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount
+  name: SpeakerCount
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_SpeakerCount
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount
+  nameWithType: DiscordInviteStage.SpeakerCount
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount*
+  name: SpeakerCount
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_SpeakerCount_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.SpeakerCount
+  nameWithType: DiscordInviteStage.SpeakerCount
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.Topic
+  name: Topic
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_Topic
+  commentId: P:DSharpPlusNextGen.Entities.DiscordInviteStage.Topic
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.Topic
+  nameWithType: DiscordInviteStage.Topic
+- uid: DSharpPlusNextGen.Entities.DiscordInviteStage.Topic*
+  name: Topic
+  href: api/DSharpPlusNextGen.Entities.DiscordInviteStage.html#DSharpPlusNextGen_Entities_DiscordInviteStage_Topic_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInviteStage.Topic
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInviteStage.Topic
+  nameWithType: DiscordInviteStage.Topic
 - uid: DSharpPlusNextGen.Entities.DiscordLinkButtonComponent
   name: DiscordLinkButtonComponent
   href: api/DSharpPlusNextGen.Entities.DiscordLinkButtonComponent.html
@@ -22584,6 +22655,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.SendAsync
   nameWithType: DiscordMessageBuilder.SendAsync
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker
+  name: Sticker
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_Sticker
+  commentId: P:DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker
+  nameWithType: DiscordMessageBuilder.Sticker
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker*
+  name: Sticker
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_Sticker_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Sticker
+  nameWithType: DiscordMessageBuilder.Sticker
 - uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Suppressed
   name: Suppressed
   href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_Suppressed
@@ -22700,6 +22784,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithReply
   nameWithType: DiscordMessageBuilder.WithReply
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker(DSharpPlusNextGen.Entities.DiscordSticker)
+  name: WithSticker(DiscordSticker)
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_WithSticker_DSharpPlusNextGen_Entities_DiscordSticker_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker(DSharpPlusNextGen.Entities.DiscordSticker)
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker(DSharpPlusNextGen.Entities.DiscordSticker)
+  nameWithType: DiscordMessageBuilder.WithSticker(DiscordSticker)
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker*
+  name: WithSticker
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_WithSticker_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.WithSticker
+  nameWithType: DiscordMessageBuilder.WithSticker
 - uid: DSharpPlusNextGen.Entities.DiscordMessageFile
   name: DiscordMessageFile
   href: api/DSharpPlusNextGen.Entities.DiscordMessageFile.html
@@ -24219,6 +24316,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordSticker.Guild
   nameWithType: DiscordSticker.Guild
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.GuildId
+  name: GuildId
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_GuildId
+  commentId: P:DSharpPlusNextGen.Entities.DiscordSticker.GuildId
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.GuildId
+  nameWithType: DiscordSticker.GuildId
+- uid: DSharpPlusNextGen.Entities.DiscordSticker.GuildId*
+  name: GuildId
+  href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_GuildId_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordSticker.GuildId
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordSticker.GuildId
+  nameWithType: DiscordSticker.GuildId
 - uid: DSharpPlusNextGen.Entities.DiscordSticker.ModifyAsync(DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},DSharpPlusNextGen.Entities.Optional{System.String},System.String)
   name: ModifyAsync(Optional<String>, Optional<String>, Optional<String>, String)
   href: api/DSharpPlusNextGen.Entities.DiscordSticker.html#DSharpPlusNextGen_Entities_DiscordSticker_ModifyAsync_DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__DSharpPlusNextGen_Entities_Optional_System_String__System_String_
@@ -24744,6 +24854,12 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordThreadChannel
   fullName: DSharpPlusNextGen.Entities.DiscordThreadChannel
   nameWithType: DiscordThreadChannel
+- uid: DSharpPlusNextGen.Entities.DiscordThreadChannel.AddMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  name: AddMemberAsync(DiscordMember)
+  href: api/DSharpPlusNextGen.Entities.DiscordThreadChannel.html#DSharpPlusNextGen_Entities_DiscordThreadChannel_AddMemberAsync_DSharpPlusNextGen_Entities_DiscordMember_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordThreadChannel.AddMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  fullName: DSharpPlusNextGen.Entities.DiscordThreadChannel.AddMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  nameWithType: DiscordThreadChannel.AddMemberAsync(DiscordMember)
 - uid: DSharpPlusNextGen.Entities.DiscordThreadChannel.AddMemberAsync(System.UInt64)
   name: AddMemberAsync(UInt64)
   href: api/DSharpPlusNextGen.Entities.DiscordThreadChannel.html#DSharpPlusNextGen_Entities_DiscordThreadChannel_AddMemberAsync_System_UInt64_
@@ -25198,6 +25314,12 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordThreadChannel.PerUserRateLimit
   nameWithType: DiscordThreadChannel.PerUserRateLimit
+- uid: DSharpPlusNextGen.Entities.DiscordThreadChannel.RemoveMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  name: RemoveMemberAsync(DiscordMember)
+  href: api/DSharpPlusNextGen.Entities.DiscordThreadChannel.html#DSharpPlusNextGen_Entities_DiscordThreadChannel_RemoveMemberAsync_DSharpPlusNextGen_Entities_DiscordMember_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordThreadChannel.RemoveMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  fullName: DSharpPlusNextGen.Entities.DiscordThreadChannel.RemoveMemberAsync(DSharpPlusNextGen.Entities.DiscordMember)
+  nameWithType: DiscordThreadChannel.RemoveMemberAsync(DiscordMember)
 - uid: DSharpPlusNextGen.Entities.DiscordThreadChannel.RemoveMemberAsync(System.UInt64)
   name: RemoveMemberAsync(UInt64)
   href: api/DSharpPlusNextGen.Entities.DiscordThreadChannel.html#DSharpPlusNextGen_Entities_DiscordThreadChannel_RemoveMemberAsync_System_UInt64_
