@@ -17199,19 +17199,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuild.BanMemberAsync
   nameWithType: DiscordGuild.BanMemberAsync
-- uid: DSharpPlusNextGen.Entities.DiscordGuild.Banner
-  name: Banner
-  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_Banner
-  commentId: P:DSharpPlusNextGen.Entities.DiscordGuild.Banner
-  fullName: DSharpPlusNextGen.Entities.DiscordGuild.Banner
-  nameWithType: DiscordGuild.Banner
-- uid: DSharpPlusNextGen.Entities.DiscordGuild.Banner*
-  name: Banner
-  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_Banner_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.Banner
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.BannerHash
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_BannerHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuild.BannerHash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.BannerHash
+  nameWithType: DiscordGuild.BannerHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuild.BannerHash*
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_BannerHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuild.BannerHash
   isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordGuild.Banner
-  nameWithType: DiscordGuild.Banner
+  fullName: DSharpPlusNextGen.Entities.DiscordGuild.BannerHash
+  nameWithType: DiscordGuild.BannerHash
 - uid: DSharpPlusNextGen.Entities.DiscordGuild.BannerUrl
   name: BannerUrl
   href: api/DSharpPlusNextGen.Entities.DiscordGuild.html#DSharpPlusNextGen_Entities_DiscordGuild_BannerUrl
@@ -19218,19 +19218,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Description
   nameWithType: DiscordGuildPreview.Description
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash
-  name: DiscoverySplash
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplash
-  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash
-  nameWithType: DiscordGuildPreview.DiscoverySplash
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash*
-  name: DiscoverySplash
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplash_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash
+  name: DiscoverySplashHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplashHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash
+  nameWithType: DiscordGuildPreview.DiscoverySplashHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash*
+  name: DiscoverySplashHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplashHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash
   isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplash
-  nameWithType: DiscordGuildPreview.DiscoverySplash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashHash
+  nameWithType: DiscordGuildPreview.DiscoverySplashHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl
+  name: DiscoverySplashUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplashUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl
+  nameWithType: DiscordGuildPreview.DiscoverySplashUrl
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl*
+  name: DiscoverySplashUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_DiscoverySplashUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.DiscoverySplashUrl
+  nameWithType: DiscordGuildPreview.DiscoverySplashUrl
 - uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Emojis
   name: Emojis
   href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Emojis
@@ -19257,19 +19270,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Features
   nameWithType: DiscordGuildPreview.Features
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon
-  name: Icon
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Icon
-  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon
-  nameWithType: DiscordGuildPreview.Icon
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon*
-  name: Icon
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Icon_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash
+  name: IconHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_IconHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash
+  nameWithType: DiscordGuildPreview.IconHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash*
+  name: IconHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_IconHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash
   isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Icon
-  nameWithType: DiscordGuildPreview.Icon
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconHash
+  nameWithType: DiscordGuildPreview.IconHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl
+  name: IconUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_IconUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl
+  nameWithType: DiscordGuildPreview.IconUrl
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl*
+  name: IconUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_IconUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.IconUrl
+  nameWithType: DiscordGuildPreview.IconUrl
 - uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Name
   name: Name
   href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Name
@@ -19283,19 +19309,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Name
   nameWithType: DiscordGuildPreview.Name
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash
-  name: Splash
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Splash
-  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash
-  nameWithType: DiscordGuildPreview.Splash
-- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash*
-  name: Splash
-  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_Splash_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash
+  name: SplashHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_SplashHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash
+  nameWithType: DiscordGuildPreview.SplashHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash*
+  name: SplashHash
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_SplashHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash
   isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.Splash
-  nameWithType: DiscordGuildPreview.Splash
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashHash
+  nameWithType: DiscordGuildPreview.SplashHash
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl
+  name: SplashUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_SplashUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl
+  nameWithType: DiscordGuildPreview.SplashUrl
+- uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl*
+  name: SplashUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_SplashUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordGuildPreview.SplashUrl
+  nameWithType: DiscordGuildPreview.SplashUrl
 - uid: DSharpPlusNextGen.Entities.DiscordGuildPreview.SystemChannelFlags
   name: SystemChannelFlags
   href: api/DSharpPlusNextGen.Entities.DiscordGuildPreview.html#DSharpPlusNextGen_Entities_DiscordGuildPreview_SystemChannelFlags
@@ -38399,6 +38438,45 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordUser.AvatarUrl
   nameWithType: DiscordUser.AvatarUrl
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerColor
+  name: BannerColor
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerColor
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.BannerColor
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerColor
+  nameWithType: DiscordUser.BannerColor
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerColor*
+  name: BannerColor
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerColor_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.BannerColor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerColor
+  nameWithType: DiscordUser.BannerColor
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerHash
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.BannerHash
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerHash
+  nameWithType: DiscordUser.BannerHash
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerHash*
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.BannerHash
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerHash
+  nameWithType: DiscordUser.BannerHash
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerUrl
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordUser.BannerUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerUrl
+  nameWithType: DiscordUser.BannerUrl
+- uid: DSharpPlusNextGen.Entities.DiscordUser.BannerUrl*
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_BannerUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordUser.BannerUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordUser.BannerUrl
+  nameWithType: DiscordUser.BannerUrl
 - uid: DSharpPlusNextGen.Entities.DiscordUser.DefaultAvatarUrl
   name: DefaultAvatarUrl
   href: api/DSharpPlusNextGen.Entities.DiscordUser.html#DSharpPlusNextGen_Entities_DiscordUser_DefaultAvatarUrl
@@ -41102,6 +41180,12 @@ references:
   commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppOld
   fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordAppOld
   nameWithType: CoreDomain.DiscordAppOld
+- uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordCdn
+  name: DiscordCdn
+  href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordCdn
+  commentId: F:DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordCdn
+  fullName: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordCdn
+  nameWithType: CoreDomain.DiscordCdn
 - uid: DSharpPlusNextGen.Enums.Discord.CoreDomain.DiscordDesign
   name: DiscordDesign
   href: api/DSharpPlusNextGen.Enums.Discord.CoreDomain.html#DSharpPlusNextGen_Enums_Discord_CoreDomain_DiscordDesign
