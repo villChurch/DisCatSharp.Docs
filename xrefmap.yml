@@ -10798,60 +10798,6 @@ references:
   commentId: F:DSharpPlusNextGen.Entities.AuditLogActionType.WebhookUpdate
   fullName: DSharpPlusNextGen.Entities.AuditLogActionType.WebhookUpdate
   nameWithType: AuditLogActionType.WebhookUpdate
-- uid: DSharpPlusNextGen.Entities.ButtonStyle
-  name: ButtonStyle
-  href: api/DSharpPlusNextGen.Entities.ButtonStyle.html
-  commentId: T:DSharpPlusNextGen.Entities.ButtonStyle
-  fullName: DSharpPlusNextGen.Entities.ButtonStyle
-  nameWithType: ButtonStyle
-- uid: DSharpPlusNextGen.Entities.ButtonStyle.Danger
-  name: Danger
-  href: api/DSharpPlusNextGen.Entities.ButtonStyle.html#DSharpPlusNextGen_Entities_ButtonStyle_Danger
-  commentId: F:DSharpPlusNextGen.Entities.ButtonStyle.Danger
-  fullName: DSharpPlusNextGen.Entities.ButtonStyle.Danger
-  nameWithType: ButtonStyle.Danger
-- uid: DSharpPlusNextGen.Entities.ButtonStyle.Primary
-  name: Primary
-  href: api/DSharpPlusNextGen.Entities.ButtonStyle.html#DSharpPlusNextGen_Entities_ButtonStyle_Primary
-  commentId: F:DSharpPlusNextGen.Entities.ButtonStyle.Primary
-  fullName: DSharpPlusNextGen.Entities.ButtonStyle.Primary
-  nameWithType: ButtonStyle.Primary
-- uid: DSharpPlusNextGen.Entities.ButtonStyle.Secondary
-  name: Secondary
-  href: api/DSharpPlusNextGen.Entities.ButtonStyle.html#DSharpPlusNextGen_Entities_ButtonStyle_Secondary
-  commentId: F:DSharpPlusNextGen.Entities.ButtonStyle.Secondary
-  fullName: DSharpPlusNextGen.Entities.ButtonStyle.Secondary
-  nameWithType: ButtonStyle.Secondary
-- uid: DSharpPlusNextGen.Entities.ButtonStyle.Success
-  name: Success
-  href: api/DSharpPlusNextGen.Entities.ButtonStyle.html#DSharpPlusNextGen_Entities_ButtonStyle_Success
-  commentId: F:DSharpPlusNextGen.Entities.ButtonStyle.Success
-  fullName: DSharpPlusNextGen.Entities.ButtonStyle.Success
-  nameWithType: ButtonStyle.Success
-- uid: DSharpPlusNextGen.Entities.ComponentType
-  name: ComponentType
-  href: api/DSharpPlusNextGen.Entities.ComponentType.html
-  commentId: T:DSharpPlusNextGen.Entities.ComponentType
-  fullName: DSharpPlusNextGen.Entities.ComponentType
-  nameWithType: ComponentType
-- uid: DSharpPlusNextGen.Entities.ComponentType.ActionRow
-  name: ActionRow
-  href: api/DSharpPlusNextGen.Entities.ComponentType.html#DSharpPlusNextGen_Entities_ComponentType_ActionRow
-  commentId: F:DSharpPlusNextGen.Entities.ComponentType.ActionRow
-  fullName: DSharpPlusNextGen.Entities.ComponentType.ActionRow
-  nameWithType: ComponentType.ActionRow
-- uid: DSharpPlusNextGen.Entities.ComponentType.Button
-  name: Button
-  href: api/DSharpPlusNextGen.Entities.ComponentType.html#DSharpPlusNextGen_Entities_ComponentType_Button
-  commentId: F:DSharpPlusNextGen.Entities.ComponentType.Button
-  fullName: DSharpPlusNextGen.Entities.ComponentType.Button
-  nameWithType: ComponentType.Button
-- uid: DSharpPlusNextGen.Entities.ComponentType.Select
-  name: Select
-  href: api/DSharpPlusNextGen.Entities.ComponentType.html#DSharpPlusNextGen_Entities_ComponentType_Select
-  commentId: F:DSharpPlusNextGen.Entities.ComponentType.Select
-  fullName: DSharpPlusNextGen.Entities.ComponentType.Select
-  nameWithType: ComponentType.Select
 - uid: DSharpPlusNextGen.Entities.DefaultMessageNotifications
   name: DefaultMessageNotifications
   href: api/DSharpPlusNextGen.Entities.DefaultMessageNotifications.html
@@ -13374,11 +13320,11 @@ references:
   commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor
   fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent()
   nameWithType: DiscordButtonComponent.DiscordButtonComponent()
-- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(DSharpPlusNextGen.Entities.ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
   name: DiscordButtonComponent(ButtonStyle, String, String, Boolean, DiscordComponentEmoji)
-  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_DSharpPlusNextGen_Entities_ButtonStyle_System_String_System_String_System_Boolean_DSharpPlusNextGen_Entities_DiscordComponentEmoji_
-  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(DSharpPlusNextGen.Entities.ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
-  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent(DSharpPlusNextGen.Entities.ButtonStyle, System.String, System.String, System.Boolean, DSharpPlusNextGen.Entities.DiscordComponentEmoji)
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_ButtonStyle_System_String_System_String_System_Boolean_DSharpPlusNextGen_Entities_DiscordComponentEmoji_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent(ButtonStyle, System.String, System.String, System.Boolean, DSharpPlusNextGen.Entities.DiscordComponentEmoji)
   nameWithType: DiscordButtonComponent.DiscordButtonComponent(ButtonStyle, String, String, Boolean, DiscordComponentEmoji)
 - uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor*
   name: DiscordButtonComponent
@@ -14571,19 +14517,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordColor.DarkBlue
   nameWithType: DiscordColor.DarkBlue
-- uid: DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack
-  name: DarkButNotBlack
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_DarkButNotBlack
-  commentId: P:DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack
-  nameWithType: DiscordColor.DarkButNotBlack
-- uid: DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack*
-  name: DarkButNotBlack
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_DarkButNotBlack_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.DarkButNotBlack
-  nameWithType: DiscordColor.DarkButNotBlack
 - uid: DSharpPlusNextGen.Entities.DiscordColor.DarkGray
   name: DarkGray
   href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_DarkGray
@@ -14623,6 +14556,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordColor.DarkRed
   nameWithType: DiscordColor.DarkRed
+- uid: DSharpPlusNextGen.Entities.DiscordColor.Fuchsia
+  name: Fuchsia
+  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_Fuchsia
+  commentId: P:DSharpPlusNextGen.Entities.DiscordColor.Fuchsia
+  fullName: DSharpPlusNextGen.Entities.DiscordColor.Fuchsia
+  nameWithType: DiscordColor.Fuchsia
+- uid: DSharpPlusNextGen.Entities.DiscordColor.Fuchsia*
+  name: Fuchsia
+  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_Fuchsia_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordColor.Fuchsia
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordColor.Fuchsia
+  nameWithType: DiscordColor.Fuchsia
 - uid: DSharpPlusNextGen.Entities.DiscordColor.G
   name: G
   href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_G
@@ -14675,19 +14621,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordColor.Gray
   nameWithType: DiscordColor.Gray
-- uid: DSharpPlusNextGen.Entities.DiscordColor.Grayple
-  name: Grayple
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_Grayple
-  commentId: P:DSharpPlusNextGen.Entities.DiscordColor.Grayple
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.Grayple
-  nameWithType: DiscordColor.Grayple
-- uid: DSharpPlusNextGen.Entities.DiscordColor.Grayple*
-  name: Grayple
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_Grayple_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordColor.Grayple
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.Grayple
-  nameWithType: DiscordColor.Grayple
 - uid: DSharpPlusNextGen.Entities.DiscordColor.Green
   name: Green
   href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_Green
@@ -14792,19 +14725,6 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordColor.None
   nameWithType: DiscordColor.None
-- uid: DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack
-  name: NotQuiteBlack
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_NotQuiteBlack
-  commentId: P:DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack
-  nameWithType: DiscordColor.NotQuiteBlack
-- uid: DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack*
-  name: NotQuiteBlack
-  href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_NotQuiteBlack_
-  commentId: Overload:DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack
-  isSpec: "True"
-  fullName: DSharpPlusNextGen.Entities.DiscordColor.NotQuiteBlack
-  nameWithType: DiscordColor.NotQuiteBlack
 - uid: DSharpPlusNextGen.Entities.DiscordColor.op_Implicit(System.Int32)~DSharpPlusNextGen.Entities.DiscordColor
   name: Implicit(Int32 to DiscordColor)
   href: api/DSharpPlusNextGen.Entities.DiscordColor.html#DSharpPlusNextGen_Entities_DiscordColor_op_Implicit_System_Int32__DSharpPlusNextGen_Entities_DiscordColor
@@ -41126,6 +41046,66 @@ references:
   commentId: F:DSharpPlusNextGen.Entities.WidgetType.Shield
   fullName: DSharpPlusNextGen.Entities.WidgetType.Shield
   nameWithType: WidgetType.Shield
+- uid: DSharpPlusNextGen.Enums
+  name: DSharpPlusNextGen.Enums
+  href: api/DSharpPlusNextGen.Enums.html
+  commentId: N:DSharpPlusNextGen.Enums
+  fullName: DSharpPlusNextGen.Enums
+  nameWithType: DSharpPlusNextGen.Enums
+- uid: DSharpPlusNextGen.Enums.ButtonStyle
+  name: ButtonStyle
+  href: api/DSharpPlusNextGen.Enums.ButtonStyle.html
+  commentId: T:DSharpPlusNextGen.Enums.ButtonStyle
+  fullName: DSharpPlusNextGen.Enums.ButtonStyle
+  nameWithType: ButtonStyle
+- uid: DSharpPlusNextGen.Enums.ButtonStyle.Danger
+  name: Danger
+  href: api/DSharpPlusNextGen.Enums.ButtonStyle.html#DSharpPlusNextGen_Enums_ButtonStyle_Danger
+  commentId: F:DSharpPlusNextGen.Enums.ButtonStyle.Danger
+  fullName: DSharpPlusNextGen.Enums.ButtonStyle.Danger
+  nameWithType: ButtonStyle.Danger
+- uid: DSharpPlusNextGen.Enums.ButtonStyle.Primary
+  name: Primary
+  href: api/DSharpPlusNextGen.Enums.ButtonStyle.html#DSharpPlusNextGen_Enums_ButtonStyle_Primary
+  commentId: F:DSharpPlusNextGen.Enums.ButtonStyle.Primary
+  fullName: DSharpPlusNextGen.Enums.ButtonStyle.Primary
+  nameWithType: ButtonStyle.Primary
+- uid: DSharpPlusNextGen.Enums.ButtonStyle.Secondary
+  name: Secondary
+  href: api/DSharpPlusNextGen.Enums.ButtonStyle.html#DSharpPlusNextGen_Enums_ButtonStyle_Secondary
+  commentId: F:DSharpPlusNextGen.Enums.ButtonStyle.Secondary
+  fullName: DSharpPlusNextGen.Enums.ButtonStyle.Secondary
+  nameWithType: ButtonStyle.Secondary
+- uid: DSharpPlusNextGen.Enums.ButtonStyle.Success
+  name: Success
+  href: api/DSharpPlusNextGen.Enums.ButtonStyle.html#DSharpPlusNextGen_Enums_ButtonStyle_Success
+  commentId: F:DSharpPlusNextGen.Enums.ButtonStyle.Success
+  fullName: DSharpPlusNextGen.Enums.ButtonStyle.Success
+  nameWithType: ButtonStyle.Success
+- uid: DSharpPlusNextGen.Enums.ComponentType
+  name: ComponentType
+  href: api/DSharpPlusNextGen.Enums.ComponentType.html
+  commentId: T:DSharpPlusNextGen.Enums.ComponentType
+  fullName: DSharpPlusNextGen.Enums.ComponentType
+  nameWithType: ComponentType
+- uid: DSharpPlusNextGen.Enums.ComponentType.ActionRow
+  name: ActionRow
+  href: api/DSharpPlusNextGen.Enums.ComponentType.html#DSharpPlusNextGen_Enums_ComponentType_ActionRow
+  commentId: F:DSharpPlusNextGen.Enums.ComponentType.ActionRow
+  fullName: DSharpPlusNextGen.Enums.ComponentType.ActionRow
+  nameWithType: ComponentType.ActionRow
+- uid: DSharpPlusNextGen.Enums.ComponentType.Button
+  name: Button
+  href: api/DSharpPlusNextGen.Enums.ComponentType.html#DSharpPlusNextGen_Enums_ComponentType_Button
+  commentId: F:DSharpPlusNextGen.Enums.ComponentType.Button
+  fullName: DSharpPlusNextGen.Enums.ComponentType.Button
+  nameWithType: ComponentType.Button
+- uid: DSharpPlusNextGen.Enums.ComponentType.Select
+  name: Select
+  href: api/DSharpPlusNextGen.Enums.ComponentType.html#DSharpPlusNextGen_Enums_ComponentType_Select
+  commentId: F:DSharpPlusNextGen.Enums.ComponentType.Select
+  fullName: DSharpPlusNextGen.Enums.ComponentType.Select
+  nameWithType: ComponentType.Select
 - uid: DSharpPlusNextGen.Enums.Discord
   name: DSharpPlusNextGen.Enums.Discord
   href: api/DSharpPlusNextGen.Enums.Discord.html
