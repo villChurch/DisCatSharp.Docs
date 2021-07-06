@@ -1,1 +1,0 @@
-# DSharpPlus NextGen Docs
