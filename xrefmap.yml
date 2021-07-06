@@ -51377,6 +51377,274 @@ references:
   commentId: F:DSharpPlusNextGen.PremiumType.NitroClassic
   fullName: DSharpPlusNextGen.PremiumType.NitroClassic
   nameWithType: PremiumType.NitroClassic
+- uid: DSharpPlusNextGen.RingBuffer`1
+  name: RingBuffer<T>
+  href: api/DSharpPlusNextGen.RingBuffer-1.html
+  commentId: T:DSharpPlusNextGen.RingBuffer`1
+  name.vb: RingBuffer(Of T)
+  fullName: DSharpPlusNextGen.RingBuffer<T>
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T)
+  nameWithType: RingBuffer<T>
+  nameWithType.vb: RingBuffer(Of T)
+- uid: DSharpPlusNextGen.RingBuffer`1.#ctor(IEnumerable{`0})
+  name: RingBuffer(IEnumerable<T>)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1__ctor_IEnumerable__0__
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.#ctor(IEnumerable{`0})
+  name.vb: RingBuffer(IEnumerable(Of T))
+  fullName: DSharpPlusNextGen.RingBuffer<T>.RingBuffer(IEnumerable<T>)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).RingBuffer(IEnumerable(Of T))
+  nameWithType: RingBuffer<T>.RingBuffer(IEnumerable<T>)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(IEnumerable(Of T))
+- uid: DSharpPlusNextGen.RingBuffer`1.#ctor(IEnumerable{`0},System.Int32)
+  name: RingBuffer(IEnumerable<T>, Int32)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1__ctor_IEnumerable__0__System_Int32_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.#ctor(IEnumerable{`0},System.Int32)
+  name.vb: RingBuffer(IEnumerable(Of T), Int32)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.RingBuffer(IEnumerable<T>, System.Int32)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).RingBuffer(IEnumerable(Of T), System.Int32)
+  nameWithType: RingBuffer<T>.RingBuffer(IEnumerable<T>, Int32)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(IEnumerable(Of T), Int32)
+- uid: DSharpPlusNextGen.RingBuffer`1.#ctor(System.Int32)
+  name: RingBuffer(Int32)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1__ctor_System_Int32_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.#ctor(System.Int32)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.RingBuffer(System.Int32)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).RingBuffer(System.Int32)
+  nameWithType: RingBuffer<T>.RingBuffer(Int32)
+  nameWithType.vb: RingBuffer(Of T).RingBuffer(Int32)
+- uid: DSharpPlusNextGen.RingBuffer`1.#ctor*
+  name: RingBuffer
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1__ctor_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.#ctor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.RingBuffer
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).RingBuffer
+  nameWithType: RingBuffer<T>.RingBuffer
+  nameWithType.vb: RingBuffer(Of T).RingBuffer
+- uid: DSharpPlusNextGen.RingBuffer`1.Add(`0)
+  name: Add(T)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Add__0_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Add(`0)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Add(T)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Add(T)
+  nameWithType: RingBuffer<T>.Add(T)
+  nameWithType.vb: RingBuffer(Of T).Add(T)
+- uid: DSharpPlusNextGen.RingBuffer`1.Add*
+  name: Add
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Add_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Add
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Add
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Add
+  nameWithType: RingBuffer<T>.Add
+  nameWithType.vb: RingBuffer(Of T).Add
+- uid: DSharpPlusNextGen.RingBuffer`1.Capacity
+  name: Capacity
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Capacity
+  commentId: P:DSharpPlusNextGen.RingBuffer`1.Capacity
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Capacity
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Capacity
+  nameWithType: RingBuffer<T>.Capacity
+  nameWithType.vb: RingBuffer(Of T).Capacity
+- uid: DSharpPlusNextGen.RingBuffer`1.Capacity*
+  name: Capacity
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Capacity_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Capacity
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Capacity
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Capacity
+  nameWithType: RingBuffer<T>.Capacity
+  nameWithType.vb: RingBuffer(Of T).Capacity
+- uid: DSharpPlusNextGen.RingBuffer`1.Clear
+  name: Clear()
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Clear
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Clear
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Clear()
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Clear()
+  nameWithType: RingBuffer<T>.Clear()
+  nameWithType.vb: RingBuffer(Of T).Clear()
+- uid: DSharpPlusNextGen.RingBuffer`1.Clear*
+  name: Clear
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Clear_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Clear
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Clear
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Clear
+  nameWithType: RingBuffer<T>.Clear
+  nameWithType.vb: RingBuffer(Of T).Clear
+- uid: DSharpPlusNextGen.RingBuffer`1.Contains(`0)
+  name: Contains(T)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Contains__0_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Contains(`0)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Contains(T)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Contains(T)
+  nameWithType: RingBuffer<T>.Contains(T)
+  nameWithType.vb: RingBuffer(Of T).Contains(T)
+- uid: DSharpPlusNextGen.RingBuffer`1.Contains(Func{`0,System.Boolean})
+  name: Contains(Func<T, Boolean>)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Contains_Func__0_System_Boolean__
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Contains(Func{`0,System.Boolean})
+  name.vb: Contains(Func(Of T, Boolean))
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Contains(Func<T, System.Boolean>)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Contains(Func(Of T, System.Boolean))
+  nameWithType: RingBuffer<T>.Contains(Func<T, Boolean>)
+  nameWithType.vb: RingBuffer(Of T).Contains(Func(Of T, Boolean))
+- uid: DSharpPlusNextGen.RingBuffer`1.Contains*
+  name: Contains
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Contains_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Contains
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Contains
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Contains
+  nameWithType: RingBuffer<T>.Contains
+  nameWithType.vb: RingBuffer(Of T).Contains
+- uid: DSharpPlusNextGen.RingBuffer`1.CopyTo(`0[],System.Int32)
+  name: CopyTo(T[], Int32)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_CopyTo__0___System_Int32_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.CopyTo(`0[],System.Int32)
+  name.vb: CopyTo(T(), Int32)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.CopyTo(T[], System.Int32)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).CopyTo(T(), System.Int32)
+  nameWithType: RingBuffer<T>.CopyTo(T[], Int32)
+  nameWithType.vb: RingBuffer(Of T).CopyTo(T(), Int32)
+- uid: DSharpPlusNextGen.RingBuffer`1.CopyTo*
+  name: CopyTo
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_CopyTo_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.CopyTo
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.CopyTo
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).CopyTo
+  nameWithType: RingBuffer<T>.CopyTo
+  nameWithType.vb: RingBuffer(Of T).CopyTo
+- uid: DSharpPlusNextGen.RingBuffer`1.Count
+  name: Count
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Count
+  commentId: P:DSharpPlusNextGen.RingBuffer`1.Count
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Count
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Count
+  nameWithType: RingBuffer<T>.Count
+  nameWithType.vb: RingBuffer(Of T).Count
+- uid: DSharpPlusNextGen.RingBuffer`1.Count*
+  name: Count
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Count_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Count
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Count
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Count
+  nameWithType: RingBuffer<T>.Count
+  nameWithType.vb: RingBuffer(Of T).Count
+- uid: DSharpPlusNextGen.RingBuffer`1.CurrentIndex
+  name: CurrentIndex
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_CurrentIndex
+  commentId: P:DSharpPlusNextGen.RingBuffer`1.CurrentIndex
+  fullName: DSharpPlusNextGen.RingBuffer<T>.CurrentIndex
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).CurrentIndex
+  nameWithType: RingBuffer<T>.CurrentIndex
+  nameWithType.vb: RingBuffer(Of T).CurrentIndex
+- uid: DSharpPlusNextGen.RingBuffer`1.CurrentIndex*
+  name: CurrentIndex
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_CurrentIndex_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.CurrentIndex
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.CurrentIndex
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).CurrentIndex
+  nameWithType: RingBuffer<T>.CurrentIndex
+  nameWithType.vb: RingBuffer(Of T).CurrentIndex
+- uid: DSharpPlusNextGen.RingBuffer`1.GetEnumerator
+  name: GetEnumerator()
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_GetEnumerator
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.GetEnumerator
+  fullName: DSharpPlusNextGen.RingBuffer<T>.GetEnumerator()
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).GetEnumerator()
+  nameWithType: RingBuffer<T>.GetEnumerator()
+  nameWithType.vb: RingBuffer(Of T).GetEnumerator()
+- uid: DSharpPlusNextGen.RingBuffer`1.GetEnumerator*
+  name: GetEnumerator
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_GetEnumerator_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.GetEnumerator
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.GetEnumerator
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).GetEnumerator
+  nameWithType: RingBuffer<T>.GetEnumerator
+  nameWithType.vb: RingBuffer(Of T).GetEnumerator
+- uid: DSharpPlusNextGen.RingBuffer`1.InternalBuffer
+  name: InternalBuffer
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_InternalBuffer
+  commentId: P:DSharpPlusNextGen.RingBuffer`1.InternalBuffer
+  fullName: DSharpPlusNextGen.RingBuffer<T>.InternalBuffer
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).InternalBuffer
+  nameWithType: RingBuffer<T>.InternalBuffer
+  nameWithType.vb: RingBuffer(Of T).InternalBuffer
+- uid: DSharpPlusNextGen.RingBuffer`1.InternalBuffer*
+  name: InternalBuffer
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_InternalBuffer_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.InternalBuffer
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.InternalBuffer
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).InternalBuffer
+  nameWithType: RingBuffer<T>.InternalBuffer
+  nameWithType.vb: RingBuffer(Of T).InternalBuffer
+- uid: DSharpPlusNextGen.RingBuffer`1.IsReadOnly
+  name: IsReadOnly
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_IsReadOnly
+  commentId: P:DSharpPlusNextGen.RingBuffer`1.IsReadOnly
+  fullName: DSharpPlusNextGen.RingBuffer<T>.IsReadOnly
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).IsReadOnly
+  nameWithType: RingBuffer<T>.IsReadOnly
+  nameWithType.vb: RingBuffer(Of T).IsReadOnly
+- uid: DSharpPlusNextGen.RingBuffer`1.IsReadOnly*
+  name: IsReadOnly
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_IsReadOnly_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.IsReadOnly
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.IsReadOnly
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).IsReadOnly
+  nameWithType: RingBuffer<T>.IsReadOnly
+  nameWithType.vb: RingBuffer(Of T).IsReadOnly
+- uid: DSharpPlusNextGen.RingBuffer`1.Remove(`0)
+  name: Remove(T)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Remove__0_
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Remove(`0)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Remove(T)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Remove(T)
+  nameWithType: RingBuffer<T>.Remove(T)
+  nameWithType.vb: RingBuffer(Of T).Remove(T)
+- uid: DSharpPlusNextGen.RingBuffer`1.Remove(Func{`0,System.Boolean})
+  name: Remove(Func<T, Boolean>)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Remove_Func__0_System_Boolean__
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.Remove(Func{`0,System.Boolean})
+  name.vb: Remove(Func(Of T, Boolean))
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Remove(Func<T, System.Boolean>)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Remove(Func(Of T, System.Boolean))
+  nameWithType: RingBuffer<T>.Remove(Func<T, Boolean>)
+  nameWithType.vb: RingBuffer(Of T).Remove(Func(Of T, Boolean))
+- uid: DSharpPlusNextGen.RingBuffer`1.Remove*
+  name: Remove
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_Remove_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.Remove
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.Remove
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).Remove
+  nameWithType: RingBuffer<T>.Remove
+  nameWithType.vb: RingBuffer(Of T).Remove
+- uid: DSharpPlusNextGen.RingBuffer`1.TryGet(Func{`0,System.Boolean},`0@)
+  name: TryGet(Func<T, Boolean>, out T)
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_TryGet_Func__0_System_Boolean___0__
+  commentId: M:DSharpPlusNextGen.RingBuffer`1.TryGet(Func{`0,System.Boolean},`0@)
+  name.vb: TryGet(Func(Of T, Boolean), ByRef T)
+  fullName: DSharpPlusNextGen.RingBuffer<T>.TryGet(Func<T, System.Boolean>, out T)
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).TryGet(Func(Of T, System.Boolean), ByRef T)
+  nameWithType: RingBuffer<T>.TryGet(Func<T, Boolean>, out T)
+  nameWithType.vb: RingBuffer(Of T).TryGet(Func(Of T, Boolean), ByRef T)
+- uid: DSharpPlusNextGen.RingBuffer`1.TryGet*
+  name: TryGet
+  href: api/DSharpPlusNextGen.RingBuffer-1.html#DSharpPlusNextGen_RingBuffer_1_TryGet_
+  commentId: Overload:DSharpPlusNextGen.RingBuffer`1.TryGet
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.RingBuffer<T>.TryGet
+  fullName.vb: DSharpPlusNextGen.RingBuffer(Of T).TryGet
+  nameWithType: RingBuffer<T>.TryGet
+  nameWithType.vb: RingBuffer(Of T).TryGet
 - uid: DSharpPlusNextGen.SlashCommands
   name: DSharpPlusNextGen.SlashCommands
   href: api/DSharpPlusNextGen.SlashCommands.html
@@ -52830,6 +53098,68 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.VoiceNext.AudioFormat.VoiceApplication
   nameWithType: AudioFormat.VoiceApplication
+- uid: DSharpPlusNextGen.VoiceNext.Codec
+  name: DSharpPlusNextGen.VoiceNext.Codec
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.html
+  commentId: N:DSharpPlusNextGen.VoiceNext.Codec
+  fullName: DSharpPlusNextGen.VoiceNext.Codec
+  nameWithType: DSharpPlusNextGen.VoiceNext.Codec
+- uid: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode
+  name: EncryptionMode
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.html
+  commentId: T:DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode
+  nameWithType: EncryptionMode
+- uid: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305
+  name: XSalsa20_Poly1305
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.html#DSharpPlusNextGen_VoiceNext_Codec_EncryptionMode_XSalsa20_Poly1305
+  commentId: F:DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305
+  nameWithType: EncryptionMode.XSalsa20_Poly1305
+- uid: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Lite
+  name: XSalsa20_Poly1305_Lite
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.html#DSharpPlusNextGen_VoiceNext_Codec_EncryptionMode_XSalsa20_Poly1305_Lite
+  commentId: F:DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Lite
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Lite
+  nameWithType: EncryptionMode.XSalsa20_Poly1305_Lite
+- uid: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Suffix
+  name: XSalsa20_Poly1305_Suffix
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.html#DSharpPlusNextGen_VoiceNext_Codec_EncryptionMode_XSalsa20_Poly1305_Suffix
+  commentId: F:DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Suffix
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.EncryptionMode.XSalsa20_Poly1305_Suffix
+  nameWithType: EncryptionMode.XSalsa20_Poly1305_Suffix
+- uid: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder
+  name: OpusDecoder
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.html
+  commentId: T:DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder
+  nameWithType: OpusDecoder
+- uid: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat
+  name: AudioFormat
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.html#DSharpPlusNextGen_VoiceNext_Codec_OpusDecoder_AudioFormat
+  commentId: P:DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat
+  nameWithType: OpusDecoder.AudioFormat
+- uid: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat*
+  name: AudioFormat
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.html#DSharpPlusNextGen_VoiceNext_Codec_OpusDecoder_AudioFormat_
+  commentId: Overload:DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.AudioFormat
+  nameWithType: OpusDecoder.AudioFormat
+- uid: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose
+  name: Dispose()
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.html#DSharpPlusNextGen_VoiceNext_Codec_OpusDecoder_Dispose
+  commentId: M:DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose()
+  nameWithType: OpusDecoder.Dispose()
+- uid: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose*
+  name: Dispose
+  href: api/DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.html#DSharpPlusNextGen_VoiceNext_Codec_OpusDecoder_Dispose_
+  commentId: Overload:DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.VoiceNext.Codec.OpusDecoder.Dispose
+  nameWithType: OpusDecoder.Dispose
 - uid: DSharpPlusNextGen.VoiceNext.DiscordClientExtensions
   name: DiscordClientExtensions
   href: api/DSharpPlusNextGen.VoiceNext.DiscordClientExtensions.html

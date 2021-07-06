@@ -1,5 +1,5 @@
 /* Color schemes */
-:root 
+:root
 {
     /* General */
     --main-bg-color: #36393f;
@@ -18,10 +18,10 @@
     --h3-color: #ffffff85;
     --h4-color: #ffffffeb;
     --h5-color: #ffffffd1;
-    
+
     /* Topbar */
     --topbar-bg-color: #18191c;
-    
+
     /* Button */
     --button-color: #747f8d;
 
