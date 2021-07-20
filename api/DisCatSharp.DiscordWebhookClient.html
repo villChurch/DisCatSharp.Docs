@@ -1,0 +1,626 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DiscordWebhookClient
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DiscordWebhookClient
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.DiscordWebhookClient">
+  
+  
+  <h1 id="DisCatSharp_DiscordWebhookClient" data-uid="DisCatSharp.DiscordWebhookClient" class="text-break">Class DiscordWebhookClient
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a webhook-only client. This client can be used to execute Discord webhooks.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DiscordWebhookClient</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.html">DisCatSharp</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_DiscordWebhookClient_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DiscordWebhookClient</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient__ctor_" data-uid="DisCatSharp.DiscordWebhookClient.#ctor*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient__ctor" data-uid="DisCatSharp.DiscordWebhookClient.#ctor">DiscordWebhookClient()</h4>
+  <div class="markdown level1 summary"><p>Creates a new webhook client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordWebhookClient()</code></pre>
+  </div>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient__ctor_" data-uid="DisCatSharp.DiscordWebhookClient.#ctor*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient__ctor_IWebProxy_System_Nullable_TimeSpan__System_Boolean_ILoggerFactory_LogLevel_System_String_" data-uid="DisCatSharp.DiscordWebhookClient.#ctor(IWebProxy,System.Nullable{TimeSpan},System.Boolean,ILoggerFactory,LogLevel,System.String)">DiscordWebhookClient(IWebProxy, Nullable&lt;TimeSpan&gt;, Boolean, ILoggerFactory, LogLevel, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a new webhook client, with specified HTTP proxy, timeout, and logging settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordWebhookClient(IWebProxy proxy = null, TimeSpan? timeout = default(TimeSpan? ), bool useRelativeRateLimit = true, ILoggerFactory loggerFactory = null, LogLevel minimumLogLevel = null, string logTimestampFormat = &quot;yyyy-MM-dd HH:mm:ss zzz&quot;)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IWebProxy</span></td>
+        <td><span class="parametername">proxy</span></td>
+        <td><p>Proxy to use for HTTP connections.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeout</span></td>
+        <td><p>Timeout to use for HTTP requests. Set to <span class="xref">System.Threading.Timeout.InfiniteTimeSpan</span> to disable timeouts.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">useRelativeRateLimit</span></td>
+        <td><p>Whether to use the system clock for computing rate limit resets. See <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_UseRelativeRatelimit">UseRelativeRatelimit</a> for more details.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">ILoggerFactory</span></td>
+        <td><span class="parametername">loggerFactory</span></td>
+        <td><p>The optional logging factory to use for this client.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">LogLevel</span></td>
+        <td><span class="parametername">minimumLogLevel</span></td>
+        <td><p>The minimum logging level for messages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">logTimestampFormat</span></td>
+        <td><p>The timestamp format to use for the logger.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_AvatarUrl_" data-uid="DisCatSharp.DiscordWebhookClient.AvatarUrl*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_AvatarUrl" data-uid="DisCatSharp.DiscordWebhookClient.AvatarUrl">AvatarUrl</h4>
+  <div class="markdown level1 summary"><p>Gets or set the avatar override for registered webhooks. Note that this only takes effect when broadcasting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string AvatarUrl { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_Username_" data-uid="DisCatSharp.DiscordWebhookClient.Username*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_Username" data-uid="DisCatSharp.DiscordWebhookClient.Username">Username</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the username override for registered webhooks. Note that this only takes effect when broadcasting.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Username { get; set; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_Webhooks_" data-uid="DisCatSharp.DiscordWebhookClient.Webhooks*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_Webhooks" data-uid="DisCatSharp.DiscordWebhookClient.Webhooks">Webhooks</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of registered webhooks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordWebhook&gt; Webhooks { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_AddWebhook_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhook*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_AddWebhook_DiscordWebhook_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhook(DiscordWebhook)">AddWebhook(DiscordWebhook)</h4>
+  <div class="markdown level1 summary"><p>Registers a webhook with this client. This reuses the supplied webhook object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordWebhook AddWebhook(DiscordWebhook webhook)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordWebhook</span></td>
+        <td><span class="parametername">webhook</span></td>
+        <td><p>Webhook to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordWebhook</span></td>
+        <td><p>The registered webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_System_UInt64_DisCatSharp_BaseDiscordClient_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync(System.UInt64,DisCatSharp.BaseDiscordClient)">AddWebhookAsync(UInt64, BaseDiscordClient)</h4>
+  <div class="markdown level1 summary"><p>Registers a webhook with this client. This retrieves a webhook using the supplied full discord client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordWebhook&gt; AddWebhookAsync(ulong id, BaseDiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>ID of the webhook to register.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.BaseDiscordClient.html">BaseDiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Discord client to which the webhook will belong.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
+        <td><p>The registered webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_System_UInt64_System_String_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync(System.UInt64,System.String)">AddWebhookAsync(UInt64, String)</h4>
+  <div class="markdown level1 summary"><p>Registers a webhook with this client. This retrieves a webhook based on the ID and token supplied.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordWebhook&gt; AddWebhookAsync(ulong id, string token)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The ID of the webhook to add.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The token of the webhook to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
+        <td><p>The registered webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_AddWebhookAsync_Uri_" data-uid="DisCatSharp.DiscordWebhookClient.AddWebhookAsync(Uri)">AddWebhookAsync(Uri)</h4>
+  <div class="markdown level1 summary"><p>Registers a webhook with this client. This retrieves a webhook from webhook URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordWebhook&gt; AddWebhookAsync(Uri url)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td><span class="parametername">url</span></td>
+        <td><p>URL of the webhook to retrieve. This URL must contain both ID and token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
+        <td><p>The registered webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_BroadcastMessageAsync_" data-uid="DisCatSharp.DiscordWebhookClient.BroadcastMessageAsync*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_BroadcastMessageAsync_DiscordWebhookBuilder_" data-uid="DisCatSharp.DiscordWebhookClient.BroadcastMessageAsync(DiscordWebhookBuilder)">BroadcastMessageAsync(DiscordWebhookBuilder)</h4>
+  <div class="markdown level1 summary"><p>Broadcasts a message to all registered webhooks.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;Dictionary&lt;DiscordWebhook, DiscordMessage&gt;&gt; BroadcastMessageAsync(DiscordWebhookBuilder builder)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordWebhookBuilder</span></td>
+        <td><span class="parametername">builder</span></td>
+        <td><p>Webhook builder filled with data to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">DiscordWebhook</span>, <span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_Finalize_" data-uid="DisCatSharp.DiscordWebhookClient.Finalize*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_Finalize" data-uid="DisCatSharp.DiscordWebhookClient.Finalize">Finalize()</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void Finalize()</code></pre>
+  </div>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_GetRegisteredWebhook_" data-uid="DisCatSharp.DiscordWebhookClient.GetRegisteredWebhook*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_GetRegisteredWebhook_System_UInt64_" data-uid="DisCatSharp.DiscordWebhookClient.GetRegisteredWebhook(System.UInt64)">GetRegisteredWebhook(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets a registered webhook with specified ID.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordWebhook GetRegisteredWebhook(ulong id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>ID of the registered webhook to retrieve.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordWebhook</span></td>
+        <td><p>The requested webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordWebhookClient_RemoveWebhook_" data-uid="DisCatSharp.DiscordWebhookClient.RemoveWebhook*"></a>
+  <h4 id="DisCatSharp_DiscordWebhookClient_RemoveWebhook_System_UInt64_" data-uid="DisCatSharp.DiscordWebhookClient.RemoveWebhook(System.UInt64)">RemoveWebhook(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Unregisters a webhook with this client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordWebhook RemoveWebhook(ulong id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>ID of the webhook to unregister.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordWebhook</span></td>
+        <td><p>The unregistered webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

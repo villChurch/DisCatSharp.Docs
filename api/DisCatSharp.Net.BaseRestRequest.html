@@ -1,0 +1,451 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseRestRequest
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseRestRequest
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Net.BaseRestRequest">
+  
+  
+  <h1 id="DisCatSharp_Net_BaseRestRequest" data-uid="DisCatSharp.Net.BaseRestRequest" class="text-break">Class BaseRestRequest
+  </h1>
+  <div class="markdown level0 summary"><p>Represents a request sent over HTTP.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseRestRequest</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Net.html">DisCatSharp.Net</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Net_BaseRestRequest_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseRestRequest</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_Discord_" data-uid="DisCatSharp.Net.BaseRestRequest.Discord*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_Discord" data-uid="DisCatSharp.Net.BaseRestRequest.Discord">Discord</h4>
+  <div class="markdown level1 summary"><p>Gets the discord client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected BaseDiscordClient Discord { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.BaseDiscordClient.html">BaseDiscordClient</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_Headers_" data-uid="DisCatSharp.Net.BaseRestRequest.Headers*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_Headers" data-uid="DisCatSharp.Net.BaseRestRequest.Headers">Headers</h4>
+  <div class="markdown level1 summary"><p>Gets the headers sent with this request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;string, string&gt; Headers { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_Method_" data-uid="DisCatSharp.Net.BaseRestRequest.Method*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_Method" data-uid="DisCatSharp.Net.BaseRestRequest.Method">Method</h4>
+  <div class="markdown level1 summary"><p>Gets the HTTP method used for this request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public RestRequestMethod Method { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Net.RestRequestMethod.html">RestRequestMethod</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_RateLimitWaitOverride_" data-uid="DisCatSharp.Net.BaseRestRequest.RateLimitWaitOverride*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_RateLimitWaitOverride" data-uid="DisCatSharp.Net.BaseRestRequest.RateLimitWaitOverride">RateLimitWaitOverride</h4>
+  <div class="markdown level1 summary"><p>Gets the override for the rate limit bucket wait time.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public double? RateLimitWaitOverride { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_RequestTaskSource_" data-uid="DisCatSharp.Net.BaseRestRequest.RequestTaskSource*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_RequestTaskSource" data-uid="DisCatSharp.Net.BaseRestRequest.RequestTaskSource">RequestTaskSource</h4>
+  <div class="markdown level1 summary"><p>Gets the request task source.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected TaskCompletionSource&lt;RestResponse&gt; RequestTaskSource { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.TaskCompletionSource</span>&lt;<a class="xref" href="DisCatSharp.Net.RestResponse.html">RestResponse</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_Route_" data-uid="DisCatSharp.Net.BaseRestRequest.Route*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_Route" data-uid="DisCatSharp.Net.BaseRestRequest.Route">Route</h4>
+  <div class="markdown level1 summary"><p>Gets the generic path (no parameters) for this request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Route { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_Url_" data-uid="DisCatSharp.Net.BaseRestRequest.Url*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_Url" data-uid="DisCatSharp.Net.BaseRestRequest.Url">Url</h4>
+  <div class="markdown level1 summary"><p>Gets the url to which this request is going to be made.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Uri Url { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Uri</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_SetCompleted_" data-uid="DisCatSharp.Net.BaseRestRequest.SetCompleted*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_SetCompleted_DisCatSharp_Net_RestResponse_" data-uid="DisCatSharp.Net.BaseRestRequest.SetCompleted(DisCatSharp.Net.RestResponse)">SetCompleted(RestResponse)</h4>
+  <div class="markdown level1 summary"><p>Sets as completed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetCompleted(RestResponse response)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Net.RestResponse.html">RestResponse</a></td>
+        <td><span class="parametername">response</span></td>
+        <td><p>The response to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_SetFaulted_" data-uid="DisCatSharp.Net.BaseRestRequest.SetFaulted*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_SetFaulted_Exception_" data-uid="DisCatSharp.Net.BaseRestRequest.SetFaulted(Exception)">SetFaulted(Exception)</h4>
+  <div class="markdown level1 summary"><p>Sets as faulted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected void SetFaulted(Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_TrySetFaulted_" data-uid="DisCatSharp.Net.BaseRestRequest.TrySetFaulted*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_TrySetFaulted_Exception_" data-uid="DisCatSharp.Net.BaseRestRequest.TrySetFaulted(Exception)">TrySetFaulted(Exception)</h4>
+  <div class="markdown level1 summary"><p>Tries to set as faulted.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected bool TrySetFaulted(Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception to set.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Net_BaseRestRequest_WaitForCompletionAsync_" data-uid="DisCatSharp.Net.BaseRestRequest.WaitForCompletionAsync*"></a>
+  <h4 id="DisCatSharp_Net_BaseRestRequest_WaitForCompletionAsync" data-uid="DisCatSharp.Net.BaseRestRequest.WaitForCompletionAsync">WaitForCompletionAsync()</h4>
+  <div class="markdown level1 summary"><p>Asynchronously waits for this request to complete.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;RestResponse&gt; WaitForCompletionAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Net.RestResponse.html">RestResponse</a>&gt;</td>
+        <td><p>HTTP response to this request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,378 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class ExtensionMethods
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class ExtensionMethods
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.SlashCommands.ExtensionMethods">
+  
+  
+  <h1 id="DisCatSharp_SlashCommands_ExtensionMethods" data-uid="DisCatSharp.SlashCommands.ExtensionMethods" class="text-break">Class ExtensionMethods
+  </h1>
+  <div class="markdown level0 summary"><p>Defines various extension methods for slash commands</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">ExtensionMethods</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.SlashCommands.html">DisCatSharp.SlashCommands</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_SlashCommands_ExtensionMethods_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class ExtensionMethods</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_SlashCommands_ExtensionMethods_GetSlashCommands_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.GetSlashCommands*"></a>
+  <h4 id="DisCatSharp_SlashCommands_ExtensionMethods_GetSlashCommands_DisCatSharp_DiscordClient_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.GetSlashCommands(DisCatSharp.DiscordClient)">GetSlashCommands(DiscordClient)</h4>
+  <div class="markdown level1 summary"><p>Gets the slash commands module for this client</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SlashCommandsExtension GetSlashCommands(this DiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Client to get slash commands for</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a></td>
+        <td><p>The module, or null if not activated</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_SlashCommands_ExtensionMethods_RegisterCommands_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.RegisterCommands*"></a>
+  <h4 id="DisCatSharp_SlashCommands_ExtensionMethods_RegisterCommands_IReadOnlyDictionary_System_Int32_DisCatSharp_SlashCommands_SlashCommandsExtension__Type_System_Nullable_System_UInt64__" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.RegisterCommands(IReadOnlyDictionary{System.Int32,DisCatSharp.SlashCommands.SlashCommandsExtension},Type,System.Nullable{System.UInt64})">RegisterCommands(IReadOnlyDictionary&lt;Int32, SlashCommandsExtension&gt;, Type, Nullable&lt;UInt64&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a command class</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterCommands(this IReadOnlyDictionary&lt;int, SlashCommandsExtension&gt; modules, Type type, ulong? guildId = default(ulong? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a>&gt;</td>
+        <td><span class="parametername">modules</span></td>
+        <td><p>The modules to register it on</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <see cref="!:Type"></see> of the command class to register</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The guild id to register it on. If you want global commands, leave it null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_SlashCommands_ExtensionMethods_RegisterCommands_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.RegisterCommands*"></a>
+  <h4 id="DisCatSharp_SlashCommands_ExtensionMethods_RegisterCommands__1_IReadOnlyDictionary_System_Int32_DisCatSharp_SlashCommands_SlashCommandsExtension__System_Nullable_System_UInt64__" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.RegisterCommands``1(IReadOnlyDictionary{System.Int32,DisCatSharp.SlashCommands.SlashCommandsExtension},System.Nullable{System.UInt64})">RegisterCommands&lt;T&gt;(IReadOnlyDictionary&lt;Int32, SlashCommandsExtension&gt;, Nullable&lt;UInt64&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a commands class.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static void RegisterCommands&lt;T&gt;(this IReadOnlyDictionary&lt;int, SlashCommandsExtension&gt; modules, ulong? guildId = default(ulong? ))
+    where T : SlashCommandModule</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a>&gt;</td>
+        <td><span class="parametername">modules</span></td>
+        <td><p>The modules to register it on</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The guild id to register it on. If you want global commands, leave it null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The command class to register</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_SlashCommands_ExtensionMethods_UseSlashCommands_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.UseSlashCommands*"></a>
+  <h4 id="DisCatSharp_SlashCommands_ExtensionMethods_UseSlashCommands_DisCatSharp_DiscordClient_DisCatSharp_SlashCommands_SlashCommandsConfiguration_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.UseSlashCommands(DisCatSharp.DiscordClient,DisCatSharp.SlashCommands.SlashCommandsConfiguration)">UseSlashCommands(DiscordClient, SlashCommandsConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Enables slash commands on this <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static SlashCommandsExtension UseSlashCommands(this DiscordClient client, SlashCommandsConfiguration config = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Client to enable slash commands for</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsConfiguration.html">SlashCommandsConfiguration</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Configuration to use</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a></td>
+        <td><p>Created <a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_SlashCommands_ExtensionMethods_UseSlashCommandsAsync_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.UseSlashCommandsAsync*"></a>
+  <h4 id="DisCatSharp_SlashCommands_ExtensionMethods_UseSlashCommandsAsync_DisCatSharp_DiscordShardedClient_DisCatSharp_SlashCommands_SlashCommandsConfiguration_" data-uid="DisCatSharp.SlashCommands.ExtensionMethods.UseSlashCommandsAsync(DisCatSharp.DiscordShardedClient,DisCatSharp.SlashCommands.SlashCommandsConfiguration)">UseSlashCommandsAsync(DiscordShardedClient, SlashCommandsConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Enables slash commands on this <a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;IReadOnlyDictionary&lt;int, SlashCommandsExtension&gt;&gt; UseSlashCommandsAsync(this DiscordShardedClient client, SlashCommandsConfiguration config = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Client to enable slash commands on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsConfiguration.html">SlashCommandsConfiguration</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Configuration to use.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a>&gt;&gt;</td>
+        <td><p>A dictionary of created <a class="xref" href="DisCatSharp.SlashCommands.SlashCommandsExtension.html">SlashCommandsExtension</a> with the key being the shard id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

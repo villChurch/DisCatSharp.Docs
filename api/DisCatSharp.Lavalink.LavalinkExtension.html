@@ -1,0 +1,411 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class LavalinkExtension
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class LavalinkExtension
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Lavalink.LavalinkExtension">
+  
+  
+  <h1 id="DisCatSharp_Lavalink_LavalinkExtension" data-uid="DisCatSharp.Lavalink.LavalinkExtension" class="text-break">Class LavalinkExtension
+  </h1>
+  <div class="markdown level0 summary"><p>The lavalink extension.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DisCatSharp.BaseExtension.html">BaseExtension</a></div>
+    <div class="level2"><span class="xref">LavalinkExtension</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DisCatSharp.BaseExtension.html#DisCatSharp_BaseExtension_Client">BaseExtension.Client</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Lavalink.html">DisCatSharp.Lavalink</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Lavalink_LavalinkExtension_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class LavalinkExtension : BaseExtension</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_ConnectedNodes_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.ConnectedNodes*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_ConnectedNodes" data-uid="DisCatSharp.Lavalink.LavalinkExtension.ConnectedNodes">ConnectedNodes</h4>
+  <div class="markdown level1 summary"><p>Gets a dictionary of connected Lavalink nodes for the extension.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;ConnectionEndpoint, LavalinkNodeConnection&gt; ConnectedNodes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">ConnectionEndpoint</span>, <a class="xref" href="DisCatSharp.Lavalink.LavalinkNodeConnection.html">LavalinkNodeConnection</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_ConnectAsync_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.ConnectAsync*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_ConnectAsync_DisCatSharp_Lavalink_LavalinkConfiguration_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.ConnectAsync(DisCatSharp.Lavalink.LavalinkConfiguration)">ConnectAsync(LavalinkConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Connect to a Lavalink node.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;LavalinkNodeConnection&gt; ConnectAsync(LavalinkConfiguration config)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Lavalink.LavalinkConfiguration.html">LavalinkConfiguration</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Lavalink client configuration.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Lavalink.LavalinkNodeConnection.html">LavalinkNodeConnection</a>&gt;</td>
+        <td><p>The established Lavalink connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_GetGuildConnection_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetGuildConnection*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_GetGuildConnection_DiscordGuild_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetGuildConnection(DiscordGuild)">GetGuildConnection(DiscordGuild)</h4>
+  <div class="markdown level1 summary"><p>Gets a Lavalink guild connection from a <see cref="!:DiscordGuild"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LavalinkGuildConnection GetGuildConnection(DiscordGuild guild)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordGuild</span></td>
+        <td><span class="parametername">guild</span></td>
+        <td><p>The guild the connection is on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Lavalink.LavalinkGuildConnection.html">LavalinkGuildConnection</a></td>
+        <td><p>The found guild connection, or null if one could not be found.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_GetIdealNodeConnection_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetIdealNodeConnection*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_GetIdealNodeConnection_DiscordVoiceRegion_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetIdealNodeConnection(DiscordVoiceRegion)">GetIdealNodeConnection(DiscordVoiceRegion)</h4>
+  <div class="markdown level1 summary"><p>Gets a Lavalink node connection based on load balancing and an optional voice region.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LavalinkNodeConnection GetIdealNodeConnection(DiscordVoiceRegion region = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordVoiceRegion</span></td>
+        <td><span class="parametername">region</span></td>
+        <td><p>The region to compare with the node&apos;s <a class="xref" href="DisCatSharp.Lavalink.LavalinkConfiguration.html#DisCatSharp_Lavalink_LavalinkConfiguration_Region">Region</a>, if any.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Lavalink.LavalinkNodeConnection.html">LavalinkNodeConnection</a></td>
+        <td><p>The least load affected node connection, or null if no nodes are present.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_GetNodeConnection_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_GetNodeConnection_ConnectionEndpoint_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(ConnectionEndpoint)">GetNodeConnection(ConnectionEndpoint)</h4>
+  <div class="markdown level1 summary"><p>Gets the Lavalink node connection for the specified endpoint.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public LavalinkNodeConnection GetNodeConnection(ConnectionEndpoint endpoint)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ConnectionEndpoint</span></td>
+        <td><span class="parametername">endpoint</span></td>
+        <td><p>Endpoint at which the node resides.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Lavalink.LavalinkNodeConnection.html">LavalinkNodeConnection</a></td>
+        <td><p>Lavalink node connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Lavalink_LavalinkExtension_Setup_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.Setup*"></a>
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_Setup_DisCatSharp_DiscordClient_" data-uid="DisCatSharp.Lavalink.LavalinkExtension.Setup(DisCatSharp.DiscordClient)">Setup(DiscordClient)</h4>
+  <div class="markdown level1 summary"><p>DO NOT USE THIS MANUALLY.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override void Setup(DiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>DO NOT USE THIS MANUALLY.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DisCatSharp.BaseExtension.html#DisCatSharp_BaseExtension_Setup_DisCatSharp_DiscordClient_">BaseExtension.Setup(DiscordClient)</a></div>
+  <h3 id="events">Events
+  </h3>
+  
+  
+  <h4 id="DisCatSharp_Lavalink_LavalinkExtension_NodeDisconnected" data-uid="DisCatSharp.Lavalink.LavalinkExtension.NodeDisconnected">NodeDisconnected</h4>
+  <div class="markdown level1 summary"><p>Triggered whenever a node disconnects.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;LavalinkNodeConnection, NodeDisconnectedEventArgs&gt; NodeDisconnected</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.Lavalink.LavalinkNodeConnection.html">LavalinkNodeConnection</a>, <span class="xref">NodeDisconnectedEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

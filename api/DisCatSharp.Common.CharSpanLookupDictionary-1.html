@@ -1,0 +1,1060 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class CharSpanLookupDictionary&lt;TValue&gt;
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class CharSpanLookupDictionary&lt;TValue&gt;
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1">
+  
+  
+  <h1 id="DisCatSharp_Common_CharSpanLookupDictionary_1" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1" class="text-break">Class CharSpanLookupDictionary&lt;TValue&gt;
+  </h1>
+  <div class="markdown level0 summary"><p>Represents collection of string keys and <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> values, allowing the use of <see cref="!:ReadOnlySpan&lt;T>"></see> for dictionary operations.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">CharSpanLookupDictionary&lt;TValue&gt;</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Common.html">DisCatSharp.Common</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Common_CharSpanLookupDictionary_1_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class CharSpanLookupDictionary&lt;TValue&gt; : IDictionary&lt;string, TValue&gt;, IReadOnlyDictionary&lt;string, TValue&gt;, IDictionary</code></pre>
+  </div>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TValue</span></td>
+        <td><p>Type of items in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor">CharSpanLookupDictionary()</h4>
+  <div class="markdown level1 summary"><p>Creates a new, empty <a class="xref" href="DisCatSharp.Common.CharSpanLookupDictionary-1.html">CharSpanLookupDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharSpanLookupDictionary()</code></pre>
+  </div>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_IDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor(IDictionary{System.String,`0})">CharSpanLookupDictionary(IDictionary&lt;String, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupDictionary-1.html">CharSpanLookupDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharSpanLookupDictionary(IDictionary&lt;string, TValue&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Dictionary containing items to populate this dictionary with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_IEnumerable_KeyValuePair_System_String__0___" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor(IEnumerable{KeyValuePair{System.String,`0}})">CharSpanLookupDictionary(IEnumerable&lt;KeyValuePair&lt;String, TValue&gt;&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupDictionary-1.html">CharSpanLookupDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied key-value collection.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharSpanLookupDictionary(IEnumerable&lt;KeyValuePair&lt;string, TValue&gt;&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Dictionary containing items to populate this dictionary with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_IReadOnlyDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor(IReadOnlyDictionary{System.String,`0})">CharSpanLookupDictionary(IReadOnlyDictionary&lt;String, TValue&gt;)</h4>
+  <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupDictionary-1.html">CharSpanLookupDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharSpanLookupDictionary(IReadOnlyDictionary&lt;string, TValue&gt; values)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
+        <td><span class="parametername">values</span></td>
+        <td><p>Dictionary containing items to populate this dictionary with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1__ctor_System_Int32_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.#ctor(System.Int32)">CharSpanLookupDictionary(Int32)</h4>
+  <div class="markdown level1 summary"><p>Creates a new, empty <a class="xref" href="DisCatSharp.Common.CharSpanLookupDictionary-1.html">CharSpanLookupDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and sets its initial capacity to specified value.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public CharSpanLookupDictionary(int initialCapacity)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">initialCapacity</span></td>
+        <td><p>Initial capacity of the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Count_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Count*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Count" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Count">Count</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of items in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int Count { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsFixedSize_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsFixedSize*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsFixedSize" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsFixedSize">IsFixedSize</h4>
+  <div class="markdown level1 summary"><p>Gets whether this dictionary has a fixed size.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsFixedSize { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsReadOnly_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsReadOnly*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsReadOnly" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsReadOnly">IsReadOnly</h4>
+  <div class="markdown level1 summary"><p>Gets whether this dictionary is read-only.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsReadOnly { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsSynchronized_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsSynchronized*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_IsSynchronized" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.IsSynchronized">IsSynchronized</h4>
+  <div class="markdown level1 summary"><p>Gets whether this dictionary is considered thread-safe.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool IsSynchronized { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Item_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Item*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Item_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Item(ReadOnlySpan{System.Char})">Item[ReadOnlySpan&lt;Char&gt;]</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value corresponding to given key in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue this[ReadOnlySpan&lt;char&gt; key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to get or set the value for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>Value matching the supplied key, if applicable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Item_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Item*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Item_System_String_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Item(System.String)">Item[String]</h4>
+  <div class="markdown level1 summary"><p>Gets or sets a value corresponding to given key in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public TValue this[string key] { get; set; }</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to get or set the value for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><p>Value matching the supplied key, if applicable.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Keys_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Keys*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Keys" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Keys">Keys</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of all keys present in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;string&gt; Keys { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_SyncRoot_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.SyncRoot*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_SyncRoot" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.SyncRoot">SyncRoot</h4>
+  <div class="markdown level1 summary"><p>Gets the object which allows synchronizing access to this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public object SyncRoot { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Values_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Values*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Values" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Values">Values</h4>
+  <div class="markdown level1 summary"><p>Gets the collection of all values present in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerable&lt;TValue&gt; Values { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;TValue&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Add_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Add*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Add_ReadOnlySpan_System_Char___0_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Add(ReadOnlySpan{System.Char},`0)">Add(ReadOnlySpan&lt;Char&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Inserts a specific key and corresponding value into this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(ReadOnlySpan&lt;char&gt; key, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value corresponding to this key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Add_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Add*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Add_System_String__0_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Add(System.String,`0)">Add(String, TValue)</h4>
+  <div class="markdown level1 summary"><p>Inserts a specific key and corresponding value into this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Add(string key, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value corresponding to this key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_Clear_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Clear*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_Clear" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.Clear">Clear()</h4>
+  <div class="markdown level1 summary"><p>Removes all items from this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void Clear()</code></pre>
+  </div>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_ContainsKey_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.ContainsKey*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_ContainsKey_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.ContainsKey(ReadOnlySpan{System.Char})">ContainsKey(ReadOnlySpan&lt;Char&gt;)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this dictionary contains the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(ReadOnlySpan&lt;char&gt; key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to check for in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the key was present in the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_ContainsKey_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.ContainsKey*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_ContainsKey_System_String_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.ContainsKey(System.String)">ContainsKey(String)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this dictionary contains the specified key.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool ContainsKey(string key)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to check for in this dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the key was present in the dictionary.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_GetEnumerator_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.GetEnumerator*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_GetEnumerator" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.GetEnumerator">GetEnumerator()</h4>
+  <div class="markdown level1 summary"><p>Gets an enumerator over key-value pairs in this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IEnumerator&lt;KeyValuePair&lt;string, TValue&gt;&gt; GetEnumerator()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryAdd_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryAdd*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryAdd_ReadOnlySpan_System_Char___0_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryAdd(ReadOnlySpan{System.Char},`0)">TryAdd(ReadOnlySpan&lt;Char&gt;, TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to insert a specific key and corresponding value into this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryAdd(ReadOnlySpan&lt;char&gt; key, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value corresponding to this key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryAdd_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryAdd*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryAdd_System_String__0_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryAdd(System.String,`0)">TryAdd(String, TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to insert a specific key and corresponding value into this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryAdd(string key, TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to insert.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Value corresponding to this key.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryGetValue_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryGetValue*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryGetValue_ReadOnlySpan_System_Char___0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryGetValue(ReadOnlySpan{System.Char},`0@)">TryGetValue(ReadOnlySpan&lt;Char&gt;, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to retrieve a value corresponding to the supplied key from this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(ReadOnlySpan&lt;char&gt; key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to retrieve the value for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Retrieved value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryGetValue_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryGetValue*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryGetValue_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryGetValue(System.String,`0@)">TryGetValue(String, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to retrieve a value corresponding to the supplied key from this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryGetValue(string key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to retrieve the value for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Retrieved value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryRemove_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryRemove*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryRemove_ReadOnlySpan_System_Char___0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryRemove(ReadOnlySpan{System.Char},`0@)">TryRemove(ReadOnlySpan&lt;Char&gt;, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to remove a value corresponding to the supplied key from this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemove(ReadOnlySpan&lt;char&gt; key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to remove the value for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Removed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryRemove_" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryRemove*"></a>
+  <h4 id="DisCatSharp_Common_CharSpanLookupDictionary_1_TryRemove_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupDictionary`1.TryRemove(System.String,`0@)">TryRemove(String, out TValue)</h4>
+  <div class="markdown level1 summary"><p>Attempts to remove a value corresponding to the supplied key from this dictionary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool TryRemove(string key, out TValue value)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">key</span></td>
+        <td><p>Key to remove the value for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">TValue</span></td>
+        <td><span class="parametername">value</span></td>
+        <td><p>Removed value.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

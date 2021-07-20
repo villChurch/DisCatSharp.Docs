@@ -1,0 +1,977 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class MessageExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class MessageExtensions
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions">
+  
+  
+  <h1 id="DisCatSharp_Interactivity_Extensions_MessageExtensions" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions" class="text-break">Class MessageExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>Interactivity extension methods for <see cref="!:DiscordMessage"></see>.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">MessageExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Interactivity.Extensions.html">DisCatSharp.Interactivity.Extensions</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class MessageExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_CollectReactionsAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.CollectReactionsAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_CollectReactionsAsync_DiscordMessage_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.CollectReactionsAsync(DiscordMessage,System.Nullable{TimeSpan})">CollectReactionsAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Collects all reactions on this message within the timeout duration.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ReadOnlyCollection&lt;Reaction&gt;&gt; CollectReactionsAsync(this DiscordMessage message, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to collect reactions from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;<span class="xref">Reaction</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_DoPollAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.DoPollAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_DoPollAsync_DiscordMessage_IEnumerable_DiscordEmoji__System_Nullable_PollBehaviour__System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.DoPollAsync(DiscordMessage,IEnumerable{DiscordEmoji},System.Nullable{PollBehaviour},System.Nullable{TimeSpan})">DoPollAsync(DiscordMessage, IEnumerable&lt;DiscordEmoji&gt;, Nullable&lt;PollBehaviour&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Begins a poll using this message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;ReadOnlyCollection&lt;PollEmoji&gt;&gt; DoPollAsync(this DiscordMessage message, IEnumerable&lt;DiscordEmoji&gt; emojis, PollBehaviour? behaviorOverride = default(PollBehaviour? ), TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Target message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordEmoji</span>&gt;</td>
+        <td><span class="parametername">emojis</span></td>
+        <td><p>Options for this poll.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PollBehaviour</span>&gt;</td>
+        <td><span class="parametername">behaviorOverride</span></td>
+        <td><p>Overrides the action set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_PaginationBehaviour">PaginationBehaviour</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;<span class="xref">PollEmoji</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_GetNextMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.GetNextMessageAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_GetNextMessageAsync_DiscordMessage_Func_DiscordMessage_System_Boolean__System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.GetNextMessageAsync(DiscordMessage,Func{DiscordMessage,System.Boolean},System.Nullable{TimeSpan})">GetNextMessageAsync(DiscordMessage, Func&lt;DiscordMessage, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for the next message with the same author and channel as this message, which also satisfies a predicate.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordMessage message, Func&lt;DiscordMessage, bool&gt; predicate, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Original message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Func</span>&lt;<span class="xref">DiscordMessage</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">predicate</span></td>
+        <td><p>A predicate that should return <span class="xref">true</span> if a message matches.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_GetNextMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.GetNextMessageAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_GetNextMessageAsync_DiscordMessage_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.GetNextMessageAsync(DiscordMessage,System.Nullable{TimeSpan})">GetNextMessageAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for the next message that has the same author and channel as this message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordMessage message, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Original message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message by the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for button input from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the button to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the button to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForReactionAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForReactionAsync_DiscordMessage_DiscordUser_DiscordEmoji_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync(DiscordMessage,DiscordUser,DiscordEmoji,System.Nullable{TimeSpan})">WaitForReactionAsync(DiscordMessage, DiscordUser, DiscordEmoji, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a specific reaction on this message from the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;MessageReactionAddEventArgs&gt;&gt; WaitForReactionAsync(this DiscordMessage message, DiscordUser user, DiscordEmoji emoji, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Target message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The target user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordEmoji</span></td>
+        <td><span class="parametername">emoji</span></td>
+        <td><p>The target emoji.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForReactionAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForReactionAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})">WaitForReactionAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a reaction on this message from a specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;MessageReactionAddEventArgs&gt;&gt; WaitForReactionAsync(this DiscordMessage message, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>Target message.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The target user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, DiscordUser user, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, DiscordUser user, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutOverride</span></td>
+        <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

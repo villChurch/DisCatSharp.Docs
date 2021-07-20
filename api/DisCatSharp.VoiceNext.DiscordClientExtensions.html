@@ -1,0 +1,420 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DiscordClientExtensions
+   </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DiscordClientExtensions
+   ">
+    <meta name="generator" content="docfx 2.58.0.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions">
+  
+  
+  <h1 id="DisCatSharp_VoiceNext_DiscordClientExtensions" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions" class="text-break">Class DiscordClientExtensions
+  </h1>
+  <div class="markdown level0 summary"><p>The discord client extensions.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DiscordClientExtensions</span></div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.VoiceNext.html">DisCatSharp.VoiceNext</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_VoiceNext_DiscordClientExtensions_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static class DiscordClientExtensions</code></pre>
+  </div>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_ConnectAsync_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.ConnectAsync*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_ConnectAsync_DiscordChannel_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.ConnectAsync(DiscordChannel)">ConnectAsync(DiscordChannel)</h4>
+  <div class="markdown level1 summary"><p>Connects to this voice channel using VoiceNext.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;VoiceNextConnection&gt; ConnectAsync(this DiscordChannel channel)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordChannel</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Channel to connect to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.VoiceNext.VoiceNextConnection.html">VoiceNextConnection</a>&gt;</td>
+        <td><p>If successful, the VoiceNext connection.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_GetVoiceNext_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.GetVoiceNext*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_GetVoiceNext_DisCatSharp_DiscordClient_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.GetVoiceNext(DisCatSharp.DiscordClient)">GetVoiceNext(DiscordClient)</h4>
+  <div class="markdown level1 summary"><p>Gets the active instance of VoiceNext client for the DiscordClient.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VoiceNextExtension GetVoiceNext(this DiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Discord client to get VoiceNext instance for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a></td>
+        <td><p>VoiceNext client instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_GetVoiceNextAsync_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.GetVoiceNextAsync*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_GetVoiceNextAsync_DisCatSharp_DiscordShardedClient_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.GetVoiceNextAsync(DisCatSharp.DiscordShardedClient)">GetVoiceNextAsync(DiscordShardedClient)</h4>
+  <div class="markdown level1 summary"><p>Retrieves a <a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a> instance for each shard.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;IReadOnlyDictionary&lt;int, VoiceNextExtension&gt;&gt; GetVoiceNextAsync(this DiscordShardedClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>The shard client to retrieve <a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a> instances from.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a>&gt;&gt;</td>
+        <td><p>A dictionary containing <a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a> instances for each shard.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNext_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNext*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNext_DisCatSharp_DiscordClient_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNext(DisCatSharp.DiscordClient)">UseVoiceNext(DiscordClient)</h4>
+  <div class="markdown level1 summary"><p>Creates a new VoiceNext client with default settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VoiceNextExtension UseVoiceNext(this DiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Discord client to create VoiceNext instance for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a></td>
+        <td><p>VoiceNext client instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNext_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNext*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNext_DisCatSharp_DiscordClient_DisCatSharp_VoiceNext_VoiceNextConfiguration_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNext(DisCatSharp.DiscordClient,DisCatSharp.VoiceNext.VoiceNextConfiguration)">UseVoiceNext(DiscordClient, VoiceNextConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Creates a new VoiceNext client with specified settings.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static VoiceNextExtension UseVoiceNext(this DiscordClient client, VoiceNextConfiguration config)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Discord client to create VoiceNext instance for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.VoiceNext.VoiceNextConfiguration.html">VoiceNextConfiguration</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Configuration for the VoiceNext client.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a></td>
+        <td><p>VoiceNext client instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNextAsync_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNextAsync*"></a>
+  <h4 id="DisCatSharp_VoiceNext_DiscordClientExtensions_UseVoiceNextAsync_DisCatSharp_DiscordShardedClient_DisCatSharp_VoiceNext_VoiceNextConfiguration_" data-uid="DisCatSharp.VoiceNext.DiscordClientExtensions.UseVoiceNextAsync(DisCatSharp.DiscordShardedClient,DisCatSharp.VoiceNext.VoiceNextConfiguration)">UseVoiceNextAsync(DiscordShardedClient, VoiceNextConfiguration)</h4>
+  <div class="markdown level1 summary"><p>Creates new VoiceNext clients on all shards in a given sharded client.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static async Task&lt;IReadOnlyDictionary&lt;int, VoiceNextExtension&gt;&gt; UseVoiceNextAsync(this DiscordShardedClient client, VoiceNextConfiguration config)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Discord sharded client to create VoiceNext instances for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.VoiceNext.VoiceNextConfiguration.html">VoiceNextConfiguration</a></td>
+        <td><span class="parametername">config</span></td>
+        <td><p>Configuration for the VoiceNext clients.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.VoiceNext.VoiceNextExtension.html">VoiceNextExtension</a>&gt;&gt;</td>
+        <td><p>A dictionary of created VoiceNext clients.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

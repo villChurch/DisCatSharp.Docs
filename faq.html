@@ -83,8 +83,8 @@ Because of this we do not support Mono in any way, nor will we support any other
 <h3 id="connecting-to-a-voice-channel-with-voicenext-will-either-hang-or-throw-an-exception">Connecting to a voice channel with VoiceNext will either hang or throw an exception.</h3>
 <p>To troubleshoot, please ensure that:</p>
 <ul>
-<li>You are using the latest version of DSharpPlusNextGen.</li>
-<li>You have properly enabled VoiceNext with your instance of <a class="xref" href="api/DSharpPlusNextGen.DiscordClient.html">DiscordClient</a>.</li>
+<li>You are using the latest version of DisCatSharp.</li>
+<li>You have properly enabled VoiceNext with your instance of <a class="xref" href="api/DisCatSharp.DiscordClient.html">DiscordClient</a>.</li>
 <li>You are <em>not</em> using VoiceNext in an event handler.</li>
 <li>You have <a class="xref" href="articles/audio/voicenext/prerequisites.html">opus and libsodium</a> available in your target environment.</li>
 </ul>
@@ -129,7 +129,7 @@ Changing the properties of a role requires that your bot account have a role hig
 <h3 id="does-commandsnext-support-dependency-injection">Does CommandsNext support dependency injection?</h3>
 <p>It does! Please take a look at our <a class="xref" href="articles/commands/dependency_injection.html">article</a> on the subject.</p>
 <h3 id="can-i-use-a-user-token">Can I use a user token?</h3>
-<p>Automating a user account is against Discord&#39;s <a href="https://dis.gd/terms">Terms of Service</a> and is not supported by DSharpPlusNextGen.</p>
+<p>Automating a user account is against Discord&#39;s <a href="https://dis.gd/terms">Terms of Service</a> and is not supported by DisCatSharp.</p>
 <h3 id="how-can-i-set-a-custom-status">How can I set a custom status?</h3>
 <p>If you mean a <em>true</em> custom status like this:</p>
 <p><img src="/images/faq_01.png" alt="help"></p>
@@ -139,16 +139,16 @@ However, if you meant an activity like this:</p>
 <p><img src="/images/faq_02.png" alt="Bot Presence"></p>
 <p>You can use either of the following</p>
 <ul>
-<li>The overload for <a class="xref" href="api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> which accepts a <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordActivity.html">DiscordActivity</a>.</li>
-<li><a class="xref" href="api/DSharpPlusNextGen.DiscordClient.html#DSharpPlusNextGen_DiscordClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> OR <a class="xref" href="api/DSharpPlusNextGen.DiscordShardedClient.html#DSharpPlusNextGen_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> (for the sharded client) at any point after <code>Ready</code> has been fired.</li>
+<li>The overload for <a class="xref" href="api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> which accepts a <a class="xref" href="api/DisCatSharp.Entities.DiscordActivity.html">DiscordActivity</a>.</li>
+<li><a class="xref" href="api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> OR <a class="xref" href="api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</a> (for the sharded client) at any point after <code>Ready</code> has been fired.</li>
 </ul>
-<h3 id="am-i-able-to-retrieve-a-dsharpplusnextgenentitiesdiscordrole-by-name">Am I able to retrieve a <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordRole.html">DiscordRole</a> by name?</h3>
-<p>Yes. Use LINQ on the <code>Roles</code> property of your instance of <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordGuild.html">DiscordGuild</a> and compare against the <code>Name</code> of  each <a class="xref" href="api/DSharpPlusNextGen.Entities.DiscordRole.html">DiscordRole</a>.</p>
+<h3 id="am-i-able-to-retrieve-a-discatsharpentitiesdiscordrole-by-name">Am I able to retrieve a <a class="xref" href="api/DisCatSharp.Entities.DiscordRole.html">DiscordRole</a> by name?</h3>
+<p>Yes. Use LINQ on the <code>Roles</code> property of your instance of <a class="xref" href="api/DisCatSharp.Entities.DiscordGuild.html">DiscordGuild</a> and compare against the <code>Name</code> of  each <a class="xref" href="api/DisCatSharp.Entities.DiscordRole.html">DiscordRole</a>.</p>
 <h3 id="why-are-you-using-newtonsoftjson-when-systemtextjson-is-available">Why are you using Newtonsoft.Json when System.Text.Json is available</h3>
 <p>Yes <code>System.Text.Json</code> is available to use but it still doesnt stand up to what we currently need which is why we still use Newtonsoft.Json.
 Maybe in time we can switch to your favorite Json Deserializer but for right now we will be using Newtonsoft.Json for the forseeable future.</p>
 <h3 id="why-the-hell-are-my-events-not-firing">Why the hell are my events not firing?</h3>
-<p>This is because in the Discord V8 API, they require <a class="xref" href="api/DSharpPlusNextGen.DiscordIntents.html">DiscordIntents</a> to be enabled on <a class="xref" href="api/DSharpPlusNextGen.DiscordConfiguration.html">DiscordConfiguration</a> and the
+<p>This is because in the Discord V8 API, they require <a class="xref" href="api/DisCatSharp.DiscordIntents.html">DiscordIntents</a> to be enabled on <a class="xref" href="api/DisCatSharp.DiscordConfiguration.html">DiscordConfiguration</a> and the
 Discord Application Portal. We have an <a class="xref" href="articles/beyond_basics/intents.html">article</a> that covers all that has to be done to set this up.</p>
 </article>
           </div>
@@ -158,7 +158,7 @@ Discord Application Portal. We have an <a class="xref" href="articles/beyond_bas
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/faq.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/release/9.5.8/docs/faq.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>

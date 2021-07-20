@@ -80,7 +80,7 @@
 
 <p>Intents were added to Discord to help the service not have to push so many events to the bots that were not using them.  If you are going to be needing
 to subscribe to any type of event, they are going to have to be defined <strong>BOTH</strong> within the
-<a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> on Discords Site and also within the <a class="xref" href="../../api/DSharpPlusNextGen.DiscordConfiguration.html">DiscordConfiguration</a>.</p>
+<a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> on Discords Site and also within the <a class="xref" href="../../api/DisCatSharp.DiscordConfiguration.html">DiscordConfiguration</a>.</p>
 <h3 id="discord-application">Discord Application</h3>
 <p>On the <a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> you will have to specify if your bot requires Privileged Intents. We recommend having these all enabled at first to ensure the most stability when building your first bot, otherwise you may run into issues when retrieving entities from the library&#39;s cache.</p>
 <p><img src="/images/Intents.png" alt="Bot Page"></p>
@@ -90,7 +90,7 @@ Please read this <a href="https://support.discord.com/hc/en-us/articles/36004072
 </div>
 <h3 id="discord-configuration">Discord Configuration</h3>
 <p>Within your <code>DiscordConfiguration</code> you will have to specify all the intents you will need. Here is a list of all the
-<a class="xref" href="../../api/DSharpPlusNextGen.DiscordIntents.html">Intents</a> DSharpPlus Supports. By default, the configuration will use <code>DiscordIntents.AllUnprivileged</code> as the default value. Like above however, we recommend having all intents enabled at first, so you should specify <code>DiscordIntents.All</code> in your configuration which will include the privleged intents you enabled in your application:</p>
+<a class="xref" href="../../api/DisCatSharp.DiscordIntents.html">Intents</a> DSharpPlus Supports. By default, the configuration will use <code>DiscordIntents.AllUnprivileged</code> as the default value. Like above however, we recommend having all intents enabled at first, so you should specify <code>DiscordIntents.All</code> in your configuration which will include the privleged intents you enabled in your application:</p>
 <pre><code class="lang-csharp">var config = new DiscordConfiguration()
 {
     Intents = DiscordIntents.All
@@ -124,7 +124,7 @@ Please read this <a href="https://support.discord.com/hc/en-us/articles/36004072
               <div class="contribution">
                 <ul class="nav">
                   <li>
-                    <a href="https://github.com/Aiko-IT-Systems/DSharpPlusNextGen/blob/main/docs/articles/beyond_basics/intents.md/#L1" class="contribution-link">Improve this Doc</a>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/release/9.5.8/docs/articles/beyond_basics/intents.md/#L1" class="contribution-link">Improve this Doc</a>
                   </li>
                 </ul>
               </div>
