@@ -82,7 +82,7 @@
   
   <h1 id="DSharpPlusNextGen_Interactivity_InteractivityExtension" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension" class="text-break">Class InteractivityExtension
   </h1>
-  <div class="markdown level0 summary"><p>Extension class for DSharpPlusNextGen.Interactivity</p>
+  <div class="markdown level0 summary"><p>Extension class for DSharpPlus.Interactivity</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -109,7 +109,7 @@
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_CollectEventArgsAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.CollectEventArgsAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_CollectEventArgsAsync__1_Func___0_System_Boolean__System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.CollectEventArgsAsync``1(Func{``0,System.Boolean},System.Nullable{TimeSpan})">CollectEventArgsAsync&lt;T&gt;(Func&lt;T, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
-  <div class="markdown level1 summary"><p>Collects the event args async.</p>
+  <div class="markdown level1 summary"><p>Collects the event arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -136,7 +136,7 @@
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutoverride</span></td>
-        <td><p>The timeoutoverride.</p>
+        <td><p>Override timeout period.</p>
 </td>
       </tr>
     </tbody>
@@ -152,8 +152,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;T&gt;&gt;</td>
-        <td><p>A Task.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -473,9 +472,89 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   </table>
   
   
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DSharpPlusNextGen_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DSharpPlusNextGen.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Nullable{System.Threading.CancellationToken})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends the paginated message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task SendPaginatedMessageAsync(DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationButtons buttons = null, PaginationBehaviour? behaviour = default(PaginationBehaviour? ), ButtonPaginationBehavior? deletion = default(ButtonPaginationBehavior? ), CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordChannel</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>The channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="parametername">pages</span></td>
+        <td><p>The pages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PaginationButtons</span></td>
+        <td><span class="parametername">buttons</span></td>
+        <td><p>The buttons.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PaginationBehaviour</span>&gt;</td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>The behaviour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ButtonPaginationBehavior</span>&gt;</td>
+        <td><span class="parametername">deletion</span></td>
+        <td><p>The deletion.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>The cancellation token.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_Setup_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.Setup*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_Setup_DSharpPlusNextGen_DiscordClient_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.Setup(DSharpPlusNextGen.DiscordClient)">Setup(DiscordClient)</h4>
-  <div class="markdown level1 summary"><p>Setups the.</p>
+  <div class="markdown level1 summary"><p>Setups the Interactivity Extension.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -495,7 +574,7 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
       <tr>
         <td><a class="xref" href="DSharpPlusNextGen.DiscordClient.html">DiscordClient</a></td>
         <td><span class="parametername">client</span></td>
-        <td><p>The client.</p>
+        <td><p>Discord client.</p>
 </td>
       </tr>
     </tbody>
@@ -505,13 +584,70 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed by the specified user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, DiscordUser user, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait for the button on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for the button press from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed by the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -562,13 +698,70 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button in the specified collection to be pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, IEnumerable&lt;DiscordButtonComponent&gt; buttons, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordButtonComponent</span>&gt;</td>
+        <td><span class="parametername">buttons</span></td>
+        <td><p>A collection of buttons to listen for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button in the specified collection to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, IEnumerable&lt;DiscordButtonComponent&gt; buttons, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, IEnumerable&lt;DiscordButtonComponent&gt; buttons, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -619,13 +812,64 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait for the button on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -670,13 +914,70 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait for the button on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the button to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>Override the timeout period specified in <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html">InteractivityConfiguration</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><p>A <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of the operation.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -721,6 +1022,52 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of the operation.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForCustomComponentPaginationAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForCustomComponentPaginationAsync_IPaginationRequest_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync(IPaginationRequest)">WaitForCustomComponentPaginationAsync(IPaginationRequest)</h4>
+  <div class="markdown level1 summary"><p>Waits for custom button-based pagination request to finish.
+<br>
+This does <em><strong>not</strong></em> invoke <see cref="!:IPaginationRequest.DoCleanupAsync"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task WaitForCustomComponentPaginationAsync(IPaginationRequest request)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IPaginationRequest</span></td>
+        <td><span class="parametername">request</span></td>
+        <td><p>The request to wait for.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -793,12 +1140,14 @@ This does NOT handle removing emojis after finishing for you.</p>
       <tr>
         <td><span class="xref">Func</span>&lt;T, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
-        <td></td>
+        <td><p>The predicate.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutoverride</span></td>
-        <td></td>
+        <td><p>Override timeout period.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1112,13 +1461,75 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by a specific user.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, DiscordUser user, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by a specific user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, DiscordUser user, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, DiscordUser user, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1174,13 +1585,69 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
+  <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DSharpPlusNextGen.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
   <h4 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(DiscordMessage message, string id, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1227,6 +1694,8 @@ For this Event you need the <a class="xref" href="DSharpPlusNextGen.DiscordInten
       </tr>
     </tbody>
   </table>
+  <h5 id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan___remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>This is here for backwards-compatibility and will internally create a cancellation token.</p></div>
   
   
   <a id="DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForTypingAsync_" data-uid="DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForTypingAsync*"></a>

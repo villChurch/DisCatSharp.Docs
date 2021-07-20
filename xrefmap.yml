@@ -91,6 +91,12 @@ references:
   commentId: F:DSharpPlusNextGen.ApplicationCommandOptionType.Mentionable
   fullName: DSharpPlusNextGen.ApplicationCommandOptionType.Mentionable
   nameWithType: ApplicationCommandOptionType.Mentionable
+- uid: DSharpPlusNextGen.ApplicationCommandOptionType.Number
+  name: Number
+  href: api/DSharpPlusNextGen.ApplicationCommandOptionType.html#DSharpPlusNextGen_ApplicationCommandOptionType_Number
+  commentId: F:DSharpPlusNextGen.ApplicationCommandOptionType.Number
+  fullName: DSharpPlusNextGen.ApplicationCommandOptionType.Number
+  nameWithType: ApplicationCommandOptionType.Number
 - uid: DSharpPlusNextGen.ApplicationCommandOptionType.Role
   name: Role
   href: api/DSharpPlusNextGen.ApplicationCommandOptionType.html#DSharpPlusNextGen_ApplicationCommandOptionType_Role
@@ -1162,12 +1168,12 @@ references:
   commentId: T:DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute
   fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute
   nameWithType: RequireBotPermissionsAttribute
-- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  name: RequireBotPermissionsAttribute(Permissions)
-  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireBotPermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_
-  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.RequireBotPermissionsAttribute(DSharpPlusNextGen.Permissions)
-  nameWithType: RequireBotPermissionsAttribute.RequireBotPermissionsAttribute(Permissions)
+- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  name: RequireBotPermissionsAttribute(Permissions, Boolean)
+  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireBotPermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_System_Boolean_
+  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.RequireBotPermissionsAttribute(DSharpPlusNextGen.Permissions, System.Boolean)
+  nameWithType: RequireBotPermissionsAttribute.RequireBotPermissionsAttribute(Permissions, Boolean)
 - uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.#ctor*
   name: RequireBotPermissionsAttribute
   href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireBotPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireBotPermissionsAttribute__ctor_
@@ -1491,12 +1497,12 @@ references:
   commentId: T:DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute
   fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute
   nameWithType: RequirePermissionsAttribute
-- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  name: RequirePermissionsAttribute(Permissions)
-  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequirePermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_
-  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.RequirePermissionsAttribute(DSharpPlusNextGen.Permissions)
-  nameWithType: RequirePermissionsAttribute.RequirePermissionsAttribute(Permissions)
+- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  name: RequirePermissionsAttribute(Permissions, Boolean)
+  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequirePermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_System_Boolean_
+  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.RequirePermissionsAttribute(DSharpPlusNextGen.Permissions, System.Boolean)
+  nameWithType: RequirePermissionsAttribute.RequirePermissionsAttribute(Permissions, Boolean)
 - uid: DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.#ctor*
   name: RequirePermissionsAttribute
   href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequirePermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequirePermissionsAttribute__ctor_
@@ -1671,12 +1677,12 @@ references:
   commentId: T:DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute
   fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute
   nameWithType: RequireUserPermissionsAttribute
-- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  name: RequireUserPermissionsAttribute(Permissions)
-  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireUserPermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_
-  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions)
-  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.RequireUserPermissionsAttribute(DSharpPlusNextGen.Permissions)
-  nameWithType: RequireUserPermissionsAttribute.RequireUserPermissionsAttribute(Permissions)
+- uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  name: RequireUserPermissionsAttribute(Permissions, Boolean)
+  href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireUserPermissionsAttribute__ctor_DSharpPlusNextGen_Permissions_System_Boolean_
+  commentId: M:DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.#ctor(DSharpPlusNextGen.Permissions,System.Boolean)
+  fullName: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.RequireUserPermissionsAttribute(DSharpPlusNextGen.Permissions, System.Boolean)
+  nameWithType: RequireUserPermissionsAttribute.RequireUserPermissionsAttribute(Permissions, Boolean)
 - uid: DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.#ctor*
   name: RequireUserPermissionsAttribute
   href: api/DSharpPlusNextGen.CommandsNext.Attributes.RequireUserPermissionsAttribute.html#DSharpPlusNextGen_CommandsNext_Attributes_RequireUserPermissionsAttribute__ctor_
@@ -9456,6 +9462,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.DiscordConfiguration.MinimumLogLevel
   nameWithType: DiscordConfiguration.MinimumLogLevel
+- uid: DSharpPlusNextGen.DiscordConfiguration.MobileStatus
+  name: MobileStatus
+  href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_MobileStatus
+  commentId: P:DSharpPlusNextGen.DiscordConfiguration.MobileStatus
+  fullName: DSharpPlusNextGen.DiscordConfiguration.MobileStatus
+  nameWithType: DiscordConfiguration.MobileStatus
+- uid: DSharpPlusNextGen.DiscordConfiguration.MobileStatus*
+  name: MobileStatus
+  href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_MobileStatus_
+  commentId: Overload:DSharpPlusNextGen.DiscordConfiguration.MobileStatus
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.DiscordConfiguration.MobileStatus
+  nameWithType: DiscordConfiguration.MobileStatus
 - uid: DSharpPlusNextGen.DiscordConfiguration.Proxy
   name: Proxy
   href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_Proxy
@@ -9547,6 +9566,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.DiscordConfiguration.UdpClientFactory
   nameWithType: DiscordConfiguration.UdpClientFactory
+- uid: DSharpPlusNextGen.DiscordConfiguration.UseCanary
+  name: UseCanary
+  href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_UseCanary
+  commentId: P:DSharpPlusNextGen.DiscordConfiguration.UseCanary
+  fullName: DSharpPlusNextGen.DiscordConfiguration.UseCanary
+  nameWithType: DiscordConfiguration.UseCanary
+- uid: DSharpPlusNextGen.DiscordConfiguration.UseCanary*
+  name: UseCanary
+  href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_UseCanary_
+  commentId: Overload:DSharpPlusNextGen.DiscordConfiguration.UseCanary
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.DiscordConfiguration.UseCanary
+  nameWithType: DiscordConfiguration.UseCanary
 - uid: DSharpPlusNextGen.DiscordConfiguration.UseRelativeRatelimit
   name: UseRelativeRatelimit
   href: api/DSharpPlusNextGen.DiscordConfiguration.html#DSharpPlusNextGen_DiscordConfiguration_UseRelativeRatelimit
@@ -13314,18 +13346,18 @@ references:
   commentId: T:DSharpPlusNextGen.Entities.DiscordButtonComponent
   fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent
   nameWithType: DiscordButtonComponent
-- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor
-  name: DiscordButtonComponent()
-  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor
-  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor
-  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent()
-  nameWithType: DiscordButtonComponent.DiscordButtonComponent()
 - uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
   name: DiscordButtonComponent(ButtonStyle, String, String, Boolean, DiscordComponentEmoji)
   href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_ButtonStyle_System_String_System_String_System_Boolean_DSharpPlusNextGen_Entities_DiscordComponentEmoji_
   commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)
   fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent(ButtonStyle, System.String, System.String, System.Boolean, DSharpPlusNextGen.Entities.DiscordComponentEmoji)
   nameWithType: DiscordButtonComponent.DiscordButtonComponent(ButtonStyle, String, String, Boolean, DiscordComponentEmoji)
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(DSharpPlusNextGen.Entities.DiscordButtonComponent)
+  name: DiscordButtonComponent(DiscordButtonComponent)
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_DSharpPlusNextGen_Entities_DiscordButtonComponent_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(DSharpPlusNextGen.Entities.DiscordButtonComponent)
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent(DSharpPlusNextGen.Entities.DiscordButtonComponent)
+  nameWithType: DiscordButtonComponent.DiscordButtonComponent(DiscordButtonComponent)
 - uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor*
   name: DiscordButtonComponent
   href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_
@@ -13333,6 +13365,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.DiscordButtonComponent
   nameWithType: DiscordButtonComponent.DiscordButtonComponent
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable
+  name: Disable()
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Disable
+  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable()
+  nameWithType: DiscordButtonComponent.Disable()
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable*
+  name: Disable
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Disable_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable
+  nameWithType: DiscordButtonComponent.Disable
 - uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Disabled
   name: Disabled
   href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Disabled
@@ -13359,6 +13404,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.Emoji
   nameWithType: DiscordButtonComponent.Emoji
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable
+  name: Enable()
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Enable
+  commentId: M:DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable()
+  nameWithType: DiscordButtonComponent.Enable()
+- uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable*
+  name: Enable
+  href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Enable_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable
+  nameWithType: DiscordButtonComponent.Enable
 - uid: DSharpPlusNextGen.Entities.DiscordButtonComponent.Label
   name: Label
   href: api/DSharpPlusNextGen.Entities.DiscordButtonComponent.html#DSharpPlusNextGen_Entities_DiscordButtonComponent_Label
@@ -16883,6 +16941,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.Clear
   nameWithType: DiscordFollowupMessageBuilder.Clear
+- uid: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents
+  name: ClearComponents()
+  href: api/DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordFollowupMessageBuilder_ClearComponents
+  commentId: M:DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents
+  fullName: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents()
+  nameWithType: DiscordFollowupMessageBuilder.ClearComponents()
+- uid: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents*
+  name: ClearComponents
+  href: api/DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordFollowupMessageBuilder_ClearComponents_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.ClearComponents
+  nameWithType: DiscordFollowupMessageBuilder.ClearComponents
 - uid: DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.Components
   name: Components
   href: api/DSharpPlusNextGen.Entities.DiscordFollowupMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordFollowupMessageBuilder_Components
@@ -19811,6 +19882,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordInteraction.EditOriginalResponseAsync
   nameWithType: DiscordInteraction.EditOriginalResponseAsync
+- uid: DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync(System.UInt64)
+  name: GetFollowupMessageAsync(UInt64)
+  href: api/DSharpPlusNextGen.Entities.DiscordInteraction.html#DSharpPlusNextGen_Entities_DiscordInteraction_GetFollowupMessageAsync_System_UInt64_
+  commentId: M:DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync(System.UInt64)
+  fullName: DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync(System.UInt64)
+  nameWithType: DiscordInteraction.GetFollowupMessageAsync(UInt64)
+- uid: DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync*
+  name: GetFollowupMessageAsync
+  href: api/DSharpPlusNextGen.Entities.DiscordInteraction.html#DSharpPlusNextGen_Entities_DiscordInteraction_GetFollowupMessageAsync_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInteraction.GetFollowupMessageAsync
+  nameWithType: DiscordInteraction.GetFollowupMessageAsync
 - uid: DSharpPlusNextGen.Entities.DiscordInteraction.GetOriginalResponseAsync
   name: GetOriginalResponseAsync()
   href: api/DSharpPlusNextGen.Entities.DiscordInteraction.html#DSharpPlusNextGen_Entities_DiscordInteraction_GetOriginalResponseAsync
@@ -20245,6 +20329,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.Clear
   nameWithType: DiscordInteractionResponseBuilder.Clear
+- uid: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents
+  name: ClearComponents()
+  href: api/DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.html#DSharpPlusNextGen_Entities_DiscordInteractionResponseBuilder_ClearComponents
+  commentId: M:DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents
+  fullName: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents()
+  nameWithType: DiscordInteractionResponseBuilder.ClearComponents()
+- uid: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents*
+  name: ClearComponents
+  href: api/DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.html#DSharpPlusNextGen_Entities_DiscordInteractionResponseBuilder_ClearComponents_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.ClearComponents
+  nameWithType: DiscordInteractionResponseBuilder.ClearComponents
 - uid: DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.Components
   name: Components
   href: api/DSharpPlusNextGen.Entities.DiscordInteractionResponseBuilder.html#DSharpPlusNextGen_Entities_DiscordInteractionResponseBuilder_Components
@@ -20970,6 +21067,45 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordMember.BanAsync
   nameWithType: DiscordMember.BanAsync
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerColor
+  name: BannerColor
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerColor
+  commentId: P:DSharpPlusNextGen.Entities.DiscordMember.BannerColor
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerColor
+  nameWithType: DiscordMember.BannerColor
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerColor*
+  name: BannerColor
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerColor_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMember.BannerColor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerColor
+  nameWithType: DiscordMember.BannerColor
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerHash
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerHash
+  commentId: P:DSharpPlusNextGen.Entities.DiscordMember.BannerHash
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerHash
+  nameWithType: DiscordMember.BannerHash
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerHash*
+  name: BannerHash
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerHash_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMember.BannerHash
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerHash
+  nameWithType: DiscordMember.BannerHash
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerUrl
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerUrl
+  commentId: P:DSharpPlusNextGen.Entities.DiscordMember.BannerUrl
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerUrl
+  nameWithType: DiscordMember.BannerUrl
+- uid: DSharpPlusNextGen.Entities.DiscordMember.BannerUrl*
+  name: BannerUrl
+  href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_BannerUrl_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMember.BannerUrl
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMember.BannerUrl
+  nameWithType: DiscordMember.BannerUrl
 - uid: DSharpPlusNextGen.Entities.DiscordMember.Color
   name: Color
   href: api/DSharpPlusNextGen.Entities.DiscordMember.html#DSharpPlusNextGen_Entities_DiscordMember_Color
@@ -22445,6 +22581,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Clear
   nameWithType: DiscordMessageBuilder.Clear
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents
+  name: ClearComponents()
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_ClearComponents
+  commentId: M:DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents()
+  nameWithType: DiscordMessageBuilder.ClearComponents()
+- uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents*
+  name: ClearComponents
+  href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_ClearComponents_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordMessageBuilder.ClearComponents
+  nameWithType: DiscordMessageBuilder.ClearComponents
 - uid: DSharpPlusNextGen.Entities.DiscordMessageBuilder.Components
   name: Components
   href: api/DSharpPlusNextGen.Entities.DiscordMessageBuilder.html#DSharpPlusNextGen_Entities_DiscordMessageBuilder_Components
@@ -39570,6 +39719,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.Clear
   nameWithType: DiscordWebhookBuilder.Clear
+- uid: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents
+  name: ClearComponents()
+  href: api/DSharpPlusNextGen.Entities.DiscordWebhookBuilder.html#DSharpPlusNextGen_Entities_DiscordWebhookBuilder_ClearComponents
+  commentId: M:DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents
+  fullName: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents()
+  nameWithType: DiscordWebhookBuilder.ClearComponents()
+- uid: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents*
+  name: ClearComponents
+  href: api/DSharpPlusNextGen.Entities.DiscordWebhookBuilder.html#DSharpPlusNextGen_Entities_DiscordWebhookBuilder_ClearComponents_
+  commentId: Overload:DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.ClearComponents
+  nameWithType: DiscordWebhookBuilder.ClearComponents
 - uid: DSharpPlusNextGen.Entities.DiscordWebhookBuilder.Components
   name: Components
   href: api/DSharpPlusNextGen.Entities.DiscordWebhookBuilder.html#DSharpPlusNextGen_Entities_DiscordWebhookBuilder_Components
@@ -44929,12 +45091,12 @@ references:
   commentId: F:DSharpPlusNextGen.InteractionResponseType.DeferredChannelMessageWithSource
   fullName: DSharpPlusNextGen.InteractionResponseType.DeferredChannelMessageWithSource
   nameWithType: InteractionResponseType.DeferredChannelMessageWithSource
-- uid: DSharpPlusNextGen.InteractionResponseType.DefferedMessageUpdate
-  name: DefferedMessageUpdate
-  href: api/DSharpPlusNextGen.InteractionResponseType.html#DSharpPlusNextGen_InteractionResponseType_DefferedMessageUpdate
-  commentId: F:DSharpPlusNextGen.InteractionResponseType.DefferedMessageUpdate
-  fullName: DSharpPlusNextGen.InteractionResponseType.DefferedMessageUpdate
-  nameWithType: InteractionResponseType.DefferedMessageUpdate
+- uid: DSharpPlusNextGen.InteractionResponseType.DeferredMessageUpdate
+  name: DeferredMessageUpdate
+  href: api/DSharpPlusNextGen.InteractionResponseType.html#DSharpPlusNextGen_InteractionResponseType_DeferredMessageUpdate
+  commentId: F:DSharpPlusNextGen.InteractionResponseType.DeferredMessageUpdate
+  fullName: DSharpPlusNextGen.InteractionResponseType.DeferredMessageUpdate
+  nameWithType: InteractionResponseType.DeferredMessageUpdate
 - uid: DSharpPlusNextGen.InteractionResponseType.Pong
   name: Pong
   href: api/DSharpPlusNextGen.InteractionResponseType.html#DSharpPlusNextGen_InteractionResponseType_Pong
@@ -44983,6 +45145,36 @@ references:
   commentId: N:DSharpPlusNextGen.Interactivity.Enums
   fullName: DSharpPlusNextGen.Interactivity.Enums
   nameWithType: DSharpPlusNextGen.Interactivity.Enums
+- uid: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior
+  name: ButtonPaginationBehavior
+  href: api/DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.html
+  commentId: T:DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior
+  fullName: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior
+  nameWithType: ButtonPaginationBehavior
+- uid: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteButtons
+  name: DeleteButtons
+  href: api/DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.html#DSharpPlusNextGen_Interactivity_Enums_ButtonPaginationBehavior_DeleteButtons
+  commentId: F:DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteButtons
+  fullName: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteButtons
+  nameWithType: ButtonPaginationBehavior.DeleteButtons
+- uid: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteMessage
+  name: DeleteMessage
+  href: api/DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.html#DSharpPlusNextGen_Interactivity_Enums_ButtonPaginationBehavior_DeleteMessage
+  commentId: F:DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteMessage
+  fullName: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.DeleteMessage
+  nameWithType: ButtonPaginationBehavior.DeleteMessage
+- uid: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Disable
+  name: Disable
+  href: api/DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.html#DSharpPlusNextGen_Interactivity_Enums_ButtonPaginationBehavior_Disable
+  commentId: F:DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Disable
+  fullName: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Disable
+  nameWithType: ButtonPaginationBehavior.Disable
+- uid: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Ignore
+  name: Ignore
+  href: api/DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.html#DSharpPlusNextGen_Interactivity_Enums_ButtonPaginationBehavior_Ignore
+  commentId: F:DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Ignore
+  fullName: DSharpPlusNextGen.Interactivity.Enums.ButtonPaginationBehavior.Ignore
+  nameWithType: ButtonPaginationBehavior.Ignore
 - uid: DSharpPlusNextGen.Interactivity.Enums.InteractionResponseBehavior
   name: InteractionResponseBehavior
   href: api/DSharpPlusNextGen.Interactivity.Enums.InteractionResponseBehavior.html
@@ -45110,6 +45302,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.DoCleanupAsync
   nameWithType: IPaginationRequest.DoCleanupAsync
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync
+  name: GetButtonsAsync()
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.html#DSharpPlusNextGen_Interactivity_EventHandling_IPaginationRequest_GetButtonsAsync
+  commentId: M:DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync()
+  nameWithType: IPaginationRequest.GetButtonsAsync()
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync*
+  name: GetButtonsAsync
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.html#DSharpPlusNextGen_Interactivity_EventHandling_IPaginationRequest_GetButtonsAsync_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetButtonsAsync
+  nameWithType: IPaginationRequest.GetButtonsAsync
 - uid: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.GetEmojisAsync
   name: GetEmojisAsync()
   href: api/DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.html#DSharpPlusNextGen_Interactivity_EventHandling_IPaginationRequest_GetEmojisAsync
@@ -45240,6 +45445,96 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.EventHandling.IPaginationRequest.SkipRightAsync
   nameWithType: IPaginationRequest.SkipRightAsync
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons
+  name: PaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html
+  commentId: T:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons
+  nameWithType: PaginationButtons
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor
+  name: PaginationButtons()
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons__ctor
+  commentId: M:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.PaginationButtons()
+  nameWithType: PaginationButtons.PaginationButtons()
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor(DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons)
+  name: PaginationButtons(PaginationButtons)
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons__ctor_DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_
+  commentId: M:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor(DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons)
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.PaginationButtons(DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons)
+  nameWithType: PaginationButtons.PaginationButtons(PaginationButtons)
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor*
+  name: PaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons__ctor_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.#ctor
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.PaginationButtons
+  nameWithType: PaginationButtons.PaginationButtons
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left
+  name: Left
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Left
+  commentId: P:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left
+  nameWithType: PaginationButtons.Left
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left*
+  name: Left
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Left_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Left
+  nameWithType: PaginationButtons.Left
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right
+  name: Right
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Right
+  commentId: P:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right
+  nameWithType: PaginationButtons.Right
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right*
+  name: Right
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Right_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Right
+  nameWithType: PaginationButtons.Right
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft
+  name: SkipLeft
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_SkipLeft
+  commentId: P:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft
+  nameWithType: PaginationButtons.SkipLeft
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft*
+  name: SkipLeft
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_SkipLeft_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipLeft
+  nameWithType: PaginationButtons.SkipLeft
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight
+  name: SkipRight
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_SkipRight
+  commentId: P:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight
+  nameWithType: PaginationButtons.SkipRight
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight*
+  name: SkipRight
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_SkipRight_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.SkipRight
+  nameWithType: PaginationButtons.SkipRight
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop
+  name: Stop
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Stop
+  commentId: P:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop
+  nameWithType: PaginationButtons.Stop
+- uid: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop*
+  name: Stop
+  href: api/DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.html#DSharpPlusNextGen_Interactivity_EventHandling_PaginationButtons_Stop_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.EventHandling.PaginationButtons.Stop
+  nameWithType: PaginationButtons.Stop
 - uid: DSharpPlusNextGen.Interactivity.EventHandling.PollEmoji
   name: PollEmoji
   href: api/DSharpPlusNextGen.Interactivity.EventHandling.PollEmoji.html
@@ -45617,6 +45912,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
+  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__
@@ -45626,6 +45930,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -45667,6 +45980,15 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync
   nameWithType: MessageExtensions.WaitForReactionAsync
+- uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
+  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__
@@ -45676,6 +45998,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.Extensions.MessageExtensions.html#DSharpPlusNextGen_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -45717,6 +46048,32 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.InteractivityConfiguration
   nameWithType: InteractivityConfiguration.InteractivityConfiguration
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons
+  name: AckPaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_AckPaginationButtons
+  commentId: P:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons
+  nameWithType: InteractivityConfiguration.AckPaginationButtons
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons*
+  name: AckPaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_AckPaginationButtons_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.AckPaginationButtons
+  nameWithType: InteractivityConfiguration.AckPaginationButtons
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior
+  name: ButtonBehavior
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_ButtonBehavior
+  commentId: P:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior
+  nameWithType: InteractivityConfiguration.ButtonBehavior
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior*
+  name: ButtonBehavior
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_ButtonBehavior_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.ButtonBehavior
+  nameWithType: InteractivityConfiguration.ButtonBehavior
 - uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationBehaviour
   name: PaginationBehaviour
   href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_PaginationBehaviour
@@ -45730,6 +46087,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationBehaviour
   nameWithType: InteractivityConfiguration.PaginationBehaviour
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons
+  name: PaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_PaginationButtons
+  commentId: P:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons
+  nameWithType: InteractivityConfiguration.PaginationButtons
+- uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons*
+  name: PaginationButtons
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_PaginationButtons_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationButtons
+  nameWithType: InteractivityConfiguration.PaginationButtons
 - uid: DSharpPlusNextGen.Interactivity.InteractivityConfiguration.PaginationDeletion
   name: PaginationDeletion
   href: api/DSharpPlusNextGen.Interactivity.InteractivityConfiguration.html#DSharpPlusNextGen_Interactivity_InteractivityConfiguration_PaginationDeletion
@@ -45968,6 +46338,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DSharpPlusNextGen.Interactivity.Page), DSharpPlusNextGen.Interactivity.PaginationEmojis, System.Nullable(Of PaginationBehaviour), System.Nullable(Of PaginationDeletion), System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationEmojis, Nullable<PaginationBehaviour>, Nullable<PaginationDeletion>, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationEmojis, Nullable(Of PaginationBehaviour), Nullable(Of PaginationDeletion), Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DSharpPlusNextGen.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Nullable{System.Threading.CancellationToken})
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DSharpPlusNextGen_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DSharpPlusNextGen.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Nullable{System.Threading.CancellationToken})
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DSharpPlusNextGen.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DSharpPlusNextGen.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*
   name: SendPaginatedMessageAsync
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_
@@ -45988,6 +46367,15 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.Setup
   nameWithType: InteractivityExtension.Setup
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__
@@ -45997,6 +46385,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_TimeSpan__
@@ -46006,6 +46403,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__
@@ -46015,6 +46421,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -46031,6 +46446,19 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForButtonAsync
   nameWithType: InteractivityExtension.WaitForButtonAsync
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync(IPaginationRequest)
+  name: WaitForCustomComponentPaginationAsync(IPaginationRequest)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForCustomComponentPaginationAsync_IPaginationRequest_
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync(IPaginationRequest)
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync(IPaginationRequest)
+  nameWithType: InteractivityExtension.WaitForCustomComponentPaginationAsync(IPaginationRequest)
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync*
+  name: WaitForCustomComponentPaginationAsync
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForCustomComponentPaginationAsync_
+  commentId: Overload:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync
+  isSpec: "True"
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomComponentPaginationAsync
+  nameWithType: InteractivityExtension.WaitForCustomComponentPaginationAsync
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForCustomPaginationAsync(IPaginationRequest)
   name: WaitForCustomPaginationAsync(IPaginationRequest)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForCustomPaginationAsync_IPaginationRequest_
@@ -46119,6 +46547,15 @@ references:
   isSpec: "True"
   fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForReactionAsync
   nameWithType: InteractivityExtension.WaitForReactionAsync
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__
@@ -46128,6 +46565,15 @@ references:
   fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of TimeSpan))
+- uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name: WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
+  commentId: M:DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
+  name.vb: WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+  fullName: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
+  fullName.vb: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
+  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DSharpPlusNextGen.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DSharpPlusNextGen.Interactivity.InteractivityExtension.html#DSharpPlusNextGen_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -51235,6 +51681,12 @@ references:
   commentId: F:DSharpPlusNextGen.Permissions.UseExternalEmojis
   fullName: DSharpPlusNextGen.Permissions.UseExternalEmojis
   nameWithType: Permissions.UseExternalEmojis
+- uid: DSharpPlusNextGen.Permissions.UseExternalStickers
+  name: UseExternalStickers
+  href: api/DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_UseExternalStickers
+  commentId: F:DSharpPlusNextGen.Permissions.UseExternalStickers
+  fullName: DSharpPlusNextGen.Permissions.UseExternalStickers
+  nameWithType: Permissions.UseExternalStickers
 - uid: DSharpPlusNextGen.Permissions.UsePrivateThreads
   name: UsePrivateThreads
   href: api/DSharpPlusNextGen.Permissions.html#DSharpPlusNextGen_Permissions_UsePrivateThreads
@@ -51357,6 +51809,12 @@ references:
   commentId: F:DSharpPlusNextGen.PremiumType.NitroClassic
   fullName: DSharpPlusNextGen.PremiumType.NitroClassic
   nameWithType: PremiumType.NitroClassic
+- uid: DSharpPlusNextGen.PremiumType.None
+  name: None
+  href: api/DSharpPlusNextGen.PremiumType.html#DSharpPlusNextGen_PremiumType_None
+  commentId: F:DSharpPlusNextGen.PremiumType.None
+  fullName: DSharpPlusNextGen.PremiumType.None
+  nameWithType: PremiumType.None
 - uid: DSharpPlusNextGen.RingBuffer`1
   name: RingBuffer<T>
   href: api/DSharpPlusNextGen.RingBuffer-1.html

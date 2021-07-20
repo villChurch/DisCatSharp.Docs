@@ -111,17 +111,6 @@
   
   
   <a id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor*"></a>
-  <h4 id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor">DiscordButtonComponent()</h4>
-  <div class="markdown level1 summary"><p>Constructs a new <a class="xref" href="DSharpPlusNextGen.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordButtonComponent()</code></pre>
-  </div>
-  
-  
-  <a id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor*"></a>
   <h4 id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_ButtonStyle_System_String_System_String_System_Boolean_DSharpPlusNextGen_Entities_DiscordComponentEmoji_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(ButtonStyle,System.String,System.String,System.Boolean,DSharpPlusNextGen.Entities.DiscordComponentEmoji)">DiscordButtonComponent(ButtonStyle, String, String, Boolean, DiscordComponentEmoji)</h4>
   <div class="markdown level1 summary"><p>Constructs a new button with the specified options.</p>
 </div>
@@ -172,6 +161,35 @@
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordButtonComponent__ctor_DSharpPlusNextGen_Entities_DiscordButtonComponent_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.#ctor(DSharpPlusNextGen.Entities.DiscordButtonComponent)">DiscordButtonComponent(DiscordButtonComponent)</h4>
+  <div class="markdown level1 summary"><p>Constucts a new button based on another button.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordButtonComponent(DiscordButtonComponent other)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a></td>
+        <td><span class="parametername">other</span></td>
+        <td><p>The button to copy.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   <h3 id="properties">Properties
   </h3>
   
@@ -183,7 +201,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Disabled { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public bool Disabled { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -209,7 +227,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordComponentEmoji Emoji { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordComponentEmoji Emoji { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -235,7 +253,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Label { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string Label { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -261,7 +279,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public ButtonStyle Style { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ButtonStyle Style { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -275,6 +293,62 @@
       <tr>
         <td><span class="xref">ButtonStyle</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordButtonComponent_Disable_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordButtonComponent_Disable" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.Disable">Disable()</h4>
+  <div class="markdown level1 summary"><p>Disables this component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordButtonComponent Disable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a></td>
+        <td><p>The current component.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DSharpPlusNextGen_Entities_DiscordButtonComponent_Enable_" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable*"></a>
+  <h4 id="DSharpPlusNextGen_Entities_DiscordButtonComponent_Enable" data-uid="DSharpPlusNextGen.Entities.DiscordButtonComponent.Enable">Enable()</h4>
+  <div class="markdown level1 summary"><p>Enables this component if it was disabled before.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordButtonComponent Enable()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DSharpPlusNextGen.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a></td>
+        <td><p>The current component.</p>
+</td>
       </tr>
     </tbody>
   </table>
