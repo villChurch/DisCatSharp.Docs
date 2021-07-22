@@ -13536,12 +13536,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync
   nameWithType: DiscordChannel.CreateInviteAsync
-- uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration)
-  name: CreateThreadAsync(String, ThreadAutoArchiveDuration)
-  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_
-  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration)
-  fullName: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration)
-  nameWithType: DiscordChannel.CreateThreadAsync(String, ThreadAutoArchiveDuration)
+- uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
+  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
+  fullName: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, System.String)
+  nameWithType: DiscordChannel.CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
 - uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync*
   name: CreateThreadAsync
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_
@@ -21834,12 +21834,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessage.CreateReactionAsync
   nameWithType: DiscordMessage.CreateReactionAsync
-- uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration)
-  name: CreateThreadAsync(String, ThreadAutoArchiveDuration)
-  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_
-  commentId: M:DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration)
-  fullName: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration)
-  nameWithType: DiscordMessage.CreateThreadAsync(String, ThreadAutoArchiveDuration)
+- uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
+  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
+  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
+  fullName: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, System.String)
+  nameWithType: DiscordMessage.CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
 - uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync*
   name: CreateThreadAsync
   href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_
@@ -24981,6 +24981,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync
   nameWithType: DiscordThreadChannel.AddMemberAsync
+- uid: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(DisCatSharp.Entities.DiscordRole)
+  name: AddRoleAsync(DiscordRole)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_DisCatSharp_Entities_DiscordRole_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(DisCatSharp.Entities.DiscordRole)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(DisCatSharp.Entities.DiscordRole)
+  nameWithType: DiscordThreadChannel.AddRoleAsync(DiscordRole)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(System.UInt64)
+  name: AddRoleAsync(UInt64)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(System.UInt64)
+  nameWithType: DiscordThreadChannel.AddRoleAsync(UInt64)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync*
+  name: AddRoleAsync
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync
+  nameWithType: DiscordThreadChannel.AddRoleAsync
 - uid: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)
   name: ArchiveAsync(String)
   href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_String_
@@ -25441,6 +25460,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync
   nameWithType: DiscordThreadChannel.RemoveMemberAsync
+- uid: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(DisCatSharp.Entities.DiscordRole)
+  name: RemoveRoleAsync(DiscordRole)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_DisCatSharp_Entities_DiscordRole_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(DisCatSharp.Entities.DiscordRole)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(DisCatSharp.Entities.DiscordRole)
+  nameWithType: DiscordThreadChannel.RemoveRoleAsync(DiscordRole)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(System.UInt64)
+  name: RemoveRoleAsync(UInt64)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(System.UInt64)
+  nameWithType: DiscordThreadChannel.RemoveRoleAsync(UInt64)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync*
+  name: RemoveRoleAsync
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync
+  nameWithType: DiscordThreadChannel.RemoveRoleAsync
 - uid: DisCatSharp.Entities.DiscordThreadChannel.SendMessageAsync(Action{DisCatSharp.Entities.DiscordMessageBuilder})
   name: SendMessageAsync(Action<DiscordMessageBuilder>)
   href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_SendMessageAsync_Action_DisCatSharp_Entities_DiscordMessageBuilder__
@@ -54528,7 +54566,7 @@ references:
   name: Hosting Solutions
   href: articles/hosting.html
 - uid: index
-  name: DSharpPlus NextGen 9.X Documentation
+  name: DisCatSharp 9.X Documentation
   href: index.html
 - uid: interactivity
   name: Interactivity Introduction

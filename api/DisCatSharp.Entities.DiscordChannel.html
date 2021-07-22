@@ -1187,13 +1187,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.CreateThreadAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_" data-uid="DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration)">CreateThreadAsync(String, ThreadAutoArchiveDuration)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)">CreateThreadAsync(String, ThreadAutoArchiveDuration, String)</h4>
   <div class="markdown level1 summary"><p>Creates a thread. Depending on whether it is created inside an <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_News">News</a> or an <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_Text">Text</a> it is either an <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_NewsThread">NewsThread</a> or an <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_PublicThread">PublicThread</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadChannel&gt; CreateThreadAsync(string name, ThreadAutoArchiveDuration auto_archive_duration = ThreadAutoArchiveDuration.OneHour)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordThreadChannel&gt; CreateThreadAsync(string name, ThreadAutoArchiveDuration auto_archive_duration = ThreadAutoArchiveDuration.OneHour, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1215,6 +1215,12 @@
         <td><a class="xref" href="DisCatSharp.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a></td>
         <td><span class="parametername">auto_archive_duration</span></td>
         <td><a class="xref" href="DisCatSharp.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a> till it gets archived. Defaults to <a class="xref" href="DisCatSharp.ThreadAutoArchiveDuration.html#DisCatSharp_ThreadAutoArchiveDuration_OneHour">OneHour</a></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason.</p>
+</td>
       </tr>
     </tbody>
   </table>
