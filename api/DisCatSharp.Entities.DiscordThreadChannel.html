@@ -450,8 +450,8 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_PerUserRateLimit_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.PerUserRateLimit*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_PerUserRateLimit" data-uid="DisCatSharp.Entities.DiscordThreadChannel.PerUserRateLimit">PerUserRateLimit</h4>
-  <div class="markdown level1 summary"><p>Gets the slow mode delay configured for this thread.</p>
-<p>All bots, as well as users with <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageChannels">ManageChannels</a> or <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageMessages">ManageMessages</a> permissions in the channel are exempt from slow mode.</p>
+  <div class="markdown level1 summary"><p>Gets the slowmode delay configured for this thread.</p>
+<p>All bots, as well as users with <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageChannels">ManageChannels</a> or <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageMessages">ManageMessages</a> permissions in the channel are exempt from slowmode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -557,7 +557,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_DisCatSharp_Entities_DiscordMember_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync(DisCatSharp.Entities.DiscordMember)">AddMemberAsync(DiscordMember)</h4>
-  <div class="markdown level1 summary"><p>Adds a thread member.</p>
+  <div class="markdown level1 summary"><p>Adds a member to this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -601,7 +601,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync(System.UInt64)">AddMemberAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Adds a thread member.</p>
+  <div class="markdown level1 summary"><p>Adds a member to this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -645,7 +645,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_DisCatSharp_Entities_DiscordRole_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(DisCatSharp.Entities.DiscordRole)">AddRoleAsync(DiscordRole)</h4>
-  <div class="markdown level1 summary"><p>Adds a role to a thread.</p>
+  <div class="markdown level1 summary"><p>Adds a role to this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -689,7 +689,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddRoleAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync(System.UInt64)">AddRoleAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Adds a role to a thread.</p>
+  <div class="markdown level1 summary"><p>Adds a role to this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -733,7 +733,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)">ArchiveAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Archives a thread</p>
+  <div class="markdown level1 summary"><p>Archives a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -777,7 +777,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_DeleteAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.DeleteAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_DeleteAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.DeleteAsync(System.String)">DeleteAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Deletes a thread</p>
+  <div class="markdown level1 summary"><p>Deletes a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1332,7 +1332,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_JoinAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.JoinAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_JoinAsync" data-uid="DisCatSharp.Entities.DiscordThreadChannel.JoinAsync">JoinAsync()</h4>
-  <div class="markdown level1 summary"><p>Joins a thread</p>
+  <div class="markdown level1 summary"><p>Joins a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1358,7 +1358,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_LeaveAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LeaveAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_LeaveAsync" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LeaveAsync">LeaveAsync()</h4>
-  <div class="markdown level1 summary"><p>Leaves a thread</p>
+  <div class="markdown level1 summary"><p>Leaves a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1384,7 +1384,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_LockAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LockAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_LockAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LockAsync(System.String)">LockAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Locks a thread</p>
+  <div class="markdown level1 summary"><p>Locks a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1472,7 +1472,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_DisCatSharp_Entities_DiscordMember_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync(DisCatSharp.Entities.DiscordMember)">RemoveMemberAsync(DiscordMember)</h4>
-  <div class="markdown level1 summary"><p>Removes a thread member.</p>
+  <div class="markdown level1 summary"><p>Removes a member from this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1516,7 +1516,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync(System.UInt64)">RemoveMemberAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Removes a thread member.</p>
+  <div class="markdown level1 summary"><p>Removes a member from this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1560,7 +1560,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_DisCatSharp_Entities_DiscordRole_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(DisCatSharp.Entities.DiscordRole)">RemoveRoleAsync(DiscordRole)</h4>
-  <div class="markdown level1 summary"><p>Removes a role from a thread.</p>
+  <div class="markdown level1 summary"><p>Removes a role to from thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1604,7 +1604,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_RemoveRoleAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveRoleAsync(System.UInt64)">RemoveRoleAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Removes a role from a thread.</p>
+  <div class="markdown level1 summary"><p>Removes a role from this thread. Only applicable to private threads.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1934,7 +1934,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_UnarchiveAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnarchiveAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_UnarchiveAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnarchiveAsync(System.String)">UnarchiveAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Unarchives a thread</p>
+  <div class="markdown level1 summary"><p>Unarchives a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1978,7 +1978,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync(System.String)">UnlockAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Unlocks a thread</p>
+  <div class="markdown level1 summary"><p>Unlocks a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
