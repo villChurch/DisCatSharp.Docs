@@ -732,13 +732,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)">ArchiveAsync(String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_Boolean_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.Boolean,System.String)">ArchiveAsync(Boolean, String)</h4>
   <div class="markdown level1 summary"><p>Archives a thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ArchiveAsync(string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task ArchiveAsync(bool locked = true, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -750,6 +750,12 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">locked</span></td>
+        <td><p>Whether the thread should be locked.</p>
+</td>
+      </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">reason</span></td>
@@ -1382,50 +1388,6 @@
   </table>
   
   
-  <a id="DisCatSharp_Entities_DiscordThreadChannel_LockAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LockAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_LockAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.LockAsync(System.String)">LockAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Locks a thread.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task LockAsync(string reason = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td><p>Reason for audit logs.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="DisCatSharp_Entities_DiscordThreadChannel_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ModifyAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_ModifyAsync_Action_ThreadEditModel__" data-uid="DisCatSharp.Entities.DiscordThreadChannel.ModifyAsync(Action{ThreadEditModel})">ModifyAsync(Action&lt;ThreadEditModel&gt;)</h4>
   <div class="markdown level1 summary"><p>Modifies the current thread.</p>
@@ -1940,50 +1902,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public Task UnarchiveAsync(string reason = null)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">reason</span></td>
-        <td><p>Reason for audit logs.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync(System.String)">UnlockAsync(String)</h4>
-  <div class="markdown level1 summary"><p>Unlocks a thread.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task UnlockAsync(string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

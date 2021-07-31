@@ -2360,13 +2360,13 @@ the voice state corresponds to.</p>
   
   
   <a id="DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_" data-uid="DisCatSharp.Entities.DiscordGuild.CreateStickerAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_System_String_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_DiscordEmoji_DisCatSharp_Entities_StickerFormat_Stream_System_String_" data-uid="DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.DiscordEmoji,DisCatSharp.Entities.StickerFormat,Stream,System.String)">CreateStickerAsync(String, Optional&lt;String&gt;, DiscordEmoji, StickerFormat, Stream, String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_System_String_System_String_DisCatSharp_Entities_DiscordEmoji_Stream_DisCatSharp_Entities_StickerFormat_System_String_" data-uid="DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,System.String,DisCatSharp.Entities.DiscordEmoji,Stream,DisCatSharp.Entities.StickerFormat,System.String)">CreateStickerAsync(String, String, DiscordEmoji, Stream, StickerFormat, String)</h4>
   <div class="markdown level1 summary"><p>Creates a sticker</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; CreateStickerAsync(string name, Optional&lt;string&gt; description, DiscordEmoji emoji, StickerFormat format, Stream file, string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordSticker&gt; CreateStickerAsync(string name, string description, DiscordEmoji emoji, Stream file, StickerFormat format, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2385,7 +2385,7 @@ the voice state corresponds to.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">System.String</span></td>
         <td><span class="parametername">description</span></td>
         <td><p>The optional description of the sticker.</p>
 </td>
@@ -2397,15 +2397,15 @@ the voice state corresponds to.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.StickerFormat.html">StickerFormat</a></td>
-        <td><span class="parametername">format</span></td>
-        <td><p>The file format the sticker is written in.</p>
-</td>
-      </tr>
-      <tr>
         <td><span class="xref">Stream</span></td>
         <td><span class="parametername">file</span></td>
         <td><p>The sticker.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.StickerFormat.html">StickerFormat</a></td>
+        <td><span class="parametername">format</span></td>
+        <td><p>The file format the sticker is written in.</p>
 </td>
       </tr>
       <tr>

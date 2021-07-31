@@ -343,6 +343,105 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_" data-uid="DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_System_String_DateTime_System_String_DisCatSharp_StagePrivacyLevel_System_String_" data-uid="DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String,DateTime,System.String,DisCatSharp.StagePrivacyLevel,System.String)">CreateEventAsync(String, DateTime, String, StagePrivacyLevel, String)</h4>
+  <div class="markdown level1 summary"><p>Creates a Stage Event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task CreateEventAsync(string name, DateTime scheduled_start_time, string description = null, StagePrivacyLevel privacy_level = StagePrivacyLevel.GUILD_ONLY, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">name</span></td>
+        <td><p>Name of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DateTime</span></td>
+        <td><span class="parametername">scheduled_start_time</span></td>
+        <td><p>DateTime when the event should start.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>Description of the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.StagePrivacyLevel.html">StagePrivacyLevel</a></td>
+        <td><span class="parametername">privacy_level</span></td>
+        <td><p>Privacy Level of the stage instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>Audit log reason</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the stage channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordStageInstance_Equals_" data-uid="DisCatSharp.Entities.DiscordStageInstance.Equals*"></a>
   <h4 id="DisCatSharp_Entities_DiscordStageInstance_Equals_DisCatSharp_Entities_DiscordStageInstance_" data-uid="DisCatSharp.Entities.DiscordStageInstance.Equals(DisCatSharp.Entities.DiscordStageInstance)">Equals(DiscordStageInstance)</h4>
   <div class="markdown level1 summary"><p>Checks whether this <a class="xref" href="DisCatSharp.Entities.DiscordStageInstance.html">DiscordStageInstance</a> is equal to another <a class="xref" href="DisCatSharp.Entities.DiscordStageInstance.html">DiscordStageInstance</a>.</p>
@@ -606,7 +705,7 @@
   
   <a id="DisCatSharp_Entities_DiscordStageInstance_op_Inequality_" data-uid="DisCatSharp.Entities.DiscordStageInstance.op_Inequality*"></a>
   <h4 id="DisCatSharp_Entities_DiscordStageInstance_op_Inequality_DisCatSharp_Entities_DiscordStageInstance_DisCatSharp_Entities_DiscordStageInstance_" data-uid="DisCatSharp.Entities.DiscordStageInstance.op_Inequality(DisCatSharp.Entities.DiscordStageInstance,DisCatSharp.Entities.DiscordStageInstance)">Inequality(DiscordStageInstance, DiscordStageInstance)</h4>
-  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a> objects are not equal.</p>
+  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DisCatSharp.Entities.DiscordStageInstance.html">DiscordStageInstance</a> objects are not equal.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

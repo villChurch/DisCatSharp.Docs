@@ -8231,6 +8231,48 @@ references:
   fullName.vb: DisCatSharp.DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, System.String))
   nameWithType: DefaultLogger.Log<TState>(LogLevel, EventId, TState, Exception, Func<TState, Exception, String>)
   nameWithType.vb: DefaultLogger.Log(Of TState)(LogLevel, EventId, TState, Exception, Func(Of TState, Exception, String))
+- uid: DisCatSharp.DirectoryCategory
+  name: DirectoryCategory
+  href: api/DisCatSharp.DirectoryCategory.html
+  commentId: T:DisCatSharp.DirectoryCategory
+  fullName: DisCatSharp.DirectoryCategory
+  nameWithType: DirectoryCategory
+- uid: DisCatSharp.DirectoryCategory.Classes
+  name: Classes
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_Classes
+  commentId: F:DisCatSharp.DirectoryCategory.Classes
+  fullName: DisCatSharp.DirectoryCategory.Classes
+  nameWithType: DirectoryCategory.Classes
+- uid: DisCatSharp.DirectoryCategory.Clubs
+  name: Clubs
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_Clubs
+  commentId: F:DisCatSharp.DirectoryCategory.Clubs
+  fullName: DisCatSharp.DirectoryCategory.Clubs
+  nameWithType: DirectoryCategory.Clubs
+- uid: DisCatSharp.DirectoryCategory.MajorsAndSubjects
+  name: MajorsAndSubjects
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_MajorsAndSubjects
+  commentId: F:DisCatSharp.DirectoryCategory.MajorsAndSubjects
+  fullName: DisCatSharp.DirectoryCategory.MajorsAndSubjects
+  nameWithType: DirectoryCategory.MajorsAndSubjects
+- uid: DisCatSharp.DirectoryCategory.Miscellaneous
+  name: Miscellaneous
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_Miscellaneous
+  commentId: F:DisCatSharp.DirectoryCategory.Miscellaneous
+  fullName: DisCatSharp.DirectoryCategory.Miscellaneous
+  nameWithType: DirectoryCategory.Miscellaneous
+- uid: DisCatSharp.DirectoryCategory.SocialAndStudy
+  name: SocialAndStudy
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_SocialAndStudy
+  commentId: F:DisCatSharp.DirectoryCategory.SocialAndStudy
+  fullName: DisCatSharp.DirectoryCategory.SocialAndStudy
+  nameWithType: DirectoryCategory.SocialAndStudy
+- uid: DisCatSharp.DirectoryCategory.Unknown
+  name: Unknown
+  href: api/DisCatSharp.DirectoryCategory.html#DisCatSharp_DirectoryCategory_Unknown
+  commentId: F:DisCatSharp.DirectoryCategory.Unknown
+  fullName: DisCatSharp.DirectoryCategory.Unknown
+  nameWithType: DirectoryCategory.Unknown
 - uid: DisCatSharp.DiscordClient
   name: DiscordClient
   href: api/DisCatSharp.DiscordClient.html
@@ -14175,12 +14217,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.Inequality
   nameWithType: DiscordChannel.Inequality
-- uid: DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String,DisCatSharp.StagePrivacyLevel,System.String)
-  name: OpenStageAsync(String, StagePrivacyLevel, String)
-  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_OpenStageAsync_System_String_DisCatSharp_StagePrivacyLevel_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String,DisCatSharp.StagePrivacyLevel,System.String)
-  fullName: DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String, DisCatSharp.StagePrivacyLevel, System.String)
-  nameWithType: DiscordChannel.OpenStageAsync(String, StagePrivacyLevel, String)
+- uid: DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String,System.Boolean,DisCatSharp.StagePrivacyLevel,System.String)
+  name: OpenStageAsync(String, Boolean, StagePrivacyLevel, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_OpenStageAsync_System_String_System_Boolean_DisCatSharp_StagePrivacyLevel_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String,System.Boolean,DisCatSharp.StagePrivacyLevel,System.String)
+  fullName: DisCatSharp.Entities.DiscordChannel.OpenStageAsync(System.String, System.Boolean, DisCatSharp.StagePrivacyLevel, System.String)
+  nameWithType: DiscordChannel.OpenStageAsync(String, Boolean, StagePrivacyLevel, String)
 - uid: DisCatSharp.Entities.DiscordChannel.OpenStageAsync*
   name: OpenStageAsync
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_OpenStageAsync_
@@ -17456,15 +17498,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.CreateStageChannelAsync
   nameWithType: DiscordGuild.CreateStageChannelAsync
-- uid: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.DiscordEmoji,DisCatSharp.Entities.StickerFormat,Stream,System.String)
-  name: CreateStickerAsync(String, Optional<String>, DiscordEmoji, StickerFormat, Stream, String)
-  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_System_String_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_DiscordEmoji_DisCatSharp_Entities_StickerFormat_Stream_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.DiscordEmoji,DisCatSharp.Entities.StickerFormat,Stream,System.String)
-  name.vb: CreateStickerAsync(String, Optional(Of String), DiscordEmoji, StickerFormat, Stream, String)
-  fullName: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.DiscordEmoji, DisCatSharp.Entities.StickerFormat, Stream, System.String)
-  fullName.vb: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String, DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.DiscordEmoji, DisCatSharp.Entities.StickerFormat, Stream, System.String)
-  nameWithType: DiscordGuild.CreateStickerAsync(String, Optional<String>, DiscordEmoji, StickerFormat, Stream, String)
-  nameWithType.vb: DiscordGuild.CreateStickerAsync(String, Optional(Of String), DiscordEmoji, StickerFormat, Stream, String)
+- uid: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,System.String,DisCatSharp.Entities.DiscordEmoji,Stream,DisCatSharp.Entities.StickerFormat,System.String)
+  name: CreateStickerAsync(String, String, DiscordEmoji, Stream, StickerFormat, String)
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_System_String_System_String_DisCatSharp_Entities_DiscordEmoji_Stream_DisCatSharp_Entities_StickerFormat_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String,System.String,DisCatSharp.Entities.DiscordEmoji,Stream,DisCatSharp.Entities.StickerFormat,System.String)
+  fullName: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync(System.String, System.String, DisCatSharp.Entities.DiscordEmoji, Stream, DisCatSharp.Entities.StickerFormat, System.String)
+  nameWithType: DiscordGuild.CreateStickerAsync(String, String, DiscordEmoji, Stream, StickerFormat, String)
 - uid: DisCatSharp.Entities.DiscordGuild.CreateStickerAsync*
   name: CreateStickerAsync
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_CreateStickerAsync_
@@ -19067,6 +19106,186 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Permissions
   nameWithType: DiscordGuildApplicationCommandPermission.Permissions
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel
+  name: DiscordGuildDirectoryChannel
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html
+  commentId: T:DisCatSharp.Entities.DiscordGuildDirectoryChannel
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel
+  nameWithType: DiscordGuildDirectoryChannel
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  name: Equals(DiscordGuildDirectoryChannel)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_Equals_DisCatSharp_Entities_DiscordGuildDirectoryChannel_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  nameWithType: DiscordGuildDirectoryChannel.Equals(DiscordGuildDirectoryChannel)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(System.Object)
+  name: Equals(Object)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_Equals_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(System.Object)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals(System.Object)
+  nameWithType: DiscordGuildDirectoryChannel.Equals(Object)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals*
+  name: Equals
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_Equals_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equals
+  nameWithType: DiscordGuildDirectoryChannel.Equals
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode
+  name: GetHashCode()
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_GetHashCode
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode()
+  nameWithType: DiscordGuildDirectoryChannel.GetHashCode()
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode*
+  name: GetHashCode
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_GetHashCode_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.GetHashCode
+  nameWithType: DiscordGuildDirectoryChannel.GetHashCode
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Equality(DisCatSharp.Entities.DiscordGuildDirectoryChannel,DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  name: Equality(DiscordGuildDirectoryChannel, DiscordGuildDirectoryChannel)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_op_Equality_DisCatSharp_Entities_DiscordGuildDirectoryChannel_DisCatSharp_Entities_DiscordGuildDirectoryChannel_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Equality(DisCatSharp.Entities.DiscordGuildDirectoryChannel,DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equality(DisCatSharp.Entities.DiscordGuildDirectoryChannel, DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  nameWithType: DiscordGuildDirectoryChannel.Equality(DiscordGuildDirectoryChannel, DiscordGuildDirectoryChannel)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Equality*
+  name: Equality
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_op_Equality_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Equality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Equality
+  nameWithType: DiscordGuildDirectoryChannel.Equality
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Inequality(DisCatSharp.Entities.DiscordGuildDirectoryChannel,DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  name: Inequality(DiscordGuildDirectoryChannel, DiscordGuildDirectoryChannel)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_op_Inequality_DisCatSharp_Entities_DiscordGuildDirectoryChannel_DisCatSharp_Entities_DiscordGuildDirectoryChannel_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Inequality(DisCatSharp.Entities.DiscordGuildDirectoryChannel,DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Inequality(DisCatSharp.Entities.DiscordGuildDirectoryChannel, DisCatSharp.Entities.DiscordGuildDirectoryChannel)
+  nameWithType: DiscordGuildDirectoryChannel.Inequality(DiscordGuildDirectoryChannel, DiscordGuildDirectoryChannel)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Inequality*
+  name: Inequality
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryChannel.html#DisCatSharp_Entities_DiscordGuildDirectoryChannel_op_Inequality_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryChannel.op_Inequality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryChannel.Inequality
+  nameWithType: DiscordGuildDirectoryChannel.Inequality
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry
+  name: DiscordGuildDirectoryEntry
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html
+  commentId: T:DisCatSharp.Entities.DiscordGuildDirectoryEntry
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry
+  nameWithType: DiscordGuildDirectoryEntry
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Description
+  commentId: P:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description
+  nameWithType: DiscordGuildDirectoryEntry.Description
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description*
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Description_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Description
+  nameWithType: DiscordGuildDirectoryEntry.Description
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  name: Equals(DiscordGuildDirectoryEntry)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Equals_DisCatSharp_Entities_DiscordGuildDirectoryEntry_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  nameWithType: DiscordGuildDirectoryEntry.Equals(DiscordGuildDirectoryEntry)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(System.Object)
+  name: Equals(Object)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Equals_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(System.Object)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals(System.Object)
+  nameWithType: DiscordGuildDirectoryEntry.Equals(Object)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals*
+  name: Equals
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Equals_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equals
+  nameWithType: DiscordGuildDirectoryEntry.Equals
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode
+  name: GetHashCode()
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_GetHashCode
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode()
+  nameWithType: DiscordGuildDirectoryEntry.GetHashCode()
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode*
+  name: GetHashCode
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_GetHashCode_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GetHashCode
+  nameWithType: DiscordGuildDirectoryEntry.GetHashCode
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild
+  name: Guild
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Guild
+  commentId: P:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild
+  nameWithType: DiscordGuildDirectoryEntry.Guild
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild*
+  name: Guild
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_Guild_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Guild
+  nameWithType: DiscordGuildDirectoryEntry.Guild
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId
+  name: GuildId
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_GuildId
+  commentId: P:DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId
+  nameWithType: DiscordGuildDirectoryEntry.GuildId
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId*
+  name: GuildId
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_GuildId_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.GuildId
+  nameWithType: DiscordGuildDirectoryEntry.GuildId
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Equality(DisCatSharp.Entities.DiscordGuildDirectoryEntry,DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  name: Equality(DiscordGuildDirectoryEntry, DiscordGuildDirectoryEntry)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_op_Equality_DisCatSharp_Entities_DiscordGuildDirectoryEntry_DisCatSharp_Entities_DiscordGuildDirectoryEntry_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Equality(DisCatSharp.Entities.DiscordGuildDirectoryEntry,DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equality(DisCatSharp.Entities.DiscordGuildDirectoryEntry, DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  nameWithType: DiscordGuildDirectoryEntry.Equality(DiscordGuildDirectoryEntry, DiscordGuildDirectoryEntry)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Equality*
+  name: Equality
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_op_Equality_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Equality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Equality
+  nameWithType: DiscordGuildDirectoryEntry.Equality
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Inequality(DisCatSharp.Entities.DiscordGuildDirectoryEntry,DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  name: Inequality(DiscordGuildDirectoryEntry, DiscordGuildDirectoryEntry)
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_op_Inequality_DisCatSharp_Entities_DiscordGuildDirectoryEntry_DisCatSharp_Entities_DiscordGuildDirectoryEntry_
+  commentId: M:DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Inequality(DisCatSharp.Entities.DiscordGuildDirectoryEntry,DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Inequality(DisCatSharp.Entities.DiscordGuildDirectoryEntry, DisCatSharp.Entities.DiscordGuildDirectoryEntry)
+  nameWithType: DiscordGuildDirectoryEntry.Inequality(DiscordGuildDirectoryEntry, DiscordGuildDirectoryEntry)
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Inequality*
+  name: Inequality
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_op_Inequality_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.op_Inequality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.Inequality
+  nameWithType: DiscordGuildDirectoryEntry.Inequality
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory
+  name: PrimaryCategory
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_PrimaryCategory
+  commentId: P:DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory
+  nameWithType: DiscordGuildDirectoryEntry.PrimaryCategory
+- uid: DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory*
+  name: PrimaryCategory
+  href: api/DisCatSharp.Entities.DiscordGuildDirectoryEntry.html#DisCatSharp_Entities_DiscordGuildDirectoryEntry_PrimaryCategory_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildDirectoryEntry.PrimaryCategory
+  nameWithType: DiscordGuildDirectoryEntry.PrimaryCategory
 - uid: DisCatSharp.Entities.DiscordGuildEmbed
   name: DiscordGuildEmbed
   href: api/DisCatSharp.Entities.DiscordGuildEmbed.html
@@ -24271,6 +24490,190 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordSpotifyAsset.Url
   nameWithType: DiscordSpotifyAsset.Url
+- uid: DisCatSharp.Entities.DiscordStageEvent
+  name: DiscordStageEvent
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html
+  commentId: T:DisCatSharp.Entities.DiscordStageEvent
+  fullName: DisCatSharp.Entities.DiscordStageEvent
+  nameWithType: DiscordStageEvent
+- uid: DisCatSharp.Entities.DiscordStageEvent.ChannelId
+  name: ChannelId
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ChannelId
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.ChannelId
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ChannelId
+  nameWithType: DiscordStageEvent.ChannelId
+- uid: DisCatSharp.Entities.DiscordStageEvent.ChannelId*
+  name: ChannelId
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ChannelId_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ChannelId
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ChannelId
+  nameWithType: DiscordStageEvent.ChannelId
+- uid: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
+  name: DeleteAsync(String)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_DeleteAsync_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
+  nameWithType: DiscordStageEvent.DeleteAsync(String)
+- uid: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync*
+  name: DeleteAsync
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_DeleteAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.DeleteAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync
+  nameWithType: DiscordStageEvent.DeleteAsync
+- uid: DisCatSharp.Entities.DiscordStageEvent.Description
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Description
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Description
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Description
+  nameWithType: DiscordStageEvent.Description
+- uid: DisCatSharp.Entities.DiscordStageEvent.Description*
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Description_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Description
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Description
+  nameWithType: DiscordStageEvent.Description
+- uid: DisCatSharp.Entities.DiscordStageEvent.EntityType
+  name: EntityType
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_EntityType
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.EntityType
+  fullName: DisCatSharp.Entities.DiscordStageEvent.EntityType
+  nameWithType: DiscordStageEvent.EntityType
+- uid: DisCatSharp.Entities.DiscordStageEvent.EntityType*
+  name: EntityType
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_EntityType_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.EntityType
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.EntityType
+  nameWithType: DiscordStageEvent.EntityType
+- uid: DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
+  name: Equals(DiscordStageEvent)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_DisCatSharp_Entities_DiscordStageEvent_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
+  nameWithType: DiscordStageEvent.Equals(DiscordStageEvent)
+- uid: DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
+  name: Equals(Object)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
+  nameWithType: DiscordStageEvent.Equals(Object)
+- uid: DisCatSharp.Entities.DiscordStageEvent.Equals*
+  name: Equals
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Equals
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals
+  nameWithType: DiscordStageEvent.Equals
+- uid: DisCatSharp.Entities.DiscordStageEvent.GetHashCode
+  name: GetHashCode()
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_GetHashCode
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.GetHashCode
+  fullName: DisCatSharp.Entities.DiscordStageEvent.GetHashCode()
+  nameWithType: DiscordStageEvent.GetHashCode()
+- uid: DisCatSharp.Entities.DiscordStageEvent.GetHashCode*
+  name: GetHashCode
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_GetHashCode_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.GetHashCode
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.GetHashCode
+  nameWithType: DiscordStageEvent.GetHashCode
+- uid: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
+  name: ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
+  name.vb: ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DateTime>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DateTime), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), System.String)
+  nameWithType: DiscordStageEvent.ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
+  nameWithType.vb: DiscordStageEvent.ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
+- uid: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync*
+  name: ModifyAsync
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ModifyAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ModifyAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync
+  nameWithType: DiscordStageEvent.ModifyAsync
+- uid: DisCatSharp.Entities.DiscordStageEvent.Name
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Name
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Name
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Name
+  nameWithType: DiscordStageEvent.Name
+- uid: DisCatSharp.Entities.DiscordStageEvent.Name*
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Name_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Name
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Name
+  nameWithType: DiscordStageEvent.Name
+- uid: DisCatSharp.Entities.DiscordStageEvent.op_Equality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
+  name: Equality(DiscordStageEvent, DiscordStageEvent)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Equality_DisCatSharp_Entities_DiscordStageEvent_DisCatSharp_Entities_DiscordStageEvent_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.op_Equality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Equality(DisCatSharp.Entities.DiscordStageEvent, DisCatSharp.Entities.DiscordStageEvent)
+  nameWithType: DiscordStageEvent.Equality(DiscordStageEvent, DiscordStageEvent)
+- uid: DisCatSharp.Entities.DiscordStageEvent.op_Equality*
+  name: Equality
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Equality_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.op_Equality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Equality
+  nameWithType: DiscordStageEvent.Equality
+- uid: DisCatSharp.Entities.DiscordStageEvent.op_Inequality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
+  name: Inequality(DiscordStageEvent, DiscordStageEvent)
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Inequality_DisCatSharp_Entities_DiscordStageEvent_DisCatSharp_Entities_DiscordStageEvent_
+  commentId: M:DisCatSharp.Entities.DiscordStageEvent.op_Inequality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Inequality(DisCatSharp.Entities.DiscordStageEvent, DisCatSharp.Entities.DiscordStageEvent)
+  nameWithType: DiscordStageEvent.Inequality(DiscordStageEvent, DiscordStageEvent)
+- uid: DisCatSharp.Entities.DiscordStageEvent.op_Inequality*
+  name: Inequality
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Inequality_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.op_Inequality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Inequality
+  nameWithType: DiscordStageEvent.Inequality
+- uid: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
+  name: PrivacyLevel
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_PrivacyLevel
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
+  fullName: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
+  nameWithType: DiscordStageEvent.PrivacyLevel
+- uid: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel*
+  name: PrivacyLevel
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_PrivacyLevel_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
+  nameWithType: DiscordStageEvent.PrivacyLevel
+- uid: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
+  name: ScheduledStartTime
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ScheduledStartTime
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
+  nameWithType: DiscordStageEvent.ScheduledStartTime
+- uid: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime*
+  name: ScheduledStartTime
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ScheduledStartTime_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
+  nameWithType: DiscordStageEvent.ScheduledStartTime
+- uid: DisCatSharp.Entities.DiscordStageEvent.Stage
+  name: Stage
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Stage
+  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Stage
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Stage
+  nameWithType: DiscordStageEvent.Stage
+- uid: DisCatSharp.Entities.DiscordStageEvent.Stage*
+  name: Stage
+  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Stage_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Stage
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageEvent.Stage
+  nameWithType: DiscordStageEvent.Stage
 - uid: DisCatSharp.Entities.DiscordStageInstance
   name: DiscordStageInstance
   href: api/DisCatSharp.Entities.DiscordStageInstance.html
@@ -24303,6 +24706,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordStageInstance.CloseAsync
   nameWithType: DiscordStageInstance.CloseAsync
+- uid: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String,DateTime,System.String,DisCatSharp.StagePrivacyLevel,System.String)
+  name: CreateEventAsync(String, DateTime, String, StagePrivacyLevel, String)
+  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_System_String_DateTime_System_String_DisCatSharp_StagePrivacyLevel_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String,DateTime,System.String,DisCatSharp.StagePrivacyLevel,System.String)
+  fullName: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String, DateTime, System.String, DisCatSharp.StagePrivacyLevel, System.String)
+  nameWithType: DiscordStageInstance.CreateEventAsync(String, DateTime, String, StagePrivacyLevel, String)
+- uid: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync*
+  name: CreateEventAsync
+  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync
+  nameWithType: DiscordStageInstance.CreateEventAsync
 - uid: DisCatSharp.Entities.DiscordStageInstance.DiscoverableDisabled
   name: DiscoverableDisabled
   href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_DiscoverableDisabled
@@ -25115,12 +25531,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.AddRoleAsync
   nameWithType: DiscordThreadChannel.AddRoleAsync
-- uid: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)
-  name: ArchiveAsync(String)
-  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.String)
-  nameWithType: DiscordThreadChannel.ArchiveAsync(String)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.Boolean,System.String)
+  name: ArchiveAsync(Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync(System.Boolean, System.String)
+  nameWithType: DiscordThreadChannel.ArchiveAsync(Boolean, String)
 - uid: DisCatSharp.Entities.DiscordThreadChannel.ArchiveAsync*
   name: ArchiveAsync
   href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_ArchiveAsync_
@@ -25410,19 +25826,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.LeaveAsync
   nameWithType: DiscordThreadChannel.LeaveAsync
-- uid: DisCatSharp.Entities.DiscordThreadChannel.LockAsync(System.String)
-  name: LockAsync(String)
-  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_LockAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.LockAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordThreadChannel.LockAsync(System.String)
-  nameWithType: DiscordThreadChannel.LockAsync(String)
-- uid: DisCatSharp.Entities.DiscordThreadChannel.LockAsync*
-  name: LockAsync
-  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_LockAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannel.LockAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordThreadChannel.LockAsync
-  nameWithType: DiscordThreadChannel.LockAsync
 - uid: DisCatSharp.Entities.DiscordThreadChannel.MemberCount
   name: MemberCount
   href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_MemberCount
@@ -25712,19 +26115,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.UnarchiveAsync
   nameWithType: DiscordThreadChannel.UnarchiveAsync
-- uid: DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync(System.String)
-  name: UnlockAsync(String)
-  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync(System.String)
-  nameWithType: DiscordThreadChannel.UnlockAsync(String)
-- uid: DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync*
-  name: UnlockAsync
-  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_UnlockAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordThreadChannel.UnlockAsync
-  nameWithType: DiscordThreadChannel.UnlockAsync
 - uid: DisCatSharp.Entities.DiscordThreadChannelMember
   name: DiscordThreadChannelMember
   href: api/DisCatSharp.Entities.DiscordThreadChannelMember.html
