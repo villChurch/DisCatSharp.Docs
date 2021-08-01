@@ -9,6 +9,10 @@ h1.logo-center
 	margin-top: 0;
 }
 
+.navbar-default {
+	background-color: #2f3136;
+}
+
 article p > img
 {
 	box-shadow: 3px 3px 6px #111;
