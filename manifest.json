@@ -5942,6 +5942,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.PriceTierType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.PriceTierType.html",
+          "hash": "siWLpOhHdzR46DPeC1Z0EuDU8XxwJHlTo0L87SUZAI4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.RingBuffer-1.yml",
       "output": {
         ".html": {
@@ -5954,11 +5966,107 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html",
+          "hash": "Yp8wBWx53EG+EZEEOqgZarghPsfmPDz7Tq+W7lejyNI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html",
+          "hash": "5aMlc7u/xuN8W9A32jgpB4GEqROozxISLYpy1BLw7EM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html",
+          "hash": "M14+J/HLVdS+g81RvWzflaoHDO4COdqg8ppQVEZ5W6o="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html",
+          "hash": "9xIydZC8C7/Vro0mD9u+9dPhGJJ9ZcRD44y96UtZeiQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html",
+          "hash": "v04SRBVJh2sJXvd+ILRQJV+wm3bCnDuTS5jDA3SL7lE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html",
+          "hash": "21qMahB3yRuyh7VrY681cfU0fQkHSTLfw1rHe7J6y4k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html",
+          "hash": "CPmgeZ4kx2Sxuytc43TPXnqIM4R7KQX9yitvhz7y5kI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.Attributes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.Attributes.html",
+          "hash": "bpa925chYg6F4aUHAeYaZWmR89tm4/ynz3OoRelEiwY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.SlashCommands.ChoiceAttribute.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.ChoiceAttribute.html",
-          "hash": "b/0WjjLdeu7F883dfPQfatZ/CfRmqp3jE/FojutGXQE="
+          "hash": "a59/BX7whH9RK9Gih6vpFBaIMrvWvu1zUXlvYy0Rpg0="
         }
       },
       "is_incremental": false,
@@ -5982,7 +6090,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.ChoiceProviderAttribute.html",
-          "hash": "/OCMcwUJCihnplmeAUFbuIaYIrvYRsJAAnC76MqteIU="
+          "hash": "c2A/utjgOSUng0zpmRjKwmdb7VSzr+xKoKDs/y8xVa4="
         }
       },
       "is_incremental": false,
@@ -5995,18 +6103,6 @@
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.DontInjectAttribute.html",
           "hash": "EJBLNVIPSO4J8IgR3ZjeUQuBOasKY9eL1WIjMzU44/0="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.SlashCommands.EnumHelpers.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DisCatSharp.SlashCommands.EnumHelpers.html",
-          "hash": "B+aruLfIMlnRpzF3jekJVzZy2rS8VYWqFzEkjMS5EV0="
         }
       },
       "is_incremental": false,
@@ -6054,7 +6150,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.ExtensionMethods.html",
-          "hash": "EhSTQOAOM9aaL7HwJPR7bfbPrEXDNnuwnqMgdDSRMR4="
+          "hash": "AjXfniZnrJDq6hOAelIahkvSZfCoKHVoeD415Xd96Ck="
         }
       },
       "is_incremental": false,
@@ -6078,7 +6174,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.InteractionContext.html",
-          "hash": "rOMKnhpb4En0LWNPaTQXJHF8YBBQDJE4mKToEUjPe4Y="
+          "hash": "m+6NW9KEWJxQRsPuBlZ3E9wNnDQCf5JAIkLC+x8VwRI="
         }
       },
       "is_incremental": false,
@@ -6102,7 +6198,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.SlashCheckBaseAttribute.html",
-          "hash": "NCXzHsaB72aKcuVQda9Ysg+AzJX/2C+tFAB6DinHIVc="
+          "hash": "6zJyDfvnQMPhUNdv2PKxRhg3IZFDU4bG694YiujKO3s="
         }
       },
       "is_incremental": false,
@@ -6162,7 +6258,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.SlashCommandsExtension.html",
-          "hash": "OKNDwegcnsp6a7BTuJZ5UEFFFgdxjDgNKV21xSQf9wI="
+          "hash": "f5aJ/rL81MrBftJmxtnlQFtz/kRq0j7uDzlGCFMTGgg="
         }
       },
       "is_incremental": false,
@@ -6182,11 +6278,35 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.SlashModuleLifespan.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.SlashModuleLifespan.html",
+          "hash": "OHTYlpcDBlyemqsEP2eMGAWL9uGzhmFgF1PLkV2zu7A="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html",
+          "hash": "/84BXznSbJr3SBDGiEX4T7sTQistx2ikNfeaZ2blxdA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.SlashCommands.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.SlashCommands.html",
-          "hash": "c8sJMpmiY84il1KTxa9tpb4LYkSB8Poiqyia2bbJFA4="
+          "hash": "ANfRa6dRizYrXDJ4D3KhObnFNQ+XS9bKp4q1nJ7Ndjk="
         }
       },
       "is_incremental": false,
@@ -6558,7 +6678,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.html",
-          "hash": "PaHIQCBEJirAN/5xVgxUtrqFHAxaqJKjxILPM85OMDs="
+          "hash": "J152R4XKybkncwf41EbqkUXmc1q4ctgUpmeuIoFSC9s="
         }
       },
       "is_incremental": false,
@@ -6582,7 +6702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "mgZfThIFnJyf3GuuJ+mJz1IHcPpYKXRNBMEaQtE80z4="
+          "hash": "B9mq4kl1lEU+bcqKsdjIYPyq6gFwu+O0MO2hSetoXA4="
         }
       },
       "is_incremental": false,
@@ -6594,7 +6714,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced_topics/buttons.html",
-          "hash": "ceVHOuAg2YRfleZvwwbCD9FVDQRFpYG+dmnle2E+LyA="
+          "hash": "eVleI72YXQ3FcbV9M3dmLNOg3M7O2YrqBLiEykB44sI="
         }
       },
       "is_incremental": false,
@@ -6606,7 +6726,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/configuration.html",
-          "hash": "VSCEGr7tODMrDt6vmpxjtV4EMNU3Sxu2ACOMezXVbk0="
+          "hash": "oNRYxKQjJH1j0oh+9JLy0xVANLWVd0fnDgS55TSmd1g="
         }
       },
       "is_incremental": false,
@@ -6618,7 +6738,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/music_commands.html",
-          "hash": "699MqWQK4ldqXv3em3p5lQVTSPOaETWm5AVXrDozL0k="
+          "hash": "B/vKUoBPPlw8DQUvFNxL/GriU8fu6/Owk6lmD+V4slc="
         }
       },
       "is_incremental": false,
@@ -6630,7 +6750,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/setup.html",
-          "hash": "YyP3FgxDGRV0H8mS7a9doLtToJPYo6iL4kicSkk5qs4="
+          "hash": "kUm9teK9toKg2Lx7WKaJ1dAZASTiLkqtKbhjpL7p7u8="
         }
       },
       "is_incremental": false,
@@ -6642,7 +6762,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/voicenext/prerequisites.html",
-          "hash": "gRlemuYPHVh3ivS4KjiEgoL/zfIEjDg5sFa+WhJYy38="
+          "hash": "jDfzOlJkeSs3OIxQbqngNcWaHTAjUFnQ2MNzxLZRMCs="
         }
       },
       "is_incremental": false,
@@ -6846,7 +6966,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/hosting.html",
-          "hash": "ogxhMcrp+HUhVuLfjHxnOVCLmLUoF4WKHdxOfCdWs+0="
+          "hash": "D5gUYhiWpfZTR0cXcPjOCxe91M/r25BN0kihflYZKE0="
         }
       },
       "is_incremental": false,
@@ -6858,7 +6978,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/interactivity.html",
-          "hash": "ixhdtolXot3fIbSPH012psMvDWb0D2mRagbWUN3xTig="
+          "hash": "xuac4WMkAdv1Y7YzJd+NIbN1sHoQHLu5rSoJw8BiSZE="
         }
       },
       "is_incremental": false,
@@ -6894,7 +7014,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/preamble.html",
-          "hash": "uLklaFYqRA2Wbc3TIs0XQ4eReONs+Fmvj1eE1cymVN8="
+          "hash": "D8tyb7vCkHgeriRU+YL/TF2Jxbz6eVJuBOlxK6KArdI="
         }
       },
       "is_incremental": false,
@@ -7617,8 +7737,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 546,
-          "skipped_file_count": 546
+          "total_file_count": 556,
+          "skipped_file_count": 556
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

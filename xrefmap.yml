@@ -52397,6 +52397,18 @@ references:
   commentId: F:DisCatSharp.PremiumType.None
   fullName: DisCatSharp.PremiumType.None
   nameWithType: PremiumType.None
+- uid: DisCatSharp.PriceTierType
+  name: PriceTierType
+  href: api/DisCatSharp.PriceTierType.html
+  commentId: T:DisCatSharp.PriceTierType
+  fullName: DisCatSharp.PriceTierType
+  nameWithType: PriceTierType
+- uid: DisCatSharp.PriceTierType.GUILD_ROLE_SUBSCRIPTIONS
+  name: GUILD_ROLE_SUBSCRIPTIONS
+  href: api/DisCatSharp.PriceTierType.html#DisCatSharp_PriceTierType_GUILD_ROLE_SUBSCRIPTIONS
+  commentId: F:DisCatSharp.PriceTierType.GUILD_ROLE_SUBSCRIPTIONS
+  fullName: DisCatSharp.PriceTierType.GUILD_ROLE_SUBSCRIPTIONS
+  nameWithType: PriceTierType.GUILD_ROLE_SUBSCRIPTIONS
 - uid: DisCatSharp.RingBuffer`1
   name: RingBuffer<T>
   href: api/DisCatSharp.RingBuffer-1.html
@@ -52671,12 +52683,348 @@ references:
   commentId: N:DisCatSharp.SlashCommands
   fullName: DisCatSharp.SlashCommands
   nameWithType: DisCatSharp.SlashCommands
+- uid: DisCatSharp.SlashCommands.Attributes
+  name: DisCatSharp.SlashCommands.Attributes
+  href: api/DisCatSharp.SlashCommands.Attributes.html
+  commentId: N:DisCatSharp.SlashCommands.Attributes
+  fullName: DisCatSharp.SlashCommands.Attributes
+  nameWithType: DisCatSharp.SlashCommands.Attributes
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute
+  name: SlashRequireBotPermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute
+  nameWithType: SlashRequireBotPermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  name: SlashRequireBotPermissionsAttribute(Permissions, Boolean)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute__ctor_DisCatSharp_Permissions_System_Boolean_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.SlashRequireBotPermissionsAttribute(DisCatSharp.Permissions, System.Boolean)
+  nameWithType: SlashRequireBotPermissionsAttribute.SlashRequireBotPermissionsAttribute(Permissions, Boolean)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.#ctor*
+  name: SlashRequireBotPermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.SlashRequireBotPermissionsAttribute
+  nameWithType: SlashRequireBotPermissionsAttribute.SlashRequireBotPermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireBotPermissionsAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireBotPermissionsAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_IgnoreDms
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequireBotPermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms*
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_IgnoreDms_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequireBotPermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_Permissions
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions
+  nameWithType: SlashRequireBotPermissionsAttribute.Permissions
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireBotPermissionsAttribute_Permissions_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireBotPermissionsAttribute.Permissions
+  nameWithType: SlashRequireBotPermissionsAttribute.Permissions
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute
+  name: SlashRequireDirectMessageAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute
+  nameWithType: SlashRequireDirectMessageAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.#ctor
+  name: SlashRequireDirectMessageAttribute()
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireDirectMessageAttribute__ctor
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.#ctor
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.SlashRequireDirectMessageAttribute()
+  nameWithType: SlashRequireDirectMessageAttribute.SlashRequireDirectMessageAttribute()
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.#ctor*
+  name: SlashRequireDirectMessageAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireDirectMessageAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.SlashRequireDirectMessageAttribute
+  nameWithType: SlashRequireDirectMessageAttribute.SlashRequireDirectMessageAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireDirectMessageAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireDirectMessageAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireDirectMessageAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireDirectMessageAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireDirectMessageAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute
+  name: SlashRequireGuildAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute
+  nameWithType: SlashRequireGuildAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.#ctor
+  name: SlashRequireGuildAttribute()
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireGuildAttribute__ctor
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.#ctor
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.SlashRequireGuildAttribute()
+  nameWithType: SlashRequireGuildAttribute.SlashRequireGuildAttribute()
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.#ctor*
+  name: SlashRequireGuildAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireGuildAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.SlashRequireGuildAttribute
+  nameWithType: SlashRequireGuildAttribute.SlashRequireGuildAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireGuildAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireGuildAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireGuildAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireGuildAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireGuildAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute
+  name: SlashRequireOwnerAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute
+  nameWithType: SlashRequireOwnerAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.#ctor
+  name: SlashRequireOwnerAttribute()
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerAttribute__ctor
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.#ctor
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.SlashRequireOwnerAttribute()
+  nameWithType: SlashRequireOwnerAttribute.SlashRequireOwnerAttribute()
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.#ctor*
+  name: SlashRequireOwnerAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.SlashRequireOwnerAttribute
+  nameWithType: SlashRequireOwnerAttribute.SlashRequireOwnerAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireOwnerAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireOwnerAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute
+  name: SlashRequireOwnerOrIdAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute
+  nameWithType: SlashRequireOwnerOrIdAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.#ctor(System.UInt64[])
+  name: SlashRequireOwnerOrIdAttribute(UInt64[])
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute__ctor_System_UInt64___
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.#ctor(System.UInt64[])
+  name.vb: SlashRequireOwnerOrIdAttribute(UInt64())
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute(System.UInt64[])
+  fullName.vb: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute(System.UInt64())
+  nameWithType: SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute(UInt64[])
+  nameWithType.vb: SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute(UInt64())
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.#ctor*
+  name: SlashRequireOwnerOrIdAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute
+  nameWithType: SlashRequireOwnerOrIdAttribute.SlashRequireOwnerOrIdAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireOwnerOrIdAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds
+  name: UserIds
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute_UserIds
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds
+  nameWithType: SlashRequireOwnerOrIdAttribute.UserIds
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds*
+  name: UserIds
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireOwnerOrIdAttribute_UserIds_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireOwnerOrIdAttribute.UserIds
+  nameWithType: SlashRequireOwnerOrIdAttribute.UserIds
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute
+  name: SlashRequirePermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute
+  nameWithType: SlashRequirePermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  name: SlashRequirePermissionsAttribute(Permissions, Boolean)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute__ctor_DisCatSharp_Permissions_System_Boolean_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.SlashRequirePermissionsAttribute(DisCatSharp.Permissions, System.Boolean)
+  nameWithType: SlashRequirePermissionsAttribute.SlashRequirePermissionsAttribute(Permissions, Boolean)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.#ctor*
+  name: SlashRequirePermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.SlashRequirePermissionsAttribute
+  nameWithType: SlashRequirePermissionsAttribute.SlashRequirePermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequirePermissionsAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequirePermissionsAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_IgnoreDms
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequirePermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms*
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_IgnoreDms_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequirePermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_Permissions
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions
+  nameWithType: SlashRequirePermissionsAttribute.Permissions
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequirePermissionsAttribute_Permissions_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequirePermissionsAttribute.Permissions
+  nameWithType: SlashRequirePermissionsAttribute.Permissions
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute
+  name: SlashRequireUserPermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute
+  nameWithType: SlashRequireUserPermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  name: SlashRequireUserPermissionsAttribute(Permissions, Boolean)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute__ctor_DisCatSharp_Permissions_System_Boolean_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.#ctor(DisCatSharp.Permissions,System.Boolean)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.SlashRequireUserPermissionsAttribute(DisCatSharp.Permissions, System.Boolean)
+  nameWithType: SlashRequireUserPermissionsAttribute.SlashRequireUserPermissionsAttribute(Permissions, Boolean)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.#ctor*
+  name: SlashRequireUserPermissionsAttribute
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.SlashRequireUserPermissionsAttribute
+  nameWithType: SlashRequireUserPermissionsAttribute.SlashRequireUserPermissionsAttribute
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  name: ExecuteChecksAsync(InteractionContext)
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_ExecuteChecksAsync_DisCatSharp_SlashCommands_InteractionContext_
+  commentId: M:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync(DisCatSharp.SlashCommands.InteractionContext)
+  nameWithType: SlashRequireUserPermissionsAttribute.ExecuteChecksAsync(InteractionContext)
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync*
+  name: ExecuteChecksAsync
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_ExecuteChecksAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.ExecuteChecksAsync
+  nameWithType: SlashRequireUserPermissionsAttribute.ExecuteChecksAsync
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_IgnoreDms
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequireUserPermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms*
+  name: IgnoreDms
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_IgnoreDms_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.IgnoreDms
+  nameWithType: SlashRequireUserPermissionsAttribute.IgnoreDms
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_Permissions
+  commentId: P:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions
+  nameWithType: SlashRequireUserPermissionsAttribute.Permissions
+- uid: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.html#DisCatSharp_SlashCommands_Attributes_SlashRequireUserPermissionsAttribute_Permissions_
+  commentId: Overload:DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.Attributes.SlashRequireUserPermissionsAttribute.Permissions
+  nameWithType: SlashRequireUserPermissionsAttribute.Permissions
 - uid: DisCatSharp.SlashCommands.ChoiceAttribute
   name: ChoiceAttribute
   href: api/DisCatSharp.SlashCommands.ChoiceAttribute.html
   commentId: T:DisCatSharp.SlashCommands.ChoiceAttribute
   fullName: DisCatSharp.SlashCommands.ChoiceAttribute
   nameWithType: ChoiceAttribute
+- uid: DisCatSharp.SlashCommands.ChoiceAttribute.#ctor(System.String,System.Double)
+  name: ChoiceAttribute(String, Double)
+  href: api/DisCatSharp.SlashCommands.ChoiceAttribute.html#DisCatSharp_SlashCommands_ChoiceAttribute__ctor_System_String_System_Double_
+  commentId: M:DisCatSharp.SlashCommands.ChoiceAttribute.#ctor(System.String,System.Double)
+  fullName: DisCatSharp.SlashCommands.ChoiceAttribute.ChoiceAttribute(System.String, System.Double)
+  nameWithType: ChoiceAttribute.ChoiceAttribute(String, Double)
+- uid: DisCatSharp.SlashCommands.ChoiceAttribute.#ctor(System.String,System.Int32)
+  name: ChoiceAttribute(String, Int32)
+  href: api/DisCatSharp.SlashCommands.ChoiceAttribute.html#DisCatSharp_SlashCommands_ChoiceAttribute__ctor_System_String_System_Int32_
+  commentId: M:DisCatSharp.SlashCommands.ChoiceAttribute.#ctor(System.String,System.Int32)
+  fullName: DisCatSharp.SlashCommands.ChoiceAttribute.ChoiceAttribute(System.String, System.Int32)
+  nameWithType: ChoiceAttribute.ChoiceAttribute(String, Int32)
 - uid: DisCatSharp.SlashCommands.ChoiceAttribute.#ctor(System.String,System.Int64)
   name: ChoiceAttribute(String, Int64)
   href: api/DisCatSharp.SlashCommands.ChoiceAttribute.html#DisCatSharp_SlashCommands_ChoiceAttribute__ctor_System_String_System_Int64_
@@ -52792,28 +53140,6 @@ references:
   commentId: T:DisCatSharp.SlashCommands.DontInjectAttribute
   fullName: DisCatSharp.SlashCommands.DontInjectAttribute
   nameWithType: DontInjectAttribute
-- uid: DisCatSharp.SlashCommands.EnumHelpers
-  name: EnumHelpers
-  href: api/DisCatSharp.SlashCommands.EnumHelpers.html
-  commentId: T:DisCatSharp.SlashCommands.EnumHelpers
-  fullName: DisCatSharp.SlashCommands.EnumHelpers
-  nameWithType: EnumHelpers
-- uid: DisCatSharp.SlashCommands.EnumHelpers.GetName*
-  name: GetName
-  href: api/DisCatSharp.SlashCommands.EnumHelpers.html#DisCatSharp_SlashCommands_EnumHelpers_GetName_
-  commentId: Overload:DisCatSharp.SlashCommands.EnumHelpers.GetName
-  isSpec: "True"
-  fullName: DisCatSharp.SlashCommands.EnumHelpers.GetName
-  nameWithType: EnumHelpers.GetName
-- uid: DisCatSharp.SlashCommands.EnumHelpers.GetName``1(``0)
-  name: GetName<T>(T)
-  href: api/DisCatSharp.SlashCommands.EnumHelpers.html#DisCatSharp_SlashCommands_EnumHelpers_GetName__1___0_
-  commentId: M:DisCatSharp.SlashCommands.EnumHelpers.GetName``1(``0)
-  name.vb: GetName(Of T)(T)
-  fullName: DisCatSharp.SlashCommands.EnumHelpers.GetName<T>(T)
-  fullName.vb: DisCatSharp.SlashCommands.EnumHelpers.GetName(Of T)(T)
-  nameWithType: EnumHelpers.GetName<T>(T)
-  nameWithType.vb: EnumHelpers.GetName(Of T)(T)
 - uid: DisCatSharp.SlashCommands.EventArgs
   name: DisCatSharp.SlashCommands.EventArgs
   href: api/DisCatSharp.SlashCommands.EventArgs.html
@@ -52877,6 +53203,22 @@ references:
   commentId: T:DisCatSharp.SlashCommands.ExtensionMethods
   fullName: DisCatSharp.SlashCommands.ExtensionMethods
   nameWithType: ExtensionMethods
+- uid: DisCatSharp.SlashCommands.ExtensionMethods.GetName*
+  name: GetName
+  href: api/DisCatSharp.SlashCommands.ExtensionMethods.html#DisCatSharp_SlashCommands_ExtensionMethods_GetName_
+  commentId: Overload:DisCatSharp.SlashCommands.ExtensionMethods.GetName
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.ExtensionMethods.GetName
+  nameWithType: ExtensionMethods.GetName
+- uid: DisCatSharp.SlashCommands.ExtensionMethods.GetName``1(``0)
+  name: GetName<T>(T)
+  href: api/DisCatSharp.SlashCommands.ExtensionMethods.html#DisCatSharp_SlashCommands_ExtensionMethods_GetName__1___0_
+  commentId: M:DisCatSharp.SlashCommands.ExtensionMethods.GetName``1(``0)
+  name.vb: GetName(Of T)(T)
+  fullName: DisCatSharp.SlashCommands.ExtensionMethods.GetName<T>(T)
+  fullName.vb: DisCatSharp.SlashCommands.ExtensionMethods.GetName(Of T)(T)
+  nameWithType: ExtensionMethods.GetName<T>(T)
+  nameWithType.vb: ExtensionMethods.GetName(Of T)(T)
 - uid: DisCatSharp.SlashCommands.ExtensionMethods.GetSlashCommands(DisCatSharp.DiscordClient)
   name: GetSlashCommands(DiscordClient)
   href: api/DisCatSharp.SlashCommands.ExtensionMethods.html#DisCatSharp_SlashCommands_ExtensionMethods_GetSlashCommands_DisCatSharp_DiscordClient_
@@ -53083,6 +53425,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.SlashCommands.InteractionContext.FollowUpAsync
   nameWithType: InteractionContext.FollowUpAsync
+- uid: DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync(System.UInt64)
+  name: GetFollowupMessageAsync(UInt64)
+  href: api/DisCatSharp.SlashCommands.InteractionContext.html#DisCatSharp_SlashCommands_InteractionContext_GetFollowupMessageAsync_System_UInt64_
+  commentId: M:DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync(System.UInt64)
+  fullName: DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync(System.UInt64)
+  nameWithType: InteractionContext.GetFollowupMessageAsync(UInt64)
+- uid: DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync*
+  name: GetFollowupMessageAsync
+  href: api/DisCatSharp.SlashCommands.InteractionContext.html#DisCatSharp_SlashCommands_InteractionContext_GetFollowupMessageAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.InteractionContext.GetFollowupMessageAsync
+  nameWithType: InteractionContext.GetFollowupMessageAsync
+- uid: DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync
+  name: GetOriginalResponseAsync()
+  href: api/DisCatSharp.SlashCommands.InteractionContext.html#DisCatSharp_SlashCommands_InteractionContext_GetOriginalResponseAsync
+  commentId: M:DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync
+  fullName: DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync()
+  nameWithType: InteractionContext.GetOriginalResponseAsync()
+- uid: DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync*
+  name: GetOriginalResponseAsync
+  href: api/DisCatSharp.SlashCommands.InteractionContext.html#DisCatSharp_SlashCommands_InteractionContext_GetOriginalResponseAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.InteractionContext.GetOriginalResponseAsync
+  nameWithType: InteractionContext.GetOriginalResponseAsync
 - uid: DisCatSharp.SlashCommands.InteractionContext.Guild
   name: Guild
   href: api/DisCatSharp.SlashCommands.InteractionContext.html#DisCatSharp_SlashCommands_InteractionContext_Guild
@@ -53417,6 +53785,19 @@ references:
   commentId: T:DisCatSharp.SlashCommands.SlashCommandsExtension
   fullName: DisCatSharp.SlashCommands.SlashCommandsExtension
   nameWithType: SlashCommandsExtension
+- uid: DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync
+  name: RefreshCommandsAsync()
+  href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_RefreshCommandsAsync
+  commentId: M:DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync
+  fullName: DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync()
+  nameWithType: SlashCommandsExtension.RefreshCommandsAsync()
+- uid: DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync*
+  name: RefreshCommandsAsync
+  href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_RefreshCommandsAsync_
+  commentId: Overload:DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.SlashCommandsExtension.RefreshCommandsAsync
+  nameWithType: SlashCommandsExtension.RefreshCommandsAsync
 - uid: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisterCommands(Type,System.Nullable{System.UInt64})
   name: RegisterCommands(Type, Nullable<UInt64>)
   href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_RegisterCommands_Type_System_Nullable_System_UInt64__
@@ -53442,6 +53823,19 @@ references:
   fullName.vb: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisterCommands(Of T)(System.Nullable(Of System.UInt64))
   nameWithType: SlashCommandsExtension.RegisterCommands<T>(Nullable<UInt64>)
   nameWithType.vb: SlashCommandsExtension.RegisterCommands(Of T)(Nullable(Of UInt64))
+- uid: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands
+  name: RegisteredCommands
+  href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_RegisteredCommands
+  commentId: P:DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands
+  fullName: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands
+  nameWithType: SlashCommandsExtension.RegisteredCommands
+- uid: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands*
+  name: RegisteredCommands
+  href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_RegisteredCommands_
+  commentId: Overload:DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.SlashCommandsExtension.RegisteredCommands
+  nameWithType: SlashCommandsExtension.RegisteredCommands
 - uid: DisCatSharp.SlashCommands.SlashCommandsExtension.Setup(DisCatSharp.DiscordClient)
   name: Setup(DiscordClient)
   href: api/DisCatSharp.SlashCommands.SlashCommandsExtension.html#DisCatSharp_SlashCommands_SlashCommandsExtension_Setup_DisCatSharp_DiscordClient_
@@ -53479,6 +53873,56 @@ references:
   commentId: F:DisCatSharp.SlashCommands.SlashExecutionChecksFailedException.FailedChecks
   fullName: DisCatSharp.SlashCommands.SlashExecutionChecksFailedException.FailedChecks
   nameWithType: SlashExecutionChecksFailedException.FailedChecks
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespan
+  name: SlashModuleLifespan
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespan.html
+  commentId: T:DisCatSharp.SlashCommands.SlashModuleLifespan
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespan
+  nameWithType: SlashModuleLifespan
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespan.Singleton
+  name: Singleton
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespan.html#DisCatSharp_SlashCommands_SlashModuleLifespan_Singleton
+  commentId: F:DisCatSharp.SlashCommands.SlashModuleLifespan.Singleton
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespan.Singleton
+  nameWithType: SlashModuleLifespan.Singleton
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespan.Transient
+  name: Transient
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespan.html#DisCatSharp_SlashCommands_SlashModuleLifespan_Transient
+  commentId: F:DisCatSharp.SlashCommands.SlashModuleLifespan.Transient
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespan.Transient
+  nameWithType: SlashModuleLifespan.Transient
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute
+  name: SlashModuleLifespanAttribute
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html
+  commentId: T:DisCatSharp.SlashCommands.SlashModuleLifespanAttribute
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute
+  nameWithType: SlashModuleLifespanAttribute
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.#ctor(DisCatSharp.SlashCommands.SlashModuleLifespan)
+  name: SlashModuleLifespanAttribute(SlashModuleLifespan)
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html#DisCatSharp_SlashCommands_SlashModuleLifespanAttribute__ctor_DisCatSharp_SlashCommands_SlashModuleLifespan_
+  commentId: M:DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.#ctor(DisCatSharp.SlashCommands.SlashModuleLifespan)
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.SlashModuleLifespanAttribute(DisCatSharp.SlashCommands.SlashModuleLifespan)
+  nameWithType: SlashModuleLifespanAttribute.SlashModuleLifespanAttribute(SlashModuleLifespan)
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.#ctor*
+  name: SlashModuleLifespanAttribute
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html#DisCatSharp_SlashCommands_SlashModuleLifespanAttribute__ctor_
+  commentId: Overload:DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.SlashModuleLifespanAttribute
+  nameWithType: SlashModuleLifespanAttribute.SlashModuleLifespanAttribute
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan
+  name: Lifespan
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html#DisCatSharp_SlashCommands_SlashModuleLifespanAttribute_Lifespan
+  commentId: P:DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan
+  nameWithType: SlashModuleLifespanAttribute.Lifespan
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan*
+  name: Lifespan
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.html#DisCatSharp_SlashCommands_SlashModuleLifespanAttribute_Lifespan_
+  commentId: Overload:DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan
+  isSpec: "True"
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespanAttribute.Lifespan
+  nameWithType: SlashModuleLifespanAttribute.Lifespan
 - uid: DisCatSharp.StagePrivacyLevel
   name: StagePrivacyLevel
   href: api/DisCatSharp.StagePrivacyLevel.html
