@@ -542,6 +542,57 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   </table>
   
   
+  <a id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordGuildApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordGuildApplicationCommandPermission})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordGuildApplicationCommandPermission&gt;)</h4>
+  <div class="markdown level1 summary"><p>Overwrites the existing slash command permissions in a guild. New permissions are automatically created and missing permissions are deleted.
+Each command takes up to 10 permission overwrites.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordGuildApplicationCommandPermission&gt;&gt; BulkOverwriteGuildApplicationCommandsAsync(ulong guildId, IEnumerable&lt;DiscordGuildApplicationCommandPermission&gt; permissionsOverwrites)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The id of the guild.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;</td>
+        <td><span class="parametername">permissionsOverwrites</span></td>
+        <td><p>The list of permissions to overwrite with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_DiscordClient_ConnectAsync_" data-uid="DisCatSharp.DiscordClient.ConnectAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.DiscordClient.ConnectAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset})">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Connects to the gateway.</p>
@@ -1068,6 +1119,56 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   </div>
   
   
+  <a id="DisCatSharp_DiscordClient_GetApplicationCommandPermissionAsync_" data-uid="DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_GetApplicationCommandPermissionAsync_System_UInt64_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync(System.UInt64,System.UInt64)">GetApplicationCommandPermissionAsync(UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets the permissions for a guild command.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordGuildApplicationCommandPermission&gt; GetApplicationCommandPermissionAsync(ulong guildId, ulong commandId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The target guild.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">commandId</span></td>
+        <td><p>The target command id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_DiscordClient_GetChannelAsync_" data-uid="DisCatSharp.DiscordClient.GetChannelAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_GetChannelAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetChannelAsync(System.UInt64)">GetChannelAsync(UInt64)</h4>
   <div class="markdown level1 summary"><p>Gets a channel.</p>
@@ -1301,6 +1402,50 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;</td>
         <td><p>The command with the id.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordClient_GetGuildApplicationCommandPermissionsAsync_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_GetGuildApplicationCommandPermissionsAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync(System.UInt64)">GetGuildApplicationCommandPermissionsAsync(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets all command permissions for a guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordGuildApplicationCommandPermission&gt;&gt; GetGuildApplicationCommandPermissionsAsync(ulong guildId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The target guild.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -1718,13 +1863,13 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   
   <a id="DisCatSharp_DiscordClient_GetUserAsync_" data-uid="DisCatSharp.DiscordClient.GetUserAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_GetUserAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetUserAsync(System.UInt64)">GetUserAsync(UInt64)</h4>
+  <h4 id="DisCatSharp_DiscordClient_GetUserAsync_System_UInt64_System_Boolean_" data-uid="DisCatSharp.DiscordClient.GetUserAsync(System.UInt64,System.Boolean)">GetUserAsync(UInt64, Boolean)</h4>
   <div class="markdown level1 summary"><p>Gets a user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordUser&gt; GetUserAsync(ulong userId)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordUser&gt; GetUserAsync(ulong userId, bool fetch = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1740,6 +1885,12 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">userId</span></td>
         <td><p>Id of the user</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">fetch</span></td>
+        <td><p>Whether to fetch the user again (Defaults to false).</p>
 </td>
       </tr>
     </tbody>
@@ -1853,6 +2004,63 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
         <td><p>The requested webhook.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_System_UInt64_System_UInt64_IEnumerable_DiscordApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,IEnumerable{DiscordApplicationCommandPermission})">OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable&lt;DiscordApplicationCommandPermission&gt;)</h4>
+  <div class="markdown level1 summary"><p>Overwrites the existing permissions for a slash command in a guild. New permissions are automatically created and missing permissions are deleted.
+A command takes up to 10 permission overwrites.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordGuildApplicationCommandPermission&gt; OverwriteGuildApplicationCommandPermissionsAsync(ulong guildId, ulong commandId, IEnumerable&lt;DiscordApplicationCommandPermission&gt; permissions)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The id of the guild.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">commandId</span></td>
+        <td><p>The id of the command.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommandPermission</span>&gt;</td>
+        <td><span class="parametername">permissions</span></td>
+        <td><p>List of permissions.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -2501,6 +2709,31 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   </table>
   
   
+  <h4 id="DisCatSharp_DiscordClient_ContextMenuInteractionCreated" data-uid="DisCatSharp.DiscordClient.ContextMenuInteractionCreated">ContextMenuInteractionCreated</h4>
+  <div class="markdown level1 summary"><p>Fired when a user uses a context menu.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, ContextMenuInteractionCreateEventArgs&gt; ContextMenuInteractionCreated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">ContextMenuInteractionCreateEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DisCatSharp_DiscordClient_DmChannelDeleted" data-uid="DisCatSharp.DiscordClient.DmChannelDeleted">DmChannelDeleted</h4>
   <div class="markdown level1 summary"><p>Fired when a dm channel is deleted
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_DirectMessages">DirectMessages</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
@@ -2521,6 +2754,31 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     <tbody>
       <tr>
         <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">DmChannelDeleteEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordClient_GuildApplicationCommandCountUpdated" data-uid="DisCatSharp.DiscordClient.GuildApplicationCommandCountUpdated">GuildApplicationCommandCountUpdated</h4>
+  <div class="markdown level1 summary"><p>Fired when a new application command is registered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, GuildApplicationCommandCountEventArgs&gt; GuildApplicationCommandCountUpdated</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildApplicationCommandCountEventArgs</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -3407,6 +3665,31 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   </table>
   
   
+  <h4 id="DisCatSharp_DiscordClient_PayloadReceived" data-uid="DisCatSharp.DiscordClient.PayloadReceived">PayloadReceived</h4>
+  <div class="markdown level1 summary"><p>Fired when a gateway</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, PayloadReceivedEventArgs&gt; PayloadReceived</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">PayloadReceivedEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DisCatSharp_DiscordClient_PresenceUpdated" data-uid="DisCatSharp.DiscordClient.PresenceUpdated">PresenceUpdated</h4>
   <div class="markdown level1 summary"><p>Fired when a presence has been updated.
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildPresences">GuildPresences</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
@@ -3967,6 +4250,31 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     <tbody>
       <tr>
         <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">WebhooksUpdateEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordClient_Zombied" data-uid="DisCatSharp.DiscordClient.Zombied">Zombied</h4>
+  <div class="markdown level1 summary"><p>Fired on heartbeat attempt cancellation due to too many failed heartbeats.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, ZombiedEventArgs&gt; Zombied</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">ZombiedEventArgs</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

@@ -319,6 +319,50 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage)">WaitForButtonAsync(DiscordMessage)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
   <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message by the specified user.</p>
 </div>
@@ -375,13 +419,13 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message.</p>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)">WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message by the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, CancellationToken? token = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, DiscordUser user, CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -400,7 +444,13 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for button input from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
         <td><span class="parametername">token</span></td>
         <td><p>A custom cancellation token that can be cancelled at any point.</p>
 </td>
@@ -475,62 +525,6 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed on the specified message.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DiscordMessage</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message to wait on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The Id of the button to wait for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
-        <td><span class="parametername">token</span></td>
-        <td><p>A custom cancellation token that can be cancelled at any point.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
   <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed on the specified message.</p>
 </div>
@@ -565,6 +559,112 @@
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Threading.CancellationToken)">WaitForButtonAsync(DiscordMessage, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, string id, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the button to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Threading.CancellationToken)">WaitForButtonAsync(DiscordMessage, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Waits for any button to be pressed on the specified message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForButtonAsync(this DiscordMessage message, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
 </td>
       </tr>
     </tbody>
@@ -705,68 +805,6 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by the specified user.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, DiscordUser user, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DiscordMessage</span></td>
-        <td><span class="parametername">message</span></td>
-        <td><p>The message to wait on.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">DiscordUser</span></td>
-        <td><span class="parametername">user</span></td>
-        <td><p>The user to wait for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">id</span></td>
-        <td><p>The Id of the dropdown to wait for.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
-        <td><span class="parametername">token</span></td>
-        <td><p>A custom cancellation token that can be cancelled at any point.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
   <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by the specified user.</p>
 </div>
@@ -828,13 +866,13 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;CancellationToken&gt;)</h4>
-  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)">WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, string id, CancellationToken? token = default(CancellationToken? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, DiscordUser user, string id, CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -853,13 +891,19 @@
 </td>
       </tr>
       <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to wait for.</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">id</span></td>
         <td><p>The Id of the dropdown to wait for.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Threading.CancellationToken</span>&gt;</td>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
         <td><span class="parametername">token</span></td>
         <td><p>A custom cancellation token that can be cancelled at any point.</p>
 </td>
@@ -918,6 +962,62 @@
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Threading.CancellationToken)">WaitForSelectAsync(DiscordMessage, String, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;ComponentInteractionCreateEventArgs&gt;&gt; WaitForSelectAsync(this DiscordMessage message, string id, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordMessage</span></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to wait on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">id</span></td>
+        <td><p>The Id of the dropdown to wait for.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
 </td>
       </tr>
     </tbody>

@@ -1818,7 +1818,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "o+DaBxZoNNmTIyWQoR2d6ZDi8BAfykiYmXQrR7Wnbgk="
+          "hash": "XuhBanE0oM4xCF7vQqDsCnPyP6X3d5rJJsHlS+81XgU="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordShardedClient.html",
-          "hash": "riAjAUMWc9AYyb1/sfVnE6mPbxLVncpi/Dl2LKKHK4I="
+          "hash": "U+sJXJCjB66iJzc9pMuMZxj71wV1ryT51CJeDpqAq0k="
         }
       },
       "is_incremental": false,
@@ -1998,7 +1998,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommand.html",
-          "hash": "cYyadX6DdpPWM3oa/9O6OAu9IFfkhqw81pqxN0K4MjY="
+          "hash": "inD6RQSZyylqOpPQCCqA5QvltDrugBi+v4PI28kzyE8="
         }
       },
       "is_incremental": false,
@@ -2022,7 +2022,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandOptionChoice.html",
-          "hash": "UTgn6IKoV9xEgXVahlGkSNwly41quVhB9Oq3jSI9PDE="
+          "hash": "akSAwjGEbCGO4OLoGsy8cOFNApQ2w0aulowojayXhWg="
         }
       },
       "is_incremental": false,
@@ -2034,7 +2034,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html",
-          "hash": "clUmN/iqn0AKt37CEZ/CrSIsyeFxRLqseg2MLpw9Bks="
+          "hash": "1+Qy4JofImv1iZU9w6yCzShxd5Pfst4DftgQoTEMqOo="
         }
       },
       "is_incremental": false,
@@ -2646,7 +2646,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html",
-          "hash": "KLqmtiJdbSc4A/XAAoGEkc+5RP+Ml/jzI0awCt3vXpo="
+          "hash": "uhHkuLTRi72PJAYUflKPOnuoq5yErfd8UcQ8fgBhQUc="
         }
       },
       "is_incremental": false,
@@ -2838,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html",
-          "hash": "zgZ80pO8aIQntNHIqdYI/CZwxB9I7+TS8ezJRvf0B/w="
+          "hash": "Wh+SUgxn/iy4qpvEMSNg5npYnlXumgYN7wfBQmeiC4Q="
         }
       },
       "is_incremental": false,
@@ -3602,6 +3602,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Enums.ApplicationCommandType.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Enums.ApplicationCommandType.html",
+          "hash": "7njhNf3FqFboiatihAEUOasPagTHS2YEQVszTNuuwwo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Enums.ButtonStyle.yml",
       "output": {
         ".html": {
@@ -3714,7 +3726,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.html",
-          "hash": "M9L8CQqflyss5RRkDKqdKGm9G85ATM4guCtMbKjJd/I="
+          "hash": "zb9Y79IyroJ83hnMRJI1+m0N/y4LQewfKwHgDPLSLc8="
         }
       },
       "is_incremental": false,
@@ -3806,11 +3818,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html",
+          "hash": "0NrCWNUfhaCJ71MVd/I+zLvTePbMAmBeaQaNOLHvHX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.EventArgs.DiscordEventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.DiscordEventArgs.html",
-          "hash": "vlFuOaRJEWnJLcBhKp7TBmqORf+ew39CI5N5/etnJ84="
+          "hash": "Z/jQuoZ2oPjTPA7v7eQY26OeWa6R4e6pZWHNmq4WCqw="
         }
       },
       "is_incremental": false,
@@ -3823,6 +3847,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.DmChannelDeleteEventArgs.html",
           "hash": "a//lnRFf3lBr3gLX0WMvqx7E3rynhxDzajIpo6K99r0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html",
+          "hash": "Neb133ZIy8Wi8/7/HrVJcBi4S7juWUOYiORz+rUMU/k="
         }
       },
       "is_incremental": false,
@@ -4074,7 +4110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.InteractionCreateEventArgs.html",
-          "hash": "lQpNK3i1/66PTIXaJQgVUBKAFtFp6YyRNgemiHuxQFg="
+          "hash": "f1zAPNEKbv91Rdrwr7KaJe78yP3r5pO3TMES7dpDcsI="
         }
       },
       "is_incremental": false,
@@ -4207,6 +4243,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.MessageUpdateEventArgs.html",
           "hash": "meaIzSO+aZaREUuiyRUJOgwvSmECvOUp4nLiiMK4D7w="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html",
+          "hash": "zwcBRgaC96Pw0GWIp11aR/cyWeYDDHgh3vz4fn2A82c="
         }
       },
       "is_incremental": false,
@@ -4514,11 +4562,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.EventArgs.ZombiedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.EventArgs.ZombiedEventArgs.html",
+          "hash": "DTzhbYeJP3aqTkHAjzaDhoXYXPil0q2b25uJQobDv7g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.EventArgs.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.html",
-          "hash": "/jYxco1zBbt+fW5TKkDud+szmRaEqeV5PyJtSvd9SWs="
+          "hash": "jvd0k3SQn40edbmASSIYyPSANZlUXhSkBgCYz+fZjYM="
         }
       },
       "is_incremental": false,
@@ -4854,7 +4914,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html",
-          "hash": "miSRecfhWbaHS1RZsPt5+xLgW3FvV8jFoYx5RADl9PY="
+          "hash": "AY7CRm7xxE8wyywTRP2rN/hIutjCQvmfwn+ybmLsnpA="
         }
       },
       "is_incremental": false,
@@ -4878,7 +4938,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html",
-          "hash": "NHaB+cYxwFKbeBkLj+xp+xMBSWRVLAwt0ONA/3gNyrc="
+          "hash": "tDO9zfOs7Bgr/fR5FjiPVxWZhBYbW257PxcZ3JtYkeU="
         }
       },
       "is_incremental": false,
@@ -4926,7 +4986,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.InteractivityExtension.html",
-          "hash": "WRNZOeckEnx6AdSY52b/qRdPKd/JEWI9ZD4mdY6EqF8="
+          "hash": "6UG8HYGHz1o61BgfG+AiAp3jaqW1KbKzCHoJ0CqIcIA="
         }
       },
       "is_incremental": false,
@@ -6702,7 +6762,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "B9mq4kl1lEU+bcqKsdjIYPyq6gFwu+O0MO2hSetoXA4="
+          "hash": "n63RZ28lcmkA81z172jKifu8+QxMtDz7Lqjjv8XpL8A="
         }
       },
       "is_incremental": false,
@@ -6714,7 +6774,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/advanced_topics/buttons.html",
-          "hash": "eVleI72YXQ3FcbV9M3dmLNOg3M7O2YrqBLiEykB44sI="
+          "hash": "ceVHOuAg2YRfleZvwwbCD9FVDQRFpYG+dmnle2E+LyA="
         }
       },
       "is_incremental": false,
@@ -6726,7 +6786,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/configuration.html",
-          "hash": "oNRYxKQjJH1j0oh+9JLy0xVANLWVd0fnDgS55TSmd1g="
+          "hash": "VSCEGr7tODMrDt6vmpxjtV4EMNU3Sxu2ACOMezXVbk0="
         }
       },
       "is_incremental": false,
@@ -6738,7 +6798,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/music_commands.html",
-          "hash": "B/vKUoBPPlw8DQUvFNxL/GriU8fu6/Owk6lmD+V4slc="
+          "hash": "699MqWQK4ldqXv3em3p5lQVTSPOaETWm5AVXrDozL0k="
         }
       },
       "is_incremental": false,
@@ -6750,7 +6810,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/lavalink/setup.html",
-          "hash": "kUm9teK9toKg2Lx7WKaJ1dAZASTiLkqtKbhjpL7p7u8="
+          "hash": "YyP3FgxDGRV0H8mS7a9doLtToJPYo6iL4kicSkk5qs4="
         }
       },
       "is_incremental": false,
@@ -6762,7 +6822,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/audio/voicenext/prerequisites.html",
-          "hash": "jDfzOlJkeSs3OIxQbqngNcWaHTAjUFnQ2MNzxLZRMCs="
+          "hash": "gRlemuYPHVh3ivS4KjiEgoL/zfIEjDg5sFa+WhJYy38="
         }
       },
       "is_incremental": false,
@@ -6966,7 +7026,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/hosting.html",
-          "hash": "D5gUYhiWpfZTR0cXcPjOCxe91M/r25BN0kihflYZKE0="
+          "hash": "ogxhMcrp+HUhVuLfjHxnOVCLmLUoF4WKHdxOfCdWs+0="
         }
       },
       "is_incremental": false,
@@ -6978,7 +7038,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/interactivity.html",
-          "hash": "xuac4WMkAdv1Y7YzJd+NIbN1sHoQHLu5rSoJw8BiSZE="
+          "hash": "ixhdtolXot3fIbSPH012psMvDWb0D2mRagbWUN3xTig="
         }
       },
       "is_incremental": false,
@@ -7014,7 +7074,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/preamble.html",
-          "hash": "D8tyb7vCkHgeriRU+YL/TF2Jxbz6eVJuBOlxK6KArdI="
+          "hash": "4VYhqE4CCOQ4vm/t7TazctMweTUXYd0qTMd6ClxmbOg="
         }
       },
       "is_incremental": false,
@@ -7737,8 +7797,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 556,
-          "skipped_file_count": 556
+          "total_file_count": 561,
+          "skipped_file_count": 561
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

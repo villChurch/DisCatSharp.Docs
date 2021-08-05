@@ -8348,6 +8348,15 @@ references:
   fullName.vb: DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64, IEnumerable(Of DiscordApplicationCommand))
   nameWithType: DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable<DiscordApplicationCommand>)
   nameWithType.vb: DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable(Of DiscordApplicationCommand))
+- uid: DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordGuildApplicationCommandPermission})
+  name: BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable<DiscordGuildApplicationCommandPermission>)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordGuildApplicationCommandPermission__
+  commentId: M:DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordGuildApplicationCommandPermission})
+  name.vb: BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable(Of DiscordGuildApplicationCommandPermission))
+  fullName: DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64, IEnumerable<DiscordGuildApplicationCommandPermission>)
+  fullName.vb: DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64, IEnumerable(Of DiscordGuildApplicationCommandPermission))
+  nameWithType: DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable<DiscordGuildApplicationCommandPermission>)
+  nameWithType.vb: DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable(Of DiscordGuildApplicationCommandPermission))
 - uid: DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*
   name: BulkOverwriteGuildApplicationCommandsAsync
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_
@@ -8407,6 +8416,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.ConnectAsync
   nameWithType: DiscordClient.ConnectAsync
+- uid: DisCatSharp.DiscordClient.ContextMenuInteractionCreated
+  name: ContextMenuInteractionCreated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ContextMenuInteractionCreated
+  commentId: E:DisCatSharp.DiscordClient.ContextMenuInteractionCreated
+  fullName: DisCatSharp.DiscordClient.ContextMenuInteractionCreated
+  nameWithType: DiscordClient.ContextMenuInteractionCreated
 - uid: DisCatSharp.DiscordClient.CreateGlobalApplicationCommandAsync(DiscordApplicationCommand)
   name: CreateGlobalApplicationCommandAsync(DiscordApplicationCommand)
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_CreateGlobalApplicationCommandAsync_DiscordApplicationCommand_
@@ -8607,6 +8622,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GatewayVersion
   nameWithType: DiscordClient.GatewayVersion
+- uid: DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync(System.UInt64,System.UInt64)
+  name: GetApplicationCommandPermissionAsync(UInt64, UInt64)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetApplicationCommandPermissionAsync_System_UInt64_System_UInt64_
+  commentId: M:DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync(System.UInt64,System.UInt64)
+  fullName: DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync(System.UInt64, System.UInt64)
+  nameWithType: DiscordClient.GetApplicationCommandPermissionAsync(UInt64, UInt64)
+- uid: DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync*
+  name: GetApplicationCommandPermissionAsync
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetApplicationCommandPermissionAsync_
+  commentId: Overload:DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordClient.GetApplicationCommandPermissionAsync
+  nameWithType: DiscordClient.GetApplicationCommandPermissionAsync
 - uid: DisCatSharp.DiscordClient.GetChannelAsync(System.UInt64)
   name: GetChannelAsync(UInt64)
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetChannelAsync_System_UInt64_
@@ -8688,6 +8716,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GetGuildApplicationCommandAsync
   nameWithType: DiscordClient.GetGuildApplicationCommandAsync
+- uid: DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync(System.UInt64)
+  name: GetGuildApplicationCommandPermissionsAsync(UInt64)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetGuildApplicationCommandPermissionsAsync_System_UInt64_
+  commentId: M:DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync(System.UInt64)
+  fullName: DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync(System.UInt64)
+  nameWithType: DiscordClient.GetGuildApplicationCommandPermissionsAsync(UInt64)
+- uid: DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync*
+  name: GetGuildApplicationCommandPermissionsAsync
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetGuildApplicationCommandPermissionsAsync_
+  commentId: Overload:DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordClient.GetGuildApplicationCommandPermissionsAsync
+  nameWithType: DiscordClient.GetGuildApplicationCommandPermissionsAsync
 - uid: DisCatSharp.DiscordClient.GetGuildApplicationCommandsAsync(System.UInt64)
   name: GetGuildApplicationCommandsAsync(UInt64)
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetGuildApplicationCommandsAsync_System_UInt64_
@@ -8811,12 +8852,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GetThreadAsync
   nameWithType: DiscordClient.GetThreadAsync
-- uid: DisCatSharp.DiscordClient.GetUserAsync(System.UInt64)
-  name: GetUserAsync(UInt64)
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetUserAsync_System_UInt64_
-  commentId: M:DisCatSharp.DiscordClient.GetUserAsync(System.UInt64)
-  fullName: DisCatSharp.DiscordClient.GetUserAsync(System.UInt64)
-  nameWithType: DiscordClient.GetUserAsync(UInt64)
+- uid: DisCatSharp.DiscordClient.GetUserAsync(System.UInt64,System.Boolean)
+  name: GetUserAsync(UInt64, Boolean)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetUserAsync_System_UInt64_System_Boolean_
+  commentId: M:DisCatSharp.DiscordClient.GetUserAsync(System.UInt64,System.Boolean)
+  fullName: DisCatSharp.DiscordClient.GetUserAsync(System.UInt64, System.Boolean)
+  nameWithType: DiscordClient.GetUserAsync(UInt64, Boolean)
 - uid: DisCatSharp.DiscordClient.GetUserAsync*
   name: GetUserAsync
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetUserAsync_
@@ -8850,6 +8891,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GetWebhookWithTokenAsync
   nameWithType: DiscordClient.GetWebhookWithTokenAsync
+- uid: DisCatSharp.DiscordClient.GuildApplicationCommandCountUpdated
+  name: GuildApplicationCommandCountUpdated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildApplicationCommandCountUpdated
+  commentId: E:DisCatSharp.DiscordClient.GuildApplicationCommandCountUpdated
+  fullName: DisCatSharp.DiscordClient.GuildApplicationCommandCountUpdated
+  nameWithType: DiscordClient.GuildApplicationCommandCountUpdated
 - uid: DisCatSharp.DiscordClient.GuildAvailable
   name: GuildAvailable
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildAvailable
@@ -9080,6 +9127,28 @@ references:
   commentId: E:DisCatSharp.DiscordClient.MessageUpdated
   fullName: DisCatSharp.DiscordClient.MessageUpdated
   nameWithType: DiscordClient.MessageUpdated
+- uid: DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,IEnumerable{DiscordApplicationCommandPermission})
+  name: OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable<DiscordApplicationCommandPermission>)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_System_UInt64_System_UInt64_IEnumerable_DiscordApplicationCommandPermission__
+  commentId: M:DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,IEnumerable{DiscordApplicationCommandPermission})
+  name.vb: OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable(Of DiscordApplicationCommandPermission))
+  fullName: DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64, System.UInt64, IEnumerable<DiscordApplicationCommandPermission>)
+  fullName.vb: DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64, System.UInt64, IEnumerable(Of DiscordApplicationCommandPermission))
+  nameWithType: DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable<DiscordApplicationCommandPermission>)
+  nameWithType.vb: DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable(Of DiscordApplicationCommandPermission))
+- uid: DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync*
+  name: OverwriteGuildApplicationCommandPermissionsAsync
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_
+  commentId: Overload:DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync
+  nameWithType: DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync
+- uid: DisCatSharp.DiscordClient.PayloadReceived
+  name: PayloadReceived
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_PayloadReceived
+  commentId: E:DisCatSharp.DiscordClient.PayloadReceived
+  fullName: DisCatSharp.DiscordClient.PayloadReceived
+  nameWithType: DiscordClient.PayloadReceived
 - uid: DisCatSharp.DiscordClient.Ping
   name: Ping
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_Ping
@@ -9349,6 +9418,12 @@ references:
   commentId: E:DisCatSharp.DiscordClient.WebhooksUpdated
   fullName: DisCatSharp.DiscordClient.WebhooksUpdated
   nameWithType: DiscordClient.WebhooksUpdated
+- uid: DisCatSharp.DiscordClient.Zombied
+  name: Zombied
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_Zombied
+  commentId: E:DisCatSharp.DiscordClient.Zombied
+  fullName: DisCatSharp.DiscordClient.Zombied
+  nameWithType: DiscordClient.Zombied
 - uid: DisCatSharp.DiscordConfiguration
   name: DiscordConfiguration
   href: api/DisCatSharp.DiscordConfiguration.html
@@ -9873,6 +9948,12 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.ComponentInteractionCreated
   fullName: DisCatSharp.DiscordShardedClient.ComponentInteractionCreated
   nameWithType: DiscordShardedClient.ComponentInteractionCreated
+- uid: DisCatSharp.DiscordShardedClient.ContextMenuInteractionCreated
+  name: ContextMenuInteractionCreated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_ContextMenuInteractionCreated
+  commentId: E:DisCatSharp.DiscordShardedClient.ContextMenuInteractionCreated
+  fullName: DisCatSharp.DiscordShardedClient.ContextMenuInteractionCreated
+  nameWithType: DiscordShardedClient.ContextMenuInteractionCreated
 - uid: DisCatSharp.DiscordShardedClient.CurrentApplication
   name: CurrentApplication
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_CurrentApplication
@@ -9950,6 +10031,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordShardedClient.GetShard
   nameWithType: DiscordShardedClient.GetShard
+- uid: DisCatSharp.DiscordShardedClient.GuildApplicationCommandCountUpdated
+  name: GuildApplicationCommandCountUpdated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildApplicationCommandCountUpdated
+  commentId: E:DisCatSharp.DiscordShardedClient.GuildApplicationCommandCountUpdated
+  fullName: DisCatSharp.DiscordShardedClient.GuildApplicationCommandCountUpdated
+  nameWithType: DiscordShardedClient.GuildApplicationCommandCountUpdated
 - uid: DisCatSharp.DiscordShardedClient.GuildAvailable
   name: GuildAvailable
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildAvailable
@@ -10161,6 +10248,12 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.MessageUpdated
   fullName: DisCatSharp.DiscordShardedClient.MessageUpdated
   nameWithType: DiscordShardedClient.MessageUpdated
+- uid: DisCatSharp.DiscordShardedClient.PayloadReceived
+  name: PayloadReceived
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_PayloadReceived
+  commentId: E:DisCatSharp.DiscordShardedClient.PayloadReceived
+  fullName: DisCatSharp.DiscordShardedClient.PayloadReceived
+  nameWithType: DiscordShardedClient.PayloadReceived
 - uid: DisCatSharp.DiscordShardedClient.PresenceUpdated
   name: PresenceUpdated
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_PresenceUpdated
@@ -10361,6 +10454,12 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.WebhooksUpdated
   fullName: DisCatSharp.DiscordShardedClient.WebhooksUpdated
   nameWithType: DiscordShardedClient.WebhooksUpdated
+- uid: DisCatSharp.DiscordShardedClient.Zombied
+  name: Zombied
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_Zombied
+  commentId: E:DisCatSharp.DiscordShardedClient.Zombied
+  fullName: DisCatSharp.DiscordShardedClient.Zombied
+  nameWithType: DiscordShardedClient.Zombied
 - uid: DisCatSharp.DiscordWebhookClient
   name: DiscordWebhookClient
   href: api/DisCatSharp.DiscordWebhookClient.html
@@ -11689,6 +11788,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommand.Options
   nameWithType: DiscordApplicationCommand.Options
+- uid: DisCatSharp.Entities.DiscordApplicationCommand.Type
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand_Type
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommand.Type
+  fullName: DisCatSharp.Entities.DiscordApplicationCommand.Type
+  nameWithType: DiscordApplicationCommand.Type
+- uid: DisCatSharp.Entities.DiscordApplicationCommand.Type*
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand_Type_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommand.Type
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommand.Type
+  nameWithType: DiscordApplicationCommand.Type
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html
@@ -11885,6 +11997,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.GetHashCode
   nameWithType: DiscordApplicationCommandPermission.GetHashCode
+- uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.Id
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission_Id
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandPermission.Id
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.Id
+  nameWithType: DiscordApplicationCommandPermission.Id
+- uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.Id*
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission_Id_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandPermission.Id
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.Id
+  nameWithType: DiscordApplicationCommandPermission.Id
 - uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.op_Equality(DisCatSharp.Entities.DiscordApplicationCommandPermission,DisCatSharp.Entities.DiscordApplicationCommandPermission)
   name: Equality(DiscordApplicationCommandPermission, DiscordApplicationCommandPermission)
   href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission_op_Equality_DisCatSharp_Entities_DiscordApplicationCommandPermission_DisCatSharp_Entities_DiscordApplicationCommandPermission_
@@ -19054,6 +19179,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.GetHashCode
   nameWithType: DiscordGuildApplicationCommandPermission.GetHashCode
+- uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild
+  name: Guild
+  href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_Guild
+  commentId: P:DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild
+  fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild
+  nameWithType: DiscordGuildApplicationCommandPermission.Guild
+- uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild*
+  name: Guild
+  href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_Guild_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Guild
+  nameWithType: DiscordGuildApplicationCommandPermission.Guild
 - uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.GuildId
   name: GuildId
   href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_GuildId
@@ -19067,6 +19205,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.GuildId
   nameWithType: DiscordGuildApplicationCommandPermission.GuildId
+- uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_Id
+  commentId: P:DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id
+  fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id
+  nameWithType: DiscordGuildApplicationCommandPermission.Id
+- uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id*
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_Id_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.Id
+  nameWithType: DiscordGuildApplicationCommandPermission.Id
 - uid: DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.op_Equality(DisCatSharp.Entities.DiscordGuildApplicationCommandPermission,DisCatSharp.Entities.DiscordGuildApplicationCommandPermission)
   name: Equality(DiscordGuildApplicationCommandPermission, DiscordGuildApplicationCommandPermission)
   href: api/DisCatSharp.Entities.DiscordGuildApplicationCommandPermission.html#DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_op_Equality_DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_DisCatSharp_Entities_DiscordGuildApplicationCommandPermission_
@@ -20494,6 +20645,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Members
   nameWithType: DiscordInteractionResolvedCollection.Members
+- uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages
+  name: Messages
+  href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Messages
+  commentId: P:DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages
+  fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages
+  nameWithType: DiscordInteractionResolvedCollection.Messages
+- uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages*
+  name: Messages
+  href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Messages_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Messages
+  nameWithType: DiscordInteractionResolvedCollection.Messages
 - uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Roles
   name: Roles
   href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Roles
@@ -41783,6 +41947,30 @@ references:
   commentId: N:DisCatSharp.Enums
   fullName: DisCatSharp.Enums
   nameWithType: DisCatSharp.Enums
+- uid: DisCatSharp.Enums.ApplicationCommandType
+  name: ApplicationCommandType
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html
+  commentId: T:DisCatSharp.Enums.ApplicationCommandType
+  fullName: DisCatSharp.Enums.ApplicationCommandType
+  nameWithType: ApplicationCommandType
+- uid: DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
+  name: MessageContextMenu
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_MessageContextMenu
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
+  fullName: DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
+  nameWithType: ApplicationCommandType.MessageContextMenu
+- uid: DisCatSharp.Enums.ApplicationCommandType.SlashCommand
+  name: SlashCommand
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_SlashCommand
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.SlashCommand
+  fullName: DisCatSharp.Enums.ApplicationCommandType.SlashCommand
+  nameWithType: ApplicationCommandType.SlashCommand
+- uid: DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
+  name: UserContextMenu
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_UserContextMenu
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
+  fullName: DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
+  nameWithType: ApplicationCommandType.UserContextMenu
 - uid: DisCatSharp.Enums.ButtonStyle
   name: ButtonStyle
   href: api/DisCatSharp.Enums.ButtonStyle.html
@@ -42469,6 +42657,64 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.ComponentInteractionCreateEventArgs.Values
   nameWithType: ComponentInteractionCreateEventArgs.Values
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs
+  name: ContextMenuInteractionCreateEventArgs
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs
+  nameWithType: ContextMenuInteractionCreateEventArgs
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage
+  name: TargetMessage
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_TargetMessage
+  commentId: P:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage
+  nameWithType: ContextMenuInteractionCreateEventArgs.TargetMessage
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage*
+  name: TargetMessage
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_TargetMessage_
+  commentId: Overload:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetMessage
+  nameWithType: ContextMenuInteractionCreateEventArgs.TargetMessage
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser
+  name: TargetUser
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_TargetUser
+  commentId: P:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser
+  nameWithType: ContextMenuInteractionCreateEventArgs.TargetUser
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser*
+  name: TargetUser
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_TargetUser_
+  commentId: Overload:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.TargetUser
+  nameWithType: ContextMenuInteractionCreateEventArgs.TargetUser
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type
+  name: Type
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_Type
+  commentId: P:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type
+  nameWithType: ContextMenuInteractionCreateEventArgs.Type
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type*
+  name: Type
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_Type_
+  commentId: Overload:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.Type
+  nameWithType: ContextMenuInteractionCreateEventArgs.Type
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User
+  name: User
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_User
+  commentId: P:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User
+  nameWithType: ContextMenuInteractionCreateEventArgs.User
+- uid: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User*
+  name: User
+  href: api/DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.html#DisCatSharp_EventArgs_ContextMenuInteractionCreateEventArgs_User_
+  commentId: Overload:DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ContextMenuInteractionCreateEventArgs.User
+  nameWithType: ContextMenuInteractionCreateEventArgs.User
 - uid: DisCatSharp.EventArgs.DiscordEventArgs
   name: DiscordEventArgs
   href: api/DisCatSharp.EventArgs.DiscordEventArgs.html
@@ -42507,6 +42753,64 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.DmChannelDeleteEventArgs.Channel
   nameWithType: DmChannelDeleteEventArgs.Channel
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs
+  name: GuildApplicationCommandCountEventArgs
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs
+  nameWithType: GuildApplicationCommandCountEventArgs
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild
+  name: Guild
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild
+  nameWithType: GuildApplicationCommandCountEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild*
+  name: Guild
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.Guild
+  nameWithType: GuildApplicationCommandCountEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+  name: MessageContextMenuCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_MessageContextMenuCommands
+  commentId: P:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands*
+  name: MessageContextMenuCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_MessageContextMenuCommands_
+  commentId: Overload:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.MessageContextMenuCommands
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands
+  name: SlashCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_SlashCommands
+  commentId: P:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.SlashCommands
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands*
+  name: SlashCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_SlashCommands_
+  commentId: Overload:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.SlashCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.SlashCommands
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+  name: UserContextMenuCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_UserContextMenuCommands
+  commentId: P:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+- uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands*
+  name: UserContextMenuCommands
+  href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html#DisCatSharp_EventArgs_GuildApplicationCommandCountEventArgs_UserContextMenuCommands_
+  commentId: Overload:DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.UserContextMenuCommands
+  nameWithType: GuildApplicationCommandCountEventArgs.UserContextMenuCommands
 - uid: DisCatSharp.EventArgs.GuildBanAddEventArgs
   name: GuildBanAddEventArgs
   href: api/DisCatSharp.EventArgs.GuildBanAddEventArgs.html
@@ -43986,6 +44290,38 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.MessageUpdateEventArgs.MessageBefore
   nameWithType: MessageUpdateEventArgs.MessageBefore
+- uid: DisCatSharp.EventArgs.PayloadReceivedEventArgs
+  name: PayloadReceivedEventArgs
+  href: api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.PayloadReceivedEventArgs
+  fullName: DisCatSharp.EventArgs.PayloadReceivedEventArgs
+  nameWithType: PayloadReceivedEventArgs
+- uid: DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName
+  name: EventName
+  href: api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html#DisCatSharp_EventArgs_PayloadReceivedEventArgs_EventName
+  commentId: P:DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName
+  fullName: DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName
+  nameWithType: PayloadReceivedEventArgs.EventName
+- uid: DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName*
+  name: EventName
+  href: api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html#DisCatSharp_EventArgs_PayloadReceivedEventArgs_EventName_
+  commentId: Overload:DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.PayloadReceivedEventArgs.EventName
+  nameWithType: PayloadReceivedEventArgs.EventName
+- uid: DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json
+  name: Json
+  href: api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html#DisCatSharp_EventArgs_PayloadReceivedEventArgs_Json
+  commentId: P:DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json
+  fullName: DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json
+  nameWithType: PayloadReceivedEventArgs.Json
+- uid: DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json*
+  name: Json
+  href: api/DisCatSharp.EventArgs.PayloadReceivedEventArgs.html#DisCatSharp_EventArgs_PayloadReceivedEventArgs_Json_
+  commentId: Overload:DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.PayloadReceivedEventArgs.Json
+  nameWithType: PayloadReceivedEventArgs.Json
 - uid: DisCatSharp.EventArgs.PresenceUpdateEventArgs
   name: PresenceUpdateEventArgs
   href: api/DisCatSharp.EventArgs.PresenceUpdateEventArgs.html
@@ -44984,6 +45320,38 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.WebhooksUpdateEventArgs.Guild
   nameWithType: WebhooksUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.ZombiedEventArgs
+  name: ZombiedEventArgs
+  href: api/DisCatSharp.EventArgs.ZombiedEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.ZombiedEventArgs
+  fullName: DisCatSharp.EventArgs.ZombiedEventArgs
+  nameWithType: ZombiedEventArgs
+- uid: DisCatSharp.EventArgs.ZombiedEventArgs.Failures
+  name: Failures
+  href: api/DisCatSharp.EventArgs.ZombiedEventArgs.html#DisCatSharp_EventArgs_ZombiedEventArgs_Failures
+  commentId: P:DisCatSharp.EventArgs.ZombiedEventArgs.Failures
+  fullName: DisCatSharp.EventArgs.ZombiedEventArgs.Failures
+  nameWithType: ZombiedEventArgs.Failures
+- uid: DisCatSharp.EventArgs.ZombiedEventArgs.Failures*
+  name: Failures
+  href: api/DisCatSharp.EventArgs.ZombiedEventArgs.html#DisCatSharp_EventArgs_ZombiedEventArgs_Failures_
+  commentId: Overload:DisCatSharp.EventArgs.ZombiedEventArgs.Failures
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ZombiedEventArgs.Failures
+  nameWithType: ZombiedEventArgs.Failures
+- uid: DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted
+  name: GuildDownloadCompleted
+  href: api/DisCatSharp.EventArgs.ZombiedEventArgs.html#DisCatSharp_EventArgs_ZombiedEventArgs_GuildDownloadCompleted
+  commentId: P:DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted
+  fullName: DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted
+  nameWithType: ZombiedEventArgs.GuildDownloadCompleted
+- uid: DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted*
+  name: GuildDownloadCompleted
+  href: api/DisCatSharp.EventArgs.ZombiedEventArgs.html#DisCatSharp_EventArgs_ZombiedEventArgs_GuildDownloadCompleted_
+  commentId: Overload:DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ZombiedEventArgs.GuildDownloadCompleted
+  nameWithType: ZombiedEventArgs.GuildDownloadCompleted
 - uid: DisCatSharp.Exceptions
   name: DisCatSharp.Exceptions
   href: api/DisCatSharp.Exceptions.html
@@ -46328,6 +46696,24 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), DisCatSharp.Interactivity.PaginationEmojis, System.Nullable(Of PaginationBehaviour), System.Nullable(Of PaginationDeletion), System.Nullable(Of TimeSpan))
   nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationEmojis, Nullable<PaginationBehaviour>, Nullable<PaginationDeletion>, Nullable<TimeSpan>)
   nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationEmojis, Nullable(Of PaginationBehaviour), Nullable(Of PaginationDeletion), Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*
   name: SendPaginatedMessageAsync
   href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_
@@ -46472,6 +46858,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.GetNextMessageAsync
   nameWithType: MessageExtensions.GetNextMessageAsync
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage)
+  name: WaitForButtonAsync(DiscordMessage)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage)
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__
@@ -46481,15 +46873,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
-  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__
@@ -46499,15 +46888,6 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -46517,6 +46897,18 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.String, System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, String, CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync*
   name: WaitForButtonAsync
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_
@@ -46549,15 +46941,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForReactionAsync
   nameWithType: MessageExtensions.WaitForReactionAsync
-- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
-  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__
@@ -46567,15 +46950,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -46585,6 +46965,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of TimeSpan))
   nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, System.String, System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, String, CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync*
   name: WaitForSelectAsync
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_
@@ -46907,15 +47293,24 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), DisCatSharp.Interactivity.PaginationEmojis, System.Nullable(Of PaginationBehaviour), System.Nullable(Of PaginationDeletion), System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationEmojis, Nullable<PaginationBehaviour>, Nullable<PaginationDeletion>, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationEmojis, Nullable(Of PaginationBehaviour), Nullable(Of PaginationDeletion), Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Nullable{System.Threading.CancellationToken})
-  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Nullable{System.Threading.CancellationToken})
-  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*
   name: SendPaginatedMessageAsync
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_
@@ -46936,15 +47331,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.InteractivityExtension.Setup
   nameWithType: InteractivityExtension.Setup
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
+  name: WaitForButtonAsync(DiscordMessage)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__
@@ -46954,15 +47346,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_TimeSpan__
@@ -46972,15 +47361,15 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Threading.CancellationToken)
+  name.vb: WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, IEnumerable(Of DiscordButtonComponent), CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__
@@ -46990,15 +47379,6 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable(Of CancellationToken))
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -47008,6 +47388,18 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.String, System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, String, CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*
   name: WaitForButtonAsync
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_
@@ -47116,15 +47508,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync
   nameWithType: InteractivityExtension.WaitForReactionAsync
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of CancellationToken))
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_TimeSpan__
@@ -47134,15 +47517,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable(Of TimeSpan))
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name: WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_Threading_CancellationToken__
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.Threading.CancellationToken})
-  name.vb: WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable<System.Threading.CancellationToken>)
-  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of System.Threading.CancellationToken))
-  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable<CancellationToken>)
-  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable(Of CancellationToken))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -47152,6 +47532,12 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Nullable(Of TimeSpan))
   nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, String, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Threading.CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, System.String, System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, String, CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*
   name: WaitForSelectAsync
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_
