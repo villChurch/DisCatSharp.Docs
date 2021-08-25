@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DiscordClient
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -448,7 +448,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGlobalApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGlobalApplicationCommandsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGlobalApplicationCommandsAsync_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGlobalApplicationCommandsAsync(IEnumerable{DiscordApplicationCommand})">BulkOverwriteGlobalApplicationCommandsAsync(IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
-  <div class="markdown level1 summary"><p>Overwrites the existing global slash commands. New commands are automatically created and missing commands are automatically deleted.</p>
+  <div class="markdown level1 summary"><p>Overwrites the existing global application commands. New commands are automatically created and missing commands are automatically deleted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -493,7 +493,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordApplicationCommand})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
-  <div class="markdown level1 summary"><p>Overwrites the existing slash commands in a guild. New commands are automatically created and missing commands are automatically deleted.</p>
+  <div class="markdown level1 summary"><p>Overwrites the existing application commands in a guild. New commands are automatically created and missing commands are automatically deleted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -544,7 +544,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordGuildApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordGuildApplicationCommandPermission})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordGuildApplicationCommandPermission&gt;)</h4>
-  <div class="markdown level1 summary"><p>Overwrites the existing slash command permissions in a guild. New permissions are automatically created and missing permissions are deleted.
+  <div class="markdown level1 summary"><p>Overwrites the existing application command permissions in a guild. New permissions are automatically created and missing permissions are deleted.
 Each command takes up to 10 permission overwrites.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -600,7 +600,7 @@ Each command takes up to 10 permission overwrites.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task ConnectAsync(DiscordActivity activity = null, UserStatus? status = default(UserStatus? ), DateTimeOffset? idlesince = default(DateTimeOffset? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task ConnectAsync(DiscordActivity activity = null, UserStatus? status = null, DateTimeOffset? idlesince = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -648,7 +648,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_CreateGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.CreateGlobalApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_CreateGlobalApplicationCommandAsync_DiscordApplicationCommand_" data-uid="DisCatSharp.DiscordClient.CreateGlobalApplicationCommandAsync(DiscordApplicationCommand)">CreateGlobalApplicationCommandAsync(DiscordApplicationCommand)</h4>
-  <div class="markdown level1 summary"><p>Creates or overwrites a global slash command.</p>
+  <div class="markdown level1 summary"><p>Creates or overwrites a global application command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -693,7 +693,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_CreateGuildApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.CreateGuildApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_CreateGuildApplicationCommandAsync_System_UInt64_DiscordApplicationCommand_" data-uid="DisCatSharp.DiscordClient.CreateGuildApplicationCommandAsync(System.UInt64,DiscordApplicationCommand)">CreateGuildApplicationCommandAsync(UInt64, DiscordApplicationCommand)</h4>
-  <div class="markdown level1 summary"><p>Creates or overwrites a guild slash command.</p>
+  <div class="markdown level1 summary"><p>Creates or overwrites a guild application command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -713,7 +713,7 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">guildId</span></td>
-        <td><p>The id of the guild to create the slash command in.</p>
+        <td><p>The id of the guild to create the application command in.</p>
 </td>
       </tr>
       <tr>
@@ -743,13 +743,13 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_CreateGuildAsync_" data-uid="DisCatSharp.DiscordClient.CreateGuildAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_CreateGuildAsync_System_String_System_String_Optional_Stream__System_Nullable_VerificationLevel__System_Nullable_DefaultMessageNotifications__" data-uid="DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications})">CreateGuildAsync(String, String, Optional&lt;Stream&gt;, Nullable&lt;VerificationLevel&gt;, Nullable&lt;DefaultMessageNotifications&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_CreateGuildAsync_System_String_System_String_Optional_Stream__System_Nullable_VerificationLevel__System_Nullable_DefaultMessageNotifications__System_Nullable_DisCatSharp_SystemChannelFlags__" data-uid="DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications},System.Nullable{DisCatSharp.SystemChannelFlags})">CreateGuildAsync(String, String, Optional&lt;Stream&gt;, Nullable&lt;VerificationLevel&gt;, Nullable&lt;DefaultMessageNotifications&gt;, Nullable&lt;SystemChannelFlags&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a guild. This requires the bot to be in less than 10 guilds total.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordGuild&gt; CreateGuildAsync(string name, string region = null, Optional&lt;Stream&gt; icon = null, VerificationLevel? verificationLevel = default(VerificationLevel? ), DefaultMessageNotifications? defaultMessageNotifications = default(DefaultMessageNotifications? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordGuild&gt; CreateGuildAsync(string name, string region = null, Optional&lt;Stream&gt; icon = null, VerificationLevel? verificationLevel = null, DefaultMessageNotifications? defaultMessageNotifications = null, SystemChannelFlags? systemChannelFlags = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -789,6 +789,12 @@ Each command takes up to 10 permission overwrites.</p>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DefaultMessageNotifications</span>&gt;</td>
         <td><span class="parametername">defaultMessageNotifications</span></td>
         <td><p>Default message notification settings for the guild.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DisCatSharp.SystemChannelFlags.html">SystemChannelFlags</a>&gt;</td>
+        <td><span class="parametername">systemChannelFlags</span></td>
+        <td><p>System channel flags fopr the guild.</p>
 </td>
       </tr>
     </tbody>
@@ -870,7 +876,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_DeleteGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.DeleteGlobalApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_DeleteGlobalApplicationCommandAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.DeleteGlobalApplicationCommandAsync(System.UInt64)">DeleteGlobalApplicationCommandAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Deletes a global slash command.</p>
+  <div class="markdown level1 summary"><p>Deletes a global application command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -914,7 +920,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_DeleteGuildApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.DeleteGuildApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_DeleteGuildApplicationCommandAsync_System_UInt64_System_UInt64_" data-uid="DisCatSharp.DiscordClient.DeleteGuildApplicationCommandAsync(System.UInt64,System.UInt64)">DeleteGuildApplicationCommandAsync(UInt64, UInt64)</h4>
-  <div class="markdown level1 summary"><p>Deletes a slash command in a guild.</p>
+  <div class="markdown level1 summary"><p>Deletes a application command in a guild.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -934,7 +940,7 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">guildId</span></td>
-        <td><p>The id of the guild to delete the slash command in.</p>
+        <td><p>The id of the guild to delete the application command in.</p>
 </td>
       </tr>
       <tr>
@@ -1003,7 +1009,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_EditGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.EditGlobalApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_EditGlobalApplicationCommandAsync_System_UInt64_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGlobalApplicationCommandAsync(System.UInt64,Action{ApplicationCommandEditModel})">EditGlobalApplicationCommandAsync(UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
-  <div class="markdown level1 summary"><p>Edits a global slash command.</p>
+  <div class="markdown level1 summary"><p>Edits a global application command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1054,7 +1060,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_EditGuildApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_EditGuildApplicationCommandAsync_System_UInt64_System_UInt64_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync(System.UInt64,System.UInt64,Action{ApplicationCommandEditModel})">EditGuildApplicationCommandAsync(UInt64, UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
-  <div class="markdown level1 summary"><p>Edits a slash command in a guild.</p>
+  <div class="markdown level1 summary"><p>Edits a application command in a guild.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1074,7 +1080,7 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">guildId</span></td>
-        <td><p>The id of the guild the slash command is in.</p>
+        <td><p>The id of the guild the application command is in.</p>
 </td>
       </tr>
       <tr>
@@ -1286,7 +1292,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_GetGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.GetGlobalApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_GetGlobalApplicationCommandAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetGlobalApplicationCommandAsync(System.UInt64)">GetGlobalApplicationCommandAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Gets a global slash command by its id.</p>
+  <div class="markdown level1 summary"><p>Gets a global application command by its id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1331,7 +1337,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_GetGlobalApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.GetGlobalApplicationCommandsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_GetGlobalApplicationCommandsAsync" data-uid="DisCatSharp.DiscordClient.GetGlobalApplicationCommandsAsync">GetGlobalApplicationCommandsAsync()</h4>
-  <div class="markdown level1 summary"><p>Gets all the global slash commands for this application.</p>
+  <div class="markdown level1 summary"><p>Gets all the global application commands for this application.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1349,7 +1355,7 @@ Each command takes up to 10 permission overwrites.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
-        <td><p>A list of global slash commands.</p>
+        <td><p>A list of global application commands.</p>
 </td>
       </tr>
     </tbody>
@@ -1358,7 +1364,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_GetGuildApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_GetGuildApplicationCommandAsync_System_UInt64_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandAsync(System.UInt64,System.UInt64)">GetGuildApplicationCommandAsync(UInt64, UInt64)</h4>
-  <div class="markdown level1 summary"><p>Gets a slash command in a guild by its id.</p>
+  <div class="markdown level1 summary"><p>Gets a application command in a guild by its id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1378,7 +1384,7 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">guildId</span></td>
-        <td><p>The id of the guild the slash command is in.</p>
+        <td><p>The id of the guild the application command is in.</p>
 </td>
       </tr>
       <tr>
@@ -1453,7 +1459,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_GetGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_GetGuildApplicationCommandsAsync_System_UInt64_" data-uid="DisCatSharp.DiscordClient.GetGuildApplicationCommandsAsync(System.UInt64)">GetGuildApplicationCommandsAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Gets all the slash commands for a guild.</p>
+  <div class="markdown level1 summary"><p>Gets all the application commands for a guild.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1473,7 +1479,7 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">guildId</span></td>
-        <td><p>The id of the guild to get slash commands for.</p>
+        <td><p>The id of the guild to get application commands for.</p>
 </td>
       </tr>
     </tbody>
@@ -1489,7 +1495,7 @@ Each command takes up to 10 permission overwrites.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
-        <td><p>A list of slash commands in the guild.</p>
+        <td><p>A list of application commands in the guild.</p>
 </td>
       </tr>
     </tbody>
@@ -1504,7 +1510,7 @@ Each command takes up to 10 permission overwrites.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordGuild&gt; GetGuildAsync(ulong id, bool? withCounts = default(bool? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordGuild&gt; GetGuildAsync(ulong id, bool? withCounts = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1650,7 +1656,7 @@ Each command takes up to 10 permission overwrites.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordInvite&gt; GetInviteByCodeAsync(string code, bool? withCounts = default(bool? ), bool? withExpiration = default(bool? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordInvite&gt; GetInviteByCodeAsync(string code, bool? withCounts = null, bool? withExpiration = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2011,7 +2017,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_System_UInt64_System_UInt64_IEnumerable_DiscordApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,IEnumerable{DiscordApplicationCommandPermission})">OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable&lt;DiscordApplicationCommandPermission&gt;)</h4>
-  <div class="markdown level1 summary"><p>Overwrites the existing permissions for a slash command in a guild. New permissions are automatically created and missing permissions are deleted.
+  <div class="markdown level1 summary"><p>Overwrites the existing permissions for a application command in a guild. New permissions are automatically created and missing permissions are deleted.
 A command takes up to 10 permission overwrites.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2429,7 +2435,7 @@ A command takes up to 10 permission overwrites.</p>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task UpdateStatusAsync(DiscordActivity activity = null, UserStatus? userStatus = default(UserStatus? ), DateTimeOffset? idleSince = default(DateTimeOffset? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task UpdateStatusAsync(DiscordActivity activity = null, UserStatus? userStatus = null, DateTimeOffset? idleSince = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

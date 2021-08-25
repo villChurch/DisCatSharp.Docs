@@ -8448,15 +8448,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.CreateGuildApplicationCommandAsync
   nameWithType: DiscordClient.CreateGuildApplicationCommandAsync
-- uid: DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications})
-  name: CreateGuildAsync(String, String, Optional<Stream>, Nullable<VerificationLevel>, Nullable<DefaultMessageNotifications>)
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_CreateGuildAsync_System_String_System_String_Optional_Stream__System_Nullable_VerificationLevel__System_Nullable_DefaultMessageNotifications__
-  commentId: M:DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications})
-  name.vb: CreateGuildAsync(String, String, Optional(Of Stream), Nullable(Of VerificationLevel), Nullable(Of DefaultMessageNotifications))
-  fullName: DisCatSharp.DiscordClient.CreateGuildAsync(System.String, System.String, Optional<Stream>, System.Nullable<VerificationLevel>, System.Nullable<DefaultMessageNotifications>)
-  fullName.vb: DisCatSharp.DiscordClient.CreateGuildAsync(System.String, System.String, Optional(Of Stream), System.Nullable(Of VerificationLevel), System.Nullable(Of DefaultMessageNotifications))
-  nameWithType: DiscordClient.CreateGuildAsync(String, String, Optional<Stream>, Nullable<VerificationLevel>, Nullable<DefaultMessageNotifications>)
-  nameWithType.vb: DiscordClient.CreateGuildAsync(String, String, Optional(Of Stream), Nullable(Of VerificationLevel), Nullable(Of DefaultMessageNotifications))
+- uid: DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications},System.Nullable{DisCatSharp.SystemChannelFlags})
+  name: CreateGuildAsync(String, String, Optional<Stream>, Nullable<VerificationLevel>, Nullable<DefaultMessageNotifications>, Nullable<SystemChannelFlags>)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_CreateGuildAsync_System_String_System_String_Optional_Stream__System_Nullable_VerificationLevel__System_Nullable_DefaultMessageNotifications__System_Nullable_DisCatSharp_SystemChannelFlags__
+  commentId: M:DisCatSharp.DiscordClient.CreateGuildAsync(System.String,System.String,Optional{Stream},System.Nullable{VerificationLevel},System.Nullable{DefaultMessageNotifications},System.Nullable{DisCatSharp.SystemChannelFlags})
+  name.vb: CreateGuildAsync(String, String, Optional(Of Stream), Nullable(Of VerificationLevel), Nullable(Of DefaultMessageNotifications), Nullable(Of SystemChannelFlags))
+  fullName: DisCatSharp.DiscordClient.CreateGuildAsync(System.String, System.String, Optional<Stream>, System.Nullable<VerificationLevel>, System.Nullable<DefaultMessageNotifications>, System.Nullable<DisCatSharp.SystemChannelFlags>)
+  fullName.vb: DisCatSharp.DiscordClient.CreateGuildAsync(System.String, System.String, Optional(Of Stream), System.Nullable(Of VerificationLevel), System.Nullable(Of DefaultMessageNotifications), System.Nullable(Of DisCatSharp.SystemChannelFlags))
+  nameWithType: DiscordClient.CreateGuildAsync(String, String, Optional<Stream>, Nullable<VerificationLevel>, Nullable<DefaultMessageNotifications>, Nullable<SystemChannelFlags>)
+  nameWithType.vb: DiscordClient.CreateGuildAsync(String, String, Optional(Of Stream), Nullable(Of VerificationLevel), Nullable(Of DefaultMessageNotifications), Nullable(Of SystemChannelFlags))
 - uid: DisCatSharp.DiscordClient.CreateGuildAsync*
   name: CreateGuildAsync
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_CreateGuildAsync_
@@ -10578,6 +10578,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordWebhookClient.GetRegisteredWebhook
   nameWithType: DiscordWebhookClient.GetRegisteredWebhook
+- uid: DisCatSharp.DiscordWebhookClient.Logger
+  name: Logger
+  href: api/DisCatSharp.DiscordWebhookClient.html#DisCatSharp_DiscordWebhookClient_Logger
+  commentId: P:DisCatSharp.DiscordWebhookClient.Logger
+  fullName: DisCatSharp.DiscordWebhookClient.Logger
+  nameWithType: DiscordWebhookClient.Logger
+- uid: DisCatSharp.DiscordWebhookClient.Logger*
+  name: Logger
+  href: api/DisCatSharp.DiscordWebhookClient.html#DisCatSharp_DiscordWebhookClient_Logger_
+  commentId: Overload:DisCatSharp.DiscordWebhookClient.Logger
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordWebhookClient.Logger
+  nameWithType: DiscordWebhookClient.Logger
 - uid: DisCatSharp.DiscordWebhookClient.RemoveWebhook(System.UInt64)
   name: RemoveWebhook(UInt64)
   href: api/DisCatSharp.DiscordWebhookClient.html#DisCatSharp_DiscordWebhookClient_RemoveWebhook_System_UInt64_
@@ -11649,15 +11662,15 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordApplicationCommand
   fullName: DisCatSharp.Entities.DiscordApplicationCommand
   nameWithType: DiscordApplicationCommand
-- uid: DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean)
-  name: DiscordApplicationCommand(String, String, IEnumerable<DiscordApplicationCommandOption>, Boolean)
-  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand__ctor_System_String_System_String_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean)
-  name.vb: DiscordApplicationCommand(String, String, IEnumerable(Of DiscordApplicationCommandOption), Boolean)
-  fullName: DisCatSharp.Entities.DiscordApplicationCommand.DiscordApplicationCommand(System.String, System.String, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, System.Boolean)
-  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommand.DiscordApplicationCommand(System.String, System.String, IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), System.Boolean)
-  nameWithType: DiscordApplicationCommand.DiscordApplicationCommand(String, String, IEnumerable<DiscordApplicationCommandOption>, Boolean)
-  nameWithType.vb: DiscordApplicationCommand.DiscordApplicationCommand(String, String, IEnumerable(Of DiscordApplicationCommandOption), Boolean)
+- uid: DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean,ApplicationCommandType)
+  name: DiscordApplicationCommand(String, String, IEnumerable<DiscordApplicationCommandOption>, Boolean, ApplicationCommandType)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand__ctor_System_String_System_String_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Boolean_ApplicationCommandType_
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean,ApplicationCommandType)
+  name.vb: DiscordApplicationCommand(String, String, IEnumerable(Of DiscordApplicationCommandOption), Boolean, ApplicationCommandType)
+  fullName: DisCatSharp.Entities.DiscordApplicationCommand.DiscordApplicationCommand(System.String, System.String, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, System.Boolean, ApplicationCommandType)
+  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommand.DiscordApplicationCommand(System.String, System.String, IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), System.Boolean, ApplicationCommandType)
+  nameWithType: DiscordApplicationCommand.DiscordApplicationCommand(String, String, IEnumerable<DiscordApplicationCommandOption>, Boolean, ApplicationCommandType)
+  nameWithType.vb: DiscordApplicationCommand.DiscordApplicationCommand(String, String, IEnumerable(Of DiscordApplicationCommandOption), Boolean, ApplicationCommandType)
 - uid: DisCatSharp.Entities.DiscordApplicationCommand.#ctor*
   name: DiscordApplicationCommand
   href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand__ctor_
@@ -17019,6 +17032,190 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordEmoji.Url
   nameWithType: DiscordEmoji.Url
+- uid: DisCatSharp.Entities.DiscordEvent
+  name: DiscordEvent
+  href: api/DisCatSharp.Entities.DiscordEvent.html
+  commentId: T:DisCatSharp.Entities.DiscordEvent
+  fullName: DisCatSharp.Entities.DiscordEvent
+  nameWithType: DiscordEvent
+- uid: DisCatSharp.Entities.DiscordEvent.ChannelId
+  name: ChannelId
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ChannelId
+  commentId: P:DisCatSharp.Entities.DiscordEvent.ChannelId
+  fullName: DisCatSharp.Entities.DiscordEvent.ChannelId
+  nameWithType: DiscordEvent.ChannelId
+- uid: DisCatSharp.Entities.DiscordEvent.ChannelId*
+  name: ChannelId
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ChannelId_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.ChannelId
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.ChannelId
+  nameWithType: DiscordEvent.ChannelId
+- uid: DisCatSharp.Entities.DiscordEvent.DeleteAsync(System.String)
+  name: DeleteAsync(String)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_DeleteAsync_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.DeleteAsync(System.String)
+  fullName: DisCatSharp.Entities.DiscordEvent.DeleteAsync(System.String)
+  nameWithType: DiscordEvent.DeleteAsync(String)
+- uid: DisCatSharp.Entities.DiscordEvent.DeleteAsync*
+  name: DeleteAsync
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_DeleteAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.DeleteAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.DeleteAsync
+  nameWithType: DiscordEvent.DeleteAsync
+- uid: DisCatSharp.Entities.DiscordEvent.Description
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Description
+  commentId: P:DisCatSharp.Entities.DiscordEvent.Description
+  fullName: DisCatSharp.Entities.DiscordEvent.Description
+  nameWithType: DiscordEvent.Description
+- uid: DisCatSharp.Entities.DiscordEvent.Description*
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Description_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.Description
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Description
+  nameWithType: DiscordEvent.Description
+- uid: DisCatSharp.Entities.DiscordEvent.EntityType
+  name: EntityType
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_EntityType
+  commentId: P:DisCatSharp.Entities.DiscordEvent.EntityType
+  fullName: DisCatSharp.Entities.DiscordEvent.EntityType
+  nameWithType: DiscordEvent.EntityType
+- uid: DisCatSharp.Entities.DiscordEvent.EntityType*
+  name: EntityType
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_EntityType_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.EntityType
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.EntityType
+  nameWithType: DiscordEvent.EntityType
+- uid: DisCatSharp.Entities.DiscordEvent.Equals(DisCatSharp.Entities.DiscordEvent)
+  name: Equals(DiscordEvent)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Equals_DisCatSharp_Entities_DiscordEvent_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.Equals(DisCatSharp.Entities.DiscordEvent)
+  fullName: DisCatSharp.Entities.DiscordEvent.Equals(DisCatSharp.Entities.DiscordEvent)
+  nameWithType: DiscordEvent.Equals(DiscordEvent)
+- uid: DisCatSharp.Entities.DiscordEvent.Equals(System.Object)
+  name: Equals(Object)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Equals_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.Equals(System.Object)
+  fullName: DisCatSharp.Entities.DiscordEvent.Equals(System.Object)
+  nameWithType: DiscordEvent.Equals(Object)
+- uid: DisCatSharp.Entities.DiscordEvent.Equals*
+  name: Equals
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Equals_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.Equals
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Equals
+  nameWithType: DiscordEvent.Equals
+- uid: DisCatSharp.Entities.DiscordEvent.GetHashCode
+  name: GetHashCode()
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_GetHashCode
+  commentId: M:DisCatSharp.Entities.DiscordEvent.GetHashCode
+  fullName: DisCatSharp.Entities.DiscordEvent.GetHashCode()
+  nameWithType: DiscordEvent.GetHashCode()
+- uid: DisCatSharp.Entities.DiscordEvent.GetHashCode*
+  name: GetHashCode
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_GetHashCode_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.GetHashCode
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.GetHashCode
+  nameWithType: DiscordEvent.GetHashCode
+- uid: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
+  name: ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
+  name.vb: ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
+  fullName: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DateTime>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DateTime), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), System.String)
+  nameWithType: DiscordEvent.ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
+  nameWithType.vb: DiscordEvent.ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
+- uid: DisCatSharp.Entities.DiscordEvent.ModifyAsync*
+  name: ModifyAsync
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ModifyAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.ModifyAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.ModifyAsync
+  nameWithType: DiscordEvent.ModifyAsync
+- uid: DisCatSharp.Entities.DiscordEvent.Name
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Name
+  commentId: P:DisCatSharp.Entities.DiscordEvent.Name
+  fullName: DisCatSharp.Entities.DiscordEvent.Name
+  nameWithType: DiscordEvent.Name
+- uid: DisCatSharp.Entities.DiscordEvent.Name*
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Name_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.Name
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Name
+  nameWithType: DiscordEvent.Name
+- uid: DisCatSharp.Entities.DiscordEvent.op_Equality(DisCatSharp.Entities.DiscordEvent,DisCatSharp.Entities.DiscordEvent)
+  name: Equality(DiscordEvent, DiscordEvent)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_op_Equality_DisCatSharp_Entities_DiscordEvent_DisCatSharp_Entities_DiscordEvent_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.op_Equality(DisCatSharp.Entities.DiscordEvent,DisCatSharp.Entities.DiscordEvent)
+  fullName: DisCatSharp.Entities.DiscordEvent.Equality(DisCatSharp.Entities.DiscordEvent, DisCatSharp.Entities.DiscordEvent)
+  nameWithType: DiscordEvent.Equality(DiscordEvent, DiscordEvent)
+- uid: DisCatSharp.Entities.DiscordEvent.op_Equality*
+  name: Equality
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_op_Equality_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.op_Equality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Equality
+  nameWithType: DiscordEvent.Equality
+- uid: DisCatSharp.Entities.DiscordEvent.op_Inequality(DisCatSharp.Entities.DiscordEvent,DisCatSharp.Entities.DiscordEvent)
+  name: Inequality(DiscordEvent, DiscordEvent)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_op_Inequality_DisCatSharp_Entities_DiscordEvent_DisCatSharp_Entities_DiscordEvent_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.op_Inequality(DisCatSharp.Entities.DiscordEvent,DisCatSharp.Entities.DiscordEvent)
+  fullName: DisCatSharp.Entities.DiscordEvent.Inequality(DisCatSharp.Entities.DiscordEvent, DisCatSharp.Entities.DiscordEvent)
+  nameWithType: DiscordEvent.Inequality(DiscordEvent, DiscordEvent)
+- uid: DisCatSharp.Entities.DiscordEvent.op_Inequality*
+  name: Inequality
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_op_Inequality_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.op_Inequality
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Inequality
+  nameWithType: DiscordEvent.Inequality
+- uid: DisCatSharp.Entities.DiscordEvent.PrivacyLevel
+  name: PrivacyLevel
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_PrivacyLevel
+  commentId: P:DisCatSharp.Entities.DiscordEvent.PrivacyLevel
+  fullName: DisCatSharp.Entities.DiscordEvent.PrivacyLevel
+  nameWithType: DiscordEvent.PrivacyLevel
+- uid: DisCatSharp.Entities.DiscordEvent.PrivacyLevel*
+  name: PrivacyLevel
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_PrivacyLevel_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.PrivacyLevel
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.PrivacyLevel
+  nameWithType: DiscordEvent.PrivacyLevel
+- uid: DisCatSharp.Entities.DiscordEvent.ScheduledStartTime
+  name: ScheduledStartTime
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ScheduledStartTime
+  commentId: P:DisCatSharp.Entities.DiscordEvent.ScheduledStartTime
+  fullName: DisCatSharp.Entities.DiscordEvent.ScheduledStartTime
+  nameWithType: DiscordEvent.ScheduledStartTime
+- uid: DisCatSharp.Entities.DiscordEvent.ScheduledStartTime*
+  name: ScheduledStartTime
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ScheduledStartTime_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.ScheduledStartTime
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.ScheduledStartTime
+  nameWithType: DiscordEvent.ScheduledStartTime
+- uid: DisCatSharp.Entities.DiscordEvent.Stage
+  name: Stage
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Stage
+  commentId: P:DisCatSharp.Entities.DiscordEvent.Stage
+  fullName: DisCatSharp.Entities.DiscordEvent.Stage
+  nameWithType: DiscordEvent.Stage
+- uid: DisCatSharp.Entities.DiscordEvent.Stage*
+  name: Stage
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_Stage_
+  commentId: Overload:DisCatSharp.Entities.DiscordEvent.Stage
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEvent.Stage
+  nameWithType: DiscordEvent.Stage
 - uid: DisCatSharp.Entities.DiscordFollowedChannel
   name: DiscordFollowedChannel
   href: api/DisCatSharp.Entities.DiscordFollowedChannel.html
@@ -20218,6 +20415,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordIntegrationAccount
   fullName: DisCatSharp.Entities.DiscordIntegrationAccount
   nameWithType: DiscordIntegrationAccount
+- uid: DisCatSharp.Entities.DiscordIntegrationAccount.Id
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordIntegrationAccount.html#DisCatSharp_Entities_DiscordIntegrationAccount_Id
+  commentId: P:DisCatSharp.Entities.DiscordIntegrationAccount.Id
+  fullName: DisCatSharp.Entities.DiscordIntegrationAccount.Id
+  nameWithType: DiscordIntegrationAccount.Id
+- uid: DisCatSharp.Entities.DiscordIntegrationAccount.Id*
+  name: Id
+  href: api/DisCatSharp.Entities.DiscordIntegrationAccount.html#DisCatSharp_Entities_DiscordIntegrationAccount_Id_
+  commentId: Overload:DisCatSharp.Entities.DiscordIntegrationAccount.Id
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordIntegrationAccount.Id
+  nameWithType: DiscordIntegrationAccount.Id
 - uid: DisCatSharp.Entities.DiscordIntegrationAccount.Name
   name: Name
   href: api/DisCatSharp.Entities.DiscordIntegrationAccount.html#DisCatSharp_Entities_DiscordIntegrationAccount_Name
@@ -20542,6 +20752,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionData.Resolved
   nameWithType: DiscordInteractionData.Resolved
+- uid: DisCatSharp.Entities.DiscordInteractionData.Type
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Type
+  commentId: P:DisCatSharp.Entities.DiscordInteractionData.Type
+  fullName: DisCatSharp.Entities.DiscordInteractionData.Type
+  nameWithType: DiscordInteractionData.Type
+- uid: DisCatSharp.Entities.DiscordInteractionData.Type*
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Type_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionData.Type
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionData.Type
+  nameWithType: DiscordInteractionData.Type
 - uid: DisCatSharp.Entities.DiscordInteractionData.Values
   name: Values
   href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Values
@@ -20772,6 +20995,41 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddEmbeds
   nameWithType: DiscordInteractionResponseBuilder.AddEmbeds
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean)
+  name: AddFile(FileStream, Boolean)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_FileStream_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream, System.Boolean)
+  nameWithType: DiscordInteractionResponseBuilder.AddFile(FileStream, Boolean)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean)
+  name: AddFile(String, Stream, Boolean)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_System_String_Stream_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String, Stream, System.Boolean)
+  nameWithType: DiscordInteractionResponseBuilder.AddFile(String, Stream, Boolean)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile*
+  name: AddFile
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile
+  nameWithType: DiscordInteractionResponseBuilder.AddFile
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles(Dictionary{System.String,Stream},System.Boolean)
+  name: AddFiles(Dictionary<String, Stream>, Boolean)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFiles_Dictionary_System_String_Stream__System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles(Dictionary{System.String,Stream},System.Boolean)
+  name.vb: AddFiles(Dictionary(Of String, Stream), Boolean)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles(Dictionary<System.String, Stream>, System.Boolean)
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles(Dictionary(Of System.String, Stream), System.Boolean)
+  nameWithType: DiscordInteractionResponseBuilder.AddFiles(Dictionary<String, Stream>, Boolean)
+  nameWithType.vb: DiscordInteractionResponseBuilder.AddFiles(Dictionary(Of String, Stream), Boolean)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles*
+  name: AddFiles
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFiles_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFiles
+  nameWithType: DiscordInteractionResponseBuilder.AddFiles
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddMention(DisCatSharp.Entities.IMention)
   name: AddMention(IMention)
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddMention_DisCatSharp_Entities_IMention_
@@ -20879,6 +21137,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Embeds
   nameWithType: DiscordInteractionResponseBuilder.Embeds
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files
+  name: Files
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Files
+  commentId: P:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files
+  nameWithType: DiscordInteractionResponseBuilder.Files
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files*
+  name: Files
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Files_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Files
+  nameWithType: DiscordInteractionResponseBuilder.Files
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.IsEphemeral
   name: IsEphemeral
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_IsEphemeral
@@ -24654,190 +24925,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordSpotifyAsset.Url
   nameWithType: DiscordSpotifyAsset.Url
-- uid: DisCatSharp.Entities.DiscordStageEvent
-  name: DiscordStageEvent
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html
-  commentId: T:DisCatSharp.Entities.DiscordStageEvent
-  fullName: DisCatSharp.Entities.DiscordStageEvent
-  nameWithType: DiscordStageEvent
-- uid: DisCatSharp.Entities.DiscordStageEvent.ChannelId
-  name: ChannelId
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ChannelId
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.ChannelId
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ChannelId
-  nameWithType: DiscordStageEvent.ChannelId
-- uid: DisCatSharp.Entities.DiscordStageEvent.ChannelId*
-  name: ChannelId
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ChannelId_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ChannelId
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ChannelId
-  nameWithType: DiscordStageEvent.ChannelId
-- uid: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
-  name: DeleteAsync(String)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_DeleteAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync(System.String)
-  nameWithType: DiscordStageEvent.DeleteAsync(String)
-- uid: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync*
-  name: DeleteAsync
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_DeleteAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.DeleteAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.DeleteAsync
-  nameWithType: DiscordStageEvent.DeleteAsync
-- uid: DisCatSharp.Entities.DiscordStageEvent.Description
-  name: Description
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Description
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Description
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Description
-  nameWithType: DiscordStageEvent.Description
-- uid: DisCatSharp.Entities.DiscordStageEvent.Description*
-  name: Description
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Description_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Description
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Description
-  nameWithType: DiscordStageEvent.Description
-- uid: DisCatSharp.Entities.DiscordStageEvent.EntityType
-  name: EntityType
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_EntityType
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.EntityType
-  fullName: DisCatSharp.Entities.DiscordStageEvent.EntityType
-  nameWithType: DiscordStageEvent.EntityType
-- uid: DisCatSharp.Entities.DiscordStageEvent.EntityType*
-  name: EntityType
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_EntityType_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.EntityType
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.EntityType
-  nameWithType: DiscordStageEvent.EntityType
-- uid: DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
-  name: Equals(DiscordStageEvent)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_DisCatSharp_Entities_DiscordStageEvent_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals(DisCatSharp.Entities.DiscordStageEvent)
-  nameWithType: DiscordStageEvent.Equals(DiscordStageEvent)
-- uid: DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
-  name: Equals(Object)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_System_Object_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals(System.Object)
-  nameWithType: DiscordStageEvent.Equals(Object)
-- uid: DisCatSharp.Entities.DiscordStageEvent.Equals*
-  name: Equals
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Equals_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Equals
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Equals
-  nameWithType: DiscordStageEvent.Equals
-- uid: DisCatSharp.Entities.DiscordStageEvent.GetHashCode
-  name: GetHashCode()
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_GetHashCode
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.GetHashCode
-  fullName: DisCatSharp.Entities.DiscordStageEvent.GetHashCode()
-  nameWithType: DiscordStageEvent.GetHashCode()
-- uid: DisCatSharp.Entities.DiscordStageEvent.GetHashCode*
-  name: GetHashCode
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_GetHashCode_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.GetHashCode
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.GetHashCode
-  nameWithType: DiscordStageEvent.GetHashCode
-- uid: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name: ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name.vb: ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DateTime>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, System.String)
-  fullName.vb: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync(DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DateTime), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), System.String)
-  nameWithType: DiscordStageEvent.ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
-  nameWithType.vb: DiscordStageEvent.ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
-- uid: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync*
-  name: ModifyAsync
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ModifyAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ModifyAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ModifyAsync
-  nameWithType: DiscordStageEvent.ModifyAsync
-- uid: DisCatSharp.Entities.DiscordStageEvent.Name
-  name: Name
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Name
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Name
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Name
-  nameWithType: DiscordStageEvent.Name
-- uid: DisCatSharp.Entities.DiscordStageEvent.Name*
-  name: Name
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Name_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Name
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Name
-  nameWithType: DiscordStageEvent.Name
-- uid: DisCatSharp.Entities.DiscordStageEvent.op_Equality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
-  name: Equality(DiscordStageEvent, DiscordStageEvent)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Equality_DisCatSharp_Entities_DiscordStageEvent_DisCatSharp_Entities_DiscordStageEvent_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.op_Equality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Equality(DisCatSharp.Entities.DiscordStageEvent, DisCatSharp.Entities.DiscordStageEvent)
-  nameWithType: DiscordStageEvent.Equality(DiscordStageEvent, DiscordStageEvent)
-- uid: DisCatSharp.Entities.DiscordStageEvent.op_Equality*
-  name: Equality
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Equality_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.op_Equality
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Equality
-  nameWithType: DiscordStageEvent.Equality
-- uid: DisCatSharp.Entities.DiscordStageEvent.op_Inequality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
-  name: Inequality(DiscordStageEvent, DiscordStageEvent)
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Inequality_DisCatSharp_Entities_DiscordStageEvent_DisCatSharp_Entities_DiscordStageEvent_
-  commentId: M:DisCatSharp.Entities.DiscordStageEvent.op_Inequality(DisCatSharp.Entities.DiscordStageEvent,DisCatSharp.Entities.DiscordStageEvent)
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Inequality(DisCatSharp.Entities.DiscordStageEvent, DisCatSharp.Entities.DiscordStageEvent)
-  nameWithType: DiscordStageEvent.Inequality(DiscordStageEvent, DiscordStageEvent)
-- uid: DisCatSharp.Entities.DiscordStageEvent.op_Inequality*
-  name: Inequality
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_op_Inequality_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.op_Inequality
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Inequality
-  nameWithType: DiscordStageEvent.Inequality
-- uid: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
-  name: PrivacyLevel
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_PrivacyLevel
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
-  fullName: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
-  nameWithType: DiscordStageEvent.PrivacyLevel
-- uid: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel*
-  name: PrivacyLevel
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_PrivacyLevel_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.PrivacyLevel
-  nameWithType: DiscordStageEvent.PrivacyLevel
-- uid: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
-  name: ScheduledStartTime
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ScheduledStartTime
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
-  nameWithType: DiscordStageEvent.ScheduledStartTime
-- uid: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime*
-  name: ScheduledStartTime
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_ScheduledStartTime_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.ScheduledStartTime
-  nameWithType: DiscordStageEvent.ScheduledStartTime
-- uid: DisCatSharp.Entities.DiscordStageEvent.Stage
-  name: Stage
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Stage
-  commentId: P:DisCatSharp.Entities.DiscordStageEvent.Stage
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Stage
-  nameWithType: DiscordStageEvent.Stage
-- uid: DisCatSharp.Entities.DiscordStageEvent.Stage*
-  name: Stage
-  href: api/DisCatSharp.Entities.DiscordStageEvent.html#DisCatSharp_Entities_DiscordStageEvent_Stage_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageEvent.Stage
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageEvent.Stage
-  nameWithType: DiscordStageEvent.Stage
 - uid: DisCatSharp.Entities.DiscordStageInstance
   name: DiscordStageInstance
   href: api/DisCatSharp.Entities.DiscordStageInstance.html
@@ -26466,6 +26553,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannelMetadata.AutoArchiveDuration
   nameWithType: DiscordThreadChannelMetadata.AutoArchiveDuration
+- uid: DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable
+  name: Invitable
+  href: api/DisCatSharp.Entities.DiscordThreadChannelMetadata.html#DisCatSharp_Entities_DiscordThreadChannelMetadata_Invitable
+  commentId: P:DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable
+  fullName: DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable
+  nameWithType: DiscordThreadChannelMetadata.Invitable
+- uid: DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable*
+  name: Invitable
+  href: api/DisCatSharp.Entities.DiscordThreadChannelMetadata.html#DisCatSharp_Entities_DiscordThreadChannelMetadata_Invitable_
+  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordThreadChannelMetadata.Invitable
+  nameWithType: DiscordThreadChannelMetadata.Invitable
 - uid: DisCatSharp.Entities.DiscordThreadChannelMetadata.Locked
   name: Locked
   href: api/DisCatSharp.Entities.DiscordThreadChannelMetadata.html#DisCatSharp_Entities_DiscordThreadChannelMetadata_Locked
@@ -40999,6 +41099,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.CanSetInviteSplash
   nameWithType: GuildFeatures.CanSetInviteSplash
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons
+  name: CanSetRoleIcons
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetRoleIcons
+  commentId: P:DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons
+  nameWithType: GuildFeatures.CanSetRoleIcons
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons*
+  name: CanSetRoleIcons
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetRoleIcons_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetRoleIcons
+  nameWithType: GuildFeatures.CanSetRoleIcons
 - uid: DisCatSharp.Entities.GuildFeatures.CanSetThreadArchiveDurationSevenDays
   name: CanSetThreadArchiveDurationSevenDays
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetThreadArchiveDurationSevenDays
@@ -41953,24 +42066,24 @@ references:
   commentId: T:DisCatSharp.Enums.ApplicationCommandType
   fullName: DisCatSharp.Enums.ApplicationCommandType
   nameWithType: ApplicationCommandType
-- uid: DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
-  name: MessageContextMenu
-  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_MessageContextMenu
-  commentId: F:DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
-  fullName: DisCatSharp.Enums.ApplicationCommandType.MessageContextMenu
-  nameWithType: ApplicationCommandType.MessageContextMenu
-- uid: DisCatSharp.Enums.ApplicationCommandType.SlashCommand
-  name: SlashCommand
-  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_SlashCommand
-  commentId: F:DisCatSharp.Enums.ApplicationCommandType.SlashCommand
-  fullName: DisCatSharp.Enums.ApplicationCommandType.SlashCommand
-  nameWithType: ApplicationCommandType.SlashCommand
-- uid: DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
-  name: UserContextMenu
-  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_UserContextMenu
-  commentId: F:DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
-  fullName: DisCatSharp.Enums.ApplicationCommandType.UserContextMenu
-  nameWithType: ApplicationCommandType.UserContextMenu
+- uid: DisCatSharp.Enums.ApplicationCommandType.ChatInput
+  name: ChatInput
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_ChatInput
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.ChatInput
+  fullName: DisCatSharp.Enums.ApplicationCommandType.ChatInput
+  nameWithType: ApplicationCommandType.ChatInput
+- uid: DisCatSharp.Enums.ApplicationCommandType.Message
+  name: Message
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_Message
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.Message
+  fullName: DisCatSharp.Enums.ApplicationCommandType.Message
+  nameWithType: ApplicationCommandType.Message
+- uid: DisCatSharp.Enums.ApplicationCommandType.User
+  name: User
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_User
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.User
+  fullName: DisCatSharp.Enums.ApplicationCommandType.User
+  nameWithType: ApplicationCommandType.User
 - uid: DisCatSharp.Enums.ButtonStyle
   name: ButtonStyle
   href: api/DisCatSharp.Enums.ButtonStyle.html
@@ -46879,6 +46992,24 @@ references:
   commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
   fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Threading.CancellationToken)
   nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name: WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_TimeSpan__
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name.vb: WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Nullable<TimeSpan>)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Nullable(Of TimeSpan))
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name.vb: WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  nameWithType.vb: MessageExtensions.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForButtonAsync(DiscordMessage,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForButtonAsync_DiscordMessage_System_Nullable_TimeSpan__
@@ -46956,6 +47087,24 @@ references:
   commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
   fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Threading.CancellationToken)
   nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name: WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_TimeSpan__
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name.vb: WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Nullable<TimeSpan>)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Nullable(Of TimeSpan))
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name.vb: WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Threading.CancellationToken)
+  nameWithType: MessageExtensions.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  nameWithType.vb: MessageExtensions.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html#DisCatSharp_Interactivity_Extensions_MessageExtensions_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -47331,12 +47480,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.InteractivityExtension.Setup
   nameWithType: InteractivityExtension.Setup
-- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
-  name: WaitForButtonAsync(DiscordMessage)
-  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_
-  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
-  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage)
-  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_TimeSpan__
@@ -47352,6 +47495,24 @@ references:
   commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Threading.CancellationToken)
   fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, System.Threading.CancellationToken)
   nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name: WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_TimeSpan__
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name.vb: WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Nullable<TimeSpan>)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Nullable(Of TimeSpan))
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name: WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name.vb: WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.WaitForButtonAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,IEnumerable{DiscordButtonComponent},System.Nullable{TimeSpan})
   name: WaitForButtonAsync(DiscordMessage, IEnumerable<DiscordButtonComponent>, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_IEnumerable_DiscordButtonComponent__System_Nullable_TimeSpan__
@@ -47523,6 +47684,24 @@ references:
   commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Threading.CancellationToken)
   fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, System.String, System.Threading.CancellationToken)
   nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name: WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_TimeSpan__
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{TimeSpan})
+  name.vb: WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Nullable<TimeSpan>)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Nullable(Of TimeSpan))
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, Nullable<TimeSpan>)
+  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), Nullable(Of TimeSpan))
+- uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name: WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Threading.CancellationToken)
+  name.vb: WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, System.Boolean>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, System.Boolean), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func<ComponentInteractionCreateEventArgs, Boolean>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.WaitForSelectAsync(DiscordMessage, Func(Of ComponentInteractionCreateEventArgs, Boolean), CancellationToken)
 - uid: DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{TimeSpan})
   name: WaitForSelectAsync(DiscordMessage, String, Nullable<TimeSpan>)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_TimeSpan__
@@ -50477,12 +50656,6 @@ references:
   commentId: T:DisCatSharp.MessageType
   fullName: DisCatSharp.MessageType
   nameWithType: MessageType
-- uid: DisCatSharp.MessageType.ApplicationCommand
-  name: ApplicationCommand
-  href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_ApplicationCommand
-  commentId: F:DisCatSharp.MessageType.ApplicationCommand
-  fullName: DisCatSharp.MessageType.ApplicationCommand
-  nameWithType: MessageType.ApplicationCommand
 - uid: DisCatSharp.MessageType.Call
   name: Call
   href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_Call
@@ -50513,6 +50686,18 @@ references:
   commentId: F:DisCatSharp.MessageType.ChannelPinnedMessage
   fullName: DisCatSharp.MessageType.ChannelPinnedMessage
   nameWithType: MessageType.ChannelPinnedMessage
+- uid: DisCatSharp.MessageType.ChatInputCommand
+  name: ChatInputCommand
+  href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_ChatInputCommand
+  commentId: F:DisCatSharp.MessageType.ChatInputCommand
+  fullName: DisCatSharp.MessageType.ChatInputCommand
+  nameWithType: MessageType.ChatInputCommand
+- uid: DisCatSharp.MessageType.ContextMenuCommand
+  name: ContextMenuCommand
+  href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_ContextMenuCommand
+  commentId: F:DisCatSharp.MessageType.ContextMenuCommand
+  fullName: DisCatSharp.MessageType.ContextMenuCommand
+  nameWithType: MessageType.ContextMenuCommand
 - uid: DisCatSharp.MessageType.Default
   name: Default
   href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_Default
@@ -51271,6 +51456,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.GuildEditModel.AfkTimeout
   nameWithType: GuildEditModel.AfkTimeout
+- uid: DisCatSharp.Net.Models.GuildEditModel.Banner
+  name: Banner
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_Banner
+  commentId: P:DisCatSharp.Net.Models.GuildEditModel.Banner
+  fullName: DisCatSharp.Net.Models.GuildEditModel.Banner
+  nameWithType: GuildEditModel.Banner
+- uid: DisCatSharp.Net.Models.GuildEditModel.Banner*
+  name: Banner
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_Banner_
+  commentId: Overload:DisCatSharp.Net.Models.GuildEditModel.Banner
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.GuildEditModel.Banner
+  nameWithType: GuildEditModel.Banner
 - uid: DisCatSharp.Net.Models.GuildEditModel.DefaultMessageNotifications
   name: DefaultMessageNotifications
   href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_DefaultMessageNotifications
@@ -51297,6 +51495,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.GuildEditModel.Description
   nameWithType: GuildEditModel.Description
+- uid: DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash
+  name: DiscoverySplash
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_DiscoverySplash
+  commentId: P:DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash
+  fullName: DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash
+  nameWithType: GuildEditModel.DiscoverySplash
+- uid: DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash*
+  name: DiscoverySplash
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_DiscoverySplash_
+  commentId: Overload:DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.GuildEditModel.DiscoverySplash
+  nameWithType: GuildEditModel.DiscoverySplash
 - uid: DisCatSharp.Net.Models.GuildEditModel.ExplicitContentFilter
   name: ExplicitContentFilter
   href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_ExplicitContentFilter
@@ -51685,6 +51896,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.ThreadEditModel.AutoArchiveDuration
   nameWithType: ThreadEditModel.AutoArchiveDuration
+- uid: DisCatSharp.Net.Models.ThreadEditModel.Invitable
+  name: Invitable
+  href: api/DisCatSharp.Net.Models.ThreadEditModel.html#DisCatSharp_Net_Models_ThreadEditModel_Invitable
+  commentId: P:DisCatSharp.Net.Models.ThreadEditModel.Invitable
+  fullName: DisCatSharp.Net.Models.ThreadEditModel.Invitable
+  nameWithType: ThreadEditModel.Invitable
+- uid: DisCatSharp.Net.Models.ThreadEditModel.Invitable*
+  name: Invitable
+  href: api/DisCatSharp.Net.Models.ThreadEditModel.html#DisCatSharp_Net_Models_ThreadEditModel_Invitable_
+  commentId: Overload:DisCatSharp.Net.Models.ThreadEditModel.Invitable
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.ThreadEditModel.Invitable
+  nameWithType: ThreadEditModel.Invitable
 - uid: DisCatSharp.Net.Models.ThreadEditModel.Locked
   name: Locked
   href: api/DisCatSharp.Net.Models.ThreadEditModel.html#DisCatSharp_Net_Models_ThreadEditModel_Locked
@@ -52505,6 +52729,18 @@ references:
   commentId: F:DisCatSharp.Permissions.CreateInstantInvite
   fullName: DisCatSharp.Permissions.CreateInstantInvite
   nameWithType: Permissions.CreateInstantInvite
+- uid: DisCatSharp.Permissions.CreatePrivateThreads
+  name: CreatePrivateThreads
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_CreatePrivateThreads
+  commentId: F:DisCatSharp.Permissions.CreatePrivateThreads
+  fullName: DisCatSharp.Permissions.CreatePrivateThreads
+  nameWithType: Permissions.CreatePrivateThreads
+- uid: DisCatSharp.Permissions.CreatePublicThreads
+  name: CreatePublicThreads
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_CreatePublicThreads
+  commentId: F:DisCatSharp.Permissions.CreatePublicThreads
+  fullName: DisCatSharp.Permissions.CreatePublicThreads
+  nameWithType: Permissions.CreatePublicThreads
 - uid: DisCatSharp.Permissions.DeafenMembers
   name: DeafenMembers
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_DeafenMembers
@@ -52625,6 +52861,12 @@ references:
   commentId: F:DisCatSharp.Permissions.SendMessages
   fullName: DisCatSharp.Permissions.SendMessages
   nameWithType: Permissions.SendMessages
+- uid: DisCatSharp.Permissions.SendMessagesInThreads
+  name: SendMessagesInThreads
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessagesInThreads
+  commentId: F:DisCatSharp.Permissions.SendMessagesInThreads
+  fullName: DisCatSharp.Permissions.SendMessagesInThreads
+  nameWithType: Permissions.SendMessagesInThreads
 - uid: DisCatSharp.Permissions.SendTtsMessages
   name: SendTtsMessages
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendTtsMessages
@@ -52655,18 +52897,6 @@ references:
   commentId: F:DisCatSharp.Permissions.UseExternalStickers
   fullName: DisCatSharp.Permissions.UseExternalStickers
   nameWithType: Permissions.UseExternalStickers
-- uid: DisCatSharp.Permissions.UsePrivateThreads
-  name: UsePrivateThreads
-  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UsePrivateThreads
-  commentId: F:DisCatSharp.Permissions.UsePrivateThreads
-  fullName: DisCatSharp.Permissions.UsePrivateThreads
-  nameWithType: Permissions.UsePrivateThreads
-- uid: DisCatSharp.Permissions.UsePublicThreads
-  name: UsePublicThreads
-  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UsePublicThreads
-  commentId: F:DisCatSharp.Permissions.UsePublicThreads
-  fullName: DisCatSharp.Permissions.UsePublicThreads
-  nameWithType: Permissions.UsePublicThreads
 - uid: DisCatSharp.Permissions.UseSlashCommands
   name: UseSlashCommands
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseSlashCommands
@@ -54265,6 +54495,12 @@ references:
   commentId: T:DisCatSharp.SlashCommands.SlashModuleLifespan
   fullName: DisCatSharp.SlashCommands.SlashModuleLifespan
   nameWithType: SlashModuleLifespan
+- uid: DisCatSharp.SlashCommands.SlashModuleLifespan.Scoped
+  name: Scoped
+  href: api/DisCatSharp.SlashCommands.SlashModuleLifespan.html#DisCatSharp_SlashCommands_SlashModuleLifespan_Scoped
+  commentId: F:DisCatSharp.SlashCommands.SlashModuleLifespan.Scoped
+  fullName: DisCatSharp.SlashCommands.SlashModuleLifespan.Scoped
+  nameWithType: SlashModuleLifespan.Scoped
 - uid: DisCatSharp.SlashCommands.SlashModuleLifespan.Singleton
   name: Singleton
   href: api/DisCatSharp.SlashCommands.SlashModuleLifespan.html#DisCatSharp_SlashCommands_SlashModuleLifespan_Singleton

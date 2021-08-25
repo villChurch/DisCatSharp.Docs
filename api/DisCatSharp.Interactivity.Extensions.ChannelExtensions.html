@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class ChannelExtensions
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -107,7 +107,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, DiscordUser user, TimeSpan? timeoutOverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -163,7 +163,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, Func&lt;DiscordMessage, bool&gt; predicate, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, Func&lt;DiscordMessage, bool&gt; predicate, TimeSpan? timeoutOverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -219,7 +219,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;DiscordMessage&gt;&gt; GetNextMessageAsync(this DiscordChannel channel, TimeSpan? timeoutOverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -269,7 +269,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationEmojis emojis, PaginationBehaviour? behaviour = default(PaginationBehaviour? ), PaginationDeletion? deletion = default(PaginationDeletion? ), TimeSpan? timeoutoverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationEmojis emojis, PaginationBehaviour? behaviour = null, PaginationDeletion? deletion = null, TimeSpan? timeoutoverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -349,7 +349,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationButtons buttons, PaginationBehaviour? behaviour = default(PaginationBehaviour? ), ButtonPaginationBehavior? deletion = default(ButtonPaginationBehavior? ), CancellationToken token = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationButtons buttons, PaginationBehaviour? behaviour = null, ButtonPaginationBehavior? deletion = null, CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -429,7 +429,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationBehaviour? behaviour = default(PaginationBehaviour? ), ButtonPaginationBehavior? deletion = default(ButtonPaginationBehavior? ), CancellationToken token = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task SendPaginatedMessageAsync(this DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationBehaviour? behaviour = null, ButtonPaginationBehavior? deletion = null, CancellationToken token = default(CancellationToken))</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -504,7 +504,7 @@
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;TypingStartEventArgs&gt;&gt; WaitForUserTypingAsync(this DiscordChannel channel, DiscordUser user, TimeSpan? timeoutOverride = default(TimeSpan? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public static Task&lt;InteractivityResult&lt;TypingStartEventArgs&gt;&gt; WaitForUserTypingAsync(this DiscordChannel channel, DiscordUser user, TimeSpan? timeoutOverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

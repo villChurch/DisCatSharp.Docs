@@ -10,7 +10,7 @@
     <meta name="viewport" content="width=device-width">
     <meta name="title" content="Class DiscordMessage
    ">
-    <meta name="generator" content="docfx 2.58.0.0">
+    <meta name="generator" content="docfx 2.58.2.0">
     
     <link rel="shortcut icon" href="../favicon.ico">
     <link rel="stylesheet" href="../styles/docfx.vendor.css">
@@ -1032,7 +1032,7 @@ Depending on the <a class="xref" href="DisCatSharp.ChannelType.html">ChannelType
     <tbody>
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
-        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_UsePublicThreads">UsePublicThreads</a> or <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission.</p>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_CreatePrivateThreads">CreatePrivateThreads</a> or <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessagesInThreads">SendMessagesInThreads</a> permission.</p>
 </td>
       </tr>
       <tr>
@@ -1563,7 +1563,7 @@ Depending on the <a class="xref" href="DisCatSharp.ChannelType.html">ChannelType
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordUser&gt;&gt; GetReactionsAsync(DiscordEmoji emoji, int limit = 25, ulong? after = default(ulong? ))</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;IReadOnlyList&lt;DiscordUser&gt;&gt; GetReactionsAsync(DiscordEmoji emoji, int limit = 25, ulong? after = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
