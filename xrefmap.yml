@@ -3,7 +3,7 @@ sorted: true
 references:
 - uid: advanced_topics_buttons
   name: Buttons
-  href: articles/advanced_topics/buttons.html
+  href: articles/beyond_basics/buttons.html
 - uid: audio_lavalink_configuration
   name: Lavalink Configuration
   href: articles/audio/lavalink/configuration.html
@@ -18852,15 +18852,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordEvent.GuildId
   nameWithType: DiscordEvent.GuildId
-- uid: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name: ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
-  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
-  commentId: M:DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name.vb: ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
-  fullName: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DateTime>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, System.String)
-  fullName.vb: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DateTime), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), System.String)
-  nameWithType: DiscordEvent.ModifyAsync(Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, String)
-  nameWithType.vb: DiscordEvent.ModifyAsync(Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), String)
+- uid: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{DisCatSharp.Entities.DiscordChannel},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},DisCatSharp.Entities.Optional{DisCatSharp.EventEntityType},System.String)
+  name: ModifyAsync(Optional<DiscordChannel>, Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, Optional<EventEntityType>, String)
+  href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ModifyAsync_DisCatSharp_Entities_Optional_DisCatSharp_Entities_DiscordChannel__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__DisCatSharp_Entities_Optional_DisCatSharp_EventEntityType__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{DisCatSharp.Entities.DiscordChannel},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},DisCatSharp.Entities.Optional{DisCatSharp.EventEntityType},System.String)
+  name.vb: ModifyAsync(Optional(Of DiscordChannel), Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), Optional(Of EventEntityType), String)
+  fullName: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional<DisCatSharp.Entities.DiscordChannel>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DateTime>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, DisCatSharp.Entities.Optional<DisCatSharp.EventEntityType>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional(Of DisCatSharp.Entities.DiscordChannel), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DateTime), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), DisCatSharp.Entities.Optional(Of DisCatSharp.EventEntityType), System.String)
+  nameWithType: DiscordEvent.ModifyAsync(Optional<DiscordChannel>, Optional<String>, Optional<String>, Optional<DateTime>, Optional<StagePrivacyLevel>, Optional<EventEntityType>, String)
+  nameWithType.vb: DiscordEvent.ModifyAsync(Optional(Of DiscordChannel), Optional(Of String), Optional(Of String), Optional(Of DateTime), Optional(Of StagePrivacyLevel), Optional(Of EventEntityType), String)
 - uid: DisCatSharp.Entities.DiscordEvent.ModifyAsync*
   name: ModifyAsync
   href: api/DisCatSharp.Entities.DiscordEvent.html#DisCatSharp_Entities_DiscordEvent_ModifyAsync_
@@ -18978,6 +18978,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordEventEntityMetadata
   fullName: DisCatSharp.Entities.DiscordEventEntityMetadata
   nameWithType: DiscordEventEntityMetadata
+- uid: DisCatSharp.Entities.DiscordEventEntityMetadata.Location
+  name: Location
+  href: api/DisCatSharp.Entities.DiscordEventEntityMetadata.html#DisCatSharp_Entities_DiscordEventEntityMetadata_Location
+  commentId: P:DisCatSharp.Entities.DiscordEventEntityMetadata.Location
+  fullName: DisCatSharp.Entities.DiscordEventEntityMetadata.Location
+  nameWithType: DiscordEventEntityMetadata.Location
+- uid: DisCatSharp.Entities.DiscordEventEntityMetadata.Location*
+  name: Location
+  href: api/DisCatSharp.Entities.DiscordEventEntityMetadata.html#DisCatSharp_Entities_DiscordEventEntityMetadata_Location_
+  commentId: Overload:DisCatSharp.Entities.DiscordEventEntityMetadata.Location
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordEventEntityMetadata.Location
+  nameWithType: DiscordEventEntityMetadata.Location
 - uid: DisCatSharp.Entities.DiscordEventEntityMetadata.Speakers
   name: Speakers
   href: api/DisCatSharp.Entities.DiscordEventEntityMetadata.html#DisCatSharp_Entities_DiscordEventEntityMetadata_Speakers
@@ -54842,6 +54855,12 @@ references:
   commentId: F:DisCatSharp.Permissions.Stream
   fullName: DisCatSharp.Permissions.Stream
   nameWithType: Permissions.Stream
+- uid: DisCatSharp.Permissions.UseApplicationCommands
+  name: UseApplicationCommands
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseApplicationCommands
+  commentId: F:DisCatSharp.Permissions.UseApplicationCommands
+  fullName: DisCatSharp.Permissions.UseApplicationCommands
+  nameWithType: Permissions.UseApplicationCommands
 - uid: DisCatSharp.Permissions.UseExternalEmojis
   name: UseExternalEmojis
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseExternalEmojis
@@ -54854,12 +54873,6 @@ references:
   commentId: F:DisCatSharp.Permissions.UseExternalStickers
   fullName: DisCatSharp.Permissions.UseExternalStickers
   nameWithType: Permissions.UseExternalStickers
-- uid: DisCatSharp.Permissions.UseSlashCommands
-  name: UseSlashCommands
-  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseSlashCommands
-  commentId: F:DisCatSharp.Permissions.UseSlashCommands
-  fullName: DisCatSharp.Permissions.UseSlashCommands
-  nameWithType: Permissions.UseSlashCommands
 - uid: DisCatSharp.Permissions.UseVoice
   name: UseVoice
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseVoice
@@ -56886,6 +56899,9 @@ references:
 - uid: hosting
   name: Hosting Solutions
   href: articles/hosting.html
+- uid: important_changes_ac
+  name: Application Commands
+  href: articles/important_changes/ac.html
 - uid: index
   name: DisCatSharp 9.X Documentation
   href: index.html

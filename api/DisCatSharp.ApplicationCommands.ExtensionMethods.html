@@ -153,6 +153,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static string GetName&lt;T&gt;(this T e)
+
     where T : IConvertible</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -254,6 +255,7 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static void RegisterCommands&lt;T&gt;(this IReadOnlyDictionary&lt;int, ApplicationCommandsExtension&gt; modules, ulong? guildId = null)
+
     where T : ApplicationCommandsModule</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

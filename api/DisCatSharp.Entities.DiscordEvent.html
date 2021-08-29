@@ -112,7 +112,7 @@
   
   <a id="DisCatSharp_Entities_DiscordEvent_Channel_" data-uid="DisCatSharp.Entities.DiscordEvent.Channel*"></a>
   <h4 id="DisCatSharp_Entities_DiscordEvent_Channel" data-uid="DisCatSharp.Entities.DiscordEvent.Channel">Channel</h4>
-  <div class="markdown level1 summary"><p>Gets id of the associated stage channel.</p>
+  <div class="markdown level1 summary"><p>Gets id of the associated channel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -138,7 +138,7 @@
   
   <a id="DisCatSharp_Entities_DiscordEvent_ChannelId_" data-uid="DisCatSharp.Entities.DiscordEvent.ChannelId*"></a>
   <h4 id="DisCatSharp_Entities_DiscordEvent_ChannelId" data-uid="DisCatSharp.Entities.DiscordEvent.ChannelId">ChannelId</h4>
-  <div class="markdown level1 summary"><p>Gets id of the associated stage channel id.</p>
+  <div class="markdown level1 summary"><p>Gets id of the associated channel id.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -673,13 +673,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordEvent_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordEvent.ModifyAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordEvent_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_" data-uid="DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)">ModifyAsync(Optional&lt;String&gt;, Optional&lt;String&gt;, Optional&lt;DateTime&gt;, Optional&lt;StagePrivacyLevel&gt;, String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordEvent_ModifyAsync_DisCatSharp_Entities_Optional_DisCatSharp_Entities_DiscordChannel__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DateTime__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__DisCatSharp_Entities_Optional_DisCatSharp_EventEntityType__System_String_" data-uid="DisCatSharp.Entities.DiscordEvent.ModifyAsync(DisCatSharp.Entities.Optional{DisCatSharp.Entities.DiscordChannel},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DateTime},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},DisCatSharp.Entities.Optional{DisCatSharp.EventEntityType},System.String)">ModifyAsync(Optional&lt;DiscordChannel&gt;, Optional&lt;String&gt;, Optional&lt;String&gt;, Optional&lt;DateTime&gt;, Optional&lt;StagePrivacyLevel&gt;, Optional&lt;EventEntityType&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Updates a sheduled event.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task ModifyAsync(Optional&lt;string&gt; name, Optional&lt;string&gt; description, Optional&lt;DateTime&gt; scheduled_start_time, Optional&lt;StagePrivacyLevel&gt; privacy_level, string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task ModifyAsync(Optional&lt;DiscordChannel&gt; channel, Optional&lt;string&gt; name, Optional&lt;string&gt; description, Optional&lt;DateTime&gt; scheduled_start_time, Optional&lt;StagePrivacyLevel&gt; privacy_level, Optional&lt;EventEntityType&gt; type, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -691,6 +691,12 @@
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>New channel of the event.</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="DisCatSharp.Entities.Optional-1.html">Optional</a>&lt;<span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">name</span></td>
@@ -713,6 +719,12 @@
         <td><a class="xref" href="DisCatSharp.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DisCatSharp.StagePrivacyLevel.html">StagePrivacyLevel</a>&gt;</td>
         <td><span class="parametername">privacy_level</span></td>
         <td><p>New Privacy Level of the stage instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.Optional-1.html">Optional</a>&lt;<a class="xref" href="DisCatSharp.EventEntityType.html">EventEntityType</a>&gt;</td>
+        <td><span class="parametername">type</span></td>
+        <td><p>New <a class="xref" href="DisCatSharp.EventEntityType.html">EventEntityType</a> of the event.</p>
 </td>
       </tr>
       <tr>
