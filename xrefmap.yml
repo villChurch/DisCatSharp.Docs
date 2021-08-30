@@ -2695,6 +2695,70 @@ references:
   commentId: T:DisCatSharp.CommandsNext.Attributes.RemainingTextAttribute
   fullName: DisCatSharp.CommandsNext.Attributes.RemainingTextAttribute
   nameWithType: RemainingTextAttribute
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute
+  name: RequireBoostingAttribute
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html
+  commentId: T:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute
+  nameWithType: RequireBoostingAttribute
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor(System.Int32)
+  name: RequireBoostingAttribute(Int32)
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute__ctor_System_Int32_
+  commentId: M:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor(System.Int32)
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.RequireBoostingAttribute(System.Int32)
+  nameWithType: RequireBoostingAttribute.RequireBoostingAttribute(Int32)
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor(System.UInt64,System.Int32)
+  name: RequireBoostingAttribute(UInt64, Int32)
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute__ctor_System_UInt64_System_Int32_
+  commentId: M:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor(System.UInt64,System.Int32)
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.RequireBoostingAttribute(System.UInt64, System.Int32)
+  nameWithType: RequireBoostingAttribute.RequireBoostingAttribute(UInt64, Int32)
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor*
+  name: RequireBoostingAttribute
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute__ctor_
+  commentId: Overload:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.RequireBoostingAttribute
+  nameWithType: RequireBoostingAttribute.RequireBoostingAttribute
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync(DisCatSharp.CommandsNext.CommandContext,System.Boolean)
+  name: ExecuteCheckAsync(CommandContext, Boolean)
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_ExecuteCheckAsync_DisCatSharp_CommandsNext_CommandContext_System_Boolean_
+  commentId: M:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync(DisCatSharp.CommandsNext.CommandContext,System.Boolean)
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync(DisCatSharp.CommandsNext.CommandContext, System.Boolean)
+  nameWithType: RequireBoostingAttribute.ExecuteCheckAsync(CommandContext, Boolean)
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync*
+  name: ExecuteCheckAsync
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_ExecuteCheckAsync_
+  commentId: Overload:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync
+  isSpec: "True"
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.ExecuteCheckAsync
+  nameWithType: RequireBoostingAttribute.ExecuteCheckAsync
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId
+  name: GuildId
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_GuildId
+  commentId: P:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId
+  nameWithType: RequireBoostingAttribute.GuildId
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId*
+  name: GuildId
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_GuildId_
+  commentId: Overload:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId
+  isSpec: "True"
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.GuildId
+  nameWithType: RequireBoostingAttribute.GuildId
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since
+  name: Since
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_Since
+  commentId: P:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since
+  nameWithType: RequireBoostingAttribute.Since
+- uid: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since*
+  name: Since
+  href: api/DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.html#DisCatSharp_CommandsNext_Attributes_RequireBoostingAttribute_Since_
+  commentId: Overload:DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since
+  isSpec: "True"
+  fullName: DisCatSharp.CommandsNext.Attributes.RequireBoostingAttribute.Since
+  nameWithType: RequireBoostingAttribute.Since
 - uid: DisCatSharp.CommandsNext.Attributes.RequireBotPermissionsAttribute
   name: RequireBotPermissionsAttribute
   href: api/DisCatSharp.CommandsNext.Attributes.RequireBotPermissionsAttribute.html
@@ -5476,6 +5540,29 @@ references:
   fullName: DisCatSharp.CommandsNext.Converters.DiscordGuildConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordGuild>.ConvertAsync
   nameWithType: DiscordGuildConverter.IArgumentConverter<DiscordGuild>.ConvertAsync
   nameWithType.vb: DiscordGuildConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordGuild>.ConvertAsync
+- uid: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter
+  name: DiscordInviteConverter
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.html
+  commentId: T:DisCatSharp.CommandsNext.Converters.DiscordInviteConverter
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter
+  nameWithType: DiscordInviteConverter
+- uid: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordInvite}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name: IArgumentConverter<DiscordInvite>.ConvertAsync(String, CommandContext)
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.html#DisCatSharp_CommandsNext_Converters_DiscordInviteConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordInvite__ConvertAsync_System_String_DisCatSharp_CommandsNext_CommandContext_
+  commentId: M:DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordInvite}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync(String, CommandContext)
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync(System.String, DisCatSharp.CommandsNext.CommandContext)
+  nameWithType: DiscordInviteConverter.IArgumentConverter<DiscordInvite>.ConvertAsync(String, CommandContext)
+  nameWithType.vb: DiscordInviteConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync(String, CommandContext)
+- uid: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordInvite}#ConvertAsync*
+  name: IArgumentConverter<DiscordInvite>.ConvertAsync
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.html#DisCatSharp_CommandsNext_Converters_DiscordInviteConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordInvite__ConvertAsync_
+  commentId: Overload:DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordInvite}#ConvertAsync
+  isSpec: "True"
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordInviteConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync
+  nameWithType: DiscordInviteConverter.IArgumentConverter<DiscordInvite>.ConvertAsync
+  nameWithType.vb: DiscordInviteConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordInvite>.ConvertAsync
 - uid: DisCatSharp.CommandsNext.Converters.DiscordMemberConverter
   name: DiscordMemberConverter
   href: api/DisCatSharp.CommandsNext.Converters.DiscordMemberConverter.html
@@ -5545,6 +5632,29 @@ references:
   fullName: DisCatSharp.CommandsNext.Converters.DiscordRoleConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordRole>.ConvertAsync
   nameWithType: DiscordRoleConverter.IArgumentConverter<DiscordRole>.ConvertAsync
   nameWithType.vb: DiscordRoleConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordRole>.ConvertAsync
+- uid: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter
+  name: DiscordThreadChannelConverter
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.html
+  commentId: T:DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter
+  nameWithType: DiscordThreadChannelConverter
+- uid: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordThreadChannel}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name: IArgumentConverter<DiscordThreadChannel>.ConvertAsync(String, CommandContext)
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.html#DisCatSharp_CommandsNext_Converters_DiscordThreadChannelConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordThreadChannel__ConvertAsync_System_String_DisCatSharp_CommandsNext_CommandContext_
+  commentId: M:DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordThreadChannel}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync(String, CommandContext)
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync(System.String, DisCatSharp.CommandsNext.CommandContext)
+  nameWithType: DiscordThreadChannelConverter.IArgumentConverter<DiscordThreadChannel>.ConvertAsync(String, CommandContext)
+  nameWithType.vb: DiscordThreadChannelConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync(String, CommandContext)
+- uid: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordThreadChannel}#ConvertAsync*
+  name: IArgumentConverter<DiscordThreadChannel>.ConvertAsync
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.html#DisCatSharp_CommandsNext_Converters_DiscordThreadChannelConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordThreadChannel__ConvertAsync_
+  commentId: Overload:DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordThreadChannel}#ConvertAsync
+  isSpec: "True"
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync
+  nameWithType: DiscordThreadChannelConverter.IArgumentConverter<DiscordThreadChannel>.ConvertAsync
+  nameWithType.vb: DiscordThreadChannelConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordThreadChannel>.ConvertAsync
 - uid: DisCatSharp.CommandsNext.Converters.DiscordUserConverter
   name: DiscordUserConverter
   href: api/DisCatSharp.CommandsNext.Converters.DiscordUserConverter.html
