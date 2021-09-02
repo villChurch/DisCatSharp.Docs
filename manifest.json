@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html",
-          "hash": "u8IqVf/eL5FYoH7fnEFV8EKHdj38izxrUpUkDbKXWUU="
+          "hash": "3FxN83TqVv/2y+tO0u4nnDnhRfKqsKgxcaMqbhFEyZ8="
         }
       },
       "is_incremental": false,
@@ -91,6 +91,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsModule.html",
           "hash": "lOm9GvvS/8WSIlhVyN205ZQHYQeJMWzhDBqqa6sbGSo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html",
+          "hash": "RB5bOuQIUZ6ulwu1NZQnDpzk/w+9/AAwvTMx6/7+a4s="
         }
       },
       "is_incremental": false,
@@ -462,7 +474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.html",
-          "hash": "Wugf/WfaQ/35Sczyelnccrjmgr3uaoxCHECxOxHjsgo="
+          "hash": "Lq6gS6h1sGQT8dlQmpD8k3DGnVNQ/cRKk73BGg8FqOY="
         }
       },
       "is_incremental": false,
@@ -2286,7 +2298,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "t7HS5lSa+LwX2/jO096TQ+8Va6V3ubxGMhFuxrHmSGE="
+          "hash": "2PdeX8nWFDw/Fut1Sm2b9R4k7nrUFBwxXfn38G69T4I="
         }
       },
       "is_incremental": false,
@@ -2334,7 +2346,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordShardedClient.html",
-          "hash": "pRHmH0h3RgbTjU/UvMY9hPu2rZNwiZBdTxRIXy+1Ntc="
+          "hash": "eFoD5oZKxCixSpYej9OMgqgxiUD/WYZlUqjErxxkhyQ="
         }
       },
       "is_incremental": false,
@@ -2502,7 +2514,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html",
-          "hash": "3scfcROo2ZgCTgBT1/2zudmm94fwLOXrNWar/LPHPtU="
+          "hash": "/J75QljibfnJ18mrjmB8k1kMZiZA0DrD+HW91TCsXkQ="
         }
       },
       "is_incremental": false,
@@ -2826,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordChannel.html",
-          "hash": "5yrxQ0Dl6DECmiLwGvUHIkyNafIHZxHKsP8afQgJHT8="
+          "hash": "4+9pVUe7xfvM9JJAHWwMsmhCxDX979ScXXMAWq2QltY="
         }
       },
       "is_incremental": false,
@@ -3882,7 +3894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.GuildFeatures.html",
-          "hash": "SoWpzQU2ps7PMAMsIojK4cwWQ49/YHqPKg1CGX/ig2Q="
+          "hash": "EIOC3o9glFFmYeiSESlSZ3GBWYkL3VzbmnirT5N1Qww="
         }
       },
       "is_incremental": false,
@@ -4226,6 +4238,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html",
+          "hash": "BznERPowyHChJXE4H3cBl+JnWXE5NkQ67iMs74jnTcQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.EventArgs.ChannelCreateEventArgs.yml",
       "output": {
         ".html": {
@@ -4314,7 +4338,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.DiscordEventArgs.html",
-          "hash": "itCyWTmhfsuefe1BnTfaudsqu1o+QlkIjlMcxjWrA7M="
+          "hash": "16w3baRpdO1NIjz3ZRPbEyBo6w0nemzqtSkkzEzlh9o="
         }
       },
       "is_incremental": false,
@@ -5094,7 +5118,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.EventArgs.html",
-          "hash": "tiCQEzblI0PiUh10feh9aSqfkAUgrSDQ9JoZa3+vlpg="
+          "hash": "UKLQGAxJrUMhII4EPrc8/HmfDa36K7NDe+T2QGE3CB8="
         }
       },
       "is_incremental": false,
@@ -6954,7 +6978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "T4bXLwta0nYSgxudY65HVh+FIpz4zIR1J7HD6BL0FnU="
+          "hash": "ZC0feQYoGHxEsLyPyk8c8i7p5PHcCpsXhvUxMl7vBco="
         }
       },
       "is_incremental": false,
@@ -8001,8 +8025,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 577,
-          "skipped_file_count": 577
+          "total_file_count": 579,
+          "skipped_file_count": 579
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

@@ -266,6 +266,15 @@ references:
   fullName.vb: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type, System.Nullable(Of System.UInt64))
   nameWithType: ApplicationCommandsExtension.RegisterCommands(Type, Nullable<UInt64>)
   nameWithType.vb: ApplicationCommandsExtension.RegisterCommands(Type, Nullable(Of UInt64))
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type,System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})
+  name: RegisterCommands(Type, UInt64, Action<ApplicationCommandsPermissionContext>)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html#DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_Type_System_UInt64_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type,System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})
+  name.vb: RegisterCommands(Type, UInt64, Action(Of ApplicationCommandsPermissionContext))
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type, System.UInt64, Action<DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext>)
+  fullName.vb: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type, System.UInt64, Action(Of DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext))
+  nameWithType: ApplicationCommandsExtension.RegisterCommands(Type, UInt64, Action<ApplicationCommandsPermissionContext>)
+  nameWithType.vb: ApplicationCommandsExtension.RegisterCommands(Type, UInt64, Action(Of ApplicationCommandsPermissionContext))
 - uid: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*
   name: RegisterCommands
   href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html#DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_
@@ -282,6 +291,15 @@ references:
   fullName.vb: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Of T)(System.Nullable(Of System.UInt64))
   nameWithType: ApplicationCommandsExtension.RegisterCommands<T>(Nullable<UInt64>)
   nameWithType.vb: ApplicationCommandsExtension.RegisterCommands(Of T)(Nullable(Of UInt64))
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})
+  name: RegisterCommands<T>(UInt64, Action<ApplicationCommandsPermissionContext>)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html#DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands__1_System_UInt64_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})
+  name.vb: RegisterCommands(Of T)(UInt64, Action(Of ApplicationCommandsPermissionContext))
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands<T>(System.UInt64, Action<DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext>)
+  fullName.vb: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Of T)(System.UInt64, Action(Of DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext))
+  nameWithType: ApplicationCommandsExtension.RegisterCommands<T>(UInt64, Action<ApplicationCommandsPermissionContext>)
+  nameWithType.vb: ApplicationCommandsExtension.RegisterCommands(Of T)(UInt64, Action(Of ApplicationCommandsPermissionContext))
 - uid: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisteredCommands
   name: RegisteredCommands
   href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html#DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisteredCommands
@@ -378,6 +396,77 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsModule.BeforeSlashExecutionAsync
   nameWithType: ApplicationCommandsModule.BeforeSlashExecutionAsync
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext
+  name: ApplicationCommandsPermissionContext
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html
+  commentId: T:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext
+  nameWithType: ApplicationCommandsPermissionContext
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole(System.UInt64,System.Boolean)
+  name: AddRole(UInt64, Boolean)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddRole_System_UInt64_System_Boolean_
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole(System.UInt64,System.Boolean)
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole(System.UInt64, System.Boolean)
+  nameWithType: ApplicationCommandsPermissionContext.AddRole(UInt64, Boolean)
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole*
+  name: AddRole
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddRole_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole
+  nameWithType: ApplicationCommandsPermissionContext.AddRole
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser(System.UInt64,System.Boolean)
+  name: AddUser(UInt64, Boolean)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddUser_System_UInt64_System_Boolean_
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser(System.UInt64,System.Boolean)
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser(System.UInt64, System.Boolean)
+  nameWithType: ApplicationCommandsPermissionContext.AddUser(UInt64, Boolean)
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser*
+  name: AddUser
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddUser_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddUser
+  nameWithType: ApplicationCommandsPermissionContext.AddUser
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name
+  name: Name
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Name
+  commentId: P:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name
+  nameWithType: ApplicationCommandsPermissionContext.Name
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name*
+  name: Name
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Name_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Name
+  nameWithType: ApplicationCommandsPermissionContext.Name
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions
+  name: Permissions
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Permissions
+  commentId: P:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions
+  nameWithType: ApplicationCommandsPermissionContext.Permissions
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Permissions_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Permissions
+  nameWithType: ApplicationCommandsPermissionContext.Permissions
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type
+  name: Type
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Type
+  commentId: P:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type
+  nameWithType: ApplicationCommandsPermissionContext.Type
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type*
+  name: Type
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_Type_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.Type
+  nameWithType: ApplicationCommandsPermissionContext.Type
 - uid: DisCatSharp.ApplicationCommands.Attributes
   name: DisCatSharp.ApplicationCommands.Attributes
   href: api/DisCatSharp.ApplicationCommands.Attributes.html
@@ -9960,6 +10049,12 @@ references:
   commentId: E:DisCatSharp.DiscordClient.ApplicationCommandDeleted
   fullName: DisCatSharp.DiscordClient.ApplicationCommandDeleted
   nameWithType: DiscordClient.ApplicationCommandDeleted
+- uid: DisCatSharp.DiscordClient.ApplicationCommandPermissionsUpdated
+  name: ApplicationCommandPermissionsUpdated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ApplicationCommandPermissionsUpdated
+  commentId: E:DisCatSharp.DiscordClient.ApplicationCommandPermissionsUpdated
+  fullName: DisCatSharp.DiscordClient.ApplicationCommandPermissionsUpdated
+  nameWithType: DiscordClient.ApplicationCommandPermissionsUpdated
 - uid: DisCatSharp.DiscordClient.ApplicationCommandUpdated
   name: ApplicationCommandUpdated
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ApplicationCommandUpdated
@@ -11567,6 +11662,12 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.ApplicationCommandDeleted
   fullName: DisCatSharp.DiscordShardedClient.ApplicationCommandDeleted
   nameWithType: DiscordShardedClient.ApplicationCommandDeleted
+- uid: DisCatSharp.DiscordShardedClient.ApplicationCommandPermissionsUpdated
+  name: ApplicationCommandPermissionsUpdated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_ApplicationCommandPermissionsUpdated
+  commentId: E:DisCatSharp.DiscordShardedClient.ApplicationCommandPermissionsUpdated
+  fullName: DisCatSharp.DiscordShardedClient.ApplicationCommandPermissionsUpdated
+  nameWithType: DiscordShardedClient.ApplicationCommandPermissionsUpdated
 - uid: DisCatSharp.DiscordShardedClient.ApplicationCommandUpdated
   name: ApplicationCommandUpdated
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_ApplicationCommandUpdated
@@ -13675,6 +13776,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordApplicationCommandPermission
   fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission
   nameWithType: DiscordApplicationCommandPermission
+- uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.#ctor(System.UInt64,DisCatSharp.ApplicationCommandPermissionType,System.Boolean)
+  name: DiscordApplicationCommandPermission(UInt64, ApplicationCommandPermissionType, Boolean)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission__ctor_System_UInt64_DisCatSharp_ApplicationCommandPermissionType_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandPermission.#ctor(System.UInt64,DisCatSharp.ApplicationCommandPermissionType,System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.DiscordApplicationCommandPermission(System.UInt64, DisCatSharp.ApplicationCommandPermissionType, System.Boolean)
+  nameWithType: DiscordApplicationCommandPermission.DiscordApplicationCommandPermission(UInt64, ApplicationCommandPermissionType, Boolean)
+- uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.#ctor*
+  name: DiscordApplicationCommandPermission
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission__ctor_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandPermission.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.DiscordApplicationCommandPermission
+  nameWithType: DiscordApplicationCommandPermission.DiscordApplicationCommandPermission
 - uid: DisCatSharp.Entities.DiscordApplicationCommandPermission.Equals(DisCatSharp.Entities.DiscordApplicationCommandPermission)
   name: Equals(DiscordApplicationCommandPermission)
   href: api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html#DisCatSharp_Entities_DiscordApplicationCommandPermission_Equals_DisCatSharp_Entities_DiscordApplicationCommandPermission_
@@ -43140,6 +43254,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.HasMonetizationEnabled
   nameWithType: GuildFeatures.HasMonetizationEnabled
+- uid: DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions
+  name: HasNewThreadPermissions
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasNewThreadPermissions
+  commentId: P:DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions
+  fullName: DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions
+  nameWithType: GuildFeatures.HasNewThreadPermissions
+- uid: DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions*
+  name: HasNewThreadPermissions
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasNewThreadPermissions_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.HasNewThreadPermissions
+  nameWithType: GuildFeatures.HasNewThreadPermissions
 - uid: DisCatSharp.Entities.GuildFeatures.HasPreviewEnabled
   name: HasPreviewEnabled
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasPreviewEnabled
@@ -44411,6 +44538,64 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.ApplicationCommandEventArgs.Guild
   nameWithType: ApplicationCommandEventArgs.Guild
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs
+  name: ApplicationCommandPermissionsUpdateEventArgs
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+  name: ApplicationId
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_ApplicationId
+  commentId: P:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId*
+  name: ApplicationId
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_ApplicationId_
+  commentId: Overload:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.ApplicationId
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command
+  name: Command
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Command
+  commentId: P:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Command
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command*
+  name: Command
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Command_
+  commentId: Overload:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Command
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Command
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild
+  name: Guild
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild*
+  name: Guild
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Guild
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions
+  name: Permissions
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Permissions
+  commentId: P:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Permissions
+- uid: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.html#DisCatSharp_EventArgs_ApplicationCommandPermissionsUpdateEventArgs_Permissions_
+  commentId: Overload:DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.ApplicationCommandPermissionsUpdateEventArgs.Permissions
+  nameWithType: ApplicationCommandPermissionsUpdateEventArgs.Permissions
 - uid: DisCatSharp.EventArgs.ChannelCreateEventArgs
   name: ChannelCreateEventArgs
   href: api/DisCatSharp.EventArgs.ChannelCreateEventArgs.html

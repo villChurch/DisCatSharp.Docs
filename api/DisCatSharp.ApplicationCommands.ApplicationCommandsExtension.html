@@ -199,6 +199,47 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
   
   
   <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_Type_System_UInt64_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(Type,System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})">RegisterCommands(Type, UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a command class with permission setup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCommands(Type type, ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Type</span></td>
+        <td><span class="parametername">type</span></td>
+        <td><p>The <see cref="!:Type"></see> of the command class to register.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The guild id to register it on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html">ApplicationCommandsPermissionContext</a>&gt;</td>
+        <td><span class="parametername">permissionSetup</span></td>
+        <td><p>A callback to setup permissions with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*"></a>
   <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands__1_System_Nullable_System_UInt64__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.Nullable{System.UInt64})">RegisterCommands&lt;T&gt;(Nullable&lt;UInt64&gt;)</h4>
   <div class="markdown level1 summary"><p>Registers a command class.</p>
 </div>
@@ -222,6 +263,58 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
         <td><span class="parametername">guildId</span></td>
         <td><p>The guild id to register it on. If you want global commands, leave it null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">T</span></td>
+        <td><p>The command class to register.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands__1_System_UInt64_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.UInt64,Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})">RegisterCommands&lt;T&gt;(UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a command class with permission setup.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void RegisterCommands&lt;T&gt;(ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null)
+    where T : ApplicationCommandsModule</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">guildId</span></td>
+        <td><p>The guild id to register it on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html">ApplicationCommandsPermissionContext</a>&gt;</td>
+        <td><span class="parametername">permissionSetup</span></td>
+        <td><p>A callback to setup permissions with.</p>
 </td>
       </tr>
     </tbody>
