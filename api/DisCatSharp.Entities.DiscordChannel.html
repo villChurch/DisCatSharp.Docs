@@ -1682,6 +1682,32 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordChannel_GetMaxPosition_" data-uid="DisCatSharp.Entities.DiscordChannel.GetMaxPosition*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_GetMaxPosition" data-uid="DisCatSharp.Entities.DiscordChannel.GetMaxPosition">GetMaxPosition()</h4>
+  <div class="markdown level1 summary"><p>Gets the maximum available position to move the channel to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetMaxPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordChannel_GetMessageAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.GetMessageAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordChannel_GetMessageAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordChannel.GetMessageAsync(System.UInt64)">GetMessageAsync(UInt64)</h4>
   <div class="markdown level1 summary"><p>Returns a specific message</p>
@@ -1914,6 +1940,32 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordChannel_GetMinPosition_" data-uid="DisCatSharp.Entities.DiscordChannel.GetMinPosition*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_GetMinPosition" data-uid="DisCatSharp.Entities.DiscordChannel.GetMinPosition">GetMinPosition()</h4>
+  <div class="markdown level1 summary"><p>Gets the minimum available position to move the channel to.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int GetMinPosition()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -2203,7 +2255,10 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
   
   <a id="DisCatSharp_Entities_DiscordChannel_ModifyPositionAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordChannel_ModifyPositionAsync_System_Int32_System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionAsync(System.Int32,System.String)">ModifyPositionAsync(Int32, String)</h4>
-  <div class="markdown level1 summary"><p>Updates the channel position within it&apos;s own category. Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyParentAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</a> for moving to other categories.</p>
+  <div class="markdown level1 summary"><p>Updates the channel position when it doesn&apos;t have a category.</p>
+<p>Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyParentAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</a> for moving to other categories.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RemoveParentAsync_System_String_">RemoveParentAsync(String)</a> to move out of a category.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_System_Int32_System_String_">ModifyPositionInCategoryAsync(Int32, String)</a> for moving within a category.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2230,6 +2285,119 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">reason</span></td>
         <td><p>Reason for audit logs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_System_Int32_System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync(System.Int32,System.String)">ModifyPositionInCategoryAsync(Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Updates the channel position within it&apos;s own category.</p>
+<p>Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyParentAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</a> for moving to other categories.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RemoveParentAsync_System_String_">RemoveParentAsync(String)</a> to move out of a category.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionAsync_System_Int32_System_String_">ModifyPositionAsync(Int32, String)</a> to move channels outside a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyPositionInCategoryAsync(int position, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategorySmartAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategorySmartAsync_System_String_System_Int32_System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync(System.String,System.Int32,System.String)">ModifyPositionInCategorySmartAsync(String, Int32, String)</h4>
+  <div class="markdown level1 summary"><p>Updates the channel position within it&apos;s own category.
+Valid modes: &apos;+&apos; or &apos;down&apos; to move a channel down | &apos;-&apos; or &apos;up&apos; to move a channel up.</p>
+<p>Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyParentAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">ModifyParentAsync(DiscordChannel, Nullable&lt;Boolean&gt;, String)</a> for moving to other categories.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RemoveParentAsync_System_String_">RemoveParentAsync(String)</a> to move out of a category.
+Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionAsync_System_Int32_System_String_">ModifyPositionAsync(Int32, String)</a> to move channels outside a category.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task ModifyPositionInCategorySmartAsync(string mode, int position, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">mode</span></td>
+        <td><p>The mode. Valid: &apos;+&apos; or &apos;down&apos; to move a channel down | &apos;-&apos; or &apos;up&apos; to move a channel up</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><span class="parametername">position</span></td>
+        <td><p>The position.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The reason.</p>
 </td>
       </tr>
     </tbody>

@@ -15891,6 +15891,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.GetJoinedPrivateArchivedThreadsAsync
   nameWithType: DiscordChannel.GetJoinedPrivateArchivedThreadsAsync
+- uid: DisCatSharp.Entities.DiscordChannel.GetMaxPosition
+  name: GetMaxPosition()
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMaxPosition
+  commentId: M:DisCatSharp.Entities.DiscordChannel.GetMaxPosition
+  fullName: DisCatSharp.Entities.DiscordChannel.GetMaxPosition()
+  nameWithType: DiscordChannel.GetMaxPosition()
+- uid: DisCatSharp.Entities.DiscordChannel.GetMaxPosition*
+  name: GetMaxPosition
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMaxPosition_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.GetMaxPosition
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.GetMaxPosition
+  nameWithType: DiscordChannel.GetMaxPosition
 - uid: DisCatSharp.Entities.DiscordChannel.GetMessageAsync(System.UInt64)
   name: GetMessageAsync(UInt64)
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMessageAsync_System_UInt64_
@@ -15956,6 +15969,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.GetMessagesBeforeAsync
   nameWithType: DiscordChannel.GetMessagesBeforeAsync
+- uid: DisCatSharp.Entities.DiscordChannel.GetMinPosition
+  name: GetMinPosition()
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMinPosition
+  commentId: M:DisCatSharp.Entities.DiscordChannel.GetMinPosition
+  fullName: DisCatSharp.Entities.DiscordChannel.GetMinPosition()
+  nameWithType: DiscordChannel.GetMinPosition()
+- uid: DisCatSharp.Entities.DiscordChannel.GetMinPosition*
+  name: GetMinPosition
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMinPosition_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.GetMinPosition
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.GetMinPosition
+  nameWithType: DiscordChannel.GetMinPosition
 - uid: DisCatSharp.Entities.DiscordChannel.GetPinnedMessagesAsync
   name: GetPinnedMessagesAsync()
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetPinnedMessagesAsync
@@ -16189,6 +16215,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.ModifyPositionAsync
   nameWithType: DiscordChannel.ModifyPositionAsync
+- uid: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync(System.Int32,System.String)
+  name: ModifyPositionInCategoryAsync(Int32, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_System_Int32_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync(System.Int32,System.String)
+  fullName: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync(System.Int32, System.String)
+  nameWithType: DiscordChannel.ModifyPositionInCategoryAsync(Int32, String)
+- uid: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync*
+  name: ModifyPositionInCategoryAsync
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategoryAsync
+  nameWithType: DiscordChannel.ModifyPositionInCategoryAsync
+- uid: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync(System.String,System.Int32,System.String)
+  name: ModifyPositionInCategorySmartAsync(String, Int32, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategorySmartAsync_System_String_System_Int32_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync(System.String,System.Int32,System.String)
+  fullName: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync(System.String, System.Int32, System.String)
+  nameWithType: DiscordChannel.ModifyPositionInCategorySmartAsync(String, Int32, String)
+- uid: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync*
+  name: ModifyPositionInCategorySmartAsync
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategorySmartAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync
+  nameWithType: DiscordChannel.ModifyPositionInCategorySmartAsync
 - uid: DisCatSharp.Entities.DiscordChannel.ModifyStageAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
   name: ModifyStageAsync(Optional<String>, Optional<StagePrivacyLevel>, String)
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyStageAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
