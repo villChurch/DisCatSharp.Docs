@@ -432,7 +432,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
       <tr>
         <td><a class="xref" href="DisCatSharp.Interactivity.PaginationEmojis.html">PaginationEmojis</a></td>
         <td><span class="parametername">emojis</span></td>
-        <td><p>Pagination emojis (emojis set to null get disabled).</p>
+        <td><p>Pagination emojis.</p>
 </td>
       </tr>
       <tr>
@@ -512,7 +512,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
       <tr>
         <td><span class="xref">PaginationButtons</span></td>
         <td><span class="parametername">buttons</span></td>
-        <td><p>Pagination buttons (pass null to default to ones on configuration).</p>
+        <td><p>Pagination buttons (pass null to use buttons defined in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html">InteractivityConfiguration</a>).</p>
 </td>
       </tr>
       <tr>
@@ -553,8 +553,88 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends a paginated message with buttons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SendPaginatedMessageAsync(DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationButtons buttons, TimeSpan? timeoutoverride, PaginationBehaviour? behaviour = null, ButtonPaginationBehavior? deletion = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordChannel</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>The channel to send it on.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>User to give control.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="parametername">pages</span></td>
+        <td><p>The pages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PaginationButtons</span></td>
+        <td><span class="parametername">buttons</span></td>
+        <td><p>Pagination buttons (pass null to use buttons defined in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html">InteractivityConfiguration</a>).</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutoverride</span></td>
+        <td><p>Override timeout period.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PaginationBehaviour</span>&gt;</td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>Pagination behaviour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ButtonPaginationBehavior</span>&gt;</td>
+        <td><span class="parametername">deletion</span></td>
+        <td><p>Deletion behaviour</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
   <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Sends the paginated message async.</p>
+  <div class="markdown level1 summary"><p>Sends the paginated message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -622,6 +702,170 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td><p>A Task.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends the paginated message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task SendPaginatedMessageAsync(DiscordChannel channel, DiscordUser user, IEnumerable&lt;Page&gt; pages, TimeSpan? timeoutoverride, PaginationBehaviour? behaviour = null, ButtonPaginationBehavior? deletion = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordChannel</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>The channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="parametername">pages</span></td>
+        <td><p>The pages.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="parametername">timeoutoverride</span></td>
+        <td><p>The timeoutoverride.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PaginationBehaviour</span>&gt;</td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>The behaviour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ButtonPaginationBehavior</span>&gt;</td>
+        <td><span class="parametername">deletion</span></td>
+        <td><p>The deletion.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><p>A Task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync*"></a>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_DiscordInteraction_System_Boolean_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)">SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Sends a paginated message in response to an interaction.
+<p>
+<strong>Pass the interaction directly. Interactivity will ACK it.</strong>
+</p></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task SendPaginatedResponseAsync(DiscordInteraction interaction, bool ephemeral, DiscordUser user, IEnumerable&lt;Page&gt; pages, PaginationButtons buttons = null, PaginationBehaviour? behaviour = null, ButtonPaginationBehavior? deletion = null, CancellationToken token = default(CancellationToken))</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordInteraction</span></td>
+        <td><span class="parametername">interaction</span></td>
+        <td><p>The interaction to create a response to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">ephemeral</span></td>
+        <td><p>Whether the response should be ephemeral.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">DiscordUser</span></td>
+        <td><span class="parametername">user</span></td>
+        <td><p>The user to listen for button presses from.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="parametername">pages</span></td>
+        <td><p>The pages to paginate.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">PaginationButtons</span></td>
+        <td><span class="parametername">buttons</span></td>
+        <td><p>Optional: custom buttons</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">PaginationBehaviour</span>&gt;</td>
+        <td><span class="parametername">behaviour</span></td>
+        <td><p>Pagination behaviour.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">ButtonPaginationBehavior</span>&gt;</td>
+        <td><span class="parametername">deletion</span></td>
+        <td><p>Deletion behaviour</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="parametername">token</span></td>
+        <td><p>A custom cancellation token that can be cancelled at any point.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

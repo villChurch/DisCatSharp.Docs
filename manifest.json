@@ -2310,7 +2310,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordConfiguration.html",
-          "hash": "LjS3o+YBonv+OVY+x18Y4uGL65FH3h/1PsDWEkHNGbc="
+          "hash": "ef2E4zV8J0Uy98YKg8c52EiSOMXHFpT2I5O0JGW/bQQ="
         }
       },
       "is_incremental": false,
@@ -2478,7 +2478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommand.html",
-          "hash": "w7mPdcSG6MXOhL1QSRnTArLCoKGsfzNgvAZIjCNQ79o="
+          "hash": "n8/8jZWLaI0Mgs4WHoWpKpA1QkLDe50MXwbbp4I3dB0="
         }
       },
       "is_incremental": false,
@@ -2838,7 +2838,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordChannel.html",
-          "hash": "uY3HUH0QHbZqaO58ZKeXXX+dx/wJpC4Ubc/OWMsZlRs="
+          "hash": "f8DbFBM6kZJOgLehlqDNlT5H3VZ1e8M2RKFYLS9Joac="
         }
       },
       "is_incremental": false,
@@ -2922,7 +2922,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordDmChannel.html",
-          "hash": "Ngoqs/88eyGIQOsNU5v9iWTFiUtBjAJYmOt2uBBOnyI="
+          "hash": "YghWzLnSOrnqT/MJ2FLqyyzSxN5rwH84hiQjeAsQRmI="
         }
       },
       "is_incremental": false,
@@ -3474,7 +3474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordMessageBuilder.html",
-          "hash": "wiK4QYmxv4uXCeLGKY8UPNx1Z0qD9msnK739t7AgdhM="
+          "hash": "EoxzC8JEF3v6szuaVF5Uwe0xZyXaChY9MDr3aagVk9w="
         }
       },
       "is_incremental": false,
@@ -5478,7 +5478,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html",
-          "hash": "46sZUnnF54flN7SQs6TVxqh1pelFQmX6pv3ZbYMI/Vo="
+          "hash": "Y1GcrBERIxXx9qzCBGRL1RPfe1kXe/g8W+4SXB2jQuQ="
         }
       },
       "is_incremental": false,
@@ -5491,6 +5491,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.ClientExtensions.html",
           "hash": "95hleztguISWDn9LQonVYOAW6GpLMNXDbsi+kAlzQes="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Interactivity.Extensions.InteractionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Interactivity.Extensions.InteractionExtensions.html",
+          "hash": "jNu6UNKwmWo8aslQZGylxvroRNFYZGfK+wvGA8vq75I="
         }
       },
       "is_incremental": false,
@@ -5514,7 +5526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.html",
-          "hash": "xbBeUf2sGSJsdu4VzA7OSjSIUtud9+w2v9u6Ve/+8NE="
+          "hash": "UhKuN5k35VeZNjudSvNhuCJ6ZRYNQFmcoCUDBIknGnM="
         }
       },
       "is_incremental": false,
@@ -5550,7 +5562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.InteractivityExtension.html",
-          "hash": "KRLukBBIYgjXSWf72J0rltlDFjiPIhwJRv4HsxCoafU="
+          "hash": "gXa8/g1bIf0BS3/+xMW6INyOknQ4SkPfisdFZf8bMo8="
         }
       },
       "is_incremental": false,
@@ -6978,7 +6990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZC0feQYoGHxEsLyPyk8c8i7p5PHcCpsXhvUxMl7vBco="
+          "hash": "vc0AhWtu9n1sQb+d70gsyCW5uGNus4zhO0tFzm4x2i4="
         }
       },
       "is_incremental": false,
@@ -7976,7 +7988,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "lJyW7HiEoieAK492TVXXD0fMgDw9KW8joG4qZMhy3tw="
+          "hash": "wkqOpCtzZi89ETwz0b/1hRYpqiPJ/+P0WzigbvlI97c="
         }
       },
       "is_incremental": false,
@@ -8025,8 +8037,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 579,
-          "skipped_file_count": 579
+          "total_file_count": 580,
+          "skipped_file_count": 580
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

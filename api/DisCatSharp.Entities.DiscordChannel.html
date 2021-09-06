@@ -1684,7 +1684,8 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
   
   <a id="DisCatSharp_Entities_DiscordChannel_GetMaxPosition_" data-uid="DisCatSharp.Entities.DiscordChannel.GetMaxPosition*"></a>
   <h4 id="DisCatSharp_Entities_DiscordChannel_GetMaxPosition" data-uid="DisCatSharp.Entities.DiscordChannel.GetMaxPosition">GetMaxPosition()</h4>
-  <div class="markdown level1 summary"><p>Gets the maximum available position to move the channel to.</p>
+  <div class="markdown level1 summary"><p>Gets the maximum available position to move the channel to.
+This can contain outdated informations.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2219,7 +2220,7 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
       <tr>
         <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">newParent</span></td>
-        <td><p>New parent fpr channel. Will move out of parent if null.</p>
+        <td><p>New parent for channel. Will move out of parent if null.</p>
 </td>
       </tr>
       <tr>
@@ -2316,7 +2317,7 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ModifyPositionInCategoryAsync(int position, string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task ModifyPositionInCategoryAsync(int position, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2610,6 +2611,32 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
       </tr>
     </tbody>
   </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordChannel_RefreshPositionsAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_RefreshPositionsAsync" data-uid="DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync">RefreshPositionsAsync()</h4>
+  <div class="markdown level1 summary"><p>Refreshes the positions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task RefreshPositionsAsync()</code></pre>
+  </div>
   <h5 class="returns">Returns</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>

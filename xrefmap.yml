@@ -11231,6 +11231,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordConfiguration.AutoReconnect
   nameWithType: DiscordConfiguration.AutoReconnect
+- uid: DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache
+  name: AutoRefreshChannelCache
+  href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_AutoRefreshChannelCache
+  commentId: P:DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache
+  fullName: DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache
+  nameWithType: DiscordConfiguration.AutoRefreshChannelCache
+- uid: DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache*
+  name: AutoRefreshChannelCache
+  href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_AutoRefreshChannelCache_
+  commentId: Overload:DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordConfiguration.AutoRefreshChannelCache
+  nameWithType: DiscordConfiguration.AutoRefreshChannelCache
 - uid: DisCatSharp.DiscordConfiguration.GatewayCompressionLevel
   name: GatewayCompressionLevel
   href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_GatewayCompressionLevel
@@ -13612,6 +13625,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommand.Type
   nameWithType: DiscordApplicationCommand.Type
+- uid: DisCatSharp.Entities.DiscordApplicationCommand.Version
+  name: Version
+  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand_Version
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommand.Version
+  fullName: DisCatSharp.Entities.DiscordApplicationCommand.Version
+  nameWithType: DiscordApplicationCommand.Version
+- uid: DisCatSharp.Entities.DiscordApplicationCommand.Version*
+  name: Version
+  href: api/DisCatSharp.Entities.DiscordApplicationCommand.html#DisCatSharp_Entities_DiscordApplicationCommand_Version_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommand.Version
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommand.Version
+  nameWithType: DiscordApplicationCommand.Version
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html
@@ -16413,6 +16439,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.QualityMode
   nameWithType: DiscordChannel.QualityMode
+- uid: DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync
+  name: RefreshPositionsAsync()
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RefreshPositionsAsync
+  commentId: M:DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync
+  fullName: DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync()
+  nameWithType: DiscordChannel.RefreshPositionsAsync()
+- uid: DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync*
+  name: RefreshPositionsAsync
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RefreshPositionsAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.RefreshPositionsAsync
+  nameWithType: DiscordChannel.RefreshPositionsAsync
 - uid: DisCatSharp.Entities.DiscordChannel.RemoveParentAsync(System.String)
   name: RemoveParentAsync(String)
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RemoveParentAsync_System_String_
@@ -49122,6 +49161,15 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
   nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__
+  commentId: M:DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
+  fullName: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<TimeSpan>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of TimeSpan), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior))
+  nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
 - uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
   name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
@@ -49131,6 +49179,15 @@ references:
   fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
   nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__
+  commentId: M:DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
+  fullName: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, System.Nullable<TimeSpan>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of TimeSpan), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior))
+  nameWithType: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  nameWithType.vb: ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
 - uid: DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*
   name: SendPaginatedMessageAsync
   href: api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html#DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_
@@ -49212,6 +49269,28 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.Extensions.ClientExtensions.UseInteractivityAsync
   nameWithType: ClientExtensions.UseInteractivityAsync
+- uid: DisCatSharp.Interactivity.Extensions.InteractionExtensions
+  name: InteractionExtensions
+  href: api/DisCatSharp.Interactivity.Extensions.InteractionExtensions.html
+  commentId: T:DisCatSharp.Interactivity.Extensions.InteractionExtensions
+  fullName: DisCatSharp.Interactivity.Extensions.InteractionExtensions
+  nameWithType: InteractionExtensions
+- uid: DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.Extensions.InteractionExtensions.html#DisCatSharp_Interactivity_Extensions_InteractionExtensions_SendPaginatedResponseAsync_DiscordInteraction_System_Boolean_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction, System.Boolean, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction, System.Boolean, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: InteractionExtensions.SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync*
+  name: SendPaginatedResponseAsync
+  href: api/DisCatSharp.Interactivity.Extensions.InteractionExtensions.html#DisCatSharp_Interactivity_Extensions_InteractionExtensions_SendPaginatedResponseAsync_
+  commentId: Overload:DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Interactivity.Extensions.InteractionExtensions.SendPaginatedResponseAsync
+  nameWithType: InteractionExtensions.SendPaginatedResponseAsync
 - uid: DisCatSharp.Interactivity.Extensions.MessageExtensions
   name: MessageExtensions
   href: api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html
@@ -49755,6 +49834,15 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
   nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<TimeSpan>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of TimeSpan), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior))
+  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
 - uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
   name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
@@ -49764,6 +49852,15 @@ references:
   fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
   nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
   nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})
+  name.vb: SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, System.Nullable<TimeSpan>, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), System.Nullable(Of TimeSpan), System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior))
+  nameWithType: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable<Page>, Nullable<TimeSpan>, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>)
+  nameWithType.vb: InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable(Of Page), Nullable(Of TimeSpan), Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior))
 - uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*
   name: SendPaginatedMessageAsync
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_
@@ -49771,6 +49868,22 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync
   nameWithType: InteractivityExtension.SendPaginatedMessageAsync
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name: SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_DiscordInteraction_System_Boolean_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__System_Threading_CancellationToken_
+  commentId: M:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},System.Threading.CancellationToken)
+  name.vb: SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction, System.Boolean, DiscordUser, IEnumerable<DisCatSharp.Interactivity.Page>, PaginationButtons, System.Nullable<PaginationBehaviour>, System.Nullable<ButtonPaginationBehavior>, System.Threading.CancellationToken)
+  fullName.vb: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction, System.Boolean, DiscordUser, IEnumerable(Of DisCatSharp.Interactivity.Page), PaginationButtons, System.Nullable(Of PaginationBehaviour), System.Nullable(Of ButtonPaginationBehavior), System.Threading.CancellationToken)
+  nameWithType: InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable<Page>, PaginationButtons, Nullable<PaginationBehaviour>, Nullable<ButtonPaginationBehavior>, CancellationToken)
+  nameWithType.vb: InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable(Of Page), PaginationButtons, Nullable(Of PaginationBehaviour), Nullable(Of ButtonPaginationBehavior), CancellationToken)
+- uid: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync*
+  name: SendPaginatedResponseAsync
+  href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_
+  commentId: Overload:DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync
+  nameWithType: InteractivityExtension.SendPaginatedResponseAsync
 - uid: DisCatSharp.Interactivity.InteractivityExtension.Setup(DisCatSharp.DiscordClient)
   name: Setup(DiscordClient)
   href: api/DisCatSharp.Interactivity.InteractivityExtension.html#DisCatSharp_Interactivity_InteractivityExtension_Setup_DisCatSharp_DiscordClient_
