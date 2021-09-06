@@ -1,1 +1,1 @@
-# DisCatSharp Docs
+# Official DisCatSharp Docs
