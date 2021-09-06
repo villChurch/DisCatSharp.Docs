@@ -1,1 +1,1 @@
-# DisCatSharp.Docs
+# DisCatSharp Docs
