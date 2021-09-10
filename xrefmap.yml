@@ -37,6 +37,9 @@ references:
 - uid: beyond_basics_sharding
   name: Sharding
   href: articles/beyond_basics/sharding.html
+- uid: beyond_basics_workarounds
+  name: Workarounds
+  href: articles/beyond_basics/workarounds.html
 - uid: commands_argument_converters
   name: Argument Converter
   href: articles/commands/argument_converters.html
@@ -16599,6 +16602,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.UserLimit
   nameWithType: DiscordChannel.UserLimit
+- uid: DisCatSharp.Entities.DiscordChannel.UserPermissions
+  name: UserPermissions
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_UserPermissions
+  commentId: P:DisCatSharp.Entities.DiscordChannel.UserPermissions
+  fullName: DisCatSharp.Entities.DiscordChannel.UserPermissions
+  nameWithType: DiscordChannel.UserPermissions
+- uid: DisCatSharp.Entities.DiscordChannel.UserPermissions*
+  name: UserPermissions
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_UserPermissions_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.UserPermissions
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.UserPermissions
+  nameWithType: DiscordChannel.UserPermissions
 - uid: DisCatSharp.Entities.DiscordChannel.Users
   name: Users
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_Users
@@ -42169,6 +42185,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordVoiceState.IsSuppressed
   nameWithType: DiscordVoiceState.IsSuppressed
+- uid: DisCatSharp.Entities.DiscordVoiceState.Member
+  name: Member
+  href: api/DisCatSharp.Entities.DiscordVoiceState.html#DisCatSharp_Entities_DiscordVoiceState_Member
+  commentId: P:DisCatSharp.Entities.DiscordVoiceState.Member
+  fullName: DisCatSharp.Entities.DiscordVoiceState.Member
+  nameWithType: DiscordVoiceState.Member
+- uid: DisCatSharp.Entities.DiscordVoiceState.Member*
+  name: Member
+  href: api/DisCatSharp.Entities.DiscordVoiceState.html#DisCatSharp_Entities_DiscordVoiceState_Member_
+  commentId: Overload:DisCatSharp.Entities.DiscordVoiceState.Member
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordVoiceState.Member
+  nameWithType: DiscordVoiceState.Member
 - uid: DisCatSharp.Entities.DiscordVoiceState.ToString
   name: ToString()
   href: api/DisCatSharp.Entities.DiscordVoiceState.html#DisCatSharp_Entities_DiscordVoiceState_ToString
@@ -53763,6 +53792,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.ChannelEditModel.Parent
   nameWithType: ChannelEditModel.Parent
+- uid: DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites
+  name: PermissionOverwrites
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_PermissionOverwrites
+  commentId: P:DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites
+  nameWithType: ChannelEditModel.PermissionOverwrites
+- uid: DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites*
+  name: PermissionOverwrites
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_PermissionOverwrites_
+  commentId: Overload:DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.PermissionOverwrites
+  nameWithType: ChannelEditModel.PermissionOverwrites
 - uid: DisCatSharp.Net.Models.ChannelEditModel.PerUserRateLimit
   name: PerUserRateLimit
   href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_PerUserRateLimit
@@ -53828,6 +53870,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.ChannelEditModel.Topic
   nameWithType: ChannelEditModel.Topic
+- uid: DisCatSharp.Net.Models.ChannelEditModel.Type
+  name: Type
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Type
+  commentId: P:DisCatSharp.Net.Models.ChannelEditModel.Type
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.Type
+  nameWithType: ChannelEditModel.Type
+- uid: DisCatSharp.Net.Models.ChannelEditModel.Type*
+  name: Type
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Type_
+  commentId: Overload:DisCatSharp.Net.Models.ChannelEditModel.Type
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.Type
+  nameWithType: ChannelEditModel.Type
 - uid: DisCatSharp.Net.Models.ChannelEditModel.Userlimit
   name: Userlimit
   href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Userlimit
