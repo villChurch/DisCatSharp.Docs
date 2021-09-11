@@ -55364,6 +55364,12 @@ references:
   commentId: F:DisCatSharp.Permissions.Speak
   fullName: DisCatSharp.Permissions.Speak
   nameWithType: Permissions.Speak
+- uid: DisCatSharp.Permissions.StartEmbeddedActivities
+  name: StartEmbeddedActivities
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_StartEmbeddedActivities
+  commentId: F:DisCatSharp.Permissions.StartEmbeddedActivities
+  fullName: DisCatSharp.Permissions.StartEmbeddedActivities
+  nameWithType: Permissions.StartEmbeddedActivities
 - uid: DisCatSharp.Permissions.Stream
   name: Stream
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_Stream
