@@ -1285,6 +1285,63 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordMember_MakeSpeakerAsync_" data-uid="DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_MakeSpeakerAsync" data-uid="DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync">MakeSpeakerAsync()</h4>
+  <div class="markdown level1 summary"><p>Makes the user a speaker.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task MakeSpeakerAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_MuteMembers">MuteMembers</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the member does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordMember_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordMember.ModifyAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordMember_ModifyAsync_Action_MemberEditModel__" data-uid="DisCatSharp.Entities.DiscordMember.ModifyAsync(Action{MemberEditModel})">ModifyAsync(Action&lt;MemberEditModel&gt;)</h4>
   <div class="markdown level1 summary"><p>Modifies this member.</p>
@@ -1339,6 +1396,63 @@
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
         <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageNicknames">ManageNicknames</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the member does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordMember_MoveToAudienceAsync_" data-uid="DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_MoveToAudienceAsync" data-uid="DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync">MoveToAudienceAsync()</h4>
+  <div class="markdown level1 summary"><p>Moves the user to audience.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task MoveToAudienceAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_MuteMembers">MuteMembers</a> permission.</p>
 </td>
       </tr>
       <tr>

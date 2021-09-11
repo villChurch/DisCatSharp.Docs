@@ -24273,6 +24273,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.Locale
   nameWithType: DiscordMember.Locale
+- uid: DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync
+  name: MakeSpeakerAsync()
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_MakeSpeakerAsync
+  commentId: M:DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync
+  fullName: DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync()
+  nameWithType: DiscordMember.MakeSpeakerAsync()
+- uid: DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync*
+  name: MakeSpeakerAsync
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_MakeSpeakerAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.MakeSpeakerAsync
+  nameWithType: DiscordMember.MakeSpeakerAsync
 - uid: DisCatSharp.Entities.DiscordMember.MfaEnabled
   name: MfaEnabled
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_MfaEnabled
@@ -24302,6 +24315,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.ModifyAsync
   nameWithType: DiscordMember.ModifyAsync
+- uid: DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync
+  name: MoveToAudienceAsync()
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_MoveToAudienceAsync
+  commentId: M:DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync
+  fullName: DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync()
+  nameWithType: DiscordMember.MoveToAudienceAsync()
+- uid: DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync*
+  name: MoveToAudienceAsync
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_MoveToAudienceAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.MoveToAudienceAsync
+  nameWithType: DiscordMember.MoveToAudienceAsync
 - uid: DisCatSharp.Entities.DiscordMember.Nickname
   name: Nickname
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_Nickname
