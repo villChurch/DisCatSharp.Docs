@@ -26654,6 +26654,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordRole.GetHashCode
   nameWithType: DiscordRole.GetHashCode
+- uid: DisCatSharp.Entities.DiscordRole.IconHash
+  name: IconHash
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_IconHash
+  commentId: P:DisCatSharp.Entities.DiscordRole.IconHash
+  fullName: DisCatSharp.Entities.DiscordRole.IconHash
+  nameWithType: DiscordRole.IconHash
+- uid: DisCatSharp.Entities.DiscordRole.IconHash*
+  name: IconHash
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_IconHash_
+  commentId: Overload:DisCatSharp.Entities.DiscordRole.IconHash
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordRole.IconHash
+  nameWithType: DiscordRole.IconHash
+- uid: DisCatSharp.Entities.DiscordRole.IconUrl
+  name: IconUrl
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_IconUrl
+  commentId: P:DisCatSharp.Entities.DiscordRole.IconUrl
+  fullName: DisCatSharp.Entities.DiscordRole.IconUrl
+  nameWithType: DiscordRole.IconUrl
+- uid: DisCatSharp.Entities.DiscordRole.IconUrl*
+  name: IconUrl
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_IconUrl_
+  commentId: Overload:DisCatSharp.Entities.DiscordRole.IconUrl
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordRole.IconUrl
+  nameWithType: DiscordRole.IconUrl
 - uid: DisCatSharp.Entities.DiscordRole.IsHoisted
   name: IsHoisted
   href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_IsHoisted
