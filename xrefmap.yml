@@ -27102,32 +27102,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordStageInstance.ChannelId
   nameWithType: DiscordStageInstance.ChannelId
-- uid: DisCatSharp.Entities.DiscordStageInstance.CloseAsync(System.String)
-  name: CloseAsync(String)
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CloseAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordStageInstance.CloseAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordStageInstance.CloseAsync(System.String)
-  nameWithType: DiscordStageInstance.CloseAsync(String)
-- uid: DisCatSharp.Entities.DiscordStageInstance.CloseAsync*
-  name: CloseAsync
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CloseAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageInstance.CloseAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageInstance.CloseAsync
-  nameWithType: DiscordStageInstance.CloseAsync
-- uid: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String,DateTime,System.String,DisCatSharp.StagePrivacyLevel,System.String)
-  name: CreateEventAsync(String, DateTime, String, StagePrivacyLevel, String)
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_System_String_DateTime_System_String_DisCatSharp_StagePrivacyLevel_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String,DateTime,System.String,DisCatSharp.StagePrivacyLevel,System.String)
-  fullName: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync(System.String, DateTime, System.String, DisCatSharp.StagePrivacyLevel, System.String)
-  nameWithType: DiscordStageInstance.CreateEventAsync(String, DateTime, String, StagePrivacyLevel, String)
-- uid: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync*
-  name: CreateEventAsync
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_CreateEventAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageInstance.CreateEventAsync
-  nameWithType: DiscordStageInstance.CreateEventAsync
 - uid: DisCatSharp.Entities.DiscordStageInstance.DiscoverableDisabled
   name: DiscoverableDisabled
   href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_DiscoverableDisabled
@@ -27199,22 +27173,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordStageInstance.GuildId
   nameWithType: DiscordStageInstance.GuildId
-- uid: DisCatSharp.Entities.DiscordStageInstance.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name: ModifyAsync(Optional<String>, Optional<StagePrivacyLevel>, String)
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_ModifyAsync_DisCatSharp_Entities_Optional_System_String__DisCatSharp_Entities_Optional_DisCatSharp_StagePrivacyLevel__System_String_
-  commentId: M:DisCatSharp.Entities.DiscordStageInstance.ModifyAsync(DisCatSharp.Entities.Optional{System.String},DisCatSharp.Entities.Optional{DisCatSharp.StagePrivacyLevel},System.String)
-  name.vb: ModifyAsync(Optional(Of String), Optional(Of StagePrivacyLevel), String)
-  fullName: DisCatSharp.Entities.DiscordStageInstance.ModifyAsync(DisCatSharp.Entities.Optional<System.String>, DisCatSharp.Entities.Optional<DisCatSharp.StagePrivacyLevel>, System.String)
-  fullName.vb: DisCatSharp.Entities.DiscordStageInstance.ModifyAsync(DisCatSharp.Entities.Optional(Of System.String), DisCatSharp.Entities.Optional(Of DisCatSharp.StagePrivacyLevel), System.String)
-  nameWithType: DiscordStageInstance.ModifyAsync(Optional<String>, Optional<StagePrivacyLevel>, String)
-  nameWithType.vb: DiscordStageInstance.ModifyAsync(Optional(Of String), Optional(Of StagePrivacyLevel), String)
-- uid: DisCatSharp.Entities.DiscordStageInstance.ModifyAsync*
-  name: ModifyAsync
-  href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_ModifyAsync_
-  commentId: Overload:DisCatSharp.Entities.DiscordStageInstance.ModifyAsync
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordStageInstance.ModifyAsync
-  nameWithType: DiscordStageInstance.ModifyAsync
 - uid: DisCatSharp.Entities.DiscordStageInstance.op_Equality(DisCatSharp.Entities.DiscordStageInstance,DisCatSharp.Entities.DiscordStageInstance)
   name: Equality(DiscordStageInstance, DiscordStageInstance)
   href: api/DisCatSharp.Entities.DiscordStageInstance.html#DisCatSharp_Entities_DiscordStageInstance_op_Equality_DisCatSharp_Entities_DiscordStageInstance_DisCatSharp_Entities_DiscordStageInstance_
