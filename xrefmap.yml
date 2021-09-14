@@ -43410,6 +43410,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.HasPreviewEnabled
   nameWithType: GuildFeatures.HasPreviewEnabled
+- uid: DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled
+  name: HasRoleSubscriptionsEnabled
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasRoleSubscriptionsEnabled
+  commentId: P:DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled
+  fullName: DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled
+  nameWithType: GuildFeatures.HasRoleSubscriptionsEnabled
+- uid: DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled*
+  name: HasRoleSubscriptionsEnabled
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasRoleSubscriptionsEnabled_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.HasRoleSubscriptionsEnabled
+  nameWithType: GuildFeatures.HasRoleSubscriptionsEnabled
 - uid: DisCatSharp.Entities.GuildFeatures.HasThreadsEnabled
   name: HasThreadsEnabled
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasThreadsEnabled
