@@ -1591,12 +1591,15 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.OptionAttribute
   fullName: DisCatSharp.ApplicationCommands.OptionAttribute
   nameWithType: OptionAttribute
-- uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String)
-  name: OptionAttribute(String, String)
-  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_
-  commentId: M:DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String)
-  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String)
-  nameWithType: OptionAttribute.OptionAttribute(String, String)
+- uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,DisCatSharp.ChannelType[])
+  name: OptionAttribute(String, String, ChannelType[])
+  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_DisCatSharp_ChannelType___
+  commentId: M:DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,DisCatSharp.ChannelType[])
+  name.vb: OptionAttribute(String, String, ChannelType())
+  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String, DisCatSharp.ChannelType[])
+  fullName.vb: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String, DisCatSharp.ChannelType())
+  nameWithType: OptionAttribute.OptionAttribute(String, String, ChannelType[])
+  nameWithType.vb: OptionAttribute.OptionAttribute(String, String, ChannelType())
 - uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor*
   name: OptionAttribute
   href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_
@@ -1604,6 +1607,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute
   nameWithType: OptionAttribute.OptionAttribute
+- uid: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_ChannelTypes
+  commentId: P:DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
+  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
+  nameWithType: OptionAttribute.ChannelTypes
+- uid: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes*
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_ChannelTypes_
+  commentId: Overload:DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
+  nameWithType: OptionAttribute.ChannelTypes
 - uid: DisCatSharp.ApplicationCommands.OptionAttribute.Description
   name: Description
   href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_Description
@@ -13647,15 +13663,15 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordApplicationCommandOption
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption
   nameWithType: DiscordApplicationCommandOption
-- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean)
-  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, Boolean)
-  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean)
-  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), Boolean)
-  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, System.Boolean)
-  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), System.Boolean)
-  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, Boolean)
-  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), Boolean)
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Boolean)
+  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Boolean)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__IEnumerable_DisCatSharp_ChannelType__System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Boolean)
+  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Boolean)
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, IEnumerable<DisCatSharp.ChannelType>, System.Boolean)
+  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), IEnumerable(Of DisCatSharp.ChannelType), System.Boolean)
+  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Boolean)
+  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Boolean)
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor*
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_
@@ -13663,6 +13679,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption
   nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
+  name: ChannelTypes
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_ChannelTypes
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
+  nameWithType: DiscordApplicationCommandOption.ChannelTypes
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes*
+  name: ChannelTypes
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_ChannelTypes_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
+  nameWithType: DiscordApplicationCommandOption.ChannelTypes
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.Choices
   name: Choices
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_Choices
