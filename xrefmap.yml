@@ -1629,14 +1629,7 @@ references:
 - uid: DisCatSharp.ApplicationCommands.OptionAttribute.Name
   name: Name
   href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_Name
-  commentId: P:DisCatSharp.ApplicationCommands.OptionAttribute.Name
-  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.Name
-  nameWithType: OptionAttribute.Name
-- uid: DisCatSharp.ApplicationCommands.OptionAttribute.Name*
-  name: Name
-  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_Name_
-  commentId: Overload:DisCatSharp.ApplicationCommands.OptionAttribute.Name
-  isSpec: "True"
+  commentId: F:DisCatSharp.ApplicationCommands.OptionAttribute.Name
   fullName: DisCatSharp.ApplicationCommands.OptionAttribute.Name
   nameWithType: OptionAttribute.Name
 - uid: DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute
