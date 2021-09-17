@@ -23453,6 +23453,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInvite.DeleteAsync
   nameWithType: DiscordInvite.DeleteAsync
+- uid: DisCatSharp.Entities.DiscordInvite.ExpiredAt
+  name: ExpiredAt
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_ExpiredAt
+  commentId: P:DisCatSharp.Entities.DiscordInvite.ExpiredAt
+  fullName: DisCatSharp.Entities.DiscordInvite.ExpiredAt
+  nameWithType: DiscordInvite.ExpiredAt
+- uid: DisCatSharp.Entities.DiscordInvite.ExpiredAt*
+  name: ExpiredAt
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_ExpiredAt_
+  commentId: Overload:DisCatSharp.Entities.DiscordInvite.ExpiredAt
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInvite.ExpiredAt
+  nameWithType: DiscordInvite.ExpiredAt
 - uid: DisCatSharp.Entities.DiscordInvite.ExpiresAt
   name: ExpiresAt
   href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_ExpiresAt
@@ -23764,6 +23777,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInviteGuild.IconUrl
   nameWithType: DiscordInviteGuild.IconUrl
+- uid: DisCatSharp.Entities.DiscordInviteGuild.IsNsfw
+  name: IsNsfw
+  href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_IsNsfw
+  commentId: P:DisCatSharp.Entities.DiscordInviteGuild.IsNsfw
+  fullName: DisCatSharp.Entities.DiscordInviteGuild.IsNsfw
+  nameWithType: DiscordInviteGuild.IsNsfw
+- uid: DisCatSharp.Entities.DiscordInviteGuild.IsNsfw*
+  name: IsNsfw
+  href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_IsNsfw_
+  commentId: Overload:DisCatSharp.Entities.DiscordInviteGuild.IsNsfw
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInviteGuild.IsNsfw
+  nameWithType: DiscordInviteGuild.IsNsfw
 - uid: DisCatSharp.Entities.DiscordInviteGuild.Name
   name: Name
   href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_Name
@@ -23777,6 +23803,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInviteGuild.Name
   nameWithType: DiscordInviteGuild.Name
+- uid: DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel
+  name: NsfwLevel
+  href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_NsfwLevel
+  commentId: P:DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel
+  fullName: DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel
+  nameWithType: DiscordInviteGuild.NsfwLevel
+- uid: DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel*
+  name: NsfwLevel
+  href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_NsfwLevel_
+  commentId: Overload:DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInviteGuild.NsfwLevel
+  nameWithType: DiscordInviteGuild.NsfwLevel
 - uid: DisCatSharp.Entities.DiscordInviteGuild.SplashUrl
   name: SplashUrl
   href: api/DisCatSharp.Entities.DiscordInviteGuild.html#DisCatSharp_Entities_DiscordInviteGuild_SplashUrl
@@ -55938,6 +55977,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.YouTubeTogether
   fullName: DisCatSharp.TargetActivity.YouTubeTogether
   nameWithType: TargetActivity.YouTubeTogether
+- uid: DisCatSharp.TargetActivity.YouTubeTogetherV2
+  name: YouTubeTogetherV2
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_YouTubeTogetherV2
+  commentId: F:DisCatSharp.TargetActivity.YouTubeTogetherV2
+  fullName: DisCatSharp.TargetActivity.YouTubeTogetherV2
+  nameWithType: TargetActivity.YouTubeTogetherV2
 - uid: DisCatSharp.TargetType
   name: TargetType
   href: api/DisCatSharp.TargetType.html
