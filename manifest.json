@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html",
-          "hash": "4VQFyXBu8KxCSCGwAJPmEiPIK5lo7kP7ZYtvi0DOWeE="
+          "hash": "DlWshGksxH/Gndk4s+QxZWm0Ohj8ZFVZDyDRig6z5ZM="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ExtensionMethods.html",
-          "hash": "PlxXfjKLM8wV6SmHWLuyXgkrZuHhGCWw1wQJBtfH5g4="
+          "hash": "QmW4HMq4VUmpcPSS2H2ZjxVDqQUBnj+0pOkhD3H3RBQ="
         }
       },
       "is_incremental": false,
@@ -1182,7 +1182,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.CommandsNext.CommandsNextExtension.html",
-          "hash": "d5p8ohz59nbNheR8cgWxrj15QDRiQ8X8vKZwcYjiSjM="
+          "hash": "J9s1stnD0Fu6uY6gs47ocbNOt7gcVK48s36imD1Gdzw="
         }
       },
       "is_incremental": false,
@@ -1758,7 +1758,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.CommandsNext.ExtensionMethods.html",
-          "hash": "P/RN0itxp4hUAuvJi8T4ScuX26RLMez4YsdJdoxgaKA="
+          "hash": "N2tZmYkeLc8MnapfAE74UXGFZdSAJlj7F5Zfhzy0f4U="
         }
       },
       "is_incremental": false,
@@ -1866,7 +1866,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Common.Serialization.ComplexDecomposer.html",
-          "hash": "mK5iyRwG09UcWB94kjdMop2aLmATPPUOEH+CflV/p70="
+          "hash": "gmUWBe3qcUbYnLzJNPbOKZ4uqSNd3adJY2L6vwDorpI="
         }
       },
       "is_incremental": false,
@@ -2082,7 +2082,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Common.Types.ContinuousMemoryBuffer-1.html",
-          "hash": "VZpeILCUQZgPAVe3gviaBcD98NbDaXulfWn3BYeRjXk="
+          "hash": "w6R6n6SA2fk4UaRa+fOwc/Db+KMpDPLGZINNZLnsdCo="
         }
       },
       "is_incremental": false,
@@ -2106,7 +2106,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Common.Types.MemoryBuffer-1.html",
-          "hash": "Kk+XJMHzJgzyu6MOHVnOUZ47xlzussbDrwgm9p2vfQY="
+          "hash": "YPJzRQDvdPCNEUkNSqY5wK4uQOpW+Va/AEGbog+xAf8="
         }
       },
       "is_incremental": false,
@@ -2166,7 +2166,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Common.Utilities.AsyncEventExceptionHandler-2.html",
-          "hash": "umZsHwjokqaLVaMWdPW6DAz6Q7trZAkUetzTTUMUjsk="
+          "hash": "DGIIUX5luSKCX9YUmHDN/xcpG7RhrmPMTg9OaAEj7OI="
         }
       },
       "is_incremental": false,
@@ -2190,7 +2190,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Common.Utilities.AsyncEventHandler-2.html",
-          "hash": "PmQLIzLvGfc09t0yvdfLe9/MDZmN8hAHW+72kChy2oU="
+          "hash": "uMSVNTAmfQDLu92dTVZElOWKHZq5dJn42BdnN979P7Q="
         }
       },
       "is_incremental": false,
@@ -2322,7 +2322,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "h+1FYg84oLJyL0GkdQqNsYnBUxk+HCOu7f/rvY+o2Ik="
+          "hash": "Wo9byKAuU2lZL0OqqwmjaacRFYaulDxf/uWjRAaaYdA="
         }
       },
       "is_incremental": false,
@@ -5526,7 +5526,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html",
-          "hash": "XvfAECDVsQANOnaJdONvwik0Lea/E6P0qw1tKiGg1fA="
+          "hash": "A6hGXeYnrMp8pT7rV/MjYVNyV8CJwyE3G5UYed2bWWU="
         }
       },
       "is_incremental": false,
@@ -5610,7 +5610,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.InteractivityExtension.html",
-          "hash": "QW7vkoI/e282BHBSqFQeNlgo8a7ne+4UyhfRRiJHdbo="
+          "hash": "k2jN+QZMrUJa/SU5NwL96K18RPcZgc07+fBLaoBAmtk="
         }
       },
       "is_incremental": false,
@@ -7374,7 +7374,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/preamble.html",
-          "hash": "gIhNLmy1Brd+lz1vx4Hel1RFnpYfPfUeGIim/Mp9A98="
+          "hash": "I7HqpOUp9zU0NREeOHn05dQti1lfzFVU7eZ9TzGYbUA="
         }
       },
       "is_incremental": false,
@@ -8048,7 +8048,7 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "3tVsKjfnOdA/tGO9Mk0k63Ag/Tjk0Crw3FZE9RCwx/k="
+          "hash": "ZTksg+sEg0HhkTD7wj4CzpPVC153W1X5pZD4qkZUEss="
         }
       },
       "is_incremental": false,
