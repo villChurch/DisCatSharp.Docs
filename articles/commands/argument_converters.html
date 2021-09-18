@@ -79,7 +79,7 @@
 <h2 id="custom-argument-converter">Custom Argument Converter</h2>
 
 <p>Writing your own argument converter will enable you to convert custom types and replace the functionality of existing converters.
-Like many things in DSharpPlus, doing this is straightforward and simple.</p>
+Like many things in DisCatSharp, doing this is straightforward and simple.</p>
 <p>First, create a new class which implements <code>IArgumentConverter&lt;T&gt;</code> and its method <code>ConvertAsync</code>.
 Our example will be a boolean converter, so we&#39;ll also pass <code>bool</code> as the type parameter for <code>IArgumentConverter</code>.</p>
 <pre><code class="lang-cs">public class CustomArgumentConverter : IArgumentConverter&lt;bool&gt;

@@ -20,7 +20,7 @@ references:
   name: Your First Bot
   href: articles/basics/first_bot.html
 - uid: beyond_basics_events
-  name: DSharpPlus Events
+  name: DisCatSharp Events
   href: articles/beyond_basics/events.html
 - uid: beyond_basics_intents
   name: Intents
@@ -23893,6 +23893,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInvite.Guild
   nameWithType: DiscordInvite.Guild
+- uid: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+  name: GuildSheduledEvent
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildSheduledEvent
+  commentId: P:DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+  fullName: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+  nameWithType: DiscordInvite.GuildSheduledEvent
+- uid: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent*
+  name: GuildSheduledEvent
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildSheduledEvent_
+  commentId: Overload:DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+  nameWithType: DiscordInvite.GuildSheduledEvent
 - uid: DisCatSharp.Entities.DiscordInvite.Inviter
   name: Inviter
   href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_Inviter

@@ -83,9 +83,9 @@ Thankfully, Discord allows you to establish multiple connections to split the ev
 Each shard handles a separate set of servers and will <em>only</em> receive events from those servers. However, all direct messages will be handled by your first shard.</p>
 <p>Sharding is recommended once you reach 1,000 servers, and is a <em>requirement</em> when you hit 2,500 servers.</p>
 <h2 id="automated-sharding">Automated Sharding</h2>
-<p>DSharpPlus provides a built-in sharding solution: <code>DiscordShardedClient</code>. 
+<p>DisCatSharp provides a built-in sharding solution: <code>DiscordShardedClient</code>. 
 This client will <em>automatically</em> spawn shards for you and manage their events.
-Each DSharpPlus extension (e.g. CommandsNext, Interactivity) also supplies an extension method to register themselves automatically on each shard.</p>
+Each DisCatSharp extension (e.g. CommandsNext, Interactivity) also supplies an extension method to register themselves automatically on each shard.</p>
 <pre><code class="lang-cs">var discord = new DiscordShardedClient(new DiscordConfiguration
 {
     Token = &quot;My First Token&quot;,
