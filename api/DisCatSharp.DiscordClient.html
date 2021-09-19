@@ -1653,13 +1653,13 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_GetInviteByCodeAsync_" data-uid="DisCatSharp.DiscordClient.GetInviteByCodeAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_GetInviteByCodeAsync_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__" data-uid="DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})">GetInviteByCodeAsync(String, Nullable&lt;Boolean&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_GetInviteByCodeAsync_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_UInt64__" data-uid="DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.UInt64})">GetInviteByCodeAsync(String, Nullable&lt;Boolean&gt;, Nullable&lt;Boolean&gt;, Nullable&lt;UInt64&gt;)</h4>
   <div class="markdown level1 summary"><p>Gets an invite.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordInvite&gt; GetInviteByCodeAsync(string code, bool? withCounts = null, bool? withExpiration = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordInvite&gt; GetInviteByCodeAsync(string code, bool? withCounts = null, bool? withExpiration = null, ulong? scheduledEventId = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1687,6 +1687,12 @@ Each command takes up to 10 permission overwrites.</p>
         <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">withExpiration</span></td>
         <td><p>Whether to include the expiration date in the returned invite.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">scheduledEventId</span></td>
+        <td><p>The scheduled event id.</p>
 </td>
       </tr>
     </tbody>

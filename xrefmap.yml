@@ -10598,15 +10598,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GetInAppOAuth
   nameWithType: DiscordClient.GetInAppOAuth
-- uid: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
-  name: GetInviteByCodeAsync(String, Nullable<Boolean>, Nullable<Boolean>)
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInviteByCodeAsync_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__
-  commentId: M:DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean})
-  name.vb: GetInviteByCodeAsync(String, Nullable(Of Boolean), Nullable(Of Boolean))
-  fullName: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>)
-  fullName.vb: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean))
-  nameWithType: DiscordClient.GetInviteByCodeAsync(String, Nullable<Boolean>, Nullable<Boolean>)
-  nameWithType.vb: DiscordClient.GetInviteByCodeAsync(String, Nullable(Of Boolean), Nullable(Of Boolean))
+- uid: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.UInt64})
+  name: GetInviteByCodeAsync(String, Nullable<Boolean>, Nullable<Boolean>, Nullable<UInt64>)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInviteByCodeAsync_System_String_System_Nullable_System_Boolean__System_Nullable_System_Boolean__System_Nullable_System_UInt64__
+  commentId: M:DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String,System.Nullable{System.Boolean},System.Nullable{System.Boolean},System.Nullable{System.UInt64})
+  name.vb: GetInviteByCodeAsync(String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of UInt64))
+  fullName: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String, System.Nullable<System.Boolean>, System.Nullable<System.Boolean>, System.Nullable<System.UInt64>)
+  fullName.vb: DisCatSharp.DiscordClient.GetInviteByCodeAsync(System.String, System.Nullable(Of System.Boolean), System.Nullable(Of System.Boolean), System.Nullable(Of System.UInt64))
+  nameWithType: DiscordClient.GetInviteByCodeAsync(String, Nullable<Boolean>, Nullable<Boolean>, Nullable<UInt64>)
+  nameWithType.vb: DiscordClient.GetInviteByCodeAsync(String, Nullable(Of Boolean), Nullable(Of Boolean), Nullable(Of UInt64))
 - uid: DisCatSharp.DiscordClient.GetInviteByCodeAsync*
   name: GetInviteByCodeAsync
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInviteByCodeAsync_
@@ -48830,6 +48830,12 @@ references:
   commentId: M:DisCatSharp.Formatter.Timestamp(DateTime,DisCatSharp.TimestampFormat)
   fullName: DisCatSharp.Formatter.Timestamp(DateTime, DisCatSharp.TimestampFormat)
   nameWithType: Formatter.Timestamp(DateTime, TimestampFormat)
+- uid: DisCatSharp.Formatter.Timestamp(DateTimeOffset,DisCatSharp.TimestampFormat)
+  name: Timestamp(DateTimeOffset, TimestampFormat)
+  href: api/DisCatSharp.Formatter.html#DisCatSharp_Formatter_Timestamp_DateTimeOffset_DisCatSharp_TimestampFormat_
+  commentId: M:DisCatSharp.Formatter.Timestamp(DateTimeOffset,DisCatSharp.TimestampFormat)
+  fullName: DisCatSharp.Formatter.Timestamp(DateTimeOffset, DisCatSharp.TimestampFormat)
+  nameWithType: Formatter.Timestamp(DateTimeOffset, TimestampFormat)
 - uid: DisCatSharp.Formatter.Timestamp(TimeSpan,DisCatSharp.TimestampFormat)
   name: Timestamp(TimeSpan, TimestampFormat)
   href: api/DisCatSharp.Formatter.html#DisCatSharp_Formatter_Timestamp_TimeSpan_DisCatSharp_TimestampFormat_
@@ -52882,6 +52888,12 @@ references:
   commentId: T:DisCatSharp.Lavalink.LavalinkSearchType
   fullName: DisCatSharp.Lavalink.LavalinkSearchType
   nameWithType: LavalinkSearchType
+- uid: DisCatSharp.Lavalink.LavalinkSearchType.Plain
+  name: Plain
+  href: api/DisCatSharp.Lavalink.LavalinkSearchType.html#DisCatSharp_Lavalink_LavalinkSearchType_Plain
+  commentId: F:DisCatSharp.Lavalink.LavalinkSearchType.Plain
+  fullName: DisCatSharp.Lavalink.LavalinkSearchType.Plain
+  nameWithType: LavalinkSearchType.Plain
 - uid: DisCatSharp.Lavalink.LavalinkSearchType.SoundCloud
   name: SoundCloud
   href: api/DisCatSharp.Lavalink.LavalinkSearchType.html#DisCatSharp_Lavalink_LavalinkSearchType_SoundCloud
