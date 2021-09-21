@@ -3474,7 +3474,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordMember.html",
-          "hash": "dTcrqGui93huGvXwB4wbCxW+7RTiV0ZPDFFImm73gvM="
+          "hash": "+9UhH60LGDpyiyHZJurE1Od7bBv2TgrCVFQRpy443sU="
         }
       },
       "is_incremental": false,
@@ -3630,7 +3630,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordRole.html",
-          "hash": "FUCZ+Be2m+agtJ065BGqcjvSdWvdDJpHR9rvm6p5XwU="
+          "hash": "mmebnHGLhCh25cxIdfYkUke+8XDlsl2QgzlV0PFS6gQ="
         }
       },
       "is_incremental": false,
@@ -3822,7 +3822,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordUser.html",
-          "hash": "K/mMHck75+LMjk/KtAuswwFkepejVNYp/tZqi2HohIg="
+          "hash": "/6QbnvRA4pZVyQOBkEFxZnucnsXWps8XRtH3UOP8YgQ="
         }
       },
       "is_incremental": false,
@@ -6330,7 +6330,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Net.Models.RoleEditModel.html",
-          "hash": "6+j1fD3AkZcsIOFm2FE86Sq6RXEftbMwCEe2C8ku1w0="
+          "hash": "hnxn8zj0ZbmZbv8sotyXAD8QL0Uz1DIitDykxswnORs="
         }
       },
       "is_incremental": false,

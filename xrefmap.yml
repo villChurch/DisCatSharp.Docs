@@ -27336,6 +27336,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordRole.ToString
   nameWithType: DiscordRole.ToString
+- uid: DisCatSharp.Entities.DiscordRole.UnicodeEmoji
+  name: UnicodeEmoji
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_UnicodeEmoji
+  commentId: P:DisCatSharp.Entities.DiscordRole.UnicodeEmoji
+  fullName: DisCatSharp.Entities.DiscordRole.UnicodeEmoji
+  nameWithType: DiscordRole.UnicodeEmoji
+- uid: DisCatSharp.Entities.DiscordRole.UnicodeEmoji*
+  name: UnicodeEmoji
+  href: api/DisCatSharp.Entities.DiscordRole.html#DisCatSharp_Entities_DiscordRole_UnicodeEmoji_
+  commentId: Overload:DisCatSharp.Entities.DiscordRole.UnicodeEmoji
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordRole.UnicodeEmoji
+  nameWithType: DiscordRole.UnicodeEmoji
 - uid: DisCatSharp.Entities.DiscordRoleTags
   name: DiscordRoleTags
   href: api/DisCatSharp.Entities.DiscordRoleTags.html
@@ -42366,6 +42379,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordUser.Username
   nameWithType: DiscordUser.Username
+- uid: DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator
+  name: UsernameWithDiscriminator
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_UsernameWithDiscriminator
+  commentId: P:DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator
+  fullName: DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator
+  nameWithType: DiscordUser.UsernameWithDiscriminator
+- uid: DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator*
+  name: UsernameWithDiscriminator
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_UsernameWithDiscriminator_
+  commentId: Overload:DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordUser.UsernameWithDiscriminator
+  nameWithType: DiscordUser.UsernameWithDiscriminator
 - uid: DisCatSharp.Entities.DiscordUser.Verified
   name: Verified
   href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_Verified
@@ -54859,6 +54885,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.RoleEditModel.Permissions
   nameWithType: RoleEditModel.Permissions
+- uid: DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji
+  name: UnicodeEmoji
+  href: api/DisCatSharp.Net.Models.RoleEditModel.html#DisCatSharp_Net_Models_RoleEditModel_UnicodeEmoji
+  commentId: P:DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji
+  fullName: DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji
+  nameWithType: RoleEditModel.UnicodeEmoji
+- uid: DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji*
+  name: UnicodeEmoji
+  href: api/DisCatSharp.Net.Models.RoleEditModel.html#DisCatSharp_Net_Models_RoleEditModel_UnicodeEmoji_
+  commentId: Overload:DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.RoleEditModel.UnicodeEmoji
+  nameWithType: RoleEditModel.UnicodeEmoji
 - uid: DisCatSharp.Net.Models.ThreadEditModel
   name: ThreadEditModel
   href: api/DisCatSharp.Net.Models.ThreadEditModel.html
