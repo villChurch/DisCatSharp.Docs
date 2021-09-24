@@ -101,13 +101,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__IEnumerable_DisCatSharp_ChannelType__System_Boolean_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Boolean)">DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable&lt;Boolean&gt;, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;, IEnumerable&lt;DiscordApplicationCommandOption&gt;, IEnumerable&lt;ChannelType&gt;, Boolean)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean})">DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable&lt;Boolean&gt;, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;, IEnumerable&lt;DiscordApplicationCommandOption&gt;, IEnumerable&lt;ChannelType&gt;, Nullable&lt;Boolean&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a new instance of a <a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandOption.html">DiscordApplicationCommandOption</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandOption(string name, string description, ApplicationCommandOptionType type, bool? required = null, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt; choices = null, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, IEnumerable&lt;ChannelType&gt; channeltypes = null, bool default_permission = true)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandOption(string name, string description, ApplicationCommandOptionType type, bool? required = null, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt; choices = null, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, IEnumerable&lt;ChannelType&gt; channeltypes = null, bool? autocomplete = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -162,15 +162,41 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">default_permission</span></td>
-        <td><p>Optional default permission for this command.</p>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">autocomplete</span></td>
+        <td><p>Whether this option provides autocompletion.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_AutoComplete_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_AutoComplete" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete">AutoComplete</h4>
+  <div class="markdown level1 summary"><p>Gets whether this option provides autocompletion.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool? AutoComplete { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_ChannelTypes_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes*"></a>
@@ -201,7 +227,8 @@
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_Choices_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.Choices*"></a>
   <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_Choices" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.Choices">Choices</h4>
-  <div class="markdown level1 summary"><p>Gets the optional choices for this command parameter.</p>
+  <div class="markdown level1 summary"><p>Gets the optional choices for this command parameter.
+Not applicable for auto-complete options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -219,32 +246,6 @@
     <tbody>
       <tr>
         <td><span class="xref">IReadOnlyCollection</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandOptionChoice.html">DiscordApplicationCommandOptionChoice</a>&gt;</td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_DefaultPermission_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_DefaultPermission" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission">DefaultPermission</h4>
-  <div class="markdown level1 summary"><p>Gets whether the command is enabled by default when the app is added to a guild.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DefaultPermission { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
         <td></td>
       </tr>
     </tbody>

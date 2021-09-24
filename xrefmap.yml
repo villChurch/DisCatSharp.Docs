@@ -826,6 +826,143 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireUserPermissionsAttribute.Permissions
   nameWithType: ApplicationCommandRequireUserPermissionsAttribute.Permissions
+- uid: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute
+  name: AutocompleteAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute
+  fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute
+  nameWithType: AutocompleteAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor(Type)
+  name: AutocompleteAttribute(Type)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html#DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute__ctor_Type_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor(Type)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.AutocompleteAttribute(Type)
+  nameWithType: AutocompleteAttribute.AutocompleteAttribute(Type)
+- uid: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor*
+  name: AutocompleteAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html#DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.AutocompleteAttribute
+  nameWithType: AutocompleteAttribute.AutocompleteAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
+  name: ProviderType
+  href: api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html#DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute_ProviderType
+  commentId: P:DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
+  fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
+  nameWithType: AutocompleteAttribute.ProviderType
+- uid: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType*
+  name: ProviderType
+  href: api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html#DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute_ProviderType_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
+  nameWithType: AutocompleteAttribute.ProviderType
+- uid: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider
+  name: IAutocompleteProvider
+  href: api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider
+  fullName: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider
+  nameWithType: IAutocompleteProvider
+- uid: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider(DisCatSharp.ApplicationCommands.AutocompleteContext)
+  name: Provider(AutocompleteContext)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html#DisCatSharp_ApplicationCommands_Attributes_IAutocompleteProvider_Provider_DisCatSharp_ApplicationCommands_AutocompleteContext_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider(DisCatSharp.ApplicationCommands.AutocompleteContext)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider(DisCatSharp.ApplicationCommands.AutocompleteContext)
+  nameWithType: IAutocompleteProvider.Provider(AutocompleteContext)
+- uid: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider*
+  name: Provider
+  href: api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html#DisCatSharp_ApplicationCommands_Attributes_IAutocompleteProvider_Provider_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider
+  nameWithType: IAutocompleteProvider.Provider
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
+  name: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.html
+  commentId: N:DisCatSharp.ApplicationCommands.Attributes.SlashCommand
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
+  nameWithType: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
+  name: ChannelTypesAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
+  nameWithType: ChannelTypesAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
+  name: ChannelTypesAttribute(ChannelType[])
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute__ctor_DisCatSharp_ChannelType___
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
+  name.vb: ChannelTypesAttribute(ChannelType())
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType[])
+  fullName.vb: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType())
+  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType[])
+  nameWithType.vb: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType())
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor*
+  name: ChannelTypesAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute
+  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute_ChannelTypes
+  commentId: P:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
+  nameWithType: ChannelTypesAttribute.ChannelTypes
+- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes*
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute_ChannelTypes_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
+  nameWithType: ChannelTypesAttribute.ChannelTypes
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext
+  name: AutocompleteContext
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html
+  commentId: T:DisCatSharp.ApplicationCommands.AutocompleteContext
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext
+  nameWithType: AutocompleteContext
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
+  name: FocusedOption
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_FocusedOption
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
+  nameWithType: AutocompleteContext.FocusedOption
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption*
+  name: FocusedOption
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_FocusedOption_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
+  nameWithType: AutocompleteContext.FocusedOption
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
+  name: Interaction
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Interaction
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
+  nameWithType: AutocompleteContext.Interaction
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction*
+  name: Interaction
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Interaction_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
+  nameWithType: AutocompleteContext.Interaction
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Options
+  name: Options
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Options
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Options
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Options
+  nameWithType: AutocompleteContext.Options
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Options*
+  name: Options
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Options_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Options
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Options
+  nameWithType: AutocompleteContext.Options
 - uid: DisCatSharp.ApplicationCommands.BaseContext
   name: BaseContext
   href: api/DisCatSharp.ApplicationCommands.BaseContext.html
@@ -1187,6 +1324,51 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.ChoiceNameAttribute.Name
   nameWithType: ChoiceNameAttribute.Name
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider
+  name: ChoiceProvider
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html
+  commentId: T:DisCatSharp.ApplicationCommands.ChoiceProvider
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider
+  nameWithType: ChoiceProvider
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId
+  name: GuildId
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_GuildId
+  commentId: P:DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId
+  nameWithType: ChoiceProvider.GuildId
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId*
+  name: GuildId
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_GuildId_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.GuildId
+  nameWithType: ChoiceProvider.GuildId
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.Provider
+  name: Provider()
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_Provider
+  commentId: M:DisCatSharp.ApplicationCommands.ChoiceProvider.Provider
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.Provider()
+  nameWithType: ChoiceProvider.Provider()
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.Provider*
+  name: Provider
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_Provider_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ChoiceProvider.Provider
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.Provider
+  nameWithType: ChoiceProvider.Provider
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.Services
+  name: Services
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_Services
+  commentId: P:DisCatSharp.ApplicationCommands.ChoiceProvider.Services
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.Services
+  nameWithType: ChoiceProvider.Services
+- uid: DisCatSharp.ApplicationCommands.ChoiceProvider.Services*
+  name: Services
+  href: api/DisCatSharp.ApplicationCommands.ChoiceProvider.html#DisCatSharp_ApplicationCommands_ChoiceProvider_Services_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ChoiceProvider.Services
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ChoiceProvider.Services
+  nameWithType: ChoiceProvider.Services
 - uid: DisCatSharp.ApplicationCommands.ChoiceProviderAttribute
   name: ChoiceProviderAttribute
   href: api/DisCatSharp.ApplicationCommands.ChoiceProviderAttribute.html
@@ -1623,15 +1805,12 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.OptionAttribute
   fullName: DisCatSharp.ApplicationCommands.OptionAttribute
   nameWithType: OptionAttribute
-- uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,DisCatSharp.ChannelType[])
-  name: OptionAttribute(String, String, ChannelType[])
-  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_DisCatSharp_ChannelType___
-  commentId: M:DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,DisCatSharp.ChannelType[])
-  name.vb: OptionAttribute(String, String, ChannelType())
-  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String, DisCatSharp.ChannelType[])
-  fullName.vb: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String, DisCatSharp.ChannelType())
-  nameWithType: OptionAttribute.OptionAttribute(String, String, ChannelType[])
-  nameWithType.vb: OptionAttribute.OptionAttribute(String, String, ChannelType())
+- uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,System.Boolean)
+  name: OptionAttribute(String, String, Boolean)
+  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_System_Boolean_
+  commentId: M:DisCatSharp.ApplicationCommands.OptionAttribute.#ctor(System.String,System.String,System.Boolean)
+  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute(System.String, System.String, System.Boolean)
+  nameWithType: OptionAttribute.OptionAttribute(String, String, Boolean)
 - uid: DisCatSharp.ApplicationCommands.OptionAttribute.#ctor*
   name: OptionAttribute
   href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_
@@ -1639,19 +1818,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.OptionAttribute.OptionAttribute
   nameWithType: OptionAttribute.OptionAttribute
-- uid: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
-  name: ChannelTypes
-  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_ChannelTypes
-  commentId: P:DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
-  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
-  nameWithType: OptionAttribute.ChannelTypes
-- uid: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes*
-  name: ChannelTypes
-  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_ChannelTypes_
-  commentId: Overload:DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
-  isSpec: "True"
-  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.ChannelTypes
-  nameWithType: OptionAttribute.ChannelTypes
+- uid: DisCatSharp.ApplicationCommands.OptionAttribute.Autocomplete
+  name: Autocomplete
+  href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_Autocomplete
+  commentId: F:DisCatSharp.ApplicationCommands.OptionAttribute.Autocomplete
+  fullName: DisCatSharp.ApplicationCommands.OptionAttribute.Autocomplete
+  nameWithType: OptionAttribute.Autocomplete
 - uid: DisCatSharp.ApplicationCommands.OptionAttribute.Description
   name: Description
   href: api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute_Description
@@ -14051,21 +14223,66 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommand.Version
   nameWithType: DiscordApplicationCommand.Version
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice
+  name: DiscordApplicationCommandAutocompleteChoice
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html
+  commentId: T:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice
+  nameWithType: DiscordApplicationCommandAutocompleteChoice
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor(System.String,System.Object)
+  name: DiscordApplicationCommandAutocompleteChoice(String, Object)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__ctor_System_String_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor(System.String,System.Object)
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.DiscordApplicationCommandAutocompleteChoice(System.String, System.Object)
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.DiscordApplicationCommandAutocompleteChoice(String, Object)
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor*
+  name: DiscordApplicationCommandAutocompleteChoice
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__ctor_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.DiscordApplicationCommandAutocompleteChoice
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.DiscordApplicationCommandAutocompleteChoice
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_Name
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.Name
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name*
+  name: Name
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_Name_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Name
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.Name
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value
+  name: Value
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_Value
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.Value
+- uid: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value*
+  name: Value
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html#DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_Value_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.Value
+  nameWithType: DiscordApplicationCommandAutocompleteChoice.Value
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html
   commentId: T:DisCatSharp.Entities.DiscordApplicationCommandOption
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption
   nameWithType: DiscordApplicationCommandOption
-- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Boolean)
-  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Boolean)
-  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__IEnumerable_DisCatSharp_ChannelType__System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Boolean)
-  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Boolean)
-  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, IEnumerable<DisCatSharp.ChannelType>, System.Boolean)
-  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), IEnumerable(Of DisCatSharp.ChannelType), System.Boolean)
-  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Boolean)
-  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Boolean)
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean})
+  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean})
+  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean))
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, IEnumerable<DisCatSharp.ChannelType>, System.Nullable<System.Boolean>)
+  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), IEnumerable(Of DisCatSharp.ChannelType), System.Nullable(Of System.Boolean))
+  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>)
+  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean))
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor*
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_
@@ -14073,6 +14290,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption
   nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete
+  name: AutoComplete
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_AutoComplete
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete
+  nameWithType: DiscordApplicationCommandOption.AutoComplete
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete*
+  name: AutoComplete
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_AutoComplete_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.AutoComplete
+  nameWithType: DiscordApplicationCommandOption.AutoComplete
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.ChannelTypes
   name: ChannelTypes
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_ChannelTypes
@@ -14099,19 +14329,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.Choices
   nameWithType: DiscordApplicationCommandOption.Choices
-- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission
-  name: DefaultPermission
-  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_DefaultPermission
-  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission
-  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission
-  nameWithType: DiscordApplicationCommandOption.DefaultPermission
-- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission*
-  name: DefaultPermission
-  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_DefaultPermission_
-  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DefaultPermission
-  nameWithType: DiscordApplicationCommandOption.DefaultPermission
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.Description
   name: Description
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_Description
@@ -23339,6 +23556,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordInteractionDataOption
   fullName: DisCatSharp.Entities.DiscordInteractionDataOption
   nameWithType: DiscordInteractionDataOption
+- uid: DisCatSharp.Entities.DiscordInteractionDataOption.Focused
+  name: Focused
+  href: api/DisCatSharp.Entities.DiscordInteractionDataOption.html#DisCatSharp_Entities_DiscordInteractionDataOption_Focused
+  commentId: P:DisCatSharp.Entities.DiscordInteractionDataOption.Focused
+  fullName: DisCatSharp.Entities.DiscordInteractionDataOption.Focused
+  nameWithType: DiscordInteractionDataOption.Focused
+- uid: DisCatSharp.Entities.DiscordInteractionDataOption.Focused*
+  name: Focused
+  href: api/DisCatSharp.Entities.DiscordInteractionDataOption.html#DisCatSharp_Entities_DiscordInteractionDataOption_Focused_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionDataOption.Focused
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionDataOption.Focused
+  nameWithType: DiscordInteractionDataOption.Focused
 - uid: DisCatSharp.Entities.DiscordInteractionDataOption.Name
   name: Name
   href: api/DisCatSharp.Entities.DiscordInteractionDataOption.html#DisCatSharp_Entities_DiscordInteractionDataOption_Name
@@ -23487,6 +23717,44 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.DiscordInteractionResponseBuilder
   nameWithType: DiscordInteractionResponseBuilder.DiscordInteractionResponseBuilder
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice)
+  name: AddAutoCompleteChoice(DiscordApplicationCommandAutocompleteChoice)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoice_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice)
+  nameWithType: DiscordInteractionResponseBuilder.AddAutoCompleteChoice(DiscordApplicationCommandAutocompleteChoice)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice*
+  name: AddAutoCompleteChoice
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoice_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice
+  nameWithType: DiscordInteractionResponseBuilder.AddAutoCompleteChoice
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice[])
+  name: AddAutoCompleteChoices(DiscordApplicationCommandAutocompleteChoice[])
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice___
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice[])
+  name.vb: AddAutoCompleteChoices(DiscordApplicationCommandAutocompleteChoice())
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice[])
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice())
+  nameWithType: DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DiscordApplicationCommandAutocompleteChoice[])
+  nameWithType.vb: DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DiscordApplicationCommandAutocompleteChoice())
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice})
+  name: AddAutoCompleteChoices(IEnumerable<DiscordApplicationCommandAutocompleteChoice>)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice})
+  name.vb: AddAutoCompleteChoices(IEnumerable(Of DiscordApplicationCommandAutocompleteChoice))
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice>)
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice))
+  nameWithType: DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable<DiscordApplicationCommandAutocompleteChoice>)
+  nameWithType.vb: DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable(Of DiscordApplicationCommandAutocompleteChoice))
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices*
+  name: AddAutoCompleteChoices
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices
+  nameWithType: DiscordInteractionResponseBuilder.AddAutoCompleteChoices
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddComponents(DisCatSharp.Entities.DiscordComponent[])
   name: AddComponents(DiscordComponent[])
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddComponents_DisCatSharp_Entities_DiscordComponent___
@@ -23627,6 +23895,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AsEphemeral
   nameWithType: DiscordInteractionResponseBuilder.AsEphemeral
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices
+  name: Choices
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Choices
+  commentId: P:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices
+  nameWithType: DiscordInteractionResponseBuilder.Choices
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices*
+  name: Choices
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Choices_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices
+  nameWithType: DiscordInteractionResponseBuilder.Choices
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Clear
   name: Clear()
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Clear
@@ -44761,6 +45042,12 @@ references:
   commentId: T:DisCatSharp.Enums.ApplicationCommandType
   fullName: DisCatSharp.Enums.ApplicationCommandType
   nameWithType: ApplicationCommandType
+- uid: DisCatSharp.Enums.ApplicationCommandType.AutoCompleteRequest
+  name: AutoCompleteRequest
+  href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_AutoCompleteRequest
+  commentId: F:DisCatSharp.Enums.ApplicationCommandType.AutoCompleteRequest
+  fullName: DisCatSharp.Enums.ApplicationCommandType.AutoCompleteRequest
+  nameWithType: ApplicationCommandType.AutoCompleteRequest
 - uid: DisCatSharp.Enums.ApplicationCommandType.ChatInput
   name: ChatInput
   href: api/DisCatSharp.Enums.ApplicationCommandType.html#DisCatSharp_Enums_ApplicationCommandType_ChatInput
@@ -49044,6 +49331,12 @@ references:
   commentId: T:DisCatSharp.InteractionResponseType
   fullName: DisCatSharp.InteractionResponseType
   nameWithType: InteractionResponseType
+- uid: DisCatSharp.InteractionResponseType.AutoCompleteResult
+  name: AutoCompleteResult
+  href: api/DisCatSharp.InteractionResponseType.html#DisCatSharp_InteractionResponseType_AutoCompleteResult
+  commentId: F:DisCatSharp.InteractionResponseType.AutoCompleteResult
+  fullName: DisCatSharp.InteractionResponseType.AutoCompleteResult
+  nameWithType: InteractionResponseType.AutoCompleteResult
 - uid: DisCatSharp.InteractionResponseType.ChannelMessageWithSource
   name: ChannelMessageWithSource
   href: api/DisCatSharp.InteractionResponseType.html#DisCatSharp_InteractionResponseType_ChannelMessageWithSource
@@ -49086,6 +49379,12 @@ references:
   commentId: F:DisCatSharp.InteractionType.ApplicationCommand
   fullName: DisCatSharp.InteractionType.ApplicationCommand
   nameWithType: InteractionType.ApplicationCommand
+- uid: DisCatSharp.InteractionType.AutoComplete
+  name: AutoComplete
+  href: api/DisCatSharp.InteractionType.html#DisCatSharp_InteractionType_AutoComplete
+  commentId: F:DisCatSharp.InteractionType.AutoComplete
+  fullName: DisCatSharp.InteractionType.AutoComplete
+  nameWithType: InteractionType.AutoComplete
 - uid: DisCatSharp.InteractionType.Component
   name: Component
   href: api/DisCatSharp.InteractionType.html#DisCatSharp_InteractionType_Component

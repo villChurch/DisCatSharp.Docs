@@ -206,11 +206,71 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html",
+          "hash": "6+DU35LdXqScZkcJFZU/PxE1Eik48xDKDQrl8WXqSac="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html",
+          "hash": "G2JSRlPWy1araOkDk7OyqNruH2bvq4+3xtZxRHvNZQ0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html",
+          "hash": "ANZgzXvSexhbiq4v531uFVfpP5Jy6rmLHdeWgo/lA8Q="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.html",
+          "hash": "OdNkeoys91t5S/d3iLNMoQ5J6AI607Q4gSzJ/BNdxuM="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.html",
-          "hash": "qy7l3JMwgeORPnp0U3E7esrBsm3OnnOVZYY+k+ZECKA="
+          "hash": "pDUztpnWw22IAX5fym+5W8hCPpumCVb6yvkG6ejkxLA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.AutocompleteContext.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.AutocompleteContext.html",
+          "hash": "GgEvFpWbzQ5kwUOOYzRWSUG9bIXjkko98ivlcrkxfnQ="
         }
       },
       "is_incremental": false,
@@ -247,6 +307,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ChoiceNameAttribute.html",
           "hash": "YTlu9VHLrB4Sd9wyCR/w1WW3LAx1nD6d03l5KhkBfGs="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.ChoiceProvider.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.ChoiceProvider.html",
+          "hash": "tuhfSqO30SJuwvqYXMgfYcTD2Oxk93SVd/cyyYp0DDE="
         }
       },
       "is_incremental": false,
@@ -426,7 +498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.OptionAttribute.html",
-          "hash": "5pV7Hy9HNtmd72zbVgdLiK1cqIh5HQUSmyFKhTniQ6U="
+          "hash": "UTv7WPgD9PaWQUP44CknSM6IaarK9sRnk7EFNyjTw5U="
         }
       },
       "is_incremental": false,
@@ -486,7 +558,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.html",
-          "hash": "FV9lU/EmDDQddavUi8EAkvkdxPYWDffigyJRK68jb74="
+          "hash": "6DGvsv/O84hdstB3VDp13jDp9OPFFQ1IZav3e59vKOE="
         }
       },
       "is_incremental": false,
@@ -2534,11 +2606,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html",
+          "hash": "3C+URQQgc3HR5aU+FPZEJZVbdoPsO6+NQC5/z6ILzpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandOption.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandOption.html",
-          "hash": "0e8xtDDtHbPBy8OW62agH1aO5cse/okZRTFMQ+TA2rc="
+          "hash": "Ztexid2Zmr44pgXeubb8P2ToEz9lxJtiOyBiaqOT79w="
         }
       },
       "is_incremental": false,
@@ -3378,7 +3462,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordInteractionDataOption.html",
-          "hash": "nBRLbaOfpBG2MQ88akTf5X78B+R9kLsOqAFvWC7OQ5Y="
+          "hash": "iSsG7O+x9+3ttdvPIbmUJqJs9YdlBbACKESp7olritQ="
         }
       },
       "is_incremental": false,
@@ -3402,7 +3486,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html",
-          "hash": "7yk5MjwVnskrf72ULUfn0ZZlftO2vyrZLE7tQXFKLLM="
+          "hash": "K4j37N8lwBf6hiwy7U34vhOxfVRweAF06dYxkFWtVOY="
         }
       },
       "is_incremental": false,
@@ -4134,7 +4218,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.html",
-          "hash": "hZesqVhVRVUqJewB+2Mr5czMX177DNdFFT94LrJyU88="
+          "hash": "Pz/fqXMrYQk+JkKE4SZaHxGTH+YQn8KgBF1byOTr5Dk="
         }
       },
       "is_incremental": false,
@@ -4146,7 +4230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.ApplicationCommandType.html",
-          "hash": "LLNmTqT+BhIQK1IcfTOwh63y+D2M0absENUdtcYpwbQ="
+          "hash": "TDSsAR1Ym0LotVxa48PynyWFWwB3pVLyuKEtuK/NPhg="
         }
       },
       "is_incremental": false,
@@ -5334,7 +5418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.InteractionResponseType.html",
-          "hash": "08FW8q4EpBS8u70qJgxzQwDmHfe4CW8tOQPKZf873Mk="
+          "hash": "QIV4eXpHe9TXqK//D8cJhEnduJ6ueExjhybfeD8buzk="
         }
       },
       "is_incremental": false,
@@ -5346,7 +5430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.InteractionType.html",
-          "hash": "0O7wRXeHn3fmPBC6WwheXwgQ1VGqAIIZblLoA0eoY1c="
+          "hash": "wzxoLD+MPNzry91WdNZ/asOsc0RQd51cz2cjniqs9Rc="
         }
       },
       "is_incremental": false,
@@ -7026,7 +7110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "bWmI0O3UCVH0jWOPocxJISR+b8B9hH8ejKCzRMkiX9M="
+          "hash": "KX997jbrngSFwVeoDZW7kMkiEL/M4HE7fpcjKMjcXBw="
         }
       },
       "is_incremental": false,
@@ -7038,7 +7122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "IkBtv7PdTMLHzeh1F4y/m2ZJoXMBmRtg7Kfm7fg09aE="
+          "hash": "9jEYrMlv24fCS83sWeHAOzuO6u43gq3GoQ4uaplp828="
         }
       },
       "is_incremental": false,
@@ -8097,8 +8181,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 584,
-          "skipped_file_count": 584
+          "total_file_count": 591,
+          "skipped_file_count": 591
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

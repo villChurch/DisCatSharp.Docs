@@ -142,6 +142,33 @@
   </h3>
   
   
+  <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_Choices_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_Choices" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.Choices">Choices</h4>
+  <div class="markdown level1 summary"><p>The choices to send on this interaction response.
+Mutually exclusive with content, embed, and components.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordApplicationCommandAutocompleteChoice&gt; Choices { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_Components_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.Components*"></a>
   <h4 id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_Components" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.Components">Components</h4>
   <div class="markdown level1 summary"><p>Components to send on this interaction response.</p>
@@ -324,6 +351,141 @@
   </table>
   <h3 id="methods">Methods
   </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoice_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoice_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoice(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice)">AddAutoCompleteChoice(DiscordApplicationCommandAutocompleteChoice)</h4>
+  <div class="markdown level1 summary"><p>Adds a single auto-complete choice to the builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordInteractionResponseBuilder AddAutoCompleteChoice(DiscordApplicationCommandAutocompleteChoice choice)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a></td>
+        <td><span class="parametername">choice</span></td>
+        <td><p>The choice to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordInteractionResponseBuilder.html">DiscordInteractionResponseBuilder</a></td>
+        <td><p>The current builder to chain calls with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice___" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice[])">AddAutoCompleteChoices(DiscordApplicationCommandAutocompleteChoice[])</h4>
+  <div class="markdown level1 summary"><p>Adds auto-complete choices to the builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordInteractionResponseBuilder AddAutoCompleteChoices(params DiscordApplicationCommandAutocompleteChoice[] choices)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a>[]</td>
+        <td><span class="parametername">choices</span></td>
+        <td><p>The choices to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordInteractionResponseBuilder.html">DiscordInteractionResponseBuilder</a></td>
+        <td><p>The current builder to chain calls with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddAutoCompleteChoices_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddAutoCompleteChoices(IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice})">AddAutoCompleteChoices(IEnumerable&lt;DiscordApplicationCommandAutocompleteChoice&gt;)</h4>
+  <div class="markdown level1 summary"><p>Adds auto-complete choices to the builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordInteractionResponseBuilder AddAutoCompleteChoices(IEnumerable&lt;DiscordApplicationCommandAutocompleteChoice&gt; choices)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a>&gt;</td>
+        <td><span class="parametername">choices</span></td>
+        <td><p>The choices to add.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordInteractionResponseBuilder.html">DiscordInteractionResponseBuilder</a></td>
+        <td><p>The current builder to chain calls with.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddComponents_" data-uid="DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddComponents*"></a>
