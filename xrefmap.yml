@@ -858,6 +858,41 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.ProviderType
   nameWithType: AutocompleteAttribute.ProviderType
+- uid: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute
+  name: ChannelTypesAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute
+  fullName: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute
+  nameWithType: ChannelTypesAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
+  name: ChannelTypesAttribute(ChannelType[])
+  href: api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_ChannelTypesAttribute__ctor_DisCatSharp_ChannelType___
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
+  name.vb: ChannelTypesAttribute(ChannelType())
+  fullName: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType[])
+  fullName.vb: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType())
+  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType[])
+  nameWithType.vb: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType())
+- uid: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.#ctor*
+  name: ChannelTypesAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_ChannelTypesAttribute__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypesAttribute
+  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_ChannelTypesAttribute_ChannelTypes
+  commentId: P:DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes
+  fullName: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes
+  nameWithType: ChannelTypesAttribute.ChannelTypes
+- uid: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes*
+  name: ChannelTypes
+  href: api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_ChannelTypesAttribute_ChannelTypes_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.ChannelTypes
+  nameWithType: ChannelTypesAttribute.ChannelTypes
 - uid: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider
   name: IAutocompleteProvider
   href: api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html
@@ -877,47 +912,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider
   nameWithType: IAutocompleteProvider.Provider
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
-  name: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.html
-  commentId: N:DisCatSharp.ApplicationCommands.Attributes.SlashCommand
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
-  nameWithType: DisCatSharp.ApplicationCommands.Attributes.SlashCommand
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
-  name: ChannelTypesAttribute
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html
-  commentId: T:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute
-  nameWithType: ChannelTypesAttribute
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
-  name: ChannelTypesAttribute(ChannelType[])
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute__ctor_DisCatSharp_ChannelType___
-  commentId: M:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor(DisCatSharp.ChannelType[])
-  name.vb: ChannelTypesAttribute(ChannelType())
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType[])
-  fullName.vb: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute(DisCatSharp.ChannelType())
-  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType[])
-  nameWithType.vb: ChannelTypesAttribute.ChannelTypesAttribute(ChannelType())
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor*
-  name: ChannelTypesAttribute
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute__ctor_
-  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.#ctor
-  isSpec: "True"
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypesAttribute
-  nameWithType: ChannelTypesAttribute.ChannelTypesAttribute
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
-  name: ChannelTypes
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute_ChannelTypes
-  commentId: P:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
-  nameWithType: ChannelTypesAttribute.ChannelTypes
-- uid: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes*
-  name: ChannelTypes
-  href: api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html#DisCatSharp_ApplicationCommands_Attributes_SlashCommand_ChannelTypesAttribute_ChannelTypes_
-  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
-  isSpec: "True"
-  fullName: DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.ChannelTypes
-  nameWithType: ChannelTypesAttribute.ChannelTypes
 - uid: DisCatSharp.ApplicationCommands.AutocompleteContext
   name: AutocompleteContext
   href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html

@@ -218,6 +218,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html",
+          "hash": "k+sgxdSfR064iGvawSAy0dO3RVAviLK1oer837nj6sY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.yml",
       "output": {
         ".html": {
@@ -230,35 +242,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.ChannelTypesAttribute.html",
-          "hash": "ANZgzXvSexhbiq4v531uFVfpP5Jy6rmLHdeWgo/lA8Q="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.SlashCommand.html",
-          "hash": "OdNkeoys91t5S/d3iLNMoQ5J6AI607Q4gSzJ/BNdxuM="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.html",
-          "hash": "pDUztpnWw22IAX5fym+5W8hCPpumCVb6yvkG6ejkxLA="
+          "hash": "+MFZvFbwb3OF355m20ySGZ+gJ3mYV4/zQxx/kZfV2Ys="
         }
       },
       "is_incremental": false,
@@ -7122,7 +7110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "9jEYrMlv24fCS83sWeHAOzuO6u43gq3GoQ4uaplp828="
+          "hash": "RiwhIdbuCAww0qg8TumLpg3iZFsEQZP+QSljtr8B7Hg="
         }
       },
       "is_incremental": false,
@@ -8181,8 +8169,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 591,
-          "skipped_file_count": 591
+          "total_file_count": 590,
+          "skipped_file_count": 590
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
