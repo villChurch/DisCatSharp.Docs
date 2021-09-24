@@ -44041,6 +44041,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.IsVerified
   nameWithType: GuildFeatures.IsVerified
+- uid: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
+  name: PremiumTierThreeOverride
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_PremiumTierThreeOverride
+  commentId: P:DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
+  fullName: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
+  nameWithType: GuildFeatures.PremiumTierThreeOverride
+- uid: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride*
+  name: PremiumTierThreeOverride
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_PremiumTierThreeOverride_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
+  nameWithType: GuildFeatures.PremiumTierThreeOverride
 - uid: DisCatSharp.Entities.IMention
   name: IMention
   href: api/DisCatSharp.Entities.IMention.html
@@ -56424,6 +56437,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.Fishington
   fullName: DisCatSharp.TargetActivity.Fishington
   nameWithType: TargetActivity.Fishington
+- uid: DisCatSharp.TargetActivity.LetterTile
+  name: LetterTile
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_LetterTile
+  commentId: F:DisCatSharp.TargetActivity.LetterTile
+  fullName: DisCatSharp.TargetActivity.LetterTile
+  nameWithType: TargetActivity.LetterTile
 - uid: DisCatSharp.TargetActivity.None
   name: None
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_None
@@ -56436,6 +56455,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.PokerNight
   fullName: DisCatSharp.TargetActivity.PokerNight
   nameWithType: TargetActivity.PokerNight
+- uid: DisCatSharp.TargetActivity.WordSnacks
+  name: WordSnacks
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WordSnacks
+  commentId: F:DisCatSharp.TargetActivity.WordSnacks
+  fullName: DisCatSharp.TargetActivity.WordSnacks
+  nameWithType: TargetActivity.WordSnacks
 - uid: DisCatSharp.TargetActivity.YouTubeTogether
   name: YouTubeTogether
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_YouTubeTogether
