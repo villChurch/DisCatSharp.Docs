@@ -179,14 +179,14 @@
   </table>
   
   
-  <a id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_RemovedMemberIds_" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.RemovedMemberIds*"></a>
-  <h4 id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_RemovedMemberIds" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.RemovedMemberIds">RemovedMemberIds</h4>
-  <div class="markdown level1 summary"><p>Gets the id of the users who were removed from the thread.</p>
+  <a id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_RemovedMembers_" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.RemovedMembers*"></a>
+  <h4 id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_RemovedMembers" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.RemovedMembers">RemovedMembers</h4>
+  <div class="markdown level1 summary"><p>Gets the users who were removed from the thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;ulong?&gt; RemovedMemberIds { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordMember&gt; RemovedMembers { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -198,7 +198,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;&gt;</td>
+        <td><span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordMember</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_Thread_" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.Thread*"></a>
+  <h4 id="DisCatSharp_EventArgs_ThreadMembersUpdateEventArgs_Thread" data-uid="DisCatSharp.EventArgs.ThreadMembersUpdateEventArgs.Thread">Thread</h4>
+  <div class="markdown level1 summary"><p>Gets the id of the thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordThreadChannel Thread { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordThreadChannel</span></td>
         <td></td>
       </tr>
     </tbody>

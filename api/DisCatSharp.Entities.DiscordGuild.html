@@ -3734,6 +3734,66 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordGuild_GetOrderedChannels_" data-uid="DisCatSharp.Entities.DiscordGuild.GetOrderedChannels*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordGuild_GetOrderedChannels" data-uid="DisCatSharp.Entities.DiscordGuild.GetOrderedChannels">GetOrderedChannels()</h4>
+  <div class="markdown level1 summary"><p>Gets an ordered <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a> list out of the channel cache.
+Returns a Dictionary where the key is an ulong and can be mapped to <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_Category">Category</a> <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>s.
+Ignore the 0 key here, because that indicates that this is the &quot;has no category&quot; list.
+Each value contains a ordered list of text/news and voice/stage channels as <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Dictionary&lt;ulong, List&lt;DiscordChannel&gt;&gt; GetOrderedChannels()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">List</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;&gt;</td>
+        <td><p>A ordered list of categories with its channels</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordGuild_GetOrderedChannelsAsync_" data-uid="DisCatSharp.Entities.DiscordGuild.GetOrderedChannelsAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordGuild_GetOrderedChannelsAsync" data-uid="DisCatSharp.Entities.DiscordGuild.GetOrderedChannelsAsync">GetOrderedChannelsAsync()</h4>
+  <div class="markdown level1 summary"><p>Gets an ordered <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a> list.
+Returns a Dictionary where the key is an ulong and can be mapped to <a class="xref" href="DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_Category">Category</a> <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>s.
+Ignore the 0 key here, because that indicates that this is the &quot;has no category&quot; list.
+Each value contains a ordered list of text/news and voice/stage channels as <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;Dictionary&lt;ulong, List&lt;DiscordChannel&gt;&gt;&gt; GetOrderedChannelsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">Dictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">List</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;&gt;&gt;</td>
+        <td><p>A ordered list of categories with its channels</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordGuild_GetPruneCountAsync_" data-uid="DisCatSharp.Entities.DiscordGuild.GetPruneCountAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordGuild_GetPruneCountAsync_System_Int32_IEnumerable_DisCatSharp_Entities_DiscordRole__" data-uid="DisCatSharp.Entities.DiscordGuild.GetPruneCountAsync(System.Int32,IEnumerable{DisCatSharp.Entities.DiscordRole})">GetPruneCountAsync(Int32, IEnumerable&lt;DiscordRole&gt;)</h4>
   <div class="markdown level1 summary"><p>Estimates the number of users to be pruned.</p>
@@ -4245,6 +4305,87 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordGuild.html">DiscordGuild</a>&gt;</td>
         <td><p>The modified guild object.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordGuild_ModifyCommunitySettingsAsync_" data-uid="DisCatSharp.Entities.DiscordGuild.ModifyCommunitySettingsAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordGuild_ModifyCommunitySettingsAsync_System_Boolean_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordChannel_System_String_System_String_DisCatSharp_Entities_DefaultMessageNotifications_System_String_" data-uid="DisCatSharp.Entities.DiscordGuild.ModifyCommunitySettingsAsync(System.Boolean,DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordChannel,System.String,System.String,DisCatSharp.Entities.DefaultMessageNotifications,System.String)">ModifyCommunitySettingsAsync(Boolean, DiscordChannel, DiscordChannel, String, String, DefaultMessageNotifications, String)</h4>
+  <div class="markdown level1 summary"><p>Modifies the community settings async.
+This sets <a class="xref" href="DisCatSharp.Entities.VerificationLevel.html#DisCatSharp_Entities_VerificationLevel_High">High</a> if not highest and <a class="xref" href="DisCatSharp.Entities.ExplicitContentFilter.html#DisCatSharp_Entities_ExplicitContentFilter_AllMembers">AllMembers</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordGuild&gt; ModifyCommunitySettingsAsync(bool enabled, DiscordChannel rulesChannel = null, DiscordChannel publicUpdatesChannel = null, string preferredLocale = &quot;en-US&quot;, string description = null, DefaultMessageNotifications defaultMessageNotifications = DefaultMessageNotifications.MentionsOnly, string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">enabled</span></td>
+        <td><p>If true, enable <a class="xref" href="DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasCommunityEnabled">HasCommunityEnabled</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">rulesChannel</span></td>
+        <td><p>The rules channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="parametername">publicUpdatesChannel</span></td>
+        <td><p>The public updates channel.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">preferredLocale</span></td>
+        <td><p>The preferred locale. Defaults to en-US.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">description</span></td>
+        <td><p>The description.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DefaultMessageNotifications.html">DefaultMessageNotifications</a></td>
+        <td><span class="parametername">defaultMessageNotifications</span></td>
+        <td><p>The default message notifications. Defaults to <a class="xref" href="DisCatSharp.Entities.DefaultMessageNotifications.html#DisCatSharp_Entities_DefaultMessageNotifications_MentionsOnly">MentionsOnly</a></p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The auditlog reason.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordGuild.html">DiscordGuild</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
