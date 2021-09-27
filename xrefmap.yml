@@ -21725,6 +21725,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.Inequality
   nameWithType: DiscordGuild.Inequality
+- uid: DisCatSharp.Entities.DiscordGuild.OrderedChannels
+  name: OrderedChannels
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_OrderedChannels
+  commentId: P:DisCatSharp.Entities.DiscordGuild.OrderedChannels
+  fullName: DisCatSharp.Entities.DiscordGuild.OrderedChannels
+  nameWithType: DiscordGuild.OrderedChannels
+- uid: DisCatSharp.Entities.DiscordGuild.OrderedChannels*
+  name: OrderedChannels
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_OrderedChannels_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.OrderedChannels
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.OrderedChannels
+  nameWithType: DiscordGuild.OrderedChannels
 - uid: DisCatSharp.Entities.DiscordGuild.Owner
   name: Owner
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_Owner
