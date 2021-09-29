@@ -2658,7 +2658,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordAttachment.html",
-          "hash": "C5FaWg+PEscWB4HW6Fq8jtkX8DUgLINDw0Avr+yf0hg="
+          "hash": "JBJCiQyZmuZ6XvLZgbVYbzo69vXEw7pDOYXxUDQmD24="
         }
       },
       "is_incremental": false,
@@ -5442,7 +5442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Enums.InteractionResponseBehavior.html",
-          "hash": "KJ59wo1nrQb/aWZ9WMcq89WVO2/OG3ZWgxgZIX9CJK0="
+          "hash": "YuBQLkGGTVAj24rGFBEj7XIr7rTKG5MBF249iZ4Kqf4="
         }
       },
       "is_incremental": false,
@@ -5502,7 +5502,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Enums.html",
-          "hash": "aG7qvL7UNlimxmPXnKmC+7LtWOM9R5Onb8/H6WokL3I="
+          "hash": "8lSDMWNq+W+t+PiU5MSKuQHGhekS3bQ/0sjUueCHr1M="
         }
       },
       "is_incremental": false,
@@ -5538,7 +5538,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.EventHandling.PollEmoji.html",
-          "hash": "/6E//99Gw59JR5CQubpLWwPzJapgM9lLHLUFlLb14NM="
+          "hash": "rWLsnC3ICX8P30d9ZYpGePT6BB4eveASl2LPVLK4jhU="
         }
       },
       "is_incremental": false,
@@ -5550,7 +5550,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.EventHandling.PollRequest.html",
-          "hash": "cdJJhi6W+uh0dXxT0XBNIcHU/q79RhZORdPjYD8ya5A="
+          "hash": "Emq40WP4eJzTrkR/qtEsDs+h63xiZvkaiRIXZpBC9lY="
         }
       },
       "is_incremental": false,
@@ -5562,7 +5562,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.EventHandling.Reaction.html",
-          "hash": "EJqeTQO+RX3sgC3genYHwk8bTZTFx14Rz4eextYh904="
+          "hash": "izIdeRiBTuDJKqGREteiAmTP/bTPTlvEfKg0oVreprE="
         }
       },
       "is_incremental": false,
@@ -5574,7 +5574,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.EventHandling.ReactionCollectRequest.html",
-          "hash": "L4WlIhVDnk5m8EvxMGY2qAh15RqRH+gKmGCXqcA9DRg="
+          "hash": "a4FVjga6TvGHS3XWpTzVAiJADuL4SXzJcXESuNV9UVQ="
         }
       },
       "is_incremental": false,
@@ -5586,7 +5586,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.EventHandling.html",
-          "hash": "pzBS4qJxajEuWmAXHhpH3J0EKEZlTUzDYORe4kZOiDc="
+          "hash": "LZakJuQD4oftYGC/U5qXEWp1BlElxqI6a+V+npMmDBQ="
         }
       },
       "is_incremental": false,
@@ -7118,6 +7118,42 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/application_commands/events.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/application_commands/events.html",
+          "hash": "LLXDaJue1ph0eNZQVq49qGI4u0MdkE/6sej5HPcXZhQ="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/application_commands/intro.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/application_commands/intro.html",
+          "hash": "xR3WiowbxZIbz1yqx7lNtOzDt6xkfYi68Z3YpiUEQX4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/application_commands/options.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/application_commands/options.html",
+          "hash": "zsXi4AnMhKQbFt6R5dh+wnyyDWEZ9nfztblF2FXokLc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/audio/lavalink/configuration.md",
       "output": {
         ".html": {
@@ -7214,11 +7250,23 @@
     },
     {
       "type": "Conceptual",
-      "source_relative_path": "articles/beyond_basics/buttons.md",
+      "source_relative_path": "articles/beyond_basics/components/buttons.md",
       "output": {
         ".html": {
-          "relative_path": "articles/beyond_basics/buttons.html",
-          "hash": "mfaLoSEAeHTfP8tQ/SlIWt3IjYYMI0OZ7LYbMSzOpAw="
+          "relative_path": "articles/beyond_basics/components/buttons.html",
+          "hash": "OP7Fk7A/9AdY93nSbF7+Gi/NOEzUDzD5uBmOiGfuzs4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/beyond_basics/components/select_menus.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/beyond_basics/components/select_menus.html",
+          "hash": "KOp7XnmtrIOYnTSBPaaDzyOaXOW2gBw/hJxW+F4XXq0="
         }
       },
       "is_incremental": false,
@@ -7458,7 +7506,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "y7JQNPsScXUwTQ54vAHSj1vacLPTbbBkccH0i46DAIY="
+          "hash": "WGrg1NabN8oJpGnt7sKoqLfgCKWRFLL/RuQUhLKzsNU="
         }
       },
       "is_incremental": false,
@@ -8163,8 +8211,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 32,
-          "skipped_file_count": 32
+          "total_file_count": 36,
+          "skipped_file_count": 36
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

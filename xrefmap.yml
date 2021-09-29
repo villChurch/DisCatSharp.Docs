@@ -3,7 +3,19 @@ sorted: true
 references:
 - uid: advanced_topics_buttons
   name: Buttons
-  href: articles/beyond_basics/buttons.html
+  href: articles/beyond_basics/components/buttons.html
+- uid: advanced_topics_select_menus
+  name: Select Menus
+  href: articles/beyond_basics/components/select_menus.html
+- uid: appcommands_events
+  name: Application Commands Events
+  href: articles/application_commands/events.html
+- uid: appcommands_intro
+  name: Application Commands Introduction
+  href: articles/application_commands/intro.html
+- uid: appcommands_options
+  name: Application Commands Options
+  href: articles/application_commands/options.html
 - uid: audio_lavalink_configuration
   name: Lavalink Configuration
   href: articles/audio/lavalink/configuration.html
@@ -14587,19 +14599,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordAttachment
   fullName: DisCatSharp.Entities.DiscordAttachment
   nameWithType: DiscordAttachment
-- uid: DisCatSharp.Entities.DiscordAttachment.Emphemeral
-  name: Emphemeral
-  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Emphemeral
-  commentId: P:DisCatSharp.Entities.DiscordAttachment.Emphemeral
-  fullName: DisCatSharp.Entities.DiscordAttachment.Emphemeral
-  nameWithType: DiscordAttachment.Emphemeral
-- uid: DisCatSharp.Entities.DiscordAttachment.Emphemeral*
-  name: Emphemeral
-  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Emphemeral_
-  commentId: Overload:DisCatSharp.Entities.DiscordAttachment.Emphemeral
+- uid: DisCatSharp.Entities.DiscordAttachment.Ephemeral
+  name: Ephemeral
+  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Ephemeral
+  commentId: P:DisCatSharp.Entities.DiscordAttachment.Ephemeral
+  fullName: DisCatSharp.Entities.DiscordAttachment.Ephemeral
+  nameWithType: DiscordAttachment.Ephemeral
+- uid: DisCatSharp.Entities.DiscordAttachment.Ephemeral*
+  name: Ephemeral
+  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Ephemeral_
+  commentId: Overload:DisCatSharp.Entities.DiscordAttachment.Ephemeral
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAttachment.Emphemeral
-  nameWithType: DiscordAttachment.Emphemeral
+  fullName: DisCatSharp.Entities.DiscordAttachment.Ephemeral
+  nameWithType: DiscordAttachment.Ephemeral
 - uid: DisCatSharp.Entities.DiscordAttachment.FileName
   name: FileName
   href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_FileName

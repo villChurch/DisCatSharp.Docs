@@ -1,0 +1,212 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Select Menus </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Select Menus ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="../../../styles/discord.css">
+    <link rel="stylesheet" href="../../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="advanced_topics_select_menus">
+<h1 id="introduction">Introduction</h1>
+
+<p>The select menus, like the <a class="xref" href="buttons.html">buttons</a>, are message components.
+You will want to familarize yourself with the <a class="xref" href="../messagebuilder.html">message builder</a> as it and similar builder objects will be used throughout this article.</p>
+<p>A row can only have one select menu. An row containing a select menu cannot also contain buttons.
+Since a message can have up to 5 rows, you can add up to 5 select menus to a message.</p>
+<h1 id="select-menus">Select Menus</h1>
+<div class="WARNING"><h5>Warning</h5><p>Component Ids and option values should be unique, as this is what&#39;s sent back when a user selects one (or more) option.</p>
+</div>
+<p>Select menus consist of five parts:</p>
+<ul>
+<li>Id</li>
+<li>Placeholder</li>
+<li>Options</li>
+<li>MinOptions</li>
+<li>MaxOptions</li>
+<li>Disabled</li>
+</ul>
+<p>The id of the select menu is a settable string, and is specified by the developer. Discord sends this id back in the <a href="https://discord.dev/interactions/slash-commands#interaction">interaction object</a>.</p>
+<p><strong>Placeholder</strong> is a settable string that appears in the select menu when nothing is selected.</p>
+<p><strong>Options</strong> is an array of options for the user to select. Their maximum number in one select menu is 25.
+You can let users choose 1 or more options using <strong>MinOptions</strong> and <strong>MaxOptions</strong>.</p>
+<p>Options consist of five parts:</p>
+<ul>
+<li>Label</li>
+<li>Value</li>
+<li>Description</li>
+<li>IsDefault</li>
+<li>Emoji</li>
+</ul>
+<p>Menu creation, for easier understanding, can be divided into two stages:</p>
+<pre><code class="lang-cs">// First, create an array of options.
+var options = new DiscordSelectComponentOption[]
+{
+    new DiscordSelectComponentOption(&quot;First option&quot;, &quot;first_option&quot;, &quot;This is the first option, you can add your description of it here.&quot;, false, new DiscordComponentEmoji(&quot;😀&quot;)),
+    new DiscordSelectComponentOption(&quot;Second option&quot;, &quot;second_option&quot;, &quot;This is the second option, you can add your description of it here.&quot;, false, new DiscordComponentEmoji(&quot;😎&quot;))
+};
+
+// Now let&#39;s create a select menu with the options created above.
+var selectMenu = new DiscordSelectComponent(&quot;my_select_menu&quot;, &quot;Please select one of the options&quot;, options);
+</code></pre><p>This will create a select menu with two options and the text &quot;Please select one of the options&quot;.
+When a user select <strong>one</strong> option, <code>&quot;my_select_menu&quot;</code> will be sent back as the <code>Id</code> property on the event.
+This is expanded on in the <a href="#responding-to-options-selected">how to respond to select menus</a>.</p>
+<p>You can increase the maximum/minimum number of selections in the select menu constructor. You can also block the select menu, or options.</p>
+<p>Description and emoji of options are optional. The label, value and description can be up to 100 characters in length.
+The emoji of a option is a <a href="https://discord.dev/interactions/message-components#component-object">partial emoji object</a>, which means that <strong>any valid emoji is usable</strong>, even if your bot does not have access to it&#39;s origin server.</p>
+<h1 id="adding-select-menu">Adding Select Menu</h1>
+<p>Adding a selec menu is no different than adding a button.
+We have already created the select menu above, now we will just create a new message builder add the select menu to it.</p>
+<pre><code class="lang-cs">var builder = new DiscordMessageBuilder()
+    .WithContent(&quot;This message has select menu! Pretty neat innit?&quot;)
+    .AddComponents(selectMenu);
+</code></pre><p>Now you have a message with a select menu. Congratulations! It&#39;s important to note that <code>.AddComponents()</code> will create a new row with each call, so <strong>add everything you want on one row in one call!</strong></p>
+<p>Lets also add a second row with select menu with the ability to choose any number of options.</p>
+<pre><code class="lang-cs">var secondOptions = new DiscordSelectComponentOption[]
+{
+    new DiscordSelectComponentOption(&quot;First option&quot;, &quot;first_option&quot;, &quot;This is the first option, you can add your description of it here.&quot;, false, new DiscordComponentEmoji(&quot;😀&quot;)),
+    new DiscordSelectComponentOption(&quot;Second option&quot;, &quot;second_option&quot;, &quot;This is the second option, you can add your description of it here.&quot;, false, new DiscordComponentEmoji(&quot;😎&quot;))
+    new DiscordSelectComponentOption(&quot;Third option&quot;, &quot;third_option&quot;, &quot;This is the third option, you can add your description of it here.&quot;, false, new DiscordComponentEmoji(&quot;😘&quot;))
+};
+
+var secondSelectMenu = new DiscordSelectComponent(&quot;my_second_select_menu&quot;, &quot;Please select up to 3 options&quot;, secondOptions, 1, 3);
+
+builder.AddComponents(secondSelectMenu);
+</code></pre><p>And you&#39;re done! The select menu will now be sent when the user closes the select menu with 1 to 3 options selected.</p>
+<h1 id="responding-to-select-menus">Responding to select menus</h1>
+<p>When any select menu is pressed, it will fire the <a class="xref" href="../../../api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ComponentInteractionCreated">ComponentInteractionCreated</a> event.</p>
+<p>In the event args, <code>Id</code> will be the id of the select menu you specified. There&#39;s also an <code>Interaction</code> property, which contains the interaction the event created. It&#39;s important to respond to an interaction within 3 seconds, or it will time out. Responding after this period will throw a <code>NotFoundException</code>.</p>
+<p>With select menus, there are two new response types: <code>DefferedMessageUpdate</code> and <code>UpdateMessage</code>.</p>
+<p>Using <code>DeferredMessageUpdate</code> lets you create followup messages via the <a class="xref" href="../../../api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html">followup message builder</a>.</p>
+<p>You have 15 minutes from that point to make followup messages. Responding to that interaction looks like this:</p>
+<pre><code class="lang-cs">client.ComponentInteractionCreated += async (s, e) =&gt;
+{
+    await e.Interaction.CreateResponseAsync(InteractionResponseType.DefferedMessageUpdate);
+    // Do things.. //
+}
+</code></pre><p>If you would like to update the message when an select menu option selected, however, you&#39;d use <code>UpdateMessage</code> instead, and pass a <code>DiscordInteractionResponseBuilder</code> with the new content you&#39;d like.</p>
+<pre><code class="lang-cs">client.ComponentInteractionCreated += async (s, e) =&gt;
+{
+    await e.Interaction.CreateResponseAsync(InteractionResponseType.UpdateMessage, new DiscordInteractionResponseBuilder().WithContent(&quot;No more select menu for you &gt;:)&quot;));
+}
+</code></pre><p>This will update the message, and without the infamous <sub>(edited)</sub> next to it. Nice.</p>
+<h1 id="interactivity">Interactivity</h1>
+<p>Along with the typical <code>WaitForMessageAsync</code> and <code>WaitForReactionAsync</code> methods provided by interactivity, there are also select menus implementations as well.</p>
+<p>More information about how interactivity works can be found in <a class="xref" href="../../interactivity.html">the interactivity article</a></p>
+<p>Since select menus create interactions, there are also two additional properties in the configuration:</p>
+<ul>
+<li>RepsonseBehavior</li>
+<li>ResponseMessage</li>
+</ul>
+<p>ResponseBehavior is what interactivity will do when handling something that isn&#39;t a valid select menu, in the context of waiting for a specific select menu. It defaults to <code>Ignore</code>, which will cause the interaction fail.</p>
+<p>Alternatively, setting it to <code>Ack</code> will acknowledge the select menu, and continue waiting.</p>
+<p>Respond will reply with an ephemeral message with the aforementioned response message.</p>
+<p>ResponseBehavior only applies to the overload accepting a string id of the select menu to wait for.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/beyond_basics/components/select_menus.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/url.min.js"></script>
+  </body>
+</html>

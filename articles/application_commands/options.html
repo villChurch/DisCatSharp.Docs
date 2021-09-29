@@ -1,0 +1,278 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Application Commands Options </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Application Commands Options ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="appcommands_options">
+<h1 id="slash-commands-options">Slash Commands options</h1>
+
+<p>For slash commands, you can create options. They allow users to submit additional information to commands.</p>
+<p>Command options can be of the following types:</p>
+<ul>
+<li>string</li>
+<li>long</li>
+<li>bool</li>
+<li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></li>
+<li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordRole.html">DiscordRole</a></li>
+<li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></li>
+<li>Enum</li>
+</ul>
+<h2 id="basic-usage">Basic usage</h2>
+<div class="NOTE"><h5>Note</h5><p>Options can only be added in the slash commands. Context menus do not support this!</p>
+</div>
+<p>All of options must contain the <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.OptionAttribute.html">Option</a> attribute.
+They should be after <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.InteractionContext.html">InteractionContext</a>.</p>
+<pre><code class="lang-cs">public class MyCommand : ApplicationCommandsModule
+{
+    [SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+    public static async Task MySlashCommand(InteractionContext context, [Option(&quot;argument&quot;, &quot;This is decription of the option.&quot;)] string firstParam)
+    {
+        await context.CreateResponseAsync(InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
+        {
+            Content = firstParam
+        });
+    }
+}
+</code></pre><h2 id="choices">Choices</h2>
+<p>Sometimes, we need to allow users to choose from several pre-created options.
+We can of course add a string or long parameter and let users guess the options, but why when we can make things more convenient?</p>
+<p>We have 3 ways to make choices:</p>
+<ul>
+<li>Enums</li>
+<li><a class="xref" href="../../api/DisCatSharp.ApplicationCommands.ChoiceAttribute.html">Choice Attribute</a></li>
+<li><a class="xref" href="../../api/DisCatSharp.ApplicationCommands.IChoiceProvider.html">Choice Providers</a></li>
+</ul>
+<h3 id="enums">Enums</h3>
+<p>This is the easiest option. We just need to specify the required Enum as a command parameter.</p>
+<pre><code class="lang-cs">public class MyCommand : ApplicationCommandsModule
+{
+    [SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+    public static async Task MySlashCommand(InteractionContext context, [Option(&quot;enum_param&quot;, &quot;Description&quot;)] MyEnum enumParameter)
+    {
+
+    }
+}
+
+public enum MyEnum
+{
+    FirstOption,
+    SecondOption
+}
+</code></pre><p>In this case, the user will be shown this as options: <code>FirstOption</code> and <code>SecondOption</code>.
+Therefore, if you want to define different names for options without changing the Enum, you can add a special attribute:</p>
+<pre><code class="lang-cs">public enum MyEnum
+{
+    [ChoiceName(&quot;First option&quot;)]
+    FirstOption,
+    [ChoiceName(&quot;Second option&quot;)]
+    SecondOption
+}
+</code></pre><h3 id="choice-attribute">Choice Attribute</h3>
+<p>With this way, you can get rid of unnecessary conversions within the command.
+To do this, you need to add one or more <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.ChoiceAttribute.html">Choice Attributes</a> before the <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.OptionAttribute.html">Option</a> attribute</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+public static async Task MySlashCommand(InteractionContext context, [Choice(&quot;First option&quot;, 1)] [Choice(&quot;Second option&quot;, 2)] [Option(&quot;option&quot;, &quot;Description&quot;)] long firstParam)
+{
+
+}
+</code></pre><p>As the first parameter, <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.ChoiceAttribute.html">Choice</a> takes a name that will be visible to the user, and the second - a value that will be passed to the command.
+You can also use strings.</p>
+<h3 id="choice-provider">Choice Provider</h3>
+<p>Perhaps the most difficult way. It consists in writing a method that will generate a list of options when registering commands.
+This way we don&#39;t have to list all of them in the code when there are many of them.</p>
+<p>To create your own provider, you need to create a class that inherits <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.IChoiceProvider.html">IChoiceProvider</a> and contains the <code>Provider()</code> method.</p>
+<pre><code class="lang-cs">public class MyChoiceProvider : IChoiceProvider
+{
+    public Task&lt;IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;&gt; Provider()
+    {
+
+    }
+}
+</code></pre><p>As seen above, the method should return a list of <a class="xref" href="../../api/DisCatSharp.Entities.DiscordApplicationCommandOptionChoice.html">DiscordApplicationCommandOptionChoice</a>.</p>
+<p>Now we need to create a list and add items to it:</p>
+<pre><code class="lang-cs">var options = new List&lt;DiscordApplicationCommandOptionChoice&gt;
+{
+    new DiscordApplicationCommandOptionChoice(&quot;First option&quot;, 1),
+    new DiscordApplicationCommandOptionChoice(&quot;Second option&quot;, 2)
+};
+
+return Task.FromResult(options.AsEnumerable());
+</code></pre><p>Of course you can generate this list as you like. The main thing is that the method should return this list.</p>
+<p>Now let&#39;s add our new provider to the command.</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+public static async Task MySlashCommand(InteractionContext context, [ChoiceProvider(typeof(MyChoiceProvider))] [Option(&quot;option&quot;, &quot;Description&quot;)] long option)
+{
+
+}
+</code></pre><p>All the code that we got:</p>
+<pre><code class="lang-cs">public class MyCommand : ApplicationCommandsModule
+{
+    [SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+    public static async Task MySlashCommand(InteractionContext context, [ChoiceProvider(typeof(MyChoiceProvider))] [Option(&quot;option&quot;, &quot;Description&quot;)] long option)
+    {
+
+    }
+}
+
+public class MyChoiceProvider : IChoiceProvider
+{
+    public Task&lt;IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;&gt; Provider()
+    {
+        var options = new List&lt;DiscordApplicationCommandOptionChoice&gt;
+        {
+            new DiscordApplicationCommandOptionChoice(&quot;First option&quot;, 1),
+            new DiscordApplicationCommandOptionChoice(&quot;Second option&quot;, 2)
+        };
+
+        return Task.FromResult(options.AsEnumerable());
+    }
+}
+</code></pre><p>That&#39;s all, for a better example for <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.IChoiceProvider.html">ChoiceProvider</a> refer to the examples.</p>
+<h2 id="autocomplete">Autocomplete</h2>
+<p>Autocomplete works in the same way as ChoiceProvider, with one difference:
+the method that creates the list of choices is triggered not once when the commands are registered, but whenever the user types a command.
+It is advisable to use this method exactly when you have a list that will be updated while the bot is running.
+In other cases, when the choices will not change, it is advisable to use the previous methods.</p>
+<p>Creating an autocomplete is similar to creating a ChoiceProvider with a few changes:</p>
+<pre><code class="lang-cs">public class MyAutocompleteProvider : IAutocompleteProvider
+{
+    public async Task&lt;IEnumerable&lt;DiscordApplicationCommandAutocompleteChoice&gt;&gt; Provider(AutocompleteContext ctx)
+    {
+        var options = new List&lt;DiscordApplicationCommandAutocompleteChoice&gt;
+        {
+            new DiscordApplicationCommandAutocompleteChoice(&quot;First option&quot;, 1),
+            new DiscordApplicationCommandAutocompleteChoice(&quot;Second option&quot;, 2)
+        };
+
+        return Task.FromResult(options.AsEnumerable());
+    }
+}
+</code></pre><p>The changes are that instead of <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.IChoiceProvider.html">IChoiceProvider</a>, the class inherits <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html">IAutocompleteProvider</a>, and the Provider method should return a list with <a class="xref" href="../../api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a>.</p>
+<p>Now we add it to the command:</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+public static async Task MySlashCommand(InteractionContext context, [Autocomplete(typeof(MyAutocompleteProvider))] [Option(&quot;option&quot;, &quot;Description&quot;, true)] long option)
+{
+
+}
+</code></pre><p>Note that we have not only replaced <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.ChoiceProviderAttribute.html">ChoiceProvider</a> with <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html">Autocomplete</a>, but also added <code>true</code> to <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.OptionAttribute.html">Option</a>.</p>
+<h2 id="channel-types">Channel types</h2>
+<p>Sometimes we may need to give users the ability to select only a certain type of channels, for example, only text, or voice channels.</p>
+<p>This can be done by adding the <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.Attributes.ChannelTypesAttribute.html">ChannelTypes</a> attribute to the option with the <a class="xref" href="../../api/DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a> type.</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+public static async Task MySlashCommand(InteractionContext context, [Option(&quot;channel&quot;, &quot;You can select only text channels.&quot;), ChannelTypes(ChannelType.Text)] DiscordChannel channel)
+{
+
+}
+</code></pre><p>This will make it possible to select only text channels.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/application_commands/options.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/url.min.js"></script>
+  </body>
+</html>
