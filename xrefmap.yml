@@ -56999,6 +56999,12 @@ references:
   commentId: T:DisCatSharp.UserFlags
   fullName: DisCatSharp.UserFlags
   nameWithType: UserFlags
+- uid: DisCatSharp.UserFlags.BotHttpInteractions
+  name: BotHttpInteractions
+  href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_BotHttpInteractions
+  commentId: F:DisCatSharp.UserFlags.BotHttpInteractions
+  fullName: DisCatSharp.UserFlags.BotHttpInteractions
+  nameWithType: UserFlags.BotHttpInteractions
 - uid: DisCatSharp.UserFlags.BugHunterLevelOne
   name: BugHunterLevelOne
   href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_BugHunterLevelOne
