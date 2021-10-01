@@ -193,13 +193,13 @@ Written packets should adhere to this size, but the sink will adapt to fit.</p>
   
   
   <a id="DisCatSharp_VoiceNext_VoiceTransmitSink_FlushAsync_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.FlushAsync*"></a>
-  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_FlushAsync_System_Threading_CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.FlushAsync(System.Threading.CancellationToken)">FlushAsync(CancellationToken)</h4>
+  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_FlushAsync_CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.FlushAsync(CancellationToken)">FlushAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Flushes the rest of the PCM data in this buffer to VoiceNext packet queue.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task FlushAsync(CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task FlushAsync(CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -212,7 +212,7 @@ Written packets should adhere to this size, but the sink will adapt to fit.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>
@@ -255,7 +255,7 @@ Written packets should adhere to this size, but the sink will adapt to fit.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.VoiceNext.IVoiceFilter.html">IVoiceFilter</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.VoiceNext.IVoiceFilter.html">IVoiceFilter</a>&gt;</td>
         <td><p>Installed PCM filters, in order of execution.</p>
 </td>
       </tr>
@@ -381,63 +381,13 @@ Written packets should adhere to this size, but the sink will adapt to fit.</p>
   
   
   <a id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync*"></a>
-  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_ReadOnlyMemory_System_Byte__System_Threading_CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync(ReadOnlyMemory{System.Byte},System.Threading.CancellationToken)">WriteAsync(ReadOnlyMemory&lt;Byte&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_System_Byte___System_Int32_System_Int32_CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync(System.Byte[],System.Int32,System.Int32,CancellationToken)">WriteAsync(Byte[], Int32, Int32, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Writes PCM data to the sink. The data is prepared for transmission, and enqueued.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task WriteAsync(ReadOnlyMemory&lt;byte&gt; buffer, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">ReadOnlyMemory</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">buffer</span></td>
-        <td><p>PCM data buffer to send.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
-        <td><span class="parametername">cancellationToken</span></td>
-        <td><p>The token to monitor for cancellation requests.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync*"></a>
-  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_System_Byte___System_Int32_System_Int32_System_Threading_CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync(System.Byte[],System.Int32,System.Int32,System.Threading.CancellationToken)">WriteAsync(Byte[], Int32, Int32, CancellationToken)</h4>
-  <div class="markdown level1 summary"><p>Writes PCM data to the sink. The data is prepared for transmission, and enqueued.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken = default(CancellationToken))</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task WriteAsync(byte[] buffer, int offset, int count, CancellationToken cancellationToken = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -468,7 +418,57 @@ Written packets should adhere to this size, but the sink will adapt to fit.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">cancellationToken</span></td>
+        <td><p>The token to monitor for cancellation requests.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync*"></a>
+  <h4 id="DisCatSharp_VoiceNext_VoiceTransmitSink_WriteAsync_System_ReadOnlyMemory_System_Byte__CancellationToken_" data-uid="DisCatSharp.VoiceNext.VoiceTransmitSink.WriteAsync(System.ReadOnlyMemory{System.Byte},CancellationToken)">WriteAsync(ReadOnlyMemory&lt;Byte&gt;, CancellationToken)</h4>
+  <div class="markdown level1 summary"><p>Writes PCM data to the sink. The data is prepared for transmission, and enqueued.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task WriteAsync(ReadOnlyMemory&lt;byte&gt; buffer, CancellationToken cancellationToken = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ReadOnlyMemory</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>PCM data buffer to send.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">cancellationToken</span></td>
         <td><p>The token to monitor for cancellation requests.</p>
 </td>

@@ -150,7 +150,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordApplication</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplication.html">DiscordApplication</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -176,7 +176,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -228,7 +228,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DisCatSharpTeam</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DisCatSharpTeam.html">DisCatSharpTeam</a></td>
         <td></td>
       </tr>
     </tbody>
@@ -280,7 +280,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -306,7 +306,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">DiscordVoiceRegion</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DisCatSharp.Entities.DiscordVoiceRegion.html">DiscordVoiceRegion</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -326,7 +326,7 @@
   
   
   <a id="DisCatSharp_DiscordShardedClient_GetShard_" data-uid="DisCatSharp.DiscordShardedClient.GetShard*"></a>
-  <h4 id="DisCatSharp_DiscordShardedClient_GetShard_DiscordGuild_" data-uid="DisCatSharp.DiscordShardedClient.GetShard(DiscordGuild)">GetShard(DiscordGuild)</h4>
+  <h4 id="DisCatSharp_DiscordShardedClient_GetShard_DisCatSharp_Entities_DiscordGuild_" data-uid="DisCatSharp.DiscordShardedClient.GetShard(DisCatSharp.Entities.DiscordGuild)">GetShard(DiscordGuild)</h4>
   <div class="markdown level1 summary"><p>Gets a shard from a guild.
 <p>
     If automatically sharding, this will use the <a class="xref" href="DisCatSharp.Utilities.html#DisCatSharp_Utilities_GetShardId_System_UInt64_System_Int32_">GetShardId(UInt64, Int32)</a> method.
@@ -349,7 +349,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordGuild</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordGuild.html">DiscordGuild</a></td>
         <td><span class="parametername">guild</span></td>
         <td><p>The guild for the shard.</p>
 </td>
@@ -447,6 +447,25 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.AggregateException</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordShardedClient_StopAsync_" data-uid="DisCatSharp.DiscordShardedClient.StopAsync*"></a>
@@ -473,10 +492,25 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync*"></a>
-  <h4 id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_DisCatSharp_Entities_DiscordActivity_System_Nullable_DisCatSharp_Entities_UserStatus__System_Nullable_System_DateTimeOffset__" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync(DisCatSharp.Entities.DiscordActivity,System.Nullable{DisCatSharp.Entities.UserStatus},System.Nullable{System.DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Updates playing statuses on all shards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -495,19 +529,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordActivity</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordActivity.html">DiscordActivity</a></td>
         <td><span class="parametername">activity</span></td>
         <td><p>Activity to set.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">UserStatus</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DisCatSharp.Entities.UserStatus.html">UserStatus</a>&gt;</td>
         <td><span class="parametername">userStatus</span></td>
         <td><p>Status of the user.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">idleSince</span></td>
         <td><p>Since when is the client performing the specified activity.</p>
 </td>

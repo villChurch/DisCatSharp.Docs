@@ -82,21 +82,23 @@
   
   <h1 id="DisCatSharp_Common_Serialization_TimeSpanMillisecondsAttribute" data-uid="DisCatSharp.Common.Serialization.TimeSpanMillisecondsAttribute" class="text-break">Class TimeSpanMillisecondsAttribute
   </h1>
-  <div class="markdown level0 summary"><p>Specifies that this <see cref="!:TimeSpan"></see> will be serialized as a number of whole milliseconds.</p>
+  <div class="markdown level0 summary"><p>Specifies that this <span class="xref">System.TimeSpan</span> will be serialized as a number of whole milliseconds.</p>
 <p>This value will always be serialized as a number.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="DisCatSharp.Common.Serialization.SerializationAttribute.html">SerializationAttribute</a></div>
-    <div class="level2"><span class="xref">TimeSpanMillisecondsAttribute</span></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><a class="xref" href="DisCatSharp.Common.Serialization.SerializationAttribute.html">SerializationAttribute</a></div>
+    <div class="level3"><span class="xref">TimeSpanMillisecondsAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Common.Serialization.html">DisCatSharp.Common.Serialization</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_Common_Serialization_TimeSpanMillisecondsAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class TimeSpanMillisecondsAttribute : SerializationAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
+public sealed class TimeSpanMillisecondsAttribute : SerializationAttribute, _Attribute</code></pre>
   </div>
 
 </article>

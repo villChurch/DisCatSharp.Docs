@@ -89,14 +89,15 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="DisCatSharp.Common.Utilities.AsyncEventTimeoutException.html">AsyncEventTimeoutException</a></div>
-    <div class="level2"><span class="xref">AsyncEventTimeoutException&lt;TSender, TArgs&gt;</span></div>
+    <div class="level1"><span class="xref">System.Exception</span></div>
+    <div class="level2"><a class="xref" href="DisCatSharp.Common.Utilities.AsyncEventTimeoutException.html">AsyncEventTimeoutException</a></div>
+    <div class="level3"><span class="xref">AsyncEventTimeoutException&lt;TSender, TArgs&gt;</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Common.Utilities.html">DisCatSharp.Common.Utilities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_Common_Utilities_AsyncEventTimeoutException_2_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AsyncEventTimeoutException&lt;TSender, TArgs&gt; : AsyncEventTimeoutException where TArgs : AsyncEventArgs</code></pre>
+    <pre><code class="lang-csharp hljs">public class AsyncEventTimeoutException&lt;TSender, TArgs&gt; : AsyncEventTimeoutException, ISerializable, _Exception where TArgs : AsyncEventArgs</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">

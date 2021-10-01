@@ -157,7 +157,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -391,7 +391,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -521,7 +521,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordOverwrite.html">DiscordOverwrite</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordOverwrite.html">DiscordOverwrite</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -756,7 +756,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMember.html">DiscordMember</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMember.html">DiscordMember</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1121,6 +1121,22 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p>Thrown when the <a class="xref" href="DisCatSharp.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a> cannot be modified. This happens, when the guild hasn&apos;t reached a certain boost <a class="xref" href="DisCatSharp.PremiumTier.html">PremiumTier</a>. Or if <a class="xref" href="DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanCreatePrivateThreads">CanCreatePrivateThreads</a> is not enabled for guild. This happens, if the guild does not have <a class="xref" href="DisCatSharp.PremiumTier.html#DisCatSharp_PremiumTier_Tier_2">Tier_2</a></p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_CreateWebhookAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.CreateWebhookAsync*"></a>
@@ -1221,6 +1237,22 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when the message has already been crossposted</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_DeleteAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.DeleteAsync*"></a>
@@ -1318,7 +1350,7 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_DeleteMessagesAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.DeleteMessagesAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordChannel_DeleteMessagesAsync_IEnumerable_DisCatSharp_Entities_DiscordMessage__System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.DeleteMessagesAsync(IEnumerable{DisCatSharp.Entities.DiscordMessage},System.String)">DeleteMessagesAsync(IEnumerable&lt;DiscordMessage&gt;, String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_DeleteMessagesAsync_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordMessage__System_String_" data-uid="DisCatSharp.Entities.DiscordChannel.DeleteMessagesAsync(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordMessage},System.String)">DeleteMessagesAsync(IEnumerable&lt;DiscordMessage&gt;, String)</h4>
   <div class="markdown level1 summary"><p>Deletes multiple messages if they are less than 14 days old.  If they are older, none of the messages will be deleted and you will receive a <see cref="!:BadRequestException"></see> error.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1337,7 +1369,7 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><span class="parametername">messages</span></td>
         <td><p>A collection of messages to delete.</p>
 </td>
@@ -1601,6 +1633,22 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when trying to follow a non-news channel</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_GetHashCode_" data-uid="DisCatSharp.Entities.DiscordChannel.GetHashCode*"></a>
@@ -1651,7 +1699,7 @@ Depending on whether the <a class="xref" href="DisCatSharp.ChannelType.html">Cha
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordInvite.html">DiscordInvite</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordInvite.html">DiscordInvite</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1823,7 +1871,7 @@ This can contain outdated informations.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1873,7 +1921,7 @@ This can contain outdated informations.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1917,7 +1965,7 @@ This can contain outdated informations.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1967,7 +2015,7 @@ This can contain outdated informations.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2019,7 +2067,7 @@ This can contain outdated informations.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2174,7 +2222,7 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2182,7 +2230,7 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordChannel_ModifyAsync_Action_ChannelEditModel__" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyAsync(Action{ChannelEditModel})">ModifyAsync(Action&lt;ChannelEditModel&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_ModifyAsync_System_Action_ChannelEditModel__" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyAsync(System.Action{ChannelEditModel})">ModifyAsync(Action&lt;ChannelEditModel&gt;)</h4>
   <div class="markdown level1 summary"><p>Modifies the current channel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2201,7 +2249,7 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Action</span>&lt;<span class="xref">ChannelEditModel</span>&gt;</td>
+        <td><span class="xref">System.Action</span>&lt;<span class="xref">ChannelEditModel</span>&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>Action to perform on this channel</p>
 </td>
@@ -2220,6 +2268,22 @@ If the result&apos;s value &apos;HasMore&apos; is true, you need to recall this 
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.NotSupportedException</span></td>
+        <td><p>Thrown when the client does not have the correct <a class="xref" href="DisCatSharp.PremiumTier.html">PremiumTier</a> for modifying the <a class="xref" href="DisCatSharp.ThreadAutoArchiveDuration.html">ThreadAutoArchiveDuration</a>.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2291,7 +2355,8 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ModifyPositionAsync(int position, string reason = null)</code></pre>
+    <pre><code class="lang-csharp hljs">[Obsolete(&quot;This will be replaced by ModifyPositionInCategoryAsync. Use it instead.&quot;)]
+public Task ModifyPositionAsync(int position, string reason = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2385,6 +2450,27 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IndexOutOfRangeException</span></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">position</code> is out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when function is called on a channel without a parent channel.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategorySmartAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.ModifyPositionInCategorySmartAsync*"></a>
@@ -2442,6 +2528,27 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IndexOutOfRangeException</span></td>
+        <td><p>Thrown when <code data-dev-comment-type="paramref" class="paramref">position</code> is out of range.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when function is called on a channel without a parent channel, a wrong mode is givven or given position is zero.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2726,51 +2833,6 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_Action_DisCatSharp_Entities_DiscordMessageBuilder__" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync(Action{DisCatSharp.Entities.DiscordMessageBuilder})">SendMessageAsync(Action&lt;DiscordMessageBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(Action&lt;DiscordMessageBuilder&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Action</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a>&gt;</td>
-        <td><span class="parametername">action</span></td>
-        <td><p>The builder with all the items to send.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
-        <td><p>The sent message.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_DisCatSharp_Entities_DiscordEmbed_" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync(DisCatSharp.Entities.DiscordEmbed)">SendMessageAsync(DiscordEmbed)</h4>
   <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
 </div>
@@ -2837,6 +2899,51 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
       <tr>
         <td><a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a></td>
         <td><span class="parametername">builder</span></td>
+        <td><p>The builder with all the items to send.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The sent message.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_SendMessageAsync_System_Action_DisCatSharp_Entities_DiscordMessageBuilder__" data-uid="DisCatSharp.Entities.DiscordChannel.SendMessageAsync(System.Action{DisCatSharp.Entities.DiscordMessageBuilder})">SendMessageAsync(Action&lt;DiscordMessageBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends a message to this channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(Action&lt;DiscordMessageBuilder&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a>&gt;</td>
+        <td><span class="parametername">action</span></td>
         <td><p>The builder with all the items to send.</p>
 </td>
       </tr>
@@ -3012,7 +3119,7 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
   
   
   <a id="DisCatSharp_Entities_DiscordChannel_UpdateCurrentUserVoiceStateAsync_" data-uid="DisCatSharp.Entities.DiscordChannel.UpdateCurrentUserVoiceStateAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordChannel_UpdateCurrentUserVoiceStateAsync_System_Nullable_System_Boolean__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.Entities.DiscordChannel.UpdateCurrentUserVoiceStateAsync(System.Nullable{System.Boolean},System.Nullable{DateTimeOffset})">UpdateCurrentUserVoiceStateAsync(Nullable&lt;Boolean&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordChannel_UpdateCurrentUserVoiceStateAsync_System_Nullable_System_Boolean__System_Nullable_System_DateTimeOffset__" data-uid="DisCatSharp.Entities.DiscordChannel.UpdateCurrentUserVoiceStateAsync(System.Nullable{System.Boolean},System.Nullable{System.DateTimeOffset})">UpdateCurrentUserVoiceStateAsync(Nullable&lt;Boolean&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Updates the current user&apos;s suppress state in this channel, if stage channel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -3037,7 +3144,7 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">requestToSpeakTimestamp</span></td>
         <td><p>Sets the time the user requested to speak.</p>
 </td>
@@ -3056,6 +3163,22 @@ Use <a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_E
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentException</span></td>
+        <td><p>Thrown when the channel is not a stage channel.</p>
+</td>
       </tr>
     </tbody>
   </table>
