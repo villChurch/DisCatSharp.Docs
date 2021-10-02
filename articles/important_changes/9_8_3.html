@@ -1,0 +1,177 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Version 9.8.3 </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Version 9.8.3 ">
+    <meta name="generator" content="docfx 2.58.4.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="important_changes_9_8_3">
+<h1 id="what-changed">What changed?</h1>
+
+<p>We <a href="https://canary.discord.com/channels/858089281214087179/858099438580006913/890973133148926004">changed</a> the option to restrict channel types in Slash Commands to an extra Attribute named <code>ChannelTypes</code> in favour of the application command autocompletion.
+You can read about it <a href="https://github.com/discord/discord-api-docs/pull/3849">here</a>.</p>
+<h2 id="upgrade-from-982-to-983">Upgrade from <strong>9.8.2</strong> to <strong>9.8.3</strong></h2>
+<p>In <strong>DisCatSharp.ApplicationComands</strong> you restricted channel types like this:</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;openstage&quot;, &quot;Opens a stage&quot;)]
+public static async Task OpenStageAsync(InteractionContext ctx,
+    [Option(&quot;stage&quot;, &quot;Stage Channel&quot;, ChannelType.Stage)] DiscordChannel stage,
+    [Option(&quot;topic&quot;, &quot;Topic of stage&quot;)] string topic,
+    [Option(&quot;notify&quot;, &quot;Whether to notify people&quot;)] bool notify = false,
+    [Option(&quot;make_public&quot;, &quot;Whether the stage channel will be public&quot;)] bool make_public = false)
+{
+    try
+    {
+        await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource, new DiscordInteractionResponseBuilder().WithContent(&quot;Opening stage&quot;).AsEphemeral(true));
+        await stage.OpenStageAsync(topic, notify, make_public ? StagePrivacyLevel.PUBLIC : StagePrivacyLevel.GUILD_ONLY);
+        await ctx.EditResponseAsync(new()
+        {
+            Content = &quot;Stage channel has been successfully opened.&quot;
+        });
+    }
+    catch (Exception ex)
+    {
+        await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent(ex.Message + &quot; &quot; + ex.StackTrace));
+    }
+}
+</code></pre><p>In <strong>DisCatSharp.ApplicationComands</strong> you restrict channel types now like this:</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;openstage&quot;, &quot;Opens a stage&quot;)]
+public static async Task OpenStageAsync(InteractionContext ctx,
+    [Option(&quot;stage&quot;, &quot;Stage Channel&quot;), ChannelTypes(ChannelType.Stage)] DiscordChannel stage,
+    [Option(&quot;topic&quot;, &quot;Topic of stage&quot;)] string topic,
+    [Option(&quot;notify&quot;, &quot;Whether to notify people&quot;)] bool notify = false,
+    [Option(&quot;make_public&quot;, &quot;Whether the stage channel will be public&quot;)] bool make_public = false)
+{
+    try
+    {
+        await ctx.CreateResponseAsync(InteractionResponseType.DeferredChannelMessageWithSource, new DiscordInteractionResponseBuilder().WithContent(&quot;Opening stage&quot;).AsEphemeral(true));
+        await stage.OpenStageAsync(topic, notify, make_public ? StagePrivacyLevel.PUBLIC : StagePrivacyLevel.GUILD_ONLY);
+        await ctx.EditResponseAsync(new()
+        {
+            Content = &quot;Stage channel has been successfully opened.&quot;
+        });
+    }
+    catch (Exception ex)
+    {
+        await ctx.EditResponseAsync(new DiscordWebhookBuilder().WithContent(ex.Message + &quot; &quot; + ex.StackTrace));
+    }
+}
+</code></pre><h2 id="new-function-application-command-autocompletion">New function: Application Command Autocompletion:</h2>
+<p>Examples:</p>
+<blockquote><p>Autocomplete Option: <a href="https://github.com/Aiko-IT-Systems/DisCatSharp.Support/blob/main/Commands/Tasks/ConduitTasks.cs#L78">https://github.com/Aiko-IT-Systems/DisCatSharp.Support/blob/main/Commands/Tasks/ConduitTasks.cs#L78</a>
+Autocomplete Provider: <a href="https://github.com/Aiko-IT-Systems/DisCatSharp.Support/blob/main/Providers/ConduitProvider.cs#L108">https://github.com/Aiko-IT-Systems/DisCatSharp.Support/blob/main/Providers/ConduitProvider.cs#L108</a></p>
+</blockquote>
+<p>Docs:
+<a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html">https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.html</a>
+<a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html">https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.html</a>
+<a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html</a>
+<a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_System_Boolean_">https://docs.dcs.aitsys.dev/api/DisCatSharp.ApplicationCommands.OptionAttribute.html#DisCatSharp_ApplicationCommands_OptionAttribute__ctor_System_String_System_String_System_Boolean_</a></p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/important_changes/9_8_3.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/url.min.js"></script>
+  </body>
+</html>

@@ -58408,9 +58408,12 @@ references:
 - uid: hosting
   name: Hosting Solutions
   href: articles/hosting.html
-- uid: important_changes_ac
-  name: Application Commands
-  href: articles/important_changes/ac.html
+- uid: important_changes_9_8_2
+  name: Version 9.8.2
+  href: articles/important_changes/9_8_2.html
+- uid: important_changes_9_8_3
+  name: Version 9.8.3
+  href: articles/important_changes/9_8_3.html
 - uid: index
   name: DisCatSharp 9.X Documentation
   href: index.html
