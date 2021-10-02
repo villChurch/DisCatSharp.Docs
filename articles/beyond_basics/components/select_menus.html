@@ -118,7 +118,7 @@ var options = new DiscordSelectComponentOption[]
 var selectMenu = new DiscordSelectComponent(&quot;my_select_menu&quot;, &quot;Please select one of the options&quot;, options);
 </code></pre><p>This will create a select menu with two options and the text &quot;Please select one of the options&quot;.
 When a user select <strong>one</strong> option, <code>&quot;my_select_menu&quot;</code> will be sent back as the <code>Id</code> property on the event.
-This is expanded on in the <a href="#responding-to-options-selected">how to respond to select menus</a>.</p>
+This is expanded on in the <a href="#responding-to-select-menus">how to respond to select menus</a>.</p>
 <p>You can increase the maximum/minimum number of selections in the select menu constructor. You can also block the select menu, or options.</p>
 <p>Description and emoji of options are optional. The label, value and description can be up to 100 characters in length.
 The emoji of a option is a <a href="https://discord.dev/interactions/message-components#component-object">partial emoji object</a>, which means that <strong>any valid emoji is usable</strong>, even if your bot does not have access to it&#39;s origin server.</p>
