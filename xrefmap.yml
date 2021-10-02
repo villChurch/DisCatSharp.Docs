@@ -44120,6 +44120,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.CanSetThreadArchiveDurationThreeDays
   nameWithType: GuildFeatures.CanSetThreadArchiveDurationThreeDays
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+  name: CanSetThreadDefaultAutoArchiveDuration
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetThreadDefaultAutoArchiveDuration
+  commentId: P:DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+  nameWithType: GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration*
+  name: CanSetThreadDefaultAutoArchiveDuration
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetThreadDefaultAutoArchiveDuration_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
+  nameWithType: GuildFeatures.CanSetThreadDefaultAutoArchiveDuration
 - uid: DisCatSharp.Entities.GuildFeatures.CanSetVanityUrl
   name: CanSetVanityUrl
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetVanityUrl
@@ -44380,6 +44393,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
   nameWithType: GuildFeatures.PremiumTierThreeOverride
+- uid: DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
+  name: TextInVoiceEnabled
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_TextInVoiceEnabled
+  commentId: P:DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
+  fullName: DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
+  nameWithType: GuildFeatures.TextInVoiceEnabled
+- uid: DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled*
+  name: TextInVoiceEnabled
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_TextInVoiceEnabled_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
+  nameWithType: GuildFeatures.TextInVoiceEnabled
 - uid: DisCatSharp.Entities.IMention
   name: IMention
   href: api/DisCatSharp.Entities.IMention.html
