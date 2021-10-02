@@ -56827,6 +56827,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.ChessInThePark2
   fullName: DisCatSharp.TargetActivity.ChessInThePark2
   nameWithType: TargetActivity.ChessInThePark2
+- uid: DisCatSharp.TargetActivity.DoodleCrew
+  name: DoodleCrew
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_DoodleCrew
+  commentId: F:DisCatSharp.TargetActivity.DoodleCrew
+  fullName: DisCatSharp.TargetActivity.DoodleCrew
+  nameWithType: TargetActivity.DoodleCrew
 - uid: DisCatSharp.TargetActivity.Fishington
   name: Fishington
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_Fishington
