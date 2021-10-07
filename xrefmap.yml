@@ -3969,11 +3969,11 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithDescription
   nameWithType: CommandBuilder.WithDescription
-- uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute)
+- uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(CheckBaseAttribute)
   name: WithExecutionCheck(CheckBaseAttribute)
-  href: api/DisCatSharp.CommandsNext.Builders.CommandBuilder.html#DisCatSharp_CommandsNext_Builders_CommandBuilder_WithExecutionCheck_DisCatSharp_CommandsNext_Attributes_CheckBaseAttribute_
-  commentId: M:DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute)
-  fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute)
+  href: api/DisCatSharp.CommandsNext.Builders.CommandBuilder.html#DisCatSharp_CommandsNext_Builders_CommandBuilder_WithExecutionCheck_CheckBaseAttribute_
+  commentId: M:DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(CheckBaseAttribute)
+  fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck(CheckBaseAttribute)
   nameWithType: CommandBuilder.WithExecutionCheck(CheckBaseAttribute)
 - uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck*
   name: WithExecutionCheck
@@ -3982,13 +3982,13 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionCheck
   nameWithType: CommandBuilder.WithExecutionCheck
-- uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute[])
+- uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(CheckBaseAttribute[])
   name: WithExecutionChecks(CheckBaseAttribute[])
-  href: api/DisCatSharp.CommandsNext.Builders.CommandBuilder.html#DisCatSharp_CommandsNext_Builders_CommandBuilder_WithExecutionChecks_DisCatSharp_CommandsNext_Attributes_CheckBaseAttribute___
-  commentId: M:DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute[])
+  href: api/DisCatSharp.CommandsNext.Builders.CommandBuilder.html#DisCatSharp_CommandsNext_Builders_CommandBuilder_WithExecutionChecks_CheckBaseAttribute___
+  commentId: M:DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(CheckBaseAttribute[])
   name.vb: WithExecutionChecks(CheckBaseAttribute())
-  fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute[])
-  fullName.vb: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute())
+  fullName: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(CheckBaseAttribute[])
+  fullName.vb: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks(CheckBaseAttribute())
   nameWithType: CommandBuilder.WithExecutionChecks(CheckBaseAttribute[])
   nameWithType.vb: CommandBuilder.WithExecutionChecks(CheckBaseAttribute())
 - uid: DisCatSharp.CommandsNext.Builders.CommandBuilder.WithExecutionChecks*
@@ -4149,11 +4149,11 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.Type
   nameWithType: CommandModuleBuilder.Type
-- uid: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(DisCatSharp.CommandsNext.Attributes.ModuleLifespan)
+- uid: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(ModuleLifespan)
   name: WithLifespan(ModuleLifespan)
-  href: api/DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.html#DisCatSharp_CommandsNext_Builders_CommandModuleBuilder_WithLifespan_DisCatSharp_CommandsNext_Attributes_ModuleLifespan_
-  commentId: M:DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(DisCatSharp.CommandsNext.Attributes.ModuleLifespan)
-  fullName: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(DisCatSharp.CommandsNext.Attributes.ModuleLifespan)
+  href: api/DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.html#DisCatSharp_CommandsNext_Builders_CommandModuleBuilder_WithLifespan_ModuleLifespan_
+  commentId: M:DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(ModuleLifespan)
+  fullName: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan(ModuleLifespan)
   nameWithType: CommandModuleBuilder.WithLifespan(ModuleLifespan)
 - uid: DisCatSharp.CommandsNext.Builders.CommandModuleBuilder.WithLifespan*
   name: WithLifespan
@@ -5331,13 +5331,13 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter
   nameWithType: CommandsNextExtension.RegisterConverter
-- uid: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter``1(DisCatSharp.CommandsNext.Converters.IArgumentConverter{``0})
+- uid: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter``1(IArgumentConverter{``0})
   name: RegisterConverter<T>(IArgumentConverter<T>)
-  href: api/DisCatSharp.CommandsNext.CommandsNextExtension.html#DisCatSharp_CommandsNext_CommandsNextExtension_RegisterConverter__1_DisCatSharp_CommandsNext_Converters_IArgumentConverter___0__
-  commentId: M:DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter``1(DisCatSharp.CommandsNext.Converters.IArgumentConverter{``0})
+  href: api/DisCatSharp.CommandsNext.CommandsNextExtension.html#DisCatSharp_CommandsNext_CommandsNextExtension_RegisterConverter__1_IArgumentConverter___0__
+  commentId: M:DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter``1(IArgumentConverter{``0})
   name.vb: RegisterConverter(Of T)(IArgumentConverter(Of T))
-  fullName: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter<T>(DisCatSharp.CommandsNext.Converters.IArgumentConverter<T>)
-  fullName.vb: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter(Of T)(DisCatSharp.CommandsNext.Converters.IArgumentConverter(Of T))
+  fullName: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter<T>(IArgumentConverter<T>)
+  fullName.vb: DisCatSharp.CommandsNext.CommandsNextExtension.RegisterConverter(Of T)(IArgumentConverter(Of T))
   nameWithType: CommandsNextExtension.RegisterConverter<T>(IArgumentConverter<T>)
   nameWithType.vb: CommandsNextExtension.RegisterConverter(Of T)(IArgumentConverter(Of T))
 - uid: DisCatSharp.CommandsNext.CommandsNextExtension.RegisteredCommands
@@ -6603,13 +6603,13 @@ references:
   commentId: T:DisCatSharp.CommandsNext.Exceptions.ChecksFailedException
   fullName: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException
   nameWithType: ChecksFailedException
-- uid: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.#ctor(DisCatSharp.CommandsNext.Command,DisCatSharp.CommandsNext.CommandContext,System.Collections.Generic.IEnumerable{DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute})
+- uid: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.#ctor(DisCatSharp.CommandsNext.Command,DisCatSharp.CommandsNext.CommandContext,System.Collections.Generic.IEnumerable{CheckBaseAttribute})
   name: ChecksFailedException(Command, CommandContext, IEnumerable<CheckBaseAttribute>)
-  href: api/DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.html#DisCatSharp_CommandsNext_Exceptions_ChecksFailedException__ctor_DisCatSharp_CommandsNext_Command_DisCatSharp_CommandsNext_CommandContext_System_Collections_Generic_IEnumerable_DisCatSharp_CommandsNext_Attributes_CheckBaseAttribute__
-  commentId: M:DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.#ctor(DisCatSharp.CommandsNext.Command,DisCatSharp.CommandsNext.CommandContext,System.Collections.Generic.IEnumerable{DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute})
+  href: api/DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.html#DisCatSharp_CommandsNext_Exceptions_ChecksFailedException__ctor_DisCatSharp_CommandsNext_Command_DisCatSharp_CommandsNext_CommandContext_System_Collections_Generic_IEnumerable_CheckBaseAttribute__
+  commentId: M:DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.#ctor(DisCatSharp.CommandsNext.Command,DisCatSharp.CommandsNext.CommandContext,System.Collections.Generic.IEnumerable{CheckBaseAttribute})
   name.vb: ChecksFailedException(Command, CommandContext, IEnumerable(Of CheckBaseAttribute))
-  fullName: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.ChecksFailedException(DisCatSharp.CommandsNext.Command, DisCatSharp.CommandsNext.CommandContext, System.Collections.Generic.IEnumerable<DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute>)
-  fullName.vb: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.ChecksFailedException(DisCatSharp.CommandsNext.Command, DisCatSharp.CommandsNext.CommandContext, System.Collections.Generic.IEnumerable(Of DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute))
+  fullName: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.ChecksFailedException(DisCatSharp.CommandsNext.Command, DisCatSharp.CommandsNext.CommandContext, System.Collections.Generic.IEnumerable<CheckBaseAttribute>)
+  fullName.vb: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.ChecksFailedException(DisCatSharp.CommandsNext.Command, DisCatSharp.CommandsNext.CommandContext, System.Collections.Generic.IEnumerable(Of CheckBaseAttribute))
   nameWithType: ChecksFailedException.ChecksFailedException(Command, CommandContext, IEnumerable<CheckBaseAttribute>)
   nameWithType.vb: ChecksFailedException.ChecksFailedException(Command, CommandContext, IEnumerable(Of CheckBaseAttribute))
 - uid: DisCatSharp.CommandsNext.Exceptions.ChecksFailedException.#ctor*
@@ -6926,13 +6926,13 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter
   nameWithType: ExtensionMethods.RegisterConverter
-- uid: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter``1(System.Collections.Generic.IReadOnlyDictionary{System.Int32,DisCatSharp.CommandsNext.CommandsNextExtension},DisCatSharp.CommandsNext.Converters.IArgumentConverter{``0})
+- uid: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter``1(System.Collections.Generic.IReadOnlyDictionary{System.Int32,DisCatSharp.CommandsNext.CommandsNextExtension},IArgumentConverter{``0})
   name: RegisterConverter<T>(IReadOnlyDictionary<Int32, CommandsNextExtension>, IArgumentConverter<T>)
-  href: api/DisCatSharp.CommandsNext.ExtensionMethods.html#DisCatSharp_CommandsNext_ExtensionMethods_RegisterConverter__1_System_Collections_Generic_IReadOnlyDictionary_System_Int32_DisCatSharp_CommandsNext_CommandsNextExtension__DisCatSharp_CommandsNext_Converters_IArgumentConverter___0__
-  commentId: M:DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter``1(System.Collections.Generic.IReadOnlyDictionary{System.Int32,DisCatSharp.CommandsNext.CommandsNextExtension},DisCatSharp.CommandsNext.Converters.IArgumentConverter{``0})
+  href: api/DisCatSharp.CommandsNext.ExtensionMethods.html#DisCatSharp_CommandsNext_ExtensionMethods_RegisterConverter__1_System_Collections_Generic_IReadOnlyDictionary_System_Int32_DisCatSharp_CommandsNext_CommandsNextExtension__IArgumentConverter___0__
+  commentId: M:DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter``1(System.Collections.Generic.IReadOnlyDictionary{System.Int32,DisCatSharp.CommandsNext.CommandsNextExtension},IArgumentConverter{``0})
   name.vb: RegisterConverter(Of T)(IReadOnlyDictionary(Of Int32, CommandsNextExtension), IArgumentConverter(Of T))
-  fullName: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter<T>(System.Collections.Generic.IReadOnlyDictionary<System.Int32, DisCatSharp.CommandsNext.CommandsNextExtension>, DisCatSharp.CommandsNext.Converters.IArgumentConverter<T>)
-  fullName.vb: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter(Of T)(System.Collections.Generic.IReadOnlyDictionary(Of System.Int32, DisCatSharp.CommandsNext.CommandsNextExtension), DisCatSharp.CommandsNext.Converters.IArgumentConverter(Of T))
+  fullName: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter<T>(System.Collections.Generic.IReadOnlyDictionary<System.Int32, DisCatSharp.CommandsNext.CommandsNextExtension>, IArgumentConverter<T>)
+  fullName.vb: DisCatSharp.CommandsNext.ExtensionMethods.RegisterConverter(Of T)(System.Collections.Generic.IReadOnlyDictionary(Of System.Int32, DisCatSharp.CommandsNext.CommandsNextExtension), IArgumentConverter(Of T))
   nameWithType: ExtensionMethods.RegisterConverter<T>(IReadOnlyDictionary<Int32, CommandsNextExtension>, IArgumentConverter<T>)
   nameWithType.vb: ExtensionMethods.RegisterConverter(Of T)(IReadOnlyDictionary(Of Int32, CommandsNextExtension), IArgumentConverter(Of T))
 - uid: DisCatSharp.CommandsNext.ExtensionMethods.RegisterUserFriendlyTypeName*
@@ -52501,11 +52501,11 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Lavalink.LavalinkExtension.GetIdealNodeConnection
   nameWithType: LavalinkExtension.GetIdealNodeConnection
-- uid: DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(ConnectionEndpoint)
+- uid: DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(DisCatSharp.Net.ConnectionEndpoint)
   name: GetNodeConnection(ConnectionEndpoint)
-  href: api/DisCatSharp.Lavalink.LavalinkExtension.html#DisCatSharp_Lavalink_LavalinkExtension_GetNodeConnection_ConnectionEndpoint_
-  commentId: M:DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(ConnectionEndpoint)
-  fullName: DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(ConnectionEndpoint)
+  href: api/DisCatSharp.Lavalink.LavalinkExtension.html#DisCatSharp_Lavalink_LavalinkExtension_GetNodeConnection_DisCatSharp_Net_ConnectionEndpoint_
+  commentId: M:DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(DisCatSharp.Net.ConnectionEndpoint)
+  fullName: DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection(DisCatSharp.Net.ConnectionEndpoint)
   nameWithType: LavalinkExtension.GetNodeConnection(ConnectionEndpoint)
 - uid: DisCatSharp.Lavalink.LavalinkExtension.GetNodeConnection*
   name: GetNodeConnection
@@ -53146,11 +53146,11 @@ references:
   commentId: T:DisCatSharp.Lavalink.LavalinkRestClient
   fullName: DisCatSharp.Lavalink.LavalinkRestClient
   nameWithType: LavalinkRestClient
-- uid: DisCatSharp.Lavalink.LavalinkRestClient.#ctor(ConnectionEndpoint,System.String)
+- uid: DisCatSharp.Lavalink.LavalinkRestClient.#ctor(DisCatSharp.Net.ConnectionEndpoint,System.String)
   name: LavalinkRestClient(ConnectionEndpoint, String)
-  href: api/DisCatSharp.Lavalink.LavalinkRestClient.html#DisCatSharp_Lavalink_LavalinkRestClient__ctor_ConnectionEndpoint_System_String_
-  commentId: M:DisCatSharp.Lavalink.LavalinkRestClient.#ctor(ConnectionEndpoint,System.String)
-  fullName: DisCatSharp.Lavalink.LavalinkRestClient.LavalinkRestClient(ConnectionEndpoint, System.String)
+  href: api/DisCatSharp.Lavalink.LavalinkRestClient.html#DisCatSharp_Lavalink_LavalinkRestClient__ctor_DisCatSharp_Net_ConnectionEndpoint_System_String_
+  commentId: M:DisCatSharp.Lavalink.LavalinkRestClient.#ctor(DisCatSharp.Net.ConnectionEndpoint,System.String)
+  fullName: DisCatSharp.Lavalink.LavalinkRestClient.LavalinkRestClient(DisCatSharp.Net.ConnectionEndpoint, System.String)
   nameWithType: LavalinkRestClient.LavalinkRestClient(ConnectionEndpoint, String)
 - uid: DisCatSharp.Lavalink.LavalinkRestClient.#ctor*
   name: LavalinkRestClient
@@ -53483,11 +53483,11 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Lavalink.LavalinkUtilities.DecodeTrack
   nameWithType: LavalinkUtilities.DecodeTrack
-- uid: DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(TrackEndReason)
+- uid: DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(DisCatSharp.Lavalink.EventArgs.TrackEndReason)
   name: MayStartNext(TrackEndReason)
-  href: api/DisCatSharp.Lavalink.LavalinkUtilities.html#DisCatSharp_Lavalink_LavalinkUtilities_MayStartNext_TrackEndReason_
-  commentId: M:DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(TrackEndReason)
-  fullName: DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(TrackEndReason)
+  href: api/DisCatSharp.Lavalink.LavalinkUtilities.html#DisCatSharp_Lavalink_LavalinkUtilities_MayStartNext_DisCatSharp_Lavalink_EventArgs_TrackEndReason_
+  commentId: M:DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(DisCatSharp.Lavalink.EventArgs.TrackEndReason)
+  fullName: DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext(DisCatSharp.Lavalink.EventArgs.TrackEndReason)
   nameWithType: LavalinkUtilities.MayStartNext(TrackEndReason)
 - uid: DisCatSharp.Lavalink.LavalinkUtilities.MayStartNext*
   name: MayStartNext
