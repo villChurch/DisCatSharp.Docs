@@ -44042,6 +44042,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.CanCreateStoreChannels
   nameWithType: GuildFeatures.CanCreateStoreChannels
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner
+  name: CanSetAnimatedBanner
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetAnimatedBanner
+  commentId: P:DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner
+  nameWithType: GuildFeatures.CanSetAnimatedBanner
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner*
+  name: CanSetAnimatedBanner
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetAnimatedBanner_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetAnimatedBanner
+  nameWithType: GuildFeatures.CanSetAnimatedBanner
 - uid: DisCatSharp.Entities.GuildFeatures.CanSetAnimatedIcon
   name: CanSetAnimatedIcon
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetAnimatedIcon
@@ -44198,6 +44211,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.HasCommunityEnabled
   nameWithType: GuildFeatures.HasCommunityEnabled
+- uid: DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
+  name: HasDirectoryEntry
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasDirectoryEntry
+  commentId: P:DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
+  fullName: DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
+  nameWithType: GuildFeatures.HasDirectoryEntry
+- uid: DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry*
+  name: HasDirectoryEntry
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasDirectoryEntry_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
+  nameWithType: GuildFeatures.HasDirectoryEntry
 - uid: DisCatSharp.Entities.GuildFeatures.HasMembershipScreeningEnabled
   name: HasMembershipScreeningEnabled
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasMembershipScreeningEnabled
