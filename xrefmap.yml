@@ -54031,6 +54031,12 @@ references:
   commentId: F:DisCatSharp.MessageFlags.Ephemeral
   fullName: DisCatSharp.MessageFlags.Ephemeral
   nameWithType: MessageFlags.Ephemeral
+- uid: DisCatSharp.MessageFlags.FailedToMentionSomeRolesInThread
+  name: FailedToMentionSomeRolesInThread
+  href: api/DisCatSharp.MessageFlags.html#DisCatSharp_MessageFlags_FailedToMentionSomeRolesInThread
+  commentId: F:DisCatSharp.MessageFlags.FailedToMentionSomeRolesInThread
+  fullName: DisCatSharp.MessageFlags.FailedToMentionSomeRolesInThread
+  nameWithType: MessageFlags.FailedToMentionSomeRolesInThread
 - uid: DisCatSharp.MessageFlags.HasThread
   name: HasThread
   href: api/DisCatSharp.MessageFlags.html#DisCatSharp_MessageFlags_HasThread
@@ -54157,6 +54163,12 @@ references:
   commentId: F:DisCatSharp.MessageType.GuildMemberJoin
   fullName: DisCatSharp.MessageType.GuildMemberJoin
   nameWithType: MessageType.GuildMemberJoin
+- uid: DisCatSharp.MessageType.GuildStream
+  name: GuildStream
+  href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_GuildStream
+  commentId: F:DisCatSharp.MessageType.GuildStream
+  fullName: DisCatSharp.MessageType.GuildStream
+  nameWithType: MessageType.GuildStream
 - uid: DisCatSharp.MessageType.RecipientAdd
   name: RecipientAdd
   href: api/DisCatSharp.MessageType.html#DisCatSharp_MessageType_RecipientAdd
@@ -56883,6 +56895,18 @@ references:
   commentId: F:DisCatSharp.TargetActivity.PokerNight
   fullName: DisCatSharp.TargetActivity.PokerNight
   nameWithType: TargetActivity.PokerNight
+- uid: DisCatSharp.TargetActivity.WatchTogether
+  name: WatchTogether
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WatchTogether
+  commentId: F:DisCatSharp.TargetActivity.WatchTogether
+  fullName: DisCatSharp.TargetActivity.WatchTogether
+  nameWithType: TargetActivity.WatchTogether
+- uid: DisCatSharp.TargetActivity.WatchTogetherDev
+  name: WatchTogetherDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WatchTogetherDev
+  commentId: F:DisCatSharp.TargetActivity.WatchTogetherDev
+  fullName: DisCatSharp.TargetActivity.WatchTogetherDev
+  nameWithType: TargetActivity.WatchTogetherDev
 - uid: DisCatSharp.TargetActivity.WordSnacks
   name: WordSnacks
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WordSnacks
@@ -56895,12 +56919,6 @@ references:
   commentId: F:DisCatSharp.TargetActivity.YouTubeTogether
   fullName: DisCatSharp.TargetActivity.YouTubeTogether
   nameWithType: TargetActivity.YouTubeTogether
-- uid: DisCatSharp.TargetActivity.YouTubeTogetherV2
-  name: YouTubeTogetherV2
-  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_YouTubeTogetherV2
-  commentId: F:DisCatSharp.TargetActivity.YouTubeTogetherV2
-  fullName: DisCatSharp.TargetActivity.YouTubeTogetherV2
-  nameWithType: TargetActivity.YouTubeTogetherV2
 - uid: DisCatSharp.TargetType
   name: TargetType
   href: api/DisCatSharp.TargetType.html
