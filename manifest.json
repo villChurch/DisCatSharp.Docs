@@ -3846,7 +3846,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordThreadChannelMember.html",
-          "hash": "sdhwGGQjl5eXw8qpoIBqR2yO8isB8RZHuVHx+PUHk5k="
+          "hash": "rKFP5YASLMMJpbQr3Yi6Kw6JnbNs6e3wuUe/8TgdPI4="
         }
       },
       "is_incremental": false,
@@ -4170,7 +4170,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.UserStatus.html",
-          "hash": "GQCWHqrgyTXRWN3/0YNPMlicAXefyOsSJRooAtcJAz4="
+          "hash": "hXoDIk1tAnjCMKVKAnTItYYQGwLc3zADC8pGzNa64EM="
         }
       },
       "is_incremental": false,
@@ -6794,11 +6794,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.ThreadNotificationSetting.yml",
+      "source_relative_path": "api/DisCatSharp.ThreadMemberFlags.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.ThreadNotificationSetting.html",
-          "hash": "a60BOHZAK3pBWPW2DzIGV2EKQVhBxDupiIFJ+26uRVY="
+          "relative_path": "api/DisCatSharp.ThreadMemberFlags.html",
+          "hash": "3jD5Us2IgvKcnIvOMnDWwWiAG2URqqCLhipoymh1XVA="
         }
       },
       "is_incremental": false,
@@ -7086,7 +7086,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.html",
-          "hash": "wzMnLEFnkt3D3eAyUeXnsnB6C2b3A6n0Ifdg8CHSTCQ="
+          "hash": "NGAUeMedpCIR8YzlVtLLwyvdBJ4A+NgDkryPd3Pon7c="
         }
       },
       "is_incremental": false,
@@ -7110,7 +7110,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "tGygsSBzCOrv4Q3gAjim9qXUtn9/QxBvPFGnRpSbDvs="
+          "hash": "Ld4yP5eOKwV8sQS1aKe4IsYVhQsXpFv/utj2qD2CNQ4="
         }
       },
       "is_incremental": false,

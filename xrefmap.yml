@@ -45055,6 +45055,12 @@ references:
   commentId: F:DisCatSharp.Entities.UserStatus.Online
   fullName: DisCatSharp.Entities.UserStatus.Online
   nameWithType: UserStatus.Online
+- uid: DisCatSharp.Entities.UserStatus.Streaming
+  name: Streaming
+  href: api/DisCatSharp.Entities.UserStatus.html#DisCatSharp_Entities_UserStatus_Streaming
+  commentId: F:DisCatSharp.Entities.UserStatus.Streaming
+  fullName: DisCatSharp.Entities.UserStatus.Streaming
+  nameWithType: UserStatus.Streaming
 - uid: DisCatSharp.Entities.VerificationLevel
   name: VerificationLevel
   href: api/DisCatSharp.Entities.VerificationLevel.html
@@ -56967,36 +56973,36 @@ references:
   commentId: F:DisCatSharp.ThreadAutoArchiveDuration.ThreeDays
   fullName: DisCatSharp.ThreadAutoArchiveDuration.ThreeDays
   nameWithType: ThreadAutoArchiveDuration.ThreeDays
-- uid: DisCatSharp.ThreadNotificationSetting
-  name: ThreadNotificationSetting
-  href: api/DisCatSharp.ThreadNotificationSetting.html
-  commentId: T:DisCatSharp.ThreadNotificationSetting
-  fullName: DisCatSharp.ThreadNotificationSetting
-  nameWithType: ThreadNotificationSetting
-- uid: DisCatSharp.ThreadNotificationSetting.All
-  name: All
-  href: api/DisCatSharp.ThreadNotificationSetting.html#DisCatSharp_ThreadNotificationSetting_All
-  commentId: F:DisCatSharp.ThreadNotificationSetting.All
-  fullName: DisCatSharp.ThreadNotificationSetting.All
-  nameWithType: ThreadNotificationSetting.All
-- uid: DisCatSharp.ThreadNotificationSetting.Mentions
-  name: Mentions
-  href: api/DisCatSharp.ThreadNotificationSetting.html#DisCatSharp_ThreadNotificationSetting_Mentions
-  commentId: F:DisCatSharp.ThreadNotificationSetting.Mentions
-  fullName: DisCatSharp.ThreadNotificationSetting.Mentions
-  nameWithType: ThreadNotificationSetting.Mentions
-- uid: DisCatSharp.ThreadNotificationSetting.None
+- uid: DisCatSharp.ThreadMemberFlags
+  name: ThreadMemberFlags
+  href: api/DisCatSharp.ThreadMemberFlags.html
+  commentId: T:DisCatSharp.ThreadMemberFlags
+  fullName: DisCatSharp.ThreadMemberFlags
+  nameWithType: ThreadMemberFlags
+- uid: DisCatSharp.ThreadMemberFlags.AllMessages
+  name: AllMessages
+  href: api/DisCatSharp.ThreadMemberFlags.html#DisCatSharp_ThreadMemberFlags_AllMessages
+  commentId: F:DisCatSharp.ThreadMemberFlags.AllMessages
+  fullName: DisCatSharp.ThreadMemberFlags.AllMessages
+  nameWithType: ThreadMemberFlags.AllMessages
+- uid: DisCatSharp.ThreadMemberFlags.HasInteracted
+  name: HasInteracted
+  href: api/DisCatSharp.ThreadMemberFlags.html#DisCatSharp_ThreadMemberFlags_HasInteracted
+  commentId: F:DisCatSharp.ThreadMemberFlags.HasInteracted
+  fullName: DisCatSharp.ThreadMemberFlags.HasInteracted
+  nameWithType: ThreadMemberFlags.HasInteracted
+- uid: DisCatSharp.ThreadMemberFlags.None
   name: None
-  href: api/DisCatSharp.ThreadNotificationSetting.html#DisCatSharp_ThreadNotificationSetting_None
-  commentId: F:DisCatSharp.ThreadNotificationSetting.None
-  fullName: DisCatSharp.ThreadNotificationSetting.None
-  nameWithType: ThreadNotificationSetting.None
-- uid: DisCatSharp.ThreadNotificationSetting.Unknown
-  name: Unknown
-  href: api/DisCatSharp.ThreadNotificationSetting.html#DisCatSharp_ThreadNotificationSetting_Unknown
-  commentId: F:DisCatSharp.ThreadNotificationSetting.Unknown
-  fullName: DisCatSharp.ThreadNotificationSetting.Unknown
-  nameWithType: ThreadNotificationSetting.Unknown
+  href: api/DisCatSharp.ThreadMemberFlags.html#DisCatSharp_ThreadMemberFlags_None
+  commentId: F:DisCatSharp.ThreadMemberFlags.None
+  fullName: DisCatSharp.ThreadMemberFlags.None
+  nameWithType: ThreadMemberFlags.None
+- uid: DisCatSharp.ThreadMemberFlags.OnlyMentions
+  name: OnlyMentions
+  href: api/DisCatSharp.ThreadMemberFlags.html#DisCatSharp_ThreadMemberFlags_OnlyMentions
+  commentId: F:DisCatSharp.ThreadMemberFlags.OnlyMentions
+  fullName: DisCatSharp.ThreadMemberFlags.OnlyMentions
+  nameWithType: ThreadMemberFlags.OnlyMentions
 - uid: DisCatSharp.TimestampFormat
   name: TimestampFormat
   href: api/DisCatSharp.TimestampFormat.html
