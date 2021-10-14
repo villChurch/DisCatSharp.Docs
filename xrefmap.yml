@@ -24711,6 +24711,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.DiscordLinkButtonComponent
   nameWithType: DiscordLinkButtonComponent.DiscordLinkButtonComponent
+- uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Disable
+  name: Disable()
+  href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Disable
+  commentId: M:DisCatSharp.Entities.DiscordLinkButtonComponent.Disable
+  fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.Disable()
+  nameWithType: DiscordLinkButtonComponent.Disable()
+- uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Disable*
+  name: Disable
+  href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Disable_
+  commentId: Overload:DisCatSharp.Entities.DiscordLinkButtonComponent.Disable
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.Disable
+  nameWithType: DiscordLinkButtonComponent.Disable
 - uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Disabled
   name: Disabled
   href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Disabled
@@ -24737,6 +24750,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.Emoji
   nameWithType: DiscordLinkButtonComponent.Emoji
+- uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Enable
+  name: Enable()
+  href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Enable
+  commentId: M:DisCatSharp.Entities.DiscordLinkButtonComponent.Enable
+  fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.Enable()
+  nameWithType: DiscordLinkButtonComponent.Enable()
+- uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Enable*
+  name: Enable
+  href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Enable_
+  commentId: Overload:DisCatSharp.Entities.DiscordLinkButtonComponent.Enable
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordLinkButtonComponent.Enable
+  nameWithType: DiscordLinkButtonComponent.Enable
 - uid: DisCatSharp.Entities.DiscordLinkButtonComponent.Label
   name: Label
   href: api/DisCatSharp.Entities.DiscordLinkButtonComponent.html#DisCatSharp_Entities_DiscordLinkButtonComponent_Label
@@ -27768,6 +27794,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordSelectComponent.DiscordSelectComponent
   nameWithType: DiscordSelectComponent.DiscordSelectComponent
+- uid: DisCatSharp.Entities.DiscordSelectComponent.Disable
+  name: Disable()
+  href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_Disable
+  commentId: M:DisCatSharp.Entities.DiscordSelectComponent.Disable
+  fullName: DisCatSharp.Entities.DiscordSelectComponent.Disable()
+  nameWithType: DiscordSelectComponent.Disable()
+- uid: DisCatSharp.Entities.DiscordSelectComponent.Disable*
+  name: Disable
+  href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_Disable_
+  commentId: Overload:DisCatSharp.Entities.DiscordSelectComponent.Disable
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordSelectComponent.Disable
+  nameWithType: DiscordSelectComponent.Disable
 - uid: DisCatSharp.Entities.DiscordSelectComponent.Disabled
   name: Disabled
   href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_Disabled
@@ -27781,6 +27820,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordSelectComponent.Disabled
   nameWithType: DiscordSelectComponent.Disabled
+- uid: DisCatSharp.Entities.DiscordSelectComponent.Enable
+  name: Enable()
+  href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_Enable
+  commentId: M:DisCatSharp.Entities.DiscordSelectComponent.Enable
+  fullName: DisCatSharp.Entities.DiscordSelectComponent.Enable()
+  nameWithType: DiscordSelectComponent.Enable()
+- uid: DisCatSharp.Entities.DiscordSelectComponent.Enable*
+  name: Enable
+  href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_Enable_
+  commentId: Overload:DisCatSharp.Entities.DiscordSelectComponent.Enable
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordSelectComponent.Enable
+  nameWithType: DiscordSelectComponent.Enable
 - uid: DisCatSharp.Entities.DiscordSelectComponent.MaximumSelectedValues
   name: MaximumSelectedValues
   href: api/DisCatSharp.Entities.DiscordSelectComponent.html#DisCatSharp_Entities_DiscordSelectComponent_MaximumSelectedValues
