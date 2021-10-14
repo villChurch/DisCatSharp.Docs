@@ -44380,6 +44380,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.IsHub
   nameWithType: GuildFeatures.IsHub
+- uid: DisCatSharp.Entities.GuildFeatures.IsLinkedToHub
+  name: IsLinkedToHub
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsLinkedToHub
+  commentId: P:DisCatSharp.Entities.GuildFeatures.IsLinkedToHub
+  fullName: DisCatSharp.Entities.GuildFeatures.IsLinkedToHub
+  nameWithType: GuildFeatures.IsLinkedToHub
+- uid: DisCatSharp.Entities.GuildFeatures.IsLinkedToHub*
+  name: IsLinkedToHub
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsLinkedToHub_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.IsLinkedToHub
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.IsLinkedToHub
+  nameWithType: GuildFeatures.IsLinkedToHub
 - uid: DisCatSharp.Entities.GuildFeatures.IsPartnered
   name: IsPartnered
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsPartnered
