@@ -2345,6 +2345,12 @@ references:
   commentId: F:DisCatSharp.ChannelType.GuildDirectory
   fullName: DisCatSharp.ChannelType.GuildDirectory
   nameWithType: ChannelType.GuildDirectory
+- uid: DisCatSharp.ChannelType.GuildForum
+  name: GuildForum
+  href: api/DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_GuildForum
+  commentId: F:DisCatSharp.ChannelType.GuildForum
+  fullName: DisCatSharp.ChannelType.GuildForum
+  nameWithType: ChannelType.GuildForum
 - uid: DisCatSharp.ChannelType.News
   name: News
   href: api/DisCatSharp.ChannelType.html#DisCatSharp_ChannelType_News
@@ -44276,6 +44282,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.HasDirectoryEntry
   nameWithType: GuildFeatures.HasDirectoryEntry
+- uid: DisCatSharp.Entities.GuildFeatures.HasMemberProfiles
+  name: HasMemberProfiles
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasMemberProfiles
+  commentId: P:DisCatSharp.Entities.GuildFeatures.HasMemberProfiles
+  fullName: DisCatSharp.Entities.GuildFeatures.HasMemberProfiles
+  nameWithType: GuildFeatures.HasMemberProfiles
+- uid: DisCatSharp.Entities.GuildFeatures.HasMemberProfiles*
+  name: HasMemberProfiles
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasMemberProfiles_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.HasMemberProfiles
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.HasMemberProfiles
+  nameWithType: GuildFeatures.HasMemberProfiles
 - uid: DisCatSharp.Entities.GuildFeatures.HasMembershipScreeningEnabled
   name: HasMembershipScreeningEnabled
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_HasMembershipScreeningEnabled
