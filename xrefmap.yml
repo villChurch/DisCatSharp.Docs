@@ -57261,6 +57261,12 @@ references:
   commentId: F:DisCatSharp.UserFlags.PremiumPromoDismissed
   fullName: DisCatSharp.UserFlags.PremiumPromoDismissed
   nameWithType: UserFlags.PremiumPromoDismissed
+- uid: DisCatSharp.UserFlags.Spammer
+  name: Spammer
+  href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_Spammer
+  commentId: F:DisCatSharp.UserFlags.Spammer
+  fullName: DisCatSharp.UserFlags.Spammer
+  nameWithType: UserFlags.Spammer
 - uid: DisCatSharp.UserFlags.System
   name: System
   href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_System
