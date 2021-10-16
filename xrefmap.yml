@@ -11016,24 +11016,24 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.Guilds
   nameWithType: DiscordClient.Guilds
-- uid: DisCatSharp.DiscordClient.GuildSheduledEventCreated
-  name: GuildSheduledEventCreated
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildSheduledEventCreated
-  commentId: E:DisCatSharp.DiscordClient.GuildSheduledEventCreated
-  fullName: DisCatSharp.DiscordClient.GuildSheduledEventCreated
-  nameWithType: DiscordClient.GuildSheduledEventCreated
-- uid: DisCatSharp.DiscordClient.GuildSheduledEventDeleted
-  name: GuildSheduledEventDeleted
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildSheduledEventDeleted
-  commentId: E:DisCatSharp.DiscordClient.GuildSheduledEventDeleted
-  fullName: DisCatSharp.DiscordClient.GuildSheduledEventDeleted
-  nameWithType: DiscordClient.GuildSheduledEventDeleted
-- uid: DisCatSharp.DiscordClient.GuildSheduledEventUpdated
-  name: GuildSheduledEventUpdated
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildSheduledEventUpdated
-  commentId: E:DisCatSharp.DiscordClient.GuildSheduledEventUpdated
-  fullName: DisCatSharp.DiscordClient.GuildSheduledEventUpdated
-  nameWithType: DiscordClient.GuildSheduledEventUpdated
+- uid: DisCatSharp.DiscordClient.GuildScheduledEventCreated
+  name: GuildScheduledEventCreated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventCreated
+  commentId: E:DisCatSharp.DiscordClient.GuildScheduledEventCreated
+  fullName: DisCatSharp.DiscordClient.GuildScheduledEventCreated
+  nameWithType: DiscordClient.GuildScheduledEventCreated
+- uid: DisCatSharp.DiscordClient.GuildScheduledEventDeleted
+  name: GuildScheduledEventDeleted
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventDeleted
+  commentId: E:DisCatSharp.DiscordClient.GuildScheduledEventDeleted
+  fullName: DisCatSharp.DiscordClient.GuildScheduledEventDeleted
+  nameWithType: DiscordClient.GuildScheduledEventDeleted
+- uid: DisCatSharp.DiscordClient.GuildScheduledEventUpdated
+  name: GuildScheduledEventUpdated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUpdated
+  commentId: E:DisCatSharp.DiscordClient.GuildScheduledEventUpdated
+  fullName: DisCatSharp.DiscordClient.GuildScheduledEventUpdated
+  nameWithType: DiscordClient.GuildScheduledEventUpdated
 - uid: DisCatSharp.DiscordClient.GuildStickersUpdated
   name: GuildStickersUpdated
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildStickersUpdated
@@ -12180,24 +12180,24 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.GuildRoleUpdated
   fullName: DisCatSharp.DiscordShardedClient.GuildRoleUpdated
   nameWithType: DiscordShardedClient.GuildRoleUpdated
-- uid: DisCatSharp.DiscordShardedClient.GuildSheduledEventCreated
-  name: GuildSheduledEventCreated
-  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildSheduledEventCreated
-  commentId: E:DisCatSharp.DiscordShardedClient.GuildSheduledEventCreated
-  fullName: DisCatSharp.DiscordShardedClient.GuildSheduledEventCreated
-  nameWithType: DiscordShardedClient.GuildSheduledEventCreated
-- uid: DisCatSharp.DiscordShardedClient.GuildSheduledEventDeleted
-  name: GuildSheduledEventDeleted
-  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildSheduledEventDeleted
-  commentId: E:DisCatSharp.DiscordShardedClient.GuildSheduledEventDeleted
-  fullName: DisCatSharp.DiscordShardedClient.GuildSheduledEventDeleted
-  nameWithType: DiscordShardedClient.GuildSheduledEventDeleted
-- uid: DisCatSharp.DiscordShardedClient.GuildSheduledEventUpdated
-  name: GuildSheduledEventUpdated
-  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildSheduledEventUpdated
-  commentId: E:DisCatSharp.DiscordShardedClient.GuildSheduledEventUpdated
-  fullName: DisCatSharp.DiscordShardedClient.GuildSheduledEventUpdated
-  nameWithType: DiscordShardedClient.GuildSheduledEventUpdated
+- uid: DisCatSharp.DiscordShardedClient.GuildScheduledEventCreated
+  name: GuildScheduledEventCreated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildScheduledEventCreated
+  commentId: E:DisCatSharp.DiscordShardedClient.GuildScheduledEventCreated
+  fullName: DisCatSharp.DiscordShardedClient.GuildScheduledEventCreated
+  nameWithType: DiscordShardedClient.GuildScheduledEventCreated
+- uid: DisCatSharp.DiscordShardedClient.GuildScheduledEventDeleted
+  name: GuildScheduledEventDeleted
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildScheduledEventDeleted
+  commentId: E:DisCatSharp.DiscordShardedClient.GuildScheduledEventDeleted
+  fullName: DisCatSharp.DiscordShardedClient.GuildScheduledEventDeleted
+  nameWithType: DiscordShardedClient.GuildScheduledEventDeleted
+- uid: DisCatSharp.DiscordShardedClient.GuildScheduledEventUpdated
+  name: GuildScheduledEventUpdated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildScheduledEventUpdated
+  commentId: E:DisCatSharp.DiscordShardedClient.GuildScheduledEventUpdated
+  fullName: DisCatSharp.DiscordShardedClient.GuildScheduledEventUpdated
+  nameWithType: DiscordShardedClient.GuildScheduledEventUpdated
 - uid: DisCatSharp.DiscordShardedClient.GuildStickersUpdated
   name: GuildStickersUpdated
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_GuildStickersUpdated
@@ -12990,24 +12990,24 @@ references:
   commentId: F:DisCatSharp.Entities.AuditLogActionType.RoleUpdate
   fullName: DisCatSharp.Entities.AuditLogActionType.RoleUpdate
   nameWithType: AuditLogActionType.RoleUpdate
-- uid: DisCatSharp.Entities.AuditLogActionType.SheduledEventCreate
-  name: SheduledEventCreate
-  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_SheduledEventCreate
-  commentId: F:DisCatSharp.Entities.AuditLogActionType.SheduledEventCreate
-  fullName: DisCatSharp.Entities.AuditLogActionType.SheduledEventCreate
-  nameWithType: AuditLogActionType.SheduledEventCreate
-- uid: DisCatSharp.Entities.AuditLogActionType.SheduledEventDelete
-  name: SheduledEventDelete
-  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_SheduledEventDelete
-  commentId: F:DisCatSharp.Entities.AuditLogActionType.SheduledEventDelete
-  fullName: DisCatSharp.Entities.AuditLogActionType.SheduledEventDelete
-  nameWithType: AuditLogActionType.SheduledEventDelete
-- uid: DisCatSharp.Entities.AuditLogActionType.SheduledEventUpdate
-  name: SheduledEventUpdate
-  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_SheduledEventUpdate
-  commentId: F:DisCatSharp.Entities.AuditLogActionType.SheduledEventUpdate
-  fullName: DisCatSharp.Entities.AuditLogActionType.SheduledEventUpdate
-  nameWithType: AuditLogActionType.SheduledEventUpdate
+- uid: DisCatSharp.Entities.AuditLogActionType.ScheduledEventCreate
+  name: ScheduledEventCreate
+  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_ScheduledEventCreate
+  commentId: F:DisCatSharp.Entities.AuditLogActionType.ScheduledEventCreate
+  fullName: DisCatSharp.Entities.AuditLogActionType.ScheduledEventCreate
+  nameWithType: AuditLogActionType.ScheduledEventCreate
+- uid: DisCatSharp.Entities.AuditLogActionType.ScheduledEventDelete
+  name: ScheduledEventDelete
+  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_ScheduledEventDelete
+  commentId: F:DisCatSharp.Entities.AuditLogActionType.ScheduledEventDelete
+  fullName: DisCatSharp.Entities.AuditLogActionType.ScheduledEventDelete
+  nameWithType: AuditLogActionType.ScheduledEventDelete
+- uid: DisCatSharp.Entities.AuditLogActionType.ScheduledEventUpdate
+  name: ScheduledEventUpdate
+  href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_ScheduledEventUpdate
+  commentId: F:DisCatSharp.Entities.AuditLogActionType.ScheduledEventUpdate
+  fullName: DisCatSharp.Entities.AuditLogActionType.ScheduledEventUpdate
+  nameWithType: AuditLogActionType.ScheduledEventUpdate
 - uid: DisCatSharp.Entities.AuditLogActionType.StageInstanceCreate
   name: StageInstanceCreate
   href: api/DisCatSharp.Entities.AuditLogActionType.html#DisCatSharp_Entities_AuditLogActionType_StageInstanceCreate
@@ -15734,90 +15734,90 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordAuditLogRoleUpdateEntry.Target
   nameWithType: DiscordAuditLogRoleUpdateEntry.Target
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry
-  name: DiscordAuditLogSheduledEventEntry
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html
-  commentId: T:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry
-  nameWithType: DiscordAuditLogSheduledEventEntry
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry
+  name: DiscordAuditLogScheduledEventEntry
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html
+  commentId: T:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry
+  nameWithType: DiscordAuditLogScheduledEventEntry
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange
   name: ChannelIdChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_ChannelIdChange
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.ChannelIdChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_ChannelIdChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.ChannelIdChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange*
   name: ChannelIdChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_ChannelIdChange_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_ChannelIdChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.ChannelIdChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.ChannelIdChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.ChannelIdChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.ChannelIdChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange
   name: DescriptionChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_DescriptionChange
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.DescriptionChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_DescriptionChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.DescriptionChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange*
   name: DescriptionChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_DescriptionChange_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_DescriptionChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.DescriptionChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.DescriptionChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.DescriptionChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.DescriptionChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
   name: PrivacyLevelChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_PrivacyLevelChange
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_PrivacyLevelChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange*
   name: PrivacyLevelChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_PrivacyLevelChange_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_PrivacyLevelChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.PrivacyLevelChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.PrivacyLevelChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange
   name: SkuIdsChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_SkuIdsChange
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.SkuIdsChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_SkuIdsChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.SkuIdsChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange*
   name: SkuIdsChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_SkuIdsChange_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_SkuIdsChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.SkuIdsChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.SkuIdsChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.SkuIdsChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.SkuIdsChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange
   name: StatusChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_StatusChange
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.StatusChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_StatusChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.StatusChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange*
   name: StatusChange
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_StatusChange_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_StatusChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.StatusChange
-  nameWithType: DiscordAuditLogSheduledEventEntry.StatusChange
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.StatusChange
+  nameWithType: DiscordAuditLogScheduledEventEntry.StatusChange
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target
   name: Target
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_Target
-  commentId: P:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target
-  nameWithType: DiscordAuditLogSheduledEventEntry.Target
-- uid: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target*
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_Target
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target
+  nameWithType: DiscordAuditLogScheduledEventEntry.Target
+- uid: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target*
   name: Target
-  href: api/DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogSheduledEventEntry_Target_
-  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target
+  href: api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html#DisCatSharp_Entities_DiscordAuditLogScheduledEventEntry_Target_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordAuditLogSheduledEventEntry.Target
-  nameWithType: DiscordAuditLogSheduledEventEntry.Target
+  fullName: DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.Target
+  nameWithType: DiscordAuditLogScheduledEventEntry.Target
 - uid: DisCatSharp.Entities.DiscordAuditLogStageEntry
   name: DiscordAuditLogStageEntry
   href: api/DisCatSharp.Entities.DiscordAuditLogStageEntry.html
@@ -21918,6 +21918,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.RulesChannel
   nameWithType: DiscordGuild.RulesChannel
+- uid: DisCatSharp.Entities.DiscordGuild.ScheduledEvents
+  name: ScheduledEvents
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_ScheduledEvents
+  commentId: P:DisCatSharp.Entities.DiscordGuild.ScheduledEvents
+  fullName: DisCatSharp.Entities.DiscordGuild.ScheduledEvents
+  nameWithType: DiscordGuild.ScheduledEvents
+- uid: DisCatSharp.Entities.DiscordGuild.ScheduledEvents*
+  name: ScheduledEvents
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_ScheduledEvents_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.ScheduledEvents
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.ScheduledEvents
+  nameWithType: DiscordGuild.ScheduledEvents
 - uid: DisCatSharp.Entities.DiscordGuild.SearchMembersAsync(System.String,System.Nullable{System.Int32})
   name: SearchMembersAsync(String, Nullable<Int32>)
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_SearchMembersAsync_System_String_System_Nullable_System_Int32__
@@ -21934,19 +21947,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.SearchMembersAsync
   nameWithType: DiscordGuild.SearchMembersAsync
-- uid: DisCatSharp.Entities.DiscordGuild.SheduledEvents
-  name: SheduledEvents
-  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_SheduledEvents
-  commentId: P:DisCatSharp.Entities.DiscordGuild.SheduledEvents
-  fullName: DisCatSharp.Entities.DiscordGuild.SheduledEvents
-  nameWithType: DiscordGuild.SheduledEvents
-- uid: DisCatSharp.Entities.DiscordGuild.SheduledEvents*
-  name: SheduledEvents
-  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_SheduledEvents_
-  commentId: Overload:DisCatSharp.Entities.DiscordGuild.SheduledEvents
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordGuild.SheduledEvents
-  nameWithType: DiscordGuild.SheduledEvents
 - uid: DisCatSharp.Entities.DiscordGuild.SplashHash
   name: SplashHash
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_SplashHash
@@ -24251,19 +24251,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInvite.Guild
   nameWithType: DiscordInvite.Guild
-- uid: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
-  name: GuildSheduledEvent
-  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildSheduledEvent
-  commentId: P:DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
-  fullName: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
-  nameWithType: DiscordInvite.GuildSheduledEvent
-- uid: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent*
-  name: GuildSheduledEvent
-  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildSheduledEvent_
-  commentId: Overload:DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
+- uid: DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent
+  name: GuildScheduledEvent
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildScheduledEvent
+  commentId: P:DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent
+  fullName: DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent
+  nameWithType: DiscordInvite.GuildScheduledEvent
+- uid: DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent*
+  name: GuildScheduledEvent
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_GuildScheduledEvent_
+  commentId: Overload:DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent
   isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordInvite.GuildSheduledEvent
-  nameWithType: DiscordInvite.GuildSheduledEvent
+  fullName: DisCatSharp.Entities.DiscordInvite.GuildScheduledEvent
+  nameWithType: DiscordInvite.GuildScheduledEvent
 - uid: DisCatSharp.Entities.DiscordInvite.Inviter
   name: Inviter
   href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_Inviter
@@ -46838,102 +46838,102 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.GuildRoleUpdateEventArgs.RoleBefore
   nameWithType: GuildRoleUpdateEventArgs.RoleBefore
-- uid: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs
-  name: GuildSheduledEventCreateEventArgs
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.html
-  commentId: T:DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs
-  nameWithType: GuildSheduledEventCreateEventArgs
-- uid: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs
+  name: GuildScheduledEventCreateEventArgs
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs
+  nameWithType: GuildScheduledEventCreateEventArgs
+- uid: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventCreateEventArgs_Guild
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild
-  nameWithType: GuildSheduledEventCreateEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild*
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventCreateEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild
+  nameWithType: GuildScheduledEventCreateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild*
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventCreateEventArgs_Guild_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventCreateEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.Guild
-  nameWithType: GuildSheduledEventCreateEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventCreateEventArgs_SheduledEvent
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventCreateEventArgs.SheduledEvent
-- uid: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent*
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventCreateEventArgs_SheduledEvent_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.Guild
+  nameWithType: GuildScheduledEventCreateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventCreateEventArgs_ScheduledEvent
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventCreateEventArgs.ScheduledEvent
+- uid: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent*
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventCreateEventArgs_ScheduledEvent_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventCreateEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventCreateEventArgs.SheduledEvent
-- uid: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs
-  name: GuildSheduledEventDeleteEventArgs
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.html
-  commentId: T:DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs
-  nameWithType: GuildSheduledEventDeleteEventArgs
-- uid: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventCreateEventArgs.ScheduledEvent
+- uid: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs
+  name: GuildScheduledEventDeleteEventArgs
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs
+  nameWithType: GuildScheduledEventDeleteEventArgs
+- uid: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventDeleteEventArgs_Guild
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild
-  nameWithType: GuildSheduledEventDeleteEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild*
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventDeleteEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild
+  nameWithType: GuildScheduledEventDeleteEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild*
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventDeleteEventArgs_Guild_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventDeleteEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.Guild
-  nameWithType: GuildSheduledEventDeleteEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventDeleteEventArgs_SheduledEvent
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventDeleteEventArgs.SheduledEvent
-- uid: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent*
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventDeleteEventArgs_SheduledEvent_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.Guild
+  nameWithType: GuildScheduledEventDeleteEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventDeleteEventArgs_ScheduledEvent
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventDeleteEventArgs.ScheduledEvent
+- uid: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent*
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventDeleteEventArgs_ScheduledEvent_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventDeleteEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventDeleteEventArgs.SheduledEvent
-- uid: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs
-  name: GuildSheduledEventUpdateEventArgs
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.html
-  commentId: T:DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs
-  nameWithType: GuildSheduledEventUpdateEventArgs
-- uid: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventDeleteEventArgs.ScheduledEvent
+- uid: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs
+  name: GuildScheduledEventUpdateEventArgs
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs
+  nameWithType: GuildScheduledEventUpdateEventArgs
+- uid: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventUpdateEventArgs_Guild
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild
-  nameWithType: GuildSheduledEventUpdateEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild*
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild
+  nameWithType: GuildScheduledEventUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild*
   name: Guild
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventUpdateEventArgs_Guild_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.Guild
-  nameWithType: GuildSheduledEventUpdateEventArgs.Guild
-- uid: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventUpdateEventArgs_SheduledEvent
-  commentId: P:DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventUpdateEventArgs.SheduledEvent
-- uid: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent*
-  name: SheduledEvent
-  href: api/DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildSheduledEventUpdateEventArgs_SheduledEvent_
-  commentId: Overload:DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild
+  nameWithType: GuildScheduledEventUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEvent
+  commentId: P:DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventUpdateEventArgs.ScheduledEvent
+- uid: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent*
+  name: ScheduledEvent
+  href: api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html#DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEvent_
+  commentId: Overload:DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent
   isSpec: "True"
-  fullName: DisCatSharp.EventArgs.GuildSheduledEventUpdateEventArgs.SheduledEvent
-  nameWithType: GuildSheduledEventUpdateEventArgs.SheduledEvent
+  fullName: DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent
+  nameWithType: GuildScheduledEventUpdateEventArgs.ScheduledEvent
 - uid: DisCatSharp.EventArgs.GuildStickersUpdateEventArgs
   name: GuildStickersUpdateEventArgs
   href: api/DisCatSharp.EventArgs.GuildStickersUpdateEventArgs.html
@@ -48868,12 +48868,12 @@ references:
   commentId: F:DisCatSharp.EventStatus.COMPLETED
   fullName: DisCatSharp.EventStatus.COMPLETED
   nameWithType: EventStatus.COMPLETED
-- uid: DisCatSharp.EventStatus.SHEDULED
-  name: SHEDULED
-  href: api/DisCatSharp.EventStatus.html#DisCatSharp_EventStatus_SHEDULED
-  commentId: F:DisCatSharp.EventStatus.SHEDULED
-  fullName: DisCatSharp.EventStatus.SHEDULED
-  nameWithType: EventStatus.SHEDULED
+- uid: DisCatSharp.EventStatus.SCHEDULED
+  name: SCHEDULED
+  href: api/DisCatSharp.EventStatus.html#DisCatSharp_EventStatus_SCHEDULED
+  commentId: F:DisCatSharp.EventStatus.SCHEDULED
+  fullName: DisCatSharp.EventStatus.SCHEDULED
+  nameWithType: EventStatus.SCHEDULED
 - uid: DisCatSharp.Exceptions
   name: DisCatSharp.Exceptions
   href: api/DisCatSharp.Exceptions.html
