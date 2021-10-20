@@ -11478,6 +11478,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordConfiguration.AlwaysCacheMembers
   nameWithType: DiscordConfiguration.AlwaysCacheMembers
+- uid: DisCatSharp.DiscordConfiguration.ApiVersion
+  name: ApiVersion
+  href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_ApiVersion
+  commentId: P:DisCatSharp.DiscordConfiguration.ApiVersion
+  fullName: DisCatSharp.DiscordConfiguration.ApiVersion
+  nameWithType: DiscordConfiguration.ApiVersion
+- uid: DisCatSharp.DiscordConfiguration.ApiVersion*
+  name: ApiVersion
+  href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_ApiVersion_
+  commentId: Overload:DisCatSharp.DiscordConfiguration.ApiVersion
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordConfiguration.ApiVersion
+  nameWithType: DiscordConfiguration.ApiVersion
 - uid: DisCatSharp.DiscordConfiguration.AutoReconnect
   name: AutoReconnect
   href: api/DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_AutoReconnect
