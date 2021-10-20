@@ -42503,6 +42503,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordUser.GetHashCode
   nameWithType: DiscordUser.GetHashCode
+- uid: DisCatSharp.Entities.DiscordUser.GetProfileUrl
+  name: GetProfileUrl()
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_GetProfileUrl
+  commentId: M:DisCatSharp.Entities.DiscordUser.GetProfileUrl
+  fullName: DisCatSharp.Entities.DiscordUser.GetProfileUrl()
+  nameWithType: DiscordUser.GetProfileUrl()
+- uid: DisCatSharp.Entities.DiscordUser.GetProfileUrl*
+  name: GetProfileUrl
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_GetProfileUrl_
+  commentId: Overload:DisCatSharp.Entities.DiscordUser.GetProfileUrl
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordUser.GetProfileUrl
+  nameWithType: DiscordUser.GetProfileUrl
 - uid: DisCatSharp.Entities.DiscordUser.IsBot
   name: IsBot
   href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_IsBot
@@ -56913,6 +56926,12 @@ references:
   commentId: F:DisCatSharp.SystemChannelFlags.SuppressGuildReminderNotifications
   fullName: DisCatSharp.SystemChannelFlags.SuppressGuildReminderNotifications
   nameWithType: SystemChannelFlags.SuppressGuildReminderNotifications
+- uid: DisCatSharp.SystemChannelFlags.SuppressJoinNotificationReplies
+  name: SuppressJoinNotificationReplies
+  href: api/DisCatSharp.SystemChannelFlags.html#DisCatSharp_SystemChannelFlags_SuppressJoinNotificationReplies
+  commentId: F:DisCatSharp.SystemChannelFlags.SuppressJoinNotificationReplies
+  fullName: DisCatSharp.SystemChannelFlags.SuppressJoinNotificationReplies
+  nameWithType: SystemChannelFlags.SuppressJoinNotificationReplies
 - uid: DisCatSharp.SystemChannelFlags.SuppressJoinNotifications
   name: SuppressJoinNotifications
   href: api/DisCatSharp.SystemChannelFlags.html#DisCatSharp_SystemChannelFlags_SuppressJoinNotifications
