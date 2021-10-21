@@ -3546,7 +3546,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordMember.html",
-          "hash": "6UbWg0tCNtN6pL3OJUBkg0a+cO8tloCOxCKwRAUnPLI="
+          "hash": "FvA+IQZ0m/+5fcAvKPKxpxe+Z+k5RV1afxK0Ma7yhXg="
         }
       },
       "is_incremental": false,
@@ -3894,7 +3894,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordUser.html",
-          "hash": "aTafKcJx5WEi6pwapJWPIqEd+Wx7dSIWtMhgRZM6Gq0="
+          "hash": "U7UhfwsMzxwKy70XA2/cDyKfOku9TBbSgr6RQ2k4KrU="
         }
       },
       "is_incremental": false,
@@ -4250,11 +4250,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.CoreDomain.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.CoreDomain.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.CoreDomain.html",
-          "hash": "8yrIOk/z94TuDPYge85lKUGHtIsY/aVNSKBAR/eeGCo="
+          "relative_path": "api/DisCatSharp.Enums.CoreDomain.html",
+          "hash": "Csu4ETosVnjo8Tgkkj9C3lb5Ngoi9v0+zMmnP1AArSM="
         }
       },
       "is_incremental": false,
@@ -4262,11 +4262,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.DiscordDomain.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.DiscordDomain.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.DiscordDomain.html",
-          "hash": "Y9HG9EXQ2olAN6MMtPE43/rgLITFAUaRIDSjlOuCeDY="
+          "relative_path": "api/DisCatSharp.Enums.DiscordDomain.html",
+          "hash": "tCTjdLRo1Mphn8bj+8Mkw1EkGXLHNF8Wno4+rNQMlwo="
         }
       },
       "is_incremental": false,
@@ -4274,11 +4274,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.DiscordShortlink.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.DiscordShortlink.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.DiscordShortlink.html",
-          "hash": "F9PLevwcgi5Bm1it4CPg4EprFFNuFgnk6Nj+CT6aKwk="
+          "relative_path": "api/DisCatSharp.Enums.DiscordShortlink.html",
+          "hash": "+c/FhqZJTERSV4GZMtjTyCMwNQdW1usSkfUO+vS+kAM="
         }
       },
       "is_incremental": false,
@@ -4286,11 +4286,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.DomainHelpAttribute.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.DomainHelpAttribute.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.DomainHelpAttribute.html",
-          "hash": "WRMxMPXKVXmjo1er5QInuvEph0As0QBojhgCISRoLX8="
+          "relative_path": "api/DisCatSharp.Enums.DomainHelpAttribute.html",
+          "hash": "ljIX4RsurmgeSMZFF4rtw8oKLAKOUiVXetICE0DXSD0="
         }
       },
       "is_incremental": false,
@@ -4298,11 +4298,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.OtherDomain.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.OtherDomain.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.OtherDomain.html",
-          "hash": "3mIeSAcO8D/cBAorG3QIt3qGjXCNQOXe08CJLjrQYPg="
+          "relative_path": "api/DisCatSharp.Enums.OtherDomain.html",
+          "hash": "QIcwxgoOtErTCXyY8Pc5JgzzPHudJ4RAMGm8HXyeaXM="
         }
       },
       "is_incremental": false,
@@ -4310,23 +4310,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.UnusedDomain.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.UnusedDomain.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.UnusedDomain.html",
-          "hash": "FQXGuTe/jEe4OEYfVDXw1biSd/yyaeE5gl992YtHBNU="
-        }
-      },
-      "is_incremental": false,
-      "version": ""
-    },
-    {
-      "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.Discord.yml",
-      "output": {
-        ".html": {
-          "relative_path": "api/DisCatSharp.Enums.Discord.html",
-          "hash": "E54L7wn+bYGoix8pZoVU5VuQFm7o3D2U6k6K8V7NJ0c="
+          "relative_path": "api/DisCatSharp.Enums.UnusedDomain.html",
+          "hash": "gCE7SOhCvVmF7Jl9JAK3QVvkOv8aE8hnppE6xS1vpUM="
         }
       },
       "is_incremental": false,
@@ -4338,7 +4326,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.html",
-          "hash": "2rDL+wJu7dDA+8YrEBl6JZwarUnAEIDeabVmfcZz+nY="
+          "hash": "18cCR3Wu+ONS4lAeqn14aOMdJE4jgo403TBiwDyNFFM="
         }
       },
       "is_incremental": false,
@@ -7110,7 +7098,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "vR+PbvGJrXt0AVcS6pLviFj7MRkrU7LiMcW684fkW5o="
+          "hash": "KuOU8OVdYWDVCU+ESuQJKPyVGZCVZRp67kmy4QL2xhk="
         }
       },
       "is_incremental": false,
@@ -8229,8 +8217,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 590,
-          "skipped_file_count": 590
+          "total_file_count": 589,
+          "skipped_file_count": 589
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
