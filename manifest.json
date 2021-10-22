@@ -2382,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "bKLeYXEpG1PTO/IXDRY6Uf3iHTOyFtY+IFCJGMwOAUk="
+          "hash": "vjOdhbgpCOr4L1K3IZcbVwiiJ5B5peH6uW49aun49Rk="
         }
       },
       "is_incremental": false,
@@ -4298,11 +4298,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.OAuth.Scopes.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.OAuth.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.OAuth.Scopes.html",
-          "hash": "rUfiKIOiLI5MjncZWnadk7Kpwn2sYlxCK2w9bxNKPuo="
+          "relative_path": "api/DisCatSharp.Enums.OAuth.html",
+          "hash": "1PCLfD7cnDTEz80LqmaT7Fs8rSM+IMmz4qgOp2ZZKGY="
         }
       },
       "is_incremental": false,
@@ -4310,11 +4310,11 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/DisCatSharp.Enums.OAuth.yml",
+      "source_relative_path": "api/DisCatSharp.Enums.OAuthScopes.yml",
       "output": {
         ".html": {
-          "relative_path": "api/DisCatSharp.Enums.OAuth.html",
-          "hash": "ngNgE05GBYKR2yxi6kcxfjzAvVk0KHZpkmIzMlJ2q64="
+          "relative_path": "api/DisCatSharp.Enums.OAuthScopes.html",
+          "hash": "YAB5frcKaom60CXy+YpgVLaGLT7DuxnkrQTz+bIcVrE="
         }
       },
       "is_incremental": false,
@@ -4350,7 +4350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.html",
-          "hash": "bF/hujgHPkbxnxijZ5oUycBa6DQQFBty9cTBA2KVUjU="
+          "hash": "bZh1P82XZAZovArCaGHfqH27A/W7Apo8ekxJRyWMVpw="
         }
       },
       "is_incremental": false,
@@ -7122,7 +7122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "aQ+kTKuwyrwjtjKbfSoGfgZ7owgg4Jae1fjKUpIZ3kE="
+          "hash": "ivYHe5q9nrN7VjH4OGO/c0NSU/YkMlH8uytVQ3Vzpq4="
         }
       },
       "is_incremental": false,

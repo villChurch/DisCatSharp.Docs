@@ -10769,12 +10769,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.GetGuildPreviewAsync
   nameWithType: DiscordClient.GetGuildPreviewAsync
-- uid: DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions,OAuth.Scopes,System.String)
-  name: GetInAppOAuth(Permissions, OAuth.Scopes, String)
-  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInAppOAuth_DisCatSharp_Permissions_OAuth_Scopes_System_String_
-  commentId: M:DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions,OAuth.Scopes,System.String)
-  fullName: DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions, OAuth.Scopes, System.String)
-  nameWithType: DiscordClient.GetInAppOAuth(Permissions, OAuth.Scopes, String)
+- uid: DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions,OAuthScopes,System.String)
+  name: GetInAppOAuth(Permissions, OAuthScopes, String)
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInAppOAuth_DisCatSharp_Permissions_OAuthScopes_System_String_
+  commentId: M:DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions,OAuthScopes,System.String)
+  fullName: DisCatSharp.DiscordClient.GetInAppOAuth(DisCatSharp.Permissions, OAuthScopes, System.String)
+  nameWithType: DiscordClient.GetInAppOAuth(Permissions, OAuthScopes, String)
 - uid: DisCatSharp.DiscordClient.GetInAppOAuth*
   name: GetInAppOAuth
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GetInAppOAuth_
@@ -45622,61 +45622,61 @@ references:
   commentId: T:DisCatSharp.Enums.OAuth
   fullName: DisCatSharp.Enums.OAuth
   nameWithType: OAuth
-- uid: DisCatSharp.Enums.OAuth.Resolver(DisCatSharp.Enums.OAuth.Scopes)
-  name: Resolver(OAuth.Scopes)
-  href: api/DisCatSharp.Enums.OAuth.html#DisCatSharp_Enums_OAuth_Resolver_DisCatSharp_Enums_OAuth_Scopes_
-  commentId: M:DisCatSharp.Enums.OAuth.Resolver(DisCatSharp.Enums.OAuth.Scopes)
-  fullName: DisCatSharp.Enums.OAuth.Resolver(DisCatSharp.Enums.OAuth.Scopes)
-  nameWithType: OAuth.Resolver(OAuth.Scopes)
-- uid: DisCatSharp.Enums.OAuth.Resolver*
-  name: Resolver
-  href: api/DisCatSharp.Enums.OAuth.html#DisCatSharp_Enums_OAuth_Resolver_
-  commentId: Overload:DisCatSharp.Enums.OAuth.Resolver
+- uid: DisCatSharp.Enums.OAuth.ResolveScopes(DisCatSharp.Enums.OAuthScopes)
+  name: ResolveScopes(OAuthScopes)
+  href: api/DisCatSharp.Enums.OAuth.html#DisCatSharp_Enums_OAuth_ResolveScopes_DisCatSharp_Enums_OAuthScopes_
+  commentId: M:DisCatSharp.Enums.OAuth.ResolveScopes(DisCatSharp.Enums.OAuthScopes)
+  fullName: DisCatSharp.Enums.OAuth.ResolveScopes(DisCatSharp.Enums.OAuthScopes)
+  nameWithType: OAuth.ResolveScopes(OAuthScopes)
+- uid: DisCatSharp.Enums.OAuth.ResolveScopes*
+  name: ResolveScopes
+  href: api/DisCatSharp.Enums.OAuth.html#DisCatSharp_Enums_OAuth_ResolveScopes_
+  commentId: Overload:DisCatSharp.Enums.OAuth.ResolveScopes
   isSpec: "True"
-  fullName: DisCatSharp.Enums.OAuth.Resolver
-  nameWithType: OAuth.Resolver
-- uid: DisCatSharp.Enums.OAuth.Scopes
-  name: OAuth.Scopes
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html
-  commentId: T:DisCatSharp.Enums.OAuth.Scopes
-  fullName: DisCatSharp.Enums.OAuth.Scopes
-  nameWithType: OAuth.Scopes
-- uid: DisCatSharp.Enums.OAuth.Scopes.ALL
+  fullName: DisCatSharp.Enums.OAuth.ResolveScopes
+  nameWithType: OAuth.ResolveScopes
+- uid: DisCatSharp.Enums.OAuthScopes
+  name: OAuthScopes
+  href: api/DisCatSharp.Enums.OAuthScopes.html
+  commentId: T:DisCatSharp.Enums.OAuthScopes
+  fullName: DisCatSharp.Enums.OAuthScopes
+  nameWithType: OAuthScopes
+- uid: DisCatSharp.Enums.OAuthScopes.ALL
   name: ALL
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_ALL
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.ALL
-  fullName: DisCatSharp.Enums.OAuth.Scopes.ALL
-  nameWithType: OAuth.Scopes.ALL
-- uid: DisCatSharp.Enums.OAuth.Scopes.BOT_DEFAULT
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_ALL
+  commentId: F:DisCatSharp.Enums.OAuthScopes.ALL
+  fullName: DisCatSharp.Enums.OAuthScopes.ALL
+  nameWithType: OAuthScopes.ALL
+- uid: DisCatSharp.Enums.OAuthScopes.BOT_DEFAULT
   name: BOT_DEFAULT
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_BOT_DEFAULT
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.BOT_DEFAULT
-  fullName: DisCatSharp.Enums.OAuth.Scopes.BOT_DEFAULT
-  nameWithType: OAuth.Scopes.BOT_DEFAULT
-- uid: DisCatSharp.Enums.OAuth.Scopes.BOT_MINIMAL
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_BOT_DEFAULT
+  commentId: F:DisCatSharp.Enums.OAuthScopes.BOT_DEFAULT
+  fullName: DisCatSharp.Enums.OAuthScopes.BOT_DEFAULT
+  nameWithType: OAuthScopes.BOT_DEFAULT
+- uid: DisCatSharp.Enums.OAuthScopes.BOT_MINIMAL
   name: BOT_MINIMAL
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_BOT_MINIMAL
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.BOT_MINIMAL
-  fullName: DisCatSharp.Enums.OAuth.Scopes.BOT_MINIMAL
-  nameWithType: OAuth.Scopes.BOT_MINIMAL
-- uid: DisCatSharp.Enums.OAuth.Scopes.BOT_ONLY
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_BOT_MINIMAL
+  commentId: F:DisCatSharp.Enums.OAuthScopes.BOT_MINIMAL
+  fullName: DisCatSharp.Enums.OAuthScopes.BOT_MINIMAL
+  nameWithType: OAuthScopes.BOT_MINIMAL
+- uid: DisCatSharp.Enums.OAuthScopes.BOT_ONLY
   name: BOT_ONLY
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_BOT_ONLY
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.BOT_ONLY
-  fullName: DisCatSharp.Enums.OAuth.Scopes.BOT_ONLY
-  nameWithType: OAuth.Scopes.BOT_ONLY
-- uid: DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_BASIC
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_BOT_ONLY
+  commentId: F:DisCatSharp.Enums.OAuthScopes.BOT_ONLY
+  fullName: DisCatSharp.Enums.OAuthScopes.BOT_ONLY
+  nameWithType: OAuthScopes.BOT_ONLY
+- uid: DisCatSharp.Enums.OAuthScopes.IDENTIFY_BASIC
   name: IDENTIFY_BASIC
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_IDENTIFY_BASIC
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_BASIC
-  fullName: DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_BASIC
-  nameWithType: OAuth.Scopes.IDENTIFY_BASIC
-- uid: DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_EXTENDED
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_IDENTIFY_BASIC
+  commentId: F:DisCatSharp.Enums.OAuthScopes.IDENTIFY_BASIC
+  fullName: DisCatSharp.Enums.OAuthScopes.IDENTIFY_BASIC
+  nameWithType: OAuthScopes.IDENTIFY_BASIC
+- uid: DisCatSharp.Enums.OAuthScopes.IDENTIFY_EXTENDED
   name: IDENTIFY_EXTENDED
-  href: api/DisCatSharp.Enums.OAuth.Scopes.html#DisCatSharp_Enums_OAuth_Scopes_IDENTIFY_EXTENDED
-  commentId: F:DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_EXTENDED
-  fullName: DisCatSharp.Enums.OAuth.Scopes.IDENTIFY_EXTENDED
-  nameWithType: OAuth.Scopes.IDENTIFY_EXTENDED
+  href: api/DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_IDENTIFY_EXTENDED
+  commentId: F:DisCatSharp.Enums.OAuthScopes.IDENTIFY_EXTENDED
+  fullName: DisCatSharp.Enums.OAuthScopes.IDENTIFY_EXTENDED
+  nameWithType: OAuthScopes.IDENTIFY_EXTENDED
 - uid: DisCatSharp.Enums.OtherDomain
   name: OtherDomain
   href: api/DisCatSharp.Enums.OtherDomain.html
