@@ -2382,7 +2382,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "OIQke+w9vgD79ifUcC6nrp65ZEVHSves7vQBHoWmWjQ="
+          "hash": "bKLeYXEpG1PTO/IXDRY6Uf3iHTOyFtY+IFCJGMwOAUk="
         }
       },
       "is_incremental": false,
@@ -4298,6 +4298,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Enums.OAuth.Scopes.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Enums.OAuth.Scopes.html",
+          "hash": "rUfiKIOiLI5MjncZWnadk7Kpwn2sYlxCK2w9bxNKPuo="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Enums.OAuth.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Enums.OAuth.html",
+          "hash": "ngNgE05GBYKR2yxi6kcxfjzAvVk0KHZpkmIzMlJ2q64="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Enums.OtherDomain.yml",
       "output": {
         ".html": {
@@ -4326,7 +4350,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.html",
-          "hash": "18cCR3Wu+ONS4lAeqn14aOMdJE4jgo403TBiwDyNFFM="
+          "hash": "bF/hujgHPkbxnxijZ5oUycBa6DQQFBty9cTBA2KVUjU="
         }
       },
       "is_incremental": false,
@@ -7098,7 +7122,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KuOU8OVdYWDVCU+ESuQJKPyVGZCVZRp67kmy4QL2xhk="
+          "hash": "aQ+kTKuwyrwjtjKbfSoGfgZ7owgg4Jae1fjKUpIZ3kE="
         }
       },
       "is_incremental": false,
@@ -8217,8 +8241,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 589,
-          "skipped_file_count": 589
+          "total_file_count": 591,
+          "skipped_file_count": 591
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
