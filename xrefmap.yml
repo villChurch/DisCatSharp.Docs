@@ -21821,6 +21821,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.PreferredLocale
   nameWithType: DiscordGuild.PreferredLocale
+- uid: DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled
+  name: PremiumProgressBarEnabled
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_PremiumProgressBarEnabled
+  commentId: P:DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled
+  fullName: DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled
+  nameWithType: DiscordGuild.PremiumProgressBarEnabled
+- uid: DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled*
+  name: PremiumProgressBarEnabled
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_PremiumProgressBarEnabled_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.PremiumProgressBarEnabled
+  nameWithType: DiscordGuild.PremiumProgressBarEnabled
 - uid: DisCatSharp.Entities.DiscordGuild.PremiumSubscriptionCount
   name: PremiumSubscriptionCount
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_PremiumSubscriptionCount
