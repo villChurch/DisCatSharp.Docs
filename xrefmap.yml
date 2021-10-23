@@ -57062,12 +57062,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.ChessInThePark
   fullName: DisCatSharp.TargetActivity.ChessInThePark
   nameWithType: TargetActivity.ChessInThePark
-- uid: DisCatSharp.TargetActivity.ChessInThePark2
-  name: ChessInThePark2
-  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_ChessInThePark2
-  commentId: F:DisCatSharp.TargetActivity.ChessInThePark2
-  fullName: DisCatSharp.TargetActivity.ChessInThePark2
-  nameWithType: TargetActivity.ChessInThePark2
+- uid: DisCatSharp.TargetActivity.ChessInTheParkDev
+  name: ChessInTheParkDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_ChessInTheParkDev
+  commentId: F:DisCatSharp.TargetActivity.ChessInTheParkDev
+  fullName: DisCatSharp.TargetActivity.ChessInTheParkDev
+  nameWithType: TargetActivity.ChessInTheParkDev
 - uid: DisCatSharp.TargetActivity.DoodleCrew
   name: DoodleCrew
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_DoodleCrew
