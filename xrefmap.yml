@@ -43501,6 +43501,12 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64)
   fullName: DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64)
   nameWithType: DiscordWebhook.DeleteMessageAsync(UInt64)
+- uid: DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64,System.UInt64)
+  name: DeleteMessageAsync(UInt64, UInt64)
+  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_DeleteMessageAsync_System_UInt64_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64,System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64, System.UInt64)
+  nameWithType: DiscordWebhook.DeleteMessageAsync(UInt64, UInt64)
 - uid: DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync*
   name: DeleteMessageAsync
   href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_DeleteMessageAsync_
@@ -43508,12 +43514,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync
   nameWithType: DiscordWebhook.DeleteMessageAsync
-- uid: DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder)
-  name: EditMessageAsync(UInt64, DiscordWebhookBuilder)
-  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_System_UInt64_DisCatSharp_Entities_DiscordWebhookBuilder_
-  commentId: M:DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder)
-  fullName: DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64, DisCatSharp.Entities.DiscordWebhookBuilder)
-  nameWithType: DiscordWebhook.EditMessageAsync(UInt64, DiscordWebhookBuilder)
+- uid: DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder,System.String)
+  name: EditMessageAsync(UInt64, DiscordWebhookBuilder, String)
+  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_System_UInt64_DisCatSharp_Entities_DiscordWebhookBuilder_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder,System.String)
+  fullName: DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64, DisCatSharp.Entities.DiscordWebhookBuilder, System.String)
+  nameWithType: DiscordWebhook.EditMessageAsync(UInt64, DiscordWebhookBuilder, String)
 - uid: DisCatSharp.Entities.DiscordWebhook.EditMessageAsync*
   name: EditMessageAsync
   href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_
@@ -43553,12 +43559,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteAsync
   nameWithType: DiscordWebhook.ExecuteAsync
-- uid: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String)
-  name: ExecuteGithubAsync(String)
-  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String)
-  nameWithType: DiscordWebhook.ExecuteGithubAsync(String)
+- uid: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String,System.String)
+  name: ExecuteGithubAsync(String, String)
+  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_System_String_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String,System.String)
+  fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String, System.String)
+  nameWithType: DiscordWebhook.ExecuteGithubAsync(String, String)
 - uid: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync*
   name: ExecuteGithubAsync
   href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_
@@ -43566,12 +43572,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync
   nameWithType: DiscordWebhook.ExecuteGithubAsync
-- uid: DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String)
-  name: ExecuteSlackAsync(String)
-  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String)
-  fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String)
-  nameWithType: DiscordWebhook.ExecuteSlackAsync(String)
+- uid: DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String,System.String)
+  name: ExecuteSlackAsync(String, String)
+  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_System_String_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String,System.String)
+  fullName: DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String, System.String)
+  nameWithType: DiscordWebhook.ExecuteSlackAsync(String, String)
 - uid: DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync*
   name: ExecuteSlackAsync
   href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_
@@ -43598,6 +43604,12 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64)
   fullName: DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64)
   nameWithType: DiscordWebhook.GetMessageAsync(UInt64)
+- uid: DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64,System.UInt64)
+  name: GetMessageAsync(UInt64, UInt64)
+  href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_GetMessageAsync_System_UInt64_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64,System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64, System.UInt64)
+  nameWithType: DiscordWebhook.GetMessageAsync(UInt64, UInt64)
 - uid: DisCatSharp.Entities.DiscordWebhook.GetMessageAsync*
   name: GetMessageAsync
   href: api/DisCatSharp.Entities.DiscordWebhook.html#DisCatSharp_Entities_DiscordWebhook_GetMessageAsync_
@@ -44020,12 +44032,24 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,DisCatSharp.Entities.DiscordMessage)
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook, DisCatSharp.Entities.DiscordMessage)
   nameWithType: DiscordWebhookBuilder.ModifyAsync(DiscordWebhook, DiscordMessage)
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordThreadChannel)
+  name: ModifyAsync(DiscordWebhook, DiscordMessage, DiscordThreadChannel)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordThreadChannel_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordThreadChannel)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook, DisCatSharp.Entities.DiscordMessage, DisCatSharp.Entities.DiscordThreadChannel)
+  nameWithType: DiscordWebhookBuilder.ModifyAsync(DiscordWebhook, DiscordMessage, DiscordThreadChannel)
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)
   name: ModifyAsync(DiscordWebhook, UInt64)
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_
   commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook, System.UInt64)
   nameWithType: DiscordWebhookBuilder.ModifyAsync(DiscordWebhook, UInt64)
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64,System.UInt64)
+  name: ModifyAsync(DiscordWebhook, UInt64, UInt64)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64,System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook, System.UInt64, System.UInt64)
+  nameWithType: DiscordWebhookBuilder.ModifyAsync(DiscordWebhook, UInt64, UInt64)
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync*
   name: ModifyAsync
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_
@@ -44039,6 +44063,12 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook)
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook)
   nameWithType: DiscordWebhookBuilder.SendAsync(DiscordWebhook)
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)
+  name: SendAsync(DiscordWebhook, UInt64)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook, System.UInt64)
+  nameWithType: DiscordWebhookBuilder.SendAsync(DiscordWebhook, UInt64)
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync*
   name: SendAsync
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_

@@ -921,6 +921,63 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordThreadChannel_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordThreadChannel)">ModifyAsync(DiscordWebhook, DiscordMessage, DiscordThreadChannel)</h4>
+  <div class="markdown level1 summary"><p>Sends the modified webhook message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; ModifyAsync(DiscordWebhook webhook, DiscordMessage message, DiscordThreadChannel thread)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a></td>
+        <td><span class="parametername">webhook</span></td>
+        <td><p>The webhook that should be executed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="parametername">message</span></td>
+        <td><p>The message to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordThreadChannel.html">DiscordThreadChannel</a></td>
+        <td><span class="parametername">thread</span></td>
+        <td><p>Target thread.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The modified message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)">ModifyAsync(DiscordWebhook, UInt64)</h4>
   <div class="markdown level1 summary"><p>Sends the modified webhook message.</p>
 </div>
@@ -971,6 +1028,63 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64,System.UInt64)">ModifyAsync(DiscordWebhook, UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Sends the modified webhook message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; ModifyAsync(DiscordWebhook webhook, ulong messageId, ulong threadId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a></td>
+        <td><span class="parametername">webhook</span></td>
+        <td><p>The webhook that should be executed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">messageId</span></td>
+        <td><p>The id of the message to modify.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">threadId</span></td>
+        <td><p>Target thread id.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The modified message</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_DisCatSharp_Entities_DiscordWebhook_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook)">SendAsync(DiscordWebhook)</h4>
   <div class="markdown level1 summary"><p>Executes a webhook.</p>
@@ -994,6 +1108,57 @@
         <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a></td>
         <td><span class="parametername">webhook</span></td>
         <td><p>The webhook that should be executed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><p>The message sent</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_DisCatSharp_Entities_DiscordWebhook_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook,System.UInt64)">SendAsync(DiscordWebhook, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Executes a webhook.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; SendAsync(DiscordWebhook webhook, ulong threadId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhook.html">DiscordWebhook</a></td>
+        <td><span class="parametername">webhook</span></td>
+        <td><p>The webhook that should be executed.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">threadId</span></td>
+        <td><p>Target thread id.</p>
 </td>
       </tr>
     </tbody>

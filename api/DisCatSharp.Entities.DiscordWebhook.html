@@ -473,14 +473,90 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordWebhook_DeleteMessageAsync_" data-uid="DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordWebhook_DeleteMessageAsync_System_UInt64_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordWebhook.DeleteMessageAsync(System.UInt64,System.UInt64)">DeleteMessageAsync(UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Deletes a message that was created by the webhook.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task DeleteMessageAsync(ulong messageId, ulong threadId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">messageId</span></td>
+        <td><p>The id of the message to delete</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">threadId</span></td>
+        <td><p>Target thread id (Optional). Defaults to null.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the webhook does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_" data-uid="DisCatSharp.Entities.DiscordWebhook.EditMessageAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_System_UInt64_DisCatSharp_Entities_DiscordWebhookBuilder_" data-uid="DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder)">EditMessageAsync(UInt64, DiscordWebhookBuilder)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhook_EditMessageAsync_System_UInt64_DisCatSharp_Entities_DiscordWebhookBuilder_System_String_" data-uid="DisCatSharp.Entities.DiscordWebhook.EditMessageAsync(System.UInt64,DisCatSharp.Entities.DiscordWebhookBuilder,System.String)">EditMessageAsync(UInt64, DiscordWebhookBuilder, String)</h4>
   <div class="markdown level1 summary"><p>Edits a previously-sent webhook message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; EditMessageAsync(ulong messageId, DiscordWebhookBuilder builder)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; EditMessageAsync(ulong messageId, DiscordWebhookBuilder builder, string thread_id = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -502,6 +578,12 @@
         <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhookBuilder.html">DiscordWebhookBuilder</a></td>
         <td><span class="parametername">builder</span></td>
         <td><p>The builder of the message to edit.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thread_id</span></td>
+        <td><p>Target thread id (Optional). Defaults to null.</p>
 </td>
       </tr>
     </tbody>
@@ -719,13 +801,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String)">ExecuteGithubAsync(String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhook_ExecuteGithubAsync_System_String_System_String_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteGithubAsync(System.String,System.String)">ExecuteGithubAsync(String, String)</h4>
   <div class="markdown level1 summary"><p>Executes this webhook in GitHub compatibility mode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ExecuteGithubAsync(string json)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task ExecuteGithubAsync(string json, string thread_id = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -741,6 +823,12 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">json</span></td>
         <td><p>JSON containing GitHub-compatible payload for this webhook.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thread_id</span></td>
+        <td><p>Target thread id (Optional). Defaults to null.</p>
 </td>
       </tr>
     </tbody>
@@ -789,13 +877,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String)">ExecuteSlackAsync(String)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhook_ExecuteSlackAsync_System_String_System_String_" data-uid="DisCatSharp.Entities.DiscordWebhook.ExecuteSlackAsync(System.String,System.String)">ExecuteSlackAsync(String, String)</h4>
   <div class="markdown level1 summary"><p>Executes this webhook in Slack compatibility mode.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task ExecuteSlackAsync(string json)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task ExecuteSlackAsync(string json, string thread_id = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -811,6 +899,12 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">json</span></td>
         <td><p>JSON containing Slack-compatible payload for this webhook.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">thread_id</span></td>
+        <td><p>Target thread id (Optional). Defaults to null.</p>
 </td>
       </tr>
     </tbody>
@@ -909,6 +1003,80 @@
       <tr>
         <td><span class="xref">System.UInt64</span></td>
         <td><span class="parametername">messageId</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the webhook does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordWebhook_GetMessageAsync_" data-uid="DisCatSharp.Entities.DiscordWebhook.GetMessageAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordWebhook_GetMessageAsync_System_UInt64_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordWebhook.GetMessageAsync(System.UInt64,System.UInt64)">GetMessageAsync(UInt64, UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets a previously-sent webhook message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordMessage&gt; GetMessageAsync(ulong messageId, ulong threadId)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">messageId</span></td>
+        <td></td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">threadId</span></td>
         <td></td>
       </tr>
     </tbody>

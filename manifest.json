@@ -3978,7 +3978,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordWebhook.html",
-          "hash": "K9+jhRWl4EHA+6hVLZ6VkHq7TdWYX/H6H7gxfL7Xv4g="
+          "hash": "AaqzcS08RG+GqKoLoHA7tp2uu8QWR1s2xzb8DEoQNpM="
         }
       },
       "is_incremental": false,
@@ -3990,7 +3990,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordWebhookBuilder.html",
-          "hash": "IFdAF3nwKhIAlrhHkh4UDysexsTfHdPCnkoAOlG+WEo="
+          "hash": "csnWABhjUPz0/QcOseJ1zuBB9tSAPkxa6HLeOd9V+IA="
         }
       },
       "is_incremental": false,
