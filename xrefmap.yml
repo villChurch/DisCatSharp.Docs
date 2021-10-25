@@ -2098,6 +2098,18 @@ references:
   commentId: F:DisCatSharp.ApplicationFlags.GatewayGuildMembersLimited
   fullName: DisCatSharp.ApplicationFlags.GatewayGuildMembersLimited
   nameWithType: ApplicationFlags.GatewayGuildMembersLimited
+- uid: DisCatSharp.ApplicationFlags.GatewayMessageContent
+  name: GatewayMessageContent
+  href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_GatewayMessageContent
+  commentId: F:DisCatSharp.ApplicationFlags.GatewayMessageContent
+  fullName: DisCatSharp.ApplicationFlags.GatewayMessageContent
+  nameWithType: ApplicationFlags.GatewayMessageContent
+- uid: DisCatSharp.ApplicationFlags.GatewayMessageContentLimited
+  name: GatewayMessageContentLimited
+  href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_GatewayMessageContentLimited
+  commentId: F:DisCatSharp.ApplicationFlags.GatewayMessageContentLimited
+  fullName: DisCatSharp.ApplicationFlags.GatewayMessageContentLimited
+  nameWithType: ApplicationFlags.GatewayMessageContentLimited
 - uid: DisCatSharp.ApplicationFlags.GatewayPresence
   name: GatewayPresence
   href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_GatewayPresence
