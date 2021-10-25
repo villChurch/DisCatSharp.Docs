@@ -2378,6 +2378,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Configuration.Tests.ConfigurationExtensionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Configuration.Tests.ConfigurationExtensionTests.html",
+          "hash": "Q9HRza/K+ICo4kenuGCjMni3I+JHuDuzXMeNK/Z5vM4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Configuration.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Configuration.Tests.html",
+          "hash": "+mPdcBP+/XUfb5LrOYMH9h5AEMteNyN+ukqDsAfWh3g="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.DefaultLogger.yml",
       "output": {
         ".html": {
@@ -2418,7 +2442,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordConfiguration.html",
-          "hash": "1f+VXM8IPO6oQv/IXvNkMqE11iGWFbVzy47J/HomenE="
+          "hash": "ZZsgPZWHNTLefJeiophpjFyHjWO2Ia/gYaL4CRInHSs="
         }
       },
       "is_incremental": false,
@@ -5414,6 +5438,114 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html",
+          "hash": "4GGBbvrB3BaD+UX0fL+QUP7inYE6OGAtLHFNnDNJeb8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.DependencyInjection.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.DependencyInjection.html",
+          "hash": "riWd1hyfMmCKru+Tyq7LlyffOAhJOWgzowZKK7p6trg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.DiscordHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.DiscordHostedService.html",
+          "hash": "sU5uQP/s9VKpTxy+Mts5yYonem0Pj1DloSYRXcu4Qus="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.IDiscordHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.IDiscordHostedService.html",
+          "hash": "PdTr7Agh1HD9YxLDOSUZDpRJvV1G5kpSOFnn81ESBP0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.Tests.Bot.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.Tests.Bot.html",
+          "hash": "E9nDBeZyP1NOl9BPu45f/kEnDL9oan/BoUkBdTBJzoI="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.Tests.HostExtensionTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.Tests.HostExtensionTests.html",
+          "hash": "4D05Et7vRnzXf4nwOTDzKBL/htmlWgqXqKROPWVwqO8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.Tests.HostTests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.Tests.HostTests.html",
+          "hash": "4o8EI791MlTqc/UhC+5Q8AZNdqTmvu0d3o7XPtDyf8k="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.Tests.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.Tests.html",
+          "hash": "YdbG7itt8bf1R8mELyIOCuyGxwkuoixE4SD++ms+kyg="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.html",
+          "hash": "q9dV1AN71GHvBbqy1cYCTDI2c/TgxikQtXf7IsoILpY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ImageFormat.yml",
       "output": {
         ".html": {
@@ -7146,7 +7278,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "KioOZpXtk16b0l/RB5bDsSvTHz2Lpt+HzKzfTlaBf7I="
+          "hash": "eLa5+LwjWKLYQp3NeaLELFRcHtr/Q+4RZqOPuvEvw9E="
         }
       },
       "is_incremental": false,
@@ -7279,6 +7411,18 @@
         ".html": {
           "relative_path": "articles/basics/first_bot.html",
           "hash": "hUNEgt+JJY3vIX+h2qXv9tLIE7OCKm5ecVK7jOKQSro="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
+      "source_relative_path": "articles/basics/web_app.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basics/web_app.html",
+          "hash": "VHQY0kLcDefJNPfWXXvBmzymgB6u09bNQdzpvYsi9Nc="
         }
       },
       "is_incremental": false,
@@ -7554,7 +7698,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "Eu27cEN4fpLJ9d8fjlEcRf5DGwZ6CPHExiYO2cOKKzU="
+          "hash": "Nm138dxiX9/W4kdx2ZeIZAIaddbSdeLdjN/2Qz1asUw="
         }
       },
       "is_incremental": false,
@@ -8259,14 +8403,14 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 37,
-          "skipped_file_count": 37
+          "total_file_count": 38,
+          "skipped_file_count": 38
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 593,
-          "skipped_file_count": 593
+          "total_file_count": 604,
+          "skipped_file_count": 604
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
