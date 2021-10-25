@@ -43039,19 +43039,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordVoiceRegion.IsOptimal
   nameWithType: DiscordVoiceRegion.IsOptimal
-- uid: DisCatSharp.Entities.DiscordVoiceRegion.IsVIP
-  name: IsVIP
-  href: api/DisCatSharp.Entities.DiscordVoiceRegion.html#DisCatSharp_Entities_DiscordVoiceRegion_IsVIP
-  commentId: P:DisCatSharp.Entities.DiscordVoiceRegion.IsVIP
-  fullName: DisCatSharp.Entities.DiscordVoiceRegion.IsVIP
-  nameWithType: DiscordVoiceRegion.IsVIP
-- uid: DisCatSharp.Entities.DiscordVoiceRegion.IsVIP*
-  name: IsVIP
-  href: api/DisCatSharp.Entities.DiscordVoiceRegion.html#DisCatSharp_Entities_DiscordVoiceRegion_IsVIP_
-  commentId: Overload:DisCatSharp.Entities.DiscordVoiceRegion.IsVIP
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordVoiceRegion.IsVIP
-  nameWithType: DiscordVoiceRegion.IsVIP
 - uid: DisCatSharp.Entities.DiscordVoiceRegion.Name
   name: Name
   href: api/DisCatSharp.Entities.DiscordVoiceRegion.html#DisCatSharp_Entities_DiscordVoiceRegion_Name
