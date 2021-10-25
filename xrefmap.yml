@@ -82,6 +82,12 @@ references:
   commentId: T:DisCatSharp.ApplicationCommandOptionType
   fullName: DisCatSharp.ApplicationCommandOptionType
   nameWithType: ApplicationCommandOptionType
+- uid: DisCatSharp.ApplicationCommandOptionType.Attachment
+  name: Attachment
+  href: api/DisCatSharp.ApplicationCommandOptionType.html#DisCatSharp_ApplicationCommandOptionType_Attachment
+  commentId: F:DisCatSharp.ApplicationCommandOptionType.Attachment
+  fullName: DisCatSharp.ApplicationCommandOptionType.Attachment
+  nameWithType: ApplicationCommandOptionType.Attachment
 - uid: DisCatSharp.ApplicationCommandOptionType.Boolean
   name: Boolean
   href: api/DisCatSharp.ApplicationCommandOptionType.html#DisCatSharp_ApplicationCommandOptionType_Boolean
@@ -924,6 +930,82 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.Attributes.IAutocompleteProvider.Provider
   nameWithType: IAutocompleteProvider.Provider
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute
+  name: MaximumAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute
+  nameWithType: MaximumAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor(System.Double)
+  name: MaximumAttribute(Double)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MaximumAttribute__ctor_System_Double_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor(System.Double)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.MaximumAttribute(System.Double)
+  nameWithType: MaximumAttribute.MaximumAttribute(Double)
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor(System.Int64)
+  name: MaximumAttribute(Int64)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MaximumAttribute__ctor_System_Int64_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor(System.Int64)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.MaximumAttribute(System.Int64)
+  nameWithType: MaximumAttribute.MaximumAttribute(Int64)
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor*
+  name: MaximumAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MaximumAttribute__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.MaximumAttribute
+  nameWithType: MaximumAttribute.MaximumAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value
+  name: Value
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MaximumAttribute_Value
+  commentId: P:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value
+  nameWithType: MaximumAttribute.Value
+- uid: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value*
+  name: Value
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MaximumAttribute_Value_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.Value
+  nameWithType: MaximumAttribute.Value
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute
+  name: MinimumAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html
+  commentId: T:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute
+  nameWithType: MinimumAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor(System.Double)
+  name: MinimumAttribute(Double)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MinimumAttribute__ctor_System_Double_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor(System.Double)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.MinimumAttribute(System.Double)
+  nameWithType: MinimumAttribute.MinimumAttribute(Double)
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor(System.Int64)
+  name: MinimumAttribute(Int64)
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MinimumAttribute__ctor_System_Int64_
+  commentId: M:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor(System.Int64)
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.MinimumAttribute(System.Int64)
+  nameWithType: MinimumAttribute.MinimumAttribute(Int64)
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor*
+  name: MinimumAttribute
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MinimumAttribute__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.MinimumAttribute
+  nameWithType: MinimumAttribute.MinimumAttribute
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value
+  name: Value
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MinimumAttribute_Value
+  commentId: P:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value
+  nameWithType: MinimumAttribute.Value
+- uid: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value*
+  name: Value
+  href: api/DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.html#DisCatSharp_ApplicationCommands_Attributes_MinimumAttribute_Value_
+  commentId: Overload:DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.Attributes.MinimumAttribute.Value
+  nameWithType: MinimumAttribute.Value
 - uid: DisCatSharp.ApplicationCommands.AutocompleteContext
   name: AutocompleteContext
   href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html
@@ -14299,15 +14381,15 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordApplicationCommandOption
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption
   nameWithType: DiscordApplicationCommandOption
-- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean})
-  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>)
-  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Collections_Generic_IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__
-  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean})
-  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean))
-  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, System.Collections.Generic.IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, System.Collections.Generic.IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, System.Collections.Generic.IEnumerable<DisCatSharp.ChannelType>, System.Nullable<System.Boolean>)
-  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), System.Collections.Generic.IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), System.Collections.Generic.IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), System.Collections.Generic.IEnumerable(Of DisCatSharp.ChannelType), System.Nullable(Of System.Boolean))
-  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>)
-  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean))
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean},System.Object,System.Object)
+  name: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>, Object, Object)
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Collections_Generic_IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__System_Object_System_Object_
+  commentId: M:DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean},System.Object,System.Object)
+  name.vb: DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean), Object, Object)
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable<System.Boolean>, System.Collections.Generic.IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOptionChoice>, System.Collections.Generic.IEnumerable<DisCatSharp.Entities.DiscordApplicationCommandOption>, System.Collections.Generic.IEnumerable<DisCatSharp.ChannelType>, System.Nullable<System.Boolean>, System.Object, System.Object)
+  fullName.vb: DisCatSharp.Entities.DiscordApplicationCommandOption.DiscordApplicationCommandOption(System.String, System.String, DisCatSharp.ApplicationCommandOptionType, System.Nullable(Of System.Boolean), System.Collections.Generic.IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOptionChoice), System.Collections.Generic.IEnumerable(Of DisCatSharp.Entities.DiscordApplicationCommandOption), System.Collections.Generic.IEnumerable(Of DisCatSharp.ChannelType), System.Nullable(Of System.Boolean), System.Object, System.Object)
+  nameWithType: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable<Boolean>, IEnumerable<DiscordApplicationCommandOptionChoice>, IEnumerable<DiscordApplicationCommandOption>, IEnumerable<ChannelType>, Nullable<Boolean>, Object, Object)
+  nameWithType.vb: DiscordApplicationCommandOption.DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable(Of Boolean), IEnumerable(Of DiscordApplicationCommandOptionChoice), IEnumerable(Of DiscordApplicationCommandOption), IEnumerable(Of ChannelType), Nullable(Of Boolean), Object, Object)
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor*
   name: DiscordApplicationCommandOption
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_
@@ -14367,6 +14449,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.Description
   nameWithType: DiscordApplicationCommandOption.Description
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue
+  name: MaximumValue
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_MaximumValue
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue
+  nameWithType: DiscordApplicationCommandOption.MaximumValue
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue*
+  name: MaximumValue
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_MaximumValue_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue
+  nameWithType: DiscordApplicationCommandOption.MaximumValue
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue
+  name: MinimumValue
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_MinimumValue
+  commentId: P:DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue
+  nameWithType: DiscordApplicationCommandOption.MinimumValue
+- uid: DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue*
+  name: MinimumValue
+  href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_MinimumValue_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationCommandOption.MinimumValue
+  nameWithType: DiscordApplicationCommandOption.MinimumValue
 - uid: DisCatSharp.Entities.DiscordApplicationCommandOption.Name
   name: Name
   href: api/DisCatSharp.Entities.DiscordApplicationCommandOption.html#DisCatSharp_Entities_DiscordApplicationCommandOption_Name
