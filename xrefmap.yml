@@ -57145,12 +57145,78 @@ references:
   commentId: T:DisCatSharp.TargetActivity
   fullName: DisCatSharp.TargetActivity
   nameWithType: TargetActivity
+- uid: DisCatSharp.TargetActivity.Awkword
+  name: Awkword
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_Awkword
+  commentId: F:DisCatSharp.TargetActivity.Awkword
+  fullName: DisCatSharp.TargetActivity.Awkword
+  nameWithType: TargetActivity.Awkword
 - uid: DisCatSharp.TargetActivity.Betrayal
   name: Betrayal
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_Betrayal
   commentId: F:DisCatSharp.TargetActivity.Betrayal
   fullName: DisCatSharp.TargetActivity.Betrayal
   nameWithType: TargetActivity.Betrayal
+- uid: DisCatSharp.TargetActivity.CG2QA
+  name: CG2QA
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG2QA
+  commentId: F:DisCatSharp.TargetActivity.CG2QA
+  fullName: DisCatSharp.TargetActivity.CG2QA
+  nameWithType: TargetActivity.CG2QA
+- uid: DisCatSharp.TargetActivity.CG2Staging
+  name: CG2Staging
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG2Staging
+  commentId: F:DisCatSharp.TargetActivity.CG2Staging
+  fullName: DisCatSharp.TargetActivity.CG2Staging
+  nameWithType: TargetActivity.CG2Staging
+- uid: DisCatSharp.TargetActivity.CG3Dev
+  name: CG3Dev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG3Dev
+  commentId: F:DisCatSharp.TargetActivity.CG3Dev
+  fullName: DisCatSharp.TargetActivity.CG3Dev
+  nameWithType: TargetActivity.CG3Dev
+- uid: DisCatSharp.TargetActivity.CG3Prod
+  name: CG3Prod
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG3Prod
+  commentId: F:DisCatSharp.TargetActivity.CG3Prod
+  fullName: DisCatSharp.TargetActivity.CG3Prod
+  nameWithType: TargetActivity.CG3Prod
+- uid: DisCatSharp.TargetActivity.CG3QA
+  name: CG3QA
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG3QA
+  commentId: F:DisCatSharp.TargetActivity.CG3QA
+  fullName: DisCatSharp.TargetActivity.CG3QA
+  nameWithType: TargetActivity.CG3QA
+- uid: DisCatSharp.TargetActivity.CG3Staging
+  name: CG3Staging
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG3Staging
+  commentId: F:DisCatSharp.TargetActivity.CG3Staging
+  fullName: DisCatSharp.TargetActivity.CG3Staging
+  nameWithType: TargetActivity.CG3Staging
+- uid: DisCatSharp.TargetActivity.CG4kDev
+  name: CG4kDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG4kDev
+  commentId: F:DisCatSharp.TargetActivity.CG4kDev
+  fullName: DisCatSharp.TargetActivity.CG4kDev
+  nameWithType: TargetActivity.CG4kDev
+- uid: DisCatSharp.TargetActivity.CG4Prod
+  name: CG4Prod
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG4Prod
+  commentId: F:DisCatSharp.TargetActivity.CG4Prod
+  fullName: DisCatSharp.TargetActivity.CG4Prod
+  nameWithType: TargetActivity.CG4Prod
+- uid: DisCatSharp.TargetActivity.CG4QA
+  name: CG4QA
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG4QA
+  commentId: F:DisCatSharp.TargetActivity.CG4QA
+  fullName: DisCatSharp.TargetActivity.CG4QA
+  nameWithType: TargetActivity.CG4QA
+- uid: DisCatSharp.TargetActivity.CG4Staging
+  name: CG4Staging
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_CG4Staging
+  commentId: F:DisCatSharp.TargetActivity.CG4Staging
+  fullName: DisCatSharp.TargetActivity.CG4Staging
+  nameWithType: TargetActivity.CG4Staging
 - uid: DisCatSharp.TargetActivity.ChessInThePark
   name: ChessInThePark
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_ChessInThePark
@@ -57163,12 +57229,24 @@ references:
   commentId: F:DisCatSharp.TargetActivity.ChessInTheParkDev
   fullName: DisCatSharp.TargetActivity.ChessInTheParkDev
   nameWithType: TargetActivity.ChessInTheParkDev
+- uid: DisCatSharp.TargetActivity.DecodersDev
+  name: DecodersDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_DecodersDev
+  commentId: F:DisCatSharp.TargetActivity.DecodersDev
+  fullName: DisCatSharp.TargetActivity.DecodersDev
+  nameWithType: TargetActivity.DecodersDev
 - uid: DisCatSharp.TargetActivity.DoodleCrew
   name: DoodleCrew
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_DoodleCrew
   commentId: F:DisCatSharp.TargetActivity.DoodleCrew
   fullName: DisCatSharp.TargetActivity.DoodleCrew
   nameWithType: TargetActivity.DoodleCrew
+- uid: DisCatSharp.TargetActivity.DoodleCrewDev
+  name: DoodleCrewDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_DoodleCrewDev
+  commentId: F:DisCatSharp.TargetActivity.DoodleCrewDev
+  fullName: DisCatSharp.TargetActivity.DoodleCrewDev
+  nameWithType: TargetActivity.DoodleCrewDev
 - uid: DisCatSharp.TargetActivity.Fishington
   name: Fishington
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_Fishington
@@ -57187,12 +57265,42 @@ references:
   commentId: F:DisCatSharp.TargetActivity.None
   fullName: DisCatSharp.TargetActivity.None
   nameWithType: TargetActivity.None
+- uid: DisCatSharp.TargetActivity.PNStaging
+  name: PNStaging
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_PNStaging
+  commentId: F:DisCatSharp.TargetActivity.PNStaging
+  fullName: DisCatSharp.TargetActivity.PNStaging
+  nameWithType: TargetActivity.PNStaging
 - uid: DisCatSharp.TargetActivity.PokerNight
   name: PokerNight
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_PokerNight
   commentId: F:DisCatSharp.TargetActivity.PokerNight
   fullName: DisCatSharp.TargetActivity.PokerNight
   nameWithType: TargetActivity.PokerNight
+- uid: DisCatSharp.TargetActivity.PokerQA
+  name: PokerQA
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_PokerQA
+  commentId: F:DisCatSharp.TargetActivity.PokerQA
+  fullName: DisCatSharp.TargetActivity.PokerQA
+  nameWithType: TargetActivity.PokerQA
+- uid: DisCatSharp.TargetActivity.Putts
+  name: Putts
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_Putts
+  commentId: F:DisCatSharp.TargetActivity.Putts
+  fullName: DisCatSharp.TargetActivity.Putts
+  nameWithType: TargetActivity.Putts
+- uid: DisCatSharp.TargetActivity.SketchyArtist
+  name: SketchyArtist
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_SketchyArtist
+  commentId: F:DisCatSharp.TargetActivity.SketchyArtist
+  fullName: DisCatSharp.TargetActivity.SketchyArtist
+  nameWithType: TargetActivity.SketchyArtist
+- uid: DisCatSharp.TargetActivity.SketchyArtistDev
+  name: SketchyArtistDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_SketchyArtistDev
+  commentId: F:DisCatSharp.TargetActivity.SketchyArtistDev
+  fullName: DisCatSharp.TargetActivity.SketchyArtistDev
+  nameWithType: TargetActivity.SketchyArtistDev
 - uid: DisCatSharp.TargetActivity.SpellCast
   name: SpellCast
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_SpellCast
@@ -57217,6 +57325,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.WordSnacks
   fullName: DisCatSharp.TargetActivity.WordSnacks
   nameWithType: TargetActivity.WordSnacks
+- uid: DisCatSharp.TargetActivity.WordSnacksDev
+  name: WordSnacksDev
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WordSnacksDev
+  commentId: F:DisCatSharp.TargetActivity.WordSnacksDev
+  fullName: DisCatSharp.TargetActivity.WordSnacksDev
+  nameWithType: TargetActivity.WordSnacksDev
 - uid: DisCatSharp.TargetActivity.YouTubeTogether
   name: YouTubeTogether
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_YouTubeTogether
