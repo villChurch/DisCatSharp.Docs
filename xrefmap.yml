@@ -57193,6 +57193,12 @@ references:
   commentId: F:DisCatSharp.TargetActivity.PokerNight
   fullName: DisCatSharp.TargetActivity.PokerNight
   nameWithType: TargetActivity.PokerNight
+- uid: DisCatSharp.TargetActivity.SpellCast
+  name: SpellCast
+  href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_SpellCast
+  commentId: F:DisCatSharp.TargetActivity.SpellCast
+  fullName: DisCatSharp.TargetActivity.SpellCast
+  nameWithType: TargetActivity.SpellCast
 - uid: DisCatSharp.TargetActivity.WatchTogether
   name: WatchTogether
   href: api/DisCatSharp.TargetActivity.html#DisCatSharp_TargetActivity_WatchTogether
