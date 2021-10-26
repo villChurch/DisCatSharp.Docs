@@ -29071,6 +29071,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannel.GetHashCode
   nameWithType: DiscordThreadChannel.GetHashCode
+- uid: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(DisCatSharp.Entities.DiscordMember)
+  name: GetMemberAsync(DiscordMember)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_DisCatSharp_Entities_DiscordMember_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(DisCatSharp.Entities.DiscordMember)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(DisCatSharp.Entities.DiscordMember)
+  nameWithType: DiscordThreadChannel.GetMemberAsync(DiscordMember)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(System.UInt64)
+  name: GetMemberAsync(UInt64)
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_System_UInt64_
+  commentId: M:DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(System.UInt64)
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(System.UInt64)
+  nameWithType: DiscordThreadChannel.GetMemberAsync(UInt64)
+- uid: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync*
+  name: GetMemberAsync
+  href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync
+  nameWithType: DiscordThreadChannel.GetMemberAsync
 - uid: DisCatSharp.Entities.DiscordThreadChannel.GetMembersAsync
   name: GetMembersAsync()
   href: api/DisCatSharp.Entities.DiscordThreadChannel.html#DisCatSharp_Entities_DiscordThreadChannel_GetMembersAsync
@@ -29632,19 +29651,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordThreadChannelMember.Thread
   nameWithType: DiscordThreadChannelMember.Thread
-- uid: DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId
-  name: ThreadId
-  href: api/DisCatSharp.Entities.DiscordThreadChannelMember.html#DisCatSharp_Entities_DiscordThreadChannelMember_ThreadId
-  commentId: P:DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId
-  fullName: DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId
-  nameWithType: DiscordThreadChannelMember.ThreadId
-- uid: DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId*
-  name: ThreadId
-  href: api/DisCatSharp.Entities.DiscordThreadChannelMember.html#DisCatSharp_Entities_DiscordThreadChannelMember_ThreadId_
-  commentId: Overload:DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordThreadChannelMember.ThreadId
-  nameWithType: DiscordThreadChannelMember.ThreadId
 - uid: DisCatSharp.Entities.DiscordThreadChannelMember.UserId
   name: UserId
   href: api/DisCatSharp.Entities.DiscordThreadChannelMember.html#DisCatSharp_Entities_DiscordThreadChannelMember_UserId

@@ -581,7 +581,7 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_DisCatSharp_Entities_DiscordMember_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync(DisCatSharp.Entities.DiscordMember)">AddMemberAsync(DiscordMember)</h4>
-  <div class="markdown level1 summary"><p>Adds a member to this thread. Only applicable to private threads.</p>
+  <div class="markdown level1 summary"><p>Adds a member to this thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -625,12 +625,12 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_AddMemberAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.AddMemberAsync(System.UInt64)">AddMemberAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Adds a member to this thread. Only applicable to private threads.</p>
+  <div class="markdown level1 summary"><p>Adds a member to this thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task AddMemberAsync(ulong member)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task AddMemberAsync(ulong member_id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -644,7 +644,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
-        <td><span class="parametername">member</span></td>
+        <td><span class="parametername">member_id</span></td>
         <td><p>The member id to be added.</p>
 </td>
       </tr>
@@ -1068,6 +1068,94 @@
   </table>
   <h5 class="overrides">Overrides</h5>
   <div><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetHashCode">DiscordChannel.GetHashCode()</a></div>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_DisCatSharp_Entities_DiscordMember_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(DisCatSharp.Entities.DiscordMember)">GetMemberAsync(DiscordMember)</h4>
+  <div class="markdown level1 summary"><p>Gets a member in this thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordThreadChannelMember&gt; GetMemberAsync(DiscordMember member)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMember.html">DiscordMember</a></td>
+        <td><span class="parametername">member</span></td>
+        <td><p>The member to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordThreadChannelMember.html">DiscordThreadChannelMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.GetMemberAsync(System.UInt64)">GetMemberAsync(UInt64)</h4>
+  <div class="markdown level1 summary"><p>Gets a member in this thread.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordThreadChannelMember&gt; GetMemberAsync(ulong member_id)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td><span class="parametername">member_id</span></td>
+        <td><p>The member to be added.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordThreadChannelMember.html">DiscordThreadChannelMember</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_GetMembersAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.GetMembersAsync*"></a>
@@ -1518,12 +1606,12 @@
   
   <a id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordThreadChannel_RemoveMemberAsync_System_UInt64_" data-uid="DisCatSharp.Entities.DiscordThreadChannel.RemoveMemberAsync(System.UInt64)">RemoveMemberAsync(UInt64)</h4>
-  <div class="markdown level1 summary"><p>Removes a member from this thread. Only applicable to private threads.</p>
+  <div class="markdown level1 summary"><p>Removes a member from this thread.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task RemoveMemberAsync(ulong member)</code></pre>
+    <pre><code class="lang-csharp hljs">public Task RemoveMemberAsync(ulong member_id)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1537,7 +1625,7 @@
     <tbody>
       <tr>
         <td><span class="xref">System.UInt64</span></td>
-        <td><span class="parametername">member</span></td>
+        <td><span class="parametername">member_id</span></td>
         <td><p>The member id to be removed.</p>
 </td>
       </tr>
