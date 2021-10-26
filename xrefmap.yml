@@ -59405,6 +59405,9 @@ references:
 - uid: important_changes_9_8_3
   name: Version 9.8.3
   href: articles/important_changes/9_8_3.html
+- uid: important_changes_9_9_0
+  name: Version 9.9.0
+  href: articles/important_changes/9_9_0.html
 - uid: index
   name: DisCatSharp 9.X Documentation
   href: index.html

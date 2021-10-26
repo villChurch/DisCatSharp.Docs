@@ -78,15 +78,15 @@
             <article class="content wrap" id="_content" data-uid="beyond_basics_intents">
 <h2 id="intents">Intents</h2>
 
-<p>Intents were added to Discord to help the service not have to push so many events to the bots that were not using them.  If you are going to be needing
-to subscribe to any type of event, they are going to have to be defined <strong>BOTH</strong> within the
+<p>Intents were added to Discord to help the service not have to push so many events to the bots that were not using them. If you are going to be needing to subscribe to any type of event, they are going to have to be defined <strong>BOTH</strong> within the
 <a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> on Discords Site and also within the <a class="xref" href="../../api/DisCatSharp.DiscordConfiguration.html">DiscordConfiguration</a>.</p>
 <h3 id="discord-application">Discord Application</h3>
 <p>On the <a href="https://discord.com/developers/applications">Discord Application under the Bot Page</a> you will have to specify if your bot requires Privileged Intents. We recommend having these all enabled at first to ensure the most stability when building your first bot, otherwise you may run into issues when retrieving entities from the library&#39;s cache.</p>
 <p><img src="/images/Intents.png" alt="Bot Page"></p>
 <div class="WARNING"><h5>Warning</h5><p>These privileged intents may not be available for you to toggle on immediately.</p>
 <p>Due to their nature of sensitive data, Discord requires you to go through a verification process once your bot is in a certain amount of servers.
-Please read this <a href="https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting">blog post</a> for more information and how to apply.</p>
+Please read this <a href="https://support.discord.com/hc/en-us/articles/360040720412-Bot-Verification-and-Data-Whitelisting">blog post</a> for more information and how to apply.
+Please read <a href="https://support-dev.discord.com/hc/en-us/articles/4404772028055-Message-Content-Access-Deprecation-for-Verified-Bots">this</a> and <a href="https://support.discord.com/hc/en-us/articles/4410940809111">this</a> blog post for informations about the upcoming message intent in April 2022.</p>
 </div>
 <h3 id="discord-configuration">Discord Configuration</h3>
 <p>Within your <code>DiscordConfiguration</code> you will have to specify all the intents you will need. Here is a list of all the
@@ -99,7 +99,7 @@ Please read this <a href="https://support.discord.com/hc/en-us/articles/36004072
 <p>Here is an example of just specifying one:</p>
 <pre><code class="lang-csharp">var config = new DiscordConfiguration()
 {
-    Intents = DiscordIntents.GuildMessages
+    Intents = DiscordIntents.GuildBans
 };
 </code></pre><p>Here is an example of specifying many:</p>
 <pre><code class="lang-csharp">var config = new DiscordConfiguration()
