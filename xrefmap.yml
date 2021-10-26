@@ -10665,6 +10665,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync
   nameWithType: DiscordClient.EditGuildApplicationCommandAsync
+- uid: DisCatSharp.DiscordClient.EmbeddedActivities
+  name: EmbeddedActivities
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_EmbeddedActivities
+  commentId: P:DisCatSharp.DiscordClient.EmbeddedActivities
+  fullName: DisCatSharp.DiscordClient.EmbeddedActivities
+  nameWithType: DiscordClient.EmbeddedActivities
+- uid: DisCatSharp.DiscordClient.EmbeddedActivities*
+  name: EmbeddedActivities
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_EmbeddedActivities_
+  commentId: Overload:DisCatSharp.DiscordClient.EmbeddedActivities
+  isSpec: "True"
+  fullName: DisCatSharp.DiscordClient.EmbeddedActivities
+  nameWithType: DiscordClient.EmbeddedActivities
+- uid: DisCatSharp.DiscordClient.EmbeddedActivityUpdated
+  name: EmbeddedActivityUpdated
+  href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_EmbeddedActivityUpdated
+  commentId: E:DisCatSharp.DiscordClient.EmbeddedActivityUpdated
+  fullName: DisCatSharp.DiscordClient.EmbeddedActivityUpdated
+  nameWithType: DiscordClient.EmbeddedActivityUpdated
 - uid: DisCatSharp.DiscordClient.Finalize
   name: Finalize()
   href: api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_Finalize
@@ -12131,6 +12150,12 @@ references:
   commentId: E:DisCatSharp.DiscordShardedClient.DmChannelDeleted
   fullName: DisCatSharp.DiscordShardedClient.DmChannelDeleted
   nameWithType: DiscordShardedClient.DmChannelDeleted
+- uid: DisCatSharp.DiscordShardedClient.EmbeddedActivityUpdated
+  name: EmbeddedActivityUpdated
+  href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_EmbeddedActivityUpdated
+  commentId: E:DisCatSharp.DiscordShardedClient.EmbeddedActivityUpdated
+  fullName: DisCatSharp.DiscordShardedClient.EmbeddedActivityUpdated
+  nameWithType: DiscordShardedClient.EmbeddedActivityUpdated
 - uid: DisCatSharp.DiscordShardedClient.Finalize
   name: Finalize()
   href: api/DisCatSharp.DiscordShardedClient.html#DisCatSharp_DiscordShardedClient_Finalize
@@ -46346,6 +46371,77 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.DmChannelDeleteEventArgs.Channel
   nameWithType: DmChannelDeleteEventArgs.Channel
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs
+  name: EmbeddedActivityUpdateEventArgs
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html
+  commentId: T:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs
+  nameWithType: EmbeddedActivityUpdateEventArgs
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel
+  name: Channel
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Channel
+  commentId: P:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel
+  nameWithType: EmbeddedActivityUpdateEventArgs.Channel
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel*
+  name: Channel
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Channel_
+  commentId: Overload:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Channel
+  nameWithType: EmbeddedActivityUpdateEventArgs.Channel
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+  name: EmbeddedActivityAfter
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_EmbeddedActivityAfter
+  commentId: P:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+  nameWithType: EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter*
+  name: EmbeddedActivityAfter
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_EmbeddedActivityAfter_
+  commentId: Overload:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+  nameWithType: EmbeddedActivityUpdateEventArgs.EmbeddedActivityAfter
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+  name: EmbeddedActivityBefore
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_EmbeddedActivityBefore
+  commentId: P:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+  nameWithType: EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore*
+  name: EmbeddedActivityBefore
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_EmbeddedActivityBefore_
+  commentId: Overload:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+  nameWithType: EmbeddedActivityUpdateEventArgs.EmbeddedActivityBefore
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild
+  name: Guild
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Guild
+  commentId: P:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild
+  nameWithType: EmbeddedActivityUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild*
+  name: Guild
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Guild_
+  commentId: Overload:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Guild
+  nameWithType: EmbeddedActivityUpdateEventArgs.Guild
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users
+  name: Users
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Users
+  commentId: P:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users
+  nameWithType: EmbeddedActivityUpdateEventArgs.Users
+- uid: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users*
+  name: Users
+  href: api/DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.html#DisCatSharp_EventArgs_EmbeddedActivityUpdateEventArgs_Users_
+  commentId: Overload:DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.EmbeddedActivityUpdateEventArgs.Users
+  nameWithType: EmbeddedActivityUpdateEventArgs.Users
 - uid: DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs
   name: GuildApplicationCommandCountEventArgs
   href: api/DisCatSharp.EventArgs.GuildApplicationCommandCountEventArgs.html
