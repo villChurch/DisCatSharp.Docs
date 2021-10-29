@@ -98,7 +98,7 @@ Also, the first argument to the method must be <a class="xref" href="../../api/D
 <pre><code class="lang-cs">public class MyCommand : ApplicationCommandsModule
 {
     [SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
-    public static async Task MySlashCommand(InteractionContext context)
+    public async Task MySlashCommand(InteractionContext context)
     {
 
     }
@@ -107,7 +107,7 @@ Also, the first argument to the method must be <a class="xref" href="../../api/D
 <pre><code class="lang-cs">public class MySecondCommand : ApplicationCommandsModule
 {
     [ContextMenu(ApplicationCommandType.User, &quot;My Command&quot;)]
-    public static async Task MyContextMenuCommand(ContextMenuContext context)
+    public async Task MyContextMenuCommand(ContextMenuContext context)
     {
 
     }
@@ -126,7 +126,9 @@ await ctx.EditResponseAsync(new DiscordWebhookBuilder()
 {
     Content = &quot;Hello :3&quot;
 });
-</code></pre><h3 id="registration-of-commands">Registration of commands</h3>
+</code></pre><div class="NOTE"><h5>Note</h5><p>Note that you can make your commands static, but then you cannot use <a class="xref" href="../commands/dependency_injection.html">Dependency Injection</a> in them.</p>
+</div>
+<h3 id="registration-of-commands">Registration of commands</h3>
 <p>After writing the commands, we must register them. For this we need a <a class="xref" href="../../api/DisCatSharp.DiscordClient.html">DiscordClient</a>.</p>
 <pre><code class="lang-cs">var appCommands = client.UseApplicationCommands();
 
@@ -150,7 +152,7 @@ In this case, we need to wrap our class with commands in another class and add t
     public class MyCommandGroup : ApplicationCommandsModule
     {
         [SlashCommand(&quot;first&quot;, &quot;This is decription of the command.&quot;)]
-        public static async Task MySlashCommand(InteractionContext context)
+        public async Task MySlashCommand(InteractionContext context)
         {
             await context.CreateResponseAsync(InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
             {
@@ -158,7 +160,7 @@ In this case, we need to wrap our class with commands in another class and add t
             });
         }
         [SlashCommand(&quot;second&quot;, &quot;This is decription of the command.&quot;)]
-        public static async Task MySecondCommand(InteractionContext context)
+        public async Task MySecondCommand(InteractionContext context)
         {
             await context.CreateResponseAsync(InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
             {

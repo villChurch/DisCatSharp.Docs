@@ -83,6 +83,10 @@
 <li>DisCatSharp</li>
 <li>DisCatSharp.Hosting</li>
 </ul>
+<div class="IMPORTANT"><h5>Important</h5><p>This requires .NET 5.0.</p>
+<p>But, unfortunately, in this version, exception handling does not work during the initialization of bots. In case, for example, an invalid token, the application will be shut down.
+If you need to customize specific actions on initialization exception, you need to use .NET 6.0.</p>
+</div>
 <h1 id="botcs">Bot.cs</h1>
 <p>Create a new class called <code>Bot</code> which inherits from <code>DiscordHostedService</code>.</p>
 <pre><code class="lang-cs">public class Bot : DiscordHostedService
@@ -158,6 +162,7 @@ to include values you <strong>WISH TO OVERRIDE</strong>. There is no need to inc
 <li><code>LavalinkConfiguration</code></li>
 <li><code>VoiceNextConfiguration</code></li>
 </ul>
+<p>For more information, you can also see the <a href="https://github.com/Aiko-IT-Systems/DisCatSharp.Examples/tree/main/Hosting">example</a>.</p>
 <hr>
 <h2 id="values">Values</h2>
 <p>It&#39;s worth mentioning the required formats for certain value types</p>
