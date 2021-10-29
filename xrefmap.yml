@@ -55620,6 +55620,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.GuildEditModel.PreferredLocale
   nameWithType: GuildEditModel.PreferredLocale
+- uid: DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled
+  name: PremiumProgressBarEnabled
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_PremiumProgressBarEnabled
+  commentId: P:DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled
+  fullName: DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled
+  nameWithType: GuildEditModel.PremiumProgressBarEnabled
+- uid: DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled*
+  name: PremiumProgressBarEnabled
+  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_PremiumProgressBarEnabled_
+  commentId: Overload:DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.GuildEditModel.PremiumProgressBarEnabled
+  nameWithType: GuildEditModel.PremiumProgressBarEnabled
 - uid: DisCatSharp.Net.Models.GuildEditModel.PublicUpdatesChannel
   name: PublicUpdatesChannel
   href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_PublicUpdatesChannel
@@ -55633,19 +55646,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Net.Models.GuildEditModel.PublicUpdatesChannel
   nameWithType: GuildEditModel.PublicUpdatesChannel
-- uid: DisCatSharp.Net.Models.GuildEditModel.Region
-  name: Region
-  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_Region
-  commentId: P:DisCatSharp.Net.Models.GuildEditModel.Region
-  fullName: DisCatSharp.Net.Models.GuildEditModel.Region
-  nameWithType: GuildEditModel.Region
-- uid: DisCatSharp.Net.Models.GuildEditModel.Region*
-  name: Region
-  href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_Region_
-  commentId: Overload:DisCatSharp.Net.Models.GuildEditModel.Region
-  isSpec: "True"
-  fullName: DisCatSharp.Net.Models.GuildEditModel.Region
-  nameWithType: GuildEditModel.Region
 - uid: DisCatSharp.Net.Models.GuildEditModel.RulesChannel
   name: RulesChannel
   href: api/DisCatSharp.Net.Models.GuildEditModel.html#DisCatSharp_Net_Models_GuildEditModel_RulesChannel
