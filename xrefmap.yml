@@ -44700,6 +44700,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.IsPartnered
   nameWithType: GuildFeatures.IsPartnered
+- uid: DisCatSharp.Entities.GuildFeatures.IsStaffOnly
+  name: IsStaffOnly
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsStaffOnly
+  commentId: P:DisCatSharp.Entities.GuildFeatures.IsStaffOnly
+  fullName: DisCatSharp.Entities.GuildFeatures.IsStaffOnly
+  nameWithType: GuildFeatures.IsStaffOnly
+- uid: DisCatSharp.Entities.GuildFeatures.IsStaffOnly*
+  name: IsStaffOnly
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsStaffOnly_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.IsStaffOnly
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.IsStaffOnly
+  nameWithType: GuildFeatures.IsStaffOnly
 - uid: DisCatSharp.Entities.GuildFeatures.IsVerified
   name: IsVerified
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_IsVerified
