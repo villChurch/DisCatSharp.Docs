@@ -87,7 +87,7 @@
 <p>Create a new class called <code>Bot</code> which inherits from <code>DiscordHostedService</code>.</p>
 <pre><code class="lang-cs">public class Bot : DiscordHostedService
 {
-    public Bot(IConfiguration config, ILogger&lt;DiscordHostedService&gt; logger, IServiceProvider) : base(config,logger,provider)
+    public Bot(IConfiguration config, ILogger&lt;DiscordHostedService&gt; logger, IServiceProvider provider) : base(config, logger, provider)
     {
     }
 }
