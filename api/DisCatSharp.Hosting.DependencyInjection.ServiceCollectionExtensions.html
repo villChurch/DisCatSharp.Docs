@@ -160,6 +160,72 @@
   <h5 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedService__1_IServiceCollection__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p><a class="xref" href="DisCatSharp.Hosting.IDiscordHostedService.html">IDiscordHostedService</a> is scoped to ServiceLifetime.Singleton. <br>
 Maps to Implementation of <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code></p></div>
+  
+  
+  <a id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedService_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedService*"></a>
+  <h4 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedService__2_IServiceCollection_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedService``2(IServiceCollection)">AddDiscordHostedService&lt;TInterface, TService&gt;(IServiceCollection)</h4>
+  <div class="markdown level1 summary"><p>Add <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code> as a background service which derives from
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInterface</code> and <a class="xref" href="DisCatSharp.Hosting.IDiscordHostedService.html">IDiscordHostedService</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddDiscordHostedService&lt;TInterface, TService&gt;(this IServiceCollection services)
+    where TInterface : class, IDiscordHostedService where TService : class, TInterface, IDiscordHostedService</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInterface</span></td>
+        <td><p>Interface which <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code> inherits from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td><p>Your custom bot</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
