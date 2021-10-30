@@ -49855,15 +49855,15 @@ references:
   commentId: T:DisCatSharp.Hosting.DiscordHostedService
   fullName: DisCatSharp.Hosting.DiscordHostedService
   nameWithType: DiscordHostedService
-- uid: DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,System.String)
-  name: DiscordHostedService(IConfiguration, ILogger<DiscordHostedService>, IServiceProvider, String)
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__System_IServiceProvider_System_String_
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,System.String)
-  name.vb: DiscordHostedService(IConfiguration, ILogger(Of DiscordHostedService), IServiceProvider, String)
-  fullName: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService(IConfiguration, ILogger<DisCatSharp.Hosting.DiscordHostedService>, System.IServiceProvider, System.String)
-  fullName.vb: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService(IConfiguration, ILogger(Of DisCatSharp.Hosting.DiscordHostedService), System.IServiceProvider, System.String)
-  nameWithType: DiscordHostedService.DiscordHostedService(IConfiguration, ILogger<DiscordHostedService>, IServiceProvider, String)
-  nameWithType.vb: DiscordHostedService.DiscordHostedService(IConfiguration, ILogger(Of DiscordHostedService), IServiceProvider, String)
+- uid: DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)
+  name: DiscordHostedService(IConfiguration, ILogger<DiscordHostedService>, IServiceProvider, IHostApplicationLifetime, String)
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__System_IServiceProvider_IHostApplicationLifetime_System_String_
+  commentId: M:DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)
+  name.vb: DiscordHostedService(IConfiguration, ILogger(Of DiscordHostedService), IServiceProvider, IHostApplicationLifetime, String)
+  fullName: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService(IConfiguration, ILogger<DisCatSharp.Hosting.DiscordHostedService>, System.IServiceProvider, IHostApplicationLifetime, System.String)
+  fullName.vb: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService(IConfiguration, ILogger(Of DisCatSharp.Hosting.DiscordHostedService), System.IServiceProvider, IHostApplicationLifetime, System.String)
+  nameWithType: DiscordHostedService.DiscordHostedService(IConfiguration, ILogger<DiscordHostedService>, IServiceProvider, IHostApplicationLifetime, String)
+  nameWithType.vb: DiscordHostedService.DiscordHostedService(IConfiguration, ILogger(Of DiscordHostedService), IServiceProvider, IHostApplicationLifetime, String)
 - uid: DisCatSharp.Hosting.DiscordHostedService.#ctor*
   name: DiscordHostedService
   href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService__ctor_
@@ -49871,6 +49871,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService
   nameWithType: DiscordHostedService.DiscordHostedService
+- uid: DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
+  name: ApplicationLifetime
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ApplicationLifetime
+  commentId: F:DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
+  nameWithType: DiscordHostedService.ApplicationLifetime
 - uid: DisCatSharp.Hosting.DiscordHostedService.Client
   name: Client
   href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_Client
@@ -49903,6 +49909,19 @@ references:
   commentId: F:DisCatSharp.Hosting.DiscordHostedService.Logger
   fullName: DisCatSharp.Hosting.DiscordHostedService.Logger
   nameWithType: DiscordHostedService.Logger
+- uid: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
+  name: OnInitializationError(Exception)
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_System_Exception_
+  commentId: M:DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
+  fullName: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
+  nameWithType: DiscordHostedService.OnInitializationError(Exception)
+- uid: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError*
+  name: OnInitializationError
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_
+  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.OnInitializationError
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError
+  nameWithType: DiscordHostedService.OnInitializationError
 - uid: DisCatSharp.Hosting.DiscordHostedService.PostConnect
   name: PostConnect()
   href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_PostConnect

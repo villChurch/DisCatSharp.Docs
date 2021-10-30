@@ -102,7 +102,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html",
-          "hash": "wjHD2EezdI4YVyL37tcHGAf4T+RBn09F0jcihP21090="
+          "hash": "vWe4l28iB7cSsKJeJIeUg9ZrNw6AMsDkrCigcrrY+Bk="
         }
       },
       "is_incremental": false,
@@ -5430,7 +5430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "0VwFRqJUodNtkBpCzvshhGVB2bwF9UjI/ZBRZo+QZEY="
+          "hash": "LN6tjDrW62wE/PVhzgddSBcOQ14x85hKEdOf0keIzHA="
         }
       },
       "is_incremental": false,
@@ -5454,7 +5454,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Hosting.DiscordHostedService.html",
-          "hash": "S9dMuWxx0CvH4xtQU1hm8f6hul3FjZ3EnHKeFaahr+E="
+          "hash": "Tfb8cGuSjwzcjAl7SMVGp+w9Hnslj2Ur6xDE1NB12Bg="
         }
       },
       "is_incremental": false,

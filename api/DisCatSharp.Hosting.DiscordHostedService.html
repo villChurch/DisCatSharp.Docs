@@ -101,13 +101,13 @@
   
   
   <a id="DisCatSharp_Hosting_DiscordHostedService__ctor_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor*"></a>
-  <h4 id="DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__System_IServiceProvider_System_String_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,System.String)">DiscordHostedService(IConfiguration, ILogger&lt;DiscordHostedService&gt;, IServiceProvider, String)</h4>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__System_IServiceProvider_IHostApplicationLifetime_System_String_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)">DiscordHostedService(IConfiguration, ILogger&lt;DiscordHostedService&gt;, IServiceProvider, IHostApplicationLifetime, String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html">DiscordHostedService</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">protected DiscordHostedService(IConfiguration config, ILogger&lt;DiscordHostedService&gt; logger, IServiceProvider provider, string configBotSection = &quot;DisCatSharp&quot;)</code></pre>
+    <pre><code class="lang-csharp hljs">protected DiscordHostedService(IConfiguration config, ILogger&lt;DiscordHostedService&gt; logger, IServiceProvider provider, IHostApplicationLifetime applicationLifetime, string configBotSection = &quot;DisCatSharp&quot;)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -138,6 +138,12 @@
 </td>
       </tr>
       <tr>
+        <td><span class="xref">IHostApplicationLifetime</span></td>
+        <td><span class="parametername">applicationLifetime</span></td>
+        <td><p>Current hosting environment. This will be used for shutting down the application on error</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">configBotSection</span></td>
         <td><p>Name within the configuration which contains the config info for our bot. Default is DisCatSharp</p>
@@ -147,6 +153,30 @@
   </table>
   <h3 id="fields">Fields
   </h3>
+  
+  
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_ApplicationLifetime" data-uid="DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime">ApplicationLifetime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IHostApplicationLifetime ApplicationLifetime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IHostApplicationLifetime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <h4 id="DisCatSharp_Hosting_DiscordHostedService_Logger" data-uid="DisCatSharp.Hosting.DiscordHostedService.Logger">Logger</h4>
@@ -244,6 +274,35 @@
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span></td>
         <td><p>A Task.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError*"></a>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_System_Exception_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)">OnInitializationError(Exception)</h4>
+  <div class="markdown level1 summary"><p>When the bot fails to start, this method will be invoked. (Default behavior is to shutdown)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnInitializationError(Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception/reason the bot couldn&apos;t start</p>
 </td>
       </tr>
     </tbody>
