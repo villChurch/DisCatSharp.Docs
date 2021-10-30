@@ -157,6 +157,12 @@ references:
   commentId: T:DisCatSharp.ApplicationCommandPermissionType
   fullName: DisCatSharp.ApplicationCommandPermissionType
   nameWithType: ApplicationCommandPermissionType
+- uid: DisCatSharp.ApplicationCommandPermissionType.Channel
+  name: Channel
+  href: api/DisCatSharp.ApplicationCommandPermissionType.html#DisCatSharp_ApplicationCommandPermissionType_Channel
+  commentId: F:DisCatSharp.ApplicationCommandPermissionType.Channel
+  fullName: DisCatSharp.ApplicationCommandPermissionType.Channel
+  nameWithType: ApplicationCommandPermissionType.Channel
 - uid: DisCatSharp.ApplicationCommandPermissionType.Role
   name: Role
   href: api/DisCatSharp.ApplicationCommandPermissionType.html#DisCatSharp_ApplicationCommandPermissionType_Role
@@ -426,6 +432,19 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext
   fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext
   nameWithType: ApplicationCommandsPermissionContext
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel(System.UInt64,System.Boolean)
+  name: AddChannel(UInt64, Boolean)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddChannel_System_UInt64_System_Boolean_
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel(System.UInt64,System.Boolean)
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel(System.UInt64, System.Boolean)
+  nameWithType: ApplicationCommandsPermissionContext.AddChannel(UInt64, Boolean)
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel*
+  name: AddChannel
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddChannel_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddChannel
+  nameWithType: ApplicationCommandsPermissionContext.AddChannel
 - uid: DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.AddRole(System.UInt64,System.Boolean)
   name: AddRole(UInt64, Boolean)
   href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddRole_System_UInt64_System_Boolean_
