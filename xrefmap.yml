@@ -51945,6 +51945,12 @@ references:
   commentId: F:DisCatSharp.Interactivity.PaginationEmojis.Stop
   fullName: DisCatSharp.Interactivity.PaginationEmojis.Stop
   nameWithType: PaginationEmojis.Stop
+- uid: DisCatSharp.Internals
+  name: Internals
+  href: api/DisCatSharp.Internals.html
+  commentId: T:DisCatSharp.Internals
+  fullName: DisCatSharp.Internals
+  nameWithType: Internals
 - uid: DisCatSharp.Lavalink
   name: DisCatSharp.Lavalink
   href: api/DisCatSharp.Lavalink.html

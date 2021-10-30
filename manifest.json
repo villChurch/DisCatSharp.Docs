@@ -5846,6 +5846,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Internals.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Internals.html",
+          "hash": "l2AkAvPE1BnJSnTab1kPq/XoUtgQ0PsgXNeO38cXIek="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Lavalink.DiscordClientExtensions.yml",
       "output": {
         ".html": {
@@ -7194,7 +7206,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.html",
-          "hash": "/3RtfEw/DRFvrCKSC88yJVwQVdTqGfD0g/q39ELdShc="
+          "hash": "rih5qEIeEfU/evGTD99iVxZutDdHSLkk42fnons7PDM="
         }
       },
       "is_incremental": false,
@@ -7218,7 +7230,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "2E/Q4SfuYox5kYWrqCsSpc0CBr+b10PJ6dgVFIMdbnM="
+          "hash": "c+WM1tpqkP1lfH4uvZnnC7Kp9up1a8Ix8cr4UZ9ggVY="
         }
       },
       "is_incremental": false,
@@ -8383,8 +8395,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 599,
-          "skipped_file_count": 599
+          "total_file_count": 600,
+          "skipped_file_count": 600
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
