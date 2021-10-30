@@ -158,6 +158,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.html",
+          "hash": "T3yOaq0pD2mx4JZA0AtKDTPAVUAkEG2e6EflHJ6adYc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireOwnerAttribute.yml",
       "output": {
         ".html": {
@@ -270,7 +282,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.Attributes.html",
-          "hash": "cKVb9L5Cty3Q9iplam/nB/RxspHi6jqmBrNgB2PpErs="
+          "hash": "43BaeWa9ONDM9Ym9JQhed+xyG5bEPNr+I+EmXVrhfnY="
         }
       },
       "is_incremental": false,
@@ -522,7 +534,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute.html",
-          "hash": "zAihFTxpM2Q/+ZYx04yt3a4QCnfIm0i0M+JVb+wKGLs="
+          "hash": "LHLeHfdgsFE5/hsmI/PEfWJy+1YAcCUqypQpIO63/ls="
         }
       },
       "is_incremental": false,
@@ -7230,7 +7242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "c+WM1tpqkP1lfH4uvZnnC7Kp9up1a8Ix8cr4UZ9ggVY="
+          "hash": "J3nDgZkOq1U22CVNN/82cOsYdU1ihK+rfbKe+6dS2Yg="
         }
       },
       "is_incremental": false,
@@ -8395,8 +8407,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 600,
-          "skipped_file_count": 600
+          "total_file_count": 601,
+          "skipped_file_count": 601
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

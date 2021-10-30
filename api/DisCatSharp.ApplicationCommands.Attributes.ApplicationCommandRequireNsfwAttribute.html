@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SlashCheckBaseAttribute
+    <title>Class ApplicationCommandRequireNsfwAttribute
    </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SlashCheckBaseAttribute
+    <meta name="title" content="Class ApplicationCommandRequireNsfwAttribute
    ">
     <meta name="generator" content="docfx 2.58.5.0">
     
@@ -77,47 +77,53 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute">
   
   
-  <h1 id="DisCatSharp_ApplicationCommands_SlashCheckBaseAttribute" data-uid="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute" class="text-break">Class SlashCheckBaseAttribute
+  <h1 id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute" class="text-break">Class ApplicationCommandRequireNsfwAttribute
   </h1>
-  <div class="markdown level0 summary"><p>The base class for a pre-execution check for a application command.</p>
+  <div class="markdown level0 summary"><p>Defines that this application command is only usable within a guild.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
     <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><span class="xref">SlashCheckBaseAttribute</span></div>
+    <div class="level2"><a class="xref" href="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute.html">SlashCheckBaseAttribute</a></div>
+    <div class="level3"><span class="xref">ApplicationCommandRequireNsfwAttribute</span></div>
   </div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireBotPermissionsAttribute.html">ApplicationCommandRequireBotPermissionsAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireDirectMessageAttribute.html">ApplicationCommandRequireDirectMessageAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireDisCatSharpDeveloperAttribute.html">ApplicationCommandRequireDisCatSharpDeveloperAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireGuildAttribute.html">ApplicationCommandRequireGuildAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.html">ApplicationCommandRequireNsfwAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireOwnerAttribute.html">ApplicationCommandRequireOwnerAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireOwnerOrIdAttribute.html">ApplicationCommandRequireOwnerOrIdAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequirePermissionsAttribute.html">ApplicationCommandRequirePermissionsAttribute</a></div>
-      <div class="level3"><a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireUserPermissionsAttribute.html">ApplicationCommandRequireUserPermissionsAttribute</a></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.ApplicationCommands.html">DisCatSharp.ApplicationCommands</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.html">DisCatSharp.ApplicationCommands.Attributes</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DisCatSharp_ApplicationCommands_SlashCheckBaseAttribute_syntax">Syntax</h5>
+  <h5 id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract class SlashCheckBaseAttribute : Attribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
+public sealed class ApplicationCommandRequireNsfwAttribute : SlashCheckBaseAttribute, _Attribute</code></pre>
+  </div>
+  <h3 id="constructors">Constructors
+  </h3>
+  
+  
+  <a id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute__ctor_" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.#ctor*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute__ctor" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.#ctor">ApplicationCommandRequireNsfwAttribute()</h4>
+  <div class="markdown level1 summary"><p>Defines that this command is only usable within a guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ApplicationCommandRequireNsfwAttribute()</code></pre>
   </div>
   <h3 id="methods">Methods
   </h3>
   
   
-  <a id="DisCatSharp_ApplicationCommands_SlashCheckBaseAttribute_ExecuteChecksAsync_" data-uid="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute.ExecuteChecksAsync*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_SlashCheckBaseAttribute_ExecuteChecksAsync_DisCatSharp_ApplicationCommands_InteractionContext_" data-uid="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute.ExecuteChecksAsync(DisCatSharp.ApplicationCommands.InteractionContext)">ExecuteChecksAsync(InteractionContext)</h4>
-  <div class="markdown level1 summary"><p>Checks whether this command can be executed within the current context.</p>
+  <a id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute_ExecuteChecksAsync_" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.ExecuteChecksAsync*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_Attributes_ApplicationCommandRequireNsfwAttribute_ExecuteChecksAsync_DisCatSharp_ApplicationCommands_InteractionContext_" data-uid="DisCatSharp.ApplicationCommands.Attributes.ApplicationCommandRequireNsfwAttribute.ExecuteChecksAsync(DisCatSharp.ApplicationCommands.InteractionContext)">ExecuteChecksAsync(InteractionContext)</h4>
+  <div class="markdown level1 summary"><p>Runs checks.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public abstract Task&lt;bool&gt; ExecuteChecksAsync(InteractionContext ctx)</code></pre>
+    <pre><code class="lang-csharp hljs">public override Task&lt;bool&gt; ExecuteChecksAsync(InteractionContext ctx)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -132,8 +138,7 @@
       <tr>
         <td><a class="xref" href="DisCatSharp.ApplicationCommands.InteractionContext.html">InteractionContext</a></td>
         <td><span class="parametername">ctx</span></td>
-        <td><p>The context.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
@@ -148,11 +153,12 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td><p>Whether the checks passed.</p>
-</td>
+        <td></td>
       </tr>
     </tbody>
   </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><a class="xref" href="DisCatSharp.ApplicationCommands.SlashCheckBaseAttribute.html#DisCatSharp_ApplicationCommands_SlashCheckBaseAttribute_ExecuteChecksAsync_DisCatSharp_ApplicationCommands_InteractionContext_">SlashCheckBaseAttribute.ExecuteChecksAsync(InteractionContext)</a></div>
 
 </article>
           </div>
