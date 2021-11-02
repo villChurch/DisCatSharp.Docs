@@ -44790,6 +44790,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.PremiumTierThreeOverride
   nameWithType: GuildFeatures.PremiumTierThreeOverride
+- uid: DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+  name: RoleSubscriptionsIsAvaiableForPurchase
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_RoleSubscriptionsIsAvaiableForPurchase
+  commentId: P:DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+  fullName: DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+  nameWithType: GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+- uid: DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase*
+  name: RoleSubscriptionsIsAvaiableForPurchase
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_RoleSubscriptionsIsAvaiableForPurchase_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
+  nameWithType: GuildFeatures.RoleSubscriptionsIsAvaiableForPurchase
 - uid: DisCatSharp.Entities.GuildFeatures.TextInVoiceEnabled
   name: TextInVoiceEnabled
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_TextInVoiceEnabled
