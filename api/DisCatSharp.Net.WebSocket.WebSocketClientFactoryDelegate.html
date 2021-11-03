@@ -89,7 +89,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_Net_WebSocket_WebSocketClientFactoryDelegate_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public delegate IWebSocketClient WebSocketClientFactoryDelegate(IWebProxy proxy);</code></pre>
+    <pre><code class="lang-csharp hljs">public delegate IWebSocketClient WebSocketClientFactoryDelegate(IWebProxy proxy, IServiceProvider provider);</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -106,6 +106,11 @@
         <td><span class="parametername">proxy</span></td>
         <td><p>Proxy settings to use for the new WebSocket client instance.</p>
 </td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.IServiceProvider</span></td>
+        <td><span class="parametername">provider</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

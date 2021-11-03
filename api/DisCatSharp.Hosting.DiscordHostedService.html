@@ -179,6 +179,30 @@
   </table>
   
   
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_Configuration" data-uid="DisCatSharp.Hosting.DiscordHostedService.Configuration">Configuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IConfiguration Configuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IConfiguration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DisCatSharp_Hosting_DiscordHostedService_Logger" data-uid="DisCatSharp.Hosting.DiscordHostedService.Logger">Logger</h4>
   <div class="markdown level1 summary"></div>
   <div class="markdown level1 conceptual"></div>
@@ -197,6 +221,30 @@
     <tbody>
       <tr>
         <td><span class="xref">ILogger</span>&lt;<a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html">DiscordHostedService</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_ServiceProvider" data-uid="DisCatSharp.Hosting.DiscordHostedService.ServiceProvider">ServiceProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IServiceProvider ServiceProvider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IServiceProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -272,12 +320,24 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>A Task.</p>
 </td>
       </tr>
     </tbody>
   </table>
+  
+  
+  <a id="DisCatSharp_Hosting_DiscordHostedService_InitializeExtensions_" data-uid="DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions*"></a>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_InitializeExtensions" data-uid="DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions">InitializeExtensions()</h4>
+  <div class="markdown level1 summary"><p>Dynamically loads extensions by using <a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_Configuration">Configuration</a>, and
+<a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ServiceProvider">ServiceProvider</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void InitializeExtensions()</code></pre>
+  </div>
   
   
   <a id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError*"></a>
@@ -328,7 +388,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -354,7 +414,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>

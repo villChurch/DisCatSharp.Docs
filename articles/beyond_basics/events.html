@@ -119,7 +119,51 @@ private Task MemberAddedHandler(DiscordClient s, GuildMemberAddEventArgs e)
     // Non asynchronous code here.
     return Task.CompletedTask;
 }
-</code></pre><h1 id="avoiding-deadlocks">Avoiding Deadlocks</h1>
+</code></pre><h1 id="dependency-injection">Dependency Injection</h1>
+<p>Often, you need a way to get data in and out of your event handlers.
+Although you <em>could</em> use <code>static</code> fields to accomplish this, the preferred solution would be <em>dependency injection</em>.</p>
+<p>First, you need to register the services that you can use in the event handlers in the future.
+You can do this in DiscordConfiguration:</p>
+<pre><code class="lang-cs">var config = new DiscordConfiguration()
+{
+    Token = &quot;Token here&quot;,
+    TokenType = TokenType.Bot,
+    ServiceProvider = new ServiceCollection()
+        .AddScoped&lt;YourService&gt;()
+        .AddSingleton&lt;YourSecondService&gt;()
+        .BuildServiceProvider()
+};
+</code></pre><p>In this case, we have registered two services: <code>YourService</code> as Scoped and<code>YourSecondService</code> as Singleton.</p>
+<p>Now you can use them in your event handlers.</p>
+<pre><code class="lang-cs">private async Task MessageCreatedHandler(DiscordClient s, MessageCreateEventArgs e)
+{
+    var service = e.ServiceProvider.GetRequiredService&lt;YourService&gt;();
+    var secondService = e.ServiceProvider.GetRequiredService&lt;YourSecondService&gt;();
+}
+</code></pre><h3 id="services">Services</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">Lifespan</th>
+<th style="text-align:left">Instantiated</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">Singleton</td>
+<td style="text-align:left">One time when added to the collection.</td>
+</tr>
+<tr>
+<td style="text-align:center">Scoped</td>
+<td style="text-align:left">Once for each event handler.</td>
+</tr>
+<tr>
+<td style="text-align:center">Transient</td>
+<td style="text-align:left">Every request to the ServiceProvider.</td>
+</tr>
+</tbody>
+</table>
+<h1 id="avoiding-deadlocks">Avoiding Deadlocks</h1>
 <p>Despite the fact that your event handlers are executed asynchronously, they are also executed one at a time on the gateway thread for consistency. 
 This means that each handler must complete its execution before others can be dispatched. </p>
 <p>Because of this, executing code in your event handlers that runs for an extended period of time may inadvertently 

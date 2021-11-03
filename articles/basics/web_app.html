@@ -120,7 +120,17 @@ as a parameter in the constructor.</p>
         }
     }
 }
-</code></pre><h2 id="initialization-errors-handling">Initialization errors handling</h2>
+</code></pre><h2 id="dependency-injection">Dependency Injection</h2>
+<p>The ServiceProvider where you register the <code>DiscordHostedService</code> is automatically copied to the DiscordClient.
+Therefore, if you want to use any services in your <a class="xref" href="../beyond_basics/events.html">event handlers</a>, you can simply register them before the <code>DiscordHostedService</code>:</p>
+<pre><code class="lang-cs">public void ConfigureServices(IServiceCollection services)
+{
+    services.AddSingleton&lt;YourService&gt;();
+
+    services.AddDiscordHostedService&lt;Bot&gt;();
+}
+</code></pre><p>In this case, <code>YourService</code> will be available in all your Discord event handlers.</p>
+<h2 id="initialization-errors-handling">Initialization errors handling</h2>
 <p>During the initialization of bots, various exceptions can be thrown. For example: invalid token.
 By default, the exception will be displayed in the console, after which the application will shutdown.
 You can handle exceptions by overriding method <code>OnInitializationError</code> in your <code>DiscordHostedService</code>.</p>

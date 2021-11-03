@@ -151,7 +151,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;T&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;T&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -174,7 +174,7 @@
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_CollectReactionsAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.CollectReactionsAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_CollectReactionsAsync_DisCatSharp_Entities_DiscordMessage_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.CollectReactionsAsync(DisCatSharp.Entities.DiscordMessage,System.Nullable{System.TimeSpan})">CollectReactionsAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_CollectReactionsAsync_DiscordMessage_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.CollectReactionsAsync(DiscordMessage,System.Nullable{System.TimeSpan})">CollectReactionsAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Collects reactions on a specific message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -193,7 +193,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">m</span></td>
         <td><p>Message to collect reactions on.</p>
 </td>
@@ -216,7 +216,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;<span class="xref">Reaction</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">Reaction</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -224,7 +224,7 @@
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_DoPollAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.DoPollAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_DoPollAsync_DisCatSharp_Entities_DiscordMessage_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordEmoji__System_Nullable_PollBehaviour__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.DoPollAsync(DisCatSharp.Entities.DiscordMessage,System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordEmoji},System.Nullable{PollBehaviour},System.Nullable{System.TimeSpan})">DoPollAsync(DiscordMessage, IEnumerable&lt;DiscordEmoji&gt;, Nullable&lt;PollBehaviour&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_DoPollAsync_DiscordMessage_System_Collections_Generic_IEnumerable_DiscordEmoji__System_Nullable_PollBehaviour__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.DoPollAsync(DiscordMessage,System.Collections.Generic.IEnumerable{DiscordEmoji},System.Nullable{PollBehaviour},System.Nullable{System.TimeSpan})">DoPollAsync(DiscordMessage, IEnumerable&lt;DiscordEmoji&gt;, Nullable&lt;PollBehaviour&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Makes a poll and returns poll results.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -243,13 +243,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">m</span></td>
         <td><p>Message to create poll on.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordEmoji.html">DiscordEmoji</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordEmoji</span>&gt;</td>
         <td><span class="parametername">emojis</span></td>
         <td><p>Emojis to use for this poll.</p>
 </td>
@@ -278,7 +278,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyCollection</span>&lt;<span class="xref">PollEmoji</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.ObjectModel.ReadOnlyCollection</span>&lt;<span class="xref">PollEmoji</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -336,7 +336,7 @@
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_GeneratePagesInEmbed_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.GeneratePagesInEmbed*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_GeneratePagesInEmbed_System_String_SplitType_DisCatSharp_Entities_DiscordEmbedBuilder_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.GeneratePagesInEmbed(System.String,SplitType,DisCatSharp.Entities.DiscordEmbedBuilder)">GeneratePagesInEmbed(String, SplitType, DiscordEmbedBuilder)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_GeneratePagesInEmbed_System_String_SplitType_DiscordEmbedBuilder_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.GeneratePagesInEmbed(System.String,SplitType,DiscordEmbedBuilder)">GeneratePagesInEmbed(String, SplitType, DiscordEmbedBuilder)</h4>
   <div class="markdown level1 summary"><p>Generates pages from a string, and puts them in message embeds.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -367,7 +367,7 @@
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordEmbedBuilder.html">DiscordEmbedBuilder</a></td>
+        <td><span class="xref">DiscordEmbedBuilder</span></td>
         <td><span class="parametername">embedbase</span></td>
         <td><p>Base embed for output embeds.</p>
 </td>
@@ -392,7 +392,7 @@
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__DisCatSharp_Interactivity_PaginationEmojis_System_Nullable_PaginationBehaviour__System_Nullable_PaginationDeletion__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},DisCatSharp.Interactivity.PaginationEmojis,System.Nullable{PaginationBehaviour},System.Nullable{PaginationDeletion},System.Nullable{System.TimeSpan})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationEmojis, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;PaginationDeletion&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__DisCatSharp_Interactivity_PaginationEmojis_System_Nullable_PaginationBehaviour__System_Nullable_PaginationDeletion__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},DisCatSharp.Interactivity.PaginationEmojis,System.Nullable{PaginationBehaviour},System.Nullable{PaginationDeletion},System.Nullable{System.TimeSpan})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationEmojis, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;PaginationDeletion&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends a paginated message.
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildMessageReactions">GuildMessageReactions</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
@@ -412,13 +412,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Channel to send paginated message in.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User to give control.</p>
 </td>
@@ -465,7 +465,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -473,7 +473,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Sends a paginated message with buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -492,13 +492,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel to send it on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User to give control.</p>
 </td>
@@ -545,7 +545,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -553,7 +553,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends a paginated message with buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -572,13 +572,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel to send it on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User to give control.</p>
 </td>
@@ -625,7 +625,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -633,7 +633,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Sends the paginated message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -652,13 +652,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user.</p>
 </td>
@@ -699,7 +699,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>A Task.</p>
 </td>
       </tr>
@@ -708,7 +708,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends the paginated message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -727,13 +727,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user.</p>
 </td>
@@ -774,7 +774,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>A Task.</p>
 </td>
       </tr>
@@ -783,7 +783,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_DisCatSharp_Entities_DiscordInteraction_System_Boolean_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DisCatSharp.Entities.DiscordInteraction,System.Boolean,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_SendPaginatedResponseAsync_DiscordInteraction_System_Boolean_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.SendPaginatedResponseAsync(DiscordInteraction,System.Boolean,DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedResponseAsync(DiscordInteraction, Boolean, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Sends a paginated message in response to an interaction.
 <p>
 <strong>Pass the interaction directly. Interactivity will ACK it.</strong>
@@ -805,7 +805,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordInteraction.html">DiscordInteraction</a></td>
+        <td><span class="xref">DiscordInteraction</span></td>
         <td><span class="parametername">interaction</span></td>
         <td><p>The interaction to create a response to.</p>
 </td>
@@ -817,7 +817,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user to listen for button presses from.</p>
 </td>
@@ -864,7 +864,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -903,7 +903,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,CancellationToken)">WaitForButtonAsync(DiscordMessage, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,CancellationToken)">WaitForButtonAsync(DiscordMessage, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -922,7 +922,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
@@ -945,7 +945,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -975,7 +975,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,CancellationToken)">WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,CancellationToken)">WaitForButtonAsync(DiscordMessage, DiscordUser, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed by the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -994,13 +994,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user to wait for the button press from.</p>
 </td>
@@ -1023,7 +1023,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -1053,7 +1053,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,DiscordUser,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed by the specified user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1072,13 +1072,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user to wait for the button press from.</p>
 </td>
@@ -1101,7 +1101,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -1131,7 +1131,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordButtonComponent__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordButtonComponent},CancellationToken)">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Collections_Generic_IEnumerable_DiscordButtonComponent__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Collections.Generic.IEnumerable{DiscordButtonComponent},CancellationToken)">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for any button in the specified collection to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1150,13 +1150,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordButtonComponent</span>&gt;</td>
         <td><span class="parametername">buttons</span></td>
         <td><p>A collection of buttons to listen for.</p>
 </td>
@@ -1179,7 +1179,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -1209,7 +1209,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordButtonComponent__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordButtonComponent},System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Collections_Generic_IEnumerable_DiscordButtonComponent__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Collections.Generic.IEnumerable{DiscordButtonComponent},System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, IEnumerable&lt;DiscordButtonComponent&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button in the specified collection to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1228,13 +1228,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordButtonComponent.html">DiscordButtonComponent</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordButtonComponent</span>&gt;</td>
         <td><span class="parametername">buttons</span></td>
         <td><p>A collection of buttons to listen for.</p>
 </td>
@@ -1257,7 +1257,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -1287,7 +1287,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},CancellationToken)">WaitForButtonAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},CancellationToken)">WaitForButtonAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for any button to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1306,7 +1306,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
@@ -1335,7 +1335,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1343,7 +1343,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1362,7 +1362,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
@@ -1391,7 +1391,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1399,7 +1399,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any button on the specified message to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1418,7 +1418,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
@@ -1441,7 +1441,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of button that was pressed, if any.</p>
 </td>
       </tr>
@@ -1471,7 +1471,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.String,CancellationToken)">WaitForButtonAsync(DiscordMessage, String, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,CancellationToken)">WaitForButtonAsync(DiscordMessage, String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1490,7 +1490,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
@@ -1519,7 +1519,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of the operation.</p>
 </td>
       </tr>
@@ -1549,7 +1549,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DisCatSharp_Entities_DiscordMessage_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DisCatSharp.Entities.DiscordMessage,System.String,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForButtonAsync_DiscordMessage_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForButtonAsync(DiscordMessage,System.String,System.Nullable{System.TimeSpan})">WaitForButtonAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a button with the specified Id to be pressed.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1568,7 +1568,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for the button on.</p>
 </td>
@@ -1597,7 +1597,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td><p>A <a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult&lt;T&gt;</a> with the result of the operation.</p>
 </td>
       </tr>
@@ -1665,7 +1665,7 @@ This does <em><strong>not</strong></em> invoke <see cref="!:IPaginationRequest.D
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1709,7 +1709,7 @@ This does NOT handle removing emojis after finishing for you.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -1760,7 +1760,7 @@ This does NOT handle removing emojis after finishing for you.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;T&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;T&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1783,7 +1783,7 @@ This does NOT handle removing emojis after finishing for you.</p>
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForMessageAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForMessageAsync_System_Func_DisCatSharp_Entities_DiscordMessage_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForMessageAsync(System.Func{DisCatSharp.Entities.DiscordMessage,System.Boolean},System.Nullable{System.TimeSpan})">WaitForMessageAsync(Func&lt;DiscordMessage, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForMessageAsync_System_Func_DiscordMessage_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForMessageAsync(System.Func{DiscordMessage,System.Boolean},System.Nullable{System.TimeSpan})">WaitForMessageAsync(Func&lt;DiscordMessage, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a specific message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1802,7 +1802,7 @@ This does NOT handle removing emojis after finishing for you.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<span class="xref">DiscordMessage</span>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>Predicate to match.</p>
 </td>
@@ -1825,7 +1825,7 @@ This does NOT handle removing emojis after finishing for you.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1833,7 +1833,7 @@ This does NOT handle removing emojis after finishing for you.</p>
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_DiscordMessage_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(DiscordMessage,DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Wait for a specific reaction.
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildMessageReactions">GuildMessageReactions</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
@@ -1853,13 +1853,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>Message reaction was added to.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User that made the reaction.</p>
 </td>
@@ -1882,7 +1882,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1890,7 +1890,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_System_Func_MessageReactionAddEventArgs_System_Boolean__DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(System.Func{MessageReactionAddEventArgs,System.Boolean},DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(Func&lt;MessageReactionAddEventArgs, Boolean&gt;, DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_System_Func_MessageReactionAddEventArgs_System_Boolean__DiscordMessage_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(System.Func{MessageReactionAddEventArgs,System.Boolean},DiscordMessage,DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(Func&lt;MessageReactionAddEventArgs, Boolean&gt;, DiscordMessage, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a specific reaction.
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildMessageReactions">GuildMessageReactions</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
@@ -1916,13 +1916,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>Message reaction was added to.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User that made the reaction.</p>
 </td>
@@ -1945,7 +1945,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1953,7 +1953,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_System_Func_MessageReactionAddEventArgs_System_Boolean__DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(System.Func{MessageReactionAddEventArgs,System.Boolean},DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(Func&lt;MessageReactionAddEventArgs, Boolean&gt;, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForReactionAsync_System_Func_MessageReactionAddEventArgs_System_Boolean__DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForReactionAsync(System.Func{MessageReactionAddEventArgs,System.Boolean},DiscordUser,System.Nullable{System.TimeSpan})">WaitForReactionAsync(Func&lt;MessageReactionAddEventArgs, Boolean&gt;, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a specific reaction.
 For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildMessageReactions">GuildMessageReactions</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
@@ -1979,7 +1979,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User that made the reaction.</p>
 </td>
@@ -2002,7 +2002,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2052,7 +2052,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">MessageReactionAddEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2060,7 +2060,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,System.String,CancellationToken)">WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,CancellationToken)">WaitForSelectAsync(DiscordMessage, DiscordUser, String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by a specific user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2079,13 +2079,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user to wait on.</p>
 </td>
@@ -2114,7 +2114,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2138,7 +2138,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser,System.String,System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_DiscordUser_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,DiscordUser,System.String,System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, DiscordUser, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with by a specific user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2157,13 +2157,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user to wait on.</p>
 </td>
@@ -2192,7 +2192,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2216,7 +2216,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},CancellationToken)">WaitForSelectAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},CancellationToken)">WaitForSelectAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for any dropdown to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2235,7 +2235,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for.</p>
 </td>
@@ -2264,7 +2264,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2288,7 +2288,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_Func_ComponentInteractionCreateEventArgs_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.Func{ComponentInteractionCreateEventArgs,System.Boolean},System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, Func&lt;ComponentInteractionCreateEventArgs, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any dropdown to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2307,7 +2307,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait for.</p>
 </td>
@@ -2336,7 +2336,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2360,7 +2360,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,System.String,CancellationToken)">WaitForSelectAsync(DiscordMessage, String, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_CancellationToken_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,CancellationToken)">WaitForSelectAsync(DiscordMessage, String, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2379,7 +2379,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
@@ -2408,7 +2408,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2432,7 +2432,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DisCatSharp.Entities.DiscordMessage,System.String,System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForSelectAsync(DiscordMessage,System.String,System.Nullable{System.TimeSpan})">WaitForSelectAsync(DiscordMessage, String, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a dropdown to be interacted with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2451,7 +2451,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
+        <td><span class="xref">DiscordMessage</span></td>
         <td><span class="parametername">message</span></td>
         <td><p>The message to wait on.</p>
 </td>
@@ -2480,12 +2480,12 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">ComponentInteractionCreateEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
   </table>
-  <h5 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DisCatSharp_Entities_DiscordMessage_System_String_System_Nullable_System_TimeSpan___remarks">Remarks</h5>
+  <h5 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForSelectAsync_DiscordMessage_System_String_System_Nullable_System_TimeSpan___remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>This is here for backwards-compatibility and will internally create a cancellation token.</p></div>
   <h5 class="exceptions">Exceptions</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -2506,7 +2506,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForTypingAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForTypingAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForTypingAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForTypingAsync(DisCatSharp.Entities.DiscordChannel,System.Nullable{System.TimeSpan})">WaitForTypingAsync(DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForTypingAsync_DiscordChannel_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForTypingAsync(DiscordChannel,System.Nullable{System.TimeSpan})">WaitForTypingAsync(DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for any user to start typing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2525,7 +2525,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Channel to type in.</p>
 </td>
@@ -2548,7 +2548,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2556,7 +2556,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_DisCatSharp_Entities_DiscordUser_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync(DisCatSharp.Entities.DiscordUser,DisCatSharp.Entities.DiscordChannel,System.Nullable{System.TimeSpan})">WaitForUserTypingAsync(DiscordUser, DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_DiscordUser_DiscordChannel_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync(DiscordUser,DiscordChannel,System.Nullable{System.TimeSpan})">WaitForUserTypingAsync(DiscordUser, DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a user to start typing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2575,13 +2575,13 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User that starts typing.</p>
 </td>
       </tr>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
+        <td><span class="xref">DiscordChannel</span></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Channel the user is typing in.</p>
 </td>
@@ -2604,7 +2604,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -2612,7 +2612,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <a id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync(DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForUserTypingAsync(DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_InteractivityExtension_WaitForUserTypingAsync_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.InteractivityExtension.WaitForUserTypingAsync(DiscordUser,System.Nullable{System.TimeSpan})">WaitForUserTypingAsync(DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a user to start typing.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2631,7 +2631,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td><span class="xref">DiscordUser</span></td>
         <td><span class="parametername">user</span></td>
         <td><p>User that starts typing.</p>
 </td>
@@ -2654,7 +2654,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">TypingStartEventArgs</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
