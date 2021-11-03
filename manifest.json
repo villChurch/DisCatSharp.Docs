@@ -2430,7 +2430,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordConfiguration.html",
-          "hash": "0zH4XC+oq1oLOW/Kce/Xh47V0SYNG0ZNFp60rMe9GzM="
+          "hash": "yfemCPD1JuSCdEFWQ7U/aXgj/3kCDcnfuz6Pk92W55U="
         }
       },
       "is_incremental": false,
@@ -6702,7 +6702,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Net.WebSocket.WebSocketClientFactoryDelegate.html",
-          "hash": "L5PnRVkssDkWkMZG1cQCNaykk5k3LIINiZg7V5S26xI="
+          "hash": "WLT/TkrBEZ3Dl/h31hlb6Ca+cJB7mLQ3z5NcrjYH1gs="
         }
       },
       "is_incremental": false,
