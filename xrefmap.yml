@@ -1066,6 +1066,45 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.AutocompleteContext
   fullName: DisCatSharp.ApplicationCommands.AutocompleteContext
   nameWithType: AutocompleteContext
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension
+  name: ApplicationCommandsExtension
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_ApplicationCommandsExtension
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension
+  nameWithType: AutocompleteContext.ApplicationCommandsExtension
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension*
+  name: ApplicationCommandsExtension
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_ApplicationCommandsExtension_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.ApplicationCommandsExtension
+  nameWithType: AutocompleteContext.ApplicationCommandsExtension
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Channel
+  name: Channel
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Channel
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Channel
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Channel
+  nameWithType: AutocompleteContext.Channel
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Channel*
+  name: Channel
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Channel_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Channel
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Channel
+  nameWithType: AutocompleteContext.Channel
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Client
+  name: Client
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Client
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Client
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Client
+  nameWithType: AutocompleteContext.Client
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Client*
+  name: Client
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Client_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Client
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Client
+  nameWithType: AutocompleteContext.Client
 - uid: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
   name: FocusedOption
   href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_FocusedOption
@@ -1079,6 +1118,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.FocusedOption
   nameWithType: AutocompleteContext.FocusedOption
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Guild
+  name: Guild
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Guild
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Guild
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Guild
+  nameWithType: AutocompleteContext.Guild
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Guild*
+  name: Guild
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Guild_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Guild
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Guild
+  nameWithType: AutocompleteContext.Guild
 - uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
   name: Interaction
   href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Interaction
@@ -1092,6 +1144,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Interaction
   nameWithType: AutocompleteContext.Interaction
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Member
+  name: Member
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Member
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Member
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Member
+  nameWithType: AutocompleteContext.Member
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Member*
+  name: Member
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Member_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Member
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Member
+  nameWithType: AutocompleteContext.Member
 - uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Options
   name: Options
   href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Options
@@ -1105,6 +1170,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Options
   nameWithType: AutocompleteContext.Options
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Services
+  name: Services
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Services
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.Services
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Services
+  nameWithType: AutocompleteContext.Services
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.Services*
+  name: Services
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_Services_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.Services
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.Services
+  nameWithType: AutocompleteContext.Services
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.User
+  name: User
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_User
+  commentId: P:DisCatSharp.ApplicationCommands.AutocompleteContext.User
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.User
+  nameWithType: AutocompleteContext.User
+- uid: DisCatSharp.ApplicationCommands.AutocompleteContext.User*
+  name: User
+  href: api/DisCatSharp.ApplicationCommands.AutocompleteContext.html#DisCatSharp_ApplicationCommands_AutocompleteContext_User_
+  commentId: Overload:DisCatSharp.ApplicationCommands.AutocompleteContext.User
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.AutocompleteContext.User
+  nameWithType: AutocompleteContext.User
 - uid: DisCatSharp.ApplicationCommands.BaseContext
   name: BaseContext
   href: api/DisCatSharp.ApplicationCommands.BaseContext.html
