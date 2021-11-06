@@ -25305,6 +25305,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.Color
   nameWithType: DiscordMember.Color
+- uid: DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil
+  name: CommunicationDisabledUntil
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_CommunicationDisabledUntil
+  commentId: P:DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil
+  fullName: DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil
+  nameWithType: DiscordMember.CommunicationDisabledUntil
+- uid: DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil*
+  name: CommunicationDisabledUntil
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_CommunicationDisabledUntil_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil
+  nameWithType: DiscordMember.CommunicationDisabledUntil
 - uid: DisCatSharp.Entities.DiscordMember.CreateDmChannelAsync
   name: CreateDmChannelAsync()
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_CreateDmChannelAsync
@@ -25454,6 +25467,45 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.GuildAvatarUrl
   nameWithType: DiscordMember.GuildAvatarUrl
+- uid: DisCatSharp.Entities.DiscordMember.GuildBannerHash
+  name: GuildBannerHash
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBannerHash
+  commentId: P:DisCatSharp.Entities.DiscordMember.GuildBannerHash
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBannerHash
+  nameWithType: DiscordMember.GuildBannerHash
+- uid: DisCatSharp.Entities.DiscordMember.GuildBannerHash*
+  name: GuildBannerHash
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBannerHash_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.GuildBannerHash
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBannerHash
+  nameWithType: DiscordMember.GuildBannerHash
+- uid: DisCatSharp.Entities.DiscordMember.GuildBannerUrl
+  name: GuildBannerUrl
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBannerUrl
+  commentId: P:DisCatSharp.Entities.DiscordMember.GuildBannerUrl
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBannerUrl
+  nameWithType: DiscordMember.GuildBannerUrl
+- uid: DisCatSharp.Entities.DiscordMember.GuildBannerUrl*
+  name: GuildBannerUrl
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBannerUrl_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.GuildBannerUrl
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBannerUrl
+  nameWithType: DiscordMember.GuildBannerUrl
+- uid: DisCatSharp.Entities.DiscordMember.GuildBio
+  name: GuildBio
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBio
+  commentId: P:DisCatSharp.Entities.DiscordMember.GuildBio
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBio
+  nameWithType: DiscordMember.GuildBio
+- uid: DisCatSharp.Entities.DiscordMember.GuildBio*
+  name: GuildBio
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_GuildBio_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.GuildBio
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.GuildBio
+  nameWithType: DiscordMember.GuildBio
 - uid: DisCatSharp.Entities.DiscordMember.Hierarchy
   name: Hierarchy
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_Hierarchy
@@ -42825,6 +42877,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordUser.BannerUrl
   nameWithType: DiscordUser.BannerUrl
+- uid: DisCatSharp.Entities.DiscordUser.Bio
+  name: Bio
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_Bio
+  commentId: P:DisCatSharp.Entities.DiscordUser.Bio
+  fullName: DisCatSharp.Entities.DiscordUser.Bio
+  nameWithType: DiscordUser.Bio
+- uid: DisCatSharp.Entities.DiscordUser.Bio*
+  name: Bio
+  href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_Bio_
+  commentId: Overload:DisCatSharp.Entities.DiscordUser.Bio
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordUser.Bio
+  nameWithType: DiscordUser.Bio
 - uid: DisCatSharp.Entities.DiscordUser.DefaultAvatarUrl
   name: DefaultAvatarUrl
   href: api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_DefaultAvatarUrl

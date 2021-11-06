@@ -98,6 +98,9 @@
       <a class="xref" href="DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_UsernameWithDiscriminator">DiscordUser.UsernameWithDiscriminator</a>
     </div>
     <div>
+      <a class="xref" href="DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_Bio">DiscordUser.Bio</a>
+    </div>
+    <div>
       <a class="xref" href="DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_ProfileUri">DiscordUser.ProfileUri</a>
     </div>
     <div>
@@ -307,6 +310,32 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordMember_CommunicationDisabledUntil_" data-uid="DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_CommunicationDisabledUntil" data-uid="DisCatSharp.Entities.DiscordMember.CommunicationDisabledUntil">CommunicationDisabledUntil</h4>
+  <div class="markdown level1 summary"><p>Date until the can communicate again.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? CommunicationDisabledUntil { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordMember_Discriminator_" data-uid="DisCatSharp.Entities.DiscordMember.Discriminator*"></a>
   <h4 id="DisCatSharp_Entities_DiscordMember_Discriminator" data-uid="DisCatSharp.Entities.DiscordMember.Discriminator">Discriminator</h4>
   <div class="markdown level1 summary"><p>Gets the member&apos;s 4-digit discriminator.</p>
@@ -478,6 +507,85 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string GuildAvatarUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordMember_GuildBannerHash_" data-uid="DisCatSharp.Entities.DiscordMember.GuildBannerHash*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_GuildBannerHash" data-uid="DisCatSharp.Entities.DiscordMember.GuildBannerHash">GuildBannerHash</h4>
+  <div class="markdown level1 summary"><p>Gets the members banner hash.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public virtual string GuildBannerHash { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordMember_GuildBannerUrl_" data-uid="DisCatSharp.Entities.DiscordMember.GuildBannerUrl*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_GuildBannerUrl" data-uid="DisCatSharp.Entities.DiscordMember.GuildBannerUrl">GuildBannerUrl</h4>
+  <div class="markdown level1 summary"><p>Gets the members banner URL.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildBannerUrl { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordMember_GuildBio_" data-uid="DisCatSharp.Entities.DiscordMember.GuildBio*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMember_GuildBio" data-uid="DisCatSharp.Entities.DiscordMember.GuildBio">GuildBio</h4>
+  <div class="markdown level1 summary"><p>Gets the members guild bio.
+This is not available to bots tho.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string GuildBio { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
