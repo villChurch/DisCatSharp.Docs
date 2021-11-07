@@ -101,7 +101,7 @@
   
   
   <a id="DisCatSharp_Hosting_DiscordHostedService__ctor_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor*"></a>
-  <h4 id="DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__IServiceProvider_IHostApplicationLifetime_System_String_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},IServiceProvider,IHostApplicationLifetime,System.String)">DiscordHostedService(IConfiguration, ILogger&lt;DiscordHostedService&gt;, IServiceProvider, IHostApplicationLifetime, String)</h4>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordHostedService__System_IServiceProvider_IHostApplicationLifetime_System_String_" data-uid="DisCatSharp.Hosting.DiscordHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)">DiscordHostedService(IConfiguration, ILogger&lt;DiscordHostedService&gt;, IServiceProvider, IHostApplicationLifetime, String)</h4>
   <div class="markdown level1 summary"><p>Initializes a new instance of the <a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html">DiscordHostedService</a> class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -132,7 +132,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="xref">System.IServiceProvider</span></td>
         <td><span class="parametername">provider</span></td>
         <td><p>The provider.</p>
 </td>
@@ -244,7 +244,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="xref">System.IServiceProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -255,7 +255,8 @@
   
   <a id="DisCatSharp_Hosting_DiscordHostedService_Client_" data-uid="DisCatSharp.Hosting.DiscordHostedService.Client*"></a>
   <h4 id="DisCatSharp_Hosting_DiscordHostedService_Client" data-uid="DisCatSharp.Hosting.DiscordHostedService.Client">Client</h4>
-  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 summary"><p>Reference to connected client</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -283,7 +284,7 @@
   
   
   <a id="DisCatSharp_Hosting_DiscordHostedService_ExecuteAsync_" data-uid="DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync*"></a>
-  <h4 id="DisCatSharp_Hosting_DiscordHostedService_ExecuteAsync_System_Threading_CancellationToken_" data-uid="DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync(System.Threading.CancellationToken)">ExecuteAsync(CancellationToken)</h4>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_ExecuteAsync_CancellationToken_" data-uid="DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync(CancellationToken)">ExecuteAsync(CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Executes the bot.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -302,7 +303,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.CancellationToken</span></td>
+        <td><span class="xref">CancellationToken</span></td>
         <td><span class="parametername">stoppingToken</span></td>
         <td><p>The stopping token.</p>
 </td>
@@ -319,7 +320,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td><p>A Task.</p>
 </td>
       </tr>
@@ -340,7 +341,7 @@
   
   
   <a id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError*"></a>
-  <h4 id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_Exception_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(Exception)">OnInitializationError(Exception)</h4>
+  <h4 id="DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_System_Exception_" data-uid="DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)">OnInitializationError(Exception)</h4>
   <div class="markdown level1 summary"><p>When the bot fails to start, this method will be invoked. (Default behavior is to shutdown)</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -359,7 +360,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Exception</span></td>
+        <td><span class="xref">System.Exception</span></td>
         <td><span class="parametername">ex</span></td>
         <td><p>The exception/reason the bot couldn&apos;t start</p>
 </td>
@@ -387,7 +388,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -413,7 +414,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span></td>
+        <td><span class="xref">Task</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -101,8 +101,9 @@
   
   
   <a id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanDecompose_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanDecompose*"></a>
-  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanDecompose_Type_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanDecompose(Type)">CanDecompose(Type)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanDecompose_System_Type_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanDecompose(System.Type)">CanDecompose(Type)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the decomposer can decompose a specific type.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -119,9 +120,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>Type to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -136,17 +138,20 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Whether the decomposer can decompose a given type.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_CanDecompose_Type_">IDecomposer.CanDecompose(Type)</a></div>
+      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_CanDecompose_System_Type_">IDecomposer.CanDecompose(Type)</a></div>
   
   
   <a id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanRecompose_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanRecompose*"></a>
-  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanRecompose_Type_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanRecompose(Type)">CanRecompose(Type)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_CanRecompose_System_Type_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.CanRecompose(System.Type)">CanRecompose(Type)</h4>
+  <div class="markdown level1 summary"><p>Checks whether the decomposer can recompose a specific decomposed type.</p>
+<p>Note that while a type might be considered recomposable, other factors might prevent recomposing operation from being successful.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -163,9 +168,10 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">t</span></td>
-        <td></td>
+        <td><p>Decomposed type to check.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -180,17 +186,19 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Whether the decomposer can decompose a given type.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_CanRecompose_Type_">IDecomposer.CanRecompose(Type)</a></div>
+      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_CanRecompose_System_Type_">IDecomposer.CanRecompose(Type)</a></div>
   
   
   <a id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryDecompose_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryDecompose*"></a>
-  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryDecompose_System_Object_Type_System_Object__Type__" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryDecompose(System.Object,Type,System.Object@,Type@)">TryDecompose(Object, Type, out Object, out Type)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryDecompose_System_Object_System_Type_System_Object__System_Type__" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryDecompose(System.Object,System.Type,System.Object@,System.Type@)">TryDecompose(Object, Type, out Object, out Type)</h4>
+  <div class="markdown level1 summary"><p>Attempts to decompose a given object of specified source type. The operation produces the decomposed object and the type it got decomposed into.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -209,22 +217,26 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><p>Object to decompose.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">tobj</span></td>
-        <td></td>
+        <td><p>Type to decompose.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">decomposed</span></td>
-        <td></td>
+        <td><p>Decomposition result.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">tdecomposed</span></td>
-        <td></td>
+        <td><p>Type of the result.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -239,17 +251,19 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_TryDecompose_System_Object_Type_System_Object__Type__">IDecomposer.TryDecompose(Object, Type, out Object, out Type)</a></div>
+      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_TryDecompose_System_Object_System_Type_System_Object__System_Type__">IDecomposer.TryDecompose(Object, Type, out Object, out Type)</a></div>
   
   
   <a id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryRecompose_" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryRecompose*"></a>
-  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryRecompose_System_Object_Type_Type_System_Object__" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryRecompose(System.Object,Type,Type,System.Object@)">TryRecompose(Object, Type, Type, out Object)</h4>
-  <div class="markdown level1 summary"></div>
+  <h4 id="DisCatSharp_Common_Serialization_ComplexDecomposer_TryRecompose_System_Object_System_Type_System_Type_System_Object__" data-uid="DisCatSharp.Common.Serialization.ComplexDecomposer.TryRecompose(System.Object,System.Type,System.Type,System.Object@)">TryRecompose(Object, Type, Type, out Object)</h4>
+  <div class="markdown level1 summary"><p>Attempts to recompose given object of specified source type, into specified target type. The operation produces the recomposed object.</p>
+</div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
@@ -268,22 +282,26 @@
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">obj</span></td>
-        <td></td>
+        <td><p>Object to recompose from.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">tobj</span></td>
-        <td></td>
+        <td><p>Type of data to recompose.</p>
+</td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">trecomposed</span></td>
-        <td></td>
+        <td><p>Type to recompose into.</p>
+</td>
       </tr>
       <tr>
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">recomposed</span></td>
-        <td></td>
+        <td><p>Recomposition result.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -298,12 +316,13 @@
     <tbody>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td></td>
+        <td><p>Whether the operation was successful.</p>
+</td>
       </tr>
     </tbody>
   </table>
   <h5 class="implements">Implements</h5>
-      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_TryRecompose_System_Object_Type_Type_System_Object__">IDecomposer.TryRecompose(Object, Type, Type, out Object)</a></div>
+      <div><a class="xref" href="DisCatSharp.Common.Serialization.IDecomposer.html#DisCatSharp_Common_Serialization_IDecomposer_TryRecompose_System_Object_System_Type_System_Type_System_Object__">IDecomposer.TryRecompose(Object, Type, Type, out Object)</a></div>
 
 </article>
           </div>

@@ -108,7 +108,6 @@
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IServiceCollection AddDiscordHostedService&lt;TService&gt;(this IServiceCollection services)
-
     where TService : class, IDiscordHostedService</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -172,7 +171,6 @@ Maps to Implementation of <code data-dev-comment-type="typeparamref" class="type
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public static IServiceCollection AddDiscordHostedService&lt;TInterface, TService&gt;(this IServiceCollection services)
-
     where TInterface : class, IDiscordHostedService where TService : class, TInterface, IDiscordHostedService</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>

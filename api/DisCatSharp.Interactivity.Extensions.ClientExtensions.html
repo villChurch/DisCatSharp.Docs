@@ -182,7 +182,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">ReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.ObjectModel.ReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a>&gt;&gt;</td>
         <td><p>A dictionary containing <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a> instances for each shard.</p>
 </td>
       </tr>
@@ -239,6 +239,22 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.InvalidOperationException</span></td>
+        <td><p>Thrown if interactivity has already been enabled for the client instance.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ClientExtensions_UseInteractivityAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ClientExtensions.UseInteractivityAsync*"></a>
@@ -284,7 +300,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a>&gt;&gt;</td>
         <td><p>A dictionary containing new <a class="xref" href="DisCatSharp.Interactivity.InteractivityExtension.html">InteractivityExtension</a> instances for each shard.</p>
 </td>
       </tr>

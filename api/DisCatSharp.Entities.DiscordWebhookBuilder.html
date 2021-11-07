@@ -132,7 +132,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordAttachment.html">DiscordAttachment</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordAttachment.html">DiscordAttachment</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -184,7 +184,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordActionRowComponent.html">DiscordActionRowComponent</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordActionRowComponent.html">DiscordActionRowComponent</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -236,7 +236,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordEmbed.html">DiscordEmbed</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordEmbed.html">DiscordEmbed</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -262,7 +262,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessageFile.html">DiscordMessageFile</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessageFile.html">DiscordMessageFile</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -314,7 +314,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.IMention.html">IMention</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.IMention.html">IMention</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -392,10 +392,26 @@
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>No components were passed.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_IEnumerable_DisCatSharp_Entities_DiscordActionRowComponent__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents(IEnumerable{DisCatSharp.Entities.DiscordActionRowComponent})">AddComponents(IEnumerable&lt;DiscordActionRowComponent&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordActionRowComponent__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordActionRowComponent})">AddComponents(IEnumerable&lt;DiscordActionRowComponent&gt;)</h4>
   <div class="markdown level1 summary"><p>Appends several rows of components to the builder</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -414,7 +430,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordActionRowComponent.html">DiscordActionRowComponent</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordActionRowComponent.html">DiscordActionRowComponent</a>&gt;</td>
         <td><span class="parametername">components</span></td>
         <td><p>The rows of components to add, holding up to five each.</p>
 </td>
@@ -439,7 +455,7 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_IEnumerable_DisCatSharp_Entities_DiscordComponent__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents(IEnumerable{DisCatSharp.Entities.DiscordComponent})">AddComponents(IEnumerable&lt;DiscordComponent&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddComponents_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordComponent__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddComponents(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordComponent})">AddComponents(IEnumerable&lt;DiscordComponent&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds a row of components to the builder, up to 5 components per row, and up to 5 rows per message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -458,7 +474,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordComponent.html">DiscordComponent</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordComponent.html">DiscordComponent</a>&gt;</td>
         <td><span class="parametername">components</span></td>
         <td><p>The components to add to the builder.</p>
 </td>
@@ -477,6 +493,22 @@
       <tr>
         <td><a class="xref" href="DisCatSharp.Entities.DiscordWebhookBuilder.html">DiscordWebhookBuilder</a></td>
         <td><p>The current builder to be chained.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.ArgumentOutOfRangeException</span></td>
+        <td><p>No components were passed.</p>
 </td>
       </tr>
     </tbody>
@@ -528,7 +560,7 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_AddEmbeds_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddEmbeds*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddEmbeds_IEnumerable_DisCatSharp_Entities_DiscordEmbed__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddEmbeds(IEnumerable{DisCatSharp.Entities.DiscordEmbed})">AddEmbeds(IEnumerable&lt;DiscordEmbed&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddEmbeds_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordEmbed__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddEmbeds(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordEmbed})">AddEmbeds(IEnumerable&lt;DiscordEmbed&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds the given embeds to send at the execution of the webhook.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -547,7 +579,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordEmbed.html">DiscordEmbed</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordEmbed.html">DiscordEmbed</a>&gt;</td>
         <td><span class="parametername">embeds</span></td>
         <td><p>Embeds to add.</p>
 </td>
@@ -678,7 +710,7 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_AddFiles_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddFiles*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddFiles_Dictionary_System_String_Stream__System_Boolean_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddFiles(Dictionary{System.String,Stream},System.Boolean)">AddFiles(Dictionary&lt;String, Stream&gt;, Boolean)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddFiles_System_Collections_Generic_Dictionary_System_String_Stream__System_Boolean_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddFiles(System.Collections.Generic.Dictionary{System.String,Stream},System.Boolean)">AddFiles(Dictionary&lt;String, Stream&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Adds the given files to send at the execution of the webhook.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -697,7 +729,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Stream</span>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">Stream</span>&gt;</td>
         <td><span class="parametername">files</span></td>
         <td><p>Dictionary of file name and file data.</p>
 </td>
@@ -772,7 +804,7 @@
   
   
   <a id="DisCatSharp_Entities_DiscordWebhookBuilder_AddMentions_" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddMentions*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddMentions_IEnumerable_DisCatSharp_Entities_IMention__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddMentions(IEnumerable{DisCatSharp.Entities.IMention})">AddMentions(IEnumerable&lt;IMention&gt;)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordWebhookBuilder_AddMentions_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_IMention__" data-uid="DisCatSharp.Entities.DiscordWebhookBuilder.AddMentions(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.IMention})">AddMentions(IEnumerable&lt;IMention&gt;)</h4>
   <div class="markdown level1 summary"><p>Adds the mentions to the mentions to parse, etc. at the execution of the webhook.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -791,7 +823,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.IMention.html">IMention</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.IMention.html">IMention</a>&gt;</td>
         <td><span class="parametername">mentions</span></td>
         <td><p>Mentions to add.</p>
 </td>
@@ -880,7 +912,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The modified message</p>
 </td>
       </tr>
@@ -937,7 +969,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The modified message</p>
 </td>
       </tr>
@@ -988,7 +1020,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The modified message</p>
 </td>
       </tr>
@@ -1045,7 +1077,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The modified message</p>
 </td>
       </tr>
@@ -1090,7 +1122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The message sent</p>
 </td>
       </tr>
@@ -1141,7 +1173,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The message sent</p>
 </td>
       </tr>

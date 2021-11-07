@@ -89,20 +89,22 @@ DiscordApplicationCommandOptionChoice from external sources such as a database.<
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">ChoiceProviderAttribute</span></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><span class="xref">ChoiceProviderAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.ApplicationCommands.html">DisCatSharp.ApplicationCommands</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_ApplicationCommands_ChoiceProviderAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class ChoiceProviderAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Parameter, AllowMultiple = true)]
+public class ChoiceProviderAttribute : Attribute, _Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="DisCatSharp_ApplicationCommands_ChoiceProviderAttribute__ctor_" data-uid="DisCatSharp.ApplicationCommands.ChoiceProviderAttribute.#ctor*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_ChoiceProviderAttribute__ctor_Type_" data-uid="DisCatSharp.ApplicationCommands.ChoiceProviderAttribute.#ctor(Type)">ChoiceProviderAttribute(Type)</h4>
+  <h4 id="DisCatSharp_ApplicationCommands_ChoiceProviderAttribute__ctor_System_Type_" data-uid="DisCatSharp.ApplicationCommands.ChoiceProviderAttribute.#ctor(System.Type)">ChoiceProviderAttribute(Type)</h4>
   <div class="markdown level1 summary"><p>Adds a choice provider to this command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -121,7 +123,7 @@ DiscordApplicationCommandOptionChoice from external sources such as a database.<
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">providerType</span></td>
         <td><p>The type of the provider.</p>
 </td>
@@ -151,7 +153,7 @@ DiscordApplicationCommandOptionChoice from external sources such as a database.<
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td></td>
       </tr>
     </tbody>
