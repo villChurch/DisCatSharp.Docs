@@ -2418,7 +2418,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.DiscordClient.html",
-          "hash": "uUex6ppE62FUR2EZhIwOJLgItHxeIeNwz1MKOTOsV4c="
+          "hash": "VT+uBY1XVY6T0UAOo7K/uPhxzB7NtE9mPVJ0pNwBPv0="
         }
       },
       "is_incremental": false,
@@ -6434,6 +6434,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Net.Endpoints.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Net.Endpoints.html",
+          "hash": "eofvJRXRdPq50dz1I2qZpbsUKWGVW02pOkYVj0c3lv8="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Net.GatewayInfo.yml",
       "output": {
         ".html": {
@@ -6726,7 +6738,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Net.html",
-          "hash": "rOd6NCycUgguQsXxFnoz7qnbs5Vya/LPXnH4XGYga8k="
+          "hash": "YqQ7B1xLAVVwv9vRlCtYPimJs3ylucXGezJl7pV4rcw="
         }
       },
       "is_incremental": false,
@@ -7242,7 +7254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "E0lj8crcVfTpzhPkhweAwR7xUD+EHq0fAPnwYSoh/dM="
+          "hash": "jpMw145Rzyu5v0ypS4fFxkCLb3yd69Pl0xGMguJUSeA="
         }
       },
       "is_incremental": false,
@@ -8407,8 +8419,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 601,
-          "skipped_file_count": 601
+          "total_file_count": 602,
+          "skipped_file_count": 602
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

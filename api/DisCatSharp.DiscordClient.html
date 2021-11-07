@@ -1144,6 +1144,73 @@ Each command takes up to 10 permission overwrites.</p>
   </table>
   
   
+  <a id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_" data-uid="DisCatSharp.DiscordClient.ExecuteRawRequestAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="DisCatSharp.DiscordClient.ExecuteRawRequestAsync(RestRequestMethod,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">ExecuteRawRequestAsync(RestRequestMethod, String, String, Dictionary&lt;String, String&gt;)</h4>
+  <div class="markdown level1 summary"><p>Executes a raw request.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;RestResponse&gt; ExecuteRawRequestAsync(RestRequestMethod method, string route, string jsonBody = null, Dictionary&lt;string, string&gt; additionalHeaders = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">RestRequestMethod</span></td>
+        <td><span class="parametername">method</span></td>
+        <td><p>The method.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">route</span></td>
+        <td><p>The route.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">jsonBody</span></td>
+        <td><p>The json body.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="parametername">additionalHeaders</span></td>
+        <td><p>The addditional headers.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">RestResponse</span>&gt;</td>
+        <td><p>A awaitable RestResponse</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_String___examples">Examples</h5>
+  <p><code>var request = await Client.ExecuteRawRequestAsync(RestRequestMethod.GET, $&quot;{Endpoints.CHANNELS}/243184972190742178964/{Endpoints.INVITES}&quot;);
+List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;DiscordInvite&gt;&gt;(request.Response);</code></p>
+
+  
+  
   <a id="DisCatSharp_DiscordClient_Finalize_" data-uid="DisCatSharp.DiscordClient.Finalize*"></a>
   <h4 id="DisCatSharp_DiscordClient_Finalize" data-uid="DisCatSharp.DiscordClient.Finalize">Finalize()</h4>
   <div class="markdown level1 summary"></div>
