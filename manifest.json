@@ -2994,7 +2994,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordChannel.html",
-          "hash": "aKmewHdTp4UPdYJhh/ybfyzHpfQWS8DbgkqMmvPDGyY="
+          "hash": "jd+4tXsT/QIaYR41eZEQ4GQU3LcdebCPSHJUkGwFgYU="
         }
       },
       "is_incremental": false,
@@ -3078,7 +3078,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordDmChannel.html",
-          "hash": "4wq3S/Jwj3DMyYbrGbCC3fSGa+XZE2Mwdobhv4KoGus="
+          "hash": "Tog9Z4GhjOd8oHCrjQENk5SqGV5a6sbpiL3kiKomXjU="
         }
       },
       "is_incremental": false,
@@ -3870,7 +3870,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordThreadChannel.html",
-          "hash": "1dGcIAPBFyIyDwCbFqEyAjlsHSRH57wpIoVsb03T910="
+          "hash": "YybYPU5qWo5VxFMHfTgwosZpifOcKSl41i9sJdBa9s4="
         }
       },
       "is_incremental": false,
@@ -4050,7 +4050,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.GuildFeatures.html",
-          "hash": "BO0AueemPeX7R9qP8WneI5lJCXiB9LPgVi6cq7w10Hc="
+          "hash": "4Tx9aLEz3J6HFfClxRPR2lCnD5AQQL/c7UIUQNtJaNA="
         }
       },
       "is_incremental": false,
@@ -6498,7 +6498,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Net.Models.ChannelEditModel.html",
-          "hash": "sjrwonLqFokTslbLyGPEE1ZaVOpRqyjZBZD6IZr08EM="
+          "hash": "0dCsEM3oduRrOpMvtO3ltlkvJxhR4l5/AesQd34yAmY="
         }
       },
       "is_incremental": false,

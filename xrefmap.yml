@@ -16756,6 +16756,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.AddOverwriteAsync
   nameWithType: DiscordChannel.AddOverwriteAsync
+- uid: DisCatSharp.Entities.DiscordChannel.BannerHash
+  name: BannerHash
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_BannerHash
+  commentId: P:DisCatSharp.Entities.DiscordChannel.BannerHash
+  fullName: DisCatSharp.Entities.DiscordChannel.BannerHash
+  nameWithType: DiscordChannel.BannerHash
+- uid: DisCatSharp.Entities.DiscordChannel.BannerHash*
+  name: BannerHash
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_BannerHash_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.BannerHash
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.BannerHash
+  nameWithType: DiscordChannel.BannerHash
+- uid: DisCatSharp.Entities.DiscordChannel.BannerUrl
+  name: BannerUrl
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_BannerUrl
+  commentId: P:DisCatSharp.Entities.DiscordChannel.BannerUrl
+  fullName: DisCatSharp.Entities.DiscordChannel.BannerUrl
+  nameWithType: DiscordChannel.BannerUrl
+- uid: DisCatSharp.Entities.DiscordChannel.BannerUrl*
+  name: BannerUrl
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_BannerUrl_
+  commentId: Overload:DisCatSharp.Entities.DiscordChannel.BannerUrl
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordChannel.BannerUrl
+  nameWithType: DiscordChannel.BannerUrl
 - uid: DisCatSharp.Entities.DiscordChannel.Bitrate
   name: Bitrate
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_Bitrate
@@ -44695,6 +44721,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.GuildFeatures.CanSetBanner
   nameWithType: GuildFeatures.CanSetBanner
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner
+  name: CanSetChannelBanner
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetChannelBanner
+  commentId: P:DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner
+  nameWithType: GuildFeatures.CanSetChannelBanner
+- uid: DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner*
+  name: CanSetChannelBanner
+  href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetChannelBanner_
+  commentId: Overload:DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.GuildFeatures.CanSetChannelBanner
+  nameWithType: GuildFeatures.CanSetChannelBanner
 - uid: DisCatSharp.Entities.GuildFeatures.CanSetInviteSplash
   name: CanSetInviteSplash
   href: api/DisCatSharp.Entities.GuildFeatures.html#DisCatSharp_Entities_GuildFeatures_CanSetInviteSplash
@@ -56294,6 +56333,19 @@ references:
   commentId: T:DisCatSharp.Net.Models.ChannelEditModel
   fullName: DisCatSharp.Net.Models.ChannelEditModel
   nameWithType: ChannelEditModel
+- uid: DisCatSharp.Net.Models.ChannelEditModel.Banner
+  name: Banner
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Banner
+  commentId: P:DisCatSharp.Net.Models.ChannelEditModel.Banner
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.Banner
+  nameWithType: ChannelEditModel.Banner
+- uid: DisCatSharp.Net.Models.ChannelEditModel.Banner*
+  name: Banner
+  href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Banner_
+  commentId: Overload:DisCatSharp.Net.Models.ChannelEditModel.Banner
+  isSpec: "True"
+  fullName: DisCatSharp.Net.Models.ChannelEditModel.Banner
+  nameWithType: ChannelEditModel.Banner
 - uid: DisCatSharp.Net.Models.ChannelEditModel.Bitrate
   name: Bitrate
   href: api/DisCatSharp.Net.Models.ChannelEditModel.html#DisCatSharp_Net_Models_ChannelEditModel_Bitrate
