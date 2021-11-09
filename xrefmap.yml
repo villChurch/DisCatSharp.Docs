@@ -16840,15 +16840,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.CloseStageAsync
   nameWithType: DiscordChannel.CloseStageAsync
-- uid: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Nullable{DisCatSharp.TargetType},System.Nullable{DisCatSharp.TargetActivity},System.String)
-  name: CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable<TargetType>, Nullable<TargetActivity>, String)
-  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateInviteAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Nullable_DisCatSharp_TargetType__System_Nullable_DisCatSharp_TargetActivity__System_String_
-  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Nullable{DisCatSharp.TargetType},System.Nullable{DisCatSharp.TargetActivity},System.String)
-  name.vb: CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable(Of TargetType), Nullable(Of TargetActivity), String)
-  fullName: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Nullable<DisCatSharp.TargetType>, System.Nullable<DisCatSharp.TargetActivity>, System.String)
-  fullName.vb: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Nullable(Of DisCatSharp.TargetType), System.Nullable(Of DisCatSharp.TargetActivity), System.String)
-  nameWithType: DiscordChannel.CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable<TargetType>, Nullable<TargetActivity>, String)
-  nameWithType.vb: DiscordChannel.CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable(Of TargetType), Nullable(Of TargetActivity), String)
+- uid: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Nullable{DisCatSharp.TargetType},System.Nullable{DisCatSharp.TargetActivity},System.Nullable{System.UInt64},System.String)
+  name: CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable<TargetType>, Nullable<TargetActivity>, Nullable<UInt64>, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateInviteAsync_System_Int32_System_Int32_System_Boolean_System_Boolean_System_Nullable_DisCatSharp_TargetType__System_Nullable_DisCatSharp_TargetActivity__System_Nullable_System_UInt64__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32,System.Int32,System.Boolean,System.Boolean,System.Nullable{DisCatSharp.TargetType},System.Nullable{DisCatSharp.TargetActivity},System.Nullable{System.UInt64},System.String)
+  name.vb: CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable(Of TargetType), Nullable(Of TargetActivity), Nullable(Of UInt64), String)
+  fullName: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Nullable<DisCatSharp.TargetType>, System.Nullable<DisCatSharp.TargetActivity>, System.Nullable<System.UInt64>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync(System.Int32, System.Int32, System.Boolean, System.Boolean, System.Nullable(Of DisCatSharp.TargetType), System.Nullable(Of DisCatSharp.TargetActivity), System.Nullable(Of System.UInt64), System.String)
+  nameWithType: DiscordChannel.CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable<TargetType>, Nullable<TargetActivity>, Nullable<UInt64>, String)
+  nameWithType.vb: DiscordChannel.CreateInviteAsync(Int32, Int32, Boolean, Boolean, Nullable(Of TargetType), Nullable(Of TargetActivity), Nullable(Of UInt64), String)
 - uid: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync*
   name: CreateInviteAsync
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateInviteAsync_
