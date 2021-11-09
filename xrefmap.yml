@@ -2280,6 +2280,12 @@ references:
   commentId: F:DisCatSharp.ApplicationFlags.Embedded
   fullName: DisCatSharp.ApplicationFlags.Embedded
   nameWithType: ApplicationFlags.Embedded
+- uid: DisCatSharp.ApplicationFlags.EmbeddedFirstParty
+  name: EmbeddedFirstParty
+  href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_EmbeddedFirstParty
+  commentId: F:DisCatSharp.ApplicationFlags.EmbeddedFirstParty
+  fullName: DisCatSharp.ApplicationFlags.EmbeddedFirstParty
+  nameWithType: ApplicationFlags.EmbeddedFirstParty
 - uid: DisCatSharp.ApplicationFlags.GatewayGuildMembers
   name: GatewayGuildMembers
   href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_GatewayGuildMembers
