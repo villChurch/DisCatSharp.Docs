@@ -66,7 +66,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html",
-          "hash": "BxG4vg089CIjztkeIu/1873yJ/2a5/iDZ0fpoKfd4Zc="
+          "hash": "4j/vvI3pcSFm5dflaHAcyR9rgaMoAMlU8mWLhVBNvZ4="
         }
       },
       "is_incremental": false,
@@ -1242,7 +1242,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html",
-          "hash": "TEPGSgPV0bT5I0i55mzw5WjuJol3GYuwlozXtSy8Xig="
+          "hash": "BiatYUWrh79QIjRLVOScilvTFLNkr6BzWBq+hUInZMM="
         }
       },
       "is_incremental": false,
@@ -5438,11 +5438,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.BaseHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.BaseHostedService.html",
+          "hash": "/awkV27IfCpQ3Km8xVbtja2fkFK7aKGuPFyBtZ9H9Co="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html",
-          "hash": "OKndUoCrcWZzvkKBvNWRVVwZOc3nRDC85aDKYxhCzm8="
+          "hash": "MhpZgkZiLDmRp2/ltrQlbn7ZueHzht/hb7teVdES/Bc="
         }
       },
       "is_incremental": false,
@@ -5466,7 +5478,19 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Hosting.DiscordHostedService.html",
-          "hash": "kzfy8Lpertc69BBkYs0NA2LDu/Ea5aRFgHmrTbrR0Qw="
+          "hash": "Pw9bAM0FpE/ZZc/KfrZdtdHs4wbK1qbVehMEE7N4GzY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.DiscordShardedHostedService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.DiscordShardedHostedService.html",
+          "hash": "8i+fk+SyFgGG9rNQEBVuz7TxKCaxwEeddrICvWRqw+s="
         }
       },
       "is_incremental": false,
@@ -5486,11 +5510,23 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Hosting.IDiscordHostedShardService.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Hosting.IDiscordHostedShardService.html",
+          "hash": "UNOooeRz1S5VwDBRCEIDTuhI8TVZlmUqP/bEPNU7nHY="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Hosting.yml",
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Hosting.html",
-          "hash": "v9dzNLE4fOG2rbKKD1MNT40YMTzbZBtIs6TL8twNd4k="
+          "hash": "gddamL52DkEOc3/P9NdmMlYEtghVt9IX+Rm4lno6SgM="
         }
       },
       "is_incremental": false,
@@ -7254,7 +7290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "jpMw145Rzyu5v0ypS4fFxkCLb3yd69Pl0xGMguJUSeA="
+          "hash": "cmileB8XsIEv8Q6GI/zEyyx+ainIIBPf157Xwt3kK9w="
         }
       },
       "is_incremental": false,
@@ -7398,7 +7434,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/basics/web_app.html",
-          "hash": "JD+U9QxPGOlKZwf1Adf5rWdOF+IhaTxN5NDJeD5ccKE="
+          "hash": "/KAqe338x/+xU569E7Pz2fnveCA9lRGlC7yNRKxC+A0="
         }
       },
       "is_incremental": false,
@@ -8419,8 +8455,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 602,
-          "skipped_file_count": 602
+          "total_file_count": 605,
+          "skipped_file_count": 605
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

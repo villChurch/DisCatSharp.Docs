@@ -243,19 +243,32 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration
   fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration
   nameWithType: ApplicationCommandsConfiguration
-- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services
-  name: Services
-  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration_Services
-  commentId: P:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services
-  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services
-  nameWithType: ApplicationCommandsConfiguration.Services
-- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services*
-  name: Services
-  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration_Services_
-  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.#ctor(System.IServiceProvider)
+  name: ApplicationCommandsConfiguration(IServiceProvider)
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration__ctor_System_IServiceProvider_
+  commentId: M:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.#ctor(System.IServiceProvider)
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ApplicationCommandsConfiguration(System.IServiceProvider)
+  nameWithType: ApplicationCommandsConfiguration.ApplicationCommandsConfiguration(IServiceProvider)
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.#ctor*
+  name: ApplicationCommandsConfiguration
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration__ctor_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.#ctor
   isSpec: "True"
-  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.Services
-  nameWithType: ApplicationCommandsConfiguration.Services
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ApplicationCommandsConfiguration
+  nameWithType: ApplicationCommandsConfiguration.ApplicationCommandsConfiguration
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider
+  name: ServiceProvider
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration_ServiceProvider
+  commentId: P:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider
+  nameWithType: ApplicationCommandsConfiguration.ServiceProvider
+- uid: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider*
+  name: ServiceProvider
+  href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.html#DisCatSharp_ApplicationCommands_ApplicationCommandsConfiguration_ServiceProvider_
+  commentId: Overload:DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.ApplicationCommandsConfiguration.ServiceProvider
+  nameWithType: ApplicationCommandsConfiguration.ServiceProvider
 - uid: DisCatSharp.ApplicationCommands.ApplicationCommandsExtension
   name: ApplicationCommandsExtension
   href: api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html
@@ -5343,6 +5356,12 @@ references:
   commentId: M:DisCatSharp.CommandsNext.CommandsNextConfiguration.#ctor(DisCatSharp.CommandsNext.CommandsNextConfiguration)
   fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.CommandsNextConfiguration(DisCatSharp.CommandsNext.CommandsNextConfiguration)
   nameWithType: CommandsNextConfiguration.CommandsNextConfiguration(CommandsNextConfiguration)
+- uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.#ctor(System.IServiceProvider)
+  name: CommandsNextConfiguration(IServiceProvider)
+  href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration__ctor_System_IServiceProvider_
+  commentId: M:DisCatSharp.CommandsNext.CommandsNextConfiguration.#ctor(System.IServiceProvider)
+  fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.CommandsNextConfiguration(System.IServiceProvider)
+  nameWithType: CommandsNextConfiguration.CommandsNextConfiguration(IServiceProvider)
 - uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.#ctor*
   name: CommandsNextConfiguration
   href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration__ctor_
@@ -5454,19 +5473,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.PrefixResolver
   nameWithType: CommandsNextConfiguration.PrefixResolver
-- uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.Services
-  name: Services
-  href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration_Services
-  commentId: P:DisCatSharp.CommandsNext.CommandsNextConfiguration.Services
-  fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.Services
-  nameWithType: CommandsNextConfiguration.Services
-- uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.Services*
-  name: Services
-  href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration_Services_
-  commentId: Overload:DisCatSharp.CommandsNext.CommandsNextConfiguration.Services
+- uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider
+  name: ServiceProvider
+  href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration_ServiceProvider
+  commentId: P:DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider
+  fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider
+  nameWithType: CommandsNextConfiguration.ServiceProvider
+- uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider*
+  name: ServiceProvider
+  href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration_ServiceProvider_
+  commentId: Overload:DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider
   isSpec: "True"
-  fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.Services
-  nameWithType: CommandsNextConfiguration.Services
+  fullName: DisCatSharp.CommandsNext.CommandsNextConfiguration.ServiceProvider
+  nameWithType: CommandsNextConfiguration.ServiceProvider
 - uid: DisCatSharp.CommandsNext.CommandsNextConfiguration.StringPrefixes
   name: StringPrefixes
   href: api/DisCatSharp.CommandsNext.CommandsNextConfiguration.html#DisCatSharp_CommandsNext_CommandsNextConfiguration_StringPrefixes
@@ -50262,6 +50281,146 @@ references:
   commentId: N:DisCatSharp.Hosting
   fullName: DisCatSharp.Hosting
   nameWithType: DisCatSharp.Hosting
+- uid: DisCatSharp.Hosting.BaseHostedService
+  name: BaseHostedService
+  href: api/DisCatSharp.Hosting.BaseHostedService.html
+  commentId: T:DisCatSharp.Hosting.BaseHostedService
+  fullName: DisCatSharp.Hosting.BaseHostedService
+  nameWithType: BaseHostedService
+- uid: DisCatSharp.Hosting.BaseHostedService.ApplicationLifetime
+  name: ApplicationLifetime
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ApplicationLifetime
+  commentId: F:DisCatSharp.Hosting.BaseHostedService.ApplicationLifetime
+  fullName: DisCatSharp.Hosting.BaseHostedService.ApplicationLifetime
+  nameWithType: BaseHostedService.ApplicationLifetime
+- uid: DisCatSharp.Hosting.BaseHostedService.BotSection
+  name: BotSection
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_BotSection
+  commentId: F:DisCatSharp.Hosting.BaseHostedService.BotSection
+  fullName: DisCatSharp.Hosting.BaseHostedService.BotSection
+  nameWithType: BaseHostedService.BotSection
+- uid: DisCatSharp.Hosting.BaseHostedService.Configuration
+  name: Configuration
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_Configuration
+  commentId: F:DisCatSharp.Hosting.BaseHostedService.Configuration
+  fullName: DisCatSharp.Hosting.BaseHostedService.Configuration
+  nameWithType: BaseHostedService.Configuration
+- uid: DisCatSharp.Hosting.BaseHostedService.ConfigureAsync
+  name: ConfigureAsync()
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConfigureAsync
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.ConfigureAsync
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConfigureAsync()
+  nameWithType: BaseHostedService.ConfigureAsync()
+- uid: DisCatSharp.Hosting.BaseHostedService.ConfigureAsync*
+  name: ConfigureAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConfigureAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.ConfigureAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConfigureAsync
+  nameWithType: BaseHostedService.ConfigureAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync
+  name: ConfigureExtensionsAsync()
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConfigureExtensionsAsync
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync()
+  nameWithType: BaseHostedService.ConfigureExtensionsAsync()
+- uid: DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync*
+  name: ConfigureExtensionsAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConfigureExtensionsAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync
+  nameWithType: BaseHostedService.ConfigureExtensionsAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.ConnectAsync
+  name: ConnectAsync()
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConnectAsync
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.ConnectAsync
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConnectAsync()
+  nameWithType: BaseHostedService.ConnectAsync()
+- uid: DisCatSharp.Hosting.BaseHostedService.ConnectAsync*
+  name: ConnectAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConnectAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.ConnectAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.ConnectAsync
+  nameWithType: BaseHostedService.ConnectAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.ExecuteAsync(CancellationToken)
+  name: ExecuteAsync(CancellationToken)
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ExecuteAsync_CancellationToken_
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.ExecuteAsync(CancellationToken)
+  fullName: DisCatSharp.Hosting.BaseHostedService.ExecuteAsync(CancellationToken)
+  nameWithType: BaseHostedService.ExecuteAsync(CancellationToken)
+- uid: DisCatSharp.Hosting.BaseHostedService.ExecuteAsync*
+  name: ExecuteAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ExecuteAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.ExecuteAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.ExecuteAsync
+  nameWithType: BaseHostedService.ExecuteAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.InitializeExtensions(DisCatSharp.DiscordClient)
+  name: InitializeExtensions(DiscordClient)
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_InitializeExtensions_DisCatSharp_DiscordClient_
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.InitializeExtensions(DisCatSharp.DiscordClient)
+  fullName: DisCatSharp.Hosting.BaseHostedService.InitializeExtensions(DisCatSharp.DiscordClient)
+  nameWithType: BaseHostedService.InitializeExtensions(DiscordClient)
+- uid: DisCatSharp.Hosting.BaseHostedService.InitializeExtensions*
+  name: InitializeExtensions
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_InitializeExtensions_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.InitializeExtensions
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.InitializeExtensions
+  nameWithType: BaseHostedService.InitializeExtensions
+- uid: DisCatSharp.Hosting.BaseHostedService.Logger
+  name: Logger
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_Logger
+  commentId: F:DisCatSharp.Hosting.BaseHostedService.Logger
+  fullName: DisCatSharp.Hosting.BaseHostedService.Logger
+  nameWithType: BaseHostedService.Logger
+- uid: DisCatSharp.Hosting.BaseHostedService.OnInitializationError(System.Exception)
+  name: OnInitializationError(Exception)
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_OnInitializationError_System_Exception_
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.OnInitializationError(System.Exception)
+  fullName: DisCatSharp.Hosting.BaseHostedService.OnInitializationError(System.Exception)
+  nameWithType: BaseHostedService.OnInitializationError(Exception)
+- uid: DisCatSharp.Hosting.BaseHostedService.OnInitializationError*
+  name: OnInitializationError
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_OnInitializationError_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.OnInitializationError
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.OnInitializationError
+  nameWithType: BaseHostedService.OnInitializationError
+- uid: DisCatSharp.Hosting.BaseHostedService.PostConnectAsync
+  name: PostConnectAsync()
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_PostConnectAsync
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.PostConnectAsync
+  fullName: DisCatSharp.Hosting.BaseHostedService.PostConnectAsync()
+  nameWithType: BaseHostedService.PostConnectAsync()
+- uid: DisCatSharp.Hosting.BaseHostedService.PostConnectAsync*
+  name: PostConnectAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_PostConnectAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.PostConnectAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.PostConnectAsync
+  nameWithType: BaseHostedService.PostConnectAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.PreConnectAsync
+  name: PreConnectAsync()
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_PreConnectAsync
+  commentId: M:DisCatSharp.Hosting.BaseHostedService.PreConnectAsync
+  fullName: DisCatSharp.Hosting.BaseHostedService.PreConnectAsync()
+  nameWithType: BaseHostedService.PreConnectAsync()
+- uid: DisCatSharp.Hosting.BaseHostedService.PreConnectAsync*
+  name: PreConnectAsync
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_PreConnectAsync_
+  commentId: Overload:DisCatSharp.Hosting.BaseHostedService.PreConnectAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.BaseHostedService.PreConnectAsync
+  nameWithType: BaseHostedService.PreConnectAsync
+- uid: DisCatSharp.Hosting.BaseHostedService.ServiceProvider
+  name: ServiceProvider
+  href: api/DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ServiceProvider
+  commentId: F:DisCatSharp.Hosting.BaseHostedService.ServiceProvider
+  fullName: DisCatSharp.Hosting.BaseHostedService.ServiceProvider
+  nameWithType: BaseHostedService.ServiceProvider
 - uid: DisCatSharp.Hosting.DependencyInjection
   name: DisCatSharp.Hosting.DependencyInjection
   href: api/DisCatSharp.Hosting.DependencyInjection.html
@@ -50299,6 +50458,31 @@ references:
   fullName.vb: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedService(Of TInterface, TService)(IServiceCollection)
   nameWithType: ServiceCollectionExtensions.AddDiscordHostedService<TInterface, TService>(IServiceCollection)
   nameWithType.vb: ServiceCollectionExtensions.AddDiscordHostedService(Of TInterface, TService)(IServiceCollection)
+- uid: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService*
+  name: AddDiscordHostedShardService
+  href: api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html#DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService_
+  commentId: Overload:DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService
+  nameWithType: ServiceCollectionExtensions.AddDiscordHostedShardService
+- uid: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``1(IServiceCollection)
+  name: AddDiscordHostedShardService<TService>(IServiceCollection)
+  href: api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html#DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__1_IServiceCollection_
+  commentId: M:DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``1(IServiceCollection)
+  name.vb: AddDiscordHostedShardService(Of TService)(IServiceCollection)
+  fullName: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService<TService>(IServiceCollection)
+  fullName.vb: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService(Of TService)(IServiceCollection)
+  nameWithType: ServiceCollectionExtensions.AddDiscordHostedShardService<TService>(IServiceCollection)
+  nameWithType.vb: ServiceCollectionExtensions.AddDiscordHostedShardService(Of TService)(IServiceCollection)
+- uid: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``2(IServiceCollection)
+  name: AddDiscordHostedShardService<TInterface, TService>(IServiceCollection)
+  href: api/DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.html#DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__2_IServiceCollection_
+  commentId: M:DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``2(IServiceCollection)
+  name.vb: AddDiscordHostedShardService(Of TInterface, TService)(IServiceCollection)
+  fullName: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService<TInterface, TService>(IServiceCollection)
+  fullName.vb: DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService(Of TInterface, TService)(IServiceCollection)
+  nameWithType: ServiceCollectionExtensions.AddDiscordHostedShardService<TInterface, TService>(IServiceCollection)
+  nameWithType.vb: ServiceCollectionExtensions.AddDiscordHostedShardService(Of TInterface, TService)(IServiceCollection)
 - uid: DisCatSharp.Hosting.DiscordHostedService
   name: DiscordHostedService
   href: api/DisCatSharp.Hosting.DiscordHostedService.html
@@ -50321,12 +50505,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Hosting.DiscordHostedService.DiscordHostedService
   nameWithType: DiscordHostedService.DiscordHostedService
-- uid: DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
-  name: ApplicationLifetime
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ApplicationLifetime
-  commentId: F:DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
-  fullName: DisCatSharp.Hosting.DiscordHostedService.ApplicationLifetime
-  nameWithType: DiscordHostedService.ApplicationLifetime
 - uid: DisCatSharp.Hosting.DiscordHostedService.Client
   name: Client
   href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_Client
@@ -50340,89 +50518,119 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Hosting.DiscordHostedService.Client
   nameWithType: DiscordHostedService.Client
-- uid: DisCatSharp.Hosting.DiscordHostedService.Configuration
-  name: Configuration
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_Configuration
-  commentId: F:DisCatSharp.Hosting.DiscordHostedService.Configuration
-  fullName: DisCatSharp.Hosting.DiscordHostedService.Configuration
-  nameWithType: DiscordHostedService.Configuration
-- uid: DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync(CancellationToken)
-  name: ExecuteAsync(CancellationToken)
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ExecuteAsync_CancellationToken_
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync(CancellationToken)
-  fullName: DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync(CancellationToken)
-  nameWithType: DiscordHostedService.ExecuteAsync(CancellationToken)
-- uid: DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync*
-  name: ExecuteAsync
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ExecuteAsync_
-  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync
+  name: ConfigureAsync()
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConfigureAsync
+  commentId: M:DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync()
+  nameWithType: DiscordHostedService.ConfigureAsync()
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync*
+  name: ConfigureAsync
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConfigureAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync
   isSpec: "True"
-  fullName: DisCatSharp.Hosting.DiscordHostedService.ExecuteAsync
-  nameWithType: DiscordHostedService.ExecuteAsync
-- uid: DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions
-  name: InitializeExtensions()
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_InitializeExtensions
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions
-  fullName: DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions()
-  nameWithType: DiscordHostedService.InitializeExtensions()
-- uid: DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions*
-  name: InitializeExtensions
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_InitializeExtensions_
-  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConfigureAsync
+  nameWithType: DiscordHostedService.ConfigureAsync
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync
+  name: ConfigureExtensionsAsync()
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConfigureExtensionsAsync
+  commentId: M:DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync()
+  nameWithType: DiscordHostedService.ConfigureExtensionsAsync()
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync*
+  name: ConfigureExtensionsAsync
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConfigureExtensionsAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync
   isSpec: "True"
-  fullName: DisCatSharp.Hosting.DiscordHostedService.InitializeExtensions
-  nameWithType: DiscordHostedService.InitializeExtensions
-- uid: DisCatSharp.Hosting.DiscordHostedService.Logger
-  name: Logger
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_Logger
-  commentId: F:DisCatSharp.Hosting.DiscordHostedService.Logger
-  fullName: DisCatSharp.Hosting.DiscordHostedService.Logger
-  nameWithType: DiscordHostedService.Logger
-- uid: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
-  name: OnInitializationError(Exception)
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_System_Exception_
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
-  fullName: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError(System.Exception)
-  nameWithType: DiscordHostedService.OnInitializationError(Exception)
-- uid: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError*
-  name: OnInitializationError
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_OnInitializationError_
-  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.OnInitializationError
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConfigureExtensionsAsync
+  nameWithType: DiscordHostedService.ConfigureExtensionsAsync
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConnectAsync
+  name: ConnectAsync()
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConnectAsync
+  commentId: M:DisCatSharp.Hosting.DiscordHostedService.ConnectAsync
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConnectAsync()
+  nameWithType: DiscordHostedService.ConnectAsync()
+- uid: DisCatSharp.Hosting.DiscordHostedService.ConnectAsync*
+  name: ConnectAsync
+  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ConnectAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.ConnectAsync
   isSpec: "True"
-  fullName: DisCatSharp.Hosting.DiscordHostedService.OnInitializationError
-  nameWithType: DiscordHostedService.OnInitializationError
-- uid: DisCatSharp.Hosting.DiscordHostedService.PostConnect
-  name: PostConnect()
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_PostConnect
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.PostConnect
-  fullName: DisCatSharp.Hosting.DiscordHostedService.PostConnect()
-  nameWithType: DiscordHostedService.PostConnect()
-- uid: DisCatSharp.Hosting.DiscordHostedService.PostConnect*
-  name: PostConnect
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_PostConnect_
-  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.PostConnect
+  fullName: DisCatSharp.Hosting.DiscordHostedService.ConnectAsync
+  nameWithType: DiscordHostedService.ConnectAsync
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService
+  name: DiscordShardedHostedService
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html
+  commentId: T:DisCatSharp.Hosting.DiscordShardedHostedService
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService
+  nameWithType: DiscordShardedHostedService
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordShardedHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)
+  name: DiscordShardedHostedService(IConfiguration, ILogger<DiscordShardedHostedService>, IServiceProvider, IHostApplicationLifetime, String)
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService__ctor_IConfiguration_ILogger_DisCatSharp_Hosting_DiscordShardedHostedService__System_IServiceProvider_IHostApplicationLifetime_System_String_
+  commentId: M:DisCatSharp.Hosting.DiscordShardedHostedService.#ctor(IConfiguration,ILogger{DisCatSharp.Hosting.DiscordShardedHostedService},System.IServiceProvider,IHostApplicationLifetime,System.String)
+  name.vb: DiscordShardedHostedService(IConfiguration, ILogger(Of DiscordShardedHostedService), IServiceProvider, IHostApplicationLifetime, String)
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.DiscordShardedHostedService(IConfiguration, ILogger<DisCatSharp.Hosting.DiscordShardedHostedService>, System.IServiceProvider, IHostApplicationLifetime, System.String)
+  fullName.vb: DisCatSharp.Hosting.DiscordShardedHostedService.DiscordShardedHostedService(IConfiguration, ILogger(Of DisCatSharp.Hosting.DiscordShardedHostedService), System.IServiceProvider, IHostApplicationLifetime, System.String)
+  nameWithType: DiscordShardedHostedService.DiscordShardedHostedService(IConfiguration, ILogger<DiscordShardedHostedService>, IServiceProvider, IHostApplicationLifetime, String)
+  nameWithType.vb: DiscordShardedHostedService.DiscordShardedHostedService(IConfiguration, ILogger(Of DiscordShardedHostedService), IServiceProvider, IHostApplicationLifetime, String)
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.#ctor*
+  name: DiscordShardedHostedService
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService__ctor_
+  commentId: Overload:DisCatSharp.Hosting.DiscordShardedHostedService.#ctor
   isSpec: "True"
-  fullName: DisCatSharp.Hosting.DiscordHostedService.PostConnect
-  nameWithType: DiscordHostedService.PostConnect
-- uid: DisCatSharp.Hosting.DiscordHostedService.PreConnect
-  name: PreConnect()
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_PreConnect
-  commentId: M:DisCatSharp.Hosting.DiscordHostedService.PreConnect
-  fullName: DisCatSharp.Hosting.DiscordHostedService.PreConnect()
-  nameWithType: DiscordHostedService.PreConnect()
-- uid: DisCatSharp.Hosting.DiscordHostedService.PreConnect*
-  name: PreConnect
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_PreConnect_
-  commentId: Overload:DisCatSharp.Hosting.DiscordHostedService.PreConnect
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.DiscordShardedHostedService
+  nameWithType: DiscordShardedHostedService.DiscordShardedHostedService
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync
+  name: ConfigureAsync()
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConfigureAsync
+  commentId: M:DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync()
+  nameWithType: DiscordShardedHostedService.ConfigureAsync()
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync*
+  name: ConfigureAsync
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConfigureAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync
   isSpec: "True"
-  fullName: DisCatSharp.Hosting.DiscordHostedService.PreConnect
-  nameWithType: DiscordHostedService.PreConnect
-- uid: DisCatSharp.Hosting.DiscordHostedService.ServiceProvider
-  name: ServiceProvider
-  href: api/DisCatSharp.Hosting.DiscordHostedService.html#DisCatSharp_Hosting_DiscordHostedService_ServiceProvider
-  commentId: F:DisCatSharp.Hosting.DiscordHostedService.ServiceProvider
-  fullName: DisCatSharp.Hosting.DiscordHostedService.ServiceProvider
-  nameWithType: DiscordHostedService.ServiceProvider
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureAsync
+  nameWithType: DiscordShardedHostedService.ConfigureAsync
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync
+  name: ConfigureExtensionsAsync()
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConfigureExtensionsAsync
+  commentId: M:DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync()
+  nameWithType: DiscordShardedHostedService.ConfigureExtensionsAsync()
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync*
+  name: ConfigureExtensionsAsync
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConfigureExtensionsAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConfigureExtensionsAsync
+  nameWithType: DiscordShardedHostedService.ConfigureExtensionsAsync
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync
+  name: ConnectAsync()
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConnectAsync
+  commentId: M:DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync()
+  nameWithType: DiscordShardedHostedService.ConnectAsync()
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync*
+  name: ConnectAsync
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ConnectAsync_
+  commentId: Overload:DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ConnectAsync
+  nameWithType: DiscordShardedHostedService.ConnectAsync
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient
+  name: ShardedClient
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ShardedClient
+  commentId: P:DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient
+  nameWithType: DiscordShardedHostedService.ShardedClient
+- uid: DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient*
+  name: ShardedClient
+  href: api/DisCatSharp.Hosting.DiscordShardedHostedService.html#DisCatSharp_Hosting_DiscordShardedHostedService_ShardedClient_
+  commentId: Overload:DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.DiscordShardedHostedService.ShardedClient
+  nameWithType: DiscordShardedHostedService.ShardedClient
 - uid: DisCatSharp.Hosting.IDiscordHostedService
   name: IDiscordHostedService
   href: api/DisCatSharp.Hosting.IDiscordHostedService.html
@@ -50442,6 +50650,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Hosting.IDiscordHostedService.Client
   nameWithType: IDiscordHostedService.Client
+- uid: DisCatSharp.Hosting.IDiscordHostedShardService
+  name: IDiscordHostedShardService
+  href: api/DisCatSharp.Hosting.IDiscordHostedShardService.html
+  commentId: T:DisCatSharp.Hosting.IDiscordHostedShardService
+  fullName: DisCatSharp.Hosting.IDiscordHostedShardService
+  nameWithType: IDiscordHostedShardService
+- uid: DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
+  name: ShardedClient
+  href: api/DisCatSharp.Hosting.IDiscordHostedShardService.html#DisCatSharp_Hosting_IDiscordHostedShardService_ShardedClient
+  commentId: P:DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
+  fullName: DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
+  nameWithType: IDiscordHostedShardService.ShardedClient
+- uid: DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient*
+  name: ShardedClient
+  href: api/DisCatSharp.Hosting.IDiscordHostedShardService.html#DisCatSharp_Hosting_IDiscordHostedShardService_ShardedClient_
+  commentId: Overload:DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
+  isSpec: "True"
+  fullName: DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
+  nameWithType: IDiscordHostedShardService.ShardedClient
 - uid: DisCatSharp.ImageFormat
   name: ImageFormat
   href: api/DisCatSharp.ImageFormat.html

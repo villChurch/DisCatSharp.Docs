@@ -1,0 +1,514 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class BaseHostedService
+   | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class BaseHostedService
+   | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Hosting.BaseHostedService">
+  
+  
+  <h1 id="DisCatSharp_Hosting_BaseHostedService" data-uid="DisCatSharp.Hosting.BaseHostedService" class="text-break">Class BaseHostedService
+  </h1>
+  <div class="markdown level0 summary"><p>Contains the common logic between having a <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a> or
+<a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a> as a Hosted Service</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">BaseHostedService</span></div>
+  </div>
+      <div class="level2"><a class="xref" href="DisCatSharp.Hosting.DiscordHostedService.html">DiscordHostedService</a></div>
+      <div class="level2"><a class="xref" href="DisCatSharp.Hosting.DiscordShardedHostedService.html">DiscordShardedHostedService</a></div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Hosting.html">DisCatSharp.Hosting</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Hosting_BaseHostedService_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public abstract class BaseHostedService : BackgroundService</code></pre>
+  </div>
+  <h3 id="fields">Fields
+  </h3>
+  
+  
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ApplicationLifetime" data-uid="DisCatSharp.Hosting.BaseHostedService.ApplicationLifetime">ApplicationLifetime</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IHostApplicationLifetime ApplicationLifetime</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IHostApplicationLifetime</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_BotSection" data-uid="DisCatSharp.Hosting.BaseHostedService.BotSection">BotSection</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly string BotSection</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_Configuration" data-uid="DisCatSharp.Hosting.BaseHostedService.Configuration">Configuration</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IConfiguration Configuration</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IConfiguration</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_Logger" data-uid="DisCatSharp.Hosting.BaseHostedService.Logger">Logger</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly ILogger&lt;BaseHostedService&gt; Logger</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ILogger</span>&lt;<a class="xref" href="DisCatSharp.Hosting.BaseHostedService.html">BaseHostedService</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ServiceProvider" data-uid="DisCatSharp.Hosting.BaseHostedService.ServiceProvider">ServiceProvider</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected readonly IServiceProvider ServiceProvider</code></pre>
+  </div>
+  <h5 class="fieldValue">Field Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.IServiceProvider</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_ConfigureAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.ConfigureAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ConfigureAsync" data-uid="DisCatSharp.Hosting.BaseHostedService.ConfigureAsync">ConfigureAsync()</h4>
+  <div class="markdown level1 summary"><p>Configure / Initialize the <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a> or
+<a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task ConfigureAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_ConfigureExtensionsAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ConfigureExtensionsAsync" data-uid="DisCatSharp.Hosting.BaseHostedService.ConfigureExtensionsAsync">ConfigureExtensionsAsync()</h4>
+  <div class="markdown level1 summary"><p>Configure the extensions for your <a class="xref" href="DisCatSharp.DiscordShardedClient.html">DiscordShardedClient</a> or
+<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task ConfigureExtensionsAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_ConnectAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.ConnectAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ConnectAsync" data-uid="DisCatSharp.Hosting.BaseHostedService.ConnectAsync">ConnectAsync()</h4>
+  <div class="markdown level1 summary"><p>Connect your client(s) to Discord</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected abstract Task ConnectAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_ExecuteAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.ExecuteAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_ExecuteAsync_CancellationToken_" data-uid="DisCatSharp.Hosting.BaseHostedService.ExecuteAsync(CancellationToken)">ExecuteAsync(CancellationToken)</h4>
+  <div class="markdown level1 summary"></div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected override async Task ExecuteAsync(CancellationToken stoppingToken)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">CancellationToken</span></td>
+        <td><span class="parametername">stoppingToken</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_InitializeExtensions_" data-uid="DisCatSharp.Hosting.BaseHostedService.InitializeExtensions*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_InitializeExtensions_DisCatSharp_DiscordClient_" data-uid="DisCatSharp.Hosting.BaseHostedService.InitializeExtensions(DisCatSharp.DiscordClient)">InitializeExtensions(DiscordClient)</h4>
+  <div class="markdown level1 summary"><p>Dynamically load extensions by using <a class="xref" href="DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_Configuration">Configuration</a> and
+<a class="xref" href="DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ServiceProvider">ServiceProvider</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected Task InitializeExtensions(DiscordClient client)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a></td>
+        <td><span class="parametername">client</span></td>
+        <td><p>Client to add extension method(s) to</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_OnInitializationError_" data-uid="DisCatSharp.Hosting.BaseHostedService.OnInitializationError*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_OnInitializationError_System_Exception_" data-uid="DisCatSharp.Hosting.BaseHostedService.OnInitializationError(System.Exception)">OnInitializationError(Exception)</h4>
+  <div class="markdown level1 summary"><p>When the bot(s) fail to start, this method will be invoked. (Default behavior is to shutdown)</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual void OnInitializationError(Exception ex)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Exception</span></td>
+        <td><span class="parametername">ex</span></td>
+        <td><p>The exception/reason for not starting</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_PostConnectAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.PostConnectAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_PostConnectAsync" data-uid="DisCatSharp.Hosting.BaseHostedService.PostConnectAsync">PostConnectAsync()</h4>
+  <div class="markdown level1 summary"><p>Runs immediately after <a class="xref" href="DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConnectAsync">ConnectAsync()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task PostConnectAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td><p>Task</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Hosting_BaseHostedService_PreConnectAsync_" data-uid="DisCatSharp.Hosting.BaseHostedService.PreConnectAsync*"></a>
+  <h4 id="DisCatSharp_Hosting_BaseHostedService_PreConnectAsync" data-uid="DisCatSharp.Hosting.BaseHostedService.PreConnectAsync">PreConnectAsync()</h4>
+  <div class="markdown level1 summary"><p>Runs just prior to <a class="xref" href="DisCatSharp.Hosting.BaseHostedService.html#DisCatSharp_Hosting_BaseHostedService_ConnectAsync">ConnectAsync()</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">protected virtual Task PreConnectAsync()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

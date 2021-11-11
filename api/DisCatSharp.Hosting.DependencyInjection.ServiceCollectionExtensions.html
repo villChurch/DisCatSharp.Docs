@@ -138,7 +138,8 @@
     <tbody>
       <tr>
         <td><span class="xref">IServiceCollection</span></td>
-        <td></td>
+        <td><p>Reference to <code data-dev-comment-type="paramref" class="paramref">services</code> for chaining purposes</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -201,7 +202,8 @@ Maps to Implementation of <code data-dev-comment-type="typeparamref" class="type
     <tbody>
       <tr>
         <td><span class="xref">IServiceCollection</span></td>
-        <td></td>
+        <td><p>Reference to <code data-dev-comment-type="paramref" class="paramref">services</code> for chaining purposes</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -227,6 +229,138 @@ Maps to Implementation of <code data-dev-comment-type="typeparamref" class="type
     </tbody>
   </table>
   <h5 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedService__2_IServiceCollection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p>To retrieve your bot via Dependency Injection you can reference it via <code data-dev-comment-type="typeparamref" class="typeparamref">TInterface</code></p></div>
+  
+  
+  <a id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService*"></a>
+  <h4 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__1_IServiceCollection_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``1(IServiceCollection)">AddDiscordHostedShardService&lt;TService&gt;(IServiceCollection)</h4>
+  <div class="markdown level1 summary"><p>Adds your bot as a BackgroundService, registered in Dependency Injection as <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddDiscordHostedShardService&lt;TService&gt;(this IServiceCollection services)
+    where TService : class, IDiscordHostedShardService</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><p>Reference to <code data-dev-comment-type="paramref" class="paramref">services</code> for chaining purposes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__1_IServiceCollection__remarks">Remarks</h5>
+  <div class="markdown level1 remarks"><p><a class="xref" href="DisCatSharp.Hosting.IDiscordHostedShardService.html">IDiscordHostedShardService</a> is scoped to ServiceLifetime.Singleton. <br>
+Maps to Implementation of <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code></p></div>
+  
+  
+  <a id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService*"></a>
+  <h4 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__2_IServiceCollection_" data-uid="DisCatSharp.Hosting.DependencyInjection.ServiceCollectionExtensions.AddDiscordHostedShardService``2(IServiceCollection)">AddDiscordHostedShardService&lt;TInterface, TService&gt;(IServiceCollection)</h4>
+  <div class="markdown level1 summary"><p>Add <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code> as a background service which derives from
+<code data-dev-comment-type="typeparamref" class="typeparamref">TInterface</code> and <a class="xref" href="DisCatSharp.Hosting.IDiscordHostedShardService.html">IDiscordHostedShardService</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static IServiceCollection AddDiscordHostedShardService&lt;TInterface, TService&gt;(this IServiceCollection services)
+    where TInterface : class, IDiscordHostedShardService where TService : class, TInterface, IDiscordHostedShardService</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><span class="parametername">services</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IServiceCollection</span></td>
+        <td><p>Reference to <code data-dev-comment-type="paramref" class="paramref">services</code> for chaining purposes</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="typeParameters">Type Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="parametername">TInterface</span></td>
+        <td><p>Interface which <code data-dev-comment-type="typeparamref" class="typeparamref">TService</code> inherits from</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="parametername">TService</span></td>
+        <td><p>Your custom bot</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 id="DisCatSharp_Hosting_DependencyInjection_ServiceCollectionExtensions_AddDiscordHostedShardService__2_IServiceCollection__remarks">Remarks</h5>
   <div class="markdown level1 remarks"><p>To retrieve your bot via Dependency Injection you can reference it via <code data-dev-comment-type="typeparamref" class="typeparamref">TInterface</code></p></div>
 
 </article>

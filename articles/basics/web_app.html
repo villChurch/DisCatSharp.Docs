@@ -83,23 +83,48 @@
 <li>DisCatSharp</li>
 <li>DisCatSharp.Hosting</li>
 </ul>
+<div class="IMPORTANT"><h5>Important</h5><p>Please be aware that this approach relies on Dependency Injection. You can either use one of Microsoft&#39;s default project templates for .Net Core Web App, or get a head start by using the
+<code>DisCatSharp.Hosting.ProjectTemplates</code> pack which contains a Bot Template to jumpstart your development. If you do the latter, majority of this is done for you.</p>
+</div>
 <h1 id="botcs">Bot.cs</h1>
-<p>Create a new class called <code>Bot</code> which inherits from <code>DiscordHostedService</code>.</p>
+<p>For the sake of example, create a new class called <code>Bot</code> which inherits from <code>DiscordHostedService</code>. You&#39;re welcome to replace <code>Bot</code> with whatever you want.</p>
+<div class="NOTE"><h5>Note</h5><p>If you want to host a variety of bots it is important to provide a custom name into the <code>base</code> constructor. This indicates the <code>Key</code> within <code>IConfiguration</code> that will be used for
+configuring your bot.</p>
+</div>
+<h3 id="default">Default</h3>
+<p><code>DisCatSharp</code> is the default key used when configuring the bot.</p>
 <pre><code class="lang-cs">public class Bot : DiscordHostedService
 {
-    public Bot(IConfiguration config, ILogger&lt;DiscordHostedService&gt; logger, IServiceProvider provider, IHostApplicationLifetime appLifetime) : base(config, logger, provider, appLifetime)
+    public Bot(IConfiguration config,
+            ILogger&lt;Bot&gt; logger,
+            IServiceProvider provider,
+            IHostApplicationLifetime appLifetime) : base(config, logger, provider, appLifetime)
+    {
+    }
+}
+</code></pre><h3 id="custom">Custom</h3>
+<p>For example’s sake the custom bot name is &quot;Bot&quot;, so replace it with whatever you want.</p>
+<pre><code class="lang-cs">public class Bot : DiscordHostedService
+{
+    public Bot(IConfiguration config,
+            ILogger&lt;Bot&gt; logger,
+            IServiceProvider provider,
+            IHostApplicationLifetime appLifetime) : base(config, logger, provider, appLifetime, &quot;Bot&quot;)
     {
     }
 }
 </code></pre><h1 id="startupcs">Startup.cs</h1>
+<h3 id="discatsharphostingdependencyinjection">DisCatSharp.Hosting.DependencyInjection</h3>
 <p>By using the <code>DisCatSharp.Hosting.DependencyInjection</code> module, this 1 line is enough to get
 your basic bot running...</p>
 <pre><code class="lang-cs">public void ConfigureServices(IServiceCollection services)
 {
     services.AddDiscordHostedService&lt;Bot&gt;();
 }
-</code></pre><p>If you prefer another DI approach / the manual route -- the following two
-lines are all you need!</p>
+</code></pre><h3 id="manual-registration">Manual Registration</h3>
+<p>If you prefer another DI approach / the manual route -- the following two
+lines are all you need! For example sake, this bot doesn&#39;t have anything fancy going on.
+You&#39;re welcome to create your own interface which inherits from <code>IDiscordHostedService</code>.</p>
 <pre><code class="lang-cs">public void ConfigureServices(IServiceCollection services)
 {
     services.AddSingleton&lt;IDiscordHostedService, Bot&gt;();
@@ -108,8 +133,22 @@ lines are all you need!</p>
 </code></pre><p>Singleton - we only want 1 instance of Bot to ever run during runtime. <br>
 Then we take the registered singleton to run as a <code>HostedService</code>.</p>
 <h1 id="how-to-reference">How to reference</h1>
-<p>Within a DI environment, when you want to reference your <code>Bot</code> all you have to do is add <code>IDiscordHostedService</code>
-as a parameter in the constructor.</p>
+<p>Within a DI environment, whether it&#39;s via constructor or an <code>IServiceProvider</code></p>
+<h3 id="if-explicitly-registered-as-bot">If explicitly registered as <code>Bot</code></h3>
+<p>You either put <code>Bot</code> as part of your constructor. Or from a provider you do</p>
+<pre><code class="lang-cs">Bot bot = provider.GetRequiredService&lt;Bot&gt;();
+</code></pre><h3 id="interface--bot">Interface + Bot</h3>
+<p>This approach means you are mapping the Interface to your <code>Bot</code>. However, you might notice that</p>
+<pre><code class="lang-cs">Bot bot = provider.GetRequiredService&lt;Bot&gt;();
+</code></pre><p>or via constructor - you will get an exception indicating that <code>Bot</code> has not been registered. Well... it&#39;s true. It&#39;s looking for a key within the collection that matches the type you asked for.
+When you use the Interface/Implementation combination it behaves <strong>almost</strong> like a dictionary -- <code>Bot</code> is not a valid key in this scenario.</p>
+<p>So to retrieve your <code>Bot</code> reference you have to use the interface.</p>
+<pre><code class="lang-cs">IBot bot = provider.GetRequiredService&lt;IBot&gt;();
+</code></pre><p>If you go down this path of mapping interface to implementation you shouldn&#39;t be casting your interface to Bot, or whatever. You&#39;d be better off just using the explicitly registered type.
+The reasoning behind this approach is to allow you to swap out the implementation type in <strong>ONE</strong> place, and <strong>NOT</strong> have to update any other code.</p>
+<p>For instance, logging... there are SO many ways to do logging. You might be familiar with <a href="https://docs.microsoft.com/en-us/dotnet/api/microsoft.extensions.logging.ilogger">ILogger</a>. So long as something implements this interface it doesn&#39;t matter. It could be Serilog,
+or a custom logger you created, or another package from the internet. If later in a project you are dissatisfied with your custom-built logger (which inherits from <code>ILogger</code>) you could
+easily swap it out with <code>Serilog</code> in one place. This makes swapping between packages extremely easy - a simple 1 to 2 line change compared to a project-wide impact.</p>
 <h1 id="how-to-configure">How to Configure</h1>
 <p>You must provide a token in order for the bot to work.</p>
 <p>Add the following to <code>appsettings.json</code></p>
@@ -167,9 +206,9 @@ You can handle exceptions by overriding method <code>OnInitializationError</code
         }
     }
 }
-</code></pre><p>Note: to configure an extension, you simply add a section for it under <code>DisCatSharp</code> in <code>appsettings.json</code>. You only have
-to include values you <strong>WISH TO OVERRIDE</strong>. There is no need to include all config options if you only need to change 1 value.</p>
-<p>For more info on which values are available checkout the following classes:</p>
+</code></pre><div class="NOTE"><h5>Note</h5><p>To configure an extension, you simply add a section for it under <code>DisCatSharp</code> in <code>appsettings.json</code>. You only have
+to include values you <strong>WISH TO OVERRIDE</strong>. There is no need to include all config options if you only need to change 1 value.
+For more info on which values are available checkout the following classes:</p>
 <ul>
 <li><code>ApplicationCommandsConfiguration</code></li>
 <li><code>CommandsNextConfiguration</code></li>
@@ -179,6 +218,7 @@ to include values you <strong>WISH TO OVERRIDE</strong>. There is no need to inc
 <li><code>VoiceNextConfiguration</code></li>
 </ul>
 <p>For more information, you can also see the <a href="https://github.com/Aiko-IT-Systems/DisCatSharp.Examples/tree/main/Hosting">example</a>.</p>
+</div>
 <h2 id="multiple-bots">Multiple bots</h2>
 <p>In case you need to use multiple bots in one application, you need to use different names for them in the <code>appsettings.json</code>:</p>
 <pre><code class="lang-json">{
