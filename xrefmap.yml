@@ -47604,6 +47604,32 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.RolesBefore
   nameWithType: GuildMemberUpdateEventArgs.RolesBefore
+- uid: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter
+  name: TimeoutAfter
+  href: api/DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.html#DisCatSharp_EventArgs_GuildMemberUpdateEventArgs_TimeoutAfter
+  commentId: P:DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter
+  fullName: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter
+  nameWithType: GuildMemberUpdateEventArgs.TimeoutAfter
+- uid: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter*
+  name: TimeoutAfter
+  href: api/DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.html#DisCatSharp_EventArgs_GuildMemberUpdateEventArgs_TimeoutAfter_
+  commentId: Overload:DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutAfter
+  nameWithType: GuildMemberUpdateEventArgs.TimeoutAfter
+- uid: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore
+  name: TimeoutBefore
+  href: api/DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.html#DisCatSharp_EventArgs_GuildMemberUpdateEventArgs_TimeoutBefore
+  commentId: P:DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore
+  fullName: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore
+  nameWithType: GuildMemberUpdateEventArgs.TimeoutBefore
+- uid: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore*
+  name: TimeoutBefore
+  href: api/DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.html#DisCatSharp_EventArgs_GuildMemberUpdateEventArgs_TimeoutBefore_
+  commentId: Overload:DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore
+  isSpec: "True"
+  fullName: DisCatSharp.EventArgs.GuildMemberUpdateEventArgs.TimeoutBefore
+  nameWithType: GuildMemberUpdateEventArgs.TimeoutBefore
 - uid: DisCatSharp.EventArgs.GuildRoleCreateEventArgs
   name: GuildRoleCreateEventArgs
   href: api/DisCatSharp.EventArgs.GuildRoleCreateEventArgs.html
