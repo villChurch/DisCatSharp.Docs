@@ -25849,6 +25849,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.RemoveAsync
   nameWithType: DiscordMember.RemoveAsync
+- uid: DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync(System.String)
+  name: RemoveTimeOutAsync(String)
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_RemoveTimeOutAsync_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync(System.String)
+  fullName: DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync(System.String)
+  nameWithType: DiscordMember.RemoveTimeOutAsync(String)
+- uid: DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync*
+  name: RemoveTimeOutAsync
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_RemoveTimeOutAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.RemoveTimeOutAsync
+  nameWithType: DiscordMember.RemoveTimeOutAsync
 - uid: DisCatSharp.Entities.DiscordMember.ReplaceRolesAsync(System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordRole},System.String)
   name: ReplaceRolesAsync(IEnumerable<DiscordRole>, String)
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_ReplaceRolesAsync_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordRole__System_String_
@@ -25948,6 +25961,31 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMember.SetMuteAsync
   nameWithType: DiscordMember.SetMuteAsync
+- uid: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTime,System.String)
+  name: TimeOutAsync(DateTime, String)
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_TimeOutAsync_System_DateTime_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTime,System.String)
+  fullName: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTime, System.String)
+  nameWithType: DiscordMember.TimeOutAsync(DateTime, String)
+- uid: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTimeOffset,System.String)
+  name: TimeOutAsync(DateTimeOffset, String)
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_TimeOutAsync_System_DateTimeOffset_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTimeOffset,System.String)
+  fullName: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.DateTimeOffset, System.String)
+  nameWithType: DiscordMember.TimeOutAsync(DateTimeOffset, String)
+- uid: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.TimeSpan,System.String)
+  name: TimeOutAsync(TimeSpan, String)
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_TimeOutAsync_System_TimeSpan_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.TimeSpan,System.String)
+  fullName: DisCatSharp.Entities.DiscordMember.TimeOutAsync(System.TimeSpan, System.String)
+  nameWithType: DiscordMember.TimeOutAsync(TimeSpan, String)
+- uid: DisCatSharp.Entities.DiscordMember.TimeOutAsync*
+  name: TimeOutAsync
+  href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_TimeOutAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordMember.TimeOutAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMember.TimeOutAsync
+  nameWithType: DiscordMember.TimeOutAsync
 - uid: DisCatSharp.Entities.DiscordMember.ToString
   name: ToString()
   href: api/DisCatSharp.Entities.DiscordMember.html#DisCatSharp_Entities_DiscordMember_ToString
