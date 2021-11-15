@@ -16875,12 +16875,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordChannel.CreateInviteAsync
   nameWithType: DiscordChannel.CreateInviteAsync
-- uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,DisCatSharp.ChannelType,System.String)
-  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, String)
-  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_DisCatSharp_ChannelType_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,DisCatSharp.ChannelType,System.String)
-  fullName: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, DisCatSharp.ChannelType, System.String)
-  nameWithType: DiscordChannel.CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, String)
+- uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,DisCatSharp.ChannelType,System.Nullable{System.Int32},System.String)
+  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, Nullable<Int32>, String)
+  href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_DisCatSharp_ChannelType_System_Nullable_System_Int32__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,DisCatSharp.ChannelType,System.Nullable{System.Int32},System.String)
+  name.vb: CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, Nullable(Of Int32), String)
+  fullName: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, DisCatSharp.ChannelType, System.Nullable<System.Int32>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, DisCatSharp.ChannelType, System.Nullable(Of System.Int32), System.String)
+  nameWithType: DiscordChannel.CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, Nullable<Int32>, String)
+  nameWithType.vb: DiscordChannel.CreateThreadAsync(String, ThreadAutoArchiveDuration, ChannelType, Nullable(Of Int32), String)
 - uid: DisCatSharp.Entities.DiscordChannel.CreateThreadAsync*
   name: CreateThreadAsync
   href: api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateThreadAsync_
@@ -26203,12 +26206,15 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessage.CreateReactionAsync
   nameWithType: DiscordMessage.CreateReactionAsync
-- uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
-  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
-  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_System_String_
-  commentId: M:DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.String)
-  fullName: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, System.String)
-  nameWithType: DiscordMessage.CreateThreadAsync(String, ThreadAutoArchiveDuration, String)
+- uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.Nullable{System.Int32},System.String)
+  name: CreateThreadAsync(String, ThreadAutoArchiveDuration, Nullable<Int32>, String)
+  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_System_String_DisCatSharp_ThreadAutoArchiveDuration_System_Nullable_System_Int32__System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String,DisCatSharp.ThreadAutoArchiveDuration,System.Nullable{System.Int32},System.String)
+  name.vb: CreateThreadAsync(String, ThreadAutoArchiveDuration, Nullable(Of Int32), String)
+  fullName: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, System.Nullable<System.Int32>, System.String)
+  fullName.vb: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync(System.String, DisCatSharp.ThreadAutoArchiveDuration, System.Nullable(Of System.Int32), System.String)
+  nameWithType: DiscordMessage.CreateThreadAsync(String, ThreadAutoArchiveDuration, Nullable<Int32>, String)
+  nameWithType.vb: DiscordMessage.CreateThreadAsync(String, ThreadAutoArchiveDuration, Nullable(Of Int32), String)
 - uid: DisCatSharp.Entities.DiscordMessage.CreateThreadAsync*
   name: CreateThreadAsync
   href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_CreateThreadAsync_
