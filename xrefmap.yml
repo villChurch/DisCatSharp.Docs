@@ -14071,6 +14071,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplication.CoverImageUrl
   nameWithType: DiscordApplication.CoverImageUrl
+- uid: DisCatSharp.Entities.DiscordApplication.CustomInstallUrl
+  name: CustomInstallUrl
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_CustomInstallUrl
+  commentId: P:DisCatSharp.Entities.DiscordApplication.CustomInstallUrl
+  fullName: DisCatSharp.Entities.DiscordApplication.CustomInstallUrl
+  nameWithType: DiscordApplication.CustomInstallUrl
+- uid: DisCatSharp.Entities.DiscordApplication.CustomInstallUrl*
+  name: CustomInstallUrl
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_CustomInstallUrl_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplication.CustomInstallUrl
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplication.CustomInstallUrl
+  nameWithType: DiscordApplication.CustomInstallUrl
 - uid: DisCatSharp.Entities.DiscordApplication.Equals(DisCatSharp.Entities.DiscordApplication)
   name: Equals(DiscordApplication)
   href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_Equals_DisCatSharp_Entities_DiscordApplication_
@@ -14194,6 +14207,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplication.IconHash
   nameWithType: DiscordApplication.IconHash
+- uid: DisCatSharp.Entities.DiscordApplication.InstallParams
+  name: InstallParams
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_InstallParams
+  commentId: P:DisCatSharp.Entities.DiscordApplication.InstallParams
+  fullName: DisCatSharp.Entities.DiscordApplication.InstallParams
+  nameWithType: DiscordApplication.InstallParams
+- uid: DisCatSharp.Entities.DiscordApplication.InstallParams*
+  name: InstallParams
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_InstallParams_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplication.InstallParams
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplication.InstallParams
+  nameWithType: DiscordApplication.InstallParams
 - uid: DisCatSharp.Entities.DiscordApplication.IsPublic
   name: IsPublic
   href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_IsPublic
@@ -14324,6 +14350,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplication.Summary
   nameWithType: DiscordApplication.Summary
+- uid: DisCatSharp.Entities.DiscordApplication.Tags
+  name: Tags
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_Tags
+  commentId: P:DisCatSharp.Entities.DiscordApplication.Tags
+  fullName: DisCatSharp.Entities.DiscordApplication.Tags
+  nameWithType: DiscordApplication.Tags
+- uid: DisCatSharp.Entities.DiscordApplication.Tags*
+  name: Tags
+  href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_Tags_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplication.Tags
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplication.Tags
+  nameWithType: DiscordApplication.Tags
 - uid: DisCatSharp.Entities.DiscordApplication.Team
   name: Team
   href: api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_Team
@@ -15021,6 +15060,38 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordApplicationCommandPermission.Type
   nameWithType: DiscordApplicationCommandPermission.Type
+- uid: DisCatSharp.Entities.DiscordApplicationInstallParams
+  name: DiscordApplicationInstallParams
+  href: api/DisCatSharp.Entities.DiscordApplicationInstallParams.html
+  commentId: T:DisCatSharp.Entities.DiscordApplicationInstallParams
+  fullName: DisCatSharp.Entities.DiscordApplicationInstallParams
+  nameWithType: DiscordApplicationInstallParams
+- uid: DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions
+  name: Permissions
+  href: api/DisCatSharp.Entities.DiscordApplicationInstallParams.html#DisCatSharp_Entities_DiscordApplicationInstallParams_Permissions
+  commentId: P:DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions
+  fullName: DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions
+  nameWithType: DiscordApplicationInstallParams.Permissions
+- uid: DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions*
+  name: Permissions
+  href: api/DisCatSharp.Entities.DiscordApplicationInstallParams.html#DisCatSharp_Entities_DiscordApplicationInstallParams_Permissions_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions
+  nameWithType: DiscordApplicationInstallParams.Permissions
+- uid: DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes
+  name: Scopes
+  href: api/DisCatSharp.Entities.DiscordApplicationInstallParams.html#DisCatSharp_Entities_DiscordApplicationInstallParams_Scopes
+  commentId: P:DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes
+  fullName: DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes
+  nameWithType: DiscordApplicationInstallParams.Scopes
+- uid: DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes*
+  name: Scopes
+  href: api/DisCatSharp.Entities.DiscordApplicationInstallParams.html#DisCatSharp_Entities_DiscordApplicationInstallParams_Scopes_
+  commentId: Overload:DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes
+  nameWithType: DiscordApplicationInstallParams.Scopes
 - uid: DisCatSharp.Entities.DiscordAsset
   name: DiscordAsset
   href: api/DisCatSharp.Entities.DiscordAsset.html
@@ -15511,6 +15582,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordAuditLogGuildEntry.OwnerChange
   nameWithType: DiscordAuditLogGuildEntry.OwnerChange
+- uid: DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange
+  name: PremiumProgressBarChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html#DisCatSharp_Entities_DiscordAuditLogGuildEntry_PremiumProgressBarChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange
+  nameWithType: DiscordAuditLogGuildEntry.PremiumProgressBarChange
+- uid: DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange*
+  name: PremiumProgressBarChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html#DisCatSharp_Entities_DiscordAuditLogGuildEntry_PremiumProgressBarChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordAuditLogGuildEntry.PremiumProgressBarChange
+  nameWithType: DiscordAuditLogGuildEntry.PremiumProgressBarChange
 - uid: DisCatSharp.Entities.DiscordAuditLogGuildEntry.RegionChange
   name: RegionChange
   href: api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html#DisCatSharp_Entities_DiscordAuditLogGuildEntry_RegionChange
@@ -59248,12 +59332,12 @@ references:
   commentId: F:DisCatSharp.UserFlags.System
   fullName: DisCatSharp.UserFlags.System
   nameWithType: UserFlags.System
-- uid: DisCatSharp.UserFlags.TeamUser
-  name: TeamUser
-  href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_TeamUser
-  commentId: F:DisCatSharp.UserFlags.TeamUser
-  fullName: DisCatSharp.UserFlags.TeamUser
-  nameWithType: UserFlags.TeamUser
+- uid: DisCatSharp.UserFlags.TeamPseudoUser
+  name: TeamPseudoUser
+  href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_TeamPseudoUser
+  commentId: F:DisCatSharp.UserFlags.TeamPseudoUser
+  fullName: DisCatSharp.UserFlags.TeamPseudoUser
+  nameWithType: UserFlags.TeamPseudoUser
 - uid: DisCatSharp.UserFlags.UnderageDeleted
   name: UnderageDeleted
   href: api/DisCatSharp.UserFlags.html#DisCatSharp_UserFlags_UnderageDeleted

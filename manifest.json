@@ -2598,7 +2598,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplication.html",
-          "hash": "xn09oF9EX+zGnSkyryrEYRnRJcE+7ajwI60W/leOTWo="
+          "hash": "bMnuVmtDJ/A84u0HRsgNMv5ITDkdgZwt+vHLOBCZ6is="
         }
       },
       "is_incremental": false,
@@ -2671,6 +2671,18 @@
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordApplicationCommandPermission.html",
           "hash": "6SFOmEjU/ps1G98kzNYyvY88Ucv0P9f+XjxO2//1BiE="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Entities.DiscordApplicationInstallParams.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Entities.DiscordApplicationInstallParams.html",
+          "hash": "pzYFtQ1odeXa1uIrfVtQC00/IVCe48Mma7TwzBdwOCw="
         }
       },
       "is_incremental": false,
@@ -2766,7 +2778,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html",
-          "hash": "Oz4LcE+yqFWJ8exb6jju5t9yr7PMJbiAlDiAJyKcqAM="
+          "hash": "oliBen1UrKqLBaj8ZfyR/PWAv4OuZw+V7Bh/UkyoR5A="
         }
       },
       "is_incremental": false,
@@ -4242,7 +4254,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.html",
-          "hash": "EJ+RjdjZqEpfUHAOPJfp5TcrJ7lcCuHK38RSY6+JTT0="
+          "hash": "GFlPYJlnmzgOPXp6G5mPR2QvCZd2wGDXKPaHb5AGm3I="
         }
       },
       "is_incremental": false,
@@ -7014,7 +7026,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.UserFlags.html",
-          "hash": "Ftn036dGSA6E4z8lQiKtyw21PaVyhT/EOL97J9bO3gA="
+          "hash": "DPlt6BbMADq346HD7Ayu3b83aVWlrm48rV/wp6d2niA="
         }
       },
       "is_incremental": false,
@@ -7290,7 +7302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "cmileB8XsIEv8Q6GI/zEyyx+ainIIBPf157Xwt3kK9w="
+          "hash": "gvMSWntsWsiE0FwRUb0HTxZhKUCvS2vncbM6hAqfetw="
         }
       },
       "is_incremental": false,
@@ -8455,8 +8467,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 605,
-          "skipped_file_count": 605
+          "total_file_count": 606,
+          "skipped_file_count": 606
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

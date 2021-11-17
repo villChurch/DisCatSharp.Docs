@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Enum UserFlags
+    <title>Class DiscordApplicationInstallParams
    | DisCatSharp Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Enum UserFlags
+    <meta name="title" content="Class DiscordApplicationInstallParams
    | DisCatSharp Docs ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -77,143 +77,79 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DisCatSharp.UserFlags">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams">
   
   
-  <h1 id="DisCatSharp_UserFlags" data-uid="DisCatSharp.UserFlags" class="text-break">Enum UserFlags
+  <h1 id="DisCatSharp_Entities_DiscordApplicationInstallParams" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams" class="text-break">Class DiscordApplicationInstallParams
   </h1>
-  <div class="markdown level0 summary"><p>Represents additional details of a users account.</p>
+  <div class="markdown level0 summary"><p>The application install params.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.html">DisCatSharp</a></h6>
-  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DisCatSharp_UserFlags_syntax">Syntax</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum UserFlags</code></pre>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><span class="xref">DiscordApplicationInstallParams</span></div>
   </div>
-  <h3 id="fields">Fields
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Entities.html">DisCatSharp.Entities</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Entities_DiscordApplicationInstallParams_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public sealed class DiscordApplicationInstallParams</code></pre>
+  </div>
+  <h3 id="properties">Properties
   </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationInstallParams_Permissions_" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationInstallParams_Permissions" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams.Permissions">Permissions</h4>
+  <div class="markdown level1 summary"><p>Gets or sets the permissions.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Permissions? Permissions { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Name</th>
+        <th>Type</th>
         <th>Description</th>
       </tr>
-    <thead>
+    </thead>
     <tbody>
       <tr>
-        <td id="DisCatSharp_UserFlags_BotHttpInteractions">BotHttpInteractions</td>
-        <td><p>The user is a bot and has set an interactions endpoint url.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_BugHunterLevelOne">BugHunterLevelOne</td>
-        <td><p>The user reached the first bug hunter tier.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_BugHunterLevelTwo">BugHunterLevelTwo</td>
-        <td><p>The user reached the second bug hunter tier.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_DiscordCertifiedModerator">DiscordCertifiedModerator</td>
-        <td><p>The user is a discord certified moderator.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_DiscordEmployee">DiscordEmployee</td>
-        <td><p>The user is a Discord employee.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_DiscordPartner">DiscordPartner</td>
-        <td><p>The user is a Discord partner.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_EarlySupporter">EarlySupporter</td>
-        <td><p>The user has the early supporter badge.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_HasUnreadUrgentMessages">HasUnreadUrgentMessages</td>
-        <td><p>Whether the user has unread system messages.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_HouseBalance">HouseBalance</td>
-        <td><p>The user is a member of house balance.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_HouseBravery">HouseBravery</td>
-        <td><p>The user is a member of house bravery.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_HouseBrilliance">HouseBrilliance</td>
-        <td><p>The user is a member of house brilliance.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_HypeSquadEvents">HypeSquadEvents</td>
-        <td><p>The user has the HypeSquad badge.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_MfaSms">MfaSms</td>
-        <td><p>The user has SMS recovery for 2FA enabled.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_None">None</td>
-        <td><p>The user has no flags.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_PartnerOrVerificationApplication">PartnerOrVerificationApplication</td>
-        <td><p>Relates to partner/verification applications.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_PremiumPromoDismissed">PremiumPromoDismissed</td>
-        <td><p>The user is marked as dismissed Nitro promotion</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_Spammer">Spammer</td>
-        <td><p>The user is disabled for being a spammer.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_System">System</td>
-        <td><p>Whether the user is an official system user.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_TeamPseudoUser">TeamPseudoUser</td>
-        <td><p>User is a <a class="xref" href="DisCatSharp.Entities.DiscordTeam.html">DiscordTeam</a>.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_UnderageDeleted">UnderageDeleted</td>
-        <td><p>The user has a pending deletion for being underage in DOB prompt.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_VerifiedBot">VerifiedBot</td>
-        <td><p>The user is a verified bot.</p>
-</td>
-      </tr>
-      <tr>
-        <td id="DisCatSharp_UserFlags_VerifiedBotDeveloper">VerifiedBotDeveloper</td>
-        <td><p>The user is a verified bot developer.</p>
-</td>
+        <td><span class="xref">System.Nullable</span>&lt;<a class="xref" href="DisCatSharp.Permissions.html">Permissions</a>&gt;</td>
+        <td></td>
       </tr>
     </tbody>
-  </thead></thead></table>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationInstallParams_Scopes_" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationInstallParams_Scopes" data-uid="DisCatSharp.Entities.DiscordApplicationInstallParams.Scopes">Scopes</h4>
+  <div class="markdown level1 summary"><p>Gets the scopes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;string&gt; Scopes { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 
 </article>
           </div>
