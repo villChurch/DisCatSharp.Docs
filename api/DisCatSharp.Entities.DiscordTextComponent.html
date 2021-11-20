@@ -82,7 +82,7 @@
   
   <h1 id="DisCatSharp_Entities_DiscordTextComponent" data-uid="DisCatSharp.Entities.DiscordTextComponent" class="text-break">Class DiscordTextComponent
   </h1>
-  <div class="markdown level0 summary"><p>Represents a text that can be submitted. Fires <see cref="!:ComponentInteractionCreateEventArgs"></see> when submitted.</p>
+  <div class="markdown level0 summary"><p>Represents a text component that can be submitted. Fires <see cref="!:ComponentInteractionCreateEventArgs"></see> when submitted.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -112,7 +112,7 @@
   
   <a id="DisCatSharp_Entities_DiscordTextComponent__ctor_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_DisCatSharp_Entities_DiscordTextComponent_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(DisCatSharp.Entities.DiscordTextComponent)">DiscordTextComponent(DiscordTextComponent)</h4>
-  <div class="markdown level1 summary"><p>Constucts a new button based on another button.</p>
+  <div class="markdown level1 summary"><p>Constucts a new text component based on another text component.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -140,13 +140,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordTextComponent__ctor_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_DisCatSharp_Entities_DiscordComponentEmoji_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean,DisCatSharp.Entities.DiscordComponentEmoji)">DiscordTextComponent(TextComponentStyle, String, String, Boolean, DiscordComponentEmoji)</h4>
-  <div class="markdown level1 summary"><p>Constructs a new button with the specified options.</p>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)">DiscordTextComponent(TextComponentStyle, String, String, Boolean)</h4>
+  <div class="markdown level1 summary"><p>Constructs a new text component field with the specified options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, bool disabled = false, DiscordComponentEmoji emoji = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, bool disabled = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -161,31 +161,25 @@
       <tr>
         <td><span class="xref">TextComponentStyle</span></td>
         <td><span class="parametername">style</span></td>
-        <td><p>The style/color of the button.</p>
+        <td><p>The style of the text component.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">customId</span></td>
-        <td><p>The Id to assign to the button. This is sent back when a user presses it.</p>
+        <td><p>The Id to assign to the text component. This is sent back when a user presses it.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">label</span></td>
-        <td><p>The text to display on the button, up to 80 characters. Can be left blank if <code data-dev-comment-type="paramref" class="paramref">emoji</code>is set.</p>
+        <td><p>The text to display before the text component, up to 80 characters.</p>
 </td>
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
         <td><span class="parametername">disabled</span></td>
-        <td><p>Whether this button should be initialized as being disabled. User sees a greyed out button that cannot be interacted with.</p>
-</td>
-      </tr>
-      <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordComponentEmoji.html">DiscordComponentEmoji</a></td>
-        <td><span class="parametername">emoji</span></td>
-        <td><p>The emoji to add to the button. This is required if <code data-dev-comment-type="paramref" class="paramref">label</code> is empty or null.</p>
+        <td><p>Whether this text component should be initialized as being disabled.</p>
 </td>
       </tr>
     </tbody>
@@ -196,7 +190,7 @@
   
   <a id="DisCatSharp_Entities_DiscordTextComponent_Disabled_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disabled*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent_Disabled" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disabled">Disabled</h4>
-  <div class="markdown level1 summary"><p>Whether this button can be pressed.</p>
+  <div class="markdown level1 summary"><p>Whether this text component can be used.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -220,35 +214,9 @@
   </table>
   
   
-  <a id="DisCatSharp_Entities_DiscordTextComponent_Emoji_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Emoji*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Emoji" data-uid="DisCatSharp.Entities.DiscordTextComponent.Emoji">Emoji</h4>
-  <div class="markdown level1 summary"><p>The emoji to add to the button. Can be used in conjunction with a label, or as standalone. Must be added if label is not specified.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordComponentEmoji Emoji { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordComponentEmoji.html">DiscordComponentEmoji</a></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
   <a id="DisCatSharp_Entities_DiscordTextComponent_Label_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Label*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent_Label" data-uid="DisCatSharp.Entities.DiscordTextComponent.Label">Label</h4>
-  <div class="markdown level1 summary"><p>The text to apply to the button. If this is not specified <a class="xref" href="DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Emoji">Emoji</a> becomes required.</p>
+  <div class="markdown level1 summary"><p>The text to apply to the text component.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -274,7 +242,7 @@
   
   <a id="DisCatSharp_Entities_DiscordTextComponent_Style_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Style*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent_Style" data-uid="DisCatSharp.Entities.DiscordTextComponent.Style">Style</h4>
-  <div class="markdown level1 summary"><p>The style of the text.</p>
+  <div class="markdown level1 summary"><p>The style of the text component.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>

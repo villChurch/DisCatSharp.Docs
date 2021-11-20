@@ -24514,6 +24514,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Mentions
   nameWithType: DiscordInteractionResponseBuilder.Mentions
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
+  name: Title
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Title
+  commentId: P:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
+  nameWithType: DiscordInteractionResponseBuilder.Title
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title*
+  name: Title
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Title_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
+  nameWithType: DiscordInteractionResponseBuilder.Title
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.WithContent(System.String)
   name: WithContent(String)
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_WithContent_System_String_
@@ -29773,12 +29786,12 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(DisCatSharp.Entities.DiscordTextComponent)
   fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(DisCatSharp.Entities.DiscordTextComponent)
   nameWithType: DiscordTextComponent.DiscordTextComponent(DiscordTextComponent)
-- uid: DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean,DisCatSharp.Entities.DiscordComponentEmoji)
-  name: DiscordTextComponent(TextComponentStyle, String, String, Boolean, DiscordComponentEmoji)
-  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_DisCatSharp_Entities_DiscordComponentEmoji_
-  commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean,DisCatSharp.Entities.DiscordComponentEmoji)
-  fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(TextComponentStyle, System.String, System.String, System.Boolean, DisCatSharp.Entities.DiscordComponentEmoji)
-  nameWithType: DiscordTextComponent.DiscordTextComponent(TextComponentStyle, String, String, Boolean, DiscordComponentEmoji)
+- uid: DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)
+  name: DiscordTextComponent(TextComponentStyle, String, String, Boolean)
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(TextComponentStyle, System.String, System.String, System.Boolean)
+  nameWithType: DiscordTextComponent.DiscordTextComponent(TextComponentStyle, String, String, Boolean)
 - uid: DisCatSharp.Entities.DiscordTextComponent.#ctor*
   name: DiscordTextComponent
   href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_
@@ -29812,19 +29825,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordTextComponent.Disabled
   nameWithType: DiscordTextComponent.Disabled
-- uid: DisCatSharp.Entities.DiscordTextComponent.Emoji
-  name: Emoji
-  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Emoji
-  commentId: P:DisCatSharp.Entities.DiscordTextComponent.Emoji
-  fullName: DisCatSharp.Entities.DiscordTextComponent.Emoji
-  nameWithType: DiscordTextComponent.Emoji
-- uid: DisCatSharp.Entities.DiscordTextComponent.Emoji*
-  name: Emoji
-  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Emoji_
-  commentId: Overload:DisCatSharp.Entities.DiscordTextComponent.Emoji
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordTextComponent.Emoji
-  nameWithType: DiscordTextComponent.Emoji
 - uid: DisCatSharp.Entities.DiscordTextComponent.Enable
   name: Enable()
   href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Enable
@@ -51491,6 +51491,12 @@ references:
   commentId: F:DisCatSharp.InteractionResponseType.DeferredMessageUpdate
   fullName: DisCatSharp.InteractionResponseType.DeferredMessageUpdate
   nameWithType: InteractionResponseType.DeferredMessageUpdate
+- uid: DisCatSharp.InteractionResponseType.Modal
+  name: Modal
+  href: api/DisCatSharp.InteractionResponseType.html#DisCatSharp_InteractionResponseType_Modal
+  commentId: F:DisCatSharp.InteractionResponseType.Modal
+  fullName: DisCatSharp.InteractionResponseType.Modal
+  nameWithType: InteractionResponseType.Modal
 - uid: DisCatSharp.InteractionResponseType.Pong
   name: Pong
   href: api/DisCatSharp.InteractionResponseType.html#DisCatSharp_InteractionResponseType_Pong
