@@ -82,7 +82,7 @@
   
   <h1 id="DisCatSharp_DiscordShardedClient" data-uid="DisCatSharp.DiscordShardedClient" class="text-break">Class DiscordShardedClient
   </h1>
-  <div class="markdown level0 summary"><p>A Discord client that shards automatically.</p>
+  <div class="markdown level0 summary"><p>Represents a discord sharded client.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -280,7 +280,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.Int32</span>, <a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -306,7 +306,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">DiscordVoiceRegion</span>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">DiscordVoiceRegion</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -447,25 +447,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.AggregateException</span></td>
-        <td></td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.InvalidOperationException</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DisCatSharp_DiscordShardedClient_StopAsync_" data-uid="DisCatSharp.DiscordShardedClient.StopAsync*"></a>
@@ -492,25 +473,10 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.InvalidOperationException</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync*"></a>
-  <h4 id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_System_DateTimeOffset__" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{System.DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordShardedClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.DiscordShardedClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Updates playing statuses on all shards.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -541,7 +507,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">idleSince</span></td>
         <td><p>Since when is the client performing the specified activity.</p>
 </td>
@@ -1390,8 +1356,8 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <h4 id="DisCatSharp_DiscordShardedClient_GuildScheduledEventCreated" data-uid="DisCatSharp.DiscordShardedClient.GuildScheduledEventCreated">GuildScheduledEventCreated</h4>
-  <div class="markdown level1 summary"><p>Fired when a scheduled Event is created.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+  <div class="markdown level1 summary"><p>Fired when a scheduled event is created.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1416,8 +1382,8 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <h4 id="DisCatSharp_DiscordShardedClient_GuildScheduledEventDeleted" data-uid="DisCatSharp.DiscordShardedClient.GuildScheduledEventDeleted">GuildScheduledEventDeleted</h4>
-  <div class="markdown level1 summary"><p>Fired when a scheduled Event is deleted.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+  <div class="markdown level1 summary"><p>Fired when a scheduled event is deleted.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1442,8 +1408,8 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   
   <h4 id="DisCatSharp_DiscordShardedClient_GuildScheduledEventUpdated" data-uid="DisCatSharp.DiscordShardedClient.GuildScheduledEventUpdated">GuildScheduledEventUpdated</h4>
-  <div class="markdown level1 summary"><p>Fired when a scheduled Event is updated.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+  <div class="markdown level1 summary"><p>Fired when a scheduled event is updated.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -1461,6 +1427,58 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     <tbody>
       <tr>
         <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUpdateEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordShardedClient_GuildScheduledEventUserAdded" data-uid="DisCatSharp.DiscordShardedClient.GuildScheduledEventUserAdded">GuildScheduledEventUserAdded</h4>
+  <div class="markdown level1 summary"><p>Fired when a user subscribes to a scheduled event.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, GuildScheduledEventUserAddEventArgs&gt; GuildScheduledEventUserAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUserAddEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordShardedClient_GuildScheduledEventUserRemoved" data-uid="DisCatSharp.DiscordShardedClient.GuildScheduledEventUserRemoved">GuildScheduledEventUserRemoved</h4>
+  <div class="markdown level1 summary"><p>Fired when a user unsubscribes from a scheduled event.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, GuildScheduledEventUserRemoveEventArgs&gt; GuildScheduledEventUserRemoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUserRemoveEventArgs</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

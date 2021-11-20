@@ -88,16 +88,14 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><a class="xref" href="DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute.html">CheckBaseAttribute</a></div>
-    <div class="level3"><span class="xref">CooldownAttribute</span></div>
+    <div class="level1"><a class="xref" href="DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute.html">CheckBaseAttribute</a></div>
+    <div class="level2"><span class="xref">CooldownAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.CommandsNext.Attributes.html">DisCatSharp.CommandsNext.Attributes</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_CommandsNext_Attributes_CooldownAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = true, Inherited = false)]
-public sealed class CooldownAttribute : CheckBaseAttribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CooldownAttribute : CheckBaseAttribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -217,7 +215,7 @@ public sealed class CooldownAttribute : CheckBaseAttribute, _Attribute</code></p
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -360,7 +358,7 @@ public sealed class CooldownAttribute : CheckBaseAttribute, _Attribute</code></p
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.TimeSpan</span></td>
+        <td><span class="xref">TimeSpan</span></td>
         <td><p>Remaining cooldown, or zero if no cooldown is active.</p>
 </td>
       </tr>

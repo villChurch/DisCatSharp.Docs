@@ -82,7 +82,7 @@
   
   <h1 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1" class="text-break">Class CharSpanLookupReadOnlyDictionary&lt;TValue&gt;
   </h1>
-  <div class="markdown level0 summary"><p>Represents collection of string keys and <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> values, allowing the use of <span class="xref">System.ReadOnlySpan&lt;T&gt;</span> for dictionary operations.</p>
+  <div class="markdown level0 summary"><p>Represents collection of string keys and <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> values, allowing the use of <see cref="!:ReadOnlySpan&lt;T>"></see> for dictionary operations.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -94,7 +94,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class CharSpanLookupReadOnlyDictionary&lt;TValue&gt; : IReadOnlyDictionary&lt;string, TValue&gt;, IReadOnlyCollection&lt;KeyValuePair&lt;string, TValue&gt;&gt;, IEnumerable&lt;KeyValuePair&lt;string, TValue&gt;&gt;, IEnumerable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class CharSpanLookupReadOnlyDictionary&lt;TValue&gt; : IReadOnlyDictionary&lt;string, TValue&gt;</code></pre>
   </div>
   <h5 class="typeParameters">Type Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -117,7 +117,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_System_Collections_Generic_IDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(System.Collections.Generic.IDictionary{System.String,`0})">CharSpanLookupReadOnlyDictionary(IDictionary&lt;String, TValue&gt;)</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_IDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(IDictionary{System.String,`0})">CharSpanLookupReadOnlyDictionary(IDictionary&lt;String, TValue&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary-1.html">CharSpanLookupReadOnlyDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -136,7 +136,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
+        <td><span class="xref">IDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
         <td><span class="parametername">values</span></td>
         <td><p>Dictionary containing items to populate this dictionary with.</p>
 </td>
@@ -146,7 +146,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_System_Collections_Generic_IEnumerable_System_Collections_Generic_KeyValuePair_System_String__0___" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,`0}})">CharSpanLookupReadOnlyDictionary(IEnumerable&lt;KeyValuePair&lt;String, TValue&gt;&gt;)</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_IEnumerable_KeyValuePair_System_String__0___" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(IEnumerable{KeyValuePair{System.String,`0}})">CharSpanLookupReadOnlyDictionary(IEnumerable&lt;KeyValuePair&lt;String, TValue&gt;&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary-1.html">CharSpanLookupReadOnlyDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied key-value collection.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -165,7 +165,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
         <td><span class="parametername">values</span></td>
         <td><p>Dictionary containing items to populate this dictionary with.</p>
 </td>
@@ -175,7 +175,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_System_Collections_Generic_IReadOnlyDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(System.Collections.Generic.IReadOnlyDictionary{System.String,`0})">CharSpanLookupReadOnlyDictionary(IReadOnlyDictionary&lt;String, TValue&gt;)</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1__ctor_IReadOnlyDictionary_System_String__0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.#ctor(IReadOnlyDictionary{System.String,`0})">CharSpanLookupReadOnlyDictionary(IReadOnlyDictionary&lt;String, TValue&gt;)</h4>
   <div class="markdown level1 summary"><p>Creates a new <a class="xref" href="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary-1.html">CharSpanLookupReadOnlyDictionary&lt;TValue&gt;</a> with string keys and items of type <code data-dev-comment-type="typeparamref" class="typeparamref">TValue</code> and populates it with key-value pairs from supplied dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -194,7 +194,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, TValue&gt;</td>
         <td><span class="parametername">values</span></td>
         <td><p>Dictionary containing items to populate this dictionary with.</p>
 </td>
@@ -232,7 +232,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_Item_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.Item*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_Item_System_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.Item(System.ReadOnlySpan{System.Char})">Item[ReadOnlySpan&lt;Char&gt;]</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_Item_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.Item(ReadOnlySpan{System.Char})">Item[ReadOnlySpan&lt;Char&gt;]</h4>
   <div class="markdown level1 summary"><p>Gets a value corresponding to given key in this dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -251,7 +251,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td><span class="parametername">key</span></td>
         <td><p>Key to get or set the value for.</p>
 </td>
@@ -340,7 +340,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">System.String</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -366,7 +366,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;TValue&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;TValue&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -376,7 +376,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_ContainsKey_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.ContainsKey*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_ContainsKey_System_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.ContainsKey(System.ReadOnlySpan{System.Char})">ContainsKey(ReadOnlySpan&lt;Char&gt;)</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_ContainsKey_ReadOnlySpan_System_Char__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.ContainsKey(ReadOnlySpan{System.Char})">ContainsKey(ReadOnlySpan&lt;Char&gt;)</h4>
   <div class="markdown level1 summary"><p>Checks whether this dictionary contains the specified key.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -395,7 +395,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td><span class="parametername">key</span></td>
         <td><p>Key to check for in this dictionary.</p>
 </td>
@@ -484,7 +484,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerator</span>&lt;<span class="xref">System.Collections.Generic.KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
+        <td><span class="xref">IEnumerator</span>&lt;<span class="xref">KeyValuePair</span>&lt;<span class="xref">System.String</span>, TValue&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -492,7 +492,7 @@
   
   
   <a id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_TryGetValue_" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.TryGetValue*"></a>
-  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_TryGetValue_System_ReadOnlySpan_System_Char___0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.TryGetValue(System.ReadOnlySpan{System.Char},`0@)">TryGetValue(ReadOnlySpan&lt;Char&gt;, out TValue)</h4>
+  <h4 id="DisCatSharp_Common_CharSpanLookupReadOnlyDictionary_1_TryGetValue_ReadOnlySpan_System_Char___0__" data-uid="DisCatSharp.Common.CharSpanLookupReadOnlyDictionary`1.TryGetValue(ReadOnlySpan{System.Char},`0@)">TryGetValue(ReadOnlySpan&lt;Char&gt;, out TValue)</h4>
   <div class="markdown level1 summary"><p>Attempts to retrieve a value corresponding to the supplied key from this dictionary.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -511,7 +511,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
+        <td><span class="xref">ReadOnlySpan</span>&lt;<span class="xref">System.Char</span>&gt;</td>
         <td><span class="parametername">key</span></td>
         <td><p>Key to retrieve the value for.</p>
 </td>

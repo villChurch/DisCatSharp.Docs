@@ -109,7 +109,7 @@
   
   <a id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_Guild_" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild*"></a>
   <h4 id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_Guild" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.Guild">Guild</h4>
-  <div class="markdown level1 summary"><p>Gets the guild in which the stage instance was created.</p>
+  <div class="markdown level1 summary"><p>Gets the guild in which the scheduled event was updated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -133,14 +133,14 @@
   </table>
   
   
-  <a id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEvent_" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent*"></a>
-  <h4 id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEvent" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEvent">ScheduledEvent</h4>
-  <div class="markdown level1 summary"><p>Gets the stage instance that was created.</p>
+  <a id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEventAfter_" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEventAfter*"></a>
+  <h4 id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEventAfter" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEventAfter">ScheduledEventAfter</h4>
+  <div class="markdown level1 summary"><p>Gets the scheduled event that was updated.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordEvent ScheduledEvent { get; }</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordScheduledEvent ScheduledEventAfter { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -152,7 +152,33 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordEvent</span></td>
+        <td><span class="xref">DiscordScheduledEvent</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEventBefore_" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEventBefore*"></a>
+  <h4 id="DisCatSharp_EventArgs_GuildScheduledEventUpdateEventArgs_ScheduledEventBefore" data-uid="DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.ScheduledEventBefore">ScheduledEventBefore</h4>
+  <div class="markdown level1 summary"><p>Gets the old scheduled event that was updated.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordScheduledEvent ScheduledEventBefore { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordScheduledEvent</span></td>
         <td></td>
       </tr>
     </tbody>

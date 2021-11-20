@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Version 9.8.4 | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Version 9.8.4 | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="important_changes_9_8_4">
+<h1 id="upgrade-from-983-to-984">Upgrade from <strong>9.8.3</strong> to <strong>9.8.4</strong></h1>
+
+<h2 id="what-is-new-in-discatsharp">What is new in #discatsharp?</h2>
+<ul>
+<li>Components</li>
+<li>Scheduled Events</li>
+<li>New Application Fields</li>
+<li>A ExecuteRawRequest Method</li>
+<li>Threads</li>
+<li>Hosting Packages</li>
+<li>New Templates</li>
+<li>Better Guild Channel Operations</li>
+<li>New Permissions</li>
+<li>New Application Command Permission (Not v2 yet)</li>
+<li>A new Logo :3 <span class="emoji" shortcode="heart">❤️</span></li>
+</ul>
+<h2 id="what-changed">What changed?</h2>
+<h3 id="threads">Threads</h3>
+<p>We have fixed many bugs in threads over time, and they work completely now.</p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Net.Models.ThreadEditModel.html">DisCatSharp.Net.Models.ThreadEditModel</a> has a new field called <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Net.Models.ThreadEditModel.html#DisCatSharp_Net_Models_ThreadEditModel_PerUserRateLimit">PerUserRateLimit</a>.</li>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordThreadChannel.html">DisCatSharp.Entities.DiscordThreadChannel</a> now supports <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordThreadChannel.html?q=DiscordThreadChannel#DisCatSharp_Entities_DiscordThreadChannel_GetMemberAsync_System_UInt64_">DisCatSharp.Entities.DiscordThreadChannel#GetMemberAsync</a></li>
+</ul>
+<h3 id="components">Components</h3>
+<p>We support every Component available on the API.</p>
+<h3 id="discord-application-object">Discord Application Object</h3>
+<p><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplication.html">DiscordApplication</a> now includes the property fields:</p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_CustomInstallUrl">CustomInstallUrl</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_InstallParams">InstallParams</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordApplication.html#DisCatSharp_Entities_DiscordApplication_Tags">Tags</a></li>
+</ul>
+<p>You can find the settings for these fields in the <a href="https://discord.com/developers/applications">Discord Developer Portal</a>.</p>
+<h3 id="scheduled-events">Scheduled Events</h3>
+<p>The new scheduled events are already fully supported by us.</p>
+<p><strong>Entities:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordScheduledEvent.html">DisCatSharp.Entities.DiscordScheduledEvent</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordScheduledEventEntityMetadata.html">DisCatSharp.Entities.DiscordScheduledEventEntityMetadata</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordScheduledEventUser.html">DisCatSharp.Entities.DiscordScheduledEventUser</a></li>
+</ul>
+<p><strong>Emums:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.ScheduledEventEntityType.html">DisCatSharp.ScheduledEventEntityType</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.ScheduledEventStatus.html">DisCatSharp.ScheduledEventStatus</a></li>
+</ul>
+<p><strong>Events:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs.html">DisCatSharp.EventArgs.GuildScheduledEventCreateEventArgs</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs.html">DisCatSharp.EventArgs.GuildScheduledEventUpdateEventArgs</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs.html">DisCatSharp.EventArgs.GuildScheduledEventDeleteEventArgs</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.EventArgs.GuildScheduledEventUserAddEventArgs.html">DisCatSharp.EventArgs.GuildScheduledEventUserAddEventArgs</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.EventArgs.GuildScheduledEventUserRemoveEventArgs.html">DisCatSharp.EventArgs.GuildScheduledEventUserRemoveEventArgs</a></li>
+</ul>
+<p><strong>Models:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Net.Models.ScheduledEventEditModel.html">DisCatSharp.Net.Models.ScheduledEventEditModel</a></li>
+</ul>
+<p><strong>Extra Properties:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_ScheduledEvents">DisCatSharp.Entities.DiscordGuild#ScheduledEvents</a></li>
+</ul>
+<p><strong>Extra Methods:</strong></p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_CreateScheduledEventAsync_System_String_DateTimeOffset_System_Nullable_DateTimeOffset__DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordScheduledEventEntityMetadata_System_String_DisCatSharp_ScheduledEventEntityType_System_String_">DisCatSharp.Entities.DiscordGuild#CreateScheduledEventAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_CreateExternalScheduledEventAsync_System_String_DateTimeOffset_DateTimeOffset_System_String_System_String_System_String_">DisCatSharp.Entities.DiscordGuild#CreateExternalScheduledEventAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_GetScheduledEventAsync_DisCatSharp_Entities_DiscordScheduledEvent_System_Nullable_System_Boolean__">DisCatSharp.Entities.DiscordGuild#GetScheduledEventAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_GetScheduledEventsAsync_System_Nullable_System_Boolean__">DisCatSharp.Entities.DiscordGuild#GetScheduledEventsAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_CreateScheduledEventAsync_System_String_DateTimeOffset_System_String_System_String_">DisCatSharp.Entities.DiscordChannel#CreateScheduledEventAsync</a></li>
+</ul>
+<h3 id="audit-log">Audit Log</h3>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html">DisCatSharp.Entities.DiscordAuditLogGuildEntry</a> has the new field <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordAuditLogGuildEntry.html#DisCatSharp_Entities_DiscordAuditLogGuildEntry_PremiumProgressBarChange">PremiumProgressBarChange</a></li>
+<li>Added <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry.html">DisCatSharp.Entities.DiscordAuditLogScheduledEventEntry</a></li>
+</ul>
+<h3 id="enums">Enums</h3>
+<p>We&#39;ve updated some enums to reflect the <a href="https://discord.com/developers/docs/intro">API Documentation</a> of Discord:</p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.PremiumTier.html">DisCatSharp.PremiumTier</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.StagePrivacyLevel.html">DisCatSharp.StagePrivacyLevel</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.UserFlags.html">DisCatSharp.UserFlags</a></li>
+</ul>
+<h3 id="discatsharpcommandsnext">DisCatSharp.CommandsNext</h3>
+<ul>
+<li><code>RequireDiscordEmployeeAttribute</code> is now <code>RequireStaffAttribute</code></li>
+<li><code>RequireDiscordCertifiedModeratorAttribute</code> is now <code>RequireCertifiedModeratorAttribute</code></li>
+</ul>
+<h3 id="executerawrequest">ExecuteRawRequest</h3>
+<p>We added the <a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_Object_System_String_Dictionary_System_String_System_String__System_Nullable_System_Double__">ExecuteRawRequestAsync</a> method.</p>
+<h3 id="better-guild-channel-operations">Better Guild Channel Operations</h3>
+<p>We did some engineering in the Discord API to create a method which gets an <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_OrderedChannels">ordered channel dictionary</a>.</p>
+<p>Furthermore, we added a few new functions to <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordGuild.">DisCatSharp.Entities.DiscordGuild</a>:</p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_GetOrderedChannels">DisCatSharp.Entities.DiscordGuild#GetOrderedChannels</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_GetOrderedChannelsAsync">DisCatSharp.Entities.DiscordGuild#GetOrderedChannelsAsync</a></li>
+</ul>
+<p>And a couple more methods to <a href="https://docs.dcs.aitsys.dev/api/DisCatSharp.Entities.DiscordChannel">DisCatSharp.Entities.DiscordChannel</a>:</p>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMinPosition">DisCatSharp.Entities.DiscordChannel#GetMinPosition</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_GetMaxPosition">DisCatSharp.Entities.DiscordChannel#GetMaxPosition</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionAsync_System_Int32_System_String_">DisCatSharp.Entities.DiscordChannel#ModifyPositionAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RefreshPositionsAsync">DisCatSharp.Entities.DiscordChannel#RefreshPositionsAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyPositionInCategoryAsync_System_Int32_System_String_">DisCatSharp.Entities.DiscordChannel#ModifyPositionInCategorySmartAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_ModifyParentAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_Boolean__System_String_">DisCatSharp.Entities.DiscordChannel#ModifyParentAsync</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.Entities.DiscordChannel.html#DisCatSharp_Entities_DiscordChannel_RemoveParentAsync_System_String_">DisCatSharp.Entities.DiscordChannel#RemoveParentAsync</a></li>
+</ul>
+<h3 id="new-permissions">New Permissions</h3>
+<ul>
+<li>SendMessagesInThreads</li>
+<li>StartEmbeddedActivities</li>
+<li>ManageEvents</li>
+</ul>
+<h3 id="new-application-command-permission-not-v2-yet">New Application Command Permission (Not v2 yet)</h3>
+<ul>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddUser_System_UInt64_System_Boolean_">DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext#AddUser</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddRole_System_UInt64_System_Boolean_">DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext#AddRole</a></li>
+<li><a href="https://docs.dcs.aitsys.dev/events/api/DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html#DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext_AddChannel_System_UInt64_System_Boolean_">DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext#AddChannel</a></li>
+</ul>
+<h3 id="new-templates">New Templates</h3>
+<p>We added a few templates for you:</p>
+<ul>
+<li><a href="https://github.com/Aiko-IT-Systems/DisCatSharp.ProjectTemplates">DisCatSharp.ProjectTemplates</a></li>
+<li><a href="https://github.com/Aiko-IT-Systems/DisCatSharp.TemplateBot">DisCatSharp.TemplateBot</a></li>
+</ul>
+<h3 id="hosting-packages">Hosting Packages</h3>
+<p>You can run your bot as a hosted service now!</p>
+<p>If you&#39;re interested, check out this <a href="https://docs.dcs.aitsys.dev/events/articles/basics/web_app.html">article</a>.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/important_changes/9_8_4.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021-2022 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/url.min.js"></script>
+  </body>
+</html>

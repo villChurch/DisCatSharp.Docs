@@ -303,7 +303,7 @@ less.</p>
   
   
   <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read*"></a>
-  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_System_ArraySegment__0__System_UInt64_System_Int32__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read(System.ArraySegment{`0},System.UInt64,System.Int32@)">Read(ArraySegment&lt;T&gt;, UInt64, out Int32)</h4>
+  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_ArraySegment__0__System_UInt64_System_Int32__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read(ArraySegment{`0},System.UInt64,System.Int32@)">Read(ArraySegment&lt;T&gt;, UInt64, out Int32)</h4>
   <div class="markdown level1 summary"><p>Reads data from this buffer to specified destination array slice. This method will write either as many 
 bytes as specified in the target slice, or however many bytes are available in this buffer, whichever is 
 less.</p>
@@ -324,7 +324,7 @@ less.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.ArraySegment</span>&lt;T&gt;</td>
+        <td><span class="xref">ArraySegment</span>&lt;T&gt;</td>
         <td><span class="parametername">data</span></td>
         <td></td>
       </tr>
@@ -360,7 +360,7 @@ less.</p>
   
   
   <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read*"></a>
-  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_System_Span__0__System_UInt64_System_Int32__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read(System.Span{`0},System.UInt64,System.Int32@)">Read(Span&lt;T&gt;, UInt64, out Int32)</h4>
+  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Read_Span__0__System_UInt64_System_Int32__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Read(Span{`0},System.UInt64,System.Int32@)">Read(Span&lt;T&gt;, UInt64, out Int32)</h4>
   <div class="markdown level1 summary"><p>Reads data from this buffer to the specified destination buffer. This method will write either as many 
 bytes as there are in the destination buffer, or however many bytes are available in this buffer, 
 whichever is less.</p>
@@ -381,7 +381,7 @@ whichever is less.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Span</span>&lt;T&gt;</td>
+        <td><span class="xref">Span</span>&lt;T&gt;</td>
         <td><span class="parametername">destination</span></td>
         <td><p>Buffer to read the data from this buffer into.</p>
 </td>
@@ -487,6 +487,64 @@ whichever is less.</p>
   
   
   <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write*"></a>
+  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_ArraySegment__0__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write(ArraySegment{`0})">Write(ArraySegment&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends data from a supplied array slice to this buffer, growing it if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write(ArraySegment&lt;T&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ArraySegment</span>&lt;T&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Array slice containing data to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write*"></a>
+  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_ReadOnlySpan__0__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write(ReadOnlySpan{`0})">Write(ReadOnlySpan&lt;T&gt;)</h4>
+  <div class="markdown level1 summary"><p>Appends data from a supplied buffer to this buffer, growing it if necessary.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">void Write(ReadOnlySpan&lt;T&gt; data)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ReadOnlySpan</span>&lt;T&gt;</td>
+        <td><span class="parametername">data</span></td>
+        <td><p>Buffer containing data to write.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write*"></a>
   <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_Stream_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write(Stream)">Write(Stream)</h4>
   <div class="markdown level1 summary"><p>Appends data from a supplied stream to this buffer, growing it if necessary.</p>
 </div>
@@ -509,64 +567,6 @@ whichever is less.</p>
         <td><span class="xref">Stream</span></td>
         <td><span class="parametername">stream</span></td>
         <td><p>Stream to copy data from.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write*"></a>
-  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_System_ArraySegment__0__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write(System.ArraySegment{`0})">Write(ArraySegment&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends data from a supplied array slice to this buffer, growing it if necessary.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write(ArraySegment&lt;T&gt; data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ArraySegment</span>&lt;T&gt;</td>
-        <td><span class="parametername">data</span></td>
-        <td><p>Array slice containing data to write.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write*"></a>
-  <h4 id="DisCatSharp_Common_Types_IMemoryBuffer_1_Write_System_ReadOnlySpan__0__" data-uid="DisCatSharp.Common.Types.IMemoryBuffer`1.Write(System.ReadOnlySpan{`0})">Write(ReadOnlySpan&lt;T&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends data from a supplied buffer to this buffer, growing it if necessary.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">void Write(ReadOnlySpan&lt;T&gt; data)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.ReadOnlySpan</span>&lt;T&gt;</td>
-        <td><span class="parametername">data</span></td>
-        <td><p>Buffer containing data to write.</p>
 </td>
       </tr>
     </tbody>

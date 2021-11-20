@@ -161,7 +161,7 @@ Discord.</p>
   
   <a id="DisCatSharp_Net_DiscordUri_ToUri_" data-uid="DisCatSharp.Net.DiscordUri.ToUri*"></a>
   <h4 id="DisCatSharp_Net_DiscordUri_ToUri" data-uid="DisCatSharp.Net.DiscordUri.ToUri">ToUri()</h4>
-  <div class="markdown level1 summary"><p>Converts this DiscordUri into a canonical representation of a <span class="xref">System.Uri</span> if it can be represented as
+  <div class="markdown level1 summary"><p>Converts this DiscordUri into a canonical representation of a <see cref="!:Uri"></see> if it can be represented as
 such, throwing an exception otherwise.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -179,25 +179,8 @@ such, throwing an exception otherwise.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Uri</span></td>
+        <td><span class="xref">Uri</span></td>
         <td><p>A canonical representation of this DiscordUri.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="exceptions">Exceptions</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Condition</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.UriFormatException</span></td>
-        <td><p>If <a class="xref" href="DisCatSharp.Net.DiscordUri.html#DisCatSharp_Net_DiscordUri_Type">Type</a> is not <a class="xref" href="DisCatSharp.Net.DiscordUriType.html#DisCatSharp_Net_DiscordUriType_Standard">Standard</a>, as
-that would mean creating an invalid Uri, which would result in loss of data.</p>
 </td>
       </tr>
     </tbody>

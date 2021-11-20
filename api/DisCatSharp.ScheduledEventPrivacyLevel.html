@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class RequireDiscordEmployeeAttribute
+    <title>Enum ScheduledEventPrivacyLevel
    | DisCatSharp Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class RequireDiscordEmployeeAttribute
+    <meta name="title" content="Enum ScheduledEventPrivacyLevel
    | DisCatSharp Docs ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -77,82 +77,42 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DisCatSharp.CommandsNext.Attributes.RequireDiscordEmployeeAttribute">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.ScheduledEventPrivacyLevel">
   
   
-  <h1 id="DisCatSharp_CommandsNext_Attributes_RequireDiscordEmployeeAttribute" data-uid="DisCatSharp.CommandsNext.Attributes.RequireDiscordEmployeeAttribute" class="text-break">Class RequireDiscordEmployeeAttribute
+  <h1 id="DisCatSharp_ScheduledEventPrivacyLevel" data-uid="DisCatSharp.ScheduledEventPrivacyLevel" class="text-break">Enum ScheduledEventPrivacyLevel
   </h1>
-  <div class="markdown level0 summary"><p>Defines that usage of this command is restricted to discord employees.</p>
+  <div class="markdown level0 summary"><p>Represents the privacy level for a guild scheduled event.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><a class="xref" href="DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute.html">CheckBaseAttribute</a></div>
-    <div class="level3"><span class="xref">RequireDiscordEmployeeAttribute</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.CommandsNext.Attributes.html">DisCatSharp.CommandsNext.Attributes</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.html">DisCatSharp</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DisCatSharp_CommandsNext_Attributes_RequireDiscordEmployeeAttribute_syntax">Syntax</h5>
+  <h5 id="DisCatSharp_ScheduledEventPrivacyLevel_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class | AttributeTargets.Method, AllowMultiple = false, Inherited = false)]
-public sealed class RequireDiscordEmployeeAttribute : CheckBaseAttribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public enum ScheduledEventPrivacyLevel</code></pre>
   </div>
-  <h3 id="methods">Methods
+  <h3 id="fields">Fields
   </h3>
-  
-  
-  <a id="DisCatSharp_CommandsNext_Attributes_RequireDiscordEmployeeAttribute_ExecuteCheckAsync_" data-uid="DisCatSharp.CommandsNext.Attributes.RequireDiscordEmployeeAttribute.ExecuteCheckAsync*"></a>
-  <h4 id="DisCatSharp_CommandsNext_Attributes_RequireDiscordEmployeeAttribute_ExecuteCheckAsync_DisCatSharp_CommandsNext_CommandContext_System_Boolean_" data-uid="DisCatSharp.CommandsNext.Attributes.RequireDiscordEmployeeAttribute.ExecuteCheckAsync(DisCatSharp.CommandsNext.CommandContext,System.Boolean)">ExecuteCheckAsync(CommandContext, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Executes the a check.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public override Task&lt;bool&gt; ExecuteCheckAsync(CommandContext ctx, bool help)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
         <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DisCatSharp.CommandsNext.CommandContext.html">CommandContext</a></td>
-        <td><span class="parametername">ctx</span></td>
-        <td><p>The command context.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">help</span></td>
-        <td><p>If true, help - returns true.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
     <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
-        <td></td>
+        <td id="DisCatSharp_ScheduledEventPrivacyLevel_GuildOnly">GuildOnly</td>
+        <td><p>Indicates that the the guild scheduled event is only accessable to guild members.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="DisCatSharp_ScheduledEventPrivacyLevel_Public">Public</td>
+        <td><p>Indicates that the guild scheduled event is public and available in discovery.</p>
+</td>
       </tr>
     </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><a class="xref" href="DisCatSharp.CommandsNext.Attributes.CheckBaseAttribute.html#DisCatSharp_CommandsNext_Attributes_CheckBaseAttribute_ExecuteCheckAsync_DisCatSharp_CommandsNext_CommandContext_System_Boolean_">CheckBaseAttribute.ExecuteCheckAsync(CommandContext, Boolean)</a></div>
+  </thead></thead></table>
 
 </article>
           </div>

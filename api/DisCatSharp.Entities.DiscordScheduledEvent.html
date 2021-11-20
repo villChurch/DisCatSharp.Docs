@@ -1,0 +1,1258 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Class DiscordScheduledEvent
+   | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Class DiscordScheduledEvent
+   | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../favicon.ico">
+    <link rel="stylesheet" href="../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../styles/docfx.css">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/discord.css">
+    <link rel="stylesheet" href="../styles/colors.css">
+    <meta property="docfx:navrel" content="../toc.html">
+    <meta property="docfx:tocrel" content="toc.html">
+    <meta property="docfx:rel" content="../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../index.html">
+                <img id="logo" class="svg" src="../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Entities.DiscordScheduledEvent">
+  
+  
+  <h1 id="DisCatSharp_Entities_DiscordScheduledEvent" data-uid="DisCatSharp.Entities.DiscordScheduledEvent" class="text-break">Class DiscordScheduledEvent
+  </h1>
+  <div class="markdown level0 summary"><p>Represents an scheduled event.</p>
+</div>
+  <div class="markdown level0 conceptual"></div>
+  <div class="inheritance">
+    <h5>Inheritance</h5>
+    <div class="level0"><span class="xref">System.Object</span></div>
+    <div class="level1"><a class="xref" href="DisCatSharp.Entities.SnowflakeObject.html">SnowflakeObject</a></div>
+    <div class="level2"><span class="xref">DiscordScheduledEvent</span></div>
+  </div>
+  <div class="inheritedMembers">
+    <h5>Inherited Members</h5>
+    <div>
+      <a class="xref" href="DisCatSharp.Entities.SnowflakeObject.html#DisCatSharp_Entities_SnowflakeObject_Id">SnowflakeObject.Id</a>
+    </div>
+    <div>
+      <a class="xref" href="DisCatSharp.Entities.SnowflakeObject.html#DisCatSharp_Entities_SnowflakeObject_CreationTimestamp">SnowflakeObject.CreationTimestamp</a>
+    </div>
+  </div>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Entities.html">DisCatSharp.Entities</a></h6>
+  <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
+  <h5 id="DisCatSharp_Entities_DiscordScheduledEvent_syntax">Syntax</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public class DiscordScheduledEvent : SnowflakeObject, IEquatable&lt;DiscordScheduledEvent&gt;</code></pre>
+  </div>
+  <h3 id="properties">Properties
+  </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Channel_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Channel*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Channel" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Channel">Channel</h4>
+  <div class="markdown level1 summary"><p>Gets the associated channel.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordChannel&gt; Channel { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_ChannelId_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ChannelId*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_ChannelId" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ChannelId">ChannelId</h4>
+  <div class="markdown level1 summary"><p>Gets id of the associated channel id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? ChannelId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Creator_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Creator*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Creator" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Creator">Creator</h4>
+  <div class="markdown level1 summary"><p>Gets the user that created the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordUser Creator { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_CreatorId_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CreatorId*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_CreatorId" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CreatorId">CreatorId</h4>
+  <div class="markdown level1 summary"><p>Gets the ID of the user that created the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong CreatorId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_CreatorMember_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CreatorMember*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_CreatorMember" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CreatorMember">CreatorMember</h4>
+  <div class="markdown level1 summary"><p>Gets the member that created the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordMember CreatorMember { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMember.html">DiscordMember</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Description_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Description*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Description" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Description">Description</h4>
+  <div class="markdown level1 summary"><p>Gets the description of the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Description { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_EntityId_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityId*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_EntityId" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityId">EntityId</h4>
+  <div class="markdown level1 summary"><p>Gets id of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong? EntityId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_EntityMetadata_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityMetadata*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_EntityMetadata" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityMetadata">EntityMetadata</h4>
+  <div class="markdown level1 summary"><p>Gets metadata of the entity.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordScheduledEventEntityMetadata EntityMetadata { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEventEntityMetadata.html">DiscordScheduledEventEntityMetadata</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_EntityType_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityType*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_EntityType" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EntityType">EntityType</h4>
+  <div class="markdown level1 summary"><p>Gets the entity type.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledEventEntityType EntityType { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.ScheduledEventEntityType.html">ScheduledEventEntityType</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Guild_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Guild*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Guild" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Guild">Guild</h4>
+  <div class="markdown level1 summary"><p>Gets the guild to which this scheduled event belongs.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordGuild Guild { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordGuild.html">DiscordGuild</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_GuildId_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GuildId*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_GuildId" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GuildId">GuildId</h4>
+  <div class="markdown level1 summary"><p>Gets the guild id of the associated scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ulong GuildId { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.UInt64</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Name_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Name*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Name" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Name">Name</h4>
+  <div class="markdown level1 summary"><p>Gets the name of the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Name { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_ScheduledEndTime_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ScheduledEndTime*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_ScheduledEndTime" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ScheduledEndTime">ScheduledEndTime</h4>
+  <div class="markdown level1 summary"><p>Gets the scheduled end time of the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? ScheduledEndTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_ScheduledStartTime_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ScheduledStartTime*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_ScheduledStartTime" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ScheduledStartTime">ScheduledStartTime</h4>
+  <div class="markdown level1 summary"><p>Gets the scheduled start time of the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DateTimeOffset? ScheduledStartTime { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Status_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Status*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Status" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Status">Status</h4>
+  <div class="markdown level1 summary"><p>Gets the status of the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public ScheduledEventStatus Status { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.ScheduledEventStatus.html">ScheduledEventStatus</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_UserCount_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.UserCount*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_UserCount" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.UserCount">UserCount</h4>
+  <div class="markdown level1 summary"><p>Gets the total number of users subscribed to the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int UserCount { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="methods">Methods
+  </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_CancelAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CancelAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_CancelAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.CancelAsync(System.String)">CancelAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Cancels the current scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordScheduledEvent&gt; CancelAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The audit log reason.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_DeleteAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.DeleteAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_DeleteAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.DeleteAsync(System.String)">DeleteAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Deletes a scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task DeleteAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The audit log reason.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_EndAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EndAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_EndAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.EndAsync(System.String)">EndAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Ends the current scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordScheduledEvent&gt; EndAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td><p>The audit log reason.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Equals_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Equals*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Equals_DisCatSharp_Entities_DiscordScheduledEvent_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Equals(DisCatSharp.Entities.DiscordScheduledEvent)">Equals(DiscordScheduledEvent)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> is equal to another <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Equals(DiscordScheduledEvent e)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a></td>
+        <td><span class="parametername">e</span></td>
+        <td><p><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> is equal to this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_Equals_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Equals*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_Equals_System_Object_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.Equals(System.Object)">Equals(Object)</h4>
+  <div class="markdown level1 summary"><p>Checks whether this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> is equal to another object.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override bool Equals(object obj)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">obj</span></td>
+        <td><p>Object to compare to.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the object is equal to this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.Equals(System.Object)</span></div>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_GetHashCode_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GetHashCode*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_GetHashCode" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GetHashCode">GetHashCode()</h4>
+  <div class="markdown level1 summary"><p>Gets the hash code for this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public override int GetHashCode()</code></pre>
+  </div>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Int32</span></td>
+        <td><p>The hash code for this <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="overrides">Overrides</h5>
+  <div><span class="xref">System.Object.GetHashCode()</span></div>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_GetUsersAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GetUsersAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_GetUsersAsync_System_Nullable_System_Int32__System_Nullable_System_UInt64__System_Nullable_System_UInt64__System_Nullable_System_Boolean__" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.GetUsersAsync(System.Nullable{System.Int32},System.Nullable{System.UInt64},System.Nullable{System.UInt64},System.Nullable{System.Boolean})">GetUsersAsync(Nullable&lt;Int32&gt;, Nullable&lt;UInt64&gt;, Nullable&lt;UInt64&gt;, Nullable&lt;Boolean&gt;)</h4>
+  <div class="markdown level1 summary"><p>Gets a list of users RSVP&apos;d to the scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;IReadOnlyDictionary&lt;ulong, DiscordScheduledEventUser&gt;&gt; GetUsersAsync(int? limit = null, ulong? before = null, ulong? after = null, bool? withMember = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">limit</span></td>
+        <td><p>The limit how many users to receive from the event.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">before</span></td>
+        <td><p>Get results of <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEventUser.html">DiscordScheduledEventUser</a> before the given snowflake.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.UInt64</span>&gt;</td>
+        <td><span class="parametername">after</span></td>
+        <td><p>Get results of <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEventUser.html">DiscordScheduledEventUser</a> after the given snowflake.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="parametername">withMember</span></td>
+        <td><p>Wether to include guild member data.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEventUser.html">DiscordScheduledEventUser</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the correct permissions.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ModifyAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_ModifyAsync_Action_ScheduledEventEditModel__" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.ModifyAsync(Action{ScheduledEventEditModel})">ModifyAsync(Action&lt;ScheduledEventEditModel&gt;)</h4>
+  <div class="markdown level1 summary"><p>Modifies the current scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task ModifyAsync(Action&lt;ScheduledEventEditModel&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">ScheduledEventEditModel</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>Action to perform on this thread</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_StartAsync_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.StartAsync*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_StartAsync_System_String_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.StartAsync(System.String)">StartAsync(String)</h4>
+  <div class="markdown level1 summary"><p>Starts the current scheduled event.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public async Task&lt;DiscordScheduledEvent&gt; StartAsync(string reason = null)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">reason</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_ManageEvents">ManageEvents</a> permission.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the event does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h3 id="operators">Operators
+  </h3>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_op_Equality_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.op_Equality*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_op_Equality_DisCatSharp_Entities_DiscordScheduledEvent_DisCatSharp_Entities_DiscordScheduledEvent_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.op_Equality(DisCatSharp.Entities.DiscordScheduledEvent,DisCatSharp.Entities.DiscordScheduledEvent)">Equality(DiscordScheduledEvent, DiscordScheduledEvent)</h4>
+  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> objects are equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator ==(DiscordScheduledEvent e1, DiscordScheduledEvent e2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a></td>
+        <td><span class="parametername">e1</span></td>
+        <td><p>First event to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a></td>
+        <td><span class="parametername">e2</span></td>
+        <td><p>Second ecent to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the two events are equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordScheduledEvent_op_Inequality_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.op_Inequality*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordScheduledEvent_op_Inequality_DisCatSharp_Entities_DiscordScheduledEvent_DisCatSharp_Entities_DiscordScheduledEvent_" data-uid="DisCatSharp.Entities.DiscordScheduledEvent.op_Inequality(DisCatSharp.Entities.DiscordScheduledEvent,DisCatSharp.Entities.DiscordScheduledEvent)">Inequality(DiscordScheduledEvent, DiscordScheduledEvent)</h4>
+  <div class="markdown level1 summary"><p>Gets whether the two <a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a> objects are not equal.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public static bool operator !=(DiscordScheduledEvent e1, DiscordScheduledEvent e2)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a></td>
+        <td><span class="parametername">e1</span></td>
+        <td><p>First event to compare.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordScheduledEvent.html">DiscordScheduledEvent</a></td>
+        <td><span class="parametername">e2</span></td>
+        <td><p>Second event to compare.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><p>Whether the two events are not equal.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021-2022 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../styles/docfx.js"></script>
+    <script type="text/javascript" src="../styles/main.js"></script>
+    <script type="text/javascript" src="../styles/url.min.js"></script>
+  </body>
+</html>

@@ -82,7 +82,7 @@
   
   <h1 id="DisCatSharp_DiscordClient" data-uid="DisCatSharp.DiscordClient" class="text-break">Class DiscordClient
   </h1>
-  <div class="markdown level0 summary"><p>A Discord API wrapper.</p>
+  <div class="markdown level0 summary"><p>Represents a discord client.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
@@ -143,7 +143,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_DiscordClient_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class DiscordClient : BaseDiscordClient, IDisposable</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DiscordClient : BaseDiscordClient</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
@@ -199,7 +199,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">DiscordActivity</span>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">DiscordActivity</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -251,7 +251,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Uri</span></td>
+        <td><span class="xref">Uri</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -305,7 +305,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">DiscordGuild</span>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">DiscordGuild</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -385,7 +385,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">DiscordPresence</span>&gt;</td>
+        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">DiscordPresence</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -476,7 +476,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGlobalApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGlobalApplicationCommandsAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGlobalApplicationCommandsAsync_System_Collections_Generic_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGlobalApplicationCommandsAsync(System.Collections.Generic.IEnumerable{DiscordApplicationCommand})">BulkOverwriteGlobalApplicationCommandsAsync(IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGlobalApplicationCommandsAsync_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGlobalApplicationCommandsAsync(IEnumerable{DiscordApplicationCommand})">BulkOverwriteGlobalApplicationCommandsAsync(IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
   <div class="markdown level1 summary"><p>Overwrites the existing global application commands. New commands are automatically created and missing commands are automatically deleted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -495,7 +495,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;</td>
         <td><span class="parametername">commands</span></td>
         <td><p>The list of commands to overwrite with.</p>
 </td>
@@ -512,7 +512,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
         <td><p>The list of global commands.</p>
 </td>
       </tr>
@@ -521,7 +521,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_System_Collections_Generic_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,System.Collections.Generic.IEnumerable{DiscordApplicationCommand})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordApplicationCommand__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordApplicationCommand})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordApplicationCommand&gt;)</h4>
   <div class="markdown level1 summary"><p>Overwrites the existing application commands in a guild. New commands are automatically created and missing commands are automatically deleted.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -546,7 +546,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;</td>
         <td><span class="parametername">commands</span></td>
         <td><p>The list of commands to overwrite with.</p>
 </td>
@@ -563,7 +563,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
         <td><p>The list of guild commands.</p>
 </td>
       </tr>
@@ -572,7 +572,7 @@ guild objects in this dictionary will not be filled in if the specific guilds ar
   
   
   <a id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_System_Collections_Generic_IEnumerable_DiscordGuildApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,System.Collections.Generic.IEnumerable{DiscordGuildApplicationCommandPermission})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordGuildApplicationCommandPermission&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_BulkOverwriteGuildApplicationCommandsAsync_System_UInt64_IEnumerable_DiscordGuildApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.BulkOverwriteGuildApplicationCommandsAsync(System.UInt64,IEnumerable{DiscordGuildApplicationCommandPermission})">BulkOverwriteGuildApplicationCommandsAsync(UInt64, IEnumerable&lt;DiscordGuildApplicationCommandPermission&gt;)</h4>
   <div class="markdown level1 summary"><p>Overwrites the existing application command permissions in a guild. New permissions are automatically created and missing permissions are deleted.
 Each command takes up to 10 permission overwrites.</p>
 </div>
@@ -598,7 +598,7 @@ Each command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;</td>
         <td><span class="parametername">permissionsOverwrites</span></td>
         <td><p>The list of permissions to overwrite with.</p>
 </td>
@@ -615,7 +615,7 @@ Each command takes up to 10 permission overwrites.</p>
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -623,7 +623,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_ConnectAsync_" data-uid="DisCatSharp.DiscordClient.ConnectAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_System_DateTimeOffset__" data-uid="DisCatSharp.DiscordClient.ConnectAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{System.DateTimeOffset})">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_ConnectAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.DiscordClient.ConnectAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset})">ConnectAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Connects to the gateway.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -652,7 +652,7 @@ Each command takes up to 10 permission overwrites.</p>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">idlesince</span></td>
         <td></td>
       </tr>
@@ -1037,7 +1037,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_EditGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.EditGlobalApplicationCommandAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_EditGlobalApplicationCommandAsync_System_UInt64_System_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGlobalApplicationCommandAsync(System.UInt64,System.Action{ApplicationCommandEditModel})">EditGlobalApplicationCommandAsync(UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_EditGlobalApplicationCommandAsync_System_UInt64_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGlobalApplicationCommandAsync(System.UInt64,Action{ApplicationCommandEditModel})">EditGlobalApplicationCommandAsync(UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
   <div class="markdown level1 summary"><p>Edits a global application command.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1062,7 +1062,7 @@ Each command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">ApplicationCommandEditModel</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">ApplicationCommandEditModel</span>&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>Action to perform.</p>
 </td>
@@ -1088,7 +1088,7 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_EditGuildApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_EditGuildApplicationCommandAsync_System_UInt64_System_UInt64_System_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync(System.UInt64,System.UInt64,System.Action{ApplicationCommandEditModel})">EditGuildApplicationCommandAsync(UInt64, UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_EditGuildApplicationCommandAsync_System_UInt64_System_UInt64_Action_ApplicationCommandEditModel__" data-uid="DisCatSharp.DiscordClient.EditGuildApplicationCommandAsync(System.UInt64,System.UInt64,Action{ApplicationCommandEditModel})">EditGuildApplicationCommandAsync(UInt64, UInt64, Action&lt;ApplicationCommandEditModel&gt;)</h4>
   <div class="markdown level1 summary"><p>Edits a application command in a guild.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -1119,7 +1119,7 @@ Each command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">ApplicationCommandEditModel</span>&gt;</td>
+        <td><span class="xref">Action</span>&lt;<span class="xref">ApplicationCommandEditModel</span>&gt;</td>
         <td><span class="parametername">action</span></td>
         <td><p>Action to perform.</p>
 </td>
@@ -1145,13 +1145,13 @@ Each command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_" data-uid="DisCatSharp.DiscordClient.ExecuteRawRequestAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_String__" data-uid="DisCatSharp.DiscordClient.ExecuteRawRequestAsync(RestRequestMethod,System.String,System.String,System.Collections.Generic.Dictionary{System.String,System.String})">ExecuteRawRequestAsync(RestRequestMethod, String, String, Dictionary&lt;String, String&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_Object_System_String_Dictionary_System_String_System_String__System_Nullable_System_Double__" data-uid="DisCatSharp.DiscordClient.ExecuteRawRequestAsync(RestRequestMethod,System.String,System.Object,System.String,Dictionary{System.String,System.String},System.Nullable{System.Double})">ExecuteRawRequestAsync(RestRequestMethod, String, Object, String, Dictionary&lt;String, String&gt;, Nullable&lt;Double&gt;)</h4>
   <div class="markdown level1 summary"><p>Executes a raw request.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public async Task&lt;RestResponse&gt; ExecuteRawRequestAsync(RestRequestMethod method, string route, string jsonBody = null, Dictionary&lt;string, string&gt; additionalHeaders = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public async Task&lt;RestResponse&gt; ExecuteRawRequestAsync(RestRequestMethod method, string route, object routeParams, string jsonBody = null, Dictionary&lt;string, string&gt; additionalHeaders = null, double? ratelimitWaitOverride = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -1176,15 +1176,27 @@ Each command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
+        <td><span class="xref">System.Object</span></td>
+        <td><span class="parametername">routeParams</span></td>
+        <td><p>The route parameters.</p>
+</td>
+      </tr>
+      <tr>
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">jsonBody</span></td>
         <td><p>The json body.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
+        <td><span class="xref">Dictionary</span>&lt;<span class="xref">System.String</span>, <span class="xref">System.String</span>&gt;</td>
         <td><span class="parametername">additionalHeaders</span></td>
         <td><p>The addditional headers.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Double</span>&gt;</td>
+        <td><span class="parametername">ratelimitWaitOverride</span></td>
+        <td><p>The ratelimit wait override.</p>
 </td>
       </tr>
     </tbody>
@@ -1205,7 +1217,7 @@ Each command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
-  <h5 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_String_System_Collections_Generic_Dictionary_System_String_System_String___examples">Examples</h5>
+  <h5 id="DisCatSharp_DiscordClient_ExecuteRawRequestAsync_RestRequestMethod_System_String_System_Object_System_String_Dictionary_System_String_System_String__System_Nullable_System_Double___examples">Examples</h5>
   <p><code>var request = await Client.ExecuteRawRequestAsync(RestRequestMethod.GET, $&quot;{Endpoints.CHANNELS}/243184972190742178964/{Endpoints.INVITES}&quot;);
 List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;DiscordInvite&gt;&gt;(request.Response);</code></p>
 
@@ -1335,7 +1347,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordConnection</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordConnection</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1450,7 +1462,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
         <td><p>A list of global application commands.</p>
 </td>
       </tr>
@@ -1546,7 +1558,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordGuildApplicationCommandPermission</span>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -1590,7 +1602,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordApplicationCommand</span>&gt;&gt;</td>
         <td><p>A list of application commands in the guild.</p>
 </td>
       </tr>
@@ -1743,7 +1755,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Uri</span></td>
+        <td><span class="xref">Uri</span></td>
         <td><p>The OAuth Url</p>
 </td>
       </tr>
@@ -1878,7 +1890,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<span class="xref">DiscordStickerPack</span>&gt;&gt;</td>
+        <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordStickerPack</span>&gt;&gt;</td>
         <td><p>List of sticker packs.</p>
 </td>
       </tr>
@@ -2124,7 +2136,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
   
   
   <a id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_System_UInt64_System_UInt64_System_Collections_Generic_IEnumerable_DiscordApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,System.Collections.Generic.IEnumerable{DiscordApplicationCommandPermission})">OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable&lt;DiscordApplicationCommandPermission&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_OverwriteGuildApplicationCommandPermissionsAsync_System_UInt64_System_UInt64_IEnumerable_DiscordApplicationCommandPermission__" data-uid="DisCatSharp.DiscordClient.OverwriteGuildApplicationCommandPermissionsAsync(System.UInt64,System.UInt64,IEnumerable{DiscordApplicationCommandPermission})">OverwriteGuildApplicationCommandPermissionsAsync(UInt64, UInt64, IEnumerable&lt;DiscordApplicationCommandPermission&gt;)</h4>
   <div class="markdown level1 summary"><p>Overwrites the existing permissions for a application command in a guild. New permissions are automatically created and missing permissions are deleted.
 A command takes up to 10 permission overwrites.</p>
 </div>
@@ -2156,7 +2168,7 @@ A command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommandPermission</span>&gt;</td>
+        <td><span class="xref">IEnumerable</span>&lt;<span class="xref">DiscordApplicationCommandPermission</span>&gt;</td>
         <td><span class="parametername">permissions</span></td>
         <td><p>List of permissions.</p>
 </td>
@@ -2219,6 +2231,57 @@ A command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">Task</span></td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
+  <h4 id="DisCatSharp_DiscordClient_SendMessageAsync_DiscordChannel_Action_DiscordMessageBuilder__" data-uid="DisCatSharp.DiscordClient.SendMessageAsync(DiscordChannel,Action{DiscordMessageBuilder})">SendMessageAsync(DiscordChannel, Action&lt;DiscordMessageBuilder&gt;)</h4>
+  <div class="markdown level1 summary"><p>Sends a message with an <see cref="!:Action&lt;DiscordMessageBuilder>"></see>.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(DiscordChannel channel, Action&lt;DiscordMessageBuilder&gt; action)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">DiscordChannel</span></td>
+        <td><span class="parametername">channel</span></td>
+        <td><p>Channel to send the message to.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">Action</span>&lt;<span class="xref">DiscordMessageBuilder</span>&gt;</td>
+        <td><span class="parametername">action</span></td>
+        <td><p>The message builder.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Task</span>&lt;<span class="xref">DiscordMessage</span>&gt;</td>
+        <td><p>The message that was sent.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -2303,57 +2366,6 @@ A command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">DiscordMessageBuilder</span></td>
         <td><span class="parametername">builder</span></td>
-        <td><p>The message builder.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">Task</span>&lt;<span class="xref">DiscordMessage</span>&gt;</td>
-        <td><p>The message that was sent.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_SendMessageAsync_DiscordChannel_System_Action_DiscordMessageBuilder__" data-uid="DisCatSharp.DiscordClient.SendMessageAsync(DiscordChannel,System.Action{DiscordMessageBuilder})">SendMessageAsync(DiscordChannel, Action&lt;DiscordMessageBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Sends a message with an <span class="xref">System.Action&lt;T&gt;</span>.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public Task&lt;DiscordMessage&gt; SendMessageAsync(DiscordChannel channel, Action&lt;DiscordMessageBuilder&gt; action)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">DiscordChannel</span></td>
-        <td><span class="parametername">channel</span></td>
-        <td><p>Channel to send the message to.</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Action</span>&lt;<span class="xref">DiscordMessageBuilder</span>&gt;</td>
-        <td><span class="parametername">action</span></td>
         <td><p>The message builder.</p>
 </td>
       </tr>
@@ -2537,7 +2549,7 @@ A command takes up to 10 permission overwrites.</p>
   
   
   <a id="DisCatSharp_DiscordClient_UpdateStatusAsync_" data-uid="DisCatSharp.DiscordClient.UpdateStatusAsync*"></a>
-  <h4 id="DisCatSharp_DiscordClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_System_DateTimeOffset__" data-uid="DisCatSharp.DiscordClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{System.DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
+  <h4 id="DisCatSharp_DiscordClient_UpdateStatusAsync_DiscordActivity_System_Nullable_UserStatus__System_Nullable_DateTimeOffset__" data-uid="DisCatSharp.DiscordClient.UpdateStatusAsync(DiscordActivity,System.Nullable{UserStatus},System.Nullable{DateTimeOffset})">UpdateStatusAsync(DiscordActivity, Nullable&lt;UserStatus&gt;, Nullable&lt;DateTimeOffset&gt;)</h4>
   <div class="markdown level1 summary"><p>Updates current user&apos;s activity and status.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -2568,7 +2580,7 @@ A command takes up to 10 permission overwrites.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.DateTimeOffset</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">DateTimeOffset</span>&gt;</td>
         <td><span class="parametername">idleSince</span></td>
         <td><p>Since when is the client performing the specified activity.</p>
 </td>
@@ -3418,7 +3430,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   <h4 id="DisCatSharp_DiscordClient_GuildScheduledEventCreated" data-uid="DisCatSharp.DiscordClient.GuildScheduledEventCreated">GuildScheduledEventCreated</h4>
   <div class="markdown level1 summary"><p>Fired when a scheduled Event is created.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3444,7 +3456,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   <h4 id="DisCatSharp_DiscordClient_GuildScheduledEventDeleted" data-uid="DisCatSharp.DiscordClient.GuildScheduledEventDeleted">GuildScheduledEventDeleted</h4>
   <div class="markdown level1 summary"><p>Fired when a scheduled Event is deleted.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3470,7 +3482,7 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
   
   <h4 id="DisCatSharp_DiscordClient_GuildScheduledEventUpdated" data-uid="DisCatSharp.DiscordClient.GuildScheduledEventUpdated">GuildScheduledEventUpdated</h4>
   <div class="markdown level1 summary"><p>Fired when a scheduled Event is updated.
-For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_Guilds">Guilds</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -3488,6 +3500,58 @@ For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.htm
     <tbody>
       <tr>
         <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUpdateEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordClient_GuildScheduledEventUserAdded" data-uid="DisCatSharp.DiscordClient.GuildScheduledEventUserAdded">GuildScheduledEventUserAdded</h4>
+  <div class="markdown level1 summary"><p>Fired when a user subscribes to a scheduled event.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, GuildScheduledEventUserAddEventArgs&gt; GuildScheduledEventUserAdded</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUserAddEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_DiscordClient_GuildScheduledEventUserRemoved" data-uid="DisCatSharp.DiscordClient.GuildScheduledEventUserRemoved">GuildScheduledEventUserRemoved</h4>
+  <div class="markdown level1 summary"><p>Fired when a user unsubscribes from a scheduled event.
+For this Event you need the <a class="xref" href="DisCatSharp.DiscordIntents.html#DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</a> intent specified in <a class="xref" href="DisCatSharp.DiscordConfiguration.html#DisCatSharp_DiscordConfiguration_Intents">Intents</a></p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;DiscordClient, GuildScheduledEventUserRemoveEventArgs&gt; GuildScheduledEventUserRemoved</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.DiscordClient.html">DiscordClient</a>, <span class="xref">GuildScheduledEventUserRemoveEventArgs</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>

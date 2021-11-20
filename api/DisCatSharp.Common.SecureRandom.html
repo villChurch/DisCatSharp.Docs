@@ -82,14 +82,13 @@
   
   <h1 id="DisCatSharp_Common_SecureRandom" data-uid="DisCatSharp.Common.SecureRandom" class="text-break">Class SecureRandom
   </h1>
-  <div class="markdown level0 summary"><p>Provides a cryptographically-secure pseudorandom number generator (CSPRNG) implementation compatible with <span class="xref">System.Random</span>.</p>
+  <div class="markdown level0 summary"><p>Provides a cryptographically-secure pseudorandom number generator (CSPRNG) implementation compatible with <see cref="!:Random"></see>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Random</span></div>
-    <div class="level2"><span class="xref">SecureRandom</span></div>
+    <div class="level1"><span class="xref">SecureRandom</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Common.html">DisCatSharp.Common</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
@@ -137,6 +136,35 @@
   
   
   <a id="DisCatSharp_Common_SecureRandom_GetBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetBytes*"></a>
+  <h4 id="DisCatSharp_Common_SecureRandom_GetBytes_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.GetBytes(Span{System.Byte})">GetBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied memory region with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memmory region to fill with random bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_SecureRandom_GetBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetBytes*"></a>
   <h4 id="DisCatSharp_Common_SecureRandom_GetBytes_System_Byte___" data-uid="DisCatSharp.Common.SecureRandom.GetBytes(System.Byte[])">GetBytes(Byte[])</h4>
   <div class="markdown level1 summary"><p>Fills a supplied buffer with random bytes.</p>
 </div>
@@ -159,35 +187,6 @@
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">buffer</span></td>
         <td><p>Buffer to fill with random bytes.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Common_SecureRandom_GetBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetBytes*"></a>
-  <h4 id="DisCatSharp_Common_SecureRandom_GetBytes_System_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.GetBytes(System.Span{System.Byte})">GetBytes(Span&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Fills a supplied memory region with random bytes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GetBytes(Span&lt;byte&gt; buffer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">buffer</span></td>
-        <td><p>Memmory region to fill with random bytes.</p>
 </td>
       </tr>
     </tbody>
@@ -426,6 +425,35 @@
   
   
   <a id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes*"></a>
+  <h4 id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes(Span{System.Byte})">GetNonZeroBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills a supplied memory region with random nonzero bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void GetNonZeroBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memmory region to fill with random nonzero bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes*"></a>
   <h4 id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_System_Byte___" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes(System.Byte[])">GetNonZeroBytes(Byte[])</h4>
   <div class="markdown level1 summary"><p>Fills a supplied buffer with random nonzero bytes.</p>
 </div>
@@ -448,35 +476,6 @@
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">buffer</span></td>
         <td><p>Buffer to fill with random nonzero bytes.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes*"></a>
-  <h4 id="DisCatSharp_Common_SecureRandom_GetNonZeroBytes_System_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.GetNonZeroBytes(System.Span{System.Byte})">GetNonZeroBytes(Span&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Fills a supplied memory region with random nonzero bytes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void GetNonZeroBytes(Span&lt;byte&gt; buffer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">buffer</span></td>
-        <td><p>Memmory region to fill with random nonzero bytes.</p>
 </td>
       </tr>
     </tbody>
@@ -739,8 +738,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.Next()</span></div>
   
   
   <a id="DisCatSharp_Common_SecureRandom_Next_" data-uid="DisCatSharp.Common.SecureRandom.Next*"></a>
@@ -786,8 +783,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.Next(System.Int32)</span></div>
   
   
   <a id="DisCatSharp_Common_SecureRandom_Next_" data-uid="DisCatSharp.Common.SecureRandom.Next*"></a>
@@ -839,8 +834,35 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.Next(System.Int32, System.Int32)</span></div>
+  
+  
+  <a id="DisCatSharp_Common_SecureRandom_NextBytes_" data-uid="DisCatSharp.Common.SecureRandom.NextBytes*"></a>
+  <h4 id="DisCatSharp_Common_SecureRandom_NextBytes_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.NextBytes(Span{System.Byte})">NextBytes(Span&lt;Byte&gt;)</h4>
+  <div class="markdown level1 summary"><p>Fills specified memory region with random bytes.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public void NextBytes(Span&lt;byte&gt; buffer)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
+        <td><span class="parametername">buffer</span></td>
+        <td><p>Memory region to fill with bytes.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_Common_SecureRandom_NextBytes_" data-uid="DisCatSharp.Common.SecureRandom.NextBytes*"></a>
@@ -866,37 +888,6 @@
         <td><span class="xref">System.Byte</span>[]</td>
         <td><span class="parametername">buffer</span></td>
         <td><p>Buffer to fill with bytes.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.NextBytes(System.Byte[])</span></div>
-  
-  
-  <a id="DisCatSharp_Common_SecureRandom_NextBytes_" data-uid="DisCatSharp.Common.SecureRandom.NextBytes*"></a>
-  <h4 id="DisCatSharp_Common_SecureRandom_NextBytes_System_Span_System_Byte__" data-uid="DisCatSharp.Common.SecureRandom.NextBytes(System.Span{System.Byte})">NextBytes(Span&lt;Byte&gt;)</h4>
-  <div class="markdown level1 summary"><p>Fills specified memory region with random bytes.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void NextBytes(Span&lt;byte&gt; buffer)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Span</span>&lt;<span class="xref">System.Byte</span>&gt;</td>
-        <td><span class="parametername">buffer</span></td>
-        <td><p>Memory region to fill with bytes.</p>
 </td>
       </tr>
     </tbody>
@@ -928,8 +919,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.NextDouble()</span></div>
   
   
   <a id="DisCatSharp_Common_SecureRandom_Sample_" data-uid="DisCatSharp.Common.SecureRandom.Sample*"></a>
@@ -957,8 +946,6 @@
       </tr>
     </tbody>
   </table>
-  <h5 class="overrides">Overrides</h5>
-  <div><span class="xref">System.Random.Sample()</span></div>
 
 </article>
           </div>

@@ -89,8 +89,7 @@
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_DiscordIntents_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[Flags]
-public enum DiscordIntents</code></pre>
+    <pre><code class="lang-csharp hljs">public enum DiscordIntents</code></pre>
   </div>
   <h3 id="fields">Fields
   </h3>
@@ -120,15 +119,15 @@ public enum DiscordIntents</code></pre>
         <td id="DisCatSharp_DiscordIntents_DirectMessageReactions">DirectMessageReactions</td>
         <td><p>Whether to include direct message reaction events.
 <p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionAdded">MessageReactionAdded</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemoved">MessageReactionRemoved</a>,</p>
-<p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionsCleared">MessageReactionsCleared</a>, and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemovedEmoji">MessageReactionRemovedEmoji</a>.</p>
+<p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionsCleared">MessageReactionsCleared</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemovedEmoji">MessageReactionRemovedEmoji</a>.</p>
 <p>These events only fire for DM channels.</p></p>
 </td>
       </tr>
       <tr>
         <td id="DisCatSharp_DiscordIntents_DirectMessages">DirectMessages</td>
         <td><p>Whether to include general direct message events.
-<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ChannelCreated">ChannelCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageCreated">MessageCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageUpdated">MessageUpdated</a>, </p>
-<p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageDeleted">MessageDeleted</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ChannelPinsUpdated">ChannelPinsUpdated</a>.</p>
+<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ChannelCreated">ChannelCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageCreated">MessageCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageUpdated">MessageUpdated</a>,</p>
+<p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageDeleted">MessageDeleted</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ChannelPinsUpdated">ChannelPinsUpdated</a>.</p>
 <p>These events only fire for DM channels.</p></p>
 </td>
       </tr>
@@ -142,7 +141,7 @@ public enum DiscordIntents</code></pre>
       <tr>
         <td id="DisCatSharp_DiscordIntents_GuildBans">GuildBans</td>
         <td><p>Whether to include guild ban events.
-<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildBanAdded">GuildBanAdded</a>, and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildBanRemoved">GuildBanRemoved</a>.</p></p>
+<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildBanAdded">GuildBanAdded</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildBanRemoved">GuildBanRemoved</a>.</p></p>
 </td>
       </tr>
       <tr>
@@ -160,7 +159,7 @@ public enum DiscordIntents</code></pre>
       <tr>
         <td id="DisCatSharp_DiscordIntents_GuildInvites">GuildInvites</td>
         <td><p>Whether to include guild invite events.
-<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_InviteCreated">InviteCreated</a>, and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_InviteDeleted">InviteDeleted</a>.</p></p>
+<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_InviteCreated">InviteCreated</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_InviteDeleted">InviteDeleted</a>.</p></p>
 </td>
       </tr>
       <tr>
@@ -173,7 +172,7 @@ public enum DiscordIntents</code></pre>
       <tr>
         <td id="DisCatSharp_DiscordIntents_GuildMessageReactions">GuildMessageReactions</td>
         <td><p>Whether to include guild reaction events.
-<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionAdded">MessageReactionAdded</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemoved">MessageReactionRemoved</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionsCleared">MessageReactionsCleared</a>,</p>
+<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionAdded">MessageReactionAdded</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemoved">MessageReactionRemoved</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionsCleared">MessageReactionsCleared</a></p>
 <p>and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_MessageReactionRemovedEmoji">MessageReactionRemovedEmoji</a>.</p></p>
 </td>
       </tr>
@@ -205,6 +204,14 @@ public enum DiscordIntents</code></pre>
 <p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_StageInstanceCreated">StageInstanceCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_StageInstanceUpdated">StageInstanceUpdated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_StageInstanceDeleted">StageInstanceDeleted</a>,</p>
 <p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadCreated">ThreadCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadUpdated">ThreadUpdated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadDeleted">ThreadDeleted</a>,</p>
 <p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadListSynced">ThreadListSynced</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadMemberUpdated">ThreadMemberUpdated</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_ThreadMembersUpdated">ThreadMembersUpdated</a>.</p></p>
+</td>
+      </tr>
+      <tr>
+        <td id="DisCatSharp_DiscordIntents_GuildScheduledEvents">GuildScheduledEvents</td>
+        <td><p>Whether to include guild scheduled event events.
+<p>These include <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventCreated">GuildScheduledEventCreated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUpdated">GuildScheduledEventUpdated</a>, <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventDeleted">GuildScheduledEventDeleted</a>,</p>
+<p><a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUserAdded">GuildScheduledEventUserAdded</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUserRemoved">GuildScheduledEventUserRemoved</a>.</p>
+The events <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUserAdded">GuildScheduledEventUserAdded</a> and <a class="xref" href="DisCatSharp.DiscordClient.html#DisCatSharp_DiscordClient_GuildScheduledEventUserRemoved">GuildScheduledEventUserRemoved</a> are in experiment and not officially supported.</p>
 </td>
       </tr>
       <tr>

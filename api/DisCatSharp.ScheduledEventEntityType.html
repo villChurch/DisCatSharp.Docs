@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class DiscordEventEntityMetadata
+    <title>Enum ScheduledEventEntityType
    | DisCatSharp Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class DiscordEventEntityMetadata
+    <meta name="title" content="Enum ScheduledEventEntityType
    | DisCatSharp Docs ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -77,79 +77,47 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.ScheduledEventEntityType">
   
   
-  <h1 id="DisCatSharp_Entities_DiscordEventEntityMetadata" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata" class="text-break">Class DiscordEventEntityMetadata
+  <h1 id="DisCatSharp_ScheduledEventEntityType" data-uid="DisCatSharp.ScheduledEventEntityType" class="text-break">Enum ScheduledEventEntityType
   </h1>
-  <div class="markdown level0 summary"><p>Represents an scheduled event.</p>
+  <div class="markdown level0 summary"><p>Represents the entity type for a scheduled event.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
-  <div class="inheritance">
-    <h5>Inheritance</h5>
-    <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">DiscordEventEntityMetadata</span></div>
-  </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Entities.html">DisCatSharp.Entities</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.html">DisCatSharp</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DisCatSharp_Entities_DiscordEventEntityMetadata_syntax">Syntax</h5>
+  <h5 id="DisCatSharp_ScheduledEventEntityType_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class DiscordEventEntityMetadata</code></pre>
+    <pre><code class="lang-csharp hljs">public enum ScheduledEventEntityType</code></pre>
   </div>
-  <h3 id="properties">Properties
+  <h3 id="fields">Fields
   </h3>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordEventEntityMetadata_Location_" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata.Location*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordEventEntityMetadata_Location" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata.Location">Location</h4>
-  <div class="markdown level1 summary"><p>Gets the the location of the event.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Location { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
-        <th>Type</th>
+        <th>Name</th>
         <th>Description</th>
       </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordEventEntityMetadata_Speakers_" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata.Speakers*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordEventEntityMetadata_Speakers" data-uid="DisCatSharp.Entities.DiscordEventEntityMetadata.Speakers">Speakers</h4>
-  <div class="markdown level1 summary"><p>Gets the the speakers of the stage channel.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public List&lt;DiscordMember&gt; Speakers { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
     <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Collections.Generic.List</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMember.html">DiscordMember</a>&gt;</td>
-        <td></td>
+        <td id="DisCatSharp_ScheduledEventEntityType_External">External</td>
+        <td><p>Indicates that the events is hold external.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="DisCatSharp_ScheduledEventEntityType_StageInstance">StageInstance</td>
+        <td><p>Indicates that the events is hold in a stage instance.</p>
+</td>
+      </tr>
+      <tr>
+        <td id="DisCatSharp_ScheduledEventEntityType_Voice">Voice</td>
+        <td><p>Indicates that the events is hold in a voice channel.</p>
+</td>
       </tr>
     </tbody>
-  </table>
+  </thead></thead></table>
 
 </article>
           </div>
