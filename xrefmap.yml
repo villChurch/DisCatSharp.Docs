@@ -1267,6 +1267,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.ApplicationCommands.BaseContext.CommandName
   nameWithType: BaseContext.CommandName
+- uid: DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync(DiscordInteractionModalBuilder)
+  name: CreateModalResponseAsync(DiscordInteractionModalBuilder)
+  href: api/DisCatSharp.ApplicationCommands.BaseContext.html#DisCatSharp_ApplicationCommands_BaseContext_CreateModalResponseAsync_DiscordInteractionModalBuilder_
+  commentId: M:DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync(DiscordInteractionModalBuilder)
+  fullName: DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync(DiscordInteractionModalBuilder)
+  nameWithType: BaseContext.CreateModalResponseAsync(DiscordInteractionModalBuilder)
+- uid: DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync*
+  name: CreateModalResponseAsync
+  href: api/DisCatSharp.ApplicationCommands.BaseContext.html#DisCatSharp_ApplicationCommands_BaseContext_CreateModalResponseAsync_
+  commentId: Overload:DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.BaseContext.CreateModalResponseAsync
+  nameWithType: BaseContext.CreateModalResponseAsync
 - uid: DisCatSharp.ApplicationCommands.BaseContext.CreateResponseAsync(DisCatSharp.InteractionResponseType,DiscordInteractionResponseBuilder)
   name: CreateResponseAsync(InteractionResponseType, DiscordInteractionResponseBuilder)
   href: api/DisCatSharp.ApplicationCommands.BaseContext.html#DisCatSharp_ApplicationCommands_BaseContext_CreateResponseAsync_DisCatSharp_InteractionResponseType_DiscordInteractionResponseBuilder_
@@ -23760,6 +23773,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteraction.CreateFollowupMessageAsync
   nameWithType: DiscordInteraction.CreateFollowupMessageAsync
+- uid: DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync(DisCatSharp.Entities.DiscordInteractionModalBuilder)
+  name: CreateInteractionModalResponseAsync(DiscordInteractionModalBuilder)
+  href: api/DisCatSharp.Entities.DiscordInteraction.html#DisCatSharp_Entities_DiscordInteraction_CreateInteractionModalResponseAsync_DisCatSharp_Entities_DiscordInteractionModalBuilder_
+  commentId: M:DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync(DisCatSharp.Entities.DiscordInteractionModalBuilder)
+  fullName: DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync(DisCatSharp.Entities.DiscordInteractionModalBuilder)
+  nameWithType: DiscordInteraction.CreateInteractionModalResponseAsync(DiscordInteractionModalBuilder)
+- uid: DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync*
+  name: CreateInteractionModalResponseAsync
+  href: api/DisCatSharp.Entities.DiscordInteraction.html#DisCatSharp_Entities_DiscordInteraction_CreateInteractionModalResponseAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteraction.CreateInteractionModalResponseAsync
+  nameWithType: DiscordInteraction.CreateInteractionModalResponseAsync
 - uid: DisCatSharp.Entities.DiscordInteraction.CreateResponseAsync(DisCatSharp.InteractionResponseType,DisCatSharp.Entities.DiscordInteractionResponseBuilder)
   name: CreateResponseAsync(InteractionResponseType, DiscordInteractionResponseBuilder)
   href: api/DisCatSharp.Entities.DiscordInteraction.html#DisCatSharp_Entities_DiscordInteraction_CreateResponseAsync_DisCatSharp_InteractionResponseType_DisCatSharp_Entities_DiscordInteractionResponseBuilder_
@@ -24110,6 +24136,150 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionDataOption.Value
   nameWithType: DiscordInteractionDataOption.Value
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder
+  name: DiscordInteractionModalBuilder
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html
+  commentId: T:DisCatSharp.Entities.DiscordInteractionModalBuilder
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder
+  nameWithType: DiscordInteractionModalBuilder
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.#ctor
+  name: DiscordInteractionModalBuilder()
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder__ctor
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.#ctor
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.DiscordInteractionModalBuilder()
+  nameWithType: DiscordInteractionModalBuilder.DiscordInteractionModalBuilder()
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.#ctor*
+  name: DiscordInteractionModalBuilder
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder__ctor_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.DiscordInteractionModalBuilder
+  nameWithType: DiscordInteractionModalBuilder.DiscordInteractionModalBuilder
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(DisCatSharp.Entities.DiscordComponent[])
+  name: AddModalComponents(DiscordComponent[])
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_DisCatSharp_Entities_DiscordComponent___
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(DisCatSharp.Entities.DiscordComponent[])
+  name.vb: AddModalComponents(DiscordComponent())
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(DisCatSharp.Entities.DiscordComponent[])
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(DisCatSharp.Entities.DiscordComponent())
+  nameWithType: DiscordInteractionModalBuilder.AddModalComponents(DiscordComponent[])
+  nameWithType.vb: DiscordInteractionModalBuilder.AddModalComponents(DiscordComponent())
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable{DisCatSharp.Entities.DiscordActionRowComponent})
+  name: AddModalComponents(IEnumerable<DiscordActionRowComponent>)
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_IEnumerable_DisCatSharp_Entities_DiscordActionRowComponent__
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable{DisCatSharp.Entities.DiscordActionRowComponent})
+  name.vb: AddModalComponents(IEnumerable(Of DiscordActionRowComponent))
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable<DisCatSharp.Entities.DiscordActionRowComponent>)
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable(Of DisCatSharp.Entities.DiscordActionRowComponent))
+  nameWithType: DiscordInteractionModalBuilder.AddModalComponents(IEnumerable<DiscordActionRowComponent>)
+  nameWithType.vb: DiscordInteractionModalBuilder.AddModalComponents(IEnumerable(Of DiscordActionRowComponent))
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable{DisCatSharp.Entities.DiscordComponent})
+  name: AddModalComponents(IEnumerable<DiscordComponent>)
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_IEnumerable_DisCatSharp_Entities_DiscordComponent__
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable{DisCatSharp.Entities.DiscordComponent})
+  name.vb: AddModalComponents(IEnumerable(Of DiscordComponent))
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable<DisCatSharp.Entities.DiscordComponent>)
+  fullName.vb: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable(Of DisCatSharp.Entities.DiscordComponent))
+  nameWithType: DiscordInteractionModalBuilder.AddModalComponents(IEnumerable<DiscordComponent>)
+  nameWithType.vb: DiscordInteractionModalBuilder.AddModalComponents(IEnumerable(Of DiscordComponent))
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents*
+  name: AddModalComponents
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents
+  nameWithType: DiscordInteractionModalBuilder.AddModalComponents
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear
+  name: Clear()
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_Clear
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear()
+  nameWithType: DiscordInteractionModalBuilder.Clear()
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear*
+  name: Clear
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_Clear_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear
+  nameWithType: DiscordInteractionModalBuilder.Clear
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents
+  name: ClearComponents()
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_ClearComponents
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents()
+  nameWithType: DiscordInteractionModalBuilder.ClearComponents()
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents*
+  name: ClearComponents
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_ClearComponents_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.ClearComponents
+  nameWithType: DiscordInteractionModalBuilder.ClearComponents
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId
+  name: CustomId
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_CustomId
+  commentId: P:DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId
+  nameWithType: DiscordInteractionModalBuilder.CustomId
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId*
+  name: CustomId
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_CustomId_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.CustomId
+  nameWithType: DiscordInteractionModalBuilder.CustomId
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents
+  name: ModalComponents
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_ModalComponents
+  commentId: P:DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents
+  nameWithType: DiscordInteractionModalBuilder.ModalComponents
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents*
+  name: ModalComponents
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_ModalComponents_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.ModalComponents
+  nameWithType: DiscordInteractionModalBuilder.ModalComponents
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.Title
+  name: Title
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_Title
+  commentId: P:DisCatSharp.Entities.DiscordInteractionModalBuilder.Title
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.Title
+  nameWithType: DiscordInteractionModalBuilder.Title
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.Title*
+  name: Title
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_Title_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.Title
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.Title
+  nameWithType: DiscordInteractionModalBuilder.Title
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId(System.String)
+  name: WithCustomId(String)
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_WithCustomId_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId(System.String)
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId(System.String)
+  nameWithType: DiscordInteractionModalBuilder.WithCustomId(String)
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId*
+  name: WithCustomId
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_WithCustomId_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithCustomId
+  nameWithType: DiscordInteractionModalBuilder.WithCustomId
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle(System.String)
+  name: WithTitle(String)
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_WithTitle_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle(System.String)
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle(System.String)
+  nameWithType: DiscordInteractionModalBuilder.WithTitle(String)
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle*
+  name: WithTitle
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_WithTitle_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.WithTitle
+  nameWithType: DiscordInteractionModalBuilder.WithTitle
 - uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection
   name: DiscordInteractionResolvedCollection
   href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html
@@ -24514,19 +24684,6 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Mentions
   nameWithType: DiscordInteractionResponseBuilder.Mentions
-- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
-  name: Title
-  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Title
-  commentId: P:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
-  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
-  nameWithType: DiscordInteractionResponseBuilder.Title
-- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title*
-  name: Title
-  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_Title_
-  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.Title
-  nameWithType: DiscordInteractionResponseBuilder.Title
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.WithContent(System.String)
   name: WithContent(String)
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_WithContent_System_String_

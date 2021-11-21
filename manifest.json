@@ -306,7 +306,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.BaseContext.html",
-          "hash": "Q3cRh9bEmQOxJGNmhVfJBjL6/X/qfqxyQCtHkQ1xBws="
+          "hash": "FOxxNK3tmsDoTScNKOImXRwf8xCvca9XYRC693OpkCw="
         }
       },
       "is_incremental": false,
@@ -390,7 +390,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ContextMenuContext.html",
-          "hash": "yBd3SXO7Yhb5a8MjTnchuyT1zq+SMKVY+zSo1RlqIVc="
+          "hash": "edC2bVWSbap/cQ1ywTBYa9j8KOt2DoA9dop8+v6orP8="
         }
       },
       "is_incremental": false,
@@ -510,7 +510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.InteractionContext.html",
-          "hash": "wGtQ3dCX9Ua6bU7Mbk+xCPgyQ1YgsKo3EE9P/GuCooo="
+          "hash": "Z4Y+r2+2Q+C6sA79kaX8ZqaaEnfFTbKv5acIQMqY4Js="
         }
       },
       "is_incremental": false,
@@ -3450,7 +3450,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordInteraction.html",
-          "hash": "VTD9U6SFpum0eQvLU89z8I8FHDU2mCC3KcT7MUAnJck="
+          "hash": "PuoVhag1qcC/PW7a+nLUCulg1V+AejkxGp69XJSmslo="
         }
       },
       "is_incremental": false,
@@ -3482,6 +3482,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Entities.DiscordInteractionModalBuilder.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html",
+          "hash": "w0c/GEh8ZVaYfgaAkul0xNdVJSkxdASK4QwsqPNHXS0="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.yml",
       "output": {
         ".html": {
@@ -3498,7 +3510,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html",
-          "hash": "HCQTU183iUGZ69KyUHrH77odOzreYp6Ex8sSQleeX8Q="
+          "hash": "5bX32JcRt/y4MN+nquhu+mJp6wYphVsRv5bkWtV4uLE="
         }
       },
       "is_incremental": false,
@@ -4278,7 +4290,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.html",
-          "hash": "JWvMMYQLBGY9pY3WE8+hBE8VjPL30GYrIbbTztxRp38="
+          "hash": "TkvWyaHmXSwKinQAtJazfow8QUqeIPtV31h7uoau3tI="
         }
       },
       "is_incremental": false,
@@ -7386,7 +7398,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "diemGH7F9kwf8BRZY227JrIggYN+mz2kzBFIurMb1RE="
+          "hash": "ZwoJGDlL0QCG+o6vNWFdyA71SzZnxdkSX6X3YK6p730="
         }
       },
       "is_incremental": false,
@@ -8563,8 +8575,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 613,
-          "skipped_file_count": 613
+          "total_file_count": 614,
+          "skipped_file_count": 614
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
