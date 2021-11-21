@@ -673,6 +673,27 @@ Each command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_CreateGlobalApplicationCommandAsync_" data-uid="DisCatSharp.DiscordClient.CreateGlobalApplicationCommandAsync*"></a>
@@ -844,6 +865,32 @@ Each command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_CreateGuildFromTemplateAsync_" data-uid="DisCatSharp.DiscordClient.CreateGuildFromTemplateAsync*"></a>
@@ -897,6 +944,27 @@ Each command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordGuild</span>&gt;</td>
         <td><p>The created guild.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -1221,6 +1289,32 @@ Each command takes up to 10 permission overwrites.</p>
   <p><code>var request = await Client.ExecuteRawRequestAsync(RestRequestMethod.GET, $&quot;{Endpoints.CHANNELS}/243184972190742178964/{Endpoints.INVITES}&quot;);
 List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;DiscordInvite&gt;&gt;(request.Response);</code></p>
 
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the ressource does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_Finalize_" data-uid="DisCatSharp.DiscordClient.Finalize*"></a>
@@ -1326,6 +1420,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetConnectionsAsync_" data-uid="DisCatSharp.DiscordClient.GetConnectionsAsync*"></a>
@@ -1349,6 +1469,27 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordConnection</span>&gt;&gt;</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1660,6 +1801,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the guild does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetGuildPreviewAsync_" data-uid="DisCatSharp.DiscordClient.GetGuildPreviewAsync*"></a>
@@ -1701,6 +1868,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordGuildPreview</span>&gt;</td>
         <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the guild does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
       </tr>
     </tbody>
   </table>
@@ -1824,6 +2017,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the invite does not exists.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetStickerAsync_" data-uid="DisCatSharp.DiscordClient.GetStickerAsync*"></a>
@@ -1869,6 +2088,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the sticker does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetStickerPacksAsync_" data-uid="DisCatSharp.DiscordClient.GetStickerPacksAsync*"></a>
@@ -1892,6 +2137,27 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">IReadOnlyList</span>&lt;<span class="xref">DiscordStickerPack</span>&gt;&gt;</td>
         <td><p>List of sticker packs.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -1941,6 +2207,27 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetThreadAsync_" data-uid="DisCatSharp.DiscordClient.GetThreadAsync*"></a>
@@ -1982,6 +2269,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordThreadChannel</span>&gt;</td>
         <td><p>The requested thread.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the thread does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2037,6 +2350,27 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_GetWebhookAsync_" data-uid="DisCatSharp.DiscordClient.GetWebhookAsync*"></a>
@@ -2078,6 +2412,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
         <td><p>The requested webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the webhook does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2129,6 +2489,32 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordWebhook</span>&gt;</td>
         <td><p>The requested webhook.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the webhook does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2285,6 +2671,32 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
@@ -2332,6 +2744,32 @@ A command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordMessage</span>&gt;</td>
         <td><p>The message that was sent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2387,6 +2825,32 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
@@ -2434,6 +2898,32 @@ A command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordMessage</span>&gt;</td>
         <td><p>The message that was sent.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
@@ -2495,6 +2985,32 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </tbody>
   </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the channel does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
   
   
   <a id="DisCatSharp_DiscordClient_UpdateCurrentUserAsync_" data-uid="DisCatSharp.DiscordClient.UpdateCurrentUserAsync*"></a>
@@ -2542,6 +3058,32 @@ A command takes up to 10 permission overwrites.</p>
       <tr>
         <td><span class="xref">Task</span>&lt;<span class="xref">DiscordUser</span>&gt;</td>
         <td><p>The modified user.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="exceptions">Exceptions</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Condition</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
+        <td><p>Thrown when the user does not exist.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
+        <td><p>Thrown when an invalid parameter was provided.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.ServerErrorException.html">ServerErrorException</a></td>
+        <td><p>Thrown when Discord is unable to process the request.</p>
 </td>
       </tr>
     </tbody>
