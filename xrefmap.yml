@@ -27839,6 +27839,25 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordPresence.User
   nameWithType: DiscordPresence.User
+- uid: DisCatSharp.Entities.DiscordProtocol
+  name: DiscordProtocol
+  href: api/DisCatSharp.Entities.DiscordProtocol.html
+  commentId: T:DisCatSharp.Entities.DiscordProtocol
+  fullName: DisCatSharp.Entities.DiscordProtocol
+  nameWithType: DiscordProtocol
+- uid: DisCatSharp.Entities.DiscordProtocol.#ctor
+  name: DiscordProtocol()
+  href: api/DisCatSharp.Entities.DiscordProtocol.html#DisCatSharp_Entities_DiscordProtocol__ctor
+  commentId: M:DisCatSharp.Entities.DiscordProtocol.#ctor
+  fullName: DisCatSharp.Entities.DiscordProtocol.DiscordProtocol()
+  nameWithType: DiscordProtocol.DiscordProtocol()
+- uid: DisCatSharp.Entities.DiscordProtocol.#ctor*
+  name: DiscordProtocol
+  href: api/DisCatSharp.Entities.DiscordProtocol.html#DisCatSharp_Entities_DiscordProtocol__ctor_
+  commentId: Overload:DisCatSharp.Entities.DiscordProtocol.#ctor
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordProtocol.DiscordProtocol
+  nameWithType: DiscordProtocol.DiscordProtocol
 - uid: DisCatSharp.Entities.DiscordReaction
   name: DiscordReaction
   href: api/DisCatSharp.Entities.DiscordReaction.html

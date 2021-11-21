@@ -2994,7 +2994,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordButtonComponent.html",
-          "hash": "4GTWYn4/wzNTWslrvpJvRf2oie0fFAadkeZfGXuPKB4="
+          "hash": "gr88lDAtXs9rPQ5/2ooTnPp6ypZqHmI0wjA3Tq1bJq0="
         }
       },
       "is_incremental": false,
@@ -3710,6 +3710,18 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.Entities.DiscordProtocol.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.Entities.DiscordProtocol.html",
+          "hash": "mUKGn5inw9wATW4S1M+T9VW5yFtz9UeiTqAN53O+GMc="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.Entities.DiscordReaction.yml",
       "output": {
         ".html": {
@@ -3906,7 +3918,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.DiscordTextComponent.html",
-          "hash": "6RQa1O9y2zpP3I7U17tMvMwHPpWypfADRAyOeuUPfbs="
+          "hash": "iejSEdkwjrxrFkn39StkYPqMo+7UygB5vF12CcpA/78="
         }
       },
       "is_incremental": false,
@@ -4290,7 +4302,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Entities.html",
-          "hash": "TkvWyaHmXSwKinQAtJazfow8QUqeIPtV31h7uoau3tI="
+          "hash": "2xWgj5UWPqn/XH7S61rxfxvpygcBzDpbEkzT2UX91yI="
         }
       },
       "is_incremental": false,
@@ -4302,7 +4314,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.ApplicationCommandType.html",
-          "hash": "UObE4tcL4LbSOZb5fL6+HGR+/G1a+ESJXbSsnvPI4lg="
+          "hash": "jbSZ460TsSvP2QJClg7mVLtNZsHyeRMKL6X3zfN4vGI="
         }
       },
       "is_incremental": false,
@@ -4446,7 +4458,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Enums.html",
-          "hash": "/rbV1w8O4mHIvmGUvUCyJJkSTn4ZISgNmhfLVZW6pWY="
+          "hash": "lH8kBSf9DPGjqc2UkNKNhhNHNXdN3W0vyAYyUMf7zpU="
         }
       },
       "is_incremental": false,
@@ -5814,7 +5826,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.ChannelExtensions.html",
-          "hash": "kqXQ5jc9cV5svQhpoeuKFF1b+V7BRAuGIcIGcHA+rT0="
+          "hash": "PJ+5JpOfJf6C/hr0i0q40SNG3ax7wBMmTd/ni44HDDw="
         }
       },
       "is_incremental": false,
@@ -5850,7 +5862,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.MessageExtensions.html",
-          "hash": "X/navt3ITn1QxFsbPeuSd4IQw2VHMWenUBtiSRwFvt8="
+          "hash": "DS/tJTRsMebp/fRknW12Z1maEgOnmtc19//xchXT8fI="
         }
       },
       "is_incremental": false,
@@ -5862,7 +5874,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.Extensions.html",
-          "hash": "ChvHDB6l64ZyOO4EpA9xSJy9chr6sqdqtOHK/P5MX3o="
+          "hash": "ZzeQgYCaDO0Z68KQeVQAHiP83+Nmw8Ey/YuK001rVFc="
         }
       },
       "is_incremental": false,
@@ -5874,7 +5886,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.InteractivityConfiguration.html",
-          "hash": "B7FRsqrkR3FF2lwfHMa0u+hC4rw4TjH5nut2aPe0iWc="
+          "hash": "h7MpjYz5OQZGuqNhnrZw36HtpHXci+HhXlR9CFwQHtk="
         }
       },
       "is_incremental": false,
@@ -5898,7 +5910,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Interactivity.InteractivityExtension.html",
-          "hash": "EChZZNcwzEk6oQ0sLV309Y1/jaADbE2IpPmmFUhG9hA="
+          "hash": "7ctPE9BCOlM/G6Z+iEs+DKCSJ68zmb+0bF1E1rpnmZA="
         }
       },
       "is_incremental": false,
@@ -6222,7 +6234,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Lavalink.LavalinkExtension.html",
-          "hash": "ftUMxwK1+0bnlVpFrO1DEsnEZhTmVZn706k3ilnLGPs="
+          "hash": "HsSnoOWFaYlZDJSYDzVC651DP5z5qn8qY/K1qxDd6Y8="
         }
       },
       "is_incremental": false,
@@ -6306,7 +6318,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Lavalink.LavalinkRestClient.html",
-          "hash": "3//NZ7hXvqB9YkMg21Fk/VbSyHJAcZZjtJuTXI9Y6tI="
+          "hash": "RAPve+kroPCSbrIm7EUz46rJrAYAdGnP5OKN93PeWag="
         }
       },
       "is_incremental": false,
@@ -6594,7 +6606,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.Net.Models.ChannelEditModel.html",
-          "hash": "R/ogu1cvALyvTaK/RKqpASOjOQHBmO1mFCtzB2BD11A="
+          "hash": "um3uIe6NAUcJBvW/XkbSx66sI1V8JyeME1SWew4dda8="
         }
       },
       "is_incremental": false,
@@ -7398,7 +7410,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "ZwoJGDlL0QCG+o6vNWFdyA71SzZnxdkSX6X3YK6p730="
+          "hash": "Vh3K6bVUoG5k1o8eTcQWxJKx6/OaDzNFQUeKeZLniuQ="
         }
       },
       "is_incremental": false,
@@ -8575,8 +8587,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 614,
-          "skipped_file_count": 614
+          "total_file_count": 615,
+          "skipped_file_count": 615
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
