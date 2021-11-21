@@ -683,6 +683,11 @@ Each command takes up to 10 permission overwrites.</p>
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when an invalid token was provided.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.BadRequestException.html">BadRequestException</a></td>
         <td><p>Thrown when an invalid parameter was provided.</p>
 </td>
@@ -1927,7 +1932,7 @@ List&lt;DiscordInvite&gt; invites = DiscordJson.ToDiscordObject&lt;List&lt;Disco
       <tr>
         <td><span class="xref">OAuthScopes</span></td>
         <td><span class="parametername">scopes</span></td>
-        <td><p>Defaults to <see cref="!:OAuthScopes.BOT_DEFAULT"></see>.</p>
+        <td><p>Defaults to <a class="xref" href="DisCatSharp.Enums.OAuthScopes.html#DisCatSharp_Enums_OAuthScopes_BOT_DEFAULT">BOT_DEFAULT</a>.</p>
 </td>
       </tr>
       <tr>
@@ -2624,7 +2629,7 @@ A command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_SendMessageAsync_DiscordChannel_Action_DiscordMessageBuilder__" data-uid="DisCatSharp.DiscordClient.SendMessageAsync(DiscordChannel,Action{DiscordMessageBuilder})">SendMessageAsync(DiscordChannel, Action&lt;DiscordMessageBuilder&gt;)</h4>
-  <div class="markdown level1 summary"><p>Sends a message with an <see cref="!:Action&lt;DiscordMessageBuilder>"></see>.</p>
+  <div class="markdown level1 summary"><p>Sends a message with an <span class="xref">System.Action`1</span>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2680,6 +2685,11 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission if TTS is false and <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
         <td><p>Thrown when the channel does not exist.</p>
@@ -2758,6 +2768,11 @@ A command takes up to 10 permission overwrites.</p>
     </thead>
     <tbody>
       <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission.</p>
+</td>
+      </tr>
+      <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
         <td><p>Thrown when the channel does not exist.</p>
 </td>
@@ -2778,7 +2793,7 @@ A command takes up to 10 permission overwrites.</p>
   
   <a id="DisCatSharp_DiscordClient_SendMessageAsync_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync*"></a>
   <h4 id="DisCatSharp_DiscordClient_SendMessageAsync_DiscordChannel_DiscordMessageBuilder_" data-uid="DisCatSharp.DiscordClient.SendMessageAsync(DiscordChannel,DiscordMessageBuilder)">SendMessageAsync(DiscordChannel, DiscordMessageBuilder)</h4>
-  <div class="markdown level1 summary"><p>Sends a message with the <see cref="!:DiscordMessageBuilder"></see>.</p>
+  <div class="markdown level1 summary"><p>Sends a message with the <a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -2834,6 +2849,11 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission if TTS is false and <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendTtsMessages">SendTtsMessages</a> if TTS is true.</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
         <td><p>Thrown when the channel does not exist.</p>
@@ -2911,6 +2931,11 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission.</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
         <td><p>Thrown when the channel does not exist.</p>
@@ -2994,6 +3019,11 @@ A command takes up to 10 permission overwrites.</p>
       </tr>
     </thead>
     <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Exceptions.UnauthorizedException.html">UnauthorizedException</a></td>
+        <td><p>Thrown when the client does not have the <a class="xref" href="DisCatSharp.Permissions.html#DisCatSharp_Permissions_SendMessages">SendMessages</a> permission.</p>
+</td>
+      </tr>
       <tr>
         <td><a class="xref" href="DisCatSharp.Exceptions.NotFoundException.html">NotFoundException</a></td>
         <td><p>Thrown when the channel does not exist.</p>
