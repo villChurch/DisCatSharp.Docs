@@ -31,6 +31,9 @@ references:
 - uid: basics_first_bot
   name: Your First Bot
   href: articles/basics/first_bot.html
+- uid: basics_templates
+  name: Project Templates
+  href: articles/basics/templates.html
 - uid: basics_web_app
   name: Bot as Hosted Service
   href: articles/basics/web_app.html

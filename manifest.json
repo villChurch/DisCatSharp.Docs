@@ -7550,6 +7550,18 @@
     },
     {
       "type": "Conceptual",
+      "source_relative_path": "articles/basics/templates.md",
+      "output": {
+        ".html": {
+          "relative_path": "articles/basics/templates.html",
+          "hash": "IbOg2k5aqUWRbjXkuzarX5XZwnbQkwGzcaFhtswLsb4="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Conceptual",
       "source_relative_path": "articles/basics/web_app.md",
       "output": {
         ".html": {
@@ -7782,7 +7794,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/important_changes/9_8_4.html",
-          "hash": "HeWkIAjg7BJcoJl9KYX4gwjFYPHfR7v2eUz3I7pgtiE="
+          "hash": "ESk4pOUIEudq3qSakrJ00yW/R1zS/OxYK7GQgi7olvY="
         }
       },
       "is_incremental": false,
@@ -7854,7 +7866,7 @@
       "output": {
         ".html": {
           "relative_path": "articles/toc.html",
-          "hash": "aw2USVy+7cnkVUSHmWX1qywEU8UsIv9R2fsy9gE1b/M="
+          "hash": "M2xI8WGADJR+74iHt3gygPH0QN4FAYeUA7NZ0SQMj1M="
         }
       },
       "is_incremental": false,
@@ -8490,6 +8502,72 @@
     },
     {
       "type": "Resource",
+      "source_relative_path": "images/pt_nuget_install.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_nuget_install.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pt_project_new.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_project_new.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pt_project_new_classification.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_project_new_classification.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pt_project_new_name.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_project_new_name.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pt_project_new_options.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_project_new_options.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
+      "source_relative_path": "images/pt_scaffolded.png",
+      "output": {
+        "resource": {
+          "relative_path": "images/pt_scaffolded.png"
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "Resource",
       "source_relative_path": "images/voicenext_receive_01.png",
       "output": {
         "resource": {
@@ -8581,8 +8659,8 @@
         "ConceptualDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 40,
-          "skipped_file_count": 40
+          "total_file_count": 41,
+          "skipped_file_count": 41
         },
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,

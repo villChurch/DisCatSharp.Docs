@@ -1,0 +1,155 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Project Templates | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Project Templates | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../favicon.ico">
+    <link rel="stylesheet" href="../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../styles/docfx.css">
+    <link rel="stylesheet" href="../../styles/main.css">
+    <link rel="stylesheet" href="../../styles/discord.css">
+    <link rel="stylesheet" href="../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../toc.html">
+    <meta property="docfx:tocrel" content="../toc.html">
+    <meta property="docfx:rel" content="../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../index.html">
+                <img id="logo" class="svg" src="../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="basics_templates">
+<h1 id="prerequisites">Prerequisites</h1>
+
+<p>Install the following packages:</p>
+<ul>
+<li>DisCatSharp.ProjectTemplates</li>
+</ul>
+<p>To Install the latest:</p>
+<pre><code class="lang-powershell">dotnet new --install DisCatSharp.ProjectTemplates
+</code></pre><p>To install a specific version (example uses 9.8.4.1):</p>
+<pre><code class="lang-powershell">dotnet new --install DisCatSharp.ProjectTemplates::9.8.4.1
+</code></pre><h1 id="steps">Steps</h1>
+<h2 id="install-setupimagesptnugetinstallpng"><img src="/images/pt_nuget_install.png" alt="Install Setup"></h2>
+<p>If you&#39;re using Visual Studio, the templates will show up when creating a new project/solution
+<img src="/images/pt_project_new.png" alt="Install Setup"></p>
+<p>To easily find the DCS templates, you can search for either <code>Bot</code> or <code>Discord</code>. These tags are generic so if anyone else creates their own
+discord or bot template our DCS templates will still be discoverable. We shall be using the solution template for our example.
+<img src="/images/pt_project_new_classification.png" alt="Classification"></p>
+<p>For example sake, the project name is DCSTest
+<img src="/images/pt_project_new_name.png" alt="Project Name"></p>
+<p>Input your Discord Token which can be retrieved via Discord&#39;s Developer Portal. The checkboxes represent the various modules in the DCS library. Checking it,
+will include it in your project. If it&#39;s an extension, it automatically gets configured/included.
+<img src="/images/pt_project_new_options.png" alt="Parameters"></p>
+<p>You should see something similar to the following image. It&#39;s worth noting that you need to set the Web project as the <code>Startup</code> project. Due to the web being
+list last, the <code>Bot</code> project is considered the startup. You would think that a class-library which doesn&#39;t have an exe could be considered a startup project....
+<img src="/images/pt_scaffolded.png" alt="Project Structure"></p>
+<p>At this point in time the template is ready to run!</p>
+<hr>
+<h1 id="templates">Templates</h1>
+<h2 id="bot-template">Bot Template</h2>
+<p>This is a class library in which you place bot related code. It contains its own json file where you can
+configure your bot accordingly!</p>
+<p>An extension class provides easy to call methods for adding the Bot&#39;s services/configuration into the dependency injection (DI) pipeline.</p>
+<h2 id="web-template">Web Template</h2>
+<p>This is a very minimal project. By itself it only has a default endpoint which displays &quot;Hello World&quot;.</p>
+<h2 id="solution-template">Solution Template</h2>
+<p>Combines the bot and web templates. Includes the appropriate references/calls to get your bot up and running with minimal
+effort.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/basics/templates.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021-2022 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../styles/main.js"></script>
+    <script type="text/javascript" src="../../styles/url.min.js"></script>
+  </body>
+</html>
