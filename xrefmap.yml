@@ -15186,6 +15186,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordAttachment
   fullName: DisCatSharp.Entities.DiscordAttachment
   nameWithType: DiscordAttachment
+- uid: DisCatSharp.Entities.DiscordAttachment.Description
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Description
+  commentId: P:DisCatSharp.Entities.DiscordAttachment.Description
+  fullName: DisCatSharp.Entities.DiscordAttachment.Description
+  nameWithType: DiscordAttachment.Description
+- uid: DisCatSharp.Entities.DiscordAttachment.Description*
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Description_
+  commentId: Overload:DisCatSharp.Entities.DiscordAttachment.Description
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordAttachment.Description
+  nameWithType: DiscordAttachment.Description
 - uid: DisCatSharp.Entities.DiscordAttachment.Ephemeral
   name: Ephemeral
   href: api/DisCatSharp.Entities.DiscordAttachment.html#DisCatSharp_Entities_DiscordAttachment_Ephemeral
