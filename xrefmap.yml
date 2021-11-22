@@ -59244,6 +59244,12 @@ references:
   commentId: F:DisCatSharp.Permissions.Stream
   fullName: DisCatSharp.Permissions.Stream
   nameWithType: Permissions.Stream
+- uid: DisCatSharp.Permissions.TimeOutMembers
+  name: TimeOutMembers
+  href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_TimeOutMembers
+  commentId: F:DisCatSharp.Permissions.TimeOutMembers
+  fullName: DisCatSharp.Permissions.TimeOutMembers
+  nameWithType: Permissions.TimeOutMembers
 - uid: DisCatSharp.Permissions.UseApplicationCommands
   name: UseApplicationCommands
   href: api/DisCatSharp.Permissions.html#DisCatSharp_Permissions_UseApplicationCommands
