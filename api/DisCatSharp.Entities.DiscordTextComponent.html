@@ -140,13 +140,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordTextComponent__ctor_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)">DiscordTextComponent(TextComponentStyle, String, String, Boolean)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">DiscordTextComponent(TextComponentStyle, String, String, String, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Boolean)</h4>
   <div class="markdown level1 summary"><p>Constructs a new text component field with the specified options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, bool disabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, string placeholder = null, int? minLength = null, int? maxLength = null, bool disabled = false)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -174,6 +174,24 @@
         <td><span class="xref">System.String</span></td>
         <td><span class="parametername">label</span></td>
         <td><p>The text to display before the text component, up to 80 characters.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">placeholder</span></td>
+        <td><p>The placeholder for the text input.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">minLength</span></td>
+        <td><p>The minimal length of text input.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td><span class="parametername">maxLength</span></td>
+        <td><p>The maximal length of text input.</p>
 </td>
       </tr>
       <tr>
@@ -216,12 +234,90 @@
   
   <a id="DisCatSharp_Entities_DiscordTextComponent_Label_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Label*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent_Label" data-uid="DisCatSharp.Entities.DiscordTextComponent.Label">Label</h4>
-  <div class="markdown level1 summary"><p>The text to apply to the text component.</p>
+  <div class="markdown level1 summary"><p>The text description to apply to the text component.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
     <pre><code class="lang-csharp hljs">public string Label { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordTextComponent_MaxLength_" data-uid="DisCatSharp.Entities.DiscordTextComponent.MaxLength*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent_MaxLength" data-uid="DisCatSharp.Entities.DiscordTextComponent.MaxLength">MaxLength</h4>
+  <div class="markdown level1 summary"><p>The maximal length of text input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MaxLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordTextComponent_MinLength_" data-uid="DisCatSharp.Entities.DiscordTextComponent.MinLength*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent_MinLength" data-uid="DisCatSharp.Entities.DiscordTextComponent.MinLength">MinLength</h4>
+  <div class="markdown level1 summary"><p>The minimal length of text input.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public int? MinLength { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.Int32</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordTextComponent_Placeholder_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Placeholder*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Placeholder" data-uid="DisCatSharp.Entities.DiscordTextComponent.Placeholder">Placeholder</h4>
+  <div class="markdown level1 summary"><p>The placeholder for the text component.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Placeholder { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

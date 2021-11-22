@@ -29975,12 +29975,15 @@ references:
   commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(DisCatSharp.Entities.DiscordTextComponent)
   fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(DisCatSharp.Entities.DiscordTextComponent)
   nameWithType: DiscordTextComponent.DiscordTextComponent(DiscordTextComponent)
-- uid: DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)
-  name: DiscordTextComponent(TextComponentStyle, String, String, Boolean)
-  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(TextComponentStyle, System.String, System.String, System.Boolean)
-  nameWithType: DiscordTextComponent.DiscordTextComponent(TextComponentStyle, String, String, Boolean)
+- uid: DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
+  name: DiscordTextComponent(TextComponentStyle, String, String, String, Nullable<Int32>, Nullable<Int32>, Boolean)
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)
+  name.vb: DiscordTextComponent(TextComponentStyle, String, String, String, Nullable(Of Int32), Nullable(Of Int32), Boolean)
+  fullName: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(TextComponentStyle, System.String, System.String, System.String, System.Nullable<System.Int32>, System.Nullable<System.Int32>, System.Boolean)
+  fullName.vb: DisCatSharp.Entities.DiscordTextComponent.DiscordTextComponent(TextComponentStyle, System.String, System.String, System.String, System.Nullable(Of System.Int32), System.Nullable(Of System.Int32), System.Boolean)
+  nameWithType: DiscordTextComponent.DiscordTextComponent(TextComponentStyle, String, String, String, Nullable<Int32>, Nullable<Int32>, Boolean)
+  nameWithType.vb: DiscordTextComponent.DiscordTextComponent(TextComponentStyle, String, String, String, Nullable(Of Int32), Nullable(Of Int32), Boolean)
 - uid: DisCatSharp.Entities.DiscordTextComponent.#ctor*
   name: DiscordTextComponent
   href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent__ctor_
@@ -30040,6 +30043,45 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordTextComponent.Label
   nameWithType: DiscordTextComponent.Label
+- uid: DisCatSharp.Entities.DiscordTextComponent.MaxLength
+  name: MaxLength
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_MaxLength
+  commentId: P:DisCatSharp.Entities.DiscordTextComponent.MaxLength
+  fullName: DisCatSharp.Entities.DiscordTextComponent.MaxLength
+  nameWithType: DiscordTextComponent.MaxLength
+- uid: DisCatSharp.Entities.DiscordTextComponent.MaxLength*
+  name: MaxLength
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_MaxLength_
+  commentId: Overload:DisCatSharp.Entities.DiscordTextComponent.MaxLength
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordTextComponent.MaxLength
+  nameWithType: DiscordTextComponent.MaxLength
+- uid: DisCatSharp.Entities.DiscordTextComponent.MinLength
+  name: MinLength
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_MinLength
+  commentId: P:DisCatSharp.Entities.DiscordTextComponent.MinLength
+  fullName: DisCatSharp.Entities.DiscordTextComponent.MinLength
+  nameWithType: DiscordTextComponent.MinLength
+- uid: DisCatSharp.Entities.DiscordTextComponent.MinLength*
+  name: MinLength
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_MinLength_
+  commentId: Overload:DisCatSharp.Entities.DiscordTextComponent.MinLength
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordTextComponent.MinLength
+  nameWithType: DiscordTextComponent.MinLength
+- uid: DisCatSharp.Entities.DiscordTextComponent.Placeholder
+  name: Placeholder
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Placeholder
+  commentId: P:DisCatSharp.Entities.DiscordTextComponent.Placeholder
+  fullName: DisCatSharp.Entities.DiscordTextComponent.Placeholder
+  nameWithType: DiscordTextComponent.Placeholder
+- uid: DisCatSharp.Entities.DiscordTextComponent.Placeholder*
+  name: Placeholder
+  href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Placeholder_
+  commentId: Overload:DisCatSharp.Entities.DiscordTextComponent.Placeholder
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordTextComponent.Placeholder
+  nameWithType: DiscordTextComponent.Placeholder
 - uid: DisCatSharp.Entities.DiscordTextComponent.Style
   name: Style
   href: api/DisCatSharp.Entities.DiscordTextComponent.html#DisCatSharp_Entities_DiscordTextComponent_Style
