@@ -300,7 +300,8 @@
   
   <a id="DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_" data-uid="DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents*"></a>
   <h4 id="DisCatSharp_Entities_DiscordInteractionModalBuilder_AddModalComponents_IEnumerable_DisCatSharp_Entities_DiscordComponent__" data-uid="DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents(IEnumerable{DisCatSharp.Entities.DiscordComponent})">AddModalComponents(IEnumerable&lt;DiscordComponent&gt;)</h4>
-  <div class="markdown level1 summary"><p>Appends a collection of components to the builder. Each call will append to a new row.</p>
+  <div class="markdown level1 summary"><p>Appends a collection of components to the builder. Each call will append to a new row.
+If you add a <a class="xref" href="DisCatSharp.Entities.DiscordTextComponent.html">DiscordTextComponent</a> you can only add one.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
@@ -353,6 +354,51 @@
       <tr>
         <td><span class="xref">System.ArgumentException</span></td>
         <td><p>Thrown when passing more than 5 components.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordInteractionModalBuilder_AddTextComponent_" data-uid="DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordInteractionModalBuilder_AddTextComponent_DisCatSharp_Entities_DiscordTextComponent_" data-uid="DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent(DisCatSharp.Entities.DiscordTextComponent)">AddTextComponent(DiscordTextComponent)</h4>
+  <div class="markdown level1 summary"><p>Appends a text component to the builder.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordInteractionModalBuilder AddTextComponent(DiscordTextComponent component)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordTextComponent.html">DiscordTextComponent</a></td>
+        <td><span class="parametername">component</span></td>
+        <td><p>The component to append.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordInteractionModalBuilder.html">DiscordInteractionModalBuilder</a></td>
+        <td><p>The current builder to chain calls with.</p>
 </td>
       </tr>
     </tbody>

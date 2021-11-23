@@ -24205,6 +24205,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddModalComponents
   nameWithType: DiscordInteractionModalBuilder.AddModalComponents
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent(DisCatSharp.Entities.DiscordTextComponent)
+  name: AddTextComponent(DiscordTextComponent)
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddTextComponent_DisCatSharp_Entities_DiscordTextComponent_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent(DisCatSharp.Entities.DiscordTextComponent)
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent(DisCatSharp.Entities.DiscordTextComponent)
+  nameWithType: DiscordInteractionModalBuilder.AddTextComponent(DiscordTextComponent)
+- uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent*
+  name: AddTextComponent
+  href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_AddTextComponent_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionModalBuilder.AddTextComponent
+  nameWithType: DiscordInteractionModalBuilder.AddTextComponent
 - uid: DisCatSharp.Entities.DiscordInteractionModalBuilder.Clear
   name: Clear()
   href: api/DisCatSharp.Entities.DiscordInteractionModalBuilder.html#DisCatSharp_Entities_DiscordInteractionModalBuilder_Clear
