@@ -20459,18 +20459,18 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddEmbeds
   nameWithType: DiscordFollowupMessageBuilder.AddEmbeds
-- uid: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream,System.Boolean)
-  name: AddFile(FileStream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html#DisCatSharp_Entities_DiscordFollowupMessageBuilder_AddFile_FileStream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream, System.Boolean)
-  nameWithType: DiscordFollowupMessageBuilder.AddFile(FileStream, Boolean)
-- uid: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String,Stream,System.Boolean)
-  name: AddFile(String, Stream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html#DisCatSharp_Entities_DiscordFollowupMessageBuilder_AddFile_System_String_Stream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String,Stream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String, Stream, System.Boolean)
-  nameWithType: DiscordFollowupMessageBuilder.AddFile(String, Stream, Boolean)
+- uid: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream,System.Boolean,System.String)
+  name: AddFile(FileStream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html#DisCatSharp_Entities_DiscordFollowupMessageBuilder_AddFile_FileStream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(FileStream, System.Boolean, System.String)
+  nameWithType: DiscordFollowupMessageBuilder.AddFile(FileStream, Boolean, String)
+- uid: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  name: AddFile(String, Stream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html#DisCatSharp_Entities_DiscordFollowupMessageBuilder_AddFile_System_String_Stream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile(System.String, Stream, System.Boolean, System.String)
+  nameWithType: DiscordFollowupMessageBuilder.AddFile(String, Stream, Boolean, String)
 - uid: DisCatSharp.Entities.DiscordFollowupMessageBuilder.AddFile*
   name: AddFile
   href: api/DisCatSharp.Entities.DiscordFollowupMessageBuilder.html#DisCatSharp_Entities_DiscordFollowupMessageBuilder_AddFile_
@@ -24506,18 +24506,18 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddEmbeds
   nameWithType: DiscordInteractionResponseBuilder.AddEmbeds
-- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean)
-  name: AddFile(FileStream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_FileStream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream, System.Boolean)
-  nameWithType: DiscordInteractionResponseBuilder.AddFile(FileStream, Boolean)
-- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean)
-  name: AddFile(String, Stream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_System_String_Stream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String, Stream, System.Boolean)
-  nameWithType: DiscordInteractionResponseBuilder.AddFile(String, Stream, Boolean)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean,System.String)
+  name: AddFile(FileStream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_FileStream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(FileStream, System.Boolean, System.String)
+  nameWithType: DiscordInteractionResponseBuilder.AddFile(FileStream, Boolean, String)
+- uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  name: AddFile(String, Stream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_System_String_Stream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile(System.String, Stream, System.Boolean, System.String)
+  nameWithType: DiscordInteractionResponseBuilder.AddFile(String, Stream, Boolean, String)
 - uid: DisCatSharp.Entities.DiscordInteractionResponseBuilder.AddFile*
   name: AddFile
   href: api/DisCatSharp.Entities.DiscordInteractionResponseBuilder.html#DisCatSharp_Entities_DiscordInteractionResponseBuilder_AddFile_
@@ -27334,18 +27334,18 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessageBuilder.WithEmbed
   nameWithType: DiscordMessageBuilder.WithEmbed
-- uid: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream,System.Boolean)
-  name: WithFile(FileStream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_WithFile_FileStream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream, System.Boolean)
-  nameWithType: DiscordMessageBuilder.WithFile(FileStream, Boolean)
-- uid: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String,Stream,System.Boolean)
-  name: WithFile(String, Stream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_WithFile_System_String_Stream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String,Stream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String, Stream, System.Boolean)
-  nameWithType: DiscordMessageBuilder.WithFile(String, Stream, Boolean)
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream,System.Boolean,System.String)
+  name: WithFile(FileStream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_WithFile_FileStream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(FileStream, System.Boolean, System.String)
+  nameWithType: DiscordMessageBuilder.WithFile(FileStream, Boolean, String)
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String,Stream,System.Boolean,System.String)
+  name: WithFile(String, Stream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_WithFile_System_String_Stream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String,Stream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.WithFile(System.String, Stream, System.Boolean, System.String)
+  nameWithType: DiscordMessageBuilder.WithFile(String, Stream, Boolean, String)
 - uid: DisCatSharp.Entities.DiscordMessageBuilder.WithFile*
   name: WithFile
   href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_WithFile_
@@ -27401,6 +27401,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordMessageFile
   fullName: DisCatSharp.Entities.DiscordMessageFile
   nameWithType: DiscordMessageFile
+- uid: DisCatSharp.Entities.DiscordMessageFile.Description
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordMessageFile.html#DisCatSharp_Entities_DiscordMessageFile_Description
+  commentId: P:DisCatSharp.Entities.DiscordMessageFile.Description
+  fullName: DisCatSharp.Entities.DiscordMessageFile.Description
+  nameWithType: DiscordMessageFile.Description
+- uid: DisCatSharp.Entities.DiscordMessageFile.Description*
+  name: Description
+  href: api/DisCatSharp.Entities.DiscordMessageFile.html#DisCatSharp_Entities_DiscordMessageFile_Description_
+  commentId: Overload:DisCatSharp.Entities.DiscordMessageFile.Description
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMessageFile.Description
+  nameWithType: DiscordMessageFile.Description
 - uid: DisCatSharp.Entities.DiscordMessageFile.FileName
   name: FileName
   href: api/DisCatSharp.Entities.DiscordMessageFile.html#DisCatSharp_Entities_DiscordMessageFile_FileName
@@ -44866,18 +44879,18 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.AddEmbeds
   nameWithType: DiscordWebhookBuilder.AddEmbeds
-- uid: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream,System.Boolean)
-  name: AddFile(FileStream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_AddFile_FileStream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream, System.Boolean)
-  nameWithType: DiscordWebhookBuilder.AddFile(FileStream, Boolean)
-- uid: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String,Stream,System.Boolean)
-  name: AddFile(String, Stream, Boolean)
-  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_AddFile_System_String_Stream_System_Boolean_
-  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String,Stream,System.Boolean)
-  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String, Stream, System.Boolean)
-  nameWithType: DiscordWebhookBuilder.AddFile(String, Stream, Boolean)
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream,System.Boolean,System.String)
+  name: AddFile(FileStream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_AddFile_FileStream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(FileStream, System.Boolean, System.String)
+  nameWithType: DiscordWebhookBuilder.AddFile(FileStream, Boolean, String)
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  name: AddFile(String, Stream, Boolean, String)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_AddFile_System_String_Stream_System_Boolean_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String,Stream,System.Boolean,System.String)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile(System.String, Stream, System.Boolean, System.String)
+  nameWithType: DiscordWebhookBuilder.AddFile(String, Stream, Boolean, String)
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.AddFile*
   name: AddFile
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_AddFile_
