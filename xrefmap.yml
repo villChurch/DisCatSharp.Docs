@@ -21767,6 +21767,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.HasWelcomeScreen
   nameWithType: DiscordGuild.HasWelcomeScreen
+- uid: DisCatSharp.Entities.DiscordGuild.HubType
+  name: HubType
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_HubType
+  commentId: P:DisCatSharp.Entities.DiscordGuild.HubType
+  fullName: DisCatSharp.Entities.DiscordGuild.HubType
+  nameWithType: DiscordGuild.HubType
+- uid: DisCatSharp.Entities.DiscordGuild.HubType*
+  name: HubType
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_HubType_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.HubType
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.HubType
+  nameWithType: DiscordGuild.HubType
 - uid: DisCatSharp.Entities.DiscordGuild.IconHash
   name: IconHash
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_IconHash
@@ -23233,6 +23246,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuildPreview.Features
   nameWithType: DiscordGuildPreview.Features
+- uid: DisCatSharp.Entities.DiscordGuildPreview.HubType
+  name: HubType
+  href: api/DisCatSharp.Entities.DiscordGuildPreview.html#DisCatSharp_Entities_DiscordGuildPreview_HubType
+  commentId: P:DisCatSharp.Entities.DiscordGuildPreview.HubType
+  fullName: DisCatSharp.Entities.DiscordGuildPreview.HubType
+  nameWithType: DiscordGuildPreview.HubType
+- uid: DisCatSharp.Entities.DiscordGuildPreview.HubType*
+  name: HubType
+  href: api/DisCatSharp.Entities.DiscordGuildPreview.html#DisCatSharp_Entities_DiscordGuildPreview_HubType_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuildPreview.HubType
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuildPreview.HubType
+  nameWithType: DiscordGuildPreview.HubType
 - uid: DisCatSharp.Entities.DiscordGuildPreview.IconHash
   name: IconHash
   href: api/DisCatSharp.Entities.DiscordGuildPreview.html#DisCatSharp_Entities_DiscordGuildPreview_IconHash
@@ -45060,6 +45086,22 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.IsTTS
   nameWithType: DiscordWebhookBuilder.IsTTS
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name: KeepAttachments(IEnumerable<DiscordAttachment>)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_KeepAttachments_IEnumerable_DisCatSharp_Entities_DiscordAttachment__
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name.vb: KeepAttachments(IEnumerable(Of DiscordAttachment))
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable<DisCatSharp.Entities.DiscordAttachment>)
+  fullName.vb: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable(Of DisCatSharp.Entities.DiscordAttachment))
+  nameWithType: DiscordWebhookBuilder.KeepAttachments(IEnumerable<DiscordAttachment>)
+  nameWithType.vb: DiscordWebhookBuilder.KeepAttachments(IEnumerable(Of DiscordAttachment))
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments*
+  name: KeepAttachments
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_KeepAttachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments
+  nameWithType: DiscordWebhookBuilder.KeepAttachments
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.Mentions
   name: Mentions
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_Mentions
@@ -51608,6 +51650,30 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Hosting.IDiscordHostedShardService.ShardedClient
   nameWithType: IDiscordHostedShardService.ShardedClient
+- uid: DisCatSharp.HubType
+  name: HubType
+  href: api/DisCatSharp.HubType.html
+  commentId: T:DisCatSharp.HubType
+  fullName: DisCatSharp.HubType
+  nameWithType: HubType
+- uid: DisCatSharp.HubType.College
+  name: College
+  href: api/DisCatSharp.HubType.html#DisCatSharp_HubType_College
+  commentId: F:DisCatSharp.HubType.College
+  fullName: DisCatSharp.HubType.College
+  nameWithType: HubType.College
+- uid: DisCatSharp.HubType.Default
+  name: Default
+  href: api/DisCatSharp.HubType.html#DisCatSharp_HubType_Default
+  commentId: F:DisCatSharp.HubType.Default
+  fullName: DisCatSharp.HubType.Default
+  nameWithType: HubType.Default
+- uid: DisCatSharp.HubType.HighSchool
+  name: HighSchool
+  href: api/DisCatSharp.HubType.html#DisCatSharp_HubType_HighSchool
+  commentId: F:DisCatSharp.HubType.HighSchool
+  fullName: DisCatSharp.HubType.HighSchool
+  nameWithType: HubType.HighSchool
 - uid: DisCatSharp.ImageFormat
   name: ImageFormat
   href: api/DisCatSharp.ImageFormat.html
@@ -56990,6 +57056,12 @@ references:
   commentId: F:DisCatSharp.Net.Endpoints.EMOJIS
   fullName: DisCatSharp.Net.Endpoints.EMOJIS
   nameWithType: Endpoints.EMOJIS
+- uid: DisCatSharp.Net.Endpoints.EphemeralAttachments
+  name: EphemeralAttachments
+  href: api/DisCatSharp.Net.Endpoints.html#DisCatSharp_Net_Endpoints_EphemeralAttachments
+  commentId: F:DisCatSharp.Net.Endpoints.EphemeralAttachments
+  fullName: DisCatSharp.Net.Endpoints.EphemeralAttachments
+  nameWithType: Endpoints.EphemeralAttachments
 - uid: DisCatSharp.Net.Endpoints.FOLLOWERS
   name: FOLLOWERS
   href: api/DisCatSharp.Net.Endpoints.html#DisCatSharp_Net_Endpoints_FOLLOWERS
