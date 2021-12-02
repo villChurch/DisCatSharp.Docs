@@ -10387,11 +10387,11 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Common.Utilities.AsyncExecutor.AsyncExecutor
   nameWithType: AsyncExecutor.AsyncExecutor
-- uid: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(Task)
+- uid: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(System.Threading.Tasks.Task)
   name: Execute(Task)
-  href: api/DisCatSharp.Common.Utilities.AsyncExecutor.html#DisCatSharp_Common_Utilities_AsyncExecutor_Execute_Task_
-  commentId: M:DisCatSharp.Common.Utilities.AsyncExecutor.Execute(Task)
-  fullName: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(Task)
+  href: api/DisCatSharp.Common.Utilities.AsyncExecutor.html#DisCatSharp_Common_Utilities_AsyncExecutor_Execute_System_Threading_Tasks_Task_
+  commentId: M:DisCatSharp.Common.Utilities.AsyncExecutor.Execute(System.Threading.Tasks.Task)
+  fullName: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(System.Threading.Tasks.Task)
   nameWithType: AsyncExecutor.Execute(Task)
 - uid: DisCatSharp.Common.Utilities.AsyncExecutor.Execute*
   name: Execute
@@ -10400,13 +10400,13 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Common.Utilities.AsyncExecutor.Execute
   nameWithType: AsyncExecutor.Execute
-- uid: DisCatSharp.Common.Utilities.AsyncExecutor.Execute``1(Task{``0})
+- uid: DisCatSharp.Common.Utilities.AsyncExecutor.Execute``1(System.Threading.Tasks.Task{``0})
   name: Execute<T>(Task<T>)
-  href: api/DisCatSharp.Common.Utilities.AsyncExecutor.html#DisCatSharp_Common_Utilities_AsyncExecutor_Execute__1_Task___0__
-  commentId: M:DisCatSharp.Common.Utilities.AsyncExecutor.Execute``1(Task{``0})
+  href: api/DisCatSharp.Common.Utilities.AsyncExecutor.html#DisCatSharp_Common_Utilities_AsyncExecutor_Execute__1_System_Threading_Tasks_Task___0__
+  commentId: M:DisCatSharp.Common.Utilities.AsyncExecutor.Execute``1(System.Threading.Tasks.Task{``0})
   name.vb: Execute(Of T)(Task(Of T))
-  fullName: DisCatSharp.Common.Utilities.AsyncExecutor.Execute<T>(Task<T>)
-  fullName.vb: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(Of T)(Task(Of T))
+  fullName: DisCatSharp.Common.Utilities.AsyncExecutor.Execute<T>(System.Threading.Tasks.Task<T>)
+  fullName.vb: DisCatSharp.Common.Utilities.AsyncExecutor.Execute(Of T)(System.Threading.Tasks.Task(Of T))
   nameWithType: AsyncExecutor.Execute<T>(Task<T>)
   nameWithType.vb: AsyncExecutor.Execute(Of T)(Task(Of T))
 - uid: DisCatSharp.Common.Utilities.AsyncManualResetEvent
