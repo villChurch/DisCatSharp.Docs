@@ -16073,6 +16073,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.AddedRoles
   nameWithType: DiscordAuditLogMemberUpdateEntry.AddedRoles
+- uid: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+  name: CommunicationDisabledUntilChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.html#DisCatSharp_Entities_DiscordAuditLogMemberUpdateEntry_CommunicationDisabledUntilChange
+  commentId: P:DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+  fullName: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+  nameWithType: DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+- uid: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange*
+  name: CommunicationDisabledUntilChange
+  href: api/DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.html#DisCatSharp_Entities_DiscordAuditLogMemberUpdateEntry_CommunicationDisabledUntilChange_
+  commentId: Overload:DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
+  nameWithType: DiscordAuditLogMemberUpdateEntry.CommunicationDisabledUntilChange
 - uid: DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.DeafenChange
   name: DeafenChange
   href: api/DisCatSharp.Entities.DiscordAuditLogMemberUpdateEntry.html#DisCatSharp_Entities_DiscordAuditLogMemberUpdateEntry_DeafenChange
@@ -24016,6 +24029,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordInteractionData
   fullName: DisCatSharp.Entities.DiscordInteractionData
   nameWithType: DiscordInteractionData
+- uid: DisCatSharp.Entities.DiscordInteractionData.Attachments
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Attachments
+  commentId: P:DisCatSharp.Entities.DiscordInteractionData.Attachments
+  fullName: DisCatSharp.Entities.DiscordInteractionData.Attachments
+  nameWithType: DiscordInteractionData.Attachments
+- uid: DisCatSharp.Entities.DiscordInteractionData.Attachments*
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Attachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionData.Attachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionData.Attachments
+  nameWithType: DiscordInteractionData.Attachments
 - uid: DisCatSharp.Entities.DiscordInteractionData.ComponentType
   name: ComponentType
   href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_ComponentType
