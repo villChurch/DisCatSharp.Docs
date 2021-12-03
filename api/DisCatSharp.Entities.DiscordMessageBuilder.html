@@ -100,6 +100,32 @@
   </h3>
   
   
+  <a id="DisCatSharp_Entities_DiscordMessageBuilder_Attachments_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.Attachments*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMessageBuilder_Attachments" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.Attachments">Attachments</h4>
+  <div class="markdown level1 summary"><p>Gets the Attachments to be sent in the Message.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordAttachment&gt; Attachments { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordAttachment.html">DiscordAttachment</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordMessageBuilder_Components_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.Components*"></a>
   <h4 id="DisCatSharp_Entities_DiscordMessageBuilder_Components" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.Components">Components</h4>
   <div class="markdown level1 summary"><p>Gets the components that will be attached to the message.</p>
@@ -739,6 +765,49 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordMessageBuilder_KeepAttachments_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMessageBuilder_KeepAttachments_System_Boolean_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments(System.Boolean)">KeepAttachments(Boolean)</h4>
+  <div class="markdown level1 summary"><p>Whether to keep the message attachments, if new ones are added.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordMessageBuilder KeepAttachments(bool keep)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td><span class="parametername">keep</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordMessageBuilder_ModifyAsync_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.ModifyAsync*"></a>
   <h4 id="DisCatSharp_Entities_DiscordMessageBuilder_ModifyAsync_DisCatSharp_Entities_DiscordMessage_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.ModifyAsync(DisCatSharp.Entities.DiscordMessage)">ModifyAsync(DiscordMessage)</h4>
   <div class="markdown level1 summary"><p>Sends the modified message.
@@ -780,6 +849,50 @@
         <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;</td>
         <td><p>The current builder to be chained.</p>
 </td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordMessageBuilder_ModifyAttachments_" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordMessageBuilder_ModifyAttachments_IEnumerable_DisCatSharp_Entities_DiscordAttachment__" data-uid="DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})">ModifyAttachments(IEnumerable&lt;DiscordAttachment&gt;)</h4>
+  <div class="markdown level1 summary"><p>Modifies the given attachments on edit.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordMessageBuilder ModifyAttachments(IEnumerable&lt;DiscordAttachment&gt; attachments)</code></pre>
+  </div>
+  <h5 class="parameters">Parameters</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Name</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordAttachment.html">DiscordAttachment</a>&gt;</td>
+        <td><span class="parametername">attachments</span></td>
+        <td><p>Attachments to edit.</p>
+</td>
+      </tr>
+    </tbody>
+  </table>
+  <h5 class="returns">Returns</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessageBuilder.html">DiscordMessageBuilder</a></td>
+        <td></td>
       </tr>
     </tbody>
   </table>

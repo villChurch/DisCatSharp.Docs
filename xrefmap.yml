@@ -2074,6 +2074,19 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.InteractionContext
   fullName: DisCatSharp.ApplicationCommands.InteractionContext
   nameWithType: InteractionContext
+- uid: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+  name: Attachments
+  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_Attachments
+  commentId: P:DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+  fullName: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+  nameWithType: InteractionContext.Attachments
+- uid: DisCatSharp.ApplicationCommands.InteractionContext.Attachments*
+  name: Attachments
+  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_Attachments_
+  commentId: Overload:DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+  isSpec: "True"
+  fullName: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+  nameWithType: InteractionContext.Attachments
 - uid: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedChannelMentions
   name: ResolvedChannelMentions
   href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_ResolvedChannelMentions
@@ -26334,6 +26347,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessage.ChannelId
   nameWithType: DiscordMessage.ChannelId
+- uid: DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync
+  name: ClearAttachmentsAsync()
+  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_ClearAttachmentsAsync
+  commentId: M:DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync
+  fullName: DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync()
+  nameWithType: DiscordMessage.ClearAttachmentsAsync()
+- uid: DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync*
+  name: ClearAttachmentsAsync
+  href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_ClearAttachmentsAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMessage.ClearAttachmentsAsync
+  nameWithType: DiscordMessage.ClearAttachmentsAsync
 - uid: DisCatSharp.Entities.DiscordMessage.Components
   name: Components
   href: api/DisCatSharp.Entities.DiscordMessage.html#DisCatSharp_Entities_DiscordMessage_Components
@@ -27110,6 +27136,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessageBuilder.AddEmbeds
   nameWithType: DiscordMessageBuilder.AddEmbeds
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.Attachments
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_Attachments
+  commentId: P:DisCatSharp.Entities.DiscordMessageBuilder.Attachments
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.Attachments
+  nameWithType: DiscordMessageBuilder.Attachments
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.Attachments*
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_Attachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordMessageBuilder.Attachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.Attachments
+  nameWithType: DiscordMessageBuilder.Attachments
 - uid: DisCatSharp.Entities.DiscordMessageBuilder.Clear
   name: Clear()
   href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_Clear
@@ -27240,6 +27279,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessageBuilder.IsTTS
   nameWithType: DiscordMessageBuilder.IsTTS
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments(System.Boolean)
+  name: KeepAttachments(Boolean)
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_KeepAttachments_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments(System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments(System.Boolean)
+  nameWithType: DiscordMessageBuilder.KeepAttachments(Boolean)
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments*
+  name: KeepAttachments
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_KeepAttachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.KeepAttachments
+  nameWithType: DiscordMessageBuilder.KeepAttachments
 - uid: DisCatSharp.Entities.DiscordMessageBuilder.MentionOnReply
   name: MentionOnReply
   href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_MentionOnReply
@@ -27279,6 +27331,22 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAsync
   nameWithType: DiscordMessageBuilder.ModifyAsync
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name: ModifyAttachments(IEnumerable<DiscordAttachment>)
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_ModifyAttachments_IEnumerable_DisCatSharp_Entities_DiscordAttachment__
+  commentId: M:DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name.vb: ModifyAttachments(IEnumerable(Of DiscordAttachment))
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments(IEnumerable<DisCatSharp.Entities.DiscordAttachment>)
+  fullName.vb: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments(IEnumerable(Of DisCatSharp.Entities.DiscordAttachment))
+  nameWithType: DiscordMessageBuilder.ModifyAttachments(IEnumerable<DiscordAttachment>)
+  nameWithType.vb: DiscordMessageBuilder.ModifyAttachments(IEnumerable(Of DiscordAttachment))
+- uid: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments*
+  name: ModifyAttachments
+  href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_ModifyAttachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordMessageBuilder.ModifyAttachments
+  nameWithType: DiscordMessageBuilder.ModifyAttachments
 - uid: DisCatSharp.Entities.DiscordMessageBuilder.ReplyId
   name: ReplyId
   href: api/DisCatSharp.Entities.DiscordMessageBuilder.html#DisCatSharp_Entities_DiscordMessageBuilder_ReplyId
@@ -45112,15 +45180,12 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.IsTTS
   nameWithType: DiscordWebhookBuilder.IsTTS
-- uid: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
-  name: KeepAttachments(IEnumerable<DiscordAttachment>)
-  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_KeepAttachments_IEnumerable_DisCatSharp_Entities_DiscordAttachment__
-  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
-  name.vb: KeepAttachments(IEnumerable(Of DiscordAttachment))
-  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable<DisCatSharp.Entities.DiscordAttachment>)
-  fullName.vb: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(IEnumerable(Of DisCatSharp.Entities.DiscordAttachment))
-  nameWithType: DiscordWebhookBuilder.KeepAttachments(IEnumerable<DiscordAttachment>)
-  nameWithType.vb: DiscordWebhookBuilder.KeepAttachments(IEnumerable(Of DiscordAttachment))
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(System.Boolean)
+  name: KeepAttachments(Boolean)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_KeepAttachments_System_Boolean_
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(System.Boolean)
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments(System.Boolean)
+  nameWithType: DiscordWebhookBuilder.KeepAttachments(Boolean)
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.KeepAttachments*
   name: KeepAttachments
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_KeepAttachments_
@@ -45172,6 +45237,22 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAsync
   nameWithType: DiscordWebhookBuilder.ModifyAsync
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name: ModifyAttachments(IEnumerable<DiscordAttachment>)
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAttachments_IEnumerable_DisCatSharp_Entities_DiscordAttachment__
+  commentId: M:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments(IEnumerable{DisCatSharp.Entities.DiscordAttachment})
+  name.vb: ModifyAttachments(IEnumerable(Of DiscordAttachment))
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments(IEnumerable<DisCatSharp.Entities.DiscordAttachment>)
+  fullName.vb: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments(IEnumerable(Of DisCatSharp.Entities.DiscordAttachment))
+  nameWithType: DiscordWebhookBuilder.ModifyAttachments(IEnumerable<DiscordAttachment>)
+  nameWithType.vb: DiscordWebhookBuilder.ModifyAttachments(IEnumerable(Of DiscordAttachment))
+- uid: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments*
+  name: ModifyAttachments
+  href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_ModifyAttachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordWebhookBuilder.ModifyAttachments
+  nameWithType: DiscordWebhookBuilder.ModifyAttachments
 - uid: DisCatSharp.Entities.DiscordWebhookBuilder.SendAsync(DisCatSharp.Entities.DiscordWebhook)
   name: SendAsync(DiscordWebhook)
   href: api/DisCatSharp.Entities.DiscordWebhookBuilder.html#DisCatSharp_Entities_DiscordWebhookBuilder_SendAsync_DisCatSharp_Entities_DiscordWebhook_
