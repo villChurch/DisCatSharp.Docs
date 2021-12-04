@@ -6365,6 +6365,29 @@ references:
   fullName: DisCatSharp.CommandsNext.Converters.DiscordRoleConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordRole>.ConvertAsync
   nameWithType: DiscordRoleConverter.IArgumentConverter<DiscordRole>.ConvertAsync
   nameWithType.vb: DiscordRoleConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordRole>.ConvertAsync
+- uid: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter
+  name: DiscordScheduledEventConverter
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.html
+  commentId: T:DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter
+  nameWithType: DiscordScheduledEventConverter
+- uid: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordScheduledEvent}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name: IArgumentConverter<DiscordScheduledEvent>.ConvertAsync(String, CommandContext)
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.html#DisCatSharp_CommandsNext_Converters_DiscordScheduledEventConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordScheduledEvent__ConvertAsync_System_String_DisCatSharp_CommandsNext_CommandContext_
+  commentId: M:DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordScheduledEvent}#ConvertAsync(System.String,DisCatSharp.CommandsNext.CommandContext)
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync(String, CommandContext)
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync(System.String, DisCatSharp.CommandsNext.CommandContext)
+  nameWithType: DiscordScheduledEventConverter.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync(String, CommandContext)
+  nameWithType.vb: DiscordScheduledEventConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync(String, CommandContext)
+- uid: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordScheduledEvent}#ConvertAsync*
+  name: IArgumentConverter<DiscordScheduledEvent>.ConvertAsync
+  href: api/DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.html#DisCatSharp_CommandsNext_Converters_DiscordScheduledEventConverter_DisCatSharp_CommandsNext_Converters_IArgumentConverter_DiscordScheduledEvent__ConvertAsync_
+  commentId: Overload:DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp#CommandsNext#Converters#IArgumentConverter{DiscordScheduledEvent}#ConvertAsync
+  isSpec: "True"
+  name.vb: DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync
+  fullName: DisCatSharp.CommandsNext.Converters.DiscordScheduledEventConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync
+  nameWithType: DiscordScheduledEventConverter.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync
+  nameWithType.vb: DiscordScheduledEventConverter.DisCatSharp.CommandsNext.Converters.IArgumentConverter<DiscordScheduledEvent>.ConvertAsync
 - uid: DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter
   name: DiscordThreadChannelConverter
   href: api/DisCatSharp.CommandsNext.Converters.DiscordThreadChannelConverter.html
@@ -8592,6 +8615,258 @@ references:
   fullName.vb: DisCatSharp.Common.Optional(Of T).Value
   nameWithType: Optional<T>.Value
   nameWithType.vb: Optional(Of T).Value
+- uid: DisCatSharp.Common.RegularExpressions
+  name: DisCatSharp.Common.RegularExpressions
+  href: api/DisCatSharp.Common.RegularExpressions.html
+  commentId: N:DisCatSharp.Common.RegularExpressions
+  fullName: DisCatSharp.Common.RegularExpressions
+  nameWithType: DisCatSharp.Common.RegularExpressions
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx
+  name: CommonRegEx
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html
+  commentId: T:DisCatSharp.Common.RegularExpressions.CommonRegEx
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx
+  nameWithType: CommonRegEx
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString
+  name: HexColorString
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_HexColorString
+  commentId: P:DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString
+  nameWithType: CommonRegEx.HexColorString
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString*
+  name: HexColorString
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_HexColorString_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.HexColorString
+  nameWithType: CommonRegEx.HexColorString
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString
+  name: RgbColorString
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_RgbColorString
+  commentId: P:DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString
+  nameWithType: CommonRegEx.RgbColorString
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString*
+  name: RgbColorString
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_RgbColorString_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.RgbColorString
+  nameWithType: CommonRegEx.RgbColorString
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan
+  name: TimeSpan
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_TimeSpan
+  commentId: P:DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan
+  nameWithType: CommonRegEx.TimeSpan
+- uid: DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan*
+  name: TimeSpan
+  href: api/DisCatSharp.Common.RegularExpressions.CommonRegEx.html#DisCatSharp_Common_RegularExpressions_CommonRegEx_TimeSpan_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.CommonRegEx.TimeSpan
+  nameWithType: CommonRegEx.TimeSpan
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx
+  name: DiscordRegEx
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html
+  commentId: T:DisCatSharp.Common.RegularExpressions.DiscordRegEx
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx
+  nameWithType: DiscordRegEx
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji
+  name: AnimatedEmoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_AnimatedEmoji
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji
+  nameWithType: DiscordRegEx.AnimatedEmoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji*
+  name: AnimatedEmoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_AnimatedEmoji_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.AnimatedEmoji
+  nameWithType: DiscordRegEx.AnimatedEmoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel
+  name: Channel
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Channel
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel
+  nameWithType: DiscordRegEx.Channel
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel*
+  name: Channel
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Channel_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Channel
+  nameWithType: DiscordRegEx.Channel
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp
+  name: DefaultStyledTimestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_DefaultStyledTimestamp
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp
+  nameWithType: DiscordRegEx.DefaultStyledTimestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp*
+  name: DefaultStyledTimestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_DefaultStyledTimestamp_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.DefaultStyledTimestamp
+  nameWithType: DiscordRegEx.DefaultStyledTimestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji
+  name: Emoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Emoji
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji
+  nameWithType: DiscordRegEx.Emoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji*
+  name: Emoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Emoji_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Emoji
+  nameWithType: DiscordRegEx.Emoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event
+  name: Event
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Event
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event
+  nameWithType: DiscordRegEx.Event
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event*
+  name: Event
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Event_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Event
+  nameWithType: DiscordRegEx.Event
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite
+  name: Invite
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Invite
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite
+  nameWithType: DiscordRegEx.Invite
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite*
+  name: Invite
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Invite_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Invite
+  nameWithType: DiscordRegEx.Invite
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink
+  name: MessageLink
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_MessageLink
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink
+  nameWithType: DiscordRegEx.MessageLink
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink*
+  name: MessageLink
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_MessageLink_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.MessageLink
+  nameWithType: DiscordRegEx.MessageLink
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role
+  name: Role
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Role
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role
+  nameWithType: DiscordRegEx.Role
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role*
+  name: Role
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Role_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Role
+  nameWithType: DiscordRegEx.Role
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji
+  name: StaticEmoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_StaticEmoji
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji
+  nameWithType: DiscordRegEx.StaticEmoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji*
+  name: StaticEmoji
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_StaticEmoji_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StaticEmoji
+  nameWithType: DiscordRegEx.StaticEmoji
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp
+  name: StyledTimestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_StyledTimestamp
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp
+  nameWithType: DiscordRegEx.StyledTimestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp*
+  name: StyledTimestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_StyledTimestamp_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.StyledTimestamp
+  nameWithType: DiscordRegEx.StyledTimestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp
+  name: Timestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Timestamp
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp
+  nameWithType: DiscordRegEx.Timestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp*
+  name: Timestamp
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_Timestamp_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.Timestamp
+  nameWithType: DiscordRegEx.Timestamp
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.User
+  name: User
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_User
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.User
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.User
+  nameWithType: DiscordRegEx.User
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.User*
+  name: User
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_User_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.User
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.User
+  nameWithType: DiscordRegEx.User
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname
+  name: UserWithNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithNickname
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname
+  nameWithType: DiscordRegEx.UserWithNickname
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname*
+  name: UserWithNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithNickname_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithNickname
+  nameWithType: DiscordRegEx.UserWithNickname
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname
+  name: UserWithOptionalNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithOptionalNickname
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname
+  nameWithType: DiscordRegEx.UserWithOptionalNickname
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname*
+  name: UserWithOptionalNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithOptionalNickname_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithOptionalNickname
+  nameWithType: DiscordRegEx.UserWithOptionalNickname
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname
+  name: UserWithoutNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithoutNickname
+  commentId: P:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname
+  nameWithType: DiscordRegEx.UserWithoutNickname
+- uid: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname*
+  name: UserWithoutNickname
+  href: api/DisCatSharp.Common.RegularExpressions.DiscordRegEx.html#DisCatSharp_Common_RegularExpressions_DiscordRegEx_UserWithoutNickname_
+  commentId: Overload:DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname
+  isSpec: "True"
+  fullName: DisCatSharp.Common.RegularExpressions.DiscordRegEx.UserWithoutNickname
+  nameWithType: DiscordRegEx.UserWithoutNickname
 - uid: DisCatSharp.Common.SecureRandom
   name: SecureRandom
   href: api/DisCatSharp.Common.SecureRandom.html
@@ -22356,6 +22631,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.RawFeatures
   nameWithType: DiscordGuild.RawFeatures
+- uid: DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync(System.UInt64,System.String)
+  name: RemoveTimeoutAsync(UInt64, String)
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_RemoveTimeoutAsync_System_UInt64_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync(System.UInt64,System.String)
+  fullName: DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync(System.UInt64, System.String)
+  nameWithType: DiscordGuild.RemoveTimeoutAsync(UInt64, String)
+- uid: DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync*
+  name: RemoveTimeoutAsync
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_RemoveTimeoutAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.RemoveTimeoutAsync
+  nameWithType: DiscordGuild.RemoveTimeoutAsync
 - uid: DisCatSharp.Entities.DiscordGuild.RequestMembersAsync(System.String,System.Int32,System.Nullable{System.Boolean},IEnumerable{System.UInt64},System.String)
   name: RequestMembersAsync(String, Int32, Nullable<Boolean>, IEnumerable<UInt64>, String)
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_RequestMembersAsync_System_String_System_Int32_System_Nullable_System_Boolean__IEnumerable_System_UInt64__System_String_
@@ -22544,6 +22832,31 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordGuild.Threads
   nameWithType: DiscordGuild.Threads
+- uid: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,DateTime,System.String)
+  name: TimeoutAsync(UInt64, DateTime, String)
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_TimeoutAsync_System_UInt64_DateTime_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,DateTime,System.String)
+  fullName: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64, DateTime, System.String)
+  nameWithType: DiscordGuild.TimeoutAsync(UInt64, DateTime, String)
+- uid: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,DateTimeOffset,System.String)
+  name: TimeoutAsync(UInt64, DateTimeOffset, String)
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_TimeoutAsync_System_UInt64_DateTimeOffset_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,DateTimeOffset,System.String)
+  fullName: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64, DateTimeOffset, System.String)
+  nameWithType: DiscordGuild.TimeoutAsync(UInt64, DateTimeOffset, String)
+- uid: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,TimeSpan,System.String)
+  name: TimeoutAsync(UInt64, TimeSpan, String)
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_TimeoutAsync_System_UInt64_TimeSpan_System_String_
+  commentId: M:DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64,TimeSpan,System.String)
+  fullName: DisCatSharp.Entities.DiscordGuild.TimeoutAsync(System.UInt64, TimeSpan, System.String)
+  nameWithType: DiscordGuild.TimeoutAsync(UInt64, TimeSpan, String)
+- uid: DisCatSharp.Entities.DiscordGuild.TimeoutAsync*
+  name: TimeoutAsync
+  href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_TimeoutAsync_
+  commentId: Overload:DisCatSharp.Entities.DiscordGuild.TimeoutAsync
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordGuild.TimeoutAsync
+  nameWithType: DiscordGuild.TimeoutAsync
 - uid: DisCatSharp.Entities.DiscordGuild.ToString
   name: ToString()
   href: api/DisCatSharp.Entities.DiscordGuild.html#DisCatSharp_Entities_DiscordGuild_ToString
