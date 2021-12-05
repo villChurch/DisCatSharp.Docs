@@ -2589,6 +2589,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.BaseDiscordClient.Logger
   nameWithType: BaseDiscordClient.Logger
+- uid: DisCatSharp.BaseDiscordClient.RestClient
+  name: RestClient
+  href: api/DisCatSharp.BaseDiscordClient.html#DisCatSharp_BaseDiscordClient_RestClient
+  commentId: P:DisCatSharp.BaseDiscordClient.RestClient
+  fullName: DisCatSharp.BaseDiscordClient.RestClient
+  nameWithType: BaseDiscordClient.RestClient
+- uid: DisCatSharp.BaseDiscordClient.RestClient*
+  name: RestClient
+  href: api/DisCatSharp.BaseDiscordClient.html#DisCatSharp_BaseDiscordClient_RestClient_
+  commentId: Overload:DisCatSharp.BaseDiscordClient.RestClient
+  isSpec: "True"
+  fullName: DisCatSharp.BaseDiscordClient.RestClient
+  nameWithType: BaseDiscordClient.RestClient
 - uid: DisCatSharp.BaseDiscordClient.UserCache
   name: UserCache
   href: api/DisCatSharp.BaseDiscordClient.html#DisCatSharp_BaseDiscordClient_UserCache
