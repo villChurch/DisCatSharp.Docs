@@ -101,7 +101,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetMentionPrefixLength_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetMentionPrefixLength*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetMentionPrefixLength_DiscordMessage_DiscordUser_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetMentionPrefixLength(DiscordMessage,DiscordUser)">GetMentionPrefixLength(DiscordMessage, DiscordUser)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetMentionPrefixLength_DisCatSharp_Entities_DiscordMessage_DisCatSharp_Entities_DiscordUser_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetMentionPrefixLength(DisCatSharp.Entities.DiscordMessage,DisCatSharp.Entities.DiscordUser)">GetMentionPrefixLength(DiscordMessage, DiscordUser)</h4>
   <div class="markdown level1 summary"><p>Checks whether the message contains a specified mention prefix.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -120,13 +120,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordMessage</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
         <td><span class="parametername">msg</span></td>
         <td><p>Message to check.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>User to check for.</p>
 </td>
@@ -152,13 +152,13 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetStringPrefixLength_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetStringPrefixLength*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetStringPrefixLength_DiscordMessage_System_String_StringComparison_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetStringPrefixLength(DiscordMessage,System.String,StringComparison)">GetStringPrefixLength(DiscordMessage, String, StringComparison)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextUtilities_GetStringPrefixLength_DisCatSharp_Entities_DiscordMessage_System_String_System_StringComparison_" data-uid="DisCatSharp.CommandsNext.CommandsNextUtilities.GetStringPrefixLength(DisCatSharp.Entities.DiscordMessage,System.String,System.StringComparison)">GetStringPrefixLength(DiscordMessage, String, StringComparison)</h4>
   <div class="markdown level1 summary"><p>Checks whether the message has a specified string prefix.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public static int GetStringPrefixLength(this DiscordMessage msg, string str, StringComparison comparisonType = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public static int GetStringPrefixLength(this DiscordMessage msg, string str, StringComparison comparisonType = StringComparison.Ordinal)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -171,7 +171,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordMessage</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
         <td><span class="parametername">msg</span></td>
         <td><p>Message to check.</p>
 </td>
@@ -183,7 +183,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">StringComparison</span></td>
+        <td><span class="xref">System.StringComparison</span></td>
         <td><span class="parametername">comparisonType</span></td>
         <td><p>Method of string comparison for the purposes of finding prefixes.</p>
 </td>

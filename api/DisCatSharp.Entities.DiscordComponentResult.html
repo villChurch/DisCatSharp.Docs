@@ -5,10 +5,10 @@
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>Class SlashCommandGroupAttribute
+    <title>Class DiscordComponentResult
    | DisCatSharp Docs </title>
     <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Class SlashCommandGroupAttribute
+    <meta name="title" content="Class DiscordComponentResult
    | DisCatSharp Docs ">
     <meta name="generator" content="docfx 2.58.9.0">
     
@@ -77,108 +77,37 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute">
+            <article class="content wrap" id="_content" data-uid="DisCatSharp.Entities.DiscordComponentResult">
   
   
-  <h1 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute" class="text-break">Class SlashCommandGroupAttribute
+  <h1 id="DisCatSharp_Entities_DiscordComponentResult" data-uid="DisCatSharp.Entities.DiscordComponentResult" class="text-break">Class DiscordComponentResult
   </h1>
-  <div class="markdown level0 summary"><p>Marks this class a slash command group</p>
+  <div class="markdown level0 summary"><p>Represents a <a class="xref" href="DisCatSharp.Entities.DiscordComponentResult.html">DiscordComponentResult</a> resolved within an <a class="xref" href="DisCatSharp.Entities.DiscordActionRowComponentResult.html">DiscordActionRowComponentResult</a>.</p>
 </div>
   <div class="markdown level0 conceptual"></div>
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">System.Attribute</span></div>
-    <div class="level2"><span class="xref">SlashCommandGroupAttribute</span></div>
+    <div class="level1"><span class="xref">DiscordComponentResult</span></div>
   </div>
-  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.ApplicationCommands.html">DisCatSharp.ApplicationCommands</a></h6>
+  <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Entities.html">DisCatSharp.Entities</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
-  <h5 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_syntax">Syntax</h5>
+  <h5 id="DisCatSharp_Entities_DiscordComponentResult_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Class, AllowMultiple = false)]
-public class SlashCommandGroupAttribute : Attribute, _Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">public sealed class DiscordComponentResult</code></pre>
   </div>
-  <h3 id="constructors">Constructors
-  </h3>
-  
-  
-  <a id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute__ctor_" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.#ctor*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute__ctor_System_String_System_String_System_Boolean_" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.#ctor(System.String,System.String,System.Boolean)">SlashCommandGroupAttribute(String, String, Boolean)</h4>
-  <div class="markdown level1 summary"><p>Marks this class as a slash command group</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public SlashCommandGroupAttribute(string name, string description, bool default_permission = true)</code></pre>
-  </div>
-  <h5 class="parameters">Parameters</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Name</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">name</span></td>
-        <td><p>The name of this slash command group</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.String</span></td>
-        <td><span class="parametername">description</span></td>
-        <td><p>The description of this slash command group</p>
-</td>
-      </tr>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">default_permission</span></td>
-        <td><p>Whether everyone can execute this command.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
   <h3 id="properties">Properties
   </h3>
   
   
-  <a id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_DefaultPermission_" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.DefaultPermission*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_DefaultPermission" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.DefaultPermission">DefaultPermission</h4>
-  <div class="markdown level1 summary"><p>Gets the default permission of this slash command group</p>
+  <a id="DisCatSharp_Entities_DiscordComponentResult_CustomId_" data-uid="DisCatSharp.Entities.DiscordComponentResult.CustomId*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordComponentResult_CustomId" data-uid="DisCatSharp.Entities.DiscordComponentResult.CustomId">CustomId</h4>
+  <div class="markdown level1 summary"><p>The Id of this component, if applicable. Not applicable on ActionRow(s) and link buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool DefaultPermission { get; set; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_Description_" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.Description*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_Description" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.Description">Description</h4>
-  <div class="markdown level1 summary"><p>Gets the description of this slash command group</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Description { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public string CustomId { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -197,14 +126,40 @@ public class SlashCommandGroupAttribute : Attribute, _Attribute</code></pre>
   </table>
   
   
-  <a id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_Name_" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.Name*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_SlashCommandGroupAttribute_Name" data-uid="DisCatSharp.ApplicationCommands.SlashCommandGroupAttribute.Name">Name</h4>
-  <div class="markdown level1 summary"><p>Gets the name of this slash command group</p>
+  <a id="DisCatSharp_Entities_DiscordComponentResult_Type_" data-uid="DisCatSharp.Entities.DiscordComponentResult.Type*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordComponentResult_Type" data-uid="DisCatSharp.Entities.DiscordComponentResult.Type">Type</h4>
+  <div class="markdown level1 summary"><p>The type of component this represents.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public string Name { get; set; }</code></pre>
+    <pre><code class="lang-csharp hljs">public ComponentType Type { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">ComponentType</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordComponentResult_Value_" data-uid="DisCatSharp.Entities.DiscordComponentResult.Value*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordComponentResult_Value" data-uid="DisCatSharp.Entities.DiscordComponentResult.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The Id of this component, if applicable. Not applicable on ActionRow(s) and link buttons.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public string Value { get; }</code></pre>
   </div>
   <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">

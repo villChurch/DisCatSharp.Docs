@@ -101,7 +101,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DiscordChannel_DiscordUser_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DiscordChannel,DiscordUser,System.Nullable{TimeSpan})">GetNextMessageAsync(DiscordChannel, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">GetNextMessageAsync(DiscordChannel, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for the next message sent in this channel from a specific user.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -120,19 +120,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel to monitor.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The target user.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
 </td>
@@ -149,7 +149,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -173,7 +173,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DiscordChannel_Func_DiscordMessage_System_Boolean__System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DiscordChannel,Func{DiscordMessage,System.Boolean},System.Nullable{TimeSpan})">GetNextMessageAsync(DiscordChannel, Func&lt;DiscordMessage, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DisCatSharp_Entities_DiscordChannel_System_Func_DisCatSharp_Entities_DiscordMessage_System_Boolean__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DisCatSharp.Entities.DiscordChannel,System.Func{DisCatSharp.Entities.DiscordMessage,System.Boolean},System.Nullable{System.TimeSpan})">GetNextMessageAsync(DiscordChannel, Func&lt;DiscordMessage, Boolean&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for the next message sent in this channel that satisfies the predicate.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -192,19 +192,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel to monitor.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Func</span>&lt;<span class="xref">DiscordMessage</span>, <span class="xref">System.Boolean</span>&gt;</td>
+        <td><span class="xref">System.Func</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>, <span class="xref">System.Boolean</span>&gt;</td>
         <td><span class="parametername">predicate</span></td>
         <td><p>A predicate that should return <span class="xref">true</span> if a message matches.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
 </td>
@@ -221,7 +221,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -245,7 +245,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DiscordChannel_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DiscordChannel,System.Nullable{TimeSpan})">GetNextMessageAsync(DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_GetNextMessageAsync_DisCatSharp_Entities_DiscordChannel_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.GetNextMessageAsync(DisCatSharp.Entities.DiscordChannel,System.Nullable{System.TimeSpan})">GetNextMessageAsync(DiscordChannel, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for the next message sent in this channel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -264,13 +264,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel to monitor.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
 </td>
@@ -287,7 +287,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<span class="xref">DiscordMessage</span>&gt;&gt;</td>
+        <td><span class="xref">System.Threading.Tasks.Task</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.InteractivityResult-1.html">InteractivityResult</a>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a>&gt;&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -311,7 +311,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__DisCatSharp_Interactivity_PaginationEmojis_System_Nullable_PaginationBehaviour__System_Nullable_PaginationDeletion__System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},DisCatSharp.Interactivity.PaginationEmojis,System.Nullable{PaginationBehaviour},System.Nullable{PaginationDeletion},System.Nullable{TimeSpan})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationEmojis, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;PaginationDeletion&gt;, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__DisCatSharp_Interactivity_PaginationEmojis_System_Nullable_PaginationBehaviour__System_Nullable_PaginationDeletion__System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},DisCatSharp.Interactivity.PaginationEmojis,System.Nullable{PaginationBehaviour},System.Nullable{PaginationDeletion},System.Nullable{System.TimeSpan})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationEmojis, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;PaginationDeletion&gt;, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends a new paginated message.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -330,19 +330,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Target channel.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user that&apos;ll be able to control the pages.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
         <td><span class="parametername">pages</span></td>
         <td><p>A collection of <a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a> to display.</p>
 </td>
@@ -366,7 +366,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutoverride</span></td>
         <td><p>Override timeout period.</p>
 </td>
@@ -407,7 +407,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Sends a new paginated message with buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -426,19 +426,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Target channel.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user that&apos;ll be able to control the pages.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
         <td><span class="parametername">pages</span></td>
         <td><p>A collection of <a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a> to display.</p>
 </td>
@@ -503,7 +503,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__PaginationButtons_System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},PaginationButtons,System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, PaginationButtons, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends a new paginated message with buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -522,19 +522,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>Target channel.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user that&apos;ll be able to control the pages.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
         <td><span class="parametername">pages</span></td>
         <td><p>A collection of <a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a> to display.</p>
 </td>
@@ -546,7 +546,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutoverride</span></td>
         <td><p>Override timeout period.</p>
 </td>
@@ -599,7 +599,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__CancellationToken_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior},CancellationToken)">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;, CancellationToken)</h4>
   <div class="markdown level1 summary"><p>Sends a new paginated message with buttons.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -618,17 +618,17 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td></td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
         <td><span class="parametername">pages</span></td>
         <td></td>
       </tr>
@@ -683,7 +683,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DiscordChannel_DiscordUser_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DiscordChannel,DiscordUser,IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_SendPaginatedMessageAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Collections_Generic_IEnumerable_DisCatSharp_Interactivity_Page__System_Nullable_System_TimeSpan__System_Nullable_PaginationBehaviour__System_Nullable_ButtonPaginationBehavior__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.SendPaginatedMessageAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Collections.Generic.IEnumerable{DisCatSharp.Interactivity.Page},System.Nullable{System.TimeSpan},System.Nullable{PaginationBehaviour},System.Nullable{ButtonPaginationBehavior})">SendPaginatedMessageAsync(DiscordChannel, DiscordUser, IEnumerable&lt;Page&gt;, Nullable&lt;TimeSpan&gt;, Nullable&lt;PaginationBehaviour&gt;, Nullable&lt;ButtonPaginationBehavior&gt;)</h4>
   <div class="markdown level1 summary"><p>Sends the paginated message async.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -702,25 +702,25 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The user.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IEnumerable</span>&lt;<a class="xref" href="DisCatSharp.Interactivity.Page.html">Page</a>&gt;</td>
         <td><span class="parametername">pages</span></td>
         <td><p>The pages.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutoverride</span></td>
         <td><p>The timeoutoverride.</p>
 </td>
@@ -758,7 +758,7 @@
   
   
   <a id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_WaitForUserTypingAsync_" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.WaitForUserTypingAsync*"></a>
-  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_WaitForUserTypingAsync_DiscordChannel_DiscordUser_System_Nullable_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.WaitForUserTypingAsync(DiscordChannel,DiscordUser,System.Nullable{TimeSpan})">WaitForUserTypingAsync(DiscordChannel, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
+  <h4 id="DisCatSharp_Interactivity_Extensions_ChannelExtensions_WaitForUserTypingAsync_DisCatSharp_Entities_DiscordChannel_DisCatSharp_Entities_DiscordUser_System_Nullable_System_TimeSpan__" data-uid="DisCatSharp.Interactivity.Extensions.ChannelExtensions.WaitForUserTypingAsync(DisCatSharp.Entities.DiscordChannel,DisCatSharp.Entities.DiscordUser,System.Nullable{System.TimeSpan})">WaitForUserTypingAsync(DiscordChannel, DiscordUser, Nullable&lt;TimeSpan&gt;)</h4>
   <div class="markdown level1 summary"><p>Waits for a specific user to start typing in this channel.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -777,19 +777,19 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The target channel.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">user</span></td>
         <td><p>The target user.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">TimeSpan</span>&gt;</td>
+        <td><span class="xref">System.Nullable</span>&lt;<span class="xref">System.TimeSpan</span>&gt;</td>
         <td><span class="parametername">timeoutOverride</span></td>
         <td><p>Overrides the timeout set in <a class="xref" href="DisCatSharp.Interactivity.InteractivityConfiguration.html#DisCatSharp_Interactivity_InteractivityConfiguration_Timeout">Timeout</a></p>
 </td>

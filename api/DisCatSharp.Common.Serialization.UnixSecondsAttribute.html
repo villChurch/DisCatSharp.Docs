@@ -89,14 +89,16 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><a class="xref" href="DisCatSharp.Common.Serialization.SerializationAttribute.html">SerializationAttribute</a></div>
-    <div class="level2"><span class="xref">UnixSecondsAttribute</span></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><a class="xref" href="DisCatSharp.Common.Serialization.SerializationAttribute.html">SerializationAttribute</a></div>
+    <div class="level3"><span class="xref">UnixSecondsAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.Common.Serialization.html">DisCatSharp.Common.Serialization</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_Common_Serialization_UnixSecondsAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public sealed class UnixSecondsAttribute : SerializationAttribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Property | AttributeTargets.Field, AllowMultiple = false, Inherited = true)]
+public sealed class UnixSecondsAttribute : SerializationAttribute, _Attribute</code></pre>
   </div>
 
 </article>

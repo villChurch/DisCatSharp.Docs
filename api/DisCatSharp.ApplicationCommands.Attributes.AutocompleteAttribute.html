@@ -88,20 +88,22 @@
   <div class="inheritance">
     <h5>Inheritance</h5>
     <div class="level0"><span class="xref">System.Object</span></div>
-    <div class="level1"><span class="xref">AutocompleteAttribute</span></div>
+    <div class="level1"><span class="xref">System.Attribute</span></div>
+    <div class="level2"><span class="xref">AutocompleteAttribute</span></div>
   </div>
   <h6><strong>Namespace</strong>: <a class="xref" href="DisCatSharp.ApplicationCommands.Attributes.html">DisCatSharp.ApplicationCommands.Attributes</a></h6>
   <h6><strong>Assembly</strong>: cs.temp.dll.dll</h6>
   <h5 id="DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute_syntax">Syntax</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public class AutocompleteAttribute : Attribute</code></pre>
+    <pre><code class="lang-csharp hljs">[AttributeUsage(AttributeTargets.Parameter, AllowMultiple = false)]
+public class AutocompleteAttribute : Attribute, _Attribute</code></pre>
   </div>
   <h3 id="constructors">Constructors
   </h3>
   
   
   <a id="DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute__ctor_" data-uid="DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute__ctor_Type_" data-uid="DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor(Type)">AutocompleteAttribute(Type)</h4>
+  <h4 id="DisCatSharp_ApplicationCommands_Attributes_AutocompleteAttribute__ctor_System_Type_" data-uid="DisCatSharp.ApplicationCommands.Attributes.AutocompleteAttribute.#ctor(System.Type)">AutocompleteAttribute(Type)</h4>
   <div class="markdown level1 summary"><p>Adds an autocomplete provider to this command option.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -120,7 +122,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">providerType</span></td>
         <td><p>The type of the provider.</p>
 </td>
@@ -150,7 +152,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td></td>
       </tr>
     </tbody>

@@ -126,7 +126,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DisCatSharp.CommandsNext.Command.html">Command</a>&gt;</td>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.String</span>, <a class="xref" href="DisCatSharp.CommandsNext.Command.html">Command</a>&gt;</td>
         <td></td>
       </tr>
     </tbody>
@@ -152,7 +152,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">IServiceProvider</span></td>
+        <td><span class="xref">System.IServiceProvider</span></td>
         <td></td>
       </tr>
     </tbody>
@@ -162,7 +162,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextExtension_ConvertArgument_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.ConvertArgument*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_ConvertArgument_System_String_DisCatSharp_CommandsNext_CommandContext_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.ConvertArgument(System.String,DisCatSharp.CommandsNext.CommandContext,Type)">ConvertArgument(String, CommandContext, Type)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_ConvertArgument_System_String_DisCatSharp_CommandsNext_CommandContext_System_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.ConvertArgument(System.String,DisCatSharp.CommandsNext.CommandContext,System.Type)">ConvertArgument(String, CommandContext, Type)</h4>
   <div class="markdown level1 summary"><p>Converts a string to specified type.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -193,7 +193,7 @@
 </td>
       </tr>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">type</span></td>
         <td><p>Type to convert to.</p>
 </td>
@@ -286,7 +286,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateContext_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateContext*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateContext_DiscordMessage_System_String_DisCatSharp_CommandsNext_Command_System_String_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateContext(DiscordMessage,System.String,DisCatSharp.CommandsNext.Command,System.String)">CreateContext(DiscordMessage, String, Command, String)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateContext_DisCatSharp_Entities_DiscordMessage_System_String_DisCatSharp_CommandsNext_Command_System_String_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateContext(DisCatSharp.Entities.DiscordMessage,System.String,DisCatSharp.CommandsNext.Command,System.String)">CreateContext(DiscordMessage, String, Command, String)</h4>
   <div class="markdown level1 summary"><p>Creates a command execution context from specified arguments.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -305,7 +305,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordMessage</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordMessage.html">DiscordMessage</a></td>
         <td><span class="parametername">msg</span></td>
         <td><p>Message to use for context.</p>
 </td>
@@ -349,7 +349,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateFakeContext_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateFakeContext*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateFakeContext_DiscordUser_DiscordChannel_System_String_System_String_DisCatSharp_CommandsNext_Command_System_String_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateFakeContext(DiscordUser,DiscordChannel,System.String,System.String,DisCatSharp.CommandsNext.Command,System.String)">CreateFakeContext(DiscordUser, DiscordChannel, String, String, Command, String)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_CreateFakeContext_DisCatSharp_Entities_DiscordUser_DisCatSharp_Entities_DiscordChannel_System_String_System_String_DisCatSharp_CommandsNext_Command_System_String_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.CreateFakeContext(DisCatSharp.Entities.DiscordUser,DisCatSharp.Entities.DiscordChannel,System.String,System.String,DisCatSharp.CommandsNext.Command,System.String)">CreateFakeContext(DiscordUser, DiscordChannel, String, String, Command, String)</h4>
   <div class="markdown level1 summary"><p>Creates a fake command context to execute commands with.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -368,13 +368,13 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">DiscordUser</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></td>
         <td><span class="parametername">actor</span></td>
         <td><p>The user or member to use as message author.</p>
 </td>
       </tr>
       <tr>
-        <td><span class="xref">DiscordChannel</span></td>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></td>
         <td><span class="parametername">channel</span></td>
         <td><p>The channel the message is supposed to appear from.</p>
 </td>
@@ -519,7 +519,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextExtension_GetUserFriendlyTypeName_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.GetUserFriendlyTypeName*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_GetUserFriendlyTypeName_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.GetUserFriendlyTypeName(Type)">GetUserFriendlyTypeName(Type)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_GetUserFriendlyTypeName_System_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.GetUserFriendlyTypeName(System.Type)">GetUserFriendlyTypeName(Type)</h4>
   <div class="markdown level1 summary"><p>Converts a type into user-friendly type name.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -538,7 +538,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">t</span></td>
         <td><p>Type to convert.</p>
 </td>
@@ -622,7 +622,7 @@
   
   
   <a id="DisCatSharp_CommandsNext_CommandsNextExtension_RegisterCommands_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.RegisterCommands*"></a>
-  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_RegisterCommands_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.RegisterCommands(Type)">RegisterCommands(Type)</h4>
+  <h4 id="DisCatSharp_CommandsNext_CommandsNextExtension_RegisterCommands_System_Type_" data-uid="DisCatSharp.CommandsNext.CommandsNextExtension.RegisterCommands(System.Type)">RegisterCommands(Type)</h4>
   <div class="markdown level1 summary"><p>Registers all commands from a given command class.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
@@ -641,7 +641,7 @@
     </thead>
     <tbody>
       <tr>
-        <td><span class="xref">Type</span></td>
+        <td><span class="xref">System.Type</span></td>
         <td><span class="parametername">t</span></td>
         <td><p>Type of the class which holds commands to register.</p>
 </td>

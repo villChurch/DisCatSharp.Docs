@@ -140,13 +140,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordTextComponent__ctor_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean)">DiscordTextComponent(TextComponentStyle, String, String, String, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Boolean)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent__ctor_TextComponentStyle_System_String_System_String_System_String_System_Nullable_System_Int32__System_Nullable_System_Int32__System_Boolean_System_String_" data-uid="DisCatSharp.Entities.DiscordTextComponent.#ctor(TextComponentStyle,System.String,System.String,System.String,System.Nullable{System.Int32},System.Nullable{System.Int32},System.Boolean,System.String)">DiscordTextComponent(TextComponentStyle, String, String, String, Nullable&lt;Int32&gt;, Nullable&lt;Int32&gt;, Boolean, String)</h4>
   <div class="markdown level1 summary"><p>Constructs a new text component field with the specified options.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, string placeholder = null, int? minLength = null, int? maxLength = null, bool disabled = false)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordTextComponent(TextComponentStyle style, string customId, string label, string placeholder = null, int? minLength = null, int? maxLength = null, bool required = true, string default_value = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -196,40 +196,20 @@
       </tr>
       <tr>
         <td><span class="xref">System.Boolean</span></td>
-        <td><span class="parametername">disabled</span></td>
-        <td><p>Whether this text component should be initialized as being disabled.</p>
+        <td><span class="parametername">required</span></td>
+        <td><p>Whether this text component should be required.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.String</span></td>
+        <td><span class="parametername">default_value</span></td>
+        <td><p>Pre-filled value for text field.</p>
 </td>
       </tr>
     </tbody>
   </table>
   <h3 id="properties">Properties
   </h3>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordTextComponent_Disabled_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disabled*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Disabled" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disabled">Disabled</h4>
-  <div class="markdown level1 summary"><p>Whether this text component can be used.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public bool Disabled { get; }</code></pre>
-  </div>
-  <h5 class="propertyValue">Property Value</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><span class="xref">System.Boolean</span></td>
-        <td></td>
-      </tr>
-    </tbody>
-  </table>
   
   
   <a id="DisCatSharp_Entities_DiscordTextComponent_Label_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Label*"></a>
@@ -336,6 +316,32 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordTextComponent_Required_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Required*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Required" data-uid="DisCatSharp.Entities.DiscordTextComponent.Required">Required</h4>
+  <div class="markdown level1 summary"><p>Whether this text component is required.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public bool Required { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Boolean</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordTextComponent_Style_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Style*"></a>
   <h4 id="DisCatSharp_Entities_DiscordTextComponent_Style" data-uid="DisCatSharp.Entities.DiscordTextComponent.Style">Style</h4>
   <div class="markdown level1 summary"><p>The style of the text component.</p>
@@ -360,20 +366,18 @@
       </tr>
     </tbody>
   </table>
-  <h3 id="methods">Methods
-  </h3>
   
   
-  <a id="DisCatSharp_Entities_DiscordTextComponent_Disable_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disable*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Disable" data-uid="DisCatSharp.Entities.DiscordTextComponent.Disable">Disable()</h4>
-  <div class="markdown level1 summary"><p>Disables this component.</p>
+  <a id="DisCatSharp_Entities_DiscordTextComponent_Value_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Value*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Value" data-uid="DisCatSharp.Entities.DiscordTextComponent.Value">Value</h4>
+  <div class="markdown level1 summary"><p>The pre-filled value for the text component.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordTextComponent Disable()</code></pre>
+    <pre><code class="lang-csharp hljs">public string Value { get; }</code></pre>
   </div>
-  <h5 class="returns">Returns</h5>
+  <h5 class="propertyValue">Property Value</h5>
   <table class="table table-bordered table-striped table-condensed">
     <thead>
       <tr>
@@ -383,36 +387,8 @@
     </thead>
     <tbody>
       <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordTextComponent.html">DiscordTextComponent</a></td>
-        <td><p>The current component.</p>
-</td>
-      </tr>
-    </tbody>
-  </table>
-  
-  
-  <a id="DisCatSharp_Entities_DiscordTextComponent_Enable_" data-uid="DisCatSharp.Entities.DiscordTextComponent.Enable*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordTextComponent_Enable" data-uid="DisCatSharp.Entities.DiscordTextComponent.Enable">Enable()</h4>
-  <div class="markdown level1 summary"><p>Enables this component if it was disabled before.</p>
-</div>
-  <div class="markdown level1 conceptual"></div>
-  <h5 class="decalaration">Declaration</h5>
-  <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordTextComponent Enable()</code></pre>
-  </div>
-  <h5 class="returns">Returns</h5>
-  <table class="table table-bordered table-striped table-condensed">
-    <thead>
-      <tr>
-        <th>Type</th>
-        <th>Description</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td><a class="xref" href="DisCatSharp.Entities.DiscordTextComponent.html">DiscordTextComponent</a></td>
-        <td><p>The current component.</p>
-</td>
+        <td><span class="xref">System.String</span></td>
+        <td></td>
       </tr>
     </tbody>
   </table>
