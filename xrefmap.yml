@@ -2074,19 +2074,19 @@ references:
   commentId: T:DisCatSharp.ApplicationCommands.InteractionContext
   fullName: DisCatSharp.ApplicationCommands.InteractionContext
   nameWithType: InteractionContext
-- uid: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
-  name: Attachments
-  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_Attachments
-  commentId: P:DisCatSharp.ApplicationCommands.InteractionContext.Attachments
-  fullName: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
-  nameWithType: InteractionContext.Attachments
-- uid: DisCatSharp.ApplicationCommands.InteractionContext.Attachments*
-  name: Attachments
-  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_Attachments_
-  commentId: Overload:DisCatSharp.ApplicationCommands.InteractionContext.Attachments
+- uid: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments
+  name: ResolvedAttachments
+  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_ResolvedAttachments
+  commentId: P:DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments
+  fullName: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments
+  nameWithType: InteractionContext.ResolvedAttachments
+- uid: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments*
+  name: ResolvedAttachments
+  href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_ResolvedAttachments_
+  commentId: Overload:DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments
   isSpec: "True"
-  fullName: DisCatSharp.ApplicationCommands.InteractionContext.Attachments
-  nameWithType: InteractionContext.Attachments
+  fullName: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedAttachments
+  nameWithType: InteractionContext.ResolvedAttachments
 - uid: DisCatSharp.ApplicationCommands.InteractionContext.ResolvedChannelMentions
   name: ResolvedChannelMentions
   href: api/DisCatSharp.ApplicationCommands.InteractionContext.html#DisCatSharp_ApplicationCommands_InteractionContext_ResolvedChannelMentions
@@ -2328,6 +2328,12 @@ references:
   commentId: F:DisCatSharp.ApplicationFlags.EmbeddedFirstParty
   fullName: DisCatSharp.ApplicationFlags.EmbeddedFirstParty
   nameWithType: ApplicationFlags.EmbeddedFirstParty
+- uid: DisCatSharp.ApplicationFlags.EmbeddedReleased
+  name: EmbeddedReleased
+  href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_EmbeddedReleased
+  commentId: F:DisCatSharp.ApplicationFlags.EmbeddedReleased
+  fullName: DisCatSharp.ApplicationFlags.EmbeddedReleased
+  nameWithType: ApplicationFlags.EmbeddedReleased
 - uid: DisCatSharp.ApplicationFlags.GatewayGuildMembers
   name: GatewayGuildMembers
   href: api/DisCatSharp.ApplicationFlags.html#DisCatSharp_ApplicationFlags_GatewayGuildMembers
@@ -24445,19 +24451,6 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordInteractionData
   fullName: DisCatSharp.Entities.DiscordInteractionData
   nameWithType: DiscordInteractionData
-- uid: DisCatSharp.Entities.DiscordInteractionData.Attachments
-  name: Attachments
-  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Attachments
-  commentId: P:DisCatSharp.Entities.DiscordInteractionData.Attachments
-  fullName: DisCatSharp.Entities.DiscordInteractionData.Attachments
-  nameWithType: DiscordInteractionData.Attachments
-- uid: DisCatSharp.Entities.DiscordInteractionData.Attachments*
-  name: Attachments
-  href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Attachments_
-  commentId: Overload:DisCatSharp.Entities.DiscordInteractionData.Attachments
-  isSpec: "True"
-  fullName: DisCatSharp.Entities.DiscordInteractionData.Attachments
-  nameWithType: DiscordInteractionData.Attachments
 - uid: DisCatSharp.Entities.DiscordInteractionData.Components
   name: Components
   href: api/DisCatSharp.Entities.DiscordInteractionData.html#DisCatSharp_Entities_DiscordInteractionData_Components
@@ -24796,6 +24789,19 @@ references:
   commentId: T:DisCatSharp.Entities.DiscordInteractionResolvedCollection
   fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection
   nameWithType: DiscordInteractionResolvedCollection
+- uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Attachments
+  commentId: P:DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments
+  fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments
+  nameWithType: DiscordInteractionResolvedCollection.Attachments
+- uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments*
+  name: Attachments
+  href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Attachments_
+  commentId: Overload:DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Attachments
+  nameWithType: DiscordInteractionResolvedCollection.Attachments
 - uid: DisCatSharp.Entities.DiscordInteractionResolvedCollection.Channels
   name: Channels
   href: api/DisCatSharp.Entities.DiscordInteractionResolvedCollection.html#DisCatSharp_Entities_DiscordInteractionResolvedCollection_Channels
@@ -25486,6 +25492,19 @@ references:
   isSpec: "True"
   fullName: DisCatSharp.Entities.DiscordInvite.ToString
   nameWithType: DiscordInvite.ToString
+- uid: DisCatSharp.Entities.DiscordInvite.Type
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_Type
+  commentId: P:DisCatSharp.Entities.DiscordInvite.Type
+  fullName: DisCatSharp.Entities.DiscordInvite.Type
+  nameWithType: DiscordInvite.Type
+- uid: DisCatSharp.Entities.DiscordInvite.Type*
+  name: Type
+  href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_Type_
+  commentId: Overload:DisCatSharp.Entities.DiscordInvite.Type
+  isSpec: "True"
+  fullName: DisCatSharp.Entities.DiscordInvite.Type
+  nameWithType: DiscordInvite.Type
 - uid: DisCatSharp.Entities.DiscordInvite.Uri
   name: Uri
   href: api/DisCatSharp.Entities.DiscordInvite.html#DisCatSharp_Entities_DiscordInvite_Uri
