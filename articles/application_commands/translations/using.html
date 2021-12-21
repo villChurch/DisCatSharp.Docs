@@ -1,0 +1,280 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Using Translations | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Using Translations | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="../../../styles/discord.css">
+    <link rel="stylesheet" href="../../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="application_commands_translations_using">
+<h1 id="using-translations">Using Translations</h1>
+
+<h2 id="why-do-we-outsource-translation-in-external-json-files">Why Do We Outsource Translation In External JSON Files</h2>
+<p>Pretty simple: It&#39;s common to have translations external stored.
+This makes it easier to modify them, while keeping the code itself clean.</p>
+<h2 id="adding-translations">Adding Translations</h2>
+<p>Translations are added the same way like permissions are added to Application Commands:</p>
+<pre><code class="lang-cs">const string TRANSLATION_PATH = &quot;translations/&quot;;
+
+Client.GetShard(0).GetApplicationCommands().RegisterCommands&lt;MyCommand&gt;(1215484634894646844, perms =&gt; {
+    perms.AddRole(915747497668915230, true);
+}, translations =&gt;
+{
+    string json = File.ReadAllText(TRANSLATION_PATH + &quot;my_command.json&quot;);
+
+    translations.AddTranslation(json);
+});
+
+Client.GetShard(0).GetApplicationCommands().RegisterCommands&lt;MySimpleCommands&gt;(1215484634894646844, perms =&gt; {
+    perms.AddRole(915747497668915230, true);
+}, translations =&gt;
+{
+    string json = File.ReadAllText(TRANSLATION_PATH + &quot;my_simple_command.json&quot;);
+
+    translations.AddTranslation(json);
+});
+</code></pre><h2 id="creating-the-translation-json">Creating The Translation JSON</h2>
+<p>We split the translation in two categories.
+One for slash command groups and one for normal slash commands and context menu commands.
+The <code>name</code> key in the JSON will be mapped to the command / option / choice names internally.</p>
+<h3 id="translation-for-slash-command-groups">Translation For Slash Command Groups</h3>
+<p>Imagine, your class look like the following example:</p>
+<pre><code class="lang-cs">public class MyCommand : ApplicationCommandsModule
+{
+    [SlashCommandGroup(&quot;my_command&quot;, &quot;This is decription of the command group.&quot;)]
+    public class MyCommandGroup : ApplicationCommandsModule
+    {
+        [SlashCommand(&quot;first&quot;, &quot;This is decription of the command.&quot;)]
+        public async Task MySlashCommand(InteractionContext context)
+        {
+            await context.CreateResponseAsync(InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
+            {
+                Content = &quot;This is first subcommand.&quot;
+            });
+        }
+        [SlashCommand(&quot;second&quot;, &quot;This is decription of the command.&quot;)]
+        public async Task MySecondCommand(InteractionContext context, [Option(&quot;value&quot;, &quot;Some string value.&quot;)] string value)
+        {
+            await context.CreateResponseAsync(InteractionResponseType.ChannelMessageWithSource, new DiscordInteractionResponseBuilder()
+            {
+                Content = &quot;This is second subcommand. The value was &quot; + value
+            });
+        }
+    }
+}
+</code></pre><p>The translation json is a object of <a class="xref" href="reference.html#command-group-object">Command Group Objects</a>
+A correct translation json for english and german would look like that:</p>
+<pre><code class="lang-json">[
+    {
+        &quot;name&quot;: &quot;my_command&quot;,
+        &quot;name_translations&quot;: {
+            &quot;en-US&quot;: &quot;my_command&quot;,
+            &quot;de&quot;: &quot;mein_befehl&quot;
+        },
+        &quot;description_translations&quot;: {
+            &quot;en-US&quot;: &quot;This is decription of the command group.&quot;,
+            &quot;de&quot;: &quot;Das ist die Beschreibung der Befehl Gruppe.&quot;
+        },
+        &quot;commands&quot;: [
+            {
+                &quot;name&quot;: &quot;first&quot;,
+                &quot;type&quot;: 1, // Type 1 for slash command
+                &quot;name_translations&quot;: {
+                    &quot;en-US&quot;: &quot;first&quot;,
+                    &quot;de&quot;: &quot;erste&quot;
+                },
+                &quot;description_translations&quot;: {
+                    &quot;en-US&quot;: &quot;This is decription of the command.&quot;,
+                    &quot;de&quot;: &quot;Das ist die Beschreibung des Befehls.&quot;
+                }
+            },
+            {
+                &quot;name&quot;: &quot;second&quot;,
+                &quot;type&quot;: 1, // Type 1 for slash command
+                &quot;name_translations&quot;: {
+                    &quot;en-US&quot;: &quot;second&quot;,
+                    &quot;de&quot;: &quot;zweite&quot;
+                },
+                &quot;description_translations&quot;: {
+                    &quot;en-US&quot;: &quot;This is decription of the command.&quot;,
+                    &quot;de&quot;: &quot;Das ist die Beschreibung des Befehls.&quot;
+                },
+                &quot;options&quot;: [
+                    {
+                        &quot;name&quot;: &quot;value&quot;,
+                        &quot;name_translations&quot;: {
+                            &quot;en-US&quot;: &quot;value&quot;,
+                            &quot;de&quot;: &quot;wert&quot;
+                        },
+                        &quot;description_translations&quot;: {
+                            &quot;en-US&quot;: &quot;Some string value.&quot;,
+                            &quot;de&quot;: &quot;Ein string Wert.&quot;
+                        }
+                    }
+                ]
+            }
+        ]
+    }
+]
+</code></pre><h3 id="translation-for-slash-commands--context-menu-commands">Translation For Slash Commands &amp; Context Menu Commands</h3>
+<p>Now imagine, that your class look like this example:</p>
+<pre><code class="lang-cs">public class MySimpleCommands : ApplicationCommandsModule
+{
+    [SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+    public async Task MySlashCommand(InteractionContext context)
+    {
+
+    }
+
+    [ContextMenu(ApplicationCommandType.User, &quot;My Command&quot;)]
+    public async Task MyContextMenuCommand(ContextMenuContext context)
+    {
+
+    }
+}
+</code></pre><p>The slash command is a simple <a class="xref" href="reference.html#command-object">Command Object</a>.
+Same goes for the context menu command, but note that it can&#39;t have a description.</p>
+<p>Slash Commands has the <a class="xref" href="reference.html#application-command-type">type</a> <code>1</code> and context menu commands the <a class="xref" href="reference.html#application-command-type">type</a> <code>2</code> or <code>3</code>.
+We use this to determine, where the translation belongs to.</p>
+<p>A correct json for this example would look like that:</p>
+<pre><code class="lang-json">[
+   {
+      &quot;name&quot;:&quot;my_command&quot;,
+      &quot;type&quot;: 1, // Type 1 for slash command
+      &quot;name_translations&quot;:{
+         &quot;en-US&quot;:&quot;my_command&quot;,
+         &quot;de&quot;:&quot;mein_befehl&quot;
+      },
+      &quot;description_translations&quot;:{
+         &quot;en-US&quot;:&quot;This is decription of the command.&quot;,
+         &quot;de&quot;:&quot;Das ist die Beschreibung des Befehls.&quot;
+      }
+   },
+   {
+      &quot;name&quot;:&quot;My Command&quot;,
+      &quot;type&quot;: 2, // Type 2 for user context menu command
+      &quot;name_translations&quot;:{
+         &quot;en-US&quot;:&quot;My Command&quot;,
+         &quot;de&quot;:&quot;Mein Befehl&quot;
+      }
+   }
+]
+</code></pre><h2 id="available-locales">Available Locales</h2>
+<p>Discord has a limited choice of locales, in particular, the ones you can select in the client.
+To see the available locales, visit <a class="xref" href="reference.html#valid-locales">this</a> page.</p>
+<h2 id="can-we-get-the-user-and-guild-locale">Can We Get The User And Guild Locale?</h2>
+<p>Yes, you can!
+Discord sends the user on all <a class="xref" href="../../../api/DisCatSharp.InteractionType.html">interaction types</a>, except <code>Ping</code>.</p>
+<p>We introduced two new properties <code>Locale</code> and <code>GuildLocale</code> on <a class="xref" href="../../../api/DisCatSharp.ApplicationCommands.InteractionContext.html">InteractionContext</a>, <a class="xref" href="../../../api/DisCatSharp.ApplicationCommands.ContextMenuContext.html">ContextMenuContext</a>, <a class="xref" href="../../../api/DisCatSharp.ApplicationCommands.AutocompleteContext.html">AutoCompleteContext</a> and <a class="xref" href="../../../api/DisCatSharp.Entities.DiscordInteraction.html">DiscordInteraction</a>.
+<code>Locale</code> is the locale of the user and always represented.
+<code>GuildLocale</code> is only represented, when the interaction is <strong>not</strong> in a DM.</p>
+<p>Furthermore we cache known user locales on the <a class="xref" href="../../../api/DisCatSharp.Entities.DiscordUser.html#DisCatSharp_Entities_DiscordUser_Locale">DiscordUser</a> object.</p>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/application_commands/translations/using.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021-2022 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/url.min.js"></script>
+  </body>
+</html>

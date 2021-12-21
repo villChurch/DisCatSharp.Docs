@@ -75,18 +75,22 @@
         </div>
         <div class="article row grid-right">
           <div class="col-md-10">
-            <article class="content wrap" id="_content" data-uid="appcommands_options">
+            <article class="content wrap" id="_content" data-uid="application_commands_options">
 <h1 id="slash-commands-options">Slash Commands options</h1>
 
 <p>For slash commands, you can create options. They allow users to submit additional information to commands.</p>
 <p>Command options can be of the following types:</p>
 <ul>
 <li>string</li>
+<li>int</li>
 <li>long</li>
+<li>double</li>
 <li>bool</li>
 <li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordUser.html">DiscordUser</a></li>
 <li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordRole.html">DiscordRole</a></li>
 <li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordChannel.html">DiscordChannel</a></li>
+<li><a class="xref" href="../../api/DisCatSharp.Entities.DiscordAttachment.html">DiscordAttachment</a></li>
+<li>mentionable (ulong)</li>
 <li>Enum</li>
 </ul>
 <h2 id="basic-usage">Basic usage</h2>
@@ -236,7 +240,16 @@ public static async Task MySlashCommand(InteractionContext context, [Option(&quo
 
 }
 </code></pre><p>This will make it possible to select only text channels.</p>
-</article>
+<h2 id="minimum--maximum-attribute">Minimum / Maximum Attribute</h2>
+<p>Sometimes we may need to give users the ability to select only a certain range of values.</p>
+<p>This can be done by adding the <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html">Minimum</a> and <a class="xref" href="../../api/DisCatSharp.ApplicationCommands.Attributes.MaximumAttribute.html">Maximum</a> attribute to the option.
+It can be used only for the types <code>double</code>, <code>int</code> and <code>long</code> tho.</p>
+<pre><code class="lang-cs">[SlashCommand(&quot;my_command&quot;, &quot;This is decription of the command.&quot;)]
+public static async Task MySlashCommand(InteractionContext context, [Option(&quot;number&quot;, &quot;You can select only a certain range.&quot;), Minimum(50), Maximum(100)] int numbers)
+{
+
+}
+</code></pre></article>
           </div>
           
           <div class="hidden-sm col-md-2" role="complementary">

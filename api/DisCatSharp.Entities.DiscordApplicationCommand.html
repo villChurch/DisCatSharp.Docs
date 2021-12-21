@@ -111,13 +111,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommand__ctor_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordApplicationCommand__ctor_System_String_System_String_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Boolean_ApplicationCommandType_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean,ApplicationCommandType)">DiscordApplicationCommand(String, String, IEnumerable&lt;DiscordApplicationCommandOption&gt;, Boolean, ApplicationCommandType)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommand__ctor_System_String_System_String_System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Boolean_ApplicationCommandType_DisCatSharp_Entities_DiscordApplicationCommandLocalization_DisCatSharp_Entities_DiscordApplicationCommandLocalization_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.#ctor(System.String,System.String,System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Boolean,ApplicationCommandType,DisCatSharp.Entities.DiscordApplicationCommandLocalization,DisCatSharp.Entities.DiscordApplicationCommandLocalization)">DiscordApplicationCommand(String, String, IEnumerable&lt;DiscordApplicationCommandOption&gt;, Boolean, ApplicationCommandType, DiscordApplicationCommandLocalization, DiscordApplicationCommandLocalization)</h4>
   <div class="markdown level1 summary"><p>Creates a new instance of a <a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommand.html">DiscordApplicationCommand</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordApplicationCommand(string name, string description, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, bool default_permission = true, ApplicationCommandType type = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommand(string name, string description, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, bool default_permission = true, ApplicationCommandType type = null, DiscordApplicationCommandLocalization nameLocalizations = null, DiscordApplicationCommandLocalization descriptionLocalizations = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -157,6 +157,18 @@
         <td><span class="xref">ApplicationCommandType</span></td>
         <td><span class="parametername">type</span></td>
         <td><p>The type of the command. Defaults to ChatInput.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td><span class="parametername">nameLocalizations</span></td>
+        <td><p>The localizations of the command name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td><span class="parametername">descriptionLocalizations</span></td>
+        <td><p>The localizations of the command description.</p>
 </td>
       </tr>
     </tbody>
@@ -243,6 +255,32 @@
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordApplicationCommand_DescriptionLocalizations_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.DescriptionLocalizations*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommand_DescriptionLocalizations" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.DescriptionLocalizations">DescriptionLocalizations</h4>
+  <div class="markdown level1 summary"><p>Gets the description localizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandLocalization DescriptionLocalizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordApplicationCommand_Name_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.Name*"></a>
   <h4 id="DisCatSharp_Entities_DiscordApplicationCommand_Name" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.Name">Name</h4>
   <div class="markdown level1 summary"><p>Gets the name of this command.</p>
@@ -263,6 +301,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationCommand_NameLocalizations_" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.NameLocalizations*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommand_NameLocalizations" data-uid="DisCatSharp.Entities.DiscordApplicationCommand.NameLocalizations">NameLocalizations</h4>
+  <div class="markdown level1 summary"><p>Gets the name localizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandLocalization NameLocalizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
         <td></td>
       </tr>
     </tbody>

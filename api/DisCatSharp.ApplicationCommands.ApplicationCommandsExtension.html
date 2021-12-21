@@ -199,13 +199,13 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
   
   
   <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_System_Type_System_UInt64_System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(System.Type,System.UInt64,System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})">RegisterCommands(Type, UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;)</h4>
-  <div class="markdown level1 summary"><p>Registers a command class with permission setup.</p>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_System_Type_System_UInt64_System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsTranslationContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands(System.Type,System.UInt64,System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext},System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsTranslationContext})">RegisterCommands(Type, UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;, Action&lt;ApplicationCommandsTranslationContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a command class with permission and translation setup.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterCommands(Type type, ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public void RegisterCommands(Type type, ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null, Action&lt;ApplicationCommandsTranslationContext&gt; translationSetup = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -233,6 +233,12 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html">ApplicationCommandsPermissionContext</a>&gt;</td>
         <td><span class="parametername">permissionSetup</span></td>
         <td><p>A callback to setup permissions with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsTranslationContext.html">ApplicationCommandsTranslationContext</a>&gt;</td>
+        <td><span class="parametername">translationSetup</span></td>
+        <td><p>A callback to setup translations with.</p>
 </td>
       </tr>
     </tbody>
@@ -286,13 +292,13 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
   
   
   <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands*"></a>
-  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands__1_System_UInt64_System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.UInt64,System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext})">RegisterCommands&lt;T&gt;(UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;)</h4>
-  <div class="markdown level1 summary"><p>Registers a command class with permission setup.</p>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisterCommands__1_System_UInt64_System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsPermissionContext__System_Action_DisCatSharp_ApplicationCommands_ApplicationCommandsTranslationContext__" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisterCommands``1(System.UInt64,System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext},System.Action{DisCatSharp.ApplicationCommands.ApplicationCommandsTranslationContext})">RegisterCommands&lt;T&gt;(UInt64, Action&lt;ApplicationCommandsPermissionContext&gt;, Action&lt;ApplicationCommandsTranslationContext&gt;)</h4>
+  <div class="markdown level1 summary"><p>Registers a command class with permission and translation setup.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public void RegisterCommands&lt;T&gt;(ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null)
+    <pre><code class="lang-csharp hljs">public void RegisterCommands&lt;T&gt;(ulong guildId, Action&lt;ApplicationCommandsPermissionContext&gt; permissionSetup = null, Action&lt;ApplicationCommandsTranslationContext&gt; translationSetup = null)
     where T : ApplicationCommandsModule</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
@@ -315,6 +321,12 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
         <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsPermissionContext.html">ApplicationCommandsPermissionContext</a>&gt;</td>
         <td><span class="parametername">permissionSetup</span></td>
         <td><p>A callback to setup permissions with.</p>
+</td>
+      </tr>
+      <tr>
+        <td><span class="xref">System.Action</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsTranslationContext.html">ApplicationCommandsTranslationContext</a>&gt;</td>
+        <td><span class="parametername">translationSetup</span></td>
+        <td><p>A callback to setup translations with.</p>
 </td>
       </tr>
     </tbody>

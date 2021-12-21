@@ -101,13 +101,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Collections_Generic_IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__System_Object_System_Object_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean},System.Object,System.Object)">DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable&lt;Boolean&gt;, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;, IEnumerable&lt;DiscordApplicationCommandOption&gt;, IEnumerable&lt;ChannelType&gt;, Nullable&lt;Boolean&gt;, Object, Object)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption__ctor_System_String_System_String_DisCatSharp_ApplicationCommandOptionType_System_Nullable_System_Boolean__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOptionChoice__System_Collections_Generic_IEnumerable_DisCatSharp_Entities_DiscordApplicationCommandOption__System_Collections_Generic_IEnumerable_DisCatSharp_ChannelType__System_Nullable_System_Boolean__System_Object_System_Object_DisCatSharp_Entities_DiscordApplicationCommandLocalization_DisCatSharp_Entities_DiscordApplicationCommandLocalization_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.#ctor(System.String,System.String,DisCatSharp.ApplicationCommandOptionType,System.Nullable{System.Boolean},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOptionChoice},System.Collections.Generic.IEnumerable{DisCatSharp.Entities.DiscordApplicationCommandOption},System.Collections.Generic.IEnumerable{DisCatSharp.ChannelType},System.Nullable{System.Boolean},System.Object,System.Object,DisCatSharp.Entities.DiscordApplicationCommandLocalization,DisCatSharp.Entities.DiscordApplicationCommandLocalization)">DiscordApplicationCommandOption(String, String, ApplicationCommandOptionType, Nullable&lt;Boolean&gt;, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt;, IEnumerable&lt;DiscordApplicationCommandOption&gt;, IEnumerable&lt;ChannelType&gt;, Nullable&lt;Boolean&gt;, Object, Object, DiscordApplicationCommandLocalization, DiscordApplicationCommandLocalization)</h4>
   <div class="markdown level1 summary"><p>Creates a new instance of a <a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandOption.html">DiscordApplicationCommandOption</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandOption(string name, string description, ApplicationCommandOptionType type, bool? required = null, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt; choices = null, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, IEnumerable&lt;ChannelType&gt; channeltypes = null, bool? autocomplete = null, object minimumValue = null, object maximumValue = null)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandOption(string name, string description, ApplicationCommandOptionType type, bool? required = null, IEnumerable&lt;DiscordApplicationCommandOptionChoice&gt; choices = null, IEnumerable&lt;DiscordApplicationCommandOption&gt; options = null, IEnumerable&lt;ChannelType&gt; channeltypes = null, bool? autocomplete = null, object minimumValue = null, object maximumValue = null, DiscordApplicationCommandLocalization nameLocalizations = null, DiscordApplicationCommandLocalization descriptionLocalizations = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -177,6 +177,18 @@
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">maximumValue</span></td>
         <td><p>The maximum value for this parameter. Only valid for types <a class="xref" href="DisCatSharp.ApplicationCommandOptionType.html#DisCatSharp_ApplicationCommandOptionType_Integer">Integer</a> or <a class="xref" href="DisCatSharp.ApplicationCommandOptionType.html#DisCatSharp_ApplicationCommandOptionType_Number">Number</a>.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td><span class="parametername">nameLocalizations</span></td>
+        <td><p>The localizations of the parameter name.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td><span class="parametername">descriptionLocalizations</span></td>
+        <td><p>The localizations of the parameter description.</p>
 </td>
       </tr>
     </tbody>
@@ -290,6 +302,32 @@ Not applicable for auto-complete options.</p>
   </table>
   
   
+  <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_DescriptionLocalizations_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.DescriptionLocalizations*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_DescriptionLocalizations" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.DescriptionLocalizations">DescriptionLocalizations</h4>
+  <div class="markdown level1 summary"><p>Gets the description localizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandLocalization DescriptionLocalizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_MaximumValue_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue*"></a>
   <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_MaximumValue" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.MaximumValue">MaximumValue</h4>
   <div class="markdown level1 summary"><p>Gets the maximum value for this slash command parameter.</p>
@@ -362,6 +400,32 @@ Not applicable for auto-complete options.</p>
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationCommandOption_NameLocalizations_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.NameLocalizations*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandOption_NameLocalizations" data-uid="DisCatSharp.Entities.DiscordApplicationCommandOption.NameLocalizations">NameLocalizations</h4>
+  <div class="markdown level1 summary"><p>Gets the name localizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandLocalization NameLocalizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
         <td></td>
       </tr>
     </tbody>

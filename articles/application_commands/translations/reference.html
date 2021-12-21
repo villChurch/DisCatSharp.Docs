@@ -1,0 +1,443 @@
+﻿<!DOCTYPE html>
+<!--[if IE]><![endif]-->
+<html>
+  
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>Translation Reference | DisCatSharp Docs </title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="title" content="Translation Reference | DisCatSharp Docs ">
+    <meta name="generator" content="docfx 2.58.9.0">
+    
+    <link rel="shortcut icon" href="../../../favicon.ico">
+    <link rel="stylesheet" href="../../../styles/docfx.vendor.css">
+    <link rel="stylesheet" href="../../../styles/docfx.css">
+    <link rel="stylesheet" href="../../../styles/main.css">
+    <link rel="stylesheet" href="../../../styles/discord.css">
+    <link rel="stylesheet" href="../../../styles/colors.css">
+    <meta property="docfx:navrel" content="../../../toc.html">
+    <meta property="docfx:tocrel" content="../../toc.html">
+    <meta property="docfx:rel" content="../../../">
+    <meta property="docfx:newtab" content="true">
+  </head>
+  <body data-spy="scroll" data-target="#affix">
+    <div id="wrapper">
+      <header>
+        
+        <nav id="autocollapse" class="navbar navbar-inverse ng-scope" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              
+              <a class="navbar-brand" href="../../../index.html">
+                <img id="logo" class="svg" src="../../../logo.png" alt="">
+              </a>
+            </div>
+            <div class="collapse navbar-collapse" id="navbar">
+              <form class="navbar-form navbar-right" role="search" id="search">
+                <div class="form-group">
+                  <input type="text" class="form-control" id="search-query" placeholder="Search" autocomplete="off">
+                </div>
+              </form>
+            </div>
+          </div>
+        </nav>
+        
+        <div class="subnav navbar navbar-default">
+          <div class="container hide-when-search" id="breadcrumb">
+            <ul class="breadcrumb">
+              <li></li>
+            </ul>
+          </div>
+        </div>
+      </header>
+      <div class="container body-content">
+        
+        <div id="search-results">
+          <div class="search-list"></div>
+          <div class="sr-items"></div>
+          <ul id="pagination"></ul>
+        </div>
+      </div>
+      <div role="main" class="container body-content hide-when-search">
+        
+        <div class="sidenav hide-when-search">
+          <a class="btn toc-toggle collapse" data-toggle="collapse" href="#sidetoggle" aria-expanded="false" aria-controls="sidetoggle">Show / Hide Table of Contents</a>
+          <div class="sidetoggle collapse" id="sidetoggle">
+            <div id="sidetoc"></div>
+          </div>
+        </div>
+        <div class="article row grid-right">
+          <div class="col-md-10">
+            <article class="content wrap" id="_content" data-uid="application_commands_translations_reference">
+<h1 id="translation-reference">Translation Reference</h1>
+
+<div class="NOTE"><h5>Note</h5><p>DisCatSharp uses <a href="https://www.json.org">JSON</a> to inject the translations of <a href="https://discord.com/developers/docs/interactions/application-commands">Application Commands</a>.</p>
+</div>
+<h2 id="command-object">Command Object</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the application command</td>
+</tr>
+<tr>
+<td>type</td>
+<td>int</td>
+<td><a href="#application-command-type">type</a> of application command, used to map command types</td>
+</tr>
+<tr>
+<td>name_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command name</td>
+</tr>
+<tr>
+<td>description_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command description, only valid for slash commands</td>
+</tr>
+<tr>
+<td>options</td>
+<td>array of <a href="#option-object">Option Objects</a></td>
+<td>array of option objects containing translations</td>
+</tr>
+</tbody>
+</table>
+<h3 id="application-command-type">Application Command Type</h3>
+<table>
+<thead>
+<tr>
+<th>Type</th>
+<th>Value</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Slash Command</td>
+<td>1</td>
+</tr>
+<tr>
+<td>User Context Menu Command</td>
+<td>2</td>
+</tr>
+<tr>
+<td>Message Context Menu Command</td>
+<td>3</td>
+</tr>
+</tbody>
+</table>
+<h2 id="command-group-object">Command Group Object</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the application command group</td>
+</tr>
+<tr>
+<td>name_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command group name</td>
+</tr>
+<tr>
+<td>description_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command group description</td>
+</tr>
+<tr>
+<td>commands</td>
+<td>array of <a href="#command-object">Command Objects</a></td>
+<td>array of command objects containing translations</td>
+</tr>
+<tr>
+<td>groups</td>
+<td>array of <a href="#sub-command-group-object">Sub Command Group Objects</a></td>
+<td>array of sub command group objects containing translations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="sub-command-group-object">Sub Command Group Object</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the application command sub group</td>
+</tr>
+<tr>
+<td>name_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command sub group name</td>
+</tr>
+<tr>
+<td>description_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command sub group description</td>
+</tr>
+<tr>
+<td>commands</td>
+<td>array of <a href="#command-object">Command Objects</a></td>
+<td>array of command objects containing translations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-object">Option Object</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the application command option</td>
+</tr>
+<tr>
+<td>name_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command option name</td>
+</tr>
+<tr>
+<td>description_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command option description</td>
+</tr>
+<tr>
+<td>choices</td>
+<td>array of <a href="#option-choice-object">Option Choice Objects</a></td>
+<td>array of option choice objects containing translations</td>
+</tr>
+</tbody>
+</table>
+<h2 id="option-choice-object">Option Choice Object</h2>
+<table>
+<thead>
+<tr>
+<th>Key</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>name</td>
+<td>string</td>
+<td>name of the application command option choice</td>
+</tr>
+<tr>
+<td>name_translations</td>
+<td>array of <a href="#translation-kvp">Translation KVPs</a></td>
+<td>array of translation key-value-pairs for the application command option choice name</td>
+</tr>
+</tbody>
+</table>
+<h2 id="translation-kvp">Translation KVP</h2>
+<p>A translation object is a key-value-pair of <code>&quot;locale&quot;: &quot;value&quot;</code>.</p>
+<h3 id="example-translation-array">Example Translation Array:</h3>
+<pre><code class="lang-json">{
+    &quot;en-US&quot;: &quot;Hello&quot;,
+    &quot;de&quot;: &quot;Hallo&quot;
+}
+</code></pre><h2 id="valid-locales">Valid Locales</h2>
+<table>
+<thead>
+<tr>
+<th>Locale</th>
+<th>Language</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>da</td>
+<td>Danish</td>
+</tr>
+<tr>
+<td>de</td>
+<td>German</td>
+</tr>
+<tr>
+<td>en-GB</td>
+<td>English, UK</td>
+</tr>
+<tr>
+<td>en-US</td>
+<td>English, US</td>
+</tr>
+<tr>
+<td>es-ES</td>
+<td>Spanish</td>
+</tr>
+<tr>
+<td>fr</td>
+<td>French</td>
+</tr>
+<tr>
+<td>hr</td>
+<td>Croatioan</td>
+</tr>
+<tr>
+<td>it</td>
+<td>Italian</td>
+</tr>
+<tr>
+<td>lt</td>
+<td>Lithuanian</td>
+</tr>
+<tr>
+<td>hu</td>
+<td>Hungarian</td>
+</tr>
+<tr>
+<td>nl</td>
+<td>Dutch</td>
+</tr>
+<tr>
+<td>no</td>
+<td>Norwegian</td>
+</tr>
+<tr>
+<td>pl</td>
+<td>Polish</td>
+</tr>
+<tr>
+<td>pt-BR</td>
+<td>Portuguese, Brazilian</td>
+</tr>
+<tr>
+<td>ro</td>
+<td>Romanian, Romania</td>
+</tr>
+<tr>
+<td>fi</td>
+<td>Finnish</td>
+</tr>
+<tr>
+<td>sv-SE</td>
+<td>Swedish</td>
+</tr>
+<tr>
+<td>vi</td>
+<td>Vietnamese</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>Turkish</td>
+</tr>
+<tr>
+<td>cs</td>
+<td>Czech</td>
+</tr>
+<tr>
+<td>el</td>
+<td>Greek</td>
+</tr>
+<tr>
+<td>bg</td>
+<td>Bulgarian</td>
+</tr>
+<tr>
+<td>ru</td>
+<td>Russian</td>
+</tr>
+<tr>
+<td>uk</td>
+<td>Ukrainian</td>
+</tr>
+<tr>
+<td>hi</td>
+<td>Hindi</td>
+</tr>
+<tr>
+<td>th</td>
+<td>Thai</td>
+</tr>
+<tr>
+<td>zh-CN</td>
+<td>Chinese, China</td>
+</tr>
+<tr>
+<td>ja</td>
+<td>Japanese</td>
+</tr>
+<tr>
+<td>zh-TW</td>
+<td>Chinese, Taiwan</td>
+</tr>
+<tr>
+<td>ko</td>
+<td>Korean</td>
+</tr>
+</tbody>
+</table>
+</article>
+          </div>
+          
+          <div class="hidden-sm col-md-2" role="complementary">
+            <div class="sideaffix">
+              <div class="contribution">
+                <ul class="nav">
+                  <li>
+                    <a href="https://github.com/Aiko-IT-Systems/DisCatSharp/blob/main/DisCatSharp.Docs/articles/application_commands/translations/reference.md/#L1" class="contribution-link">Improve this Doc</a>
+                  </li>
+                </ul>
+              </div>
+              <nav class="bs-docs-sidebar hidden-print hidden-xs hidden-sm affix" id="affix">
+              <!-- <p><a class="back-to-top" href="#top">Back to top</a><p> -->
+              </nav>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <footer>
+        <div class="grad-bottom"></div>
+        <div class="footer">
+          <div class="container">
+            <span class="pull-right">
+              <a href="#top">Back to top</a>
+            </span>
+            © 2021-2022 Aiko IT Systems
+            
+          </div>
+        </div>
+      </footer>
+    </div>
+    
+    <script type="text/javascript" src="../../../styles/docfx.vendor.js"></script>
+    <script type="text/javascript" src="../../../styles/docfx.js"></script>
+    <script type="text/javascript" src="../../../styles/main.js"></script>
+    <script type="text/javascript" src="../../../styles/url.min.js"></script>
+  </body>
+</html>

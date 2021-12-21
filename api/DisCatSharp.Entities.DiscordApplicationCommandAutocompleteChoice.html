@@ -101,13 +101,13 @@
   
   
   <a id="DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__ctor_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor*"></a>
-  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__ctor_System_String_System_Object_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor(System.String,System.Object)">DiscordApplicationCommandAutocompleteChoice(String, Object)</h4>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice__ctor_System_String_System_Object_DisCatSharp_Entities_DiscordApplicationCommandLocalization_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.#ctor(System.String,System.Object,DisCatSharp.Entities.DiscordApplicationCommandLocalization)">DiscordApplicationCommandAutocompleteChoice(String, Object, DiscordApplicationCommandLocalization)</h4>
   <div class="markdown level1 summary"><p>Creates a new instance of <a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.html">DiscordApplicationCommandAutocompleteChoice</a>.</p>
 </div>
   <div class="markdown level1 conceptual"></div>
   <h5 class="decalaration">Declaration</h5>
   <div class="codewrapper">
-    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandAutocompleteChoice(string name, object value)</code></pre>
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandAutocompleteChoice(string name, object value, DiscordApplicationCommandLocalization nameLocalizations = null)</code></pre>
   </div>
   <h5 class="parameters">Parameters</h5>
   <table class="table table-bordered table-striped table-condensed">
@@ -129,6 +129,12 @@
         <td><span class="xref">System.Object</span></td>
         <td><span class="parametername">value</span></td>
         <td><p>The value of this option.</p>
+</td>
+      </tr>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
+        <td><span class="parametername">nameLocalizations</span></td>
+        <td><p>The localizations of the option name.</p>
 </td>
       </tr>
     </tbody>
@@ -157,6 +163,32 @@
     <tbody>
       <tr>
         <td><span class="xref">System.String</span></td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_NameLocalizations_" data-uid="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.NameLocalizations*"></a>
+  <h4 id="DisCatSharp_Entities_DiscordApplicationCommandAutocompleteChoice_NameLocalizations" data-uid="DisCatSharp.Entities.DiscordApplicationCommandAutocompleteChoice.NameLocalizations">NameLocalizations</h4>
+  <div class="markdown level1 summary"><p>Gets the name localizations.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public DiscordApplicationCommandLocalization NameLocalizations { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommandLocalization.html">DiscordApplicationCommandLocalization</a></td>
         <td></td>
       </tr>
     </tbody>
