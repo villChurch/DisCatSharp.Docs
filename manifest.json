@@ -78,7 +78,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html",
-          "hash": "E33b1TGNKTfjJKR89/CtHllLEHxgR9+TmK9gZ7KhVvg="
+          "hash": "D/Eq4bidALdXBXk3y2iuSMVt5P3OkmIkO1x7jdCZwm4="
         }
       },
       "is_incremental": false,
@@ -494,6 +494,30 @@
     },
     {
       "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ApplicationCommandsModuleReadyEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ApplicationCommandsModuleReadyEventArgs.html",
+          "hash": "PqSYIxmRJh5zj3Q4ypWz+O4XFD1IM/02UoaZYwPA26E="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ApplicationCommandsModuleStartupFinishedEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ApplicationCommandsModuleStartupFinishedEventArgs.html",
+          "hash": "WVLd4Tgwtf3l+ubLfk+SOV0Egd5GFaUDiJxUdub6aAA="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
       "source_relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ContextMenuErrorEventArgs.yml",
       "output": {
         ".html": {
@@ -511,6 +535,30 @@
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.ContextMenuExecutedEventArgs.html",
           "hash": "dPqGu5yIHdqgsPM0HBn+uEsSa8NSh/XiIKlm2PklH/s="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.GlobalApplicationCommandsRegisteredEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.GlobalApplicationCommandsRegisteredEventArgs.html",
+          "hash": "jYhzmo4uykqB1H955Q0cuO35g3wIyvRBOl3v/Fx1bOw="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.GuildApplicationCommandsRegisteredEventArgs.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.GuildApplicationCommandsRegisteredEventArgs.html",
+          "hash": "avKcyXKkLqBpyF8LT7wXgD95eXsDEczC6Sp8JA3O71A="
         }
       },
       "is_incremental": false,
@@ -546,7 +594,7 @@
       "output": {
         ".html": {
           "relative_path": "api/DisCatSharp.ApplicationCommands.EventArgs.html",
-          "hash": "784dD3Gg+8mTNd7pSqn64fnmKuywOvoYmdjdXhs3FVU="
+          "hash": "8yaN2TlqfnLCy5uJTXuatcqqvHWvFm9HyzoErd7eWZA="
         }
       },
       "is_incremental": false,
@@ -7626,7 +7674,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "s/h0lwipvN/xCeGSLxGyd4Ak4VmSKxe/RVf1M/2dpjE="
+          "hash": "Q+TD5uYNGHCZ0SKGGdeIO6igzKXEKTKLQvBpXvfcWhQ="
         }
       },
       "is_incremental": false,
@@ -8905,8 +8953,8 @@
         "ManagedReferenceDocumentProcessor": {
           "can_incremental": true,
           "incrementalPhase": "build",
-          "total_file_count": 633,
-          "skipped_file_count": 633
+          "total_file_count": 637,
+          "skipped_file_count": 637
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,

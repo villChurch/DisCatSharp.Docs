@@ -107,6 +107,58 @@
   </h3>
   
   
+  <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GlobalCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GlobalCommands*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GlobalCommands" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GlobalCommands">GlobalCommands</h4>
+  <div class="markdown level1 summary"><p>Gets a list of registered global commands.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyList&lt;DiscordApplicationCommand&gt; GlobalCommands { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommand.html">DiscordApplicationCommand</a>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GuildCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GuildCommands*"></a>
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GuildCommands" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GuildCommands">GuildCommands</h4>
+  <div class="markdown level1 summary"><p>Gets a list of registered guild commands mapped by guild id.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public IReadOnlyDictionary&lt;ulong, IReadOnlyList&lt;DiscordApplicationCommand&gt;&gt; GuildCommands { get; }</code></pre>
+  </div>
+  <h5 class="propertyValue">Property Value</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">System.Collections.Generic.IReadOnlyDictionary</span>&lt;<span class="xref">System.UInt64</span>, <span class="xref">System.Collections.Generic.IReadOnlyList</span>&lt;<a class="xref" href="DisCatSharp.Entities.DiscordApplicationCommand.html">DiscordApplicationCommand</a>&gt;&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <a id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisteredCommands_" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisteredCommands*"></a>
   <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_RegisteredCommands" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.RegisteredCommands">RegisteredCommands</h4>
   <div class="markdown level1 summary"><p>Gets a list of registered commands. The key is the guild id (null if global).</p>
@@ -434,6 +486,56 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
   </h3>
   
   
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_ApplicationCommandsModuleReady" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.ApplicationCommandsModuleReady">ApplicationCommandsModuleReady</h4>
+  <div class="markdown level1 summary"><p>Fired when the application commands module is ready.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;ApplicationCommandsExtension, ApplicationCommandsModuleReadyEventArgs&gt; ApplicationCommandsModuleReady</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html">ApplicationCommandsExtension</a>, <span class="xref">ApplicationCommandsModuleReadyEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_ApplicationCommandsModuleStartupFinished" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.ApplicationCommandsModuleStartupFinished">ApplicationCommandsModuleStartupFinished</h4>
+  <div class="markdown level1 summary"><p>Fired when the application commands modules startup is finished.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;ApplicationCommandsExtension, ApplicationCommandsModuleStartupFinishedEventArgs&gt; ApplicationCommandsModuleStartupFinished</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html">ApplicationCommandsExtension</a>, <span class="xref">ApplicationCommandsModuleStartupFinishedEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
   <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_ContextMenuErrored" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.ContextMenuErrored">ContextMenuErrored</h4>
   <div class="markdown level1 summary"><p>Fires when the execution of a context menu fails.</p>
 </div>
@@ -478,6 +580,56 @@ Should only be run on the slash command extension linked to shard 0 if sharding.
     <tbody>
       <tr>
         <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html">ApplicationCommandsExtension</a>, <span class="xref">ContextMenuExecutedEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GlobalApplicationCommandsRegistered" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GlobalApplicationCommandsRegistered">GlobalApplicationCommandsRegistered</h4>
+  <div class="markdown level1 summary"><p>Fired when the global commands are registered.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;ApplicationCommandsExtension, GlobalApplicationCommandsRegisteredEventArgs&gt; GlobalApplicationCommandsRegistered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html">ApplicationCommandsExtension</a>, <span class="xref">GlobalApplicationCommandsRegisteredEventArgs</span>&gt;</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
+  
+  
+  <h4 id="DisCatSharp_ApplicationCommands_ApplicationCommandsExtension_GuildApplicationCommandsRegistered" data-uid="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.GuildApplicationCommandsRegistered">GuildApplicationCommandsRegistered</h4>
+  <div class="markdown level1 summary"><p>Fired when guild commands are registered on a guild.</p>
+</div>
+  <div class="markdown level1 conceptual"></div>
+  <h5 class="decalaration">Declaration</h5>
+  <div class="codewrapper">
+    <pre><code class="lang-csharp hljs">public event AsyncEventHandler&lt;ApplicationCommandsExtension, GuildApplicationCommandsRegisteredEventArgs&gt; GuildApplicationCommandsRegistered</code></pre>
+  </div>
+  <h5 class="eventType">Event Type</h5>
+  <table class="table table-bordered table-striped table-condensed">
+    <thead>
+      <tr>
+        <th>Type</th>
+        <th>Description</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="xref">AsyncEventHandler</span>&lt;<a class="xref" href="DisCatSharp.ApplicationCommands.ApplicationCommandsExtension.html">ApplicationCommandsExtension</a>, <span class="xref">GuildApplicationCommandsRegisteredEventArgs</span>&gt;</td>
         <td></td>
       </tr>
     </tbody>
